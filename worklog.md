@@ -464,3 +464,26 @@ Stage Summary:
 - All 109 Java source files compiled successfully
 - Total errors fixed across all passes: ~55 (43 first pass + 11 second pass + 2 third pass)
 - Key API compatibility issues resolved for Minecraft 1.20.1 Forge 47.x
+
+---
+Task ID: Restore-1
+Agent: main
+Task: Restore all SRP blocks/items, fix creative tabs, generate models, fix textures, build JAR
+
+Work Log:
+- Analyzed original SRP 1.12.2 source: 263 blocks, 200+ items, 1 creative tab ("SPParasites")
+- Compared with current project: 230 blocks, 100 items, 3 creative tabs (WRONG)
+- Fixed creative tabs: reduced from 3 to 1 single tab matching original SRP ("Scape and Run: Parasites")
+- Generated 992 JSON files: 441 block models, 323 item models, 228 blockstates
+- Fixed 21 model-texture reference mismatches (brusewood→brucewood, bloodyice→bloody_ice, etc.)
+- Generated complete en_us.json with 369 translations (229 blocks, 112 items, 28 other)
+- Excluded PARASITE_FOG, PARASITE_BARRIER, RELAY_CONTROLLER_DUMMY from creative tab
+- Built JAR successfully: subspaceparasite-0.1.0-alpha.jar (7.5MB, 2434 files)
+
+Stage Summary:
+- JAR: /home/z/SubspaceParasite/build/libs/subspaceparasite-0.1.0-alpha.jar
+- 229 blockstates, 442 block models, 324 item models
+- 414 block textures, 350 item textures
+- 369 language translations
+- Creative tab: single "Scape and Run: Parasites" tab with icon Biome Heart
+- Remaining known gaps: ~40 original SRP items not yet added (adapted drops, wands, hijacked tools/armor, bows, compasses, discs 4-6), some texture references still point to non-existent files (42 refs)
