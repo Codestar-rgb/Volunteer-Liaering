@@ -2,7 +2,7 @@ package com.subspaceparasite.common.entity.monster.crude;
 
 import com.subspaceparasite.api.core.component.infection.InfectionComponent;
 import com.subspaceparasite.api.core.data.type.EvoPhase;
-import com.subspaceparasite.common.entity.monster.EntityParasiteBase;
+import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.registry.ModSounds;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
