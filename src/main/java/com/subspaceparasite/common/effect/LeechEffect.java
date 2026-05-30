@@ -34,7 +34,7 @@ public class LeechEffect extends BaseSRPEffect {
     }
     
     @Override
-    public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
+    public boolean isDurationEffectTick(int duration, int amplifier) {
         return true;
     }
     
