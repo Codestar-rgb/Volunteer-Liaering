@@ -1,31 +1,25 @@
 ```
-# Compiled Java classes
+# Compiled and build artifacts
 *.class
-
-# Maven/Gradle build artifacts
-target/
+*.o
+*.obj
+*.out
 build/
+target/
 
 # Dependencies
+.gradle/
 lib/
-libs/
 
-# IDE files
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
 
-# Environment
-.env
-.env.local
-*.env.*
+# Editors
+.vscode/
+.idea/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 ```
