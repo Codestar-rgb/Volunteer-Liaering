@@ -1,6 +1,25 @@
 ```
-# Gradle
-.gradle/
-build/
-!src/main/resources/assets/**/*
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+# Dependencies
+lib/
+libs/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Environment
+.env
+.env.local
+.env.
+# Editors
+.vscode/
+.idea/
 ```
