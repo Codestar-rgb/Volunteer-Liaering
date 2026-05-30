@@ -7,6 +7,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import com.subspaceparasite.SubspaceParasite;
 import net.minecraftforge.registries.RegistryObject;
 
+// Import custom effect classes
+import com.subspaceparasite.common.effect.CothEffect;
+import com.subspaceparasite.common.effect.BleedEffect;
+import com.subspaceparasite.common.effect.CorrosionEffect;
+import com.subspaceparasite.common.effect.ParasiteVitalityEffect;
+
 /**
  * Effect registry for the SubspaceParasite mod.
  * Contains all 36 effects from the original SRP mod.
@@ -16,7 +22,11 @@ public class ModEffects {
     public static final DeferredRegister<MobEffect> EFFECTS =
             DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, SubspaceParasite.MOD_ID);
 
-    // Helper methods
+    // Helper methods for custom effects
+    private static RegistryObject<MobEffect> registerCustom(String name, MobEffect effect) {
+        return EFFECTS.register(name, () -> effect);
+    }
+
     private static RegistryObject<MobEffect> registerHarmful(String name, int color) {
         return EFFECTS.register(name, () -> new MobEffect(MobEffectCategory.HARMFUL, color) {});
     }
@@ -30,7 +40,7 @@ public class ModEffects {
     }
 
     // === Infection Effects ===
-    public static final RegistryObject<MobEffect> COTH = registerHarmful("coth", 0x4A0E0E); // Call of the Hive - primary infection effect
+    public static final RegistryObject<MobEffect> COTH = registerCustom("coth", new CothEffect());
     public static final RegistryObject<MobEffect> INFECTION_II = registerHarmful("infection_ii", 0x6B1A1A);
     public static final RegistryObject<MobEffect> INFECTION_III = registerHarmful("infection_iii", 0x8B2626);
     public static final RegistryObject<MobEffect> VIRULENCE = registerHarmful("virulence", 0x9B3020);
@@ -49,7 +59,7 @@ public class ModEffects {
     public static final RegistryObject<MobEffect> PUTREFACTION = registerHarmful("putrefaction", 0x2F4F2F);
 
     // === Parasite Buffs ===
-    public static final RegistryObject<MobEffect> PARASITE_VITALITY = registerBeneficial("parasite_vitality", 0xFF6347);
+    public static final RegistryObject<MobEffect> PARASITE_VITALITY = registerCustom("parasite_vitality", new ParasiteVitalityEffect());
     public static final RegistryObject<MobEffect> PARASITE_RESISTANCE = registerBeneficial("parasite_resistance", 0xCD853F);
     public static final RegistryObject<MobEffect> PARASITE_STRENGTH = registerBeneficial("parasite_strength", 0xDC143C);
     public static final RegistryObject<MobEffect> PARASITE_SPEED = registerBeneficial("parasite_speed", 0xFF8C00);
@@ -68,10 +78,10 @@ public class ModEffects {
     // === Special Effects ===
     public static final RegistryObject<MobEffect> ASSIMILATION = registerNeutral("assimilation", 0x8B0000);
     public static final RegistryObject<MobEffect> MUTAGENIC = registerHarmful("mutagenic", 0x9932CC);
-    public static final RegistryObject<MobEffect> CORROSION = registerHarmful("corrosion", 0x006400); // Armor corrosion - was CAUSTIC
+    public static final RegistryObject<MobEffect> CORROSION = registerCustom("corrosion", new CorrosionEffect());
     public static final RegistryObject<MobEffect> VIRAL = registerHarmful("viral", 0x228B22); // Viral vulnerability - was TOXIC
     public static final RegistryObject<MobEffect> SPORE = registerHarmful("spore", 0x9ACD32);
-    public static final RegistryObject<MobEffect> BLEED = registerHarmful("bleed", 0x8B0000); // Bleeding DoT
+    public static final RegistryObject<MobEffect> BLEED = registerCustom("bleed", new BleedEffect()); // Bleeding DoT
     public static final RegistryObject<MobEffect> NOVISION = registerHarmful("novision", 0x1A1A1A); // Blindness-like blackout
     public static final RegistryObject<MobEffect> VOMIT = registerHarmful("vomit", 0x6B8E23); // Slowness + nausea
 
