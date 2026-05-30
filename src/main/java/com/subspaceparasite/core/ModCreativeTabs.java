@@ -251,6 +251,83 @@ public class ModCreativeTabs {
 
                         // === Fluid Bucket ===
                         output.accept(ModItems.DEAD_BLOOD_BUCKET.get());
+
+                        // === Spawn Eggs (Sorted by Category) ===
+                        // Infected Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_CREEPER.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_SKELETON.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_ZOMBIE.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_SPIDER.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_ENDERMAN.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_PIG.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_COW.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_SHEEP.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_CHICKEN.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_VILLAGER.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_WOLF.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_HORSE.get());
+                        output.accept(ModItems.SPAWN_EGG_INFECTED_HUMAN.get());
+                        
+                        // Feral Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_FERAL_CREEPER.get());
+                        output.accept(ModItems.SPAWN_EGG_FERAL_SKELETON.get());
+                        output.accept(ModItems.SPAWN_EGG_FERAL_ZOMBIE.get());
+                        output.accept(ModItems.SPAWN_EGG_FERAL_SPIDER.get());
+                        
+                        // Hijacked Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_HIJACKED_CREEPER.get());
+                        output.accept(ModItems.SPAWN_EGG_HIJACKED_SKELETON.get());
+                        output.accept(ModItems.SPAWN_EGG_HIJACKED_ZOMBIE.get());
+                        
+                        // Inborn Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_INBORN_1.get());
+                        output.accept(ModItems.SPAWN_EGG_INBORN_2.get());
+                        output.accept(ModItems.SPAWN_EGG_INBORN_3.get());
+                        output.accept(ModItems.SPAWN_EGG_INBORN_4.get());
+                        
+                        // Crude Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_2.get());
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_3.get());
+                        
+                        // Primitive Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PRIMITIVE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PRIMITIVE_2.get());
+                        
+                        // Adapted Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_1.get());
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_2.get());
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_3.get());
+                        
+                        // Nexus Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_NEXUS_BECKON.get());
+                        output.accept(ModItems.SPAWN_EGG_NEXUS_DISPATCHER.get());
+                        output.accept(ModItems.SPAWN_EGG_NEXUS_ROOTER.get());
+                        output.accept(ModItems.SPAWN_EGG_NEXUS_OTHER.get());
+                        
+                        // Deterrent Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_DETERRENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_DETERRENT_2.get());
+                        
+                        // Pure Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PURE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PURE_2.get());
+                        
+                        // Preeminent Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PREEMINENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PREEMINENT_2.get());
+                        
+                        // Ancient Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_ANCIENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_ANCIENT_2.get());
+                        
+                        // Derived Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_DERIVED_1.get());
+                        output.accept(ModItems.SPAWN_EGG_DERIVED_2.get());
+                        
+                        // Abomination Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_ABOMINATION_1.get());
+                        output.accept(ModItems.SPAWN_EGG_ABOMINATION_2.get());
                     })
                     .build());
 
