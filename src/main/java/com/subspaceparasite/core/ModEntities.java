@@ -11,6 +11,17 @@ import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
 import com.subspaceparasite.common.entity.monster.feral.EntityFeralHuman;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
+import com.subspaceparasite.common.entity.monster.primitive.EntityCanra;
+import com.subspaceparasite.common.entity.monster.primitive.EntityEmana;
+import com.subspaceparasite.common.entity.monster.primitive.EntityGim;
+import com.subspaceparasite.common.entity.monster.primitive.EntityHull;
+import com.subspaceparasite.common.entity.monster.primitive.EntityIki;
+import com.subspaceparasite.common.entity.monster.primitive.EntityLum;
+import com.subspaceparasite.common.entity.monster.primitive.EntityNogla;
+import com.subspaceparasite.common.entity.monster.primitive.EntityRanrac;
+import com.subspaceparasite.common.entity.monster.primitive.EntityShyco;
+import com.subspaceparasite.common.entity.monster.primitive.EntityWymo;
+import com.subspaceparasite.common.entity.monster.primitive.EntityZaa;
 import com.subspaceparasite.common.entity.projectile.EntityOrbBase;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -219,17 +230,28 @@ public class ModEntities {
     // ================================================================
     public static final RegistryObject<EntityType<EntityBano>> PRIMITIVE_BANO = ENTITIES.register("primitive_bano", 
         () -> EntityType.Builder.of(EntityBano::new, MobCategory.MONSTER).sized(1.0F, 2.8F).build(SubspaceParasite.MOD_ID + ":primitive_bano"));
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_CANRA = mediumParasite("primitivecanra");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_EMANA = mediumParasite("primitiveemana");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_GIM = smallParasite("primitivegim");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_HULL = largeParasite("primitivehull");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_IKI = mediumParasite("primitiveiki");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_LUM = smallParasite("primitivelum");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_NOGLA = mediumParasite("primitivenogla");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_RANRAC = largeParasite("primeranrac");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_SHYCO = mediumParasite("primitiveshyco");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_WYMO = smallParasite("primitivewymo");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_ZAA = largeParasite("primitivezaa");
+    public static final RegistryObject<EntityType<EntityCanra>> PRIMITIVE_CANRA = ENTITIES.register("primitive_canra",
+        () -> EntityType.Builder.of(EntityCanra::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_canra"));
+    public static final RegistryObject<EntityType<EntityEmana>> PRIMITIVE_EMANA = ENTITIES.register("primitive_emana",
+        () -> EntityType.Builder.of(EntityEmana::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_emana"));
+    public static final RegistryObject<EntityType<EntityGim>> PRIMITIVE_GIM = ENTITIES.register("primitive_gim",
+        () -> EntityType.Builder.of(EntityGim::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_gim"));
+    public static final RegistryObject<EntityType<EntityHull>> PRIMITIVE_HULL = ENTITIES.register("primitive_hull",
+        () -> EntityType.Builder.of(EntityHull::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_hull"));
+    public static final RegistryObject<EntityType<EntityIki>> PRIMITIVE_IKI = ENTITIES.register("primitive_iki",
+        () -> EntityType.Builder.of(EntityIki::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_iki"));
+    public static final RegistryObject<EntityType<EntityLum>> PRIMITIVE_LUM = ENTITIES.register("primitive_lum",
+        () -> EntityType.Builder.of(EntityLum::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_lum"));
+    public static final RegistryObject<EntityType<EntityNogla>> PRIMITIVE_NOGLA = ENTITIES.register("primitive_nogla",
+        () -> EntityType.Builder.of(EntityNogla::new, MobCategory.MONSTER).sized(1.0F, 1.0F).setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true).build(SubspaceParasite.MOD_ID + ":primitive_nogla"));
+    public static final RegistryObject<EntityType<EntityRanrac>> PRIMITIVE_RANRAC = ENTITIES.register("primitive_ranrac",
+        () -> EntityType.Builder.of(EntityRanrac::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_ranrac"));
+    public static final RegistryObject<EntityType<EntityShyco>> PRIMITIVE_SHYCO = ENTITIES.register("primitive_shyco",
+        () -> EntityType.Builder.of(EntityShyco::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_shyco"));
+    public static final RegistryObject<EntityType<EntityWymo>> PRIMITIVE_WYMO = ENTITIES.register("primitive_wymo",
+        () -> EntityType.Builder.of(EntityWymo::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_wymo"));
+    public static final RegistryObject<EntityType<EntityZaa>> PRIMITIVE_ZAA = ENTITIES.register("primitive_zaa",
+        () -> EntityType.Builder.of(EntityZaa::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_zaa"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_LONGARMS = humanoidParasite("primitivelongarms");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_MANDUCATER = humanoidParasite("primitivemanducater");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_REEKER = mediumParasite("primitivereeker");
