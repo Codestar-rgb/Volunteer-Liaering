@@ -329,6 +329,33 @@ public class ModEntities {
                     .setUpdateInterval(1)
                     .setShouldReceiveVelocityUpdates(true)
                     .build(SubspaceParasite.MOD_ID + ":projectile_orb_scary"));
+    
+    public static final RegistryObject<EntityType<EntityOrbBase>> PROJECTILE_ORB_VOID = ENTITIES.register("projectile_orb_void",
+            () -> EntityType.Builder.<EntityOrbBase>of(EntityOrbBase::new, MobCategory.MISC)
+                    .sized(0.6F, 0.6F)
+                    .setTrackingRange(128)
+                    .setUpdateInterval(1)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":projectile_orb_void"));
+
+    // ================================================================
+    // DERIVED STAGE ENTITIES
+    // ================================================================
+    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.derived.EntityHeblu>> DERIVED_HEBLU = ENTITIES.register("derived_heblu",
+            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.derived.EntityHeblu::new, MobCategory.MONSTER)
+                    .sized(1.2F, 2.5F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":derived_heblu"));
+    
+    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.derived.EntityKirin>> DERIVED_KIRIN = ENTITIES.register("derived_kirin",
+            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.derived.EntityKirin::new, MobCategory.MONSTER)
+                    .sized(1.4F, 3.0F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":derived_kirin"));
 
     // ================================================================
     // MISC ENTITIES
