@@ -1,9 +1,8 @@
 package com.subspaceparasite.client;
 
-import com.subspaceparasite.client.renderer.entity.RenderBanoGeo;
-import com.subspaceparasite.client.renderer.entity.RenderParasiteBase;
+import com.subspaceparasite.client.renderer.entity.*;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
-import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
+import com.subspaceparasite.common.entity.monster.primitive.*;
 import com.subspaceparasite.core.ModEntities;
 
 import net.minecraft.client.KeyMapping;
@@ -58,8 +57,14 @@ public class ClientSetup {
     @SubscribeEvent
     @SuppressWarnings("unchecked")
     public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-        // Register specific GeckoLib renderer for EntityBano
+        // Register specific GeckoLib renderers for Primitive stage entities
         event.registerEntityRenderer(ModEntities.PRIMITIVE_BANO.get(), RenderBanoGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_CANRA.get(), RenderCanraGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_EMANA.get(), RenderEmanaGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_GIM.get(), RenderGimGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_HULL.get(), RenderHullGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_IKI.get(), RenderIkiGeo::new);
+        event.registerEntityRenderer(ModEntities.PRIMITIVE_LUM.get(), RenderLumGeo::new);
         
         // Use reflection to register fallback renderers for all other parasite entity types
         try {
@@ -71,7 +76,13 @@ public class ClientSetup {
                     if (obj instanceof RegistryObject<?> ro) {
                         if (ro.get() instanceof EntityType<?> et) {
                             // Skip already registered entities
-                            if (et == ModEntities.PRIMITIVE_BANO.get()) {
+                            if (et == ModEntities.PRIMITIVE_BANO.get() ||
+                                et == ModEntities.PRIMITIVE_CANRA.get() ||
+                                et == ModEntities.PRIMITIVE_EMANA.get() ||
+                                et == ModEntities.PRIMITIVE_GIM.get() ||
+                                et == ModEntities.PRIMITIVE_HULL.get() ||
+                                et == ModEntities.PRIMITIVE_IKI.get() ||
+                                et == ModEntities.PRIMITIVE_LUM.get()) {
                                 continue;
                             }
                             
