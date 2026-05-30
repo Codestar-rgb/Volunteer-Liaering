@@ -1,59 +1,171 @@
 {
   "sounds": [
     {
-      "name": "subsrp:entity.parasite.idle",
+      "name": "subsrp:ambient.colony",
       "stream": false
     },
     {
-      "name": "subsrp:entity.parasite.hurt",
+      "name": "subsrp:ambient.parasite",
       "stream": false
     },
     {
-      "name": "subsrp:entity.parasite.death",
+      "name": "subsrp:ambient.spore",
       "stream": false
     },
     {
-      "name": "subsrp:entity.parasite.attack",
+      "name": "subsrp:ambient.waste",
       "stream": false
     },
     {
-      "name": "subsrp:entity.parasite.step",
+      "name": "subsrp:block.alveoli.ambient",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected.idle",
+      "name": "subsrp:block.alveoli.hatch",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected.hurt",
+      "name": "subsrp:block.biome_heart.beat",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected.death",
+      "name": "subsrp:block.biome_heart.death",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected.attack",
+      "name": "subsrp:block.colony_heart.death",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected_human.idle",
+      "name": "subsrp:block.colony_heart.hurt",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected_human.hurt",
+      "name": "subsrp:block.colony_heart.idle",
       "stream": false
     },
     {
-      "name": "subsrp:entity.infected_human.death",
+      "name": "subsrp:block.colony_outpost.idle",
       "stream": false
     },
     {
-      "name": "subsrp:entity.bano.idle",
+      "name": "subsrp:block.deinfest",
       "stream": false
     },
     {
-      "name": "subsrp:entity.bano.hurt",
+      "name": "subsrp:block.infest",
+      "stream": false
+    },
+    {
+      "name": "subsrp:block.parasite.break",
+      "stream": false
+    },
+    {
+      "name": "subsrp:block.parasite.place",
+      "stream": false
+    },
+    {
+      "name": "subsrp:block.parasite.step",
+      "stream": false
+    },
+    {
+      "name": "subsrp:effect.dislodgement.end",
+      "stream": false
+    },
+    {
+      "name": "subsrp:effect.dislodgement.start",
+      "stream": false
+    },
+    {
+      "name": "subsrp:effect.infection.spread",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.abomination.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.abomination.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.abomination.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.abomination.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_arachnid.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_arachnid.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_arachnid.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_fly.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_fly.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_fly.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_fly.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_quadrupede.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_quadrupede.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_quadrupede.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.adapted_quadrupede.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.ancient.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.ancient.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.ancient.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.assimilated.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.assimilated.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.assimilated.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.bano.attack",
       "stream": false
     },
     {
@@ -61,7 +173,335 @@
       "stream": false
     },
     {
-      "name": "subsrp:entity.bano.attack",
+      "name": "subsrp:entity.bano.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.bano.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.beckon.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.beckon.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.beckon.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.beckon.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.canra.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.canra.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.canra.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.canra.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.crux.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.crux.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.crux.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.dispatcher.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.dispatcher.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.dispatcher.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.feral.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.feral.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.feral.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.heblu.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.heblu.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.heblu.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.heblu.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.heblu.shoot",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.host.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.host.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.host.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.host.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.hull.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.hull.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.hull.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_cow.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_cow.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_cow.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_human.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_human.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_human.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_pig.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_pig.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_pig.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_sheep.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_sheep.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.infected_sheep.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.kirin.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.kirin.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.kirin.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.kirin.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.leer.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.leer.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.leer.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.leer.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.nexus.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.nexus.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.nexus.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.nexus.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.parasite.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.parasite.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.parasite.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.parasite.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.parasite.step",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.preeminent.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.preeminent.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.preeminent.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.projectile.fly",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.projectile.hit",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.projectile.shoot",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.rooter.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.rooter.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.rooter.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.venkrol.attack",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.venkrol.death",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.venkrol.hurt",
+      "stream": false
+    },
+    {
+      "name": "subsrp:entity.venkrol.idle",
+      "stream": false
+    },
+    {
+      "name": "subsrp:evolution.complete",
+      "stream": false
+    },
+    {
+      "name": "subsrp:evolution.level",
+      "stream": false
+    },
+    {
+      "name": "subsrp:evolution.upgrade",
+      "stream": false
+    },
+    {
+      "name": "subsrp:item.infested_tool.equip",
+      "stream": false
+    },
+    {
+      "name": "subsrp:item.living_armor.equip",
+      "stream": false
+    },
+    {
+      "name": "subsrp:item.sentient_armor.equip",
       "stream": false
     }
   ]
