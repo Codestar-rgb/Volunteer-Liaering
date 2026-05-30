@@ -1,0 +1,25 @@
+{
+  "values": [
+    "subspaceparasite:infectedhuman",
+    "subspaceparasite:infectedcow",
+    "subspaceparasite:infectedsheep",
+    "subspaceparasite:infectedpig",
+    "subspaceparasite:infectedchicken",
+    "subspaceparasite:infectedwolf",
+    "subspaceparasite:infectedhorse",
+    "subspaceparasite:infectedskeleton",
+    "subspaceparasite:infectedzombie",
+    "subspaceparasite:infectedcreeper",
+    "subspaceparasite:infectedspider",
+    "subspaceparasite:infectedenderman",
+    "subspaceparasite:infectedvillager",
+    "subspaceparasite:infectedirongolem",
+    "subspaceparasite:infectedsnowgolem",
+    "subspaceparasite:infectedbat",
+    "subspaceparasite:infectedblaze",
+    "subspaceparasite:infectedwitch",
+    "subspaceparasite:infectedravager",
+    "subspaceparasite:infectedpillager",
+    "subspaceparasite:infectedevoker"
+  ]
+}

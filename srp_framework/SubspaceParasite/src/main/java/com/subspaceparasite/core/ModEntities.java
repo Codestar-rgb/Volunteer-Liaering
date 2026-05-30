@@ -3,6 +3,7 @@ package com.subspaceparasite.core;
 import com.subspaceparasite.common.entity.PlaceholderBlockEntity;
 import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
+import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -102,6 +103,10 @@ public class ModEntities {
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_SPIDER = mediumParasite("infectedspider");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_ENDERMAN = humanoidParasite("infectedenderman");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_PIG = mediumParasite("infectedpig");
+    public static final RegistryObject<EntityType<EntityInfectedHuman>> INFECTED_HUMAN = ENTITIES.register("infectedhuman", 
+        () -> EntityType.Builder.of(EntityInfectedHuman::new, MobCategory.MONSTER).sized(0.6F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":infectedhuman"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_COW = mediumParasite("infectedcow");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_SHEEP = mediumParasite("infectedsheep");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_CHICKEN = smallParasite("infectedchicken");
