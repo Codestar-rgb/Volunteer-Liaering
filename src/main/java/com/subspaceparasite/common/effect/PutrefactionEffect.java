@@ -31,9 +31,8 @@ public class PutrefactionEffect extends BaseSRPEffect {
             entity.hurt(entity.damageSources().magic(), 0.5f + (amplifier * 0.25f));
         }
         
-        // Apply slowness effect
-        float slowness = SLOWNESS_FACTOR * (amplifier + 1);
-        entity.setSpeedMultiplier(Math.max(0.2f, 1.0f - slowness));
+        // Apply slowness effect through attribute modifier
+        applySlownessEffect(entity, amplifier);
         
         // Spawn putrefaction particles
         if (entity.tickCount % 25 == 0) {
@@ -42,8 +41,32 @@ public class PutrefactionEffect extends BaseSRPEffect {
     }
     
     @Override
-    public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
+    public boolean isDurationEffectTick(int duration, int amplifier) {
         return true;
+    }
+    
+    /**
+     * Applies slowness to the entity using the correct 1.20.1 API.
+     */
+    private void applySlownessEffect(@NotNull LivingEntity entity, int amplifier) {
+        // Apply slowness mob effect instead of using non-existent setSpeedMultiplier
+        float slownessLevel = (float)(SLOWNESS_FACTOR * (amplifier + 1) * 10);
+        int effectLevel = Math.min(5, (int)slownessLevel);
+        
+        // Add vanilla Slowness effect if not already present or upgrade existing
+        net.minecraft.world.effect.MobEffectInstance currentSlowness = 
+            entity.getEffect(net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN);
+        
+        if (currentSlowness == null || currentSlowness.getAmplifier() < effectLevel) {
+            entity.addEffect(new net.minecraft.world.effect.MobEffectInstance(
+                net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN,
+                POISON_INTERVAL * 2,
+                effectLevel,
+                false,
+                false,
+                true
+            ));
+        }
     }
     
     private void spawnPutrefactionParticles(LivingEntity entity) {

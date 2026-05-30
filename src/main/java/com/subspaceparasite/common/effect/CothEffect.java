@@ -115,13 +115,32 @@ public class CothEffect extends BaseSRPEffect {
         // All levels: Wither effect (already applied via InfectionComponent)
         
         if (amplifier >= 1) {
-            // Level 1+: Add slowness
-            entity.setSpeedMultiplier(0.9f);
+            // Level 1+: Add slowness using proper API
+            applySlownessEffect(entity, 2);
         }
         
         if (amplifier >= 2) {
             // Level 2+: Add weakness and increased damage taken
             // Note: Actual debuff application handled by InfectionComponent
+        }
+    }
+    
+    /**
+     * Applies slowness effect using the correct 1.20.1 API.
+     */
+    private void applySlownessEffect(@NotNull LivingEntity entity, int level) {
+        net.minecraft.world.effect.MobEffectInstance currentSlowness = 
+            entity.getEffect(net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN);
+        
+        if (currentSlowness == null || currentSlowness.getAmplifier() < level) {
+            entity.addEffect(new net.minecraft.world.effect.MobEffectInstance(
+                net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN,
+                INFECTION_TICK_INTERVAL * 2,
+                Math.min(5, level),
+                false,
+                false,
+                true
+            ));
         }
     }
     

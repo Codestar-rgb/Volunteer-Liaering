@@ -139,13 +139,47 @@ public class InfectionStageEffect extends InfectionEffectBase {
      * @param amplifier The effect amplifier
      */
     private void applyStageDebuffs(@NotNull LivingEntity entity, int amplifier) {
-        // Apply slowness based on stage
-        float slownessAmount = SLOWNESS_PER_LEVEL * amplifier;
-        entity.setSpeedMultiplier(Math.max(0.2f, 1.0f - slownessAmount));
+        // Apply slowness using proper 1.20.1 API
+        applySlownessEffect(entity, amplifier);
         
         // Stage III applies additional weakness
         if (amplifier >= 2) {
-            // Weakness logic handled by separate effect or attribute
+            // Apply Weakness effect
+            net.minecraft.world.effect.MobEffectInstance currentWeakness = 
+                entity.getEffect(net.minecraft.world.effect.MobEffects.WEAKNESS);
+            
+            if (currentWeakness == null || currentWeakness.getAmplifier() < amplifier) {
+                entity.addEffect(new net.minecraft.world.effect.MobEffectInstance(
+                    net.minecraft.world.effect.MobEffects.WEAKNESS,
+                    DAMAGE_TICK_INTERVAL * 2,
+                    Math.min(3, amplifier),
+                    false,
+                    false,
+                    true
+                ));
+            }
+        }
+    }
+    
+    /**
+     * Applies slowness effect using the correct 1.20.1 API.
+     */
+    private void applySlownessEffect(@NotNull LivingEntity entity, int amplifier) {
+        float slownessAmount = SLOWNESS_PER_LEVEL * amplifier;
+        int effectLevel = Math.min(5, (int)(slownessAmount * 10));
+        
+        net.minecraft.world.effect.MobEffectInstance currentSlowness = 
+            entity.getEffect(net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN);
+        
+        if (currentSlowness == null || currentSlowness.getAmplifier() < effectLevel) {
+            entity.addEffect(new net.minecraft.world.effect.MobEffectInstance(
+                net.minecraft.world.effect.MobEffects.MOVEMENT_SLOWDOWN,
+                DAMAGE_TICK_INTERVAL * 2,
+                effectLevel,
+                false,
+                false,
+                true
+            ));
         }
     }
     
