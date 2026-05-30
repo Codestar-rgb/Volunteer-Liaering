@@ -302,6 +302,22 @@ public class ModCreativeTabs {
                         output.accept(ModItems.SPAWN_EGG_ADAPTED_3.get());
 
                         // --- Nexus Spawn Eggs (Beckon, Dispatcher, Rooter) ---
+                        
+                        // Crude Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_2.get());
+                        output.accept(ModItems.SPAWN_EGG_CRUDE_3.get());
+                        
+                        // Primitive Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PRIMITIVE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PRIMITIVE_2.get());
+                        
+                        // Adapted Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_1.get());
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_2.get());
+                        output.accept(ModItems.SPAWN_EGG_ADAPTED_3.get());
+                        
+                        // Nexus Spawn Eggs
                         output.accept(ModItems.SPAWN_EGG_NEXUS_BECKON.get());
                         output.accept(ModItems.SPAWN_EGG_NEXUS_DISPATCHER.get());
                         output.accept(ModItems.SPAWN_EGG_NEXUS_ROOTER.get());
@@ -328,6 +344,28 @@ public class ModCreativeTabs {
                         output.accept(ModItems.SPAWN_EGG_DERIVED_2.get());
 
                         // --- Abomination Spawn Eggs ---
+                        
+                        // Deterrent Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_DETERRENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_DETERRENT_2.get());
+                        
+                        // Pure Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PURE_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PURE_2.get());
+                        
+                        // Preeminent Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_PREEMINENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_PREEMINENT_2.get());
+                        
+                        // Ancient Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_ANCIENT_1.get());
+                        output.accept(ModItems.SPAWN_EGG_ANCIENT_2.get());
+                        
+                        // Derived Spawn Eggs
+                        output.accept(ModItems.SPAWN_EGG_DERIVED_1.get());
+                        output.accept(ModItems.SPAWN_EGG_DERIVED_2.get());
+                        
+                        // Abomination Spawn Eggs
                         output.accept(ModItems.SPAWN_EGG_ABOMINATION_1.get());
                         output.accept(ModItems.SPAWN_EGG_ABOMINATION_2.get());
                     })
