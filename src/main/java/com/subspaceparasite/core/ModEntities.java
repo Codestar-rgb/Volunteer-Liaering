@@ -404,6 +404,17 @@ public class ModEntities {
                     .build(SubspaceParasite.MOD_ID + ":derived_kirin"));
 
     // ================================================================
+    // CONNECTIVE STAGE ENTITIES
+    // ================================================================
+    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.connective.EntityVenkrolSIV>> CONNECTIVE_VENKROL_SIV = ENTITIES.register("connective_venkrol_siv",
+            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.connective.EntityVenkrolSIV::new, MobCategory.MONSTER)
+                    .sized(1.0F, 2.2F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":connective_venkrol_siv"));
+
+    // ================================================================
     // MISC ENTITIES
     // ================================================================
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> BUGLIN_ENTITY = tinyParasite("buglin");

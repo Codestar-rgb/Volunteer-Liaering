@@ -238,6 +238,8 @@ public enum ParasiteType implements StringRepresentable {
     //  Special evolutionary offshoots.
     // ────────────────────────────────────────────────────────────────
     KIRIN           (0xF0, 20.0f, 200.0f, 18.0f, 10.0f, 0.35f, false, 40, 7, 10,"kirin",         "Kirin"),
+    HEBLU           (0xEF, 12.0f, 80.0f,  8.0f,  6.0f, 0.35f, true,  20, 5, 8, "heblu",          "Heblu"),
+    VENKROL_SIV     (0xEE, 15.0f, 65.0f,  9.0f,  8.0f, 0.38f, true,  25, 5, 8, "venkrol_siv",    "Venkrol SIV"),
     DRACONITE       (0xF1, 28.0f, 350.0f, 22.0f, 14.0f, 0.32f, false, 60, 8, 10,"draconite",     "Draconite"),
 
     // ────────────────────────────────────────────────────────────────
