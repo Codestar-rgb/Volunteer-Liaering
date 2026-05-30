@@ -96,6 +96,9 @@ public class CothEffect extends BaseSRPEffect {
                 int increaseAmount = Math.max(1, (int)(infectionIncrease * 100));
                 capability.addInfection(increaseAmount);
                 
+                // Trigger capability update for synchronization
+                capability.markDirty();
+                
                 // Check for full infection
                 if (capability.isFullyInfected()) {
                     onFullInfection(entity);

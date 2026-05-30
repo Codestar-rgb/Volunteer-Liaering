@@ -199,4 +199,14 @@ public class ParasiteCapability {
         infectionCooldown = tag.getInt("InfectionCooldown");
         immune = tag.getBoolean("Immune");
     }
+    
+    /**
+     * Marks this capability as dirty to trigger synchronization.
+     * Should be called after any state change that needs to be synced.
+     */
+    public void markDirty() {
+        // This method is a placeholder for capability sync logic
+        // Actual implementation depends on the capability attachment system
+        // The capability provider should handle synchronization
+    }
 }
