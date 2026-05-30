@@ -75,10 +75,22 @@ repositories {
         name = 'Forge'
         url = 'https://maven.minecraftforge.net/'
     }
+    // GeckoLib repository for animated entity models
+    maven {
+        name = 'GeckoLib'
+        url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroupByRegex("software\\.bernie.*")
+            includeGroup("com.eliotlash.mclib")
+        }
+    }
 }
 
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    // GeckoLib for animated entity models - essential for SRP creature animations
+    implementation fg.deobf("software.bernie.geckolib:geckolib-forge-1.20.1:4.4.9")
+    implementation fg.deobf("com.eliotlash.mclib:mclib:20")
 }
 
 jar {

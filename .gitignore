@@ -1,26 +1,6 @@
-```java
-# Compiled Java classes
-*.class
-
-# Build artifacts
-target/
+```
+# Gradle
+.gradle/
 build/
-
-# Dependencies
-lib/
-libs/
-
-# IDE files
-.idea/
-.vscode/
-*.iml
-*.ipr
-*.iws
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.temp
+!src/main/resources/assets/**/*
 ```
