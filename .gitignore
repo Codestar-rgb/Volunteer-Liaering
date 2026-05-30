@@ -4,44 +4,19 @@
 *.o
 *.obj
 *.out
-build/
-target/
-
 # Dependencies
-.gradle/
-libs/
-lib/
-
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 # Logs and temp files
 *.log
 *.tmp
-
-# Editors
-.vscode/
-.idea/
 *.swp
-*.swo
-
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage and testing
-.coverage
-coverage/
-htmlcov/
-
-# Package management
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.mypy_cache/
-.pytest_cache/
-
-# System files
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
 ```
