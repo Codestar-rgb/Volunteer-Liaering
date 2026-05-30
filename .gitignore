@@ -1,75 +1,53 @@
 ```
-# Minecraft/Java development
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
 build/
-.gradle/
 target/
 
 # Dependencies
+.gradle/
 libs/
 
-# Logs
+# Logs and temp files
 *.log
-
-# IDE
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# OS
-.DS_Store
-Thumbs.db
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Compiled classes
-*.class
-*.jar
-
-# Temporary files
-*.tmp
-*.bak
+# Editors
+.vscode/
+.idea/
 *.swp
+*.swo
 
-# Coverage
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Python (if any)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-venv/
-pip-log.txt
-.tox/
+# MyPy cache
 .mypy_cache/
 .pytest_cache/
-.hypothesis/
 
-# Node.js (if any)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Distribution artifacts
-dist/
-release/
-out/
-
-# System files
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Icon?
-Thumbs.db
+# Distribution archives
+*.jar
+*.war
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
 ```
