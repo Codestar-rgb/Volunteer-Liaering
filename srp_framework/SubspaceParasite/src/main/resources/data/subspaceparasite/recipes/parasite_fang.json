@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    " F ",
+    "S  "
+  ],
+  "key": {
+    "F": {
+      "item": "subspaceparasite:parasitetendon"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasitefang",
+    "count": 1
+  }
+}

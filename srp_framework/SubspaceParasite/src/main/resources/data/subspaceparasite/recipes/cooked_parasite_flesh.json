@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "subspaceparasite:parasiteflesh"
+  },
+  "result": "subspaceparasite:cookedparasiteflesh",
+  "experience": 0.35,
+  "cookingtime": 200
+}
