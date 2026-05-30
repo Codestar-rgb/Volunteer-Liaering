@@ -226,7 +226,7 @@ public class EntityVenkrolSIV extends EntityParasiteBase {
 
     @Override
     public String getTextureName() {
-        return "textures/entity/derived/subsrp_venkrol_siv.png";
+        return "textures/entity/deterrent/subsrp_venkrol_siv.png";
     }
 
     @Override

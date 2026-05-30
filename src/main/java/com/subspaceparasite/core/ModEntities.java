@@ -1,5 +1,6 @@
 package com.subspaceparasite.core;
 
+import com.subspaceparasite.common.entity.monster.deterrent.EntityVenkrolSIV;
 import com.subspaceparasite.common.entity.PlaceholderBlockEntity;
 import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
@@ -404,16 +405,20 @@ public class ModEntities {
                     .build(SubspaceParasite.MOD_ID + ":derived_kirin"));
 
     // ================================================================
-    // CONNECTIVE STAGE ENTITIES
+    // DETERRENT STAGE ENTITIES
     // ================================================================
-    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.connective.EntityVenkrolSIV>> CONNECTIVE_VENKROL_SIV = ENTITIES.register("connective_venkrol_siv",
-            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.connective.EntityVenkrolSIV::new, MobCategory.MONSTER)
+    public static final RegistryObject<EntityType<EntityVenkrolSIV>> DETERRENT_VENKROL_SIV = ENTITIES.register("deterrent_venkrol_siv",
+            () -> EntityType.Builder.of(EntityVenkrolSIV::new, MobCategory.MONSTER)
                     .sized(1.0F, 2.2F)
                     .setTrackingRange(64)
                     .setUpdateInterval(3)
                     .setShouldReceiveVelocityUpdates(true)
-                    .build(SubspaceParasite.MOD_ID + ":connective_venkrol_siv"));
+                    .build(SubspaceParasite.MOD_ID + ":deterrent_venkrol_siv"));
 
+    // ================================================================
+    // CONNECTIVE STAGE ENTITIES
+    // ================================================================
+    
     // ================================================================
     // MISC ENTITIES
     // ================================================================
