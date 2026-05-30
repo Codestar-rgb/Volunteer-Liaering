@@ -35,8 +35,58 @@
   "entity.subspaceparasite.feralzombie": "Feral Zombie",
   "entity.subspaceparasite.feralskeleton": "Feral Skeleton",
   "entity.subspaceparasite.feralcreeper": "Feral Creeper",
+
   "itemGroup.subspaceparasite.main": "Scape and Run: Parasites",
   "key.categories.subspaceparasite": "Scape and Run: Parasites",
   "key.subspaceparasite.scan": "Scan Parasite",
-  "key.subspaceparasite.bestiary": "Open Bestiary"
+  "key.subspaceparasite.bestiary": "Open Bestiary",
+
+  "effect.subspaceparasite.coth": "Call of the Hive",
+  "effect.subspaceparasite.infection_ii": "Infection Stage II",
+  "effect.subspaceparasite.infection_iii": "Infection Stage III",
+  "effect.subspaceparasite.virulence": "Virulence",
+  "effect.subspaceparasite.coagulation": "Coagulation",
+  
+  "effect.subspaceparasite.evolution": "Evolution",
+  "effect.subspaceparasite.adaptation": "Adaptation",
+  "effect.subspaceparasite.sentience": "Sentience",
+  "effect.subspaceparasite.derivation": "Derivation",
+  
+  "effect.subspaceparasite.corruption": "Corruption",
+  "effect.subspaceparasite.decay": "Decay",
+  "effect.subspaceparasite.decomposition": "Decomposition",
+  "effect.subspaceparasite.putrefaction": "Putrefaction",
+  
+  "effect.subspaceparasite.parasite_vitality": "Parasite Vitality",
+  "effect.subspaceparasite.parasite_resistance": "Parasite Resistance",
+  "effect.subspaceparasite.parasite_strength": "Parasite Strength",
+  "effect.subspaceparasite.parasite_speed": "Parasite Speed",
+  "effect.subspaceparasite.parasite_regeneration": "Parasite Regeneration",
+  
+  "effect.subspaceparasite.fear": "Fear",
+  "effect.subspaceparasite.slowness_parasite": "Parasitic Slowness",
+  "effect.subspaceparasite.weakness_parasite": "Parasitic Weakness",
+  "effect.subspaceparasite.wither_parasite": "Parasitic Wither",
+  
+  "effect.subspaceparasite.gestation": "Gestation",
+  "effect.subspaceparasite.incubation": "Incubation",
+  
+  "effect.subspaceparasite.assimilation": "Assimilation",
+  "effect.subspaceparasite.mutagenic": "Mutagenic",
+  "effect.subspaceparasite.corrosion": "Corrosion",
+  "effect.subspaceparasite.viral": "Viral",
+  "effect.subspaceparasite.spore": "Spore",
+  "effect.subspaceparasite.bleed": "Bleeding",
+  "effect.subspaceparasite.novision": "Novision",
+  "effect.subspaceparasite.vomit": "Vomit",
+  
+  "effect.subspaceparasite.purge": "Purge",
+  "effect.subspaceparasite.immunity": "Immunity",
+  "effect.subspaceparasite.cleansing": "Cleansing",
+  
+  "effect.subspaceparasite.nexus_link": "Nexus Link",
+  "effect.subspaceparasite.nexus_command": "Nexus Command",
+  
+  "effect.subspaceparasite.parasite_hunger": "Parasite Hunger",
+  "effect.subspaceparasite.leech": "Leech"
 }
