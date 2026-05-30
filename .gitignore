@@ -1,72 +1,46 @@
 ```
-# Compiled and build artifacts
+# Java/Minecraft project ignores
 *.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.pyc
-__pycache__/
+*.jar
+*.war
+*.ear
+*.nar
+target/
+build/
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.mypy_cache/
-.pytest_cache/
-target/
 .gradle/
-build/
-dist/
+libs/
+!libs/**
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE specific
+.idea/
+.vscode/
 *.swp
 *.swo
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Coverage
+# Coverage reports
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
-*.zst
-*.lz4
-*.lzh
-*.cab
-*.arj
-*.rpm
-*.deb
-*.Z
-*.lz
-*.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+# Package manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 ```
