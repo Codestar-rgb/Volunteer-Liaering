@@ -3,8 +3,12 @@ package com.subspaceparasite.core;
 import com.subspaceparasite.common.entity.PlaceholderBlockEntity;
 import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedHuman;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedCow;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedSheep;
 import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
 import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
+import com.subspaceparasite.common.entity.monster.feral.EntityFeralHuman;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import com.subspaceparasite.common.entity.projectile.EntityOrbBase;
@@ -112,6 +116,26 @@ public class ModEntities {
                 .build(SubspaceParasite.MOD_ID + ":infectedhuman"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_COW = mediumParasite("infectedcow");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_SHEEP = mediumParasite("infectedsheep");
+    
+    // Assimilated (Feral) entities
+    public static final RegistryObject<EntityType<EntityAssimilatedHuman>> ASSIMILATED_HUMAN = ENTITIES.register("assimilatedhuman",
+        () -> EntityType.Builder.of(EntityAssimilatedHuman::new, MobCategory.MONSTER).sized(0.6F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedhuman"));
+    public static final RegistryObject<EntityType<EntityAssimilatedCow>> ASSIMILATED_COW = ENTITIES.register("assimilatedcow",
+        () -> EntityType.Builder.of(EntityAssimilatedCow::new, MobCategory.MONSTER).sized(1.0F, 1.4F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedcow"));
+    public static final RegistryObject<EntityType<EntityAssimilatedSheep>> ASSIMILATED_SHEEP = ENTITIES.register("assimilatedsheep",
+        () -> EntityType.Builder.of(EntityAssimilatedSheep::new, MobCategory.MONSTER).sized(0.9F, 1.3F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedsheep"));
+    
+    // Feral entities
+    public static final RegistryObject<EntityType<EntityFeralHuman>> FERAL_HUMAN = ENTITIES.register("feralhuman",
+        () -> EntityType.Builder.of(EntityFeralHuman::new, MobCategory.MONSTER).sized(0.6F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":feralhuman"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_CHICKEN = smallParasite("infectedchicken");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_VILLAGER = humanoidParasite("infectedvillager");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_WOLF = mediumParasite("infectedwolf");
