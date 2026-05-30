@@ -1,92 +1,48 @@
 package com.subspaceparasite.common.entity.monster.primitive;
-
-import com.subspaceparasite.api.core.component.infection.InfectionComponent;
-import com.subspaceparasite.api.core.data.type.EvoPhase;
-import com.subspaceparasite.api.core.data.type.ParasiteType;
-import com.subspaceparasite.common.entity.monster.EntityParasiteBase;
-import com.subspaceparasite.registry.ModSounds;
-import net.minecraft.core.BlockPos;
+import com.subspaceparasite.api.parasite.EvoPhase;
+import com.subspaceparasite.api.parasite.ParasiteType;
+import com.subspaceparasite.common.entity.base.EntityParasiteBase;
+import com.subspaceparasite.common.entity.ai.ParasiteMeleeAttackGoal;
+import com.subspaceparasite.core.ModSounds;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.state.BlockState;
-
-/**
- * EntityLum - Primitive Stage Parasite
- * 特性：发光诱饵，群体增益，夜间活跃
- * 行为：发出强光吸引生物，为周围寄生虫提供增益效果
- */
 public class EntityLum extends EntityParasiteBase {
-
-    public EntityLum(EntityType<? extends EntityParasiteBase> entityType, Level worldIn) {
-        super(entityType, worldIn);
-        this.xpReward = 9;
-        this.setPhase(EvoPhase.PRIMITIVE);
-        this.setParasiteType(ParasiteType.PRIM_LUM);
+    private static final double BASE_HEALTH = 42.0;
+    private static final double BASE_ATTACK_DAMAGE = 5.5;
+    private static final double BASE_SPEED = 0.23;
+    private static final double BASE_ARMOR = 2.8;
+    public EntityLum(EntityType<? extends EntityLum> type, Level world) {
+        super(type, world); this.xpReward = 8; this.setCanPickUpLoot(false);
+        this.phaseCreated = EvoPhase.ONE; this.parasiteType = ParasiteType.PRI_LUM;
     }
-
-    @Override
-    protected void registerGoals() {
+    @Override protected void registerGoals() {
         super.registerGoals();
-        this.goalSelector.addGoal(2, new FloatGoal(this));
-        this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.0D, false)); // 被动攻击
-        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, LivingEntity.class, 10, true, false, 
-            living -> !InfectionComponent.isInfected(living)));
-        this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+        this.goalSelector.addGoal(0, new FloatGoal(this));
+        this.goalSelector.addGoal(1, new ParasiteMeleeAttackGoal(this, 1.0, true));
+        this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.9));
+        this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, 8.0F));
+        this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
     }
-
-    @Override
-    public void aiStep() {
-        super.aiStep();
-        // 发光逻辑：为周围寄生虫提供速度增益
-        if (!this.level().isClientSide && this.tickCount % 40 == 0) {
-            this.level().getEntitiesOfClass(EntityParasiteBase.class, this.getBoundingBox().inflate(10.0D)).forEach(parasite -> {
-                if (parasite != this && parasite.isAlive()) {
-                    parasite.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 60, 1, false, false));
-                }
-            });
-        }
-        // 设置发光等级
-        this.setLightLevel(this.getBrightness());
-    }
-
-    @Override
-    protected SoundEvent getAmbientSound() {
-        return ModSounds.SUBSRP_ENTITY_LUM_AMBIENT.get();
-    }
-
-    @Override
-    protected SoundEvent getHurtSound(DamageSource damageSourceIn) {
-        return ModSounds.SUBSRP_ENTITY_LUM_HURT.get();
-    }
-
-    @Override
-    protected SoundEvent getDeathSound() {
-        return ModSounds.SUBSRP_ENTITY_LUM_DEATH.get();
-    }
-
-    @Override
-    protected void playStepSound(BlockPos pos, BlockState blockIn) {
-        // 轻微脚步声
-    }
-
-    @Override
-    protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
-        return 1.2F;
-    }
-
+    @Override protected SoundEvent getAmbientSound() { return ModSounds.SUBSRP_ENTITY_LUM_AMBIENT.get(); }
+    @Override protected SoundEvent getHurtSound(DamageSource source) { return ModSounds.SUBSRP_ENTITY_LUM_HURT.get(); }
+    @Override protected SoundEvent getDeathSound() { return ModSounds.SUBSRP_ENTITY_LUM_DEATH.get(); }
     public static AttributeSupplier.Builder createAttributes() {
-        return EntityParasiteBase.createMonsterAttributes()
-            .add(Attributes.MAX_HEALTH, 22.0D)
-            .add(Attributes.MOVEMENT_SPEED, 0.25D)
-            .add(Attributes.ATTACK_DAMAGE, 4.0D)
-            .add(Attributes.FOLLOW_RANGE, 32.0D);
+        return Monster.createMonsterAttributes().add(Attributes.MAX_HEALTH, BASE_HEALTH)
+            .add(Attributes.MOVEMENT_SPEED, BASE_SPEED).add(Attributes.ATTACK_DAMAGE, BASE_ATTACK_DAMAGE)
+            .add(Attributes.ARMOR, BASE_ARMOR);
     }
+    @Override public String getTextureName() { return "textures/entity/primitive/subsrp_lum.png"; }
+    @Override public String getModelName() { return "lum"; }
 }

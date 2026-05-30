@@ -1,88 +1,67 @@
 package com.subspaceparasite.common.entity.monster.primitive;
 
-import com.subspaceparasite.api.core.component.infection.InfectionComponent;
-import com.subspaceparasite.api.core.data.type.EvoPhase;
-import com.subspaceparasite.api.core.data.type.ParasiteType;
-import com.subspaceparasite.common.entity.monster.EntityParasiteBase;
-import com.subspaceparasite.registry.ModSounds;
-import net.minecraft.core.BlockPos;
+import com.subspaceparasite.api.parasite.EvoPhase;
+import com.subspaceparasite.api.parasite.ParasiteType;
+import com.subspaceparasite.common.entity.base.EntityParasiteBase;
+import com.subspaceparasite.common.entity.ai.ParasiteMeleeAttackGoal;
+import com.subspaceparasite.core.ModSounds;
+
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.state.BlockState;
 
-/**
- * EntityIki - Primitive Stage Parasite
- * 特性：隐形能力，偷袭型单位，低血量高爆发
- * 行为：平时隐形，攻击时显形，优先攻击落单目标
- */
 public class EntityIki extends EntityParasiteBase {
-
-    public EntityIki(EntityType<? extends EntityParasiteBase> entityType, Level worldIn) {
-        super(entityType, worldIn);
+    private static final double BASE_HEALTH = 48.0;
+    private static final double BASE_ATTACK_DAMAGE = 6.5;
+    private static final double BASE_SPEED = 0.21;
+    private static final double BASE_ARMOR = 3.6;
+    
+    public EntityIki(EntityType<? extends EntityIki> type, Level world) {
+        super(type, world);
         this.xpReward = 10;
-        this.setPhase(EvoPhase.PRIMITIVE);
-        this.setParasiteType(ParasiteType.PRIM_IKI);
+        this.setCanPickUpLoot(false);
+        this.phaseCreated = EvoPhase.ONE;
+        this.parasiteType = ParasiteType.PRI_IKI;
     }
 
     @Override
     protected void registerGoals() {
         super.registerGoals();
-        this.goalSelector.addGoal(2, new FloatGoal(this));
-        this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.4D, true));
-        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, LivingEntity.class, 10, true, false, 
-            living -> !InfectionComponent.isInfected(living)));
-        this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
+        this.goalSelector.addGoal(0, new FloatGoal(this));
+        this.goalSelector.addGoal(1, new ParasiteMeleeAttackGoal(this, 1.0, true));
+        this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.85));
+        this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, 8.0F));
+        this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
     }
 
     @Override
-    public void aiStep() {
-        super.aiStep();
-        // 隐形逻辑：无目标时隐形
-        if (!this.level().isClientSide && this.getTarget() == null) {
-            this.setInvisible(true);
-        } else {
-            this.setInvisible(false);
-        }
-    }
-
+    protected SoundEvent getAmbientSound() { return ModSounds.SUBSRP_ENTITY_IKI_AMBIENT.get(); }
     @Override
-    protected SoundEvent getAmbientSound() {
-        return ModSounds.SUBSRP_ENTITY_IKI_AMBIENT.get();
-    }
-
+    protected SoundEvent getHurtSound(DamageSource source) { return ModSounds.SUBSRP_ENTITY_IKI_HURT.get(); }
     @Override
-    protected SoundEvent getHurtSound(DamageSource damageSourceIn) {
-        return ModSounds.SUBSRP_ENTITY_IKI_HURT.get();
-    }
-
-    @Override
-    protected SoundEvent getDeathSound() {
-        return ModSounds.SUBSRP_ENTITY_IKI_DEATH.get();
-    }
-
-    @Override
-    protected void playStepSound(BlockPos pos, BlockState blockIn) {
-        // 轻微脚步声
-    }
-
-    @Override
-    protected float getStandingEyeHeight(Pose poseIn, EntityDimensions sizeIn) {
-        return 1.4F;
-    }
+    protected SoundEvent getDeathSound() { return ModSounds.SUBSRP_ENTITY_IKI_DEATH.get(); }
 
     public static AttributeSupplier.Builder createAttributes() {
-        return EntityParasiteBase.createMonsterAttributes()
-            .add(Attributes.MAX_HEALTH, 20.0D)
-            .add(Attributes.MOVEMENT_SPEED, 0.32D)
-            .add(Attributes.ATTACK_DAMAGE, 8.0D) // 高爆发
-            .add(Attributes.ATTACK_SPEED, 0.7D);
+        return Monster.createMonsterAttributes()
+            .add(Attributes.MAX_HEALTH, BASE_HEALTH)
+            .add(Attributes.MOVEMENT_SPEED, BASE_SPEED)
+            .add(Attributes.ATTACK_DAMAGE, BASE_ATTACK_DAMAGE)
+            .add(Attributes.ARMOR, BASE_ARMOR);
     }
+
+    @Override
+    public String getTextureName() { return "textures/entity/primitive/subsrp_iki.png"; }
+    @Override
+    public String getModelName() { return "iki"; }
 }

@@ -3,24 +3,52 @@
 *.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.so
+*.dll
+*.exe
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 
 # Dependencies
-lib/
-libs/
-dependency/
-dependencies/
-
-# Build directories
-build/
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+.gradle/
 target/
-out/
-bin/
-obj/
+build/
+dist/
+lib/
+tmp/
+temp/
 
 # IDE and editor files
 .vscode/
@@ -28,24 +56,44 @@ obj/
 *.swp
 *.swo
 *.tmp
-
-# Logs
 *.log
+*.bak
+*.orig
+*.rej
 
-# Package manager caches
-.gradle/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-.coverage
-
-# System files
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
 
-# Environment files
-.env
-.env.local
-*.env.*
+# Java/Minecraft specific
+*.iml
+*.ipr
+*.iws
+out/
+.gradle/
+bin/
+gen/
+local.properties
+.settings/
+*.launch
+.classpath
+.project
+
+# Backup and temporary source files
+*.backup
+*.bak
+*~
+.#*
+%*
+._*
+
+# Minecraft mod development
+.run/
+*.patch
 ```
