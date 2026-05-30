@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "subspaceparasite:block/infestedsandstone",
+    "side": "subspaceparasite:block/infestedsandstone",
+    "top": "subspaceparasite:block/infestedsandstone"
+  }
+}

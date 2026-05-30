@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "subspaceparasite:block/infestedsandstone3_side",
+    "bottom": "subspaceparasite:block/infestedsandstone3_bottom",
+    "top": "subspaceparasite:block/infestedsandstone3_top"
+  }
+}

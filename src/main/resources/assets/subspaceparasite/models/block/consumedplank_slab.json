@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "subspaceparasite:block/consumedplank",
+    "side": "subspaceparasite:block/consumedplank",
+    "top": "subspaceparasite:block/consumedplank"
+  }
+}

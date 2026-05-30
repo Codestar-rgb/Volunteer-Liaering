@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "subspaceparasite:block/parasitecobblestone",
+    "side": "subspaceparasite:block/parasitecobblestone",
+    "top": "subspaceparasite:block/parasitecobblestone"
+  }
+}

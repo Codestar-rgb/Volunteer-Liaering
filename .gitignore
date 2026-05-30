@@ -1,49 +1,54 @@
-```gitignore
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-build/
-dist/
-target/
+```
+# Minecraft/Java development
+bin/
+gen/
+obj/
+out/
 
 # Dependencies
-node_modules/
-venv/
-.venv/
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
+.gradle/
+libs/
 
 # Logs
 *.log
 
-# Coverage
-coverage/
-htmlcov/
-.coverage
+# IDE files
+.vscode/
+.idea/
 
-# System files
+# Build artifacts
+build/
+target/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
 .DS_Store
 Thumbs.db
-```
 
-Wait, let me reconsider this. Looking at the file changes, they are primarily Minecraft mod assets (textures and lang files) and a Python script. There are no build artifacts, dependency directories, or temporary files in the changes that would require ignoring. The changes are all source/config files and assets that should be tracked.
+# Environment variables
+.env
+.env.local
+*.env.*
 
-```gitignore
-
+# Python (if any scripts are used)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/
 ```
