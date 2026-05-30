@@ -184,20 +184,5 @@ public class EvolutionComponent {
         evolutionLevel = tag.getInt("EvolutionLevel");
         canEvolve = tag.getBoolean("CanEvolve");
         hasMutated = tag.getBoolean("HasMutated");
-        
-        // Sync to host entity's field
-        parasite.evolutionPoints = (int) this.evolutionPointsInternal;
-    }
-    
-    /**
-     * Load evolution data from client sync packet
-     */
-    public void loadClientSync(int level, float points) {
-        this.evolutionLevel = level;
-        this.evolutionPointsInternal = points;
-        // Update host entity field
-        if (parasite != null) {
-            parasite.evolutionPoints = (int) points;
-        }
     }
 }

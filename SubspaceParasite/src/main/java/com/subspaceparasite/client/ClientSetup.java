@@ -1,9 +1,13 @@
 package com.subspaceparasite.client;
 
-import com.subspaceparasite.client.renderer.entity.RenderBanoGeo;
+import com.mojang.blaze3d.platform.InputConstants;
+import com.subspaceparasite.SubspaceParasite;
+import com.subspaceparasite.client.model.entity.ModelParasiteBiped;
+import com.subspaceparasite.client.overlay.InfectionOverlayHandler;
+import com.subspaceparasite.client.particle.ModParticles;
+import com.subspaceparasite.client.particle.ParasiteParticle;
 import com.subspaceparasite.client.renderer.entity.RenderParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
-import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import com.subspaceparasite.core.ModEntities;
 
 import net.minecraft.client.KeyMapping;
@@ -52,16 +56,14 @@ public class ClientSetup {
     /**
      * Register entity renderers.
      * Called during EntityRenderersEvent.RegisterRenderers on the MOD bus.
-     * Registers specific GeckoLib renderers for implemented entities,
-     * and fallback base renderer for placeholder entities.
+     * Registers the base parasite renderer for ALL registered parasite entity types
+     * using reflection to avoid maintaining a manual list of entity types.
      */
     @SubscribeEvent
     @SuppressWarnings("unchecked")
     public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-        // Register specific GeckoLib renderer for EntityBano
-        event.registerEntityRenderer(ModEntities.PRIMITIVE_BANO.get(), RenderBanoGeo::new);
-        
-        // Use reflection to register fallback renderers for all other parasite entity types
+        // Use reflection to register renderers for all entity types in ModEntities,
+        // similar to how ModEventHandler collects entity types for attribute registration.
         try {
             for (java.lang.reflect.Field field : ModEntities.class.getDeclaredFields()) {
                 if (java.lang.reflect.Modifier.isStatic(field.getModifiers()) &&
@@ -70,11 +72,6 @@ public class ClientSetup {
                     Object obj = field.get(null);
                     if (obj instanceof RegistryObject<?> ro) {
                         if (ro.get() instanceof EntityType<?> et) {
-                            // Skip already registered entities
-                            if (et == ModEntities.PRIMITIVE_BANO.get()) {
-                                continue;
-                            }
-                            
                             // Only register for parasite entity types (EntityParasitePlaceholder)
                             // Skip block entity types
                             try {

@@ -1,12 +1,29 @@
 package com.subspaceparasite.core;
 
+import com.subspaceparasite.common.entity.monster.deterrent.EntityVenkrolSIV;
 import com.subspaceparasite.common.entity.PlaceholderBlockEntity;
 import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedHuman;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedCow;
+import com.subspaceparasite.common.entity.monster.assimilated.EntityAssimilatedSheep;
 import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
 import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
+import com.subspaceparasite.common.entity.monster.feral.EntityFeralHuman;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
+import com.subspaceparasite.common.entity.monster.primitive.EntityCanra;
+import com.subspaceparasite.common.entity.monster.primitive.EntityEmana;
+import com.subspaceparasite.common.entity.monster.primitive.EntityGim;
+import com.subspaceparasite.common.entity.monster.primitive.EntityHull;
+import com.subspaceparasite.common.entity.monster.primitive.EntityIki;
+import com.subspaceparasite.common.entity.monster.primitive.EntityLum;
+import com.subspaceparasite.common.entity.monster.primitive.EntityNogla;
+import com.subspaceparasite.common.entity.monster.primitive.EntityRanrac;
+import com.subspaceparasite.common.entity.monster.primitive.EntityShyco;
+import com.subspaceparasite.common.entity.monster.primitive.EntityWymo;
+import com.subspaceparasite.common.entity.monster.primitive.EntityZaa;
+import com.subspaceparasite.common.entity.projectile.EntityOrbBase;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.block.Block;
@@ -111,6 +128,26 @@ public class ModEntities {
                 .build(SubspaceParasite.MOD_ID + ":infectedhuman"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_COW = mediumParasite("infectedcow");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_SHEEP = mediumParasite("infectedsheep");
+    
+    // Assimilated (Feral) entities
+    public static final RegistryObject<EntityType<EntityAssimilatedHuman>> ASSIMILATED_HUMAN = ENTITIES.register("assimilatedhuman",
+        () -> EntityType.Builder.of(EntityAssimilatedHuman::new, MobCategory.MONSTER).sized(0.6F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedhuman"));
+    public static final RegistryObject<EntityType<EntityAssimilatedCow>> ASSIMILATED_COW = ENTITIES.register("assimilatedcow",
+        () -> EntityType.Builder.of(EntityAssimilatedCow::new, MobCategory.MONSTER).sized(1.0F, 1.4F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedcow"));
+    public static final RegistryObject<EntityType<EntityAssimilatedSheep>> ASSIMILATED_SHEEP = ENTITIES.register("assimilatedsheep",
+        () -> EntityType.Builder.of(EntityAssimilatedSheep::new, MobCategory.MONSTER).sized(0.9F, 1.3F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":assimilatedsheep"));
+    
+    // Feral entities
+    public static final RegistryObject<EntityType<EntityFeralHuman>> FERAL_HUMAN = ENTITIES.register("feralhuman",
+        () -> EntityType.Builder.of(EntityFeralHuman::new, MobCategory.MONSTER).sized(0.6F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":feralhuman"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_CHICKEN = smallParasite("infectedchicken");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_VILLAGER = humanoidParasite("infectedvillager");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INFECTED_WOLF = mediumParasite("infectedwolf");
@@ -185,6 +222,50 @@ public class ModEntities {
         () -> EntityType.Builder.of(EntityWorker::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
                 .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
                 .build(SubspaceParasite.MOD_ID + ":crude_worker"));
+    public static final RegistryObject<EntityType<EntityCruxA>> CRUDE_CRUX_A = ENTITIES.register("crude_crux_a",
+        () -> EntityType.Builder.of(EntityCruxA::new, MobCategory.MONSTER).sized(1.2F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_crux_a"));
+    public static final RegistryObject<EntityType<EntityCruxB>> CRUDE_CRUX_B = ENTITIES.register("crude_crux_b",
+        () -> EntityType.Builder.of(EntityCruxB::new, MobCategory.MONSTER).sized(1.2F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_crux_b"));
+    public static final RegistryObject<EntityType<EntityDone>> CRUDE_DONE = ENTITIES.register("crude_done",
+        () -> EntityType.Builder.of(EntityDone::new, MobCategory.MONSTER).sized(1.0F, 1.2F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_done"));
+    public static final RegistryObject<EntityType<EntityHeed>> CRUDE_HEED = ENTITIES.register("crude_heed",
+        () -> EntityType.Builder.of(EntityHeed::new, MobCategory.MONSTER).sized(0.8F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_heed"));
+    public static final RegistryObject<EntityType<EntityHost>> CRUDE_HOST = ENTITIES.register("crude_host",
+        () -> EntityType.Builder.of(EntityHost::new, MobCategory.MONSTER).sized(1.5F, 2.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_host"));
+    public static final RegistryObject<EntityType<EntityInhooM>> CRUDE_INHOO_M = ENTITIES.register("crude_inhoo_m",
+        () -> EntityType.Builder.of(EntityInhooM::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_inhoo_m"));
+    public static final RegistryObject<EntityType<EntityInhooS>> CRUDE_INHOO_S = ENTITIES.register("crude_inhoo_s",
+        () -> EntityType.Builder.of(EntityInhooS::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_inhoo_s"));
+    public static final RegistryObject<EntityType<EntityLeer>> CRUDE_LEER = ENTITIES.register("crude_leer",
+        () -> EntityType.Builder.of(EntityLeer::new, MobCategory.MONSTER).sized(1.2F, 2.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_leer"));
+    public static final RegistryObject<EntityType<EntityLesh>> CRUDE_LESH = ENTITIES.register("crude_lesh",
+        () -> EntityType.Builder.of(EntityLesh::new, MobCategory.MONSTER).sized(1.0F, 1.2F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_lesh"));
+    public static final RegistryObject<EntityType<EntityMes>> CRUDE_MES = ENTITIES.register("crude_mes",
+        () -> EntityType.Builder.of(EntityMes::new, MobCategory.MONSTER).sized(0.8F, 1.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_mes"));
+    public static final RegistryObject<EntityType<EntityQuac>> CRUDE_QUAC = ENTITIES.register("crude_quac",
+        () -> EntityType.Builder.of(EntityQuac::new, MobCategory.MONSTER).sized(0.8F, 1.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_quac"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_SCORCHER = mediumParasite("crudescorcher");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_MINDIM = mediumParasite("crudemindim");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_EGAS = mediumParasite("crudeegas");
@@ -194,17 +275,28 @@ public class ModEntities {
     // ================================================================
     public static final RegistryObject<EntityType<EntityBano>> PRIMITIVE_BANO = ENTITIES.register("primitive_bano", 
         () -> EntityType.Builder.of(EntityBano::new, MobCategory.MONSTER).sized(1.0F, 2.8F).build(SubspaceParasite.MOD_ID + ":primitive_bano"));
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_CANRA = mediumParasite("primitivecanra");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_EMANA = mediumParasite("primitiveemana");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_GIM = smallParasite("primitivegim");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_HULL = largeParasite("primitivehull");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_IKI = mediumParasite("primitiveiki");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_LUM = smallParasite("primitivelum");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_NOGLA = mediumParasite("primitivenogla");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_RANRAC = largeParasite("primeranrac");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_SHYCO = mediumParasite("primitiveshyco");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_WYMO = smallParasite("primitivewymo");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_ZAA = largeParasite("primitivezaa");
+    public static final RegistryObject<EntityType<EntityCanra>> PRIMITIVE_CANRA = ENTITIES.register("primitive_canra",
+        () -> EntityType.Builder.of(EntityCanra::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_canra"));
+    public static final RegistryObject<EntityType<EntityEmana>> PRIMITIVE_EMANA = ENTITIES.register("primitive_emana",
+        () -> EntityType.Builder.of(EntityEmana::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_emana"));
+    public static final RegistryObject<EntityType<EntityGim>> PRIMITIVE_GIM = ENTITIES.register("primitive_gim",
+        () -> EntityType.Builder.of(EntityGim::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_gim"));
+    public static final RegistryObject<EntityType<EntityHull>> PRIMITIVE_HULL = ENTITIES.register("primitive_hull",
+        () -> EntityType.Builder.of(EntityHull::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_hull"));
+    public static final RegistryObject<EntityType<EntityIki>> PRIMITIVE_IKI = ENTITIES.register("primitive_iki",
+        () -> EntityType.Builder.of(EntityIki::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_iki"));
+    public static final RegistryObject<EntityType<EntityLum>> PRIMITIVE_LUM = ENTITIES.register("primitive_lum",
+        () -> EntityType.Builder.of(EntityLum::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_lum"));
+    public static final RegistryObject<EntityType<EntityNogla>> PRIMITIVE_NOGLA = ENTITIES.register("primitive_nogla",
+        () -> EntityType.Builder.of(EntityNogla::new, MobCategory.MONSTER).sized(1.0F, 1.0F).setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true).build(SubspaceParasite.MOD_ID + ":primitive_nogla"));
+    public static final RegistryObject<EntityType<EntityRanrac>> PRIMITIVE_RANRAC = ENTITIES.register("primitive_ranrac",
+        () -> EntityType.Builder.of(EntityRanrac::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_ranrac"));
+    public static final RegistryObject<EntityType<EntityShyco>> PRIMITIVE_SHYCO = ENTITIES.register("primitive_shyco",
+        () -> EntityType.Builder.of(EntityShyco::new, MobCategory.MONSTER).sized(1.0F, 1.0F).build(SubspaceParasite.MOD_ID + ":primitive_shyco"));
+    public static final RegistryObject<EntityType<EntityWymo>> PRIMITIVE_WYMO = ENTITIES.register("primitive_wymo",
+        () -> EntityType.Builder.of(EntityWymo::new, MobCategory.MONSTER).sized(0.6F, 0.6F).build(SubspaceParasite.MOD_ID + ":primitive_wymo"));
+    public static final RegistryObject<EntityType<EntityZaa>> PRIMITIVE_ZAA = ENTITIES.register("primitive_zaa",
+        () -> EntityType.Builder.of(EntityZaa::new, MobCategory.MONSTER).sized(1.5F, 2.0F).build(SubspaceParasite.MOD_ID + ":primitive_zaa"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_LONGARMS = humanoidParasite("primitivelongarms");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_MANDUCATER = humanoidParasite("primitivemanducater");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_REEKER = mediumParasite("primitivereeker");
@@ -319,7 +411,58 @@ public class ModEntities {
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PARASITE_WEB = projectile("parasiteweb");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> BECKON_BLAST = projectile("beckonblast");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> NEXUS_BEAM_ENTITY = projectile("nexusbeam");
+    
+    // Orb Projectiles (for Heblu, Kirin, etc.)
+    public static final RegistryObject<EntityType<EntityOrbBase>> PROJECTILE_ORB_SCARY = ENTITIES.register("projectile_orb_scary",
+            () -> EntityType.Builder.<EntityOrbBase>of(EntityOrbBase::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F)
+                    .setTrackingRange(128)
+                    .setUpdateInterval(1)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":projectile_orb_scary"));
+    
+    public static final RegistryObject<EntityType<EntityOrbBase>> PROJECTILE_ORB_VOID = ENTITIES.register("projectile_orb_void",
+            () -> EntityType.Builder.<EntityOrbBase>of(EntityOrbBase::new, MobCategory.MISC)
+                    .sized(0.6F, 0.6F)
+                    .setTrackingRange(128)
+                    .setUpdateInterval(1)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":projectile_orb_void"));
 
+    // ================================================================
+    // DERIVED STAGE ENTITIES
+    // ================================================================
+    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.derived.EntityHeblu>> DERIVED_HEBLU = ENTITIES.register("derived_heblu",
+            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.derived.EntityHeblu::new, MobCategory.MONSTER)
+                    .sized(1.2F, 2.5F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":derived_heblu"));
+    
+    public static final RegistryObject<EntityType<com.subspaceparasite.common.entity.monster.derived.EntityKirin>> DERIVED_KIRIN = ENTITIES.register("derived_kirin",
+            () -> EntityType.Builder.of(com.subspaceparasite.common.entity.monster.derived.EntityKirin::new, MobCategory.MONSTER)
+                    .sized(1.4F, 3.0F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":derived_kirin"));
+
+    // ================================================================
+    // DETERRENT STAGE ENTITIES
+    // ================================================================
+    public static final RegistryObject<EntityType<EntityVenkrolSIV>> DETERRENT_VENKROL_SIV = ENTITIES.register("deterrent_venkrol_siv",
+            () -> EntityType.Builder.of(EntityVenkrolSIV::new, MobCategory.MONSTER)
+                    .sized(1.0F, 2.2F)
+                    .setTrackingRange(64)
+                    .setUpdateInterval(3)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":deterrent_venkrol_siv"));
+
+    // ================================================================
+    // CONNECTIVE STAGE ENTITIES
+    // ================================================================
+    
     // ================================================================
     // MISC ENTITIES
     // ================================================================

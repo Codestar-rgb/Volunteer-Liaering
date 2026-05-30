@@ -278,9 +278,9 @@ public class EvolutionDispatcher {
         int evoLevel = parasite.getEvolutionComponent().getEvolutionLevel();
         int evoPoints = (int) parasite.getEvolutionComponent().getEvolutionPointsInternal();
         
-        // Send sync packet
+        // Send sync packet via ModNetwork
         ModNetwork.CHANNEL.sendToAllPlayers(
-            new ModNetwork.EvolutionSyncPacket(entityId, evoLevel, evoPoints),
+            new ModNetwork.EvolutionSyncPacket(entityId, evoLevel, (float)evoPoints),
             (ServerLevel) parasite.level()
         );
     }

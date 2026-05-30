@@ -943,29 +943,6 @@ public abstract class EntityParasiteBase extends Monster
         this.skinVariant = variant;
         this.entityData.set(DATA_SKIN, variant);
     }
-    
-    /**
-     * Set client-side variant (called from network packet)
-     */
-    public void setClientVariant(int variant) {
-        this.skinVariant = (byte) variant;
-        this.entityData.set(DATA_SKIN, (byte) variant);
-    }
-    
-    /**
-     * Set client-side sentient state (called from network packet)
-     */
-    public void setClientSentient(boolean sentient) {
-        // Use parasiteStatus bit to track sentient state on client
-        byte current = this.entityData.get(DATA_STATUS);
-        if (sentient) {
-            current |= 0x08; // Set bit 3 for sentient
-        } else {
-            current &= ~0x08; // Clear bit 3
-        }
-        this.entityData.set(DATA_STATUS, current);
-        this.parasiteStatus = current;
-    }
 
     /** Returns whether this entity is in a cold biome (from synced data). */
     public boolean isColdBiome() { return this.entityData.get(DATA_COLD); }
@@ -1690,21 +1667,6 @@ public abstract class EntityParasiteBase extends Monster
 
     /** Sets the cloaking level. */
     public void setCloakingLevel(float level) { this.cloakingLevel = Mth.clamp(level, 0.0F, 1.0F); }
-
-    /** Returns true if the entity is currently cloaking. */
-    public boolean isCloaking() { return getCloakingLevel() > 0.1F; }
-
-    /** Returns true if the entity is currently swelling. */
-    public boolean isSwelling() { return getSwellAmount() > 0.1F; }
-
-    /**
-     * Returns a custom texture ResourceLocation based on entity type and evolution phase.
-     * Subclasses should override this to provide specific textures.
-     * @return ResourceLocation of the texture, or null to use default
-     */
-    public ResourceLocation getCustomTexture() {
-        return null;
-    }
 
     /** Returns true if this entity should render its glow layer. */
     public boolean hasGlow() {

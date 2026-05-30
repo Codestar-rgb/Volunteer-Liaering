@@ -1,10 +1,7 @@
 package com.subspaceparasite.common.entity.projectile;
 
-import com.subspaceparasite.common.entity.ai.misc.EntityCanHaveBodies;
-import com.subspaceparasite.core.ModEntities;
-import com.subspaceparasite.core.ModParticleTypes;
 import com.subspaceparasite.core.ModSounds;
-import net.minecraft.core.particles.ParticleOptions;
+import com.subspaceparasite.core.ModParticleTypes;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
@@ -17,447 +14,288 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.EntityHitResult;
 import net.minecraft.world.phys.HitResult;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
-
-import java.util.List;
+import net.minecraft.world.phys.Vec3;
 
 /**
- * Scary Orb - Attack-type orbital projectile used by Heblu and other derived parasites.
+ * EntityOrbScary - Attack/Homing Orb Projectile
  * <p>
- * Behavior:
- * - Orbits around the parent entity, providing area denial
- * - Applies debuffs to nearby enemies (cooldown suppression)
- * - Explodes on command dealing significant AOE damage
- * - Features charging state with visual/audio feedback
- * 
- * Architecture:
- * - Extends EntityOrbBase for core projectile functionality
- * - Implements synchronized data for fuse, state, and targeting
- * - Supports particle effects and sound integration
- * - Designed for high performance with optimized collision detection
+ * Aggressive orb that orbits around the parent entity and provides
+ * area denial and offensive capabilities. Used primarily by Heblu.
+ * <p>
+ * Features:
+ * - Orbital movement around parent entity
+ * - Passive debuff application to nearby enemies
+ * - Timed explosive damage
+ * - Scary-themed particle effects
  */
 public class EntityOrbScary extends EntityOrbBase {
     
-    // ========== SynchedEntityData Accessors ===========
-    
-    private static final EntityDataAccessor<Integer> DATA_FUSE_STATE =
+    // ========== SynchedEntityData Accessors ==========
+    private static final EntityDataAccessor<Integer> DATA_ORBIT_RADIUS =
             SynchedEntityData.defineId(EntityOrbScary.class, EntityDataSerializers.INT);
-    private static final EntityDataAccessor<Integer> DATA_WAIT_START =
-            SynchedEntityData.defineId(EntityOrbScary.class, EntityDataSerializers.INT);
-    private static final EntityDataAccessor<Integer> DATA_SELFE_STATE =
-            SynchedEntityData.defineId(EntityOrbScary.class, EntityDataSerializers.INT);
-    private static final EntityDataAccessor<Integer> DATA_PARENT_ID =
+    private static final EntityDataAccessor<Float> DATA_ORBIT_SPEED =
+            SynchedEntityData.defineId(EntityOrbScary.class, EntityDataSerializers.FLOAT);
+    private static final EntityDataAccessor<Integer> DATA_DEBUFF_DURATION =
             SynchedEntityData.defineId(EntityOrbScary.class, EntityDataSerializers.INT);
     
-    // ========== Core Fields ===========
+    // ========== Core Fields ==========
+    private int orbitRadius = 8; // blocks from parent
+    private float orbitSpeed = 0.05f;
+    private int debuffDuration = 60; // ticks (3 seconds)
+    private float orbitAngle = 0.0f;
+    private static final float BASE_DAMAGE = 6.0f;
+    private static final double AOE_RADIUS = 5.0;
+    private static final int DEBUFF_COOLDOWN = 40; // ticks between debuff applications
     
-    private LivingEntity parent;
-    private boolean followParent = false;
-    private double parentOffsetX = 0;
-    private double parentOffsetY = 0.5;
-    private double parentOffsetZ = 0;
-    private int timerDeath = 0;
-    private int selfeState = 0;
-    private int fuseState = 7;
-    private int waitStart = 40;
-    private float baseDamage = 8.0F;
-    
-    // ========== Constructors ===========
+    // ========== Constructor ==========
     
     public EntityOrbScary(EntityType<? extends EntityOrbScary> type, Level level) {
         super(type, level);
-        this.fuseState = 7;
-        this.waitStart = 40;
-        this.setFuseState(fuseState);
-        this.setWaitStart(waitStart);
-        this.setSelfeState(0);
+        this.orbType = 1; // Scary orb type
     }
     
-    public EntityOrbScary(Level level, LivingEntity parent, int fuse, int waitStart) {
-        this((EntityType<? extends EntityOrbScary>) ModEntities.PROJECTILE_ORB_SCARY.get(), level);
-        this.parent = parent;
-        this.followParent = true;
-        this.fuseState = fuse;
-        this.waitStart = waitStart;
-        this.setFuseState(fuse);
-        this.setWaitStart(waitStart);
-        this.setPos(parent.getX(), parent.getEyeY() - 0.1, parent.getZ());
-        this.setParentId(parent.getId());
+    public EntityOrbScary(Level level, LivingEntity shooter, int powerLevel) {
+        super(level, shooter, 1, powerLevel); // Type 1 = Scary
+        this.orbitRadius = 8;
+        this.orbitSpeed = 0.05f + (powerLevel * 0.01f);
+        this.damageMultiplier = 1.0F + (powerLevel * 0.25F);
     }
     
-    public EntityOrbScary(Level level, LivingEntity parent, int fuse, int waitStart, boolean stayWithParent) {
-        this(level, parent, fuse, waitStart);
-        this.followParent = stayWithParent;
-    }
-    
-    // ========== Data Registration ===========
+    // ========== Data Registration ==========
     
     @Override
     protected void defineSynchedData() {
         super.defineSynchedData();
-        this.entityData.define(DATA_FUSE_STATE, -1);
-        this.entityData.define(DATA_WAIT_START, -1);
-        this.entityData.define(DATA_SELFE_STATE, -1);
-        this.entityData.define(DATA_PARENT_ID, -1);
+        this.entityData.define(DATA_ORBIT_RADIUS, 8);
+        this.entityData.define(DATA_ORBIT_SPEED, 0.05f);
+        this.entityData.define(DATA_DEBUFF_DURATION, 60);
     }
     
-    // ========== NBT Persistence ===========
+    // ========== NBT Persistence ==========
     
     @Override
     public void addAdditionalSaveData(CompoundTag compound) {
         super.addAdditionalSaveData(compound);
-        compound.putInt("FuseState", this.fuseState);
-        compound.putInt("WaitStart", this.waitStart);
-        compound.putInt("SelfeState", this.selfeState);
-        compound.putInt("TimerDeath", this.timerDeath);
-        compound.putBoolean("FollowParent", this.followParent);
-        if (this.parent != null) {
-            compound.putInt("ParentId", this.parent.getId());
-        }
+        compound.putInt("OrbitRadius", this.orbitRadius);
+        compound.putFloat("OrbitSpeed", this.orbitSpeed);
+        compound.putInt("DebuffDuration", this.debuffDuration);
     }
     
     @Override
     public void readAdditionalSaveData(CompoundTag compound) {
         super.readAdditionalSaveData(compound);
-        if (compound.contains("FuseState")) {
-            this.fuseState = compound.getInt("FuseState");
+        if (compound.contains("OrbitRadius")) {
+            this.orbitRadius = compound.getInt("OrbitRadius");
         }
-        if (compound.contains("WaitStart")) {
-            this.waitStart = compound.getInt("WaitStart");
+        if (compound.contains("OrbitSpeed")) {
+            this.orbitSpeed = compound.getFloat("OrbitSpeed");
         }
-        if (compound.contains("SelfeState")) {
-            this.selfeState = compound.getInt("SelfeState");
-        }
-        if (compound.contains("TimerDeath")) {
-            this.timerDeath = compound.getInt("TimerDeath");
-        }
-        if (compound.contains("FollowParent")) {
-            this.followParent = compound.getBoolean("FollowParent");
+        if (compound.contains("DebuffDuration")) {
+            this.debuffDuration = compound.getInt("DebuffDuration");
         }
     }
     
-    // ========== Main Tick ===========
+    // ========== Main Tick ==========
     
     @Override
     public void tick() {
         super.tick();
         
-        int age = this.getAge();
-        
-        // Play summon sounds on first tick
-        if (age == 1 && !level().isClientSide) {
-            level().playSound(null, this.getX(), this.getY(), this.getZ(),
-                    ModSounds.ORB_SUMMON.get(), SoundSource.HOSTILE, 1.0F, 1.0F);
-            level().playSound(null, this.getX(), this.getY(), this.getZ(),
-                    ModSounds.ORB_IDLE.get(), SoundSource.HOSTILE, 1.0F, 1.0F);
+        // Update orbit position
+        if (!level().isClientSide && getOwner() != null) {
+            updateOrbitPosition();
         }
         
-        // Handle post-waitStart behavior
-        if (age > this.getWaitStart()) {
-            this.setSelfeState(1);
-            this.dyingBurst(true, 1);
-            
-            if (level().isClientSide) {
-                // Sync rotation from parent
-                if (this.parent != null && parent.isAlive()) {
-                    this.setYRot(parent.yRotO);
-                    this.setXRot(parent.xRotO);
-                }
-                spawnOrbEffects(4);
-                return;
-            }
-            
-            // Server-side position tracking
-            if (parent != null && parent.isAlive() && followParent) {
-                this.setPos(parent.getX(), parent.getY() + parent.getBbHeight() - 0.1, parent.getZ());
-            } else if (followParent) {
-                this.discard();
-            }
-        } else {
-            // Pre-waitStart behavior
-            if (level().isClientSide) {
-                spawnOrbEffects(4);
-                return;
-            }
-            
-            if (parent != null && parent.isAlive() && followParent) {
-                this.setPos(parent.getX(), parent.getY() + parent.getBbHeight() + 0.5, parent.getZ());
-            } else if (followParent) {
-                this.discard();
-            }
+        // Apply debuffs to nearby enemies
+        if (!level().isClientSide && age % DEBUFF_COOLDOWN == 0) {
+            applyDebuffToNearbyEnemies();
         }
         
-        // Apply orb effects periodically
-        if (!level().isClientSide && age % 10 == 0) {
-            applyOrbEffect();
+        // Client-side scary particles
+        if (level().isClientSide) {
+            spawnScaryParticles();
+        }
+        
+        // Increment orbit angle
+        orbitAngle += orbitSpeed;
+    }
+    
+    // ========== Orbital Movement ==========
+    
+    private void updateOrbitPosition() {
+        Entity owner = getOwner();
+        if (owner == null || owner.isRemoved()) {
+            return;
+        }
+        
+        // Calculate orbit position
+        double orbitX = owner.getX() + Math.cos(orbitAngle) * orbitRadius;
+        double orbitZ = owner.getZ() + Math.sin(orbitAngle) * orbitRadius;
+        double orbitY = owner.getY() + 2.0; // Slightly above owner
+        
+        // Smooth movement towards orbit position
+        double dx = orbitX - getX();
+        double dy = orbitY - getY();
+        double dz = orbitZ - getZ();
+        
+        setDeltaMovement(getDeltaMovement().add(dx * 0.1, dy * 0.1, dz * 0.1));
+        
+        // Limit maximum speed
+        Vec3 currentMotion = getDeltaMovement();
+        double maxSpeed = 1.5;
+        if (currentMotion.length() > maxSpeed) {
+            setDeltaMovement(currentMotion.normalize().scale(maxSpeed));
         }
     }
     
-    // ========== Collision Handling ===========
+    // ========== Debuff Application ==========
     
-    @Override
-    protected void onHitEntity(EntityHitResult result) {
-        if (parent instanceof EntityCanHaveBodies canHaveBodies) {
-            Entity target = result.getEntity();
-            if (target instanceof LivingEntity livingTarget && !(target instanceof EntityOrbBase)) {
-                float damage = getCalculatedDamage();
-                target.hurt(target.damageSources().mobAttack(parent), damage);
-                
-                // Apply additional scary orb effect
-                canHaveBodies.scaryOrbEffect(livingTarget, 1);
-            }
-        }
-    }
-    
-    @Override
-    protected void onHitBlock(HitResult result) {
-        // No special block interaction for scary orb
-    }
-    
-    // ========== Orb Mechanics ===========
-    
-    /**
-     * Handles the dying burst explosion sequence
-     */
-    protected void dyingBurst(boolean fromDeath, int value) {
-        int currentState = this.getSelfeState();
-        this.timerDeath += currentState * value;
-        
-        if (this.timerDeath < 0) {
-            this.timerDeath = 0;
-        }
-        
-        if (this.timerDeath >= this.getFuseState()) {
-            this.timerDeath = this.getFuseState();
-            selfExplode();
-        } else {
-            // Scale up during charging
-            float scale = 1.0F + (timerDeath / (float) fuseState) * 0.8F;
-            this.refreshDimensions();
-        }
-    }
-    
-    /**
-     * Self-destruct explosion with AOE damage
-     */
-    protected void selfExplode() {
-        this.setSelfeState(2);
-        
-        if (this.getSelfeState() == 2) {
-            timerDeath++;
-            
-            if (timerDeath > 35) {
-                // Shrink effect
-                float newScale = Math.max(0.1F, this.getBbWidth() - 0.8F);
-                // Note: Dimension refresh handled by engine
-                
-                if (!level().isClientSide) {
-                    if (parent != null) {
-                        float radius = this.getBbWidth() / 2.0F;
-                        float height = this.getBbHeight();
-                        
-                        // Get entities in AOE
-                        List<LivingEntity> entities = level().getEntitiesOfClass(
-                                LivingEntity.class,
-                                this.getBoundingBox().inflate(radius),
-                                e -> !(e instanceof EntityOrbBase)
-                        );
-                        
-                        for (LivingEntity mob : entities) {
-                            float damage = parent instanceof EntityCanHaveBodies canHaveBodies 
-                                    ? canHaveBodies.getMiniDamage() * 5.0F 
-                                    : baseDamage * 5.0F;
-                            mob.hurt(mob.damageSources().explosion(this, parent), damage);
-                        }
-                    }
-                } else {
-                    // Client-side explosion particles
-                    spawnExplosionParticles();
-                }
-                
-                // Play explosion sound
-                level().playSound(null, this.getX(), this.getY(), this.getZ(),
-                        ModSounds.ORB_EXPLODE.get(), SoundSource.HOSTILE,
-                        1.0F, (random.nextFloat() - random.nextFloat()) * 0.2F + 1.0F);
-                
-                if (timerDeath > 45) {
-                    this.discard();
-                }
-            }
-        }
-    }
-    
-    /**
-     * Applies scary orb area effect to nearby entities
-     */
-    private void applyOrbEffect() {
-        float radius = this.getBbWidth() / 2.0F;
-        float height = this.getBbHeight();
-        
-        List<LivingEntity> entities = level().getEntitiesOfClass(
+    private void applyDebuffToNearbyEnemies() {
+        var nearbyEntities = level().getNearbyEntities(
                 LivingEntity.class,
-                this.getBoundingBox().inflate(radius),
-                e -> !(e instanceof EntityOrbBase)
+                net.minecraft.world.entity.ai.targeting.TargetingConditions.DEFAULT,
+                this,
+                getBoundingBox().inflate(AOE_RADIUS)
         );
         
-        if (parent instanceof EntityCanHaveBodies canHaveBodies) {
-            for (LivingEntity mob : entities) {
-                canHaveBodies.scaryOrbEffect(mob, entities.size());
+        for (LivingEntity entity : nearbyEntities) {
+            if (entity == getOwner() || entity instanceof EntityOrbBase) {
+                continue;
+            }
+            
+            // Check if enemy is hostile to owner
+            if (getOwner() instanceof LivingEntity ownerLiving && 
+                !ownerLiving.isAlliedTo(entity)) {
+                
+                // Apply cooldown reduction debuff (simulated via damage)
+                entity.hurt(damageSources().magic(), getCalculatedDamage() * 0.2f);
+                
+                // Could add custom mob effects here if configured
             }
         }
     }
     
-    // ========== Particle Effects ===========
+    // ========== Particle Effects ==========
     
     @Override
-    @OnlyIn(Dist.CLIENT)
     protected void spawnChargingParticles() {
-        for (int i = 0; i < 5; i++) {
-            level().addParticle(ModParticleTypes.VOID_ORB.get(),
+        // Red/scary charging particles
+        for (int i = 0; i < 4; i++) {
+            level().addParticle(ParticleTypes.REDSTONE,
                     this.getX() + (random.nextDouble() - 0.5) * getBbWidth(),
                     this.getY() + random.nextDouble() * getBbHeight(),
                     this.getZ() + (random.nextDouble() - 0.5) * getBbWidth(),
+                    1.0, 0.0, 0.0);
+        }
+    }
+    
+    @Override
+    protected void spawnTrailParticles() {
+        // Red trail
+        for (int i = 0; i < 2; i++) {
+            level().addParticle(ParticleTypes.SMOKE,
+                    this.getX(),
+                    this.getY(),
+                    this.getZ(),
                     0.0, 0.02, 0.0);
         }
     }
     
-    @Override
-    @OnlyIn(Dist.CLIENT)
-    protected void spawnTrailParticles() {
+    private void spawnScaryParticles() {
+        // Ambient scary particles
         for (int i = 0; i < 2; i++) {
-            level().addParticle(ParticleTypes.SMOKE,
-                    this.getX() + (random.nextDouble() - 0.5) * 0.5,
-                    this.getY() + random.nextDouble() * 0.5,
-                    this.getZ() + (random.nextDouble() - 0.5) * 0.5,
-                    0.0, 0.0, 0.0);
+            level().addParticle(ParticleTypes.REDSTONE,
+                    this.getX() + (random.nextDouble() - 0.5) * getBbWidth(),
+                    this.getY() + random.nextDouble() * getBbHeight(),
+                    this.getZ() + (random.nextDouble() - 0.5) * getBbWidth(),
+                    0.8 + random.nextDouble() * 0.2, 0.0, 0.0);
         }
     }
     
     @Override
-    @OnlyIn(Dist.CLIENT)
     protected void spawnImpactParticles() {
-        spawnExplosionParticles();
-    }
-    
-    @OnlyIn(Dist.CLIENT)
-    protected void spawnExplosionParticles() {
-        int particleCount = this.getFuseState() + this.getFuseState() / 2;
-        for (int i = 0; i < particleCount; i++) {
-            level().addParticle(ParticleTypes.EXPLOSION_LARGE,
-                    this.getX() + (random.nextDouble() - 0.5) * getBbWidth() * 2.0,
-                    this.getY() + random.nextDouble() * getBbHeight() * 2.0,
-                    this.getZ() + (random.nextDouble() - 0.5) * getBbWidth() * 2.0,
-                    random.nextGaussian() * 0.5,
-                    random.nextGaussian() * 0.5,
-                    random.nextGaussian() * 0.5);
+        // Explosion with red tint
+        for (int i = 0; i < 15; i++) {
+            level().addParticle(ParticleTypes.EXPLOSION,
+                    this.getX(),
+                    this.getY(),
+                    this.getZ(),
+                    (random.nextDouble() - 0.5) * 0.8,
+                    (random.nextDouble() - 0.5) * 0.8,
+                    (random.nextDouble() - 0.5) * 0.8);
+        }
+        
+        // Additional red particles
+        for (int i = 0; i < 10; i++) {
+            level().addParticle(ParticleTypes.REDSTONE,
+                    this.getX(),
+                    this.getY(),
+                    this.getZ(),
+                    1.0, 0.0, 0.0);
         }
     }
     
-    @OnlyIn(Dist.CLIENT)
-    public void spawnOrbEffects(int cap) {
-        for (int i = -cap; i <= cap; i++) {
-            for (int j = -cap; j <= cap; j++) {
-                if (i > -2 && i < 2 && j == -1) {
-                    j = 2;
-                }
-                if (random.nextInt(16) != 0) continue;
-                
-                for (int k = 0; k <= 5; k++) {
-                    level().addParticle(ModParticleTypes.VOID_ORB.get(),
-                            this.getX() + (random.nextDouble() - 0.5) * getBbWidth() * 2.0,
-                            this.getY() + random.nextDouble() * getBbHeight() * 2.0,
-                            this.getZ() + (random.nextDouble() - 0.5) * getBbWidth() * 2.0,
-                            (i + random.nextFloat()) - 0.5,
-                            k - random.nextFloat() - 1.0F,
-                            (j + random.nextFloat()) - 0.5);
-                }
-            }
-        }
-    }
-    
-    // ========== Sound Effects ===========
+    // ========== Sound Effects ==========
     
     @Override
     protected void playImpactSound() {
         level().playSound(null, this.getX(), this.getY(), this.getZ(),
-                ModSounds.ORB_EXPLODE.get(), SoundSource.HOSTILE,
-                1.0F, 1.0F);
+                ModSounds.PROJECTILE_HIT.get(), SoundSource.HOSTILE,
+                1.2F, 1.2F);
     }
     
-    // ========== Getters and Setters ===========
+    // ========== Collision Handling ==========
     
-    public int getFuseState() {
-        Integer val = this.entityData.get(DATA_FUSE_STATE);
-        return val != null && val != -1 ? val : this.fuseState;
+    @Override
+    protected void onHitEntity(EntityHitResult result) {
+        Entity target = result.getEntity();
+        if (target instanceof LivingEntity livingTarget) {
+            float damage = getCalculatedDamage();
+            target.hurt(damageSources().magic(), damage);
+            
+            // Apply knockback
+            double knockbackStrength = 0.5;
+            target.setDeltaMovement(target.getDeltaMovement().add(
+                    target.getX() - getX() * knockbackStrength * 0.1,
+                    knockbackStrength,
+                    target.getZ() - getZ() * knockbackStrength * 0.1
+            ));
+        }
     }
     
-    public void setFuseState(int state) {
-        this.entityData.set(DATA_FUSE_STATE, state);
-        this.fuseState = state;
+    // ========== Getters and Setters ==========
+    
+    public int getOrbitRadius() {
+        return this.entityData.get(DATA_ORBIT_RADIUS);
     }
     
-    public int getWaitStart() {
-        Integer val = this.entityData.get(DATA_WAIT_START);
-        return val != null && val != -1 ? val : this.waitStart;
+    public void setOrbitRadius(int radius) {
+        this.entityData.set(DATA_ORBIT_RADIUS, radius);
+        this.orbitRadius = radius;
     }
     
-    public void setWaitStart(int state) {
-        this.entityData.set(DATA_WAIT_START, state);
-        this.waitStart = state;
+    public float getOrbitSpeed() {
+        return this.entityData.get(DATA_ORBIT_SPEED);
     }
     
-    public int getSelfeState() {
-        Integer val = this.entityData.get(DATA_SELFE_STATE);
-        return val != null && val != -1 ? val : this.selfeState;
+    public void setOrbitSpeed(float speed) {
+        this.entityData.set(DATA_ORBIT_SPEED, speed);
+        this.orbitSpeed = speed;
     }
     
-    public void setSelfeState(int state) {
-        this.entityData.set(DATA_SELFE_STATE, state);
-        this.selfeState = state;
+    public int getDebuffDuration() {
+        return this.entityData.get(DATA_DEBUFF_DURATION);
     }
     
-    public int getParentId() {
-        return this.entityData.get(DATA_PARENT_ID);
+    public void setDebuffDuration(int duration) {
+        this.entityData.set(DATA_DEBUFF_DURATION, duration);
+        this.debuffDuration = duration;
     }
     
-    public void setParentId(int id) {
-        this.entityData.set(DATA_PARENT_ID, id);
-    }
-    
-    public LivingEntity getParent() {
-        return this.parent;
-    }
-    
-    public void setParent(LivingEntity parent) {
-        this.parent = parent;
-        this.setParentId(parent.getId());
-    }
-    
-    public boolean isFollowingParent() {
-        return followParent;
-    }
-    
-    public void setFollowingParent(boolean follow) {
-        this.followParent = follow;
-    }
+    // ========== Base Damage ==========
     
     @Override
     protected float getBaseDamage() {
-        return baseDamage;
-    }
-    
-    public void setBaseDamage(float damage) {
-        this.baseDamage = damage;
-    }
-    
-    @Override
-    public boolean isPickable() {
-        return true;
-    }
-    
-    @Override
-    public boolean isPushable() {
-        return false;
+        return BASE_DAMAGE;
     }
 }

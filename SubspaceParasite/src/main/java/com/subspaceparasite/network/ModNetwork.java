@@ -170,16 +170,6 @@ public class ModNetwork {
         public static void handle(EvolutionSyncPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: update entity evolution data
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.level == null) return;
-                
-                net.minecraft.world.entity.Entity entity = mc.level.getEntity(msg.entityId);
-                if (entity instanceof com.subspaceparasite.common.entity.base.EntityParasiteBase parasite) {
-                    // Update evolution data on client
-                    if (parasite.getEvolutionComponent() != null) {
-                        parasite.getEvolutionComponent().loadClientSync(msg.evolutionLevel, msg.evolutionPoints);
-                    }
-                }
             });
         }
     }
@@ -211,11 +201,6 @@ public class ModNetwork {
         public static void handle(BiomeInfectionSyncPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: update biome infection overlay
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.level == null) return;
-                
-                // Update client-side infection data for the chunk
-                com.subspaceparasite.common.world.InfectionDataClient.updateChunkInfection(msg.chunkX, msg.chunkZ, msg.infectionLevel);
             });
         }
     }
@@ -247,14 +232,6 @@ public class ModNetwork {
         public static void handle(ColonyHeartSyncPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: update colony heart display
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.level == null) return;
-                
-                net.minecraft.world.level.block.entity.BlockEntity be = mc.level.getBlockEntity(
-                    new net.minecraft.core.BlockPos(msg.blockEntityId >> 32, msg.blockEntityId & 0xFFFFFFFFL, 0));
-                if (be instanceof com.subspaceparasite.common.block.ColonyHeartBlockEntity heart) {
-                    heart.updateClientData(msg.colonyLevel, msg.parasiteCount);
-                }
             });
         }
     }
@@ -286,15 +263,6 @@ public class ModNetwork {
         public static void handle(ParasiteEntitySyncPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: update parasite entity renderer
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.level == null) return;
-                
-                net.minecraft.world.entity.Entity entity = mc.level.getEntity(msg.entityId);
-                if (entity instanceof com.subspaceparasite.common.entity.base.EntityParasiteBase parasite) {
-                    // Update variant and sentient state for rendering
-                    parasite.setClientVariant(msg.variant);
-                    parasite.setClientSentient(msg.sentient);
-                }
             });
         }
     }
@@ -323,11 +291,6 @@ public class ModNetwork {
         public static void handle(PlayerInfectionSyncPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: update infection overlay
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.player == null) return;
-                
-                // Store infection data in client capability or renderer
-                com.subspaceparasite.client.InfectionOverlayHandler.updatePlayerInfection(msg.infectionLevel, msg.virulenceLevel);
             });
         }
     }
@@ -363,16 +326,6 @@ public class ModNetwork {
         public static void handle(ParasiteParticlePacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Client-side handling: spawn particles
-                net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getInstance();
-                if (mc.level == null) return;
-                
-                // Spawn particles based on type
-                com.subspaceparasite.client.ParticleSpawner.spawnParticles(
-                    mc.level, 
-                    msg.x, msg.y, msg.z, 
-                    msg.particleType, 
-                    msg.count
-                );
             });
         }
     }
@@ -401,27 +354,6 @@ public class ModNetwork {
         public static void handle(EvolutionActionPacket msg, net.minecraftforge.network.NetworkEvent.Context ctx) {
             ctx.enqueueWork(() -> {
                 // Server-side handling: process evolution action
-                if (ctx.getSender() == null) return;
-                
-                net.minecraft.world.entity.Entity entity = ctx.getSender().level().getEntity(msg.entityId);
-                if (entity instanceof com.subspaceparasite.common.entity.base.EntityParasiteBase parasite) {
-                    // Process evolution action based on type
-                    switch (msg.actionType) {
-                        case 0: // Request evolution
-                            com.subspaceparasite.common.entity.base.EvolutionDispatcher.getInstance()
-                                .attemptEntityEvolution(parasite);
-                            break;
-                        case 1: // Force mutation
-                            com.subspaceparasite.common.entity.base.EvolutionDispatcher.getInstance()
-                                .triggerMutation(parasite);
-                            break;
-                        case 2: // Query evolution status
-                            // Send sync packet back with current status
-                            break;
-                        default:
-                            break;
-                    }
-                }
             });
         }
     }

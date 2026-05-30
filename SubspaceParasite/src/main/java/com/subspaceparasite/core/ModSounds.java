@@ -154,11 +154,43 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> ASSIMILATED_IDLE = register("entity.assimilated.idle");
     public static final RegistryObject<SoundEvent> ASSIMILATED_HURT = register("entity.assimilated.hurt");
     public static final RegistryObject<SoundEvent> ASSIMILATED_DEATH = register("entity.assimilated.death");
+    
+    // Specific assimilated variants
+    public static final RegistryObject<SoundEvent> ASSIMILATED_HUMAN_IDLE = register("entity.assimilated_human.idle");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_HUMAN_HURT = register("entity.assimilated_human.hurt");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_HUMAN_DEATH = register("entity.assimilated_human.death");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_HUMAN_ATTACK = register("entity.assimilated_human.attack");
+    
+    public static final RegistryObject<SoundEvent> ASSIMILATED_COW_IDLE = register("entity.assimilated_cow.idle");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_COW_HURT = register("entity.assimilated_cow.hurt");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_COW_DEATH = register("entity.assimilated_cow.death");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_COW_ATTACK = register("entity.assimilated_cow.attack");
+    
+    public static final RegistryObject<SoundEvent> ASSIMILATED_SHEEP_IDLE = register("entity.assimilated_sheep.idle");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_SHEEP_HURT = register("entity.assimilated_sheep.hurt");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_SHEEP_DEATH = register("entity.assimilated_sheep.death");
+    public static final RegistryObject<SoundEvent> ASSIMILATED_SHEEP_ATTACK = register("entity.assimilated_sheep.attack");
 
     // === Feral Sounds ===
     public static final RegistryObject<SoundEvent> FERAL_IDLE = register("entity.feral.idle");
     public static final RegistryObject<SoundEvent> FERAL_HURT = register("entity.feral.hurt");
     public static final RegistryObject<SoundEvent> FERAL_ATTACK = register("entity.feral.attack");
+    
+    // Specific feral variants
+    public static final RegistryObject<SoundEvent> FERAL_HUMAN_IDLE = register("entity.feral_human.idle");
+    public static final RegistryObject<SoundEvent> FERAL_HUMAN_HURT = register("entity.feral_human.hurt");
+    public static final RegistryObject<SoundEvent> FERAL_HUMAN_DEATH = register("entity.feral_human.death");
+    public static final RegistryObject<SoundEvent> FERAL_HUMAN_ATTACK = register("entity.feral_human.attack");
+    
+    public static final RegistryObject<SoundEvent> FERAL_COW_IDLE = register("entity.feral_cow.idle");
+    public static final RegistryObject<SoundEvent> FERAL_COW_HURT = register("entity.feral_cow.hurt");
+    public static final RegistryObject<SoundEvent> FERAL_COW_DEATH = register("entity.feral_cow.death");
+    public static final RegistryObject<SoundEvent> FERAL_COW_ATTACK = register("entity.feral_cow.attack");
+    
+    public static final RegistryObject<SoundEvent> FERAL_SHEEP_IDLE = register("entity.feral_sheep.idle");
+    public static final RegistryObject<SoundEvent> FERAL_SHEEP_HURT = register("entity.feral_sheep.hurt");
+    public static final RegistryObject<SoundEvent> FERAL_SHEEP_DEATH = register("entity.feral_sheep.death");
+    public static final RegistryObject<SoundEvent> FERAL_SHEEP_ATTACK = register("entity.feral_sheep.attack");
 
     // === Ancient Sounds ===
     public static final RegistryObject<SoundEvent> ANCIENT_IDLE = register("entity.ancient.idle");
