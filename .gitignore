@@ -1,28 +1,14 @@
 ```
-# Java/Minecraft project ignores
-*.class
-*.jar
-*.war
-*.ear
-*.nar
-target/
-build/
-
-# Dependencies
+# Gradle
 .gradle/
-libs/
-!libs/**
+build/
+target/
 
-# IDE specific
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
-*.tmp
-
-# System files
-.DS_Store
-Thumbs.db
 
 # Logs
 *.log
@@ -32,15 +18,16 @@ Thumbs.db
 .env.local
 *.env.*
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Package manager
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# System
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
 
 ```
