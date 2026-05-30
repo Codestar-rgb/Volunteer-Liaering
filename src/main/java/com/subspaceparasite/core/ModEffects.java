@@ -80,12 +80,19 @@ public class ModEffects {
     /** Coagulation - Blood clotting effect */
     public static final RegistryObject<MobEffect> COAGULATION = registerHarmful("coagulation", 0x7A0000);
 
-    // ── Evolution Effects ──
+    // ── Evolution Effects (With Custom Implementations) ──
     
-    public static final RegistryObject<MobEffect> EVOLUTION = registerNeutral("evolution", 0x3CB371);
-    public static final RegistryObject<MobEffect> ADAPTATION = registerBeneficial("adaptation", 0x2E8B57);
-    public static final RegistryObject<MobEffect> SENTIENCE = registerBeneficial("sentience", 0x9370DB);
-    public static final RegistryObject<MobEffect> DERIVATION = registerNeutral("derivation", 0x6A5ACD);
+    /** Evolution - Parasite evolutionary progress */
+    public static final RegistryObject<MobEffect> EVOLUTION = registerCustom("evolution", new EvolutionEffect());
+    
+    /** Adaptation - Environmental adaptation and resistance */
+    public static final RegistryObject<MobEffect> ADAPTATION = registerCustom("adaptation", new AdaptationEffect());
+    
+    /** Sentience - Advanced cognitive enhancement */
+    public static final RegistryObject<MobEffect> SENTIENCE = registerCustom("sentience", new SentienceEffect());
+    
+    /** Derivation - Branching evolution and specialization */
+    public static final RegistryObject<MobEffect> DERIVATION = registerCustom("derivation", new DerivationEffect());
 
     // ── Corruption Effects ──
     
@@ -98,10 +105,18 @@ public class ModEffects {
     
     /** Parasite Vitality - Enhanced health and regeneration */
     public static final RegistryObject<MobEffect> PARASITE_VITALITY = registerCustom("parasite_vitality", new ParasiteVitalityEffect());
-    public static final RegistryObject<MobEffect> PARASITE_RESISTANCE = registerBeneficial("parasite_resistance", 0xCD853F);
-    public static final RegistryObject<MobEffect> PARASITE_STRENGTH = registerBeneficial("parasite_strength", 0xDC143C);
-    public static final RegistryObject<MobEffect> PARASITE_SPEED = registerBeneficial("parasite_speed", 0xFF8C00);
-    public static final RegistryObject<MobEffect> PARASITE_REGENERATION = registerBeneficial("parasite_regeneration", 0xFF69B4);
+    
+    /** Parasite Resistance - Enhanced damage resistance */
+    public static final RegistryObject<MobEffect> PARASITE_RESISTANCE = registerCustom("parasite_resistance", new ParasiteResistanceEffect());
+    
+    /** Parasite Strength - Enhanced attack power */
+    public static final RegistryObject<MobEffect> PARASITE_STRENGTH = registerCustom("parasite_strength", new ParasiteStrengthEffect());
+    
+    /** Parasite Speed - Enhanced movement speed */
+    public static final RegistryObject<MobEffect> PARASITE_SPEED = registerCustom("parasite_speed", new ParasiteSpeedEffect());
+    
+    /** Parasite Regeneration - Enhanced healing */
+    public static final RegistryObject<MobEffect> PARASITE_REGENERATION = registerCustom("parasite_regeneration", new ParasiteRegenerationEffect());
 
     // ── Debuff Effects ──
     
@@ -137,8 +152,11 @@ public class ModEffects {
     /** Purge - Infection cleansing and immunity */
     public static final RegistryObject<MobEffect> PURGE = registerCustom("purge", new PurgeEffect());
     
-    public static final RegistryObject<MobEffect> IMMUNITY = registerBeneficial("immunity", 0x00CED1);
-    public static final RegistryObject<MobEffect> CLEANSING = registerBeneficial("cleansing", 0xE0FFFF);
+    /** Immunity - Complete protection against infection */
+    public static final RegistryObject<MobEffect> IMMUNITY = registerCustom("immunity", new ImmunityEffect());
+    
+    /** Cleansing - Continuous purification and resistance building */
+    public static final RegistryObject<MobEffect> CLEANSING = registerCustom("cleansing", new CleansingEffect());
 
     // ── Nexus Effects ──
     
