@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "subspaceparasite:block/infestedplank_slab"
+    },
+    "type=double": {
+      "model": "subspaceparasite:block/infestedplank"
+    },
+    "type=top": {
+      "model": "subspaceparasite:block/infestedplank_slab",
+      "x": 180
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "subspaceparasite:block/polishedinfestedstone_slab"
+    },
+    "type=double": {
+      "model": "subspaceparasite:block/polishedinfestedstone"
+    },
+    "type=top": {
+      "model": "subspaceparasite:block/polishedinfestedstone_slab",
+      "x": 180
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/gothplank",
+    "side": "subspaceparasite:block/gothplank",
+    "top": "subspaceparasite:block/gothplank"
+  }
+}

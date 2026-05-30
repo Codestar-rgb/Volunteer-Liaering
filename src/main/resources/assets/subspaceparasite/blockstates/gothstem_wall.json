@@ -1,0 +1,101 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall",
+        "uvlock": true
+      },
+      "when": {
+        "up": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "north": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "east": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "south": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "west": "low"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall_tall",
+        "uvlock": true
+      },
+      "when": {
+        "up": "false",
+        "north": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall_tall",
+        "uvlock": true,
+        "y": 90
+      },
+      "when": {
+        "up": "false",
+        "east": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall_tall",
+        "uvlock": true,
+        "y": 180
+      },
+      "when": {
+        "up": "false",
+        "south": "tall"
+      }
+    },
+    {
+      "apply": {
+        "model": "subspaceparasite:block/gothstem_wall_tall",
+        "uvlock": true,
+        "y": 270
+      },
+      "when": {
+        "up": "false",
+        "west": "tall"
+      }
+    }
+  ],
+  "variants": {
+    "": {
+      "model": "subspaceparasite:block/gothstem_wall"
+    }
+  }
+}
