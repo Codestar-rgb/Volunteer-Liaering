@@ -1,1 +1,19 @@
-(src/main/java/com/subspaceparasite/core/ModEntities.java)
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+# Dependencies
+lib/
+# Logs and temp files
+*.log
+*.tmp
+# System files
+.DS_Store
+Thumbs.db
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+```
