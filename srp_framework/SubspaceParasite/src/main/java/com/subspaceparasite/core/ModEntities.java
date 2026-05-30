@@ -3,6 +3,8 @@ package com.subspaceparasite.core;
 import com.subspaceparasite.common.entity.PlaceholderBlockEntity;
 import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.common.entity.base.EntityParasitePlaceholder;
+import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
+import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import net.minecraft.world.entity.EntityType;
@@ -175,6 +177,14 @@ public class ModEntities {
     // ================================================================
     // CRUDE ENTITIES
     // ================================================================
+    public static final RegistryObject<EntityType<EntityMovingFlesh>> CRUDE_MOVING_FLESH = ENTITIES.register("crude_moving_flesh", 
+        () -> EntityType.Builder.of(EntityMovingFlesh::new, MobCategory.MONSTER).sized(1.2F, 1.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_moving_flesh"));
+    public static final RegistryObject<EntityType<EntityWorker>> CRUDE_WORKER = ENTITIES.register("crude_worker", 
+        () -> EntityType.Builder.of(EntityWorker::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_worker"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_SCORCHER = mediumParasite("crudescorcher");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_MINDIM = mediumParasite("crudemindim");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_EGAS = mediumParasite("crudeegas");

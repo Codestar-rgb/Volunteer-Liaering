@@ -3,51 +3,49 @@
 *.class
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
 *.out
-build/
-target/
 
 # Dependencies
-.gradle/
+lib/
 libs/
+dependency/
+dependencies/
 
-# Logs and temp files
-*.log
-*.tmp
+# Build directories
+build/
+target/
+out/
+bin/
+obj/
 
-# Environment
-.env
-.env.local
-*.env.*
-
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
 *.swo
+*.tmp
+
+# Logs
+*.log
+
+# Package manager caches
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
 # System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# MyPy cache
-.mypy_cache/
-.pytest_cache/
-
-# Distribution archives
-*.jar
-*.war
-*.zip
-*.gz
-*.tar
-*.tgz
-*.bz2
-*.xz
-*.7z
-*.rar
+# Environment files
+.env
+.env.local
+*.env.*
 ```
