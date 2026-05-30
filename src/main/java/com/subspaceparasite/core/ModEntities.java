@@ -7,6 +7,7 @@ import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
 import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
+import com.subspaceparasite.common.entity.projectile.EntityOrbBase;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.block.Block;
@@ -319,6 +320,15 @@ public class ModEntities {
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PARASITE_WEB = projectile("parasiteweb");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> BECKON_BLAST = projectile("beckonblast");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> NEXUS_BEAM_ENTITY = projectile("nexusbeam");
+    
+    // Orb Projectiles (for Heblu, Kirin, etc.)
+    public static final RegistryObject<EntityType<EntityOrbBase>> PROJECTILE_ORB_SCARY = ENTITIES.register("projectile_orb_scary",
+            () -> EntityType.Builder.<EntityOrbBase>of(EntityOrbBase::new, MobCategory.MISC)
+                    .sized(0.5F, 0.5F)
+                    .setTrackingRange(128)
+                    .setUpdateInterval(1)
+                    .setShouldReceiveVelocityUpdates(true)
+                    .build(SubspaceParasite.MOD_ID + ":projectile_orb_scary"));
 
     // ================================================================
     // MISC ENTITIES
