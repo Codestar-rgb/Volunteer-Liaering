@@ -3,23 +3,29 @@
 *.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
+build/
+target/
+
 # Dependencies
-lib/
+.gradle/
 libs/
+lib/
+
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Editors
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
 # Environment
 .env
 .env.local
-.env.
-# Editors
-.vscode/
-.idea/
+*.env.*
 ```

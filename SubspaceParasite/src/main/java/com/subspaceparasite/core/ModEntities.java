@@ -7,6 +7,7 @@ import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
 import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
+import com.subspaceparasite.common.entity.monster.primitive.EntityNogla;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.level.block.Block;
@@ -200,7 +201,8 @@ public class ModEntities {
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_HULL = largeParasite("primitivehull");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_IKI = mediumParasite("primitiveiki");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_LUM = smallParasite("primitivelum");
-    public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_NOGLA = mediumParasite("primitivenogla");
+    public static final RegistryObject<EntityType<EntityNogla>> PRIMITIVE_NOGLA = ENTITIES.register("primitive_nogla",
+        () -> EntityType.Builder.of(EntityNogla::new, MobCategory.MONSTER).sized(1.0F, 2.4F).build(SubspaceParasite.MOD_ID + ":primitive_nogla"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_RANRAC = largeParasite("primeranrac");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_SHYCO = mediumParasite("primitiveshyco");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> PRIMITIVE_WYMO = smallParasite("primitivewymo");
