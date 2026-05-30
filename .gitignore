@@ -1,48 +1,33 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.jar
-*.war
-*.ear
+# Minecraft/Java development
+bin/
+gen/
+obj/
 
 # Dependencies
+libs/
+libraries/
+
+# Build system
 .gradle/
 build/
 target/
-dist/
-node_modules/
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE
+.idea/
+.vscode/
 *.swp
 *.swo
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
-# Editors
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# System
+# OS
 .DS_Store
 Thumbs.db
 
@@ -51,7 +36,11 @@ coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Temporary files
+*.tmp
+*.temp
+
+# Archives
 *.zip
 *.gz
 *.tar
@@ -70,4 +59,8 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
