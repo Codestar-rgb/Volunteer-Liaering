@@ -1691,6 +1691,12 @@ public abstract class EntityParasiteBase extends Monster
     /** Sets the cloaking level. */
     public void setCloakingLevel(float level) { this.cloakingLevel = Mth.clamp(level, 0.0F, 1.0F); }
 
+    /** Returns true if the entity is currently cloaking. */
+    public boolean isCloaking() { return getCloakingLevel() > 0.1F; }
+
+    /** Returns true if the entity is currently swelling. */
+    public boolean isSwelling() { return getSwellAmount() > 0.1F; }
+
     /** Returns true if this entity should render its glow layer. */
     public boolean hasGlow() {
         return hasGlowFlag || geneBooleans[GeneType.SPECIAL_MOVE.getIndex()];
