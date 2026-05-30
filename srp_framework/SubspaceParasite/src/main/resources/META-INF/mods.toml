@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"
+version="${file.jarVersion}"
+displayName="Scape and Run: Parasites"
+authors="Codestar"
+description='''
+Scape and Run: Parasites - A Minecraft mod that adds evolving parasitic creatures that adapt and grow stronger over time. This is the 1.20.1 Forge port of the original mod.
+'''
+logoFile="logo.png"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,48)"
+    ordering="NONE"
+    side="BOTH"
