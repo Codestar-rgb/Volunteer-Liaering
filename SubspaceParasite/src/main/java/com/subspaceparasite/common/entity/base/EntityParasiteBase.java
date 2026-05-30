@@ -1697,6 +1697,15 @@ public abstract class EntityParasiteBase extends Monster
     /** Returns true if the entity is currently swelling. */
     public boolean isSwelling() { return getSwellAmount() > 0.1F; }
 
+    /**
+     * Returns a custom texture ResourceLocation based on entity type and evolution phase.
+     * Subclasses should override this to provide specific textures.
+     * @return ResourceLocation of the texture, or null to use default
+     */
+    public ResourceLocation getCustomTexture() {
+        return null;
+    }
+
     /** Returns true if this entity should render its glow layer. */
     public boolean hasGlow() {
         return hasGlowFlag || geneBooleans[GeneType.SPECIAL_MOVE.getIndex()];
