@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/music_disc",
+  "textures": {
+    "layer0": "subspaceparasite:item/music_disc_evo"
+  }
+}
