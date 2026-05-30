@@ -222,6 +222,50 @@ public class ModEntities {
         () -> EntityType.Builder.of(EntityWorker::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
                 .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
                 .build(SubspaceParasite.MOD_ID + ":crude_worker"));
+    public static final RegistryObject<EntityType<EntityCruxA>> CRUDE_CRUX_A = ENTITIES.register("crude_crux_a",
+        () -> EntityType.Builder.of(EntityCruxA::new, MobCategory.MONSTER).sized(1.2F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_crux_a"));
+    public static final RegistryObject<EntityType<EntityCruxB>> CRUDE_CRUX_B = ENTITIES.register("crude_crux_b",
+        () -> EntityType.Builder.of(EntityCruxB::new, MobCategory.MONSTER).sized(1.2F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_crux_b"));
+    public static final RegistryObject<EntityType<EntityDone>> CRUDE_DONE = ENTITIES.register("crude_done",
+        () -> EntityType.Builder.of(EntityDone::new, MobCategory.MONSTER).sized(1.0F, 1.2F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_done"));
+    public static final RegistryObject<EntityType<EntityHeed>> CRUDE_HEED = ENTITIES.register("crude_heed",
+        () -> EntityType.Builder.of(EntityHeed::new, MobCategory.MONSTER).sized(0.8F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_heed"));
+    public static final RegistryObject<EntityType<EntityHost>> CRUDE_HOST = ENTITIES.register("crude_host",
+        () -> EntityType.Builder.of(EntityHost::new, MobCategory.MONSTER).sized(1.5F, 2.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_host"));
+    public static final RegistryObject<EntityType<EntityInhooM>> CRUDE_INHOO_M = ENTITIES.register("crude_inhoo_m",
+        () -> EntityType.Builder.of(EntityInhooM::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_inhoo_m"));
+    public static final RegistryObject<EntityType<EntityInhooS>> CRUDE_INHOO_S = ENTITIES.register("crude_inhoo_s",
+        () -> EntityType.Builder.of(EntityInhooS::new, MobCategory.MONSTER).sized(1.0F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_inhoo_s"));
+    public static final RegistryObject<EntityType<EntityLeer>> CRUDE_LEER = ENTITIES.register("crude_leer",
+        () -> EntityType.Builder.of(EntityLeer::new, MobCategory.MONSTER).sized(1.2F, 2.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_leer"));
+    public static final RegistryObject<EntityType<EntityLesh>> CRUDE_LESH = ENTITIES.register("crude_lesh",
+        () -> EntityType.Builder.of(EntityLesh::new, MobCategory.MONSTER).sized(1.0F, 1.2F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_lesh"));
+    public static final RegistryObject<EntityType<EntityMes>> CRUDE_MES = ENTITIES.register("crude_mes",
+        () -> EntityType.Builder.of(EntityMes::new, MobCategory.MONSTER).sized(0.8F, 1.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_mes"));
+    public static final RegistryObject<EntityType<EntityQuac>> CRUDE_QUAC = ENTITIES.register("crude_quac",
+        () -> EntityType.Builder.of(EntityQuac::new, MobCategory.MONSTER).sized(0.8F, 1.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":crude_quac"));
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_SCORCHER = mediumParasite("crudescorcher");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_MINDIM = mediumParasite("crudemindim");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> CRUDE_EGAS = mediumParasite("crudeegas");
