@@ -1,33 +1,43 @@
-```
-# Minecraft/Java development
-bin/
-gen/
-obj/
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.pyc
+__pycache__/
 
 # Dependencies
-libs/
-libraries/
-
-# Build system
+node_modules/
+venv/
+.venv/
+.mypy_cache/
+.pytest_cache/
+target/
 .gradle/
 build/
-target/
+dist/
 
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# OS
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
 .DS_Store
 Thumbs.db
 
@@ -36,11 +46,7 @@ coverage/
 htmlcov/
 .coverage
 
-# Temporary files
-*.tmp
-*.temp
-
-# Archives
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -63,4 +69,3 @@ htmlcov/
 *.tar.bz2
 *.tar.xz
 *.tar.zst
-```

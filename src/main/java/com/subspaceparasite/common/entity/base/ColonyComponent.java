@@ -3,10 +3,14 @@ package com.subspaceparasite.common.entity.base;
 import com.subspaceparasite.api.parasite.EvoPhase;
 import com.subspaceparasite.common.world.ModWorldData;
 import com.subspaceparasite.config.ModConfigSystems;
+import com.subspaceparasite.core.ModEntities;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.phys.AABB;
 
@@ -82,19 +86,140 @@ public class ColonyComponent {
         addColonyPoints(ModConfigSystems.getKillColonyPoints());
     }
 
-    protected void tickColonyLeader() {
-        int currentUnits = countColonyUnits();
-        if (colonyCenter != null) {
-            double distToCenter = parasite.blockPosition().distManhattan(colonyCenter);
-            if (distToCenter > colonyRadius * 2) {
-                parasite.getNavigation().moveTo(
-                        colonyCenter.getX() + 0.5, colonyCenter.getY(), colonyCenter.getZ() + 0.5, 1.0);
-            }
+    /**
+     * Called when a colony member makes a kill.
+     * Contributes points to the colony leader's pool.
+     */
+    public void onMemberKill(LivingEntity victim) {
+        if (!isColonyLeader) return;
+        
+        double basePoints = ModConfigSystems.getKillColonyPoints() * 0.5;
+        float phaseMult = 1.0F + parasite.getPhaseCreated().getPhaseNumber() * 0.2F;
+        
+        // Bonus for valuable targets
+        if (victim instanceof Player) {
+            basePoints *= 3.0;
+        } else if (victim.getMaxHealth() > 20.0F) {
+            basePoints *= 1.5;
         }
+        
+        addColonyPoints(basePoints * phaseMult);
+    }
+
+    protected void tickColonyLeader() {
+        if (colonyCenter == null) return;
+        
+        int currentUnits = countColonyUnits();
+        
+        // Leader returns to colony center if too far
+        double distToCenter = parasite.blockPosition().distManhattan(colonyCenter);
+        if (distToCenter > colonyRadius * 2) {
+            parasite.getNavigation().moveTo(
+                    colonyCenter.getX() + 0.5, colonyCenter.getY(), colonyCenter.getZ() + 0.5, 1.0);
+        }
+        
+        // Update world data with colony status
         if (parasite.level() instanceof ServerLevel serverLevel) {
             ModWorldData worldData = ModWorldData.get(serverLevel);
-            worldData.updateColonyData(colonyCenter, currentUnits, isColonyLeader);
+            worldData.updateColonyData(colonyCenter, currentUnits, true);
         }
+        
+        // Attempt to spawn colony units if eligible
+        if (isEligibleToSpawn() && parasite.srpTicks % 100 == 0) {
+            attemptSpawnColonyUnit();
+        }
+    }
+
+    /**
+     * Attempts to spawn a new colony unit near the colony center.
+     */
+    protected void attemptSpawnColonyUnit() {
+        if (!isEligibleToSpawn() || colonyCenter == null) return;
+        if (!(parasite.level() instanceof ServerLevel serverLevel)) return;
+
+        BlockPos spawnPos = findUnitSpawnPos();
+        if (spawnPos == null) return;
+
+        // Spawn a crude parasite (Worker or MovingFlesh) based on phase
+        EntityParasiteBase unit = createColonyUnit(serverLevel);
+        if (unit != null) {
+            unit.moveTo(spawnPos.getX() + 0.5, spawnPos.getY(), spawnPos.getZ() + 0.5, 
+                       parasite.getYRot(), 0);
+            unit.setColonySpawned(true);
+            unit.setOwner(parasite);
+            
+            // Inherit phase from leader
+            unit.setPhaseCreated(parasite.getPhaseCreated());
+            
+            serverLevel.addFreshEntity(unit);
+            
+            // Reset spawn cooldown
+            spawnCooldown = SPAWN_COOLDOWN_TICKS;
+            
+            // Deduct points for spawning
+            colonyPoints -= colonyPointThreshold * 0.3;
+        }
+    }
+
+    /**
+     * Finds a valid spawn position for a colony unit.
+     */
+    protected BlockPos findUnitSpawnPos() {
+        if (colonyCenter == null) return null;
+        
+        for (int attempt = 0; attempt < 8; attempt++) {
+            int dx = parasite.getRandom().nextInt(colonyRadius * 2) - colonyRadius;
+            int dz = parasite.getRandom().nextInt(colonyRadius * 2) - colonyRadius;
+            BlockPos candidate = colonyCenter.offset(dx, 0, dz);
+            candidate = parasite.level().getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, candidate);
+            
+            // Check if position is valid for spawning
+            if (parasite.level().getBlockState(candidate.below()).isSolidRender(
+                    parasite.level(), candidate.below()) &&
+                parasite.level().getBlockState(candidate).isAir() &&
+                parasite.level().getBlockState(candidate.above()).isAir()) {
+                
+                // Check distance from other parasites to avoid overcrowding
+                AABB checkArea = new AABB(
+                    candidate.offset(-2, -1, -2),
+                    candidate.offset(2, 2, 2)
+                );
+                List<EntityParasiteBase> nearby = parasite.level().getEntitiesOfClass(
+                    EntityParasiteBase.class, checkArea, Entity::isAlive);
+                
+                if (nearby.size() < 3) {
+                    return candidate;
+                }
+            }
+        }
+        return null;
+    }
+
+    /**
+     * Creates a colony unit entity based on the leader's phase.
+     */
+    protected EntityParasiteBase createColonyUnit(ServerLevel level) {
+        EvoPhase phase = parasite.getPhaseCreated();
+        
+        // Spawn appropriate crude parasite based on evolution phase
+        // Phase 0-1: MovingFlesh or Worker
+        // Phase 2-3: Hull or Iki
+        // Phase 4+: Emana or Canra
+        
+        EntityType<? extends EntityParasiteBase> unitType = switch (phase.getPhaseNumber()) {
+            case 0, 1 -> ModEntities.CRUDE_MOVING_FLESH.isPresent() ? 
+                ModEntities.CRUDE_MOVING_FLESH.get() : null;
+            case 2, 3 -> ModEntities.PRIMITIVE_HULL.isPresent() ? 
+                ModEntities.PRIMITIVE_HULL.get() : null;
+            default -> ModEntities.PRIMITIVE_EMANA.isPresent() ? 
+                ModEntities.PRIMITIVE_EMANA.get() : null;
+        };
+        
+        if (unitType == null) {
+            return null;
+        }
+        
+        return unitType.create(level);
     }
 
     protected int countColonyUnits() {
