@@ -1,229 +1,250 @@
 package com.subspaceparasite.common.entity.monster.infected;
 
-import com.subspaceparasite.api.capability.component.CombatComponent;
-import com.subspaceparasite.api.capability.component.EvolutionComponent;
-import com.subspaceparasite.api.capability.component.InfectionComponent;
-import com.subspaceparasite.api.entity.IParasiteEntity;
-import com.subspaceparasite.api.entity.ParasiteType;
-import com.subspaceparasite.api.enums.EvoPhase;
-import com.subspaceparasite.common.ai.AIParasiteAttack;
-import com.subspaceparasite.common.ai.AIParasiteFollowOwner;
-import com.subspaceparasite.common.ai.AIParasiteLookAtEntity;
-import com.subspaceparasite.common.ai.AIParasiteRandomStroll;
-import com.subspaceparasite.common.entity.monster.EntityParasiteBase;
-import com.subspaceparasite.registry.ModSounds;
+import com.subspaceparasite.api.parasite.EvoPhase;
+import com.subspaceparasite.api.parasite.ParasiteType;
+import com.subspaceparasite.common.entity.base.EntityParasiteBase;
+import com.subspaceparasite.core.ModSounds;
+
 import net.minecraft.core.BlockPos;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.network.syncher.EntityDataAccessor;
+import net.minecraft.network.syncher.EntityDataSerializers;
+import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.entity.*;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.entity.ai.goal.*;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
+import net.minecraft.world.entity.animal.AbstractGolem;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.animal.Sheep;
 import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.ServerLevelAccessor;
-import net.minecraft.world.level.block.state.BlockState;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
 
 /**
- * EntityInfectedSheep - 基础感染者羊
- * 
- * 特性：
- * - 被寄生虫感染的羊转化而来
- * - 保留羊的体型特征，但行为完全受寄生虫控制
- * - 移动速度中等，血量较低，群体出现
- * - 死亡时传播感染给附近生物
- * 
- * @author SubspaceParasite Team
- * @version 1.20.1
+ * EntityInfectedSheep - Infected sheep entity.
+ * <p>
+ * Former sheep transformed by the parasite. Loses wool but gains
+ * aggressive behavior and infection spreading capabilities.
+ * <p>
+ * Stats:
+ * - Health: 24.0
+ * - Attack Damage: 3.5
+ * - Speed: 0.26
+ * - Armor: 2.0
  */
-public class EntityInfectedSheep extends EntityParasiteBase implements IParasiteEntity {
+public class EntityInfectedSheep extends EntityParasiteBase {
+
+    private static final EntityDataAccessor<Integer> INFECTION_PROGRESS =
+            SynchedEntityData.defineId(EntityInfectedSheep.class, EntityDataSerializers.INT);
     
-    // ==================== 常量定义 ====================
-    
-    private static final float BASE_HEALTH = 16.0f;
-    private static final float ATTACK_DAMAGE = 2.5f;
-    private static final float MOVEMENT_SPEED = 0.23f;
-    private static final float FOLLOW_RANGE = 16.0f;
-    private static final float ARMOR = 1.0f;
-    private static final float KNOCKBACK_RESISTANCE = 0.08f;
-    
-    private static final int XP_VALUE = 4;
-    private static final int MAX_INFECTED_ON_DEATH = 3;
-    private static final float INFECTION_RADIUS = 5.0f;
-    
-    // ==================== 构造函数 ====================
-    
-    public EntityInfectedSheep(EntityType<? extends EntityParasiteBase> entityType, Level level) {
-        super(entityType, level);
-        this.setPhase(EvoPhase.INFECTED);
-        this.setParasiteType(ParasiteType.INF_SHEEP);
-        this.xpValue = XP_VALUE;
+    private static final EntityDataAccessor<Boolean> HAS_LOST_WOOL =
+            SynchedEntityData.defineId(EntityInfectedSheep.class, EntityDataSerializers.BOOLEAN);
+
+    private static final double BASE_HEALTH = 24.0;
+    private static final double BASE_ATTACK_DAMAGE = 3.5;
+    private static final double BASE_SPEED = 0.26;
+    private static final double BASE_ARMOR = 2.0;
+
+    public EntityInfectedSheep(EntityType<? extends EntityInfectedSheep> type, Level world) {
+        super(type, world);
+        this.setCanPickUpLoot(false);
+        this.xpReward = 5;
     }
-    
-    // ==================== AI 行为注册 ====================
-    
+
     @Override
     protected void registerGoals() {
         super.registerGoals();
         
-        // 目标选择器（攻击优先级）
-        this.targetSelector.addGoal(1, new HurtByTargetGoal(this).setAlertOthers());
-        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
-        this.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(this, Animal.class, true));
-        this.targetSelector.addGoal(4, new NearestAttackableTargetGoal<>(this, Monster.class, false));
+        this.goalSelector.addGoal(0, new FloatGoal(this));
+        this.goalSelector.addGoal(1, new MeleeAttackGoal(this, BASE_SPEED, true));
+        this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.75));
+        this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Player.class, 8.0f));
+        this.goalSelector.addGoal(3, new LookAtPlayerGoal(this, Animal.class, 8.0f));
         
-        // 任务选择器（行为模式）
-        this.goalSelector.addGoal(1, new AIParasiteAttack(this, 1.1, true));
-        this.goalSelector.addGoal(2, new AIParasiteFollowOwner(this, 1.0, 10.0F, 5.0F));
-        this.goalSelector.addGoal(3, new AIParasiteLookAtEntity(this, Player.class, 8.0F));
-        this.goalSelector.addGoal(4, new AIParasiteRandomStroll(this, 1.0));
-        this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1.0));
-        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 8.0F));
-        this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+        this.targetSelector.addGoal(1, new HurtByTargetGoal(this));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Player.class, true));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Animal.class, true));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, AbstractGolem.class, true));
+        this.targetSelector.addGoal(2, new NearestAttackableTargetGoal<>(this, Sheep.class, true));
     }
-    
-    // ==================== 属性配置 ====================
-    
-    public static AttributeSupplier.Builder createAttributes() {
-        return Mob.createMobAttributes()
-            .add(Attributes.MAX_HEALTH, BASE_HEALTH)
-            .add(Attributes.MOVEMENT_SPEED, MOVEMENT_SPEED)
-            .add(Attributes.ATTACK_DAMAGE, ATTACK_DAMAGE)
-            .add(Attributes.FOLLOW_RANGE, FOLLOW_RANGE)
-            .add(Attributes.ARMOR, ARMOR)
-            .add(Attributes.KNOCKBACK_RESISTANCE, KNOCKBACK_RESISTANCE);
-    }
-    
-    // ==================== 音效系统 ====================
-    
+
     @Override
-    protected @Nullable SoundEvent getAmbientSound() {
-        return ModSounds.SUBSRP_ENTITY_INFECTED_SHEEP_AMBIENT.get();
+    protected void defineSynchedData() {
+        super.defineSynchedData();
+        this.entityData.define(INFECTION_PROGRESS, 0);
+        this.entityData.define(HAS_LOST_WOOL, true); // Infected sheep lose their wool
     }
-    
+
     @Override
-    protected @Nullable SoundEvent getHurtSound(@NotNull DamageSource damageSource) {
-        return ModSounds.SUBSRP_ENTITY_INFECTED_SHEEP_HURT.get();
+    public void addAdditionalSaveData(CompoundTag compound) {
+        super.addAdditionalSaveData(compound);
+        compound.putInt("InfectionProgress", this.getInfectionProgress());
+        compound.putBoolean("HasLostWool", this.hasLostWool());
     }
-    
+
     @Override
-    protected @Nullable SoundEvent getDeathSound() {
-        return ModSounds.SUBSRP_ENTITY_INFECTED_SHEEP_DEATH.get();
+    public void readAdditionalSaveData(CompoundTag compound) {
+        super.readAdditionalSaveData(compound);
+        this.setInfectionProgress(compound.getInt("InfectionProgress"));
+        this.setHasLostWool(compound.getBoolean("HasLostWool"));
     }
-    
-    // ==================== 环境交互 ====================
-    
-    @Override
-    protected void checkFallDamage(double y, boolean onGround, @NotNull BlockState state, @NotNull BlockPos pos) {
-        // 感染者羊有羊毛缓冲，减免少量跌落伤害
-        if (y > 4.0) {
-            y = y * 0.7;
-        }
-        super.checkFallDamage(y, onGround, state, pos);
-    }
-    
-    @Override
-    public boolean canBreatheUnderwater() {
-        return false; // 羊型感染者不能在水下呼吸
-    }
-    
-    @Override
-    public boolean isPushedByFluid() {
-        return true; // 可被流体推动
-    }
-    
-    // ==================== 感染传播机制 ====================
-    
-    @Override
-    public void die(@NotNull DamageSource damageSource) {
-        if (!this.level().isClientSide()) {
-            // 死亡时传播感染
-            this.spreadInfectionOnDeath();
-        }
-        super.die(damageSource);
-    }
-    
-    /**
-     * 死亡时传播感染给附近生物
-     */
-    private void spreadInfectionOnDeath() {
-        InfectionComponent infectionComponent = this.getInfectionComponent();
-        if (infectionComponent != null) {
-            infectionComponent.spreadInfection(this.level(), this.blockPosition(), INFECTION_RADIUS, MAX_INFECTED_ON_DEATH);
-        }
-    }
-    
-    // ==================== 组件访问器 ====================
-    
-    @Override
-    public CombatComponent getCombatComponent() {
-        return this.getCapability(CombatComponent.CAPABILITY).orElse(null);
-    }
-    
-    @Override
-    public EvolutionComponent getEvolutionComponent() {
-        return this.getCapability(EvolutionComponent.CAPABILITY).orElse(null);
-    }
-    
-    @Override
-    public InfectionComponent getInfectionComponent() {
-        return this.getCapability(InfectionComponent.CAPABILITY).orElse(null);
-    }
-    
-    // ==================== 寄生特性 ====================
-    
-    @Override
-    public boolean isParasite() {
-        return true;
-    }
-    
-    @Override
-    public boolean canBeInfected() {
-        return false; // 已经是感染者，不再被感染
-    }
-    
-    @Override
-    public boolean shouldDropLoot() {
-        return false; // 感染者不掉落原版物品
-    }
-    
-    // ==================== 繁殖与生成 ====================
-    
-    @Override
-    public boolean canSpawn(ServerLevelAccessor level, SpawnReason spawnReason) {
-        return true; // 可在任何维度生成
-    }
-    
-    @Override
-    public CheckSpawnResult checkSpawnRules(ServerLevelAccessor level, SpawnReason spawnReason) {
-        return CheckSpawnResult.SUCCESS;
-    }
-    
-    @Override
-    public boolean checkSpawnObstruction(ServerLevelAccessor level) {
-        return level.isUnobstructed(this);
-    }
-    
-    // ==================== 其他方法 ====================
-    
-    @Override
-    protected void customServerAiStep() {
-        super.customServerAiStep();
-    }
-    
-    @Override
-    public void aiStep() {
-        super.aiStep();
-    }
-    
+
     @Override
     public void tick() {
         super.tick();
+        
+        if (!this.level().isClientSide) {
+            this.updateInfectionProgress();
+            this.checkEvolution();
+        }
+    }
+
+    private void updateInfectionProgress() {
+        int progress = this.getInfectionProgress();
+        if (progress < 100) {
+            this.setInfectionProgress(progress + 1);
+        }
+    }
+
+    private void checkEvolution() {
+        if (this.getKillCount() >= 5 || this.tickCount >= 12000) {
+            this.triggerEvolution();
+        }
+    }
+
+    private void triggerEvolution() {
+        if (this.level().isClientSide) return;
+        
+        this.level().levelEvent(null, 1038, this.blockPosition(), 0);
+        
+        if (!this.level().isClientSide) {
+            ((net.minecraft.server.level.ServerLevel)this.level()).sendParticles(
+                net.minecraft.core.particles.ParticleTypes.END_ROD,
+                this.getX(), this.getY() + 1.0, this.getZ(),
+                50, 0.5, 1.0, 0.5, 0.1
+            );
+        }
+    }
+
+    @Override
+    public boolean doHurtTarget(net.minecraft.world.entity.Entity target) {
+        boolean result = super.doHurtTarget(target);
+        
+        if (result && target instanceof net.minecraft.world.entity.LivingEntity living) {
+            this.attemptInfect(living);
+            this.playSound(ModSounds.INFECTED_ATTACK.get(), 1.0f, 1.1f);
+        }
+        
+        return result;
+    }
+
+    private void attemptInfect(net.minecraft.world.entity.LivingEntity target) {
+        if (target instanceof EntityParasiteBase) return;
+        
+        var infectionComponent = this.getInfectionComponent();
+        if (infectionComponent != null) {
+            infectionComponent.applyInfection(target, 0.3f);
+        }
+    }
+
+    @Override
+    protected SoundEvent getAmbientSound() {
+        return ModSounds.INFECTED_SHEEP_IDLE.get();
+    }
+
+    @Override
+    protected SoundEvent getHurtSound(DamageSource source) {
+        return ModSounds.INFECTED_SHEEP_HURT.get();
+    }
+
+    @Override
+    protected SoundEvent getDeathSound() {
+        return ModSounds.INFECTED_SHEEP_DEATH.get();
+    }
+
+    @Override
+    protected void playStepSound(BlockPos pos, net.minecraft.world.level.block.state.BlockState block) {
+        this.playSound(ModSounds.PARASITE_STEP.get(), 0.15f, 1.0f);
+    }
+
+    @Override
+    public ParasiteType getParasiteType() {
+        return ParasiteType.INFECTED;
+    }
+
+    @Override
+    public EvoPhase getEvoPhase() {
+        return EvoPhase.INFECTED;
+    }
+
+    @Override
+    public boolean canEvolve() {
+        return true;
+    }
+
+    @Override
+    public boolean shouldBurnInSun() {
+        return false;
+    }
+
+    @Override
+    public boolean checkSpawnRules(ServerLevelAccessor world, MobSpawnType spawnReason) {
+        return true;
+    }
+
+    @Override
+    public boolean checkSpawnObstruction(ServerLevelAccessor world) {
+        return world.isUnobstructed(this);
+    }
+
+    @Override
+    public void finalizeSpawn(ServerLevelAccessor world, DifficultyInstance difficulty,
+                              MobSpawnType reason, net.minecraft.world.entity.SpawnGroupData spawnData,
+                              CompoundTag dataTag) {
+        super.finalizeSpawn(world, difficulty, reason, spawnData, dataTag);
+        
+        this.getAttribute(Attributes.MAX_HEALTH).setBaseValue(BASE_HEALTH);
+        this.getAttribute(Attributes.ATTACK_DAMAGE).setBaseValue(BASE_ATTACK_DAMAGE);
+        this.getAttribute(Attributes.MOVEMENT_SPEED).setBaseValue(BASE_SPEED);
+        this.getAttribute(Attributes.ARMOR).setBaseValue(BASE_ARMOR);
+        
+        this.setHealth(this.getMaxHealth());
+    }
+
+    public int getInfectionProgress() {
+        return this.entityData.get(INFECTION_PROGRESS);
+    }
+
+    public void setInfectionProgress(int progress) {
+        this.entityData.set(INFECTION_PROGRESS, progress);
+    }
+
+    public boolean hasLostWool() {
+        return this.entityData.get(HAS_LOST_WOOL);
+    }
+
+    public void setHasLostWool(boolean lost) {
+        this.entityData.set(HAS_LOST_WOOL, lost);
+    }
+
+    public static AttributeSupplier.Builder createAttributes() {
+        return Monster.createMonsterAttributes()
+                .add(Attributes.MAX_HEALTH, BASE_HEALTH)
+                .add(Attributes.ATTACK_DAMAGE, BASE_ATTACK_DAMAGE)
+                .add(Attributes.MOVEMENT_SPEED, BASE_SPEED)
+                .add(Attributes.ARMOR, BASE_ARMOR)
+                .add(Attributes.FOLLOW_RANGE, 30.0)
+                .add(Attributes.KNOCKBACK_RESISTANCE, 0.1);
     }
 }

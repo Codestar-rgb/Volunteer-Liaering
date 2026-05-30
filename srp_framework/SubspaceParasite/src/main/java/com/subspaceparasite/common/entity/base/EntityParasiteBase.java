@@ -943,6 +943,29 @@ public abstract class EntityParasiteBase extends Monster
         this.skinVariant = variant;
         this.entityData.set(DATA_SKIN, variant);
     }
+    
+    /**
+     * Set client-side variant (called from network packet)
+     */
+    public void setClientVariant(int variant) {
+        this.skinVariant = (byte) variant;
+        this.entityData.set(DATA_SKIN, (byte) variant);
+    }
+    
+    /**
+     * Set client-side sentient state (called from network packet)
+     */
+    public void setClientSentient(boolean sentient) {
+        // Use parasiteStatus bit to track sentient state on client
+        byte current = this.entityData.get(DATA_STATUS);
+        if (sentient) {
+            current |= 0x08; // Set bit 3 for sentient
+        } else {
+            current &= ~0x08; // Clear bit 3
+        }
+        this.entityData.set(DATA_STATUS, current);
+        this.parasiteStatus = current;
+    }
 
     /** Returns whether this entity is in a cold biome (from synced data). */
     public boolean isColdBiome() { return this.entityData.get(DATA_COLD); }
