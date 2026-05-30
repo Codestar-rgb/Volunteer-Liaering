@@ -44,6 +44,8 @@ public enum GeneType {
     CRUDE_SCORCHER("crude_scorcher", "Crude Scorcher"),
     CRUDE_MINDIM("crude_mindim", "Crude Mindim"),
     CRUDE_EGAS("crude_egas", "Crude Egas"),
+    CRUDE_MOVING_FLESH("crude_moving_flesh", "Moving Flesh"),
+    CRUDE_WORKER("crude_worker", "Worker"),
     
     // ==================== 野生型基因 ====================
     FERAL_CREEPER("feral_creeper", "Feral Creeper"),
