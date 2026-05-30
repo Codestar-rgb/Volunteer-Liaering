@@ -6,9 +6,12 @@ import com.subspaceparasite.common.entity.base.EntityParasiteBase;
 import com.subspaceparasite.core.ModSounds;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -16,8 +19,8 @@ import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ServerLevelAccessor;
 import net.minecraft.world.level.block.state.BlockState;
 
 /**
@@ -32,9 +35,10 @@ import net.minecraft.world.level.block.state.BlockState;
  * - Speed: 0.22 (slow but stealthy)
  * <p>
  * Behavior:
- * - Camouflages as blocks when idle
+ * - Camouflages as blocks when idle or stationary
+ * - Becomes invisible and gains damage resistance while camouflaged
  * - Ambush predator that attacks when targets approach
- * - Moderate health with high damage output
+ * - Breaks camouflage when moving or attacking
  * - Spreads infection on death
  */
 public class EntityShyco extends EntityParasiteBase {
@@ -44,9 +48,10 @@ public class EntityShyco extends EntityParasiteBase {
     private static final double BASE_SPEED = 0.22;
     
     // Camouflage state
-    private boolean isCamouflaged = false;
     private int camouflageTimer = 0;
-    private static final int CAMOUFLAGE_DELAY = 60; // 3 seconds to camouflage
+    private boolean isCamouflaged = false;
+    private static final int CAMOUFLAGE_DELAY = 100; // 5 seconds to fully camouflage
+    private static final int CAMOUFLAGE_BREAK_TIME = 20; // Time before can re-camouflage after breaking
     
     public EntityShyco(EntityType<? extends EntityShyco> type, Level world) {
         super(type, world);
@@ -84,7 +89,7 @@ public class EntityShyco extends EntityParasiteBase {
 
     @Override
     protected void playStepSound(BlockPos pos, BlockState blockIn) {
-        // Minimal sound when camouflaged
+        // No footstep sounds when camouflaged
         if (!this.isCamouflaged) {
             super.playStepSound(pos, blockIn);
         }
@@ -101,22 +106,62 @@ public class EntityShyco extends EntityParasiteBase {
         
         if (!this.level().isClientSide()) {
             // Handle camouflage logic
-            if (this.getTarget() == null && !this.isCamouflaged) {
+            if (this.getTarget() == null && this.getDeltaMovement().lengthSqr() < 0.01 && !this.isCamouflaged) {
                 camouflageTimer++;
                 if (camouflageTimer >= CAMOUFLAGE_DELAY) {
                     this.isCamouflaged = true;
+                    this.setInvisible(true);
+                    // Spawn camouflage particles
+                    ((Level)this.level()).sendParticles(ParticleTypes.SMOKE,
+                        this.getX(), this.getY() + 0.5, this.getZ(),
+                        10, 0.3, 0.3, 0.3, 0.02);
                 }
+            } else if (this.getTarget() != null || this.getDeltaMovement().lengthSqr() > 0.01) {
+                if (this.isCamouflaged) {
+                    this.isCamouflaged = false;
+                    this.setInvisible(false);
+                    camouflageTimer = -CAMOUFLAGE_BREAK_TIME; // Cooldown before can re-camouflage
+                    // Spawn decamouflage particles
+                    ((Level)this.level()).sendParticles(ParticleTypes.SMOKE,
+                        this.getX(), this.getY() + 0.5, this.getZ(),
+                        15, 0.5, 0.5, 0.5, 0.05);
+                } else {
+                    camouflageTimer = Math.max(-CAMOUFLAGE_BREAK_TIME, camouflageTimer - 1);
+                }
+            }
+            
+            // Damage resistance while camouflaged
+            if (this.isCamouflaged) {
+                this.setAttributeValue(Attributes.ARMOR, 10.0);
             } else {
-                this.isCamouflaged = false;
-                camouflageTimer = 0;
+                this.setAttributeValue(Attributes.ARMOR, 2.0);
             }
         }
+    }
+
+    @Override
+    public boolean hurt(DamageSource source) {
+        // Break camouflage when hurt
+        if (this.isCamouflaged && !this.level().isClientSide()) {
+            this.isCamouflaged = false;
+            this.setInvisible(false);
+            camouflageTimer = -CAMOUFLAGE_BREAK_TIME;
+            // Spawn decamouflage particles
+            ((Level)this.level()).sendParticles(ParticleTypes.SMOKE,
+                this.getX(), this.getY() + 0.5, this.getZ(),
+                20, 0.5, 0.5, 0.5, 0.1);
+        }
+        return super.hurt(source);
     }
 
     @Override
     public void die(DamageSource source) {
         if (!this.level().isClientSide()) {
             this.spreadInfectionOnDeath(5.0, 2);
+            // Spawn extra particles on death
+            ((Level)this.level()).sendParticles(ParticleTypes.SMOKE,
+                this.getX(), this.getY(), this.getZ(),
+                20, 0.5, 0.5, 0.5, 0.1);
         }
         super.die(source);
     }
@@ -135,9 +180,12 @@ public class EntityShyco extends EntityParasiteBase {
     }
 
     /**
-     * Get camouflage progress (0-100)
+     * Get camouflage progress (0-100), negative means cooldown
      */
     public int getCamouflageProgress() {
+        if (camouflageTimer < 0) {
+            return -1; // In cooldown
+        }
         return (int)((float)camouflageTimer / CAMOUFLAGE_DELAY * 100.0F);
     }
 
@@ -147,7 +195,8 @@ public class EntityShyco extends EntityParasiteBase {
             .add(Attributes.MAX_HEALTH, BASE_HEALTH)
             .add(Attributes.MOVEMENT_SPEED, BASE_SPEED)
             .add(Attributes.ATTACK_DAMAGE, BASE_ATTACK_DAMAGE)
-            .add(Attributes.KNOCKBACK_RESISTANCE, 0.4);
+            .add(Attributes.KNOCKBACK_RESISTANCE, 0.4)
+            .add(Attributes.ARMOR, 2.0);
     }
 
     @Override
