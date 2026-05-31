@@ -14,6 +14,7 @@ import com.subspaceparasite.core.ModEntities;
 import com.subspaceparasite.core.ModFeatures;
 import com.subspaceparasite.core.ModFluids;
 import com.subspaceparasite.core.ModItems;
+import com.subspaceparasite.core.ModMenuTypes;
 import com.subspaceparasite.core.ModParticleTypes;
 import com.subspaceparasite.core.ModSounds;
 import com.subspaceparasite.network.ModNetwork;
@@ -53,7 +54,7 @@ public class SubspaceParasite {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModEntities.ENTITIES.register(modEventBus);
-        ModEntities.BLOCK_ENTITIES.register(modEventBus);
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
         ModEffects.EFFECTS.register(modEventBus);
         ModFluids.FLUIDS.register(modEventBus);
         ModFluids.FLUID_TYPES.register(modEventBus);
@@ -62,6 +63,7 @@ public class SubspaceParasite {
         ModFeatures.FEATURES.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         ModParticleTypes.PARTICLE_TYPES.register(modEventBus);
+        ModMenuTypes.MENU_TYPES.register(modEventBus);
 
         // Register mod lifecycle event listeners
         modEventBus.addListener(this::commonSetup);

@@ -156,5 +156,8 @@
   "item.subspaceparasite.spawneiggderived1": "Derived Heblu Spawn Egg",
   "item.subspaceparasite.spawneiggderived2": "Derived Kirin Spawn Egg",
   "item.subspaceparasite.spawneiggabomination1": "Abomination Amalgam Spawn Egg",
-  "item.subspaceparasite.spawneiggabomination2": "Abomination Chimera Spawn Egg"
+  "block.subspaceparasite.alveolar_fluid": "Alveolar Fluid",
+  "item.subspaceparasite.alveolar_fluid_bucket": "Alveolar Fluid Bucket",
+  "block.subspaceparasite.infuser_furnace": "Infuser Furnace",
+  "container.subspaceparasite.infuser_furnace": "Infuser Furnace"
 }

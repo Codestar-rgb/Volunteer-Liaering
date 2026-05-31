@@ -8,26 +8,65 @@
 *.so
 *.a
 *.out
-# Dependencies
-venv/
-.venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+build/
 target/
+
+# Dependencies
 .gradle/
+libs/
+!libs/**/ # Allow specific library files if needed
+
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-# Environment
-.env
-.env.local
-*.env.*
+
 # Editors
 .vscode/
 .idea/
-# Build directories
-build/
-dist/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+.coverage
+
+# Package manager caches
+node_modules/
+__pycache__/
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+.dist/
+eggs/
+.eggs/
+sdist/
+bdist/
+develop-eggs/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+.tox/
+.hypothesis/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 ```
