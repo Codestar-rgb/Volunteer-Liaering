@@ -1,6 +1,9 @@
 package com.subspaceparasite.core;
 
 import com.subspaceparasite.SubspaceParasite;
+import com.subspaceparasite.common.item.ItemBough;
+import com.subspaceparasite.common.item.ItemThornshadeBerry;
+import com.subspaceparasite.common.item.ItemThornshadeDecanter;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -494,6 +497,32 @@ public class ModItems {
             () -> new SpawnEggItem(ModEntities.ABOMINATION_AMALGAM.get(), 0x4A0E0E, 0x8B0000, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ABOMINATION_2 = ITEMS.register("spawneiggabomination2",
             () -> new SpawnEggItem(ModEntities.ABOMINATION_CHIMERA.get(), 0x4A0E0E, 0x9B1010, new Item.Properties()));
+
+    // ================================================================
+    // SPECIAL ITEMS (added via displayItems)
+    // ================================================================
+    // Thornshade Decanter - gives Thorns effect for 400 ticks (20 seconds)
+    public static final RegistryObject<Item> THORNSHADE_DECANTER = ITEMS.register("thornshade_decanter",
+            () -> new ItemThornshadeDecanter());
+    
+    // Bough - special tool for spreading thornshade
+    public static final RegistryObject<Item> BOUGH = ITEMS.register("bough",
+            () -> new ItemBough());
+    
+    // Thornshade Berry - edible item with negative effects
+    public static final RegistryObject<Item> THORNSHADE_BERRY = ITEMS.register("thornshade_berry",
+            () -> new ItemThornshadeBerry());
+    
+    // Greek Fire - already registered in ModItems, class exists
+    // Book of Vengeance - already registered in ModItems, class exists
+    
+    // TODO: Add remaining special items from original SRP:
+    // - ItemPhaseReport (相位报告)
+    // - ItemDislodgementReport (脱离报告)
+    // - ItemLure variants (诱饵组件)
+    // - ItemDiscRecord variants (唱片)
+    // - ItemAlveolarFluid (肺泡液桶)
+    // - ItemDeadBlood (死血桶)
 
     // ================================================================
     // DEBUG ITEMS (NOT in creative tab)
