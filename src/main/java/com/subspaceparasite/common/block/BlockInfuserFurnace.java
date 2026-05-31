@@ -1,7 +1,7 @@
 package com.subspaceparasite.common.block;
 
-import com.subspaceparasite.core.ModBlocks;
-import com.subspaceparasite.tileentity.TileEntityInfuserFurnace;
+import com.subspaceparasite.core.ModBlockEntities;
+import com.subspaceparasite.common.block.entity.TileEntityInfuserFurnace;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
@@ -87,7 +87,7 @@ public class BlockInfuserFurnace extends BaseEntityBlock {
         if (level.isClientSide) {
             return null;
         }
-        return createTickerHelper(type, ModTileEntities.INFUSER_FURNACE.get(), TileEntityInfuserFurnace::tick);
+        return createTickerHelper(type, ModBlockEntities.INFUSER_FURNACE.get(), TileEntityInfuserFurnace::tick);
     }
 
     @Override
@@ -97,8 +97,8 @@ public class BlockInfuserFurnace extends BaseEntityBlock {
             if (blockEntity instanceof TileEntityInfuserFurnace furnace) {
                 // Drop inventory contents
                 for (int i = 0; i < 6; i++) {
-                    if (!furnace.getItem(i).isEmpty()) {
-                        net.minecraft.world.Containers.dropItemStack(level, pos.getX(), pos.getY(), pos.getZ(), furnace.getItem(i));
+                    if (!furnace.itemHandler.getStackInSlot(i).isEmpty()) {
+                        net.minecraft.world.Containers.dropItemStack(level, pos.getX(), pos.getY(), pos.getZ(), furnace.itemHandler.getStackInSlot(i));
                     }
                 }
                 level.updateNeighbourForOutputSignal(pos, this);
