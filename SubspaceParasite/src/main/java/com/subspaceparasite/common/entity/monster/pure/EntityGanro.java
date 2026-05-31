@@ -6,26 +6,26 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.level.Level;
 
 /**
- * EntityEsor - Pure阶段的触手突袭者
- * 特性：双触手身体部件，攀爬能力，激怒技能，水陆两栖
- * 对应资源：MCMOS_extracted/pure/esor
+ * EntityGanro - Pure阶段的攀爬突袭者
+ * 特性：墙壁攀爬能力，触手攻击，水陆两栖，跳跃突袭
+ * 对应资源：MCMOS_extracted/pure/ganro
  * 
  * 原版机制参考：
  * - 尺寸：0.901×4.2
- * - 拥有两条触手(leftTendril, rightTendril)作为独立身体部件
- * - 触手有独立生命值（基于本体生命值的百分比）
+ * - 拥有两条触手(tendril1, tendril2)作为独立身体部件
  * - 具备攀爬、潜水、跳跃突袭能力
- * - 技能系统：100tick冷却，激怒状态
+ * - 技能冷却系统：80-100tick主技能，40tick副技能
+ * - AOE近战攻击范围：8.0×4.0
  */
-public class EntityEsor extends EntityParasiteBase {
+public class EntityGanro extends EntityParasiteBase {
     // 基础属性值（待配置文件加载）
-    public static final float MAX_HEALTH = 200.0F;
-    public static final float ATTACK_DAMAGE = 18.0F;
-    public static final float MOVEMENT_SPEED = 0.28F;
-    public static final float ARMOR = 20.0F;
-    public static final float KNOCKBACK_RESISTANCE = 0.5F;
+    public static final float MAX_HEALTH = 180.0F;
+    public static final float ATTACK_DAMAGE = 16.0F;
+    public static final float MOVEMENT_SPEED = 0.27F;
+    public static final float ARMOR = 15.0F;
+    public static final float KNOCKBACK_RESISTANCE = 0.4F;
 
-    public EntityEsor(EntityType<EntityEsor> type, Level world) {
+    public EntityGanro(EntityType<EntityGanro> type, Level world) {
         super(type, world, EvoPhase.FOUR);
     }
 
@@ -41,15 +41,15 @@ public class EntityEsor extends EntityParasiteBase {
 
     /**
      * 注册AI目标
-     * 包括：游泳/潜水、跳跃突袭、AOE近战、闪避、技能释放
+     * 包括：游泳/潜水、跳跃突袭、AOE近战、闪避冲刺、技能释放
      */
     @Override
     protected void registerGoals() {
         super.registerGoals();
-        // TODO: 添加EntityAISkill（100tick冷却，激怒技能）
+        // TODO: 添加EntityAISkill（主技能：80-100tick冷却）
         // TODO: 添加EntityAISwimmingDiving（潜水能力）
         // TODO: 添加EntityAIWaterLeapAtTargetStatus（水上跳跃突袭）
-        // TODO: 添加EntityAIAttackMeleeStatusAOE（范围攻击）
-        // TODO: 添加EntityAIEvade（闪避机制）
+        // TODO: 添加EntityAIAttackMeleeStatusAOE（8.0×4.0范围）
+        // TODO: 添加EntityAIEvadeDash（闪避冲刺）
     }
 }
