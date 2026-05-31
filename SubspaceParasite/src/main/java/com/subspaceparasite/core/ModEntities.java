@@ -20,6 +20,8 @@ import com.subspaceparasite.common.entity.monster.inborn.EntityMudo;
 import com.subspaceparasite.common.entity.monster.inborn.EntityNuuh;
 import com.subspaceparasite.common.entity.monster.inborn.EntityRathol;
 import com.subspaceparasite.common.entity.monster.inborn.EntityViin;
+import com.subspaceparasite.common.entity.monster.inborn.EntityAta;
+import com.subspaceparasite.common.entity.monster.inborn.EntityButhol;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import com.subspaceparasite.common.entity.monster.primitive.EntityCanra;
 import com.subspaceparasite.common.entity.monster.primitive.EntityEmana;
@@ -257,6 +259,14 @@ public class ModEntities {
         () -> EntityType.Builder.of(EntityViin::new, MobCategory.MONSTER).sized(1.0F, 1.85F)
                 .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
                 .build(SubspaceParasite.MOD_ID + ":inborn_viin"));
+    public static final RegistryObject<EntityType<EntityAta>> INBORN_ATA = ENTITIES.register("inborn_ata",
+        () -> EntityType.Builder.of(EntityAta::new, MobCategory.MONSTER).sized(0.8F, 1.5F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_ata"));
+    public static final RegistryObject<EntityType<EntityButhol>> INBORN_BUTHOL = ENTITIES.register("inborn_buthol",
+        () -> EntityType.Builder.of(EntityButhol::new, MobCategory.MONSTER).sized(1.1F, 2.0F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_buthol"));
 
     // ================================================================
     // CRUDE ENTITIES
