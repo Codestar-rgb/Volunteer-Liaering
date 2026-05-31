@@ -24,6 +24,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraftforge.common.IShearable;
+import com.subspaceparasite.core.ModItems;
 
 import java.util.Collections;
 import java.util.List;
@@ -92,18 +93,12 @@ public class BlockAlveoli extends Block implements IShearable, EntityBlock {
         return InteractionResult.PASS;
     }
 
+
     /**
-     * 获取肺泡液物品（需要从ModItems获取）
+     * 获取肺泡液物品（直接从 ModItems 获取）
      */
     private Item getAlveolarFluidItem() {
-        try {
-            Class<?> modItemsClass = Class.forName("com.subspaceparasite.core.ModItems");
-            Object registryObject = modItemsClass.getDeclaredField("ALVEOLAR_FLUID").get(null);
-            Class<?> registryObjectClass = Class.forName("net.minecraftforge.registries.RegistryObject");
-            return (Item) registryObjectClass.getDeclaredMethod("get").invoke(registryObject);
-        } catch (Exception e) {
-            return Items.AIR; // Fallback
-        }
+        return ModItems.ALV_EOLAR_FLUID_BUCKET.get();
     }
 
     @Override
