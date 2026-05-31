@@ -3,22 +3,24 @@
 *.class
 *.o
 *.obj
-*.exe
-*.dll
-*.so
-*.a
 *.out
+build/
+target/
+
 # Dependencies
-lib/
+.gradle/
+libs/
+
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Editors
+.vscode/
+.idea/
+
 # Environment
 .env
 .env.local
 *.env.*
-# Editors
-.vscode/
-.idea/
 ```
