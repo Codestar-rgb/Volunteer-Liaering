@@ -150,6 +150,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SOLID_ALVEOLI = standardBlock("solidalveoli");
     public static final RegistryObject<Block> DERMOID_CYST = organicBlock("dermoidcyst");
     public static final RegistryObject<Block> DOD = organicBlock("dod");
+    
+    // ================================================================
+    // HAIR BLOCKS (Missing from original port - adding now)
+    // ================================================================
+    public static final RegistryObject<Block> LIPOMA_MASS = organicBlock("lipomamass");
+    public static final RegistryObject<Block> HAIR_FOLLICLE_PILLAR = BLOCKS.register("hairfolliclepillar",
+            () -> new Block(BlockBehaviour.Properties.of().strength(1.0f, 3.0f).sound(SoundType.WOOL)));
 
     // ================================================================
     // GLASS BLOCKS (8 colors — using GlassBlock for transparency)
