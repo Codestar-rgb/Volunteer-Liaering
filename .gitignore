@@ -3,47 +3,31 @@
 *.class
 *.o
 *.obj
-*.out
+*.exe
 *.dll
 *.so
 *.a
-*.exe
-
+*.out
 # Dependencies
-.gradle/
-build/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
-lib/
-
+.gradle/
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
-# Editors
-.vscode/
-.idea/
-*.iml
-*.iws
-*.ipr
-
 # Environment
 .env
 .env.local
 *.env.*
-
-# Coverage reports
-coverage/
-htmlcov/
-.coverage
-
-# Package manager
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# OS generated files
-.DS_Store
-Thumbs.db
+# Editors
+.vscode/
+.idea/
+# Build directories
+build/
+dist/
 ```
