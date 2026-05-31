@@ -267,10 +267,14 @@ public class ModItems {
     public static final RegistryObject<Item> CONSUMED_DOOR_ITEM = blockItem("consumeddoor", ModBlocks.CONSUMED_DOOR);
 
     // ================================================================
-    // FLUID BUCKET
+    // FLUID BUCKETS
     // ================================================================
     public static final RegistryObject<Item> DEAD_BLOOD_BUCKET = ITEMS.register("deadblood_bucket",
             () -> new BucketItem(ModFluids.DEAD_BLOOD_STILL,
+                    new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+
+    public static final RegistryObject<Item> ALVEOLAR_FLUID_BUCKET = ITEMS.register("alveolar_fluid_bucket",
+            () -> new BucketItem(ModFluids.ALVEOLAR_FLUID_STILL,
                     new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     // ================================================================

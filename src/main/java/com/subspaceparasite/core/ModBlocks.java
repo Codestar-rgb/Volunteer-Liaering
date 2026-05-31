@@ -300,6 +300,10 @@ public class ModBlocks {
     // ================================================================
     public static final RegistryObject<LiquidBlock> DEAD_BLOOD = BLOCKS.register("deadblood",
             () -> new LiquidBlock(ModFluids.DEAD_BLOOD_STILL, BlockBehaviour.Properties.of().strength(100f).noLootTable()));
+    
+    public static final RegistryObject<LiquidBlock> ALVEOLAR_FLUID_BLOCK = BLOCKS.register("alveolar_fluid",
+            () -> new LiquidBlock(ModFluids.ALVEOLAR_FLUID_STILL, BlockBehaviour.Properties.of().strength(100f).noLootTable()));
+    
     public static final RegistryObject<Block> BLOODY_ICE = strongBlock("bloodyice", 0.5f, 0.5f);
 
     // ================================================================
