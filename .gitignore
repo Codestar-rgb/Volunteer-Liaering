@@ -1,17 +1,57 @@
-```
+# Compiled and binary files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
 # Dependencies
-.gradle/
+lib/
+libs/
+dependency/
+dependencies/
+
+# Build artifacts
 target/
+build/
+dist/
+out/
 
-# Logs and temp files
-*.log
-*.tmp
-
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
 
-# System files
-.DS_Store
-Thumbs.db
-```
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Python specific (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.pyd
+
+# Gradle
+.gradle/
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
