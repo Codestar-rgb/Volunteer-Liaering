@@ -11,6 +11,15 @@ import com.subspaceparasite.common.entity.monster.crude.EntityMovingFlesh;
 import com.subspaceparasite.common.entity.monster.crude.EntityWorker;
 import com.subspaceparasite.common.entity.monster.feral.EntityFeralHuman;
 import com.subspaceparasite.common.entity.monster.infected.EntityInfectedHuman;
+import com.subspaceparasite.common.entity.monster.inborn.EntityGothol;
+import com.subspaceparasite.common.entity.monster.inborn.EntityKol;
+import com.subspaceparasite.common.entity.monster.inborn.EntityLesh;
+import com.subspaceparasite.common.entity.monster.inborn.EntityLodo;
+import com.subspaceparasite.common.entity.monster.inborn.EntityMor;
+import com.subspaceparasite.common.entity.monster.inborn.EntityMudo;
+import com.subspaceparasite.common.entity.monster.inborn.EntityNuuh;
+import com.subspaceparasite.common.entity.monster.inborn.EntityRathol;
+import com.subspaceparasite.common.entity.monster.inborn.EntityViin;
 import com.subspaceparasite.common.entity.monster.primitive.EntityBano;
 import com.subspaceparasite.common.entity.monster.primitive.EntityCanra;
 import com.subspaceparasite.common.entity.monster.primitive.EntityEmana;
@@ -210,6 +219,44 @@ public class ModEntities {
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INBORN_OBUS = mediumParasite("inbornobus");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INBORN_NORMAS = mediumParasite("inbornnormas");
     public static final RegistryObject<EntityType<EntityParasitePlaceholder>> INBORN_CANAL = mediumParasite("inborncanal");
+    
+    // Inborn entities - Implemented
+    public static final RegistryObject<EntityType<EntityGothol>> INBORN_GOTHOL = ENTITIES.register("inborn_gothol",
+        () -> EntityType.Builder.of(EntityGothol::new, MobCategory.MONSTER).sized(1.2F, 2.2F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_gothol"));
+    public static final RegistryObject<EntityType<EntityKol>> INBORN_KOL = ENTITIES.register("inborn_kol",
+        () -> EntityType.Builder.of(EntityKol::new, MobCategory.MONSTER).sized(1.0F, 1.9F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_kol"));
+    public static final RegistryObject<EntityType<EntityLesh>> INBORN_LESH = ENTITIES.register("inborn_lesh",
+        () -> EntityType.Builder.of(EntityLesh::new, MobCategory.MONSTER).sized(0.9F, 1.65F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_lesh"));
+    public static final RegistryObject<EntityType<EntityLodo>> INBORN_LODO = ENTITIES.register("inborn_lodo",
+        () -> EntityType.Builder.of(EntityLodo::new, MobCategory.MONSTER).sized(0.9F, 1.6F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_lodo"));
+    public static final RegistryObject<EntityType<EntityMor>> INBORN_MOR = ENTITIES.register("inborn_mor",
+        () -> EntityType.Builder.of(EntityMor::new, MobCategory.MONSTER).sized(1.3F, 2.4F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_mor"));
+    public static final RegistryObject<EntityType<EntityMudo>> INBORN_MUDO = ENTITIES.register("inborn_mudo",
+        () -> EntityType.Builder.of(EntityMudo::new, MobCategory.MONSTER).sized(1.0F, 1.7F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_mudo"));
+    public static final RegistryObject<EntityType<EntityNuuh>> INBORN_NUUH = ENTITIES.register("inborn_nuuh",
+        () -> EntityType.Builder.of(EntityNuuh::new, MobCategory.MONSTER).sized(1.5F, 2.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_nuuh"));
+    public static final RegistryObject<EntityType<EntityRathol>> INBORN_RATHOL = ENTITIES.register("inborn_rathol",
+        () -> EntityType.Builder.of(EntityRathol::new, MobCategory.MONSTER).sized(1.0F, 1.8F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_rathol"));
+    public static final RegistryObject<EntityType<EntityViin>> INBORN_VIIN = ENTITIES.register("inborn_viin",
+        () -> EntityType.Builder.of(EntityViin::new, MobCategory.MONSTER).sized(1.0F, 1.85F)
+                .setTrackingRange(64).setUpdateInterval(3).setShouldReceiveVelocityUpdates(true)
+                .build(SubspaceParasite.MOD_ID + ":inborn_viin"));
 
     // ================================================================
     // CRUDE ENTITIES

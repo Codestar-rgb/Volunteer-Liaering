@@ -3,39 +3,49 @@
 *.class
 *.o
 *.obj
-*.exe
+*.out
 *.dll
 *.so
 *.a
-*.out
+*.exe
 
 # Dependencies
 lib/
+libs/
+dependency/
+dependencies/
+
+# Build directories
+build/
 target/
-*.jar
-*.war
-*.ear
+dist/
+out/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
+*.temp
+*.cache
 
-# Editors
-.vscode/
-.idea/
+# System files
+.DS_Store
+Thumbs.db
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
-
-# System files
-.DS_Store
-Thumbs.db
+# Gradle
+.gradle/
+!SubspaceParasite/.gradle/
 ```
