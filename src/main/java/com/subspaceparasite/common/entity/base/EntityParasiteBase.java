@@ -215,6 +215,15 @@ public abstract class EntityParasiteBase extends Monster
     // Owner UUID for deferred resolution
     protected UUID ownerUUID;
 
+    // ========== Multi-Target Tracking (EntityCanPullMobs) ==========
+
+    /** Target entity slots for pull ability (original SRP uses 3 slots) */
+    protected int[] targetedEntityIds = new int[]{-1, -1, -1};
+    protected LivingEntity[] targetedEntities = new LivingEntity[3];
+    protected int pullTimer = 0;
+    protected boolean skillPulling = false;
+    protected int pullBorderTimer = 0;
+
     // ========== Constructor ==========
 
     protected EntityParasiteBase(EntityType<? extends Monster> type, Level level) {
