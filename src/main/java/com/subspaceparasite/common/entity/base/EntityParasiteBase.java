@@ -16,6 +16,7 @@ import com.subspaceparasite.api.parasite.EvolutionPath;
 import com.subspaceparasite.api.parasite.GeneType;
 import com.subspaceparasite.api.parasite.ParasiteType;
 import com.subspaceparasite.common.entity.ai.ParasiteMeleeAttackGoal;
+import com.subspaceparasite.common.entity.ai.misc.EntityCanPullMobs;
 import com.subspaceparasite.common.world.ModWorldData;
 import com.subspaceparasite.config.ModConfigSystems;
 
@@ -82,7 +83,7 @@ import net.minecraft.resources.ResourceLocation;
  */
 public abstract class EntityParasiteBase extends Monster
         implements IParasite, IEvolvable, IInfectable, IHitboxedEntity,
-                   ICanAbility, RangedAttackMob {
+                   ICanAbility, RangedAttackMob, EntityCanPullMobs {
 
     // ========== Inner Enum: AnimState ==========
 
@@ -1949,6 +1950,154 @@ public abstract class EntityParasiteBase extends Monster
         @Override
         public void stop() {
             parasite.getNavigation().stop();
+        }
+    }
+
+    // ========== EntityCanPullMobs Interface Implementation ==========
+
+    /**
+     * Check if this entity has any targeted entities for pulling.
+     * Updates target validity before checking.
+     */
+    @Override
+    public boolean hasTargetedEntity() {
+        updateTargets();
+        for (int id : targetedEntityIds) {
+            if (id != -1) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**
+     * Set the primary target (slot 0) by entity ID.
+     * Legacy method for single-target compatibility.
+     */
+    @Override
+    public void setTargetedEntity(int entityId) {
+        setTargetedEntity(0, entityId != -1 ? level().getEntity(entityId) : null);
+    }
+
+    /**
+     * Get the primary target entity ID (slot 0).
+     * Returns -1 if no target.
+     */
+    @Override
+    public int getTargetedEntity() {
+        return targetedEntityIds[0];
+    }
+
+    /**
+     * Set a specific target slot with an entity.
+     * Original SRP uses 3 target slots: TARGET_ENTITY, TARGET_ENTITY1, TARGET_ENTITY2
+     * 
+     * @param slot The target slot index (0-2)
+     * @param entity The entity to target, or null to clear
+     */
+    @Override
+    public void setTargetedEntity(int slot, @Nullable LivingEntity entity) {
+        if (slot < 0 || slot >= 3) {
+            return;
+        }
+        pullTimer = 0;
+        if (entity == null) {
+            targetedEntityIds[slot] = -1;
+            targetedEntities[slot] = null;
+        } else {
+            targetedEntityIds[slot] = entity.getId();
+            targetedEntities[slot] = entity;
+        }
+    }
+
+    /**
+     * Get a specific target by slot index.
+     * 
+     * @param slot The target slot index (0-2)
+     * @return The entity in that slot, or null if empty
+     */
+    @Override
+    @Nullable
+    public LivingEntity getTargetedEntity(int slot) {
+        if (slot < 0 || slot >= 3) {
+            return null;
+        }
+        return targetedEntities[slot];
+    }
+
+    /**
+     * Get the list of all targeted entities for pulling.
+     * Returns up to 3 targets as per original SRP design.
+     * 
+     * @return List of targeted entities
+     */
+    @Override
+    public List<LivingEntity> getTargetedEntityVictims() {
+        updateTargets();
+        List<LivingEntity> victims = new ArrayList<>();
+        for (LivingEntity target : targetedEntities) {
+            if (target != null && target.isAlive()) {
+                victims.add(target);
+            }
+        }
+        return victims;
+    }
+
+    /**
+     * Check if the attack target is valid for pulling.
+     * Returns false for parasites and spectating players.
+     */
+    @Override
+    public boolean checkAttackTarget() {
+        LivingEntity target = getTarget();
+        if (target == null) {
+            return false;
+        }
+        if (target instanceof EntityParasiteBase) {
+            return false;
+        }
+        if (target instanceof Player player) {
+            return !player.isSpectator();
+        }
+        return true;
+    }
+
+    /**
+     * Reset the pull skill state.
+     */
+    @Override
+    public void resetPullSkill() {
+        skillPulling = true;
+        pullBorderTimer = 0;
+    }
+
+    /**
+     * Get the acceleration factor for pulling.
+     * Default implementation returns 2.0, override in subclasses.
+     */
+    @Override
+    public double getAcceleration() {
+        return 2.0;
+    }
+
+    /**
+     * Update and clean invalid targets (dead, out of range, etc.).
+     * Should be called periodically to maintain target validity.
+     */
+    @Override
+    public void updateTargets() {
+        for (int i = 0; i < 3; i++) {
+            if (targetedEntityIds[i] == -1) {
+                continue;
+            }
+            Entity entity = level().getEntity(targetedEntityIds[i]);
+            if (entity == null || !entity.isAlive() || !(entity instanceof LivingEntity)) {
+                targetedEntityIds[i] = -1;
+                targetedEntities[i] = null;
+            } else if (!((LivingEntity) entity).isAlive()) {
+                targetedEntityIds[i] = -1;
+                targetedEntities[i] = null;
+            }
         }
     }
 }
