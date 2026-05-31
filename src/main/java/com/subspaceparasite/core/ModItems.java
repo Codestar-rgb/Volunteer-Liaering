@@ -4,6 +4,10 @@ import com.subspaceparasite.SubspaceParasite;
 import com.subspaceparasite.common.item.ItemBough;
 import com.subspaceparasite.common.item.ItemThornshadeBerry;
 import com.subspaceparasite.common.item.ItemThornshadeDecanter;
+import com.subspaceparasite.common.item.ItemPhaseReport;
+import com.subspaceparasite.common.item.ItemDislodgementReport;
+import com.subspaceparasite.common.item.ItemLure;
+import com.subspaceparasite.common.item.ItemDiscRecord;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
@@ -504,25 +508,55 @@ public class ModItems {
     // Thornshade Decanter - gives Thorns effect for 400 ticks (20 seconds)
     public static final RegistryObject<Item> THORNSHADE_DECANTER = ITEMS.register("thornshade_decanter",
             () -> new ItemThornshadeDecanter());
-    
+
     // Bough - special tool for spreading thornshade
     public static final RegistryObject<Item> BOUGH = ITEMS.register("bough",
             () -> new ItemBough());
-    
+
     // Thornshade Berry - edible item with negative effects
     public static final RegistryObject<Item> THORNSHADE_BERRY = ITEMS.register("thornshade_berry",
             () -> new ItemThornshadeBerry());
-    
+
+    // Phase Report - displays current infection phase info
+    public static final RegistryObject<Item> PHASE_REPORT = ITEMS.register("phase_report",
+            () -> new ItemPhaseReport());
+
+    // Dislodgement Report - displays parasite removal history
+    public static final RegistryObject<Item> DISLODGEMENT_REPORT = ITEMS.register("dislodgement_report",
+            () -> new ItemDislodgementReport());
+
+    // Lure Components (5 variants)
+    public static final RegistryObject<Item> LURE_BASE = ITEMS.register("lure_base",
+            () -> new ItemLure(ItemLure.LureType.BASE));
+    public static final RegistryObject<Item> LURE_PRIMORDIAL = ITEMS.register("lure_primordial",
+            () -> new ItemLure(ItemLure.LureType.PRIMORDIAL));
+    public static final RegistryObject<Item> LURE_ADAPTIVE = ITEMS.register("lure_adaptive",
+            () -> new ItemLure(ItemLure.LureType.ADAPTIVE));
+    public static final RegistryObject<Item> LURE_FERAL = ITEMS.register("lure_feral",
+            () -> new ItemLure(ItemLure.LureType.FERAL));
+    public static final RegistryObject<Item> LURE_PURE = ITEMS.register("lure_pure",
+            () -> new ItemLure(ItemLure.LureType.PURE));
+
+    // Music Discs (6 variants)
+    public static final RegistryObject<Item> MUSIC_DISC_EVO_ITEM = ITEMS.register("music_disc_evo_item",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.EVO));
+    public static final RegistryObject<Item> MUSIC_DISC_ASSIMILATE_ITEM = ITEMS.register("music_disc_assimilate_item",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.ASSIMILATE));
+    public static final RegistryObject<Item> MUSIC_DISC_INFESTATION = ITEMS.register("music_disc_infestation",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.INFESTATION));
+    public static final RegistryObject<Item> MUSIC_DISC_COLONY = ITEMS.register("music_disc_colony",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.COLONY));
+    public static final RegistryObject<Item> MUSIC_DISC_BECKON = ITEMS.register("music_disc_beckon",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.BECKON));
+    public static final RegistryObject<Item> MUSIC_DISC_FINAL_PHASE = ITEMS.register("music_disc_final_phase",
+            () -> new ItemDiscRecord(ItemDiscRecord.DiscType.FINAL_PHASE));
+
     // Greek Fire - already registered in ModItems, class exists
     // Book of Vengeance - already registered in ModItems, class exists
-    
+
     // TODO: Add remaining special items from original SRP:
-    // - ItemPhaseReport (相位报告)
-    // - ItemDislodgementReport (脱离报告)
-    // - ItemLure variants (诱饵组件)
-    // - ItemDiscRecord variants (唱片)
     // - ItemAlveolarFluid (肺泡液桶)
-    // - ItemDeadBlood (死血桶)
+    // - ItemDeadBlood (死血桶 - already registered as DEAD_BLOOD_BUCKET)
 
     // ================================================================
     // DEBUG ITEMS (NOT in creative tab)
