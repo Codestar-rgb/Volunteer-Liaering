@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YZY",
+    "XYX"
+  ],
+  "key": {
+    "X": { "item": "subspaceparasite:assimilated_flesh" },
+
+    "Y": {
+      "item": "subspaceparasite:parasitestain",
+      "data": 2
+    },
+
+    "Z": {
+      "item": "subspaceparasite:parasitecanister",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:dermoid_cyst",
+    "count": 1
+  }
+}

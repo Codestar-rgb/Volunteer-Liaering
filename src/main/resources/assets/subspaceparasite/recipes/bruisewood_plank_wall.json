@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:brusewood_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:bruisewood_plank_wall",
+    "count": 6
+  }
+}

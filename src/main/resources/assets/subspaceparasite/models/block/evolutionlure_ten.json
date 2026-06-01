@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/lure10",
+    "all": "subspaceparasite:block/lure10"
+  }
+}

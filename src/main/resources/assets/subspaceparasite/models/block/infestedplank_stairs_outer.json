@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/infested_planks",
+    "top": "subspaceparasite:block/infested_planks",
+    "side": "subspaceparasite:block/infested_planks"
+  }
+}

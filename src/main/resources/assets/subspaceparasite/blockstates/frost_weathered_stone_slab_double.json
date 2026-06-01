@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "subspaceparasite:block/frost_weathered_stone_slab_double"
+    },
+    "half=bottom": {
+      "model": "subspaceparasite:block/frost_weathered_stone_slab_double"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/frost_weathered_stone_slab_double"
+    }
+  }
+}

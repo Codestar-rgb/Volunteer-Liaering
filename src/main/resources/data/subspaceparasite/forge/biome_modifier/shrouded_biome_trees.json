@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "subspaceparasite:biomeparasite_shrouded",
+  "features": "subspaceparasite:infested_tree",
+  "step": "vegetal_decoration"
+}

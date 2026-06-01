@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/infested_sandstone_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/infested_sandstone_slab_top"
+    }
+  }
+}

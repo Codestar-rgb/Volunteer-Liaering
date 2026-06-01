@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:smar_human",
+  "tier": "ASSIMARA",
+  "name_key": "entity.subspaceparasite.smar_human.name",
+  "lore_key": "lore.subspaceparasite.smar_human",
+  "render_scale": 1.0,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

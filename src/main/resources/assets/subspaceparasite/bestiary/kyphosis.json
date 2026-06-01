@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:kyphosis",
+  "tier": "DETERRENT",
+  "name_key": "entity.subspaceparasite.kyphosis.name",
+  "lore_key": "lore.subspaceparasite.kyphosis",
+  "render_scale": 0.9,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

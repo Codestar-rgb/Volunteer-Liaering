@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:hardened_bone_handle"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:infested_bonemeal",
+    "count": 16
+  }
+}

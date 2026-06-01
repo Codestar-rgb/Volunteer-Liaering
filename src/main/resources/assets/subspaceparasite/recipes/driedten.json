@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CA ",
+    "C  "
+  ],
+  "key": {
+    "A": {
+      "item": "subspaceparasite:bone"
+    },
+    "C": {
+      "item": "subspaceparasite:assimilated_flesh"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:dried_tendons",
+    "count": 1
+  }
+}

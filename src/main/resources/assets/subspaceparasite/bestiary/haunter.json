@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:haunter",
+  "tier": "PREEMINENT",
+  "name_key": "entity.subspaceparasite.haunter.name",
+  "lore_key": "lore.subspaceparasite.haunter",
+  "render_scale": 0.7,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "subspaceparasite:block/locs_block_slab_double"
+    },
+    "half=bottom": {
+      "model": "subspaceparasite:block/locs_block_slab_double"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/locs_block_slab_double"
+    }
+  }
+}

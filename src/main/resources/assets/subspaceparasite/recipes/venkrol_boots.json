@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    "YXY",
+    " Y "
+  ],
+  "key": {
+    "Y": {
+      "item": "subspaceparasite:beckon_drop"
+    },
+    "X": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:venkrol_boots",
+    "count": 1
+  }
+}

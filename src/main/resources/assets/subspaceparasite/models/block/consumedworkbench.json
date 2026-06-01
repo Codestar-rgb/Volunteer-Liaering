@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "subspaceparasite:block/consumed_crafting_table_side",
+    "bottom": "subspaceparasite:block/consumed_crafting_table_side",
+    "top": "subspaceparasite:block/consumed_crafting_table_top"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:anc_overlord",
+  "tier": "ANCIENT",
+  "name_key": "entity.subspaceparasite.anc_overlord.name",
+  "lore_key": "lore.subspaceparasite.anc_overlord",
+  "render_scale": 0.55,
+  "minlorekill": 999,
+  "minstatkill": 999,
+  "stats": {
+    "source": "entity"
+  }
+}

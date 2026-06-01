@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:vigilante",
+  "tier": "PURE",
+  "name_key": "entity.subspaceparasite.vigilante.name",
+  "lore_key": "lore.subspaceparasite.vigilante",
+  "render_scale": 0.85,
+  "minlorekill": 2,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

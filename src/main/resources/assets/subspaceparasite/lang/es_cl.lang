@@ -1,0 +1,688 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Brazolargo Primitivo
+entity.subspaceparasite.pri_manducater.name=Manducador Primitivo
+entity.subspaceparasite.pri_summoner.name=Invocador Primitivo
+entity.subspaceparasite.pri_reeker.name=Flatulento Primitivo
+entity.subspaceparasite.pri_yelloweye.name=Amarillojo Primitivo
+entity.subspaceparasite.pri_bolster.name=Engrosador Primitivo
+entity.subspaceparasite.pri_arachnida.name=Arácnido Primitivo
+entity.subspaceparasite.pri_devourer.name=Devorador Primitivo
+entity.subspaceparasite.pri_vermin.name=Sabandija Primitiva
+entity.subspaceparasite.pri_tozoon.name=Tozún Primitivo
+
+entity.subspaceparasite.host.name=Huésped
+entity.subspaceparasite.hostii.name=Rebaño
+entity.subspaceparasite.crux.name=Quid
+entity.subspaceparasite.heed.name=Avizor
+entity.subspaceparasite.thrall.name=Ilota
+
+entity.subspaceparasite.sim_bear.name=Oso Asimilado
+entity.subspaceparasite.sim_squid.name=Calamar Asimilado
+entity.subspaceparasite.sim_enderman.name=Enderman Asimilado
+entity.subspaceparasite.sim_endermanhead.name=Cabeza Caminante (Enderman)
+entity.subspaceparasite.sim_adventurer.name=Aventurero Asimilado
+entity.subspaceparasite.sim_adventurerhead.name=Cabeza Caminante (Aventurero)
+entity.subspaceparasite.sim_bigspider.name=Araña Gigante
+entity.subspaceparasite.sim_human.name=Humano Asimilado
+entity.subspaceparasite.sim_humanhead.name=Cabeza Caminante (Humano)
+entity.subspaceparasite.sim_villager.name=Aldeano Asimilado
+entity.subspaceparasite.sim_villagerhead.name=Cabeza Caminante (Aldeano)
+entity.subspaceparasite.sim_cow.name=Vaca Asimilada
+entity.subspaceparasite.sim_cowhead.name=Cabeza Caminante (Vaca)
+entity.subspaceparasite.sim_horse.name=Caballo Asimilado
+entity.subspaceparasite.sim_horsehead.name=Cabeza Caminante (Caballo)
+entity.subspaceparasite.sim_pig.name=Chancho Asimilado
+entity.subspaceparasite.sim_pighead.name=Cabeza Caminante (Chancho)
+entity.subspaceparasite.sim_sheep.name=Oveja Asimilada
+entity.subspaceparasite.sim_sheephead.name=Cabeza Caminante (Oveja)
+entity.subspaceparasite.sim_wolf.name=Lobo Asimilado
+entity.subspaceparasite.sim_wolfhead.name=Cabeza Caminante (Lobo)
+entity.subspaceparasite.incompleteform_medium.name=Forma incompleta Mediana
+entity.subspaceparasite.incompleteform_small.name=Forma Incompleta Chica
+entity.subspaceparasite.sim_dragone.name=Enderdragón Asimilado
+entity.subspaceparasite.sim_dragonehead.name=Cabeza Caminante (Enderdragón)
+
+entity.subspaceparasite.fer_cow.name=Vaca Fiera
+entity.subspaceparasite.fer_bear.name=Oso Fiero
+entity.subspaceparasite.fer_enderman.name=Enderman Fiero
+entity.subspaceparasite.fer_human.name=Humano Fiero
+entity.subspaceparasite.fer_horse.name=Caballo Fiero
+entity.subspaceparasite.fer_sheep.name=Oveja Fiera
+entity.subspaceparasite.fer_pig.name=Chancho Fiero
+entity.subspaceparasite.fer_villager.name=Aldeano Fiero
+entity.subspaceparasite.fer_wolf.name=Lobo Fiero
+
+entity.subspaceparasite.hi_blaze.name=Blaze Saboteado
+entity.subspaceparasite.hi_golem.name=Gólem Saboteado
+entity.subspaceparasite.hi_skeleton.name=Esqueleto Saboteado
+
+entity.subspaceparasite.overseer.name=Capataz
+entity.subspaceparasite.bomber_light.name=Bombardero Ligero
+entity.subspaceparasite.carrier_heavy.name=Portador Pesado
+entity.subspaceparasite.carrier_light.name=Portador Ligero
+entity.subspaceparasite.buglin.name=Bichito
+entity.subspaceparasite.mangler.name=Mutilador
+entity.subspaceparasite.gnat.name=Jején
+entity.subspaceparasite.worker.name=Trabajador
+entity.subspaceparasite.carrier_flying.name=Portador Volador
+entity.subspaceparasite.rupter.name=Montero
+entity.subspaceparasite.beckon_si.name=Convocador Fase I
+entity.subspaceparasite.beckon_sii.name=Convocador Fase II
+entity.subspaceparasite.beckon_siii.name=Convocador Fase III
+entity.subspaceparasite.beckon_siv.name=Convocador Fase IV
+entity.subspaceparasite.beckon_sv.name=Convocador Fase V
+entity.subspaceparasite.warden.name=Guardián
+entity.subspaceparasite.marauder.name=Merodeador
+entity.subspaceparasite.monarch.name=Monarca 
+entity.subspaceparasite.grunt.name=Labriego
+entity.subspaceparasite.sentry.name=Centinela
+entity.subspaceparasite.kyphosis.name=Cifosis
+entity.subspaceparasite.dispatcherten.name=Tentáculo de Despachador
+entity.subspaceparasite.dispatcher_si.name=Despachador Fase I
+entity.subspaceparasite.dispatcher_sii.name=Despachador Fase II
+entity.subspaceparasite.dispatcher_siii.name=Despachador Fase III
+entity.subspaceparasite.dispatcher_siv.name=Despachador Fase IV
+entity.subspaceparasite.seizer.name=Incautador
+
+entity.subspaceparasite.bomber_heavy.name=Bombardero Pesado
+entity.subspaceparasite.carrier_colony.name=Portador Colonial
+entity.subspaceparasite.wraith.name=Espectro
+entity.subspaceparasite.bogle.name=Gil
+entity.subspaceparasite.haunter.name=Hostigador
+entity.subspaceparasite.succor.name=Auxiliar
+entity.subspaceparasite.seeker.name=Rastreador
+entity.subspaceparasite.architect.name=Arquitecto
+
+entity.subspaceparasite.draconite.name=§9Dracónito
+
+entity.subspaceparasite.anc_dreadnaut.name=Crucero Antiguo
+entity.subspaceparasite.anc_overlord.name=Soberano Antiguo
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Carne Viviente
+entity.subspaceparasite.tendril.name=Zarcillo
+entity.subspaceparasite.anc_pod.name=Cápsula 
+entity.subspaceparasite.biomass.name=Biomasa
+entity.subspaceparasite.gore.name=Coágulo
+
+entity.subspaceparasite.ada_longarms.name=Brazolargo Adaptado
+entity.subspaceparasite.ada_summoner.name=Invocador Adaptado
+entity.subspaceparasite.ada_manducater.name=Manducador Adaptado
+entity.subspaceparasite.ada_reeker.name=Flatulento Adaptado
+entity.subspaceparasite.ada_yelloweye.name=Amarillojo Adaptado
+entity.subspaceparasite.ada_bolster.name=Engrosador Adaptado
+entity.subspaceparasite.ada_arachnida.name=Arácnido Adaptado
+
+entity.subspaceparasite.wave.name=Onda
+entity.subspaceparasite.waveshock.name=Onda de Choque
+
+entity.subspaceparasite.remain.name=Restos
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parásitos
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=Generar Cápsula
+
+item.subspaceparasite.itemmobspawner_host.name=Generar Huésped
+item.subspaceparasite.itemmobspawner_hostii.name=Generar Rebaño
+item.subspaceparasite.itemmobspawner_heed.name=Generar Avizor
+item.subspaceparasite.itemmobspawner_cruxa.name=Generar Quid
+item.subspaceparasite.itemmobspawner_mes.name=Generar Ilota
+
+item.subspaceparasite.itemmobspawner_infbear.name=Generar Oso Asimilado
+item.subspaceparasite.itemmobspawner_infsquid.name=Generar Calamar Asimilado
+item.subspaceparasite.itemmobspawner_infenderman.name=Generar Enderman Asimilado 
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Generar Cabeza Caminante (Enderman)
+item.subspaceparasite.itemmobspawner_infplayer.name=Generar Aventurero Asimilado 
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Generar Cabeza Caminante (Aventurero)
+item.subspaceparasite.itemmobspawner_dorpa.name=Generar Araña Gigante
+item.subspaceparasite.itemmobspawner_infhuman.name=Generar Humano Asimilado
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Generar Cabeza Caminante (Humano)
+item.subspaceparasite.itemmobspawner_infvillager.name=Generar Aldeano Asimilado
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Generar Cabeza Caminante (Aldeano)
+item.subspaceparasite.itemmobspawner_infcow.name=Generar Vaca Asimilada
+item.subspaceparasite.itemmobspawner_infcowhead.name=Generar Cabeza Caminante (Vaca)
+item.subspaceparasite.itemmobspawner_infpig.name=Generar Chancho Asimilado
+item.subspaceparasite.itemmobspawner_infpighead.name=Generar Cabeza Asimilada (Chancho)
+item.subspaceparasite.itemmobspawner_infsheep.name=Generar Oveja Asimilada
+item.subspaceparasite.itemmobspawner_infsheephead.name=Generar Cabeza Asimilada (Oveja)
+item.subspaceparasite.itemmobspawner_infwolf.name=Generar Lobo Asimilado
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Generar Cabeza Asimilada (Lobo)
+item.subspaceparasite.itemmobspawner_infhorse.name=Generar Caballo Asimilado
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Generar Cabeza Asimilada (Caballo)
+item.subspaceparasite.itemmobspawner_inhoos.name=Generar Forma Incompleta (Chica)
+item.subspaceparasite.itemmobspawner_inhoom.name=Generar Forma Incompleta (Mediana)
+item.subspaceparasite.itemmobspawner_infdragone.name=Generar Enderdragón asimilado
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Generar Cabeza Asimilada (Enderdragón)
+
+item.subspaceparasite.itemmobspawner_fercow.name=Generar Vaca Fiera
+item.subspaceparasite.itemmobspawner_ferbear.name=Generar Oso Fiero
+item.subspaceparasite.itemmobspawner_ferenderman.name=Generar Enderman Fiero
+item.subspaceparasite.itemmobspawner_ferhuman.name=Generar Humano Fiero
+item.subspaceparasite.itemmobspawner_ferhorse.name=Generar Caballo Fiero
+item.subspaceparasite.itemmobspawner_ferpig.name=Generar Chancho Fiero
+item.subspaceparasite.itemmobspawner_fersheep.name=Generar Oveja Fiera
+item.subspaceparasite.itemmobspawner_fervillager.name=Generar Aldeano Fiero
+item.subspaceparasite.itemmobspawner_ferwolf.name=Generar Lobo Fiero
+
+item.subspaceparasite.itemmobspawner_hiblaze.name=Generar Blaze Saboteado
+item.subspaceparasite.itemmobspawner_higolem.name=Generar Gólem Saboteado
+item.subspaceparasite.itemmobspawner_hiskeleton.name=Generar Esqueleto Saboteado
+
+item.subspaceparasite.itemmobspawner_alafha.name=Generar Capataz
+item.subspaceparasite.itemmobspawner_omboo.name=Generar Bombardero Ligero
+item.subspaceparasite.itemmobspawner_rathol.name=Generar Portador Pesado
+item.subspaceparasite.itemmobspawner_gothol.name=Generar Portador Ligero
+item.subspaceparasite.itemmobspawner_buthol.name=Generar Portador Volador
+item.subspaceparasite.itemmobspawner_lodo.name=Generar Bichito
+item.subspaceparasite.itemmobspawner_nuuh.name=Generar Mutilador
+item.subspaceparasite.itemmobspawner_ata.name=Generar Jején
+item.subspaceparasite.itemmobspawner_worker.name=Generar Trabajador
+item.subspaceparasite.itemmobspawner_mudo.name=Generar Montero
+item.subspaceparasite.itemmobspawner_venkrol.name=Generar Convocador Fase I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Generar Convocador Fase II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Generar Convocador Fase III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Generar Convocador Fase IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Generar Convocador Fase V
+item.subspaceparasite.itemmobspawner_ganro.name=Generar Guardián
+item.subspaceparasite.itemmobspawner_esor.name=Generar Merodeador
+item.subspaceparasite.itemmobspawner_orch.name=Generar Monarca
+item.subspaceparasite.itemmobspawner_flog.name=Generar Labriego
+item.subspaceparasite.itemmobspawner_unvo.name=Generar Centinela 
+item.subspaceparasite.itemmobspawner_tonro.name=Generar Cifosis
+item.subspaceparasite.itemmobspawner_dod.name=Generar Despachador Fase I
+item.subspaceparasite.itemmobspawner_dodsii.name=Generar Despachador Fase II
+item.subspaceparasite.itemmobspawner_dodsiii.name=Generar Despachador Fase III
+item.subspaceparasite.itemmobspawner_dodsiv.name=Generar Despachador Fase IV
+item.subspaceparasite.itemmobspawner_nak.name=Generar Incautador
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Generar Bombardero Pesado
+item.subspaceparasite.itemmobspawner_vesta.name=Generar Portador Colonial
+item.subspaceparasite.itemmobspawner_elvia.name=Generar Espectro
+item.subspaceparasite.itemmobspawner_lencia.name=Generar Gil
+item.subspaceparasite.itemmobspawner_pheon.name=Generar Hostigador
+item.subspaceparasite.itemmobspawner_flam.name=Generar Auxiliador
+item.subspaceparasite.itemmobspawner_soo.name=Generar Rastreador
+item.subspaceparasite.itemmobspawner_tenn.name=Generar Arquitecto
+
+item.subspaceparasite.itemmobspawner_heblu.name=Generar Dracónito
+
+item.subspaceparasite.itemmobspawner_oronco.name=Generar Crucero Antiguo
+item.subspaceparasite.itemmobspawner_terla.name=Generar Soberano Antiguo
+item.subspaceparasite.itemmobspawner_anged.name=Generar Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Generar Carne viviente
+
+item.subspaceparasite.itemmobspawner_shyco.name=Generar Brazolargo Primitivo
+item.subspaceparasite.itemmobspawner_hull.name=Generar Manducador Primitivo
+item.subspaceparasite.itemmobspawner_canra.name=Generar Invocador Primitivo
+item.subspaceparasite.itemmobspawner_emana.name=Generar Amarillojo Primitivo
+item.subspaceparasite.itemmobspawner_nogla.name=Generar Flatulento Primitivo
+item.subspaceparasite.itemmobspawner_bano.name=Generar Engrosador Primitivo
+item.subspaceparasite.itemmobspawner_ranrac.name=Generar Arácnido Primitivo
+item.subspaceparasite.itemmobspawner_lum.name=Generar Devorador Primitivo
+item.subspaceparasite.itemmobspawner_iki.name=Generar Sabandija Primitiva
+item.subspaceparasite.itemmobspawner_wymo.name=Generar Tozún Primitivo  
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Generar Brazolargo Adaptado
+item.subspaceparasite.itemmobspawner_canraadapted.name=Generar Invocador Adaptado
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Generar Flatulento Adaptado
+item.subspaceparasite.itemmobspawner_hulladapted.name=Generar Manducador Adaptado
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Generar Amarillojo Adaptado
+item.subspaceparasite.itemmobspawner_banoadapted.name=Generar Engrosador Adaptado
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Generar Arácnido Adaptado
+
+item.subspaceparasite.itemthrow.name=§6Amansador
+item.subspaceparasite.itemtab.name=§dNULO
+item.subspaceparasite.itemevolve.name=Vara de Evolución
+item.subspaceparasite.itemassimilate.name=Vara de Asimilación
+item.subspaceparasite.itemdevolve.name=Vara de De-evolución
+item.subspaceparasite.itemvariant.name=Vara de Variante
+item.subspaceparasite.evclock.name=§cReloj Sangriento
+item.subspaceparasite.weapon_scythe.name=§eHoz Viviente
+item.subspaceparasite.weapon_scythe_sentient.name=§6Gran Hoz Consciente
+item.subspaceparasite.weapon_bow.name=§eArco Viviente
+item.subspaceparasite.weapon_bow_sentient.name=§6Gran Arco Consciente
+item.subspaceparasite.weapon_axe.name=§eHacha Viviente
+item.subspaceparasite.weapon_axe_sentient.name=§6Gran Hacha Consciente
+item.subspaceparasite.weapon_sword.name=§eEspada Viviente
+item.subspaceparasite.weapon_sword_sentient.name=§6Gran Espada Consciente
+item.subspaceparasite.weapon_cleaver.name=§eTajadera Viviente
+item.subspaceparasite.weapon_cleaver_sentient.name=§6Gran Tajadera Consciente
+
+item.subspaceparasite.armor_helm.name=§eCasco Viviente
+item.subspaceparasite.armor_chest.name=§ePeto Viviente
+item.subspaceparasite.armor_pants.name=§eGrebas Vivientes
+item.subspaceparasite.armor_boots.name=§eBotas Vivientes
+item.subspaceparasite.armor_helm_sentient.name=§6Casco Consciente
+item.subspaceparasite.armor_chest_sentient.name=§6Peto Consciente
+item.subspaceparasite.armor_pants_sentient.name=§6Grebas Conscientes
+item.subspaceparasite.armor_boots_sentient.name=§6Botas Conscientes
+
+//////
+item.subspaceparasite.bow_upperlimb.name=§6Brazo Superior del Arco viviente
+item.subspaceparasite.bow_lowerlimb.name=§6Brazo Inferior del Arco viviente
+item.subspaceparasite.bow_string.name=§6Cuerda del Arco viviente
+item.subspaceparasite.bow_grip.name=§6Mango del Arco viviente
+item.subspaceparasite.bow_core.name=§6Núcleo del Arco viviente
+
+item.subspaceparasite.scythe_back.name=§6Respaldo de la Hoz Viviente
+item.subspaceparasite.scythe_blade.name=§6Hoja de la Hoz Viviente
+item.subspaceparasite.scythe_core.name=§6Núcleo de la Hoz Viviente
+item.subspaceparasite.scythe_handle.name=§6Mango de la Hoz Viviente
+item.subspaceparasite.scythe_head.name=§6Cabezal de la Hoz Viviente
+///////
+
+item.subspaceparasite.dried_tendons.name=§eTendones Secos
+item.subspaceparasite.hardened_bone_handle.name=§eMango de Hueso Endurecido
+item.subspaceparasite.infectious_blade_fragment.name=§eFragmento de Cuchilla Infecciosa 
+item.subspaceparasite.living_core.name=§eNúcleo Viviente
+item.subspaceparasite.vile_shell.name=§eCascarón Vil
+item.subspaceparasite.bone.name=§eHueso Raro
+
+
+item.subspaceparasite.ada_longarms_drop.name=§bFragmento de armadura de Brazolargo
+item.subspaceparasite.ada_summoner_drop.name=§bNúcleo de Invocador
+item.subspaceparasite.ada_yelloweye_drop.name=§bHueso de Amarillojo
+item.subspaceparasite.ada_reeker_drop.name=§bColmillo de Flatulento
+item.subspaceparasite.ada_manducater_drop.name=§bOrbe de Manducador
+item.subspaceparasite.ada_bolster_drop.name=§bCáscara de Engrosador
+item.subspaceparasite.ada_arachnida_drop.name=§bGarra de Arácnido
+item.subspaceparasite.ada_devourer_drop.name=§bTentáculo de Devorador
+
+item.subspaceparasite.assimilated_flesh.name=Carne infectada
+item.subspaceparasite.beckon_drop.name=§aMembrana de Convocador
+item.subspaceparasite.dispatcher_drop.name=§cMembrana de Despachador
+
+item.subspaceparasite.lurecomponent1.name=§bVísceras de Montero
+item.subspaceparasite.lurecomponent2.name=§bCorazón Pútrido
+item.subspaceparasite.lurecomponent3.name=§bTendones Alterados
+item.subspaceparasite.lurecomponent4.name=§bPulmón Tóxico
+item.subspaceparasite.lurecomponent5.name=§bCerebro Nocivo
+item.subspaceparasite.lurecomponent6.name=§bSegmento Escencial
+item.subspaceparasite.nodecompass.name=§cCompás de Nodo
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Brote de Árbol Venal
+tile.subspaceparasite.parasitesapling_treethin.name=Brote de Árbol Horrible
+tile.subspaceparasite.parasitesapling_flowertall.name=Brote de Árbol Oscuro 
+
+tile.subspaceparasite.parasitebush_tendril.name=Red capilar
+tile.subspaceparasite.parasitebush_pop.name=Vesícula parasitaria
+tile.subspaceparasite.parasitebush_bine.name=Rizo nervioso
+tile.subspaceparasite.parasitebush_eye.name=Cegador Terminal
+tile.subspaceparasite.parasitebush_tooh.name=Incisivo Menor
+
+tile.subspaceparasite.infestedore_co.name=Mineral de Carbón Pestilente
+tile.subspaceparasite.infestedore_dia.name=Mineral de Diamante Pestilente
+tile.subspaceparasite.infestedore_eme.name=Mineral de Esmeralda Pestilente
+tile.subspaceparasite.infestedore_gol.name=Mineral de Oro Pestilente
+tile.subspaceparasite.infestedore_iro.name=Mineral de Hierro Pestilente
+tile.subspaceparasite.infestedore_lap.name=Mineral de Lapislázuli Pestilente
+tile.subspaceparasite.infestedore_red.name=Mineral de Redstone Pestilente
+tile.subspaceparasite.infestedore_un.name=Mineral Desconocido Pestilente
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=§8Telaraña Delgada
+tile.subspaceparasite.subspaceparasiteweb_two.name=§aTelaraña Intoxicante
+tile.subspaceparasite.subspaceparasiteweb_three.name=§8Telaraña Empañada
+tile.subspaceparasite.tunnel.name=Túnel
+tile.subspaceparasite.dispatchern.name=§cNido de Despachador
+tile.subspaceparasite.biomeheart.name=Núcleo de Bioma 
+tile.subspaceparasite.colonyheart.name=Núcleo de Colonia Parasitaria
+tile.subspaceparasite.colonyoutpost.name=Puesto Avanzado Parasitario
+tile.subspaceparasite.biomepurifier.name=§bPurificador de Bioma
+tile.subspaceparasite.parasitestructure.name=Estructura Incompleta de Colonia Parasitaria
+tile.subspaceparasite.parasitethin.name=Tronco Delgado Parasitario
+tile.subspaceparasite.parasitemouth.name=Fauces
+tile.subspaceparasite.parasitetendril.name=Zarcillo parasitario 
+tile.subspaceparasite.parasitefog.name=Niebla 
+
+tile.subspaceparasite.gore_sim_small.name=Restos Asimilados (Chico)
+tile.subspaceparasite.gore_sim_big.name=Restos Asimilados (Grande)
+tile.subspaceparasite.gore_sim_flat.name=Restos Asimilados (Plano)
+tile.subspaceparasite.gore_pri_small.name=Restos Primitivos (Chico)
+tile.subspaceparasite.gore_pri_big.name=Restos Primitivos (Grande)
+tile.subspaceparasite.gore_pri_flat.name=Restos Primitivos (Plano)
+tile.subspaceparasite.gore_ada_small.name=Restos Adaptados (Chico)
+tile.subspaceparasite.gore_ada_big.name=Restos Adaptados (Grande)
+tile.subspaceparasite.gore_ada_flat.name=Restos Adaptados (Plano)
+tile.subspaceparasite.gore_pure_small.name=Restos Puros (Chico)
+tile.subspaceparasite.gore_pure_big.name=Restos Puros (Grande)
+tile.subspaceparasite.gore_pure_flat.name=Restos Puros (Plano)
+
+tile.subspaceparasite.infestedstain.name=Tierra Infestada
+tile.subspaceparasite.infestedtrunk.name=Tronco Infestado
+tile.subspaceparasite.infestedrubble.name=Piedra Infestada
+tile.subspaceparasite.infestremain.name=Residuos Infestados
+
+tile.subspaceparasite.infestedbush_infected.name=Vena Infecciosa (Arbusto)
+tile.subspaceparasite.infestedbush_grass1.name=Vena Infecciosa (Pasto)
+tile.subspaceparasite.infestedbush_flower1.name=Vena Infecciosa (Flor)
+tile.subspaceparasite.infestedbush_spine.name=Vena Infecciosa (Columna)
+tile.subspaceparasite.infestedbush_vine.name=Vena Infecciosa (Enredadera)
+tile.subspaceparasite.infestedbush_arc.name=Vena Infecciosa (Arqueada)
+
+tile.subspaceparasite.parasitecanister_sac.name=§aAmpolla 
+tile.subspaceparasite.parasitecanister_cyst.name=Quiste Vacío
+tile.subspaceparasite.canisteractive.name=Quiste Hambriento
+tile.subspaceparasite.parasitecanister_lump.name=Bulto Grotesco
+tile.subspaceparasite.parasitecanister_bag.name=Bolsa de Carne 
+
+tile.subspaceparasite.parasitetrunk_ball.name=Tronco de Magulladuras
+tile.subspaceparasite.parasitetrunk_tree.name=Tronco de Venas 
+tile.subspaceparasite.parasitetrunk_plant.name=Tronco de Madera Oscura
+
+tile.subspaceparasite.parasitestain_dirt.name=Suelo de Colmena
+tile.subspaceparasite.parasitestain_mud.name=Barro Visceral
+tile.subspaceparasite.parasitestain_flesh.name=Pedazo de Carne
+tile.subspaceparasite.parasitestain_fleshstairs.name=Escaleras de Carne
+tile.subspaceparasite.parasitestain_feeler.name=Arterias Comprimidas
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Losa de Hueso Fortificado
+tile.subspaceparasite.parasiterubble_slabdouble.name=Hueso Fortificado
+tile.subspaceparasite.parasiterubble_flesh.name=Pedazo de Carne Concentrada
+tile.subspaceparasite.parasiterubble_bone.name=Hueso Fortificado
+tile.subspaceparasite.parasiterubble_bonestairs.name=Escaleras de Hueso Fortificado
+tile.subspaceparasite.parasiterubble_stone.name=Piedra de Colmena
+tile.subspaceparasite.parasiterubble_stonedebris.name=Escombros de Piedra de Colmena
+tile.subspaceparasite.parasiterubble_wood.name=Madera Consumida
+tile.subspaceparasite.parasiterubble_bricks.name=Ladrillos de Colmena
+tile.subspaceparasite.parasiterubble_metal.name=Acero de Colmena
+tile.subspaceparasite.parasiterubble_obsidian.name=Obsidiana Sangrante
+tile.subspaceparasite.parasiterubble_fungus.name=Hongo Asimilado
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Piedra de Colmena Comprimida
+tile.subspaceparasite.parasiterubbledense_biome.name=Piedra Reforzada de Colmena
+tile.subspaceparasite.parasiterubbledense_colony.name=Piedra Comprimida de Colonia Parasitaria
+
+tile.subspaceparasite.evolutionlure_one.name=Carnada (§4Débil§f)
+tile.subspaceparasite.evolutionlure_two.name=Carnada (§cTenue§f)
+tile.subspaceparasite.evolutionlure_three.name=Carnada (§6Esbelta§f)
+tile.subspaceparasite.evolutionlure_four.name=Carnada (§eEstable§f)
+tile.subspaceparasite.evolutionlure_five.name=Carnada (§2Sustancial§f)
+tile.subspaceparasite.evolutionlure_six.name=Carnada (§aConcentrada§f)
+tile.subspaceparasite.evolutionlure_seven.name=Carnada (§bEspesa§f)
+tile.subspaceparasite.evolutionlure_eight.name=Carnada (§dApelmazada§f)
+
+tile.subspaceparasite.bloodyice.name=Hielo Sangriento
+
+//Fluids
+
+fluid.deadblood=Sangre Muerta
+
+//Effects
+
+mob_effect.subspaceparasite:coth=§4Convocación De La Colmena
+splash_potion.effect.subspaceparasite:coth=Poción Arrojadiza de §4Convocación de la Colmena
+potion.effect.subspaceparasite:coth=Poción de §4Convocación de la Colmena
+lingering_potion.effect.subspaceparasite:coth=Poción Persistente de §4Convocación de la Colmena
+tipped_arrow.effect.subspaceparasite:coth=Flecha de §4Convocación de la Colmena
+
+mob_effect.subspaceparasite:fear=§8Miedo
+splash_potion.effect.subspaceparasite:fear=Poción Arrojadiza de §8Miedo
+potion.effect.subspaceparasite:fear=Poción de §8Miedo
+lingering_potion.effect.subspaceparasite:fear=Poción Persistente de §8Miedo
+tipped_arrow.effect.subspaceparasite:fear=Flecha de §8Miedo
+
+mob_effect.subspaceparasite:antimall=§7Inmaleable
+splash_potion.effect.subspaceparasite:antimall=Poción Arrojadiza de §7Inmaleabilidad
+potion.effect.subspaceparasite:antimall=Poción de §7Inmaleabilidad
+lingering_potion.effect.subspaceparasite:antimall=Poción Persistente de §7Inmaleabilidad
+tipped_arrow.effect.subspaceparasite:antimall=Flecha de §7Inmaleabilidad
+
+mob_effect.subspaceparasite:bleed=§4Hemorragia
+splash_potion.effect.subspaceparasite:bleed=Poción Arrojadiza §4Hemorrágica
+potion.effect.subspaceparasite:bleed=Poción §4Hemorrágica
+lingering_potion.effect.subspaceparasite:bleed=Poción Persistente §4Hemorrágica
+tipped_arrow.effect.subspaceparasite:bleed=Flecha §4Hemorrágica
+
+mob_effect.subspaceparasite:corrosive=§6Corrosión
+splash_potion.effect.subspaceparasite:corrosive=Poción Arrojadiza §6Corrosiva
+potion.effect.subspaceparasite:corrosive=Poción §6Corrosiva
+lingering_potion.effect.subspaceparasite:corrosive=Poción Persistente §6Corrosiva
+tipped_arrow.effect.subspaceparasite:corrosive=Flecha §6Corrosiva
+
+mob_effect.subspaceparasite:viral=§aViral
+splash_potion.effect.subspaceparasite:viral=Poción Arrojadiza §aVirulenta
+potion.effect.subspaceparasite:viral=Poción §aVirulenta
+lingering_potion.effect.subspaceparasite:viral=Poción Persistente §aVirulenta
+tipped_arrow.effect.subspaceparasite:viral=Flecha §aVirulenta
+
+mob_effect.subspaceparasite:rage=§cFuria
+splash_potion.effect.subspaceparasite:rage=Poción Arrojadiza de §cFuria
+potion.effect.subspaceparasite:rage=Poción de §cFuria
+lingering_potion.effect.subspaceparasite:rage=Poción Persistente de §cFuria
+tipped_arrow.effect.subspaceparasite:rage=Flecha de §cFuria
+
+mob_effect.subspaceparasite:repel=§2Camuflaje
+splash_potion.effect.subspaceparasite:repel=Poción Arrojadiza de §2Camuflaje
+potion.effect.subspaceparasite:repel=Poción de §2Camuflaje
+lingering_potion.effect.subspaceparasite:repel=Poción Persistente de §2Camuflaje
+tipped_arrow.effect.subspaceparasite:repel=Flecha de §2Camuflaje
+
+mob_effect.subspaceparasite:senses=§3Sentidos agudizados
+splash_potion.effect.subspaceparasite:senses=Poción Arrojadiza §3Agudizadora Sensorial 
+potion.effect.subspaceparasite:senses=Poción §3Agudizadora Sensorial
+lingering_potion.effect.subspaceparasite:senses=Poción Persistente §3Agudizadora Sensorial
+tipped_arrow.effect.subspaceparasite:senses=Flecha de §3Agudización Sensorial
+
+mob_effect.subspaceparasite:debar=§7Acotación
+splash_potion.effect.subspaceparasite:debar=Poción Arrojadiza de §7Acotación
+potion.effect.subspaceparasite:debar=Poción de §7Acotación
+lingering_potion.effect.subspaceparasite:debar=Poción Persistente de §7Acotación
+tipped_arrow.effect.subspaceparasite:debar=Flecha de §7Acotación
+
+mob_effect.subspaceparasite:needler=§6Perforado
+splash_potion.effect.subspaceparasite:needler=Poción Arrojadiza §6Perforadora 
+potion.effect.subspaceparasite:needler=Poción §6Perforadora
+lingering_potion.effect.subspaceparasite:needler=Poción Persistente §6Perforadora
+tipped_arrow.effect.subspaceparasite:needler=Flecha §6Perforadora
+
+mob_effect.subspaceparasite:link=§aEnlace
+splash_potion.effect.subspaceparasite:link=Poción Arrojadiza §aEnlazadora
+potion.effect.subspaceparasite:link=Poción §aEnlazadora
+lingering_potion.effect.subspaceparasite:link=Poción Persistente §aEnlazadora
+tipped_arrow.effect.subspaceparasite:link=Flecha §aEnlazadora
+
+mob_effect.subspaceparasite:foster=§eImpulso
+splash_potion.effect.subspaceparasite:foster=Poción Arrojadiza de §eImpulso
+potion.effect.subspaceparasite:foster=Poción de §eImpulso
+lingering_potion.effect.subspaceparasite:foster=Poción Persistente de §eImpulso
+tipped_arrow.effect.subspaceparasite:foster=Flecha de §eImpulso
+
+mob_effect.subspaceparasite:prey=§ePresa
+splash_potion.effect.subspaceparasite:prey=Poción Arrojadiza de §ePresa
+potion.effect.subspaceparasite:prey=Potion of §ePresa
+lingering_potion.effect.subspaceparasite:prey=Poción Persistente de §ePresa
+tipped_arrow.effect.subspaceparasite:prey=Flecha de §ePresa
+
+//extra
+
+message.subspaceparasite.lureb=Puntos apaciguados!
+message.subspaceparasite.lurec=Puntos reducidos!
+message.subspaceparasite.fearitem=Estás entrando en pánico! 
+message.subspaceparasite.fearblock=Estás entrando en pánico! 
+message.subspaceparasite.feargui=Estás entrando en pánico! 
+message.subspaceparasite.evolutionsleep=No puedes dormir por ahora...
+message.subspaceparasite.armortooltips1=Adaptación Actual:
+
+tootip.subspaceparasite.quench=§fCálida y maleable sustancia hecha de crema de magma saturada. Su alta concentración de polvo de Blaze lo vuelve §atóxico §fa materia parasitaria.
+
+tootip.subspaceparasite.lurecomp.1=Trozos de los interiores de un §7Montero§f. Un componente de §cCarnada§f.
+tootip.subspaceparasite.lurecomp.2=Un corazón horriblemente hinchado, Arrancado de una criatura §4asimilada§f. Un componente de §cCarnada§f.
+tootip.subspaceparasite.lurecomp.3=Trozos de músculos desarrollados, cosechados del cuerpo de un Parásito §cPrimitivo§f; excretan un olor horrible. Componente de §cCarnada§f.
+tootip.subspaceparasite.lurecomp.4=Un pulmón bien desarrollado cosechado del cuerpo de un parásito §6adaptado§f. Un componente de §cCarnada§f.
+tootip.subspaceparasite.lurecomp.5=Un cerebro bien desarrollado cosechado del cuerpo de un parásito §epuro§f. Un componente de §cCarnada§f.
+tootip.subspaceparasite.lurecomp.6=Un objeto similar a una columna vertebral, cosechada desde el bioma. Un componente de §cCarnada§f.
+
+tootip.subspaceparasite.item.1=Una esfera que parece emitir energia, cosechado desde el cuerpo de un §6Invocador§f. Un componente necesario para construir armas§f.
+tootip.subspaceparasite.item.2=Un hueso firme removido del cuerpo de un §6Amarillojo§f. Un componente necesario para construir armas.
+tootip.subspaceparasite.item.3=Un diminuto orbe que parece emitir energia, arrancado del cuerpo de un §6Manducador§f. Un componente necesario para construir armas§f.
+tootip.subspaceparasite.item.4=Un colmillo tenebrosamente afilado que perteneció a un §6Flatulento§f. Un componente necesario para construir armas§f.
+tootip.subspaceparasite.item.5=Un ligero y resistente fragmento de la armadura de un §6Brazolargo§f. Un componente necesario para construir armas§f.
+tootip.subspaceparasite.item.6=Un trozo de carne, arrancado de una criatura Asimilada§f. Un material básico de fabricación.
+tootip.subspaceparasite.item.7=???
+tootip.subspaceparasite.item.8=Un material elástico, producido a partir de cuerpos parasitarios. Un Componente de §6armas§f.
+tootip.subspaceparasite.item.9=Una pieza de cuchilla, hecha con partes de Parásitos. Un Componente de §6armas.
+tootip.subspaceparasite.item.10=La llama de la vida aún no ha iluminado este objeto. El Núcleo que impulsa todas las §6armas§f.
+tootip.subspaceparasite.item.11=Una coraza muy resistente hecha a partir de partes de Parásitos. Un Componente para §6armas§f.
+tootip.subspaceparasite.item.12=Un mango particularmente grueso, principalmente hecho de huesos, producido a partir de piezas de Parásitos. Un Componente para §6armas§f.
+tootip.subspaceparasite.item.13=Un hueso inusual que no se ve a menudo.
+
+tootip.subspaceparasite.item.20=Un pedazo de piel seca, extraída de un §7Engrosador§f.
+tootip.subspaceparasite.item.21=Garras muy afiladas, obtenidas de un §7Arácnido§f.
+tootip.subspaceparasite.item.22=Un tentáculo huesudo arrancado de un §bDevorador§f.
+tootip.subspaceparasite.item.23=Una cobertura para §aConvocadores§f, desollada de sus cuerpos.
+tootip.subspaceparasite.item.24=Una cobertura para §cDespachadores§f, desollada de sus cuerpos.
+
+tootip.subspaceparasite.item.25=Ataca a un Parásito para §cEvolucionarlo.
+tootip.subspaceparasite.item.28=Ataca a una Criatura para §cAsimilarla.
+tootip.subspaceparasite.item.26=Ataca a un Parásito para §cDe-evolucionarlo.
+tootip.subspaceparasite.item.27=Ataca a un Parásito para cambiar sus §cVariantes.
+
+tootip.subspaceparasite.item.18=Goteando de sangre, el reloj avanza hacia una terrible medianoche. 
+
+tootip.subspaceparasite.weaponm.1=El resultado de varias piezas de parásitos reformadas para crear una Azada. La llama de la vida arde por dentro. 
+tootip.subspaceparasite.weaponm.2=La evolución posterior a la Azada Viviente. Ha desarrollado una §bMente§f.
+tootip.subspaceparasite.weaponm.3=El resultado de varias piezas de parasitos reformadas para crear una Hacha. La llama de la vida arde por dentro.
+tootip.subspaceparasite.weaponm.4=La evolución posterior a la Hacha Viviente. Ha desarrollado una §bMente§f.
+tootip.subspaceparasite.weaponm.5=El resultado de varias piezas de parasitos reformadas para crear una Espada. La llama de la vida arde por dentro.
+tootip.subspaceparasite.weaponm.6=La evolución posterior a la Espada Viviente. Ha desarrollado una §bMente§f.
+tootip.subspaceparasite.weaponm.7=El resultado de varias piezas de parasitos reformadas para crear una Cuchilla. La llama de la vida arde por dentro.
+tootip.subspaceparasite.weaponm.8=La evolución posterior a la Cuchilla Viviente. Ha desarrollado una §bMente§f.
+
+tootip.subspaceparasite.weaponm.10=§cDespeja§f una gran área.
+tootip.subspaceparasite.weaponm.20=§cDestruye§f una gran área.
+tootip.subspaceparasite.weaponm.30=§fVuelve la armadura §cinútil§f con el tiempo.
+tootip.subspaceparasite.weaponm.40=§fVuelve la armadura §cinservible§f con el tiempo.
+tootip.subspaceparasite.weaponm.50=§fInflige heridas de §criesgo vital§f.
+tootip.subspaceparasite.weaponm.60=§fInflige heridas de §calto riesgo vital§f.
+tootip.subspaceparasite.weaponm.70=§fDesata §agolpes virulentos§f.
+tootip.subspaceparasite.weaponm.80=§fDesata §abarreras virulentas§f.
+
+tootip.subspaceparasite.weaponm.100=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.200=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.300=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.400=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.500=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.600=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.700=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponm.800=Ya no te podrás esconder...
+
+tootip.subspaceparasite.weaponr.1=El resultado de varias piezas de parasitos reformadas para crear un §6Arco§f. La llama de la vida arde por dentro.
+tootip.subspaceparasite.weaponr.2=La evolución posterior al Arco Viviente. Ha desarrollado una §Mente§f.
+
+tootip.subspaceparasite.weaponr.10=Conserva esas flechas.
+tootip.subspaceparasite.weaponr.20=Conserva esas flechas.
+
+tootip.subspaceparasite.weaponr.100=Ya no te podrás esconder...
+tootip.subspaceparasite.weaponr.200=Ya no te podrás esconder...
+
+//subtitles
+
+subtitles.carrierdeath=Portador muere
+subtitles.carrierliving=Portador burbujea
+subtitles.carrierhurt=Portador gruñe
+subtitles.devourerliving=Devorador Primitivo ruge
+subtitles.devourerhurt=Devorador Primitivo duele
+subtitles.devourerdeath=Devorador Primitivo muere
+subtitles.adabolsterdeath=Engrosador Adaptado muere
+subtitles.adabolsterliving=Engrosador Adaptado gruñe
+subtitles.adabolsterhurt=Engrosador Adaptado duele
+subtitles.monarchdeath=Monarca muere
+subtitles.monarchliving=Monarca llama
+subtitles.monarchhurt=Monarca chilla
+subtitles.marauderdeath=Merodeador perece
+subtitles.marauderliving=Merodeador gorgotea
+subtitles.marauderhurt=Merodeador duele
+subtitles.assimhumanliving=Humano Asimilado jadea
+subtitles.assimhumanhurt=Humano Asimilado aulla
+subtitles.assimhumandeath=Humano Asimilado muere
+subtitles.assimpigliving=Chillido Distorsionado
+subtitles.assimpighurt=Chancho Asimilado chilla
+subtitles.assimpigdeath=Chancho Asimilado muere
+subtitles.assimhorseliving=Relincho distorsionado
+subtitles.assimhorsecharge=Caballo Asimilado carga
+subtitles.assimhorsehurt=Caballo Asimilado grita
+subtitles.assimhorsedeath=Caballo Asimilado muere
+subtitles.assimspiderliving=Siseo Distorsionado
+subtitles.assimspidersteps=Pisadas de insecto
+subtitles.assimspiderdeath=Araña Gigante muere
+subtitles.headliving=Cabeza grita
+subtitles.headhurt=Cabeza chilla
+subtitles.headdeath=Cabeza muere
+subtitles.verminliving=Sabandija buchea
+subtitles.verminhurt=Sabandija grita
+subtitles.vermindeath=Sabandija muere
+subtitles.buglinliving=Bichito se desliza
+subtitles.buglinhurt=Bichito sufre
+subtitles.buglindeath=Bichito muere
+subtitles.rupterliving=Montero chisquea
+subtitles.rupterhurt=Montero chilla
+subtitles.rupterdies=Montero muere
+subtitles.rupterinfects=Montero expele §4CDLC
+subtitles.wardenliving=Guardián gruñe
+subtitles.wardenhurt=Guardián duele
+subtitles.wardendeath=Guardián muere
+subtitles.adaarachliving=Arácnido Adaptado gruñe
+subtitles.adaarachhurt=Arácnido Adaptado duele
+subtitles.adaarachdeath=Arácnido Adaptado muere
+subtitles.assimcowliving=Mugido distorsionado
+subtitles.assimcowhurt=Vaca Asimilada Gruñe
+subtitles.assimcowdeath=Vaca Asimilada muere
+subtitles.assimsheepliving=Balido distorsionado
+subtitles.assimsheephurt=Oveja Asimilada bala
+subtitles.assimsheepdeath=Oveja Asimilada muere
+subtitles.assimwolfliving=Gruñidos distorsionados
+subtitles.assimwolfhurt=Aullidos distorsionados
+subtitles.assimwolfdeath=Lobo Asimilado Muere
+subtitles.assimbearliving=Ronquido Distorsionado
+subtitles.assimbearhurt=Rugido distorsionado
+subtitles.assimbeardeath=Oso Asimilado muere
+subtitles.simmermanliving=Sonidos incomprensibles
+subtitles.simmermanhurt=Dolores distorsionados
+subtitles.simmermanteleports=Teletransportación corrupta
+subtitles.simmermandeath=Enderman Asimilado berrea
+subtitles.infectedfleshmelt=Carne se fusiona
+subtitles.adasummonerliving=Invocador Adaptado grita
+subtitles.adasummonerhurt=Invocador Adaptado chilla
+subtitles.adasummonerdeath=Invocador Adaptado muere
+subtitles.adasummonersummon=Chillido ruidoso
+subtitles.adayelloweyeliving=Amarillojo Adaptado gruñe
+subtitles.adayelloweyehurt=Amarillojo Adaptado ruge
+subtitles.adayelloweyedeath=Amarillojo Adaptado muere
+subtitles.adayelloweyeshoot=Amarillojo Adaptado escupe
+subtitles.adareekerliving=Flatulento Adaptado gruñe
+subtitles.adareekerhurt=Flatulento Adaptado duele
+subtitles.adareekerdeath=Flatulento Adaptado muere
+subtitles.adamanduliving=Manducador Adaptado gruñe
+subtitles.adamanduhurt=Manducador Adaptado grita
+subtitles.adamandudeath=Manducador Adaptado ruge
+subtitles.vigiliving=Vigilante retumba
+subtitles.vigihurt= Vigilante se quiebra
+subtitles.vigideath=Vigilante burbujea
+subtitles.bogleliving=Gil gargarea
+subtitles.boglehurt=Gil gruñe
+subtitles.bogledeath=Gil muere
+subtitles.hostliving=Huésped merodea
+subtitles.hosthurt=Huésped grita
+subtitles.hostdeath=Huésped muere
+subtitles.hostmerge=Gemidos consecutivos
+subtitles.adamaducamo=Espectro se burla
+subtitles.adavomit=Parásito vomita
+subtitles.flesh=Flesh squishes around
+subtitles.sentryliving=Centinela gruñe
+subtitles.sentryhurt=Centinela sisea
+subtitles.sentrydeath=Centinela Muere
+subtitles.beckonliving=Convocador Susurra
+subtitles.beckonhurt=Convocador sisea
+subtitles.beckondeath=Convocador llora
+subtitles.beckonbell=Campana suena
+subtitles.mobexplodes=Criatura explota
+subtitles.mobswipe=Criatura se desliza
+subtitles.moblands=Criatura cae
+subtitles.cysteats=Item consumido
+subtitles.adaptationpart=Parásito se adapta...
+subtitles.adaptationfull=Parásito se adaptó
+subtitles.biomeheart=§cLatido

@@ -1,0 +1,46 @@
+{
+  "variants": {
+    "half=top,variant=dirt": {
+      "model": "subspaceparasite:block/slabdirt_double"
+    },
+    "half=bottom,variant=dirt": {
+      "model": "subspaceparasite:block/slabdirt_double"
+    },
+    "half=top,variant=mud": {
+      "model": "subspaceparasite:block/slabmud_double"
+    },
+    "half=bottom,variant=mud": {
+      "model": "subspaceparasite:block/slabmud_double"
+    },
+    "half=top,variant=sflesh": {
+      "model": "subspaceparasite:block/slabsflesh_double"
+    },
+    "half=bottom,variant=sflesh": {
+      "model": "subspaceparasite:block/slabsflesh_double"
+    },
+    "half=top,variant=feeler": {
+      "model": "subspaceparasite:block/slabfeeler_double"
+    },
+    "half=bottom,variant=feeler": {
+      "model": "subspaceparasite:block/slabfeeler_double"
+    },
+    "half=top,variant=spore": {
+      "model": "subspaceparasite:block/slabspore_double"
+    },
+    "half=bottom,variant=spore": {
+      "model": "subspaceparasite:block/slabspore_double"
+    },
+    "half=top,variant=red": {
+      "model": "subspaceparasite:block/slabred_double"
+    },
+    "half=bottom,variant=red": {
+      "model": "subspaceparasite:block/slabred_double"
+    },
+    "half=top,variant=sackflesh": {
+      "model": "subspaceparasite:block/slabsackflesh_double"
+    },
+    "half=bottom,variant=sackflesh": {
+      "model": "subspaceparasite:block/slabsackflesh_double"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:mangler",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.mangler.name",
+  "lore_key": "lore.subspaceparasite.mangler",
+  "render_scale": 1.0,
+  "minlorekill": 7,
+  "minstatkill": 4,
+  "stats": {
+    "source": "entity"
+  }
+}

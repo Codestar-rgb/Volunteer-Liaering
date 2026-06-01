@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/reinforced_hivestone_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/reinforced_hivestone_slab_top"
+    }
+  }
+}

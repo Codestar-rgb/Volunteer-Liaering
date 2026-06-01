@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:parasitetrunk",
+      "data": 4
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:parasiteplank",
+    "data": 0,
+    "count": 4
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:pri_burrower",
+  "tier": "PRIMITIVE",
+  "name_key": "entity.subspaceparasite.pri_burrower.name",
+  "lore_key": "lore.subspaceparasite.pri_burrower",
+  "render_scale": 0.95,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

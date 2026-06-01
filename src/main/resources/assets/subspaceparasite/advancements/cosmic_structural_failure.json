@@ -1,0 +1,28 @@
+{
+  "parent": "subspaceparasite:kill_deterrent",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:itemmobspawner_kirin"
+    },
+    "title": {
+      "translate": "advancement.subspaceparasite.cosmic_structural_failure.title"
+    },
+    "description": {
+      "translate": "advancement.subspaceparasite.cosmic_structural_failure.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_kirin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "subspaceparasite:kirin"
+        }
+      }
+    }
+  }
+}

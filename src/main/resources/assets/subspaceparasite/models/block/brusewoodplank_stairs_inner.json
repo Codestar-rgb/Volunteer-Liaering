@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/brusewood_planks",
+    "top": "subspaceparasite:block/brusewood_planks",
+    "side": "subspaceparasite:block/brusewood_planks"
+  }
+}

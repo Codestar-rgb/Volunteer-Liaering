@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/infested_cobblestone_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/infested_cobblestone_slab_top"
+    }
+  }
+}

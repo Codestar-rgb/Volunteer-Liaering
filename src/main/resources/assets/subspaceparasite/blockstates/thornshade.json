@@ -1,0 +1,57 @@
+{
+  "variants": {
+    "stage": {
+      "model": "minecraft:cross",
+      "stage0_ts": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage0_ts"
+        }
+      },
+      "stage0_ts_snow": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage0_ts_snow"
+        }
+      },
+      "stage1_ts": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage1_ts"
+        }
+      },
+      "stage1_ts_snow": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage1_ts_snow"
+        }
+      },
+      "stage2_ts": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage2_ts"
+        }
+      },
+      "stage2_ts_snow": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage2_ts_snow"
+        }
+      },
+      "stage2_ts_noberry": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage2_ts_noberry"
+        }
+      },
+      "stage2_ts_noberry_snow": {
+        "textures": {
+          "cross": "subspaceparasite:block/stage2_ts_noberry_snow"
+        }
+      },
+      "dead_ts": {
+        "textures": {
+          "cross": "subspaceparasite:block/dead_ts"
+        }
+      },
+      "dead_ts_snow": {
+        "textures": {
+          "cross": "subspaceparasite:block/dead_ts_snow"
+        }
+      }
+    }
+  }
+}

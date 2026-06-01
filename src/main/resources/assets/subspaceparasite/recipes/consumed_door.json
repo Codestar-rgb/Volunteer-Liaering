@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:consumed_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:consumed_door",
+    "count": 3
+  }
+}

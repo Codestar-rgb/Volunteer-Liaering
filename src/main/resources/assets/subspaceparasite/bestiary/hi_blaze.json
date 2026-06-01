@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:hi_blaze",
+  "tier": "HIJACKED",
+  "name_key": "entity.subspaceparasite.hi_blaze.name",
+  "lore_key": "lore.subspaceparasite.hi_blaze",
+  "render_scale": 0.9,
+  "minlorekill": 3,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

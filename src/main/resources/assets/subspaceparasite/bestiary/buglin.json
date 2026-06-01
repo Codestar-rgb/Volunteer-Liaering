@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:buglin",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.buglin.name",
+  "lore_key": "lore.subspaceparasite.buglin",
+  "render_scale": 1.0,
+  "minlorekill": 10,
+  "minstatkill": 10,
+  "stats": {
+    "source": "entity"
+  }
+}

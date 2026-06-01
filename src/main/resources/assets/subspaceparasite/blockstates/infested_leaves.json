@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "decay_age=0": {
+      "model": "subspaceparasite:block/infested_leaves"
+    },
+    "decay_age=1": {
+      "model": "subspaceparasite:block/infested_leaves"
+    },
+    "decay_age=2": {
+      "model": "subspaceparasite:block/infested_leaves"
+    },
+    "decay_age=3": {
+      "model": "subspaceparasite:block/infested_leaves"
+    },
+    "decay_age=4": {
+      "model": "subspaceparasite:block/infested_leaves"
+    },
+    "decay_age=5": {
+      "model": "subspaceparasite:block/infested_leaves"
+    }
+  }
+}

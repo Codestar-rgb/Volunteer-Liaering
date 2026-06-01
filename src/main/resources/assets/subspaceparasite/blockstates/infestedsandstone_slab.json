@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "subspaceparasite:block/infestedsandstone_slab"
+    },
+    "type=double": {
+      "model": "subspaceparasite:block/infestedsandstone"
+    },
+    "type=top": {
+      "model": "subspaceparasite:block/infestedsandstone_slab",
+      "x": 180
+    }
+  }
+}

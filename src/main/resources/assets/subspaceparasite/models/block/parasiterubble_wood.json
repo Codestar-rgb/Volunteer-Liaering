@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "particle": "subspaceparasite:block/consumed_wood",
+    "end": "subspaceparasite:block/consumed_wood",
+    "side": "subspaceparasite:block/consumed_wood_side"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "subspaceparasite:block/infested_crafting_table_side",
+    "down": "subspaceparasite:block/infested_planks",
+    "up": "subspaceparasite:block/infested_crafting_table_top",
+    "north": "subspaceparasite:block/infested_crafting_table_front",
+    "south": "subspaceparasite:block/infested_crafting_table_front",
+    "west": "subspaceparasite:block/infested_crafting_table_side",
+    "east": "subspaceparasite:block/infested_crafting_table_side"
+  }
+}

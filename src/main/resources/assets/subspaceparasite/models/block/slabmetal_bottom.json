@@ -1,0 +1,9 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "particle": "subspaceparasite:block/hivesteel",
+    "bottom": "subspaceparasite:block/hivesteel",
+    "top": "subspaceparasite:block/hivesteel",
+    "side": "subspaceparasite:block/hivesteel"
+  }
+}

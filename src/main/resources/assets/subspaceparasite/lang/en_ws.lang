@@ -1,0 +1,300 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Savage Longeth arms
+entity.subspaceparasite.pri_manducater.name=Savage Manducat'r
+entity.subspaceparasite.pri_summoner.name=Savage Summon'r
+entity.subspaceparasite.pri_reeker.name=Savage Reek'r
+entity.subspaceparasite.pri_yelloweye.name=Savage Yelloweye
+entity.subspaceparasite.pri_bolster.name=Savaage Bolst'r
+entity.subspaceparasite.pri_arachnida.name=Savage Arachnida
+
+entity.subspaceparasite.host.name=Hoste
+entity.subspaceparasite.sim_bear.name=Assimilat'd Beareth
+entity.subspaceparasite.sim_enderman.name=Assimilat'd Endeth'rman
+entity.subspaceparasite.sim_adventurer.name=Assimilat'd Adventur'r
+entity.subspaceparasite.sim_bigspider.name=Assimilat'd Gigantic Spid'r
+entity.subspaceparasite.sim_human.name=Assimilat'd Human
+entity.subspaceparasite.sim_humanhead.name=Travelling Skull
+entity.subspaceparasite.sim_villager.name=Assimilat'd Villager
+entity.subspaceparasite.sim_villagerhead.name=Travelling Skull
+entity.subspaceparasite.sim_cow.name=Assimilat'd Bovine
+entity.subspaceparasite.sim_cowhead.name=Travelling Skull
+entity.subspaceparasite.sim_horse.name=Assimilat'd Equine
+entity.subspaceparasite.sim_horsehead.name=Travelling Skull
+entity.subspaceparasite.sim_pig.name=Assimilat'd Swine
+entity.subspaceparasite.sim_pighead.name=Travelling Skull
+entity.subspaceparasite.sim_sheep.name=Assimilat'd Sheep
+entity.subspaceparasite.sim_sheephead.name=Travelling Skull
+entity.subspaceparasite.sim_wolf.name=Assimilat'd Wolf
+entity.subspaceparasite.sim_wolfhead.name=Travelling Skull
+entity.subspaceparasite.incompleteform_medium.name=Incomplete Form
+entity.subspaceparasite.incompleteform_small.name=Incomplete Form
+
+entity.subspaceparasite.overseer.name=Overseer
+entity.subspaceparasite.bomber_light.name=Light Destructor
+entity.subspaceparasite.carrier_heavy.name=Heavy Transporter
+entity.subspaceparasite.buglin.name=Buglin
+entity.subspaceparasite.carrier_flying.name=Flying Transporter
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Beckon the Ist
+entity.subspaceparasite.beckon_sii.name=Beckon the IInd
+entity.subspaceparasite.beckon_siii.name=Beckon the IIIrd
+entity.subspaceparasite.beckon_siv.name=Beckon the IVth
+entity.subspaceparasite.beckon_sv.name=Beckon the Vth
+entity.subspaceparasite.warden.name=Warden
+entity.subspaceparasite.marauder.name=Marauder
+entity.subspaceparasite.grunt.name=Grunt
+entity.subspaceparasite.sentry.name=Sentry
+entity.subspaceparasite.kyphosis.name=Kyphosis
+
+entity.subspaceparasite.anc_dreadnaut.name=Forgotten Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Forgotten Overlord
+entity.subspaceparasite.vigilante.name=Rogue
+entity.subspaceparasite.movingflesh.name=Travelling Flesh
+entity.subspaceparasite.tendril.name=Tendril
+entity.subspaceparasite.anc_pod.name=Nest
+entity.subspaceparasite.biomass.name=Flesh
+entity.subspaceparasite.gore.name=Gore
+
+entity.subspaceparasite.ada_longarms.name=Longeth Arms that has overcome
+entity.subspaceparasite.ada_summoner.name=Summoner that has overcome
+entity.subspaceparasite.ada_manducater.name=Manducater that has overcome
+entity.subspaceparasite.ada_reeker.name=Stenchmaker that has overcome
+entity.subspaceparasite.ada_yelloweye.name=Yelloweye that has overcome
+entity.subspaceparasite.ada_bolster.name=Bolster that has overcome
+entity.subspaceparasite.ada_arachnida.name=Arachnida that has overcome
+
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasites
+
+//Items
+
+item.subspaceparasite.itemmobspawner_host.name=create Host
+item.subspaceparasite.itemmobspawner_infbear.name=Create Assimilated Bear
+item.subspaceparasite.itemmobspawner_infenderman.name=Spawn Assimilated Enderman 
+item.subspaceparasite.itemmobspawner_infplayer.name=Spawn Assimilated Adventurer
+item.subspaceparasite.itemmobspawner_dorpa.name=Spawn Assimilated Big Spider
+item.subspaceparasite.itemmobspawner_infhuman.name=Spawn Assimilated Human
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Spawn Walking Head (Human)
+item.subspaceparasite.itemmobspawner_infvillager.name=Spawn Assimilated Villager
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Spawn Walking Head (Villager)
+item.subspaceparasite.itemmobspawner_infcow.name=Spawn Assimilated Cow
+item.subspaceparasite.itemmobspawner_infcowhead.name=Spawn Walking Head (Cow)
+item.subspaceparasite.itemmobspawner_infpig.name=Spawn Assimilated Pig
+item.subspaceparasite.itemmobspawner_infpighead.name=Spawn Walking Head (Pig)
+item.subspaceparasite.itemmobspawner_infsheep.name=Spawn Assimilated Sheep
+item.subspaceparasite.itemmobspawner_infsheephead.name=Spawn Walking Head (Sheep)
+item.subspaceparasite.itemmobspawner_infwolf.name=Spawn Assimilated Wolf
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Spawn Walking Head (Wolf)
+item.subspaceparasite.itemmobspawner_infhorse.name=Spawn Assimilated Horse
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Spawn Walking Head (Horse)
+item.subspaceparasite.itemmobspawner_inhoos.name=Spawn Incomplete Form (Small)
+item.subspaceparasite.itemmobspawner_inhoom.name=Spawn Incomplete Form (Medium)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Spawn Overseer
+item.subspaceparasite.itemmobspawner_omboo.name=Spawn Light Bomber
+item.subspaceparasite.itemmobspawner_rathol.name=Spawn Heavy Carrier
+item.subspaceparasite.itemmobspawner_buthol.name=Spawn Flying Carrier
+item.subspaceparasite.itemmobspawner_lodo.name=Spawn Buglin
+item.subspaceparasite.itemmobspawner_mudo.name=Spawn Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Spawn Beckon Stage I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Spawn Beckon Stage II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Spawn Beckon Stage III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Spawn Beckon Stage IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Spawn Beckon Stage V
+item.subspaceparasite.itemmobspawner_ganro.name=Spawn Warden
+item.subspaceparasite.itemmobspawner_esor.name=Spawn Marauder
+item.subspaceparasite.itemmobspawner_flog.name=Spawn Grunt
+item.subspaceparasite.itemmobspawner_unvo.name=Spawn Sentry 
+item.subspaceparasite.itemmobspawner_tonro.name=Spawn Kyphosis
+
+item.subspaceparasite.itemmobspawner_oronco.name=Spawn Ancient Dreadnaut
+item.subspaceparasite.itemmobspawner_terla.name=Spawn Ancient Overlord
+item.subspaceparasite.itemmobspawner_anged.name=Spawn Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Spawn Moving Flesh
+
+item.subspaceparasite.itemmobspawner_shyco.name=Spawn Primitive Longarms
+item.subspaceparasite.itemmobspawner_hull.name=Spawn Primitive Manducater
+item.subspaceparasite.itemmobspawner_canra.name=Spawn Primitive Summoner
+item.subspaceparasite.itemmobspawner_emana.name=Spawn Primitive Yelloweye
+item.subspaceparasite.itemmobspawner_nogla.name=Spawn Primitive Reeker
+item.subspaceparasite.itemmobspawner_bano.name=Spawn Primitive Bolster
+item.subspaceparasite.itemmobspawner_ranrac.name=Spawn Primitive Arachnida
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Spawn Adapted Longarms
+item.subspaceparasite.itemmobspawner_canraadapted.name=Spawn Adapted Summoner
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Spawn Adapted Reeker
+item.subspaceparasite.itemmobspawner_hulladapted.name=Spawn Adapted Manducater
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Spawn Adapted Yelloweye
+item.subspaceparasite.itemmobspawner_banoadapted.name=Spawn Adapted Bolster
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Spawn Adapted Arachnida
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Dirty Timepeice
+item.subspaceparasite.weapon_scythe.name=Living Scythe
+item.subspaceparasite.weapon_scythe_sentient.name=Scythe that has thoughts
+item.subspaceparasite.weapon_bow.name=Living Greatbow
+item.subspaceparasite.weapon_bow_sentient.name=Greatbow that has thoughts
+item.subspaceparasite.weapon_axe.name=Living Greataxe
+item.subspaceparasite.weapon_axe_sentient.name=Greataxe that has thoughts
+
+item.subspaceparasite.bow_upperlimb.name=Living Greatbow Upper Limb
+item.subspaceparasite.bow_lowerlimb.name=Living Greatbow Lower Limb
+item.subspaceparasite.bow_string.name=Living Greatbow String
+item.subspaceparasite.bow_grip.name=Living Greatbow Grip
+item.subspaceparasite.bow_core.name=Living Greatbow core
+
+item.subspaceparasite.scythe_back.name=Living Scythe Back
+item.subspaceparasite.scythe_blade.name=Living Scythe Blade
+item.subspaceparasite.scythe_core.name=Living Scythe Core
+item.subspaceparasite.scythe_handle.name=Living Scythe Handle
+item.subspaceparasite.scythe_head.name=Living Scythe Head
+
+item.subspaceparasite.ada_longarms_drop.name=Longarm Armor Fragment
+item.subspaceparasite.ada_summoner_drop.name=Summoner Core
+item.subspaceparasite.ada_yelloweye_drop.name=Yelloweye Bone
+item.subspaceparasite.ada_reeker_drop.name=Reeker Fang
+item.subspaceparasite.ada_manducater_drop.name=Manducater Orb
+item.subspaceparasite.assimilated_flesh.name=Infected Flesh
+
+item.subspaceparasite.lurecomponent1.name=Fragile Piece
+item.subspaceparasite.lurecomponent2.name=Smelly Piece
+item.subspaceparasite.lurecomponent3.name=Putrid Unit
+item.subspaceparasite.lurecomponent4.name=Fetid Unit
+item.subspaceparasite.lurecomponent5.name=Moldered Segment
+item.subspaceparasite.lurecomponent6.name=Essential Segment
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Parasitic Sapling
+tile.subspaceparasite.parasitesapling_treethin.name=Parasitic Sapling
+tile.subspaceparasite.parasitesapling_flowertall.name=Parasitic Sapling
+
+tile.subspaceparasite.parasitebush_tendril.name=Parasitic Net
+tile.subspaceparasite.parasitebush_pop.name=Parasitic Vesicle
+tile.subspaceparasite.parasitebush_bine.name=Parasitic Ringlet
+
+tile.subspaceparasite.subspaceparasiteweb.name=Web
+tile.subspaceparasite.biomeheart.name=Parasitic Biome Core
+tile.subspaceparasite.colonyheart.name=Parasitic Colony Core
+tile.subspaceparasite.biomepurifier.name=Biome Purifier
+tile.subspaceparasite.parasitestructure.name=Parasitic Colony Incomplete Structure
+tile.subspaceparasite.parasitethin.name=Parasitic Thin Log
+tile.subspaceparasite.parasitemouth.name=Parasitic Mouth
+tile.subspaceparasite.parasitetendril.name=Parasitic Tendril
+tile.subspaceparasite.parasitefog.name=Fog
+
+tile.subspaceparasite.gore_sim_small.name=Assimilated Remains
+tile.subspaceparasite.gore_sim_big.name=Assimilated Remains
+tile.subspaceparasite.gore_pri_small.name=Primitive Remains
+tile.subspaceparasite.gore_pri_big.name=Primitive Remains
+tile.subspaceparasite.gore_ada_small.name=Adapted Remains
+tile.subspaceparasite.gore_ada_big.name=Adapted Remains
+tile.subspaceparasite.gore_pure_small.name=Pure Remains
+tile.subspaceparasite.gore_pure_big.name=Pure Remains
+
+tile.subspaceparasite.infestedstain.name=Infested Dirt
+tile.subspaceparasite.infestedtrunk.name=Infested Log
+tile.subspaceparasite.infestedrubble.name=Infested Stone
+tile.subspaceparasite.infestremain.name=Infested Residue
+
+tile.subspaceparasite.infestedbush_infected.name=Infested Veins
+tile.subspaceparasite.infestedbush_grass1.name=Infested Veins
+tile.subspaceparasite.infestedbush_flower1.name=Infested Veins
+tile.subspaceparasite.infestedbush_spine.name=Infested Veins
+tile.subspaceparasite.infestedbush_vine.name=Infested Veins
+tile.subspaceparasite.infestedbush_arc.name=Infested Veins
+
+tile.subspaceparasite.parasitecanister_sac.name=Parasitic Sac
+tile.subspaceparasite.parasitecanister_cyst.name=Parasitic Cyst
+tile.subspaceparasite.parasitecanister_lump.name=Parasitic Lump
+tile.subspaceparasite.parasitecanister_bag.name=Parasitic Bag
+
+tile.subspaceparasite.parasitetrunk_ball.name=Parasitic Log
+tile.subspaceparasite.parasitetrunk_tree.name=Parasitic Log
+tile.subspaceparasite.parasitetrunk_plant.name=Parasitic Log
+
+tile.subspaceparasite.parasitestain_dirt.name=Parasitic Dirt
+tile.subspaceparasite.parasitestain_mud.name=Parasitic Mud
+tile.subspaceparasite.parasitestain_flesh.name=Parasitic Flesh
+tile.subspaceparasite.parasitestain_fleshstairs.name=Parasitic Flesh Stairs
+tile.subspaceparasite.parasitestain_feeler.name=Parasitic Veins
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Parasitic Half Slab
+tile.subspaceparasite.parasiterubble_flesh.name=Parasitic Concentrated Flesh
+tile.subspaceparasite.parasiterubble_bone.name=Parasitic Concentrated Bone
+tile.subspaceparasite.parasiterubble_bonestairs.name=Parasitic Concentrated Bone Stairs
+tile.subspaceparasite.parasiterubble_stone.name=Parasitic Stone
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Parasitic Compressed Stone
+tile.subspaceparasite.parasiterubbledense_biome.name=Parasitic Compressed Biome Stone
+tile.subspaceparasite.parasiterubbledense_colony.name=Parasitic Compressed Colony Stone
+
+tile.subspaceparasite.evolutionlure_one.name=Lure (Weakened)
+tile.subspaceparasite.evolutionlure_two.name=Lure (Faint)
+tile.subspaceparasite.evolutionlure_three.name=Lure (Slender)
+tile.subspaceparasite.evolutionlure_four.name=Lure (Stable)
+tile.subspaceparasite.evolutionlure_five.name=Lure (Substantial)
+tile.subspaceparasite.evolutionlure_six.name=Lure (Concentrated)
+tile.subspaceparasite.evolutionlure_seven.name=Lure (Concentrated+)
+tile.subspaceparasite.evolutionlure_eight.name=Lure (Concentrated++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Call of the Hive
+splash_potion.effect.subspaceparasite:coth=Splash Potion of Call of the Hive
+potion.effect.subspaceparasite:coth=Potion of Call of the Hive
+lingering_potion.effect.subspaceparasite:coth=Lingering Potion of Call of the Hive
+tipped_arrow.effect.subspaceparasite:coth=Arrow of Call of the Hive
+
+mob_effect.subspaceparasite:fear=Fear
+splash_potion.effect.subspaceparasite:fear=Splash Potion of Fear
+potion.effect.subspaceparasite:fear=Potion of Fear
+lingering_potion.effect.subspaceparasite:fear=Lingering Potion of Fear
+tipped_arrow.effect.subspaceparasite:fear=Arrow of Fear
+
+mob_effect.subspaceparasite:antimall=Unchangeable
+splash_potion.effect.subspaceparasite:antimall=Splash Potion of Unchangeable
+potion.effect.subspaceparasite:antimall=Potion of Unchangeable
+lingering_potion.effect.subspaceparasite:antimall=Lingering Potion of Unchangeable
+tipped_arrow.effect.subspaceparasite:antimall=Arrow of Unchangeable
+
+mob_effect.subspaceparasite:bleed=Bleeding
+splash_potion.effect.subspaceparasite:bleed=Splash Potion of Bleeding
+potion.effect.subspaceparasite:bleed=Potion of Bleeding
+lingering_potion.effect.subspaceparasite:bleed=Lingering Potion of Bleeding
+tipped_arrow.effect.subspaceparasite:bleed=Arrow of Bleeding
+
+mob_effect.subspaceparasite:corrosive=Corrosion
+splash_potion.effect.subspaceparasite:corrosive=Splash Potion of Corrosion
+potion.effect.subspaceparasite:corrosive=Potion of Corrosion
+lingering_potion.effect.subspaceparasite:corrosive=Lingering Potion of Corrosion
+tipped_arrow.effect.subspaceparasite:corrosive=Arrow of Corrosion
+
+mob_effect.subspaceparasite:viral=Viral
+splash_potion.effect.subspaceparasite:viral=Splash Potion of Viral
+potion.effect.subspaceparasite:viral=Potion of Viral
+lingering_potion.effect.subspaceparasite:viral=Lingering Potion of Viral
+tipped_arrow.effect.subspaceparasite:viral=Arrow of Viral
+
+mob_effect.subspaceparasite:rage=Rage
+splash_potion.effect.subspaceparasite:rage=Splash Potion of Rage
+potion.effect.subspaceparasite:rage=Potion of Rage
+lingering_potion.effect.subspaceparasite:rage=Lingering Potion of Rage
+tipped_arrow.effect.subspaceparasite:rage=Arrow of Rage
+
+mob_effect.subspaceparasite:repel=Camouflage
+splash_potion.effect.subspaceparasite:repel=Splash Potion of Camouflage
+potion.effect.subspaceparasite:repel=Potion of Camouflage
+lingering_potion.effect.subspaceparasite:repel=Lingering Potion of Camouflage
+tipped_arrow.effect.subspaceparasite:repel=Arrow of Camouflage
+
+//extra
+
+message.subspaceparasite.lure=Points reduced!
+message.subspaceparasite.fearitem=You're panicking!
+message.subspaceparasite.fearblock=You're panicking!
+message.subspaceparasite.feargui=You're panicking!
+message.subspaceparasite.evolutionsleep=You cannot sleep now...

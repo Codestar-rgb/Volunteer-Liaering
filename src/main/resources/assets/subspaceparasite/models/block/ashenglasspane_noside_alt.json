@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside_alt",
+  "textures": {
+    "pane": "subspaceparasite:block/ashen_glass",
+    "edge": "subspaceparasite:block/ashen_glass_pane"
+  }
+}

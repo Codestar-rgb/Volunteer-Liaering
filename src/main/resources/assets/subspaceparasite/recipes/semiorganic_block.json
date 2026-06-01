@@ -1,0 +1,17 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:semiorganic_ingot"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:semiorganic_block",
+    "count": 1
+  }
+}

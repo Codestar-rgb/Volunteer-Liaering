@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "subspaceparasite:biomass",
+  "pattern": [
+    "LL",
+    "LB"
+  ],
+  "key": {
+    "L": [
+      {
+        "item": "subspaceparasite:lurecomponent1"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent2"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent3"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent4"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent5"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent6"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent7"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent8"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent9"
+      },
+      {
+        "item": "subspaceparasite:lurecomponent10"
+      }
+    ],
+    "B": {
+      "item": "subspaceparasite:beckon_drop"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:biomass_block",
+    "count": 4
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "YZY",
+    "ZSZ",
+    "YZY"
+  ],
+  "key": {
+    "Y": { "item": "subspaceparasite:residue_plants" },
+    "Z": { "item": "subspaceparasite:hive_scrap" },
+    "S": { "item": "minecraft:clock" }
+  },
+  "result": {
+    "item": "subspaceparasite:levelclock",
+    "count": 1
+  }
+}

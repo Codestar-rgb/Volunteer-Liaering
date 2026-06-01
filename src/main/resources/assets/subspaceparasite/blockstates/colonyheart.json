@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "active=0": {
+      "model": "subspaceparasite:block/colonyheart"
+    },
+    "active=1": {
+      "model": "subspaceparasite:block/colonyheart"
+    },
+    "active=2": {
+      "model": "subspaceparasite:block/colonyheart"
+    },
+    "active=3": {
+      "model": "subspaceparasite:block/colonyheart"
+    },
+    "": {
+      "model": "subspaceparasite:block/colonyheart"
+    }
+  }
+}

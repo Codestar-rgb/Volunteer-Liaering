@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "YMY",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:living_core"
+    },
+    "Y": {
+      "item": "subspaceparasite:lurecomponent6"
+    },
+    "M": {
+      "item": "subspaceparasite:module_base"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_preeminent",
+    "data": 0,
+    "count": 1
+  }
+}

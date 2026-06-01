@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "subspaceparasite:block/consumed_door_bottom"
+  }
+}

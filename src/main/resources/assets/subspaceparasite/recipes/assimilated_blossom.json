@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "subspaceparasite_assimilated_blossom",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:infestedbush",
+      "data": 2
+    },
+    {
+      "item": "subspaceparasite:infestedbush",
+      "data": 3
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:assimilated_blossom",
+    "count": 1
+  }
+}

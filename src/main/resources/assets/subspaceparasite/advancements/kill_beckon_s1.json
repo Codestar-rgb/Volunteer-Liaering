@@ -1,0 +1,29 @@
+{
+  "parent": "subspaceparasite:monument_root",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:parasitebush",
+      "data": 4
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.kill_beckon_s1.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.kill_beckon_s1.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_beckon_si": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "subspaceparasite:beckon_si"
+        }
+      }
+    }
+  }
+}

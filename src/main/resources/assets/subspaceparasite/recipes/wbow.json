@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CED",
+    "E A",
+    "DA "
+  ],
+  "key": {
+    "A": {
+      "item": "subspaceparasite:dried_tendons"
+    },
+    "C": {
+      "item": "subspaceparasite:living_core"
+    },
+    "D": {
+      "item": "subspaceparasite:vile_shell"
+    },
+    "E": {
+      "item": "subspaceparasite:hardened_bone_handle"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:weapon_bow",
+    "count": 1
+  }
+}

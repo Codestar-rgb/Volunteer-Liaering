@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:parasiterubble",
+      "data": 4
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasiterubble_woodstairs",
+    "count": 4
+  }
+}

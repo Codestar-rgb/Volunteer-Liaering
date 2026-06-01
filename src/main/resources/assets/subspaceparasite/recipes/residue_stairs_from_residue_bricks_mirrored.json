@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  X",
+    " XX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:residue_bricks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:residue_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "subspaceparasite:block/parasitesapling_tree"
+  }
+}

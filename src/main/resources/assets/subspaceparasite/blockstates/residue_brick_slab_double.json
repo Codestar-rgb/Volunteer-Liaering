@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "subspaceparasite:block/residue_brick_slab_double"
+    },
+    "half=bottom": {
+      "model": "subspaceparasite:block/residue_brick_slab_double"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/residue_brick_slab_double"
+    }
+  }
+}

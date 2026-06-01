@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "pane": "subspaceparasite:block/sepia_glass",
+    "edge": "subspaceparasite:block/sepia_glass_pane"
+  }
+}

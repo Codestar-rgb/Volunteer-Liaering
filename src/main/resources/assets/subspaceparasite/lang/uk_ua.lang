@@ -1,0 +1,473 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Примітивний Довгорукий
+entity.subspaceparasite.pri_manducater.name=Примітивний Зникач
+entity.subspaceparasite.pri_summoner.name=Примітивний Закличник
+entity.subspaceparasite.pri_reeker.name=Примітивний Вонючка
+entity.subspaceparasite.pri_yelloweye.name=Примітивний Жовтоокий
+entity.subspaceparasite.pri_bolster.name=Примітивний Підбурювач
+entity.subspaceparasite.pri_arachnida.name=Примітивна Арахніда
+entity.subspaceparasite.pri_devourer.name=Примітивний Пожирач
+
+entity.subspaceparasite.host.name=Носій
+entity.subspaceparasite.hostii.name=Прорва
+entity.subspaceparasite.crux.name=Одвічний
+entity.subspaceparasite.heed.name=Сторож
+entity.subspaceparasite.thrall.name=Невільник
+
+entity.subspaceparasite.sim_bear.name=Асимільований Ведмідь
+entity.subspaceparasite.sim_enderman.name=Асимільований Ендермен
+entity.subspaceparasite.sim_endermanhead.name=Ходяча голова
+entity.subspaceparasite.sim_adventurer.name=Асимільований Мандрівник
+entity.subspaceparasite.sim_adventurerhead.name=Ходяча голова
+entity.subspaceparasite.sim_bigspider.name=Асимільований Великий Павук
+entity.subspaceparasite.sim_human.name=Асимільована Людина
+entity.subspaceparasite.sim_humanhead.name=Ходяча Голова
+entity.subspaceparasite.sim_villager.name=Асимільований Селянин
+entity.subspaceparasite.sim_villagerhead.name=Ходяча Голова
+entity.subspaceparasite.sim_cow.name=Заражена Корова
+entity.subspaceparasite.sim_cowhead.name=Ходяча Голова
+entity.subspaceparasite.sim_horse.name=Асимільований Кінь
+entity.subspaceparasite.sim_horsehead.name=Ходяча Голова
+entity.subspaceparasite.sim_pig.name=Заражена Свиня
+entity.subspaceparasite.sim_pighead.name=Ходяча Голова
+entity.subspaceparasite.sim_sheep.name=Заражена Вівця
+entity.subspaceparasite.sim_sheephead.name=Ходяча Голова
+entity.subspaceparasite.sim_wolf.name=Асимільований Вовк
+entity.subspaceparasite.sim_wolfhead.name=Ходяча Голова
+entity.subspaceparasite.incompleteform_medium.name=Середня незавершена форма
+entity.subspaceparasite.incompleteform_small.name=Мала незавершена форма
+entity.subspaceparasite.sim_dragone.name=Асимільований Дракон Ендера
+entity.subspaceparasite.sim_dragonehead.name=Ходяча голова
+
+entity.subspaceparasite.overseer.name=Наглядач
+entity.subspaceparasite.bomber_light.name=Легкий Бомбардир
+entity.subspaceparasite.carrier_heavy.name=Важкий Переносник
+entity.subspaceparasite.buglin.name=Баглін
+entity.subspaceparasite.mangler.name=Кромсатель
+entity.subspaceparasite.worker.name=Робітник
+entity.subspaceparasite.carrier_flying.name=Літаючий Переносник
+entity.subspaceparasite.rupter.name=Руптер
+entity.subspaceparasite.beckon_si.name=Маяк Стадія I
+entity.subspaceparasite.beckon_sii.name=Маяк Стадія II
+entity.subspaceparasite.beckon_siii.name=Маяк Стадія III
+entity.subspaceparasite.beckon_siv.name=Маяк Стадія IV
+entity.subspaceparasite.beckon_sv.name=Маяк Стадія V
+entity.subspaceparasite.warden.name=Охоронець
+entity.subspaceparasite.marauder.name=Мародер
+entity.subspaceparasite.monarch.name=Монарх
+entity.subspaceparasite.grunt.name=Піхотинець
+entity.subspaceparasite.sentry.name=Вартовий
+entity.subspaceparasite.kyphosis.name=Кіфоз
+entity.subspaceparasite.dispatcherten.name=Щупальце Виконавця
+entity.subspaceparasite.dispatcher_si.name=Виконавець Стадії I
+entity.subspaceparasite.dispatcher_sii.name=Виконавець Стадії II
+entity.subspaceparasite.dispatcher_siii.name=Виконавець Стадії III
+entity.subspaceparasite.dispatcher_siv.name=Виконавець Стадії IV
+entity.subspaceparasite.seizer.name=Хапач
+
+entity.subspaceparasite.bomber_heavy.name=Важкий Бомбардир
+entity.subspaceparasite.carrier_colony.name=Колоніальний Переносник
+entity.subspaceparasite.wraith.name=Привид
+entity.subspaceparasite.bogle.name=Фантом
+entity.subspaceparasite.haunter.name=Переслідувач
+entity.subspaceparasite.succor.name=Помічник
+
+entity.subspaceparasite.anc_dreadnaut.name=Стародавній Дредноут
+entity.subspaceparasite.anc_overlord.name=Стародавній Владика
+entity.subspaceparasite.vigilante.name=Лінчеватель
+entity.subspaceparasite.movingflesh.name=Рухлива Плоть
+entity.subspaceparasite.tendril.name=Щупальце
+entity.subspaceparasite.anc_pod.name=Кокон
+entity.subspaceparasite.biomass.name=Біомаса
+entity.subspaceparasite.gore.name=Уламок
+
+entity.subspaceparasite.ada_longarms.name=Адаптований Довгорукий
+entity.subspaceparasite.ada_summoner.name=Адаптований Закличник
+entity.subspaceparasite.ada_manducater.name=Адаптований Зникач
+entity.subspaceparasite.ada_reeker.name=Адаптований Вонючка
+entity.subspaceparasite.ada_yelloweye.name=Адаптований Жовтоокий
+entity.subspaceparasite.ada_bolster.name=Адаптований Підбурювач
+entity.subspaceparasite.ada_arachnida.name=Адаптована Арахніда
+
+entity.subspaceparasite.remain.name=Останки
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasites
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=Заклик - Кокон
+
+item.subspaceparasite.itemmobspawner_host.name=Заклик - Носій
+item.subspaceparasite.itemmobspawner_hostii.name=Заклик - Прорва
+item.subspaceparasite.itemmobspawner_heed.name=Заклик - Сторож
+item.subspaceparasite.itemmobspawner_cruxa.name=Заклик - Одвічний
+item.subspaceparasite.itemmobspawner_mes.name=Заклик - Невільник
+
+item.subspaceparasite.itemmobspawner_infbear.name=Заклик - Асимільований Ведмідь
+item.subspaceparasite.itemmobspawner_infenderman.name=Заклик - Асимільований Ендермен
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Заклик - Ходяча голова (Ендермен)
+item.subspaceparasite.itemmobspawner_infplayer.name=Заклик - Асимільований Мандрівник
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Заклик - Ходяча голова (Мандрівник)
+item.subspaceparasite.itemmobspawner_dorpa.name=Заклик - Асимільований Великий Павук
+item.subspaceparasite.itemmobspawner_infhuman.name=Заклик - Заражена Людина
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Заклик - Ходяча голова (Людина)
+item.subspaceparasite.itemmobspawner_infvillager.name=Заклик - Асимільований Селянин
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Заклик - Ходяча голова (Селянин)
+item.subspaceparasite.itemmobspawner_infcow.name=Заклик - Заражена Корова
+item.subspaceparasite.itemmobspawner_infcowhead.name=Заклик - Ходяча голова (Корова)
+item.subspaceparasite.itemmobspawner_infpig.name=Заклик Заражена Свиня
+item.subspaceparasite.itemmobspawner_infpighead.name=Заклик - Ходяча голова (Свиня)
+item.subspaceparasite.itemmobspawner_infsheep.name=Заклик - Заражена Вівця
+item.subspaceparasite.itemmobspawner_infsheephead.name=Заклик - Ходяча голова (Вівця)
+item.subspaceparasite.itemmobspawner_infwolf.name=Заклик - Асимільований Вовк
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Заклик - Ходяча голова (Вовк)
+item.subspaceparasite.itemmobspawner_infhorse.name=Заклик - Асимільований Кінь
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Заклик - Ходяча голова (Кінь)
+item.subspaceparasite.itemmobspawner_inhoos.name=Заклик - Незавершена форма (Мала)
+item.subspaceparasite.itemmobspawner_inhoom.name=Заклик - Незавершена форма (Середня)
+item.subspaceparasite.itemmobspawner_infdragone.name=Заклик - Асимільований Дракон Ендера
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Заклик - Ходяча голова (Дракон Ендера)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Заклик - Доглядач
+item.subspaceparasite.itemmobspawner_omboo.name=Заклик - Легкий Бомбардир
+item.subspaceparasite.itemmobspawner_rathol.name=Заклик - Важкий Переносник
+item.subspaceparasite.itemmobspawner_buthol.name=Заклик - Літаючий Переносник
+item.subspaceparasite.itemmobspawner_lodo.name=Заклик - Баглін
+item.subspaceparasite.itemmobspawner_nuuh.name=Заклик - Кромсатель
+item.subspaceparasite.itemmobspawner_worker.name=Заклик - Робітник
+item.subspaceparasite.itemmobspawner_mudo.name=Заклик - Руптер
+item.subspaceparasite.itemmobspawner_venkrol.name=Заклик - Маяк Стадія I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Заклик - Маяк Стадія II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Заклик - Маяк Стадія III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Заклик - Маяк Стадія IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Заклик - Маяк Стадія V
+item.subspaceparasite.itemmobspawner_ganro.name=Заклик - Охоронець
+item.subspaceparasite.itemmobspawner_esor.name=Заклик - Мародер
+item.subspaceparasite.itemmobspawner_orch.name=Заклик - Монарх
+item.subspaceparasite.itemmobspawner_flog.name=Заклик - Піхотинець
+item.subspaceparasite.itemmobspawner_unvo.name=Заклик - Вартовий
+item.subspaceparasite.itemmobspawner_tonro.name=Заклик - Кіфоз
+item.subspaceparasite.itemmobspawner_dod.name=Заклик - Виконавець Стадія I
+item.subspaceparasite.itemmobspawner_dodsii.name=Заклик - Виконавець Стадія II
+item.subspaceparasite.itemmobspawner_dodsiii.name=Заклик - Виконавець Стадія III
+item.subspaceparasite.itemmobspawner_dodsiv.name=Заклик - Виконавець Стадія IV
+item.subspaceparasite.itemmobspawner_nak.name=Заклик - Хапач
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Заклик - Важкий Бомбардир
+item.subspaceparasite.itemmobspawner_vesta.name=Заклик - Колоніальний Переносник
+item.subspaceparasite.itemmobspawner_elvia.name=Заклик - Привид
+item.subspaceparasite.itemmobspawner_lencia.name=Заклик - Фантом
+item.subspaceparasite.itemmobspawner_pheon.name=Заклик - Переслідувач
+item.subspaceparasite.itemmobspawner_flam.name=Заклик - Помічник
+
+item.subspaceparasite.itemmobspawner_oronco.name=Заклик - Стародавній Дредноут
+item.subspaceparasite.itemmobspawner_terla.name=Заклик - Стародавній Владика
+item.subspaceparasite.itemmobspawner_anged.name=Заклик - Лінчеватель
+item.subspaceparasite.itemmobspawner_lesh.name=Заклик - Рухлива Плоть
+
+item.subspaceparasite.itemmobspawner_shyco.name=Заклик - Примітивний Довгорукий
+item.subspaceparasite.itemmobspawner_hull.name=Заклик - Примітивний Зникач
+item.subspaceparasite.itemmobspawner_canra.name=Заклик - Примітивний Закличник
+item.subspaceparasite.itemmobspawner_emana.name=Заклик - Примітивний Жовтоокий
+item.subspaceparasite.itemmobspawner_nogla.name=Заклик - Примітивний Вонючка
+item.subspaceparasite.itemmobspawner_bano.name=Заклик - Примітивний Підбурювач
+item.subspaceparasite.itemmobspawner_ranrac.name=Заклик - Примітивна Арахніда
+item.subspaceparasite.itemmobspawner_lum.name=Заклик - Примітивний Пожирач
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Заклик - Адаптований Довгорукий
+item.subspaceparasite.itemmobspawner_canraadapted.name=Заклик - Адаптований Закличник
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Заклик - Адаптований Вонючка
+item.subspaceparasite.itemmobspawner_hulladapted.name=Заклик - Адаптований Зникач
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Заклик - Адаптований Жовтоокий
+item.subspaceparasite.itemmobspawner_banoadapted.name=Заклик - Адаптований Підбурювач
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Заклик - Адаптована Арахніда
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Кривавий Годинник
+item.subspaceparasite.weapon_scythe.name=Жива Коса
+item.subspaceparasite.weapon_scythe_sentient.name=Розумна Коса
+item.subspaceparasite.weapon_bow.name=Живий Лук
+item.subspaceparasite.weapon_bow_sentient.name=Розумний Великий Лук
+item.subspaceparasite.weapon_axe.name=Жива Сокира
+item.subspaceparasite.weapon_axe_sentient.name=Розумна Велика Сокира
+item.subspaceparasite.weapon_sword.name=Живий Меч
+item.subspaceparasite.weapon_sword_sentient.name=Розумний Великий Меч
+item.subspaceparasite.weapon_cleaver.name=Живий Тесак
+item.subspaceparasite.weapon_cleaver_sentient.name=Розумний Великий Тесак
+
+item.subspaceparasite.armor_helm.name=Живий Шолом
+item.subspaceparasite.armor_chest.name=Живий Нагрудник
+item.subspaceparasite.armor_pants.name=Живі Поножі
+item.subspaceparasite.armor_boots.name=Живі Чоботи
+item.subspaceparasite.armor_helm_sentient.name=Розумний Шолом
+item.subspaceparasite.armor_chest_sentient.name=Розумний Нагрудник
+item.subspaceparasite.armor_pants_sentient.name=Розумні Поножі
+item.subspaceparasite.armor_boots_sentient.name=Розумні Чоботи
+
+//////
+item.subspaceparasite.bow_upperlimb.name=Верхнє Плече Живого Лука
+item.subspaceparasite.bow_lowerlimb.name=Нижнє Плече Живого Лука
+item.subspaceparasite.bow_string.name=Тетева Живого Лука
+item.subspaceparasite.bow_grip.name=Рукоять Живого Лука
+item.subspaceparasite.bow_core.name=Ядро Живого Лука
+
+item.subspaceparasite.scythe_back.name=Задня Частина Живий Коси
+item.subspaceparasite.scythe_blade.name=Лезо Живий Коси
+item.subspaceparasite.scythe_core.name=Ядро Живий Коси
+item.subspaceparasite.scythe_handle.name=Рукоять Живий Коси
+item.subspaceparasite.scythe_head.name=Голова Живий Коси
+///////
+
+item.subspaceparasite.dried_tendons.name=Висушені Сухожилля
+item.subspaceparasite.hardened_bone_handle.name=Укріплена Кістяна Рукоять
+item.subspaceparasite.infectious_blade_fragment.name=Фрагмент Інфекційного Леза
+item.subspaceparasite.living_core.name=Живе Ядро
+item.subspaceparasite.vile_shell.name=Мерзенний Панцир
+item.subspaceparasite.bone.name=Дивна Кістка
+
+
+item.subspaceparasite.ada_longarms_drop.name=Фрагмент Броні Довгорукого
+item.subspaceparasite.ada_summoner_drop.name=Ядро Закликача
+item.subspaceparasite.ada_yelloweye_drop.name=Кістка Жовтоокого
+item.subspaceparasite.ada_reeker_drop.name=Ікло Вонючки
+item.subspaceparasite.ada_manducater_drop.name=Сфера Зникача
+item.subspaceparasite.ada_bolster_drop.name=Лупшиння Підбурювача
+item.subspaceparasite.ada_arachnida_drop.name=Кіготь Арахніди
+item.subspaceparasite.ada_devourer_drop.name=Щупальце Пожирача
+
+item.subspaceparasite.assimilated_flesh.name=Заражена Плоть
+item.subspaceparasite.beckon_drop.name=Мембрана Маяка
+item.subspaceparasite.dispatcher_drop.name=Мембрана Виконавця
+
+item.subspaceparasite.lurecomponent1.name=Крихкі Шматочки
+item.subspaceparasite.lurecomponent2.name=Заражене Серце
+item.subspaceparasite.lurecomponent3.name=Змінені Вусики
+item.subspaceparasite.lurecomponent4.name=Токсична Легеня
+item.subspaceparasite.lurecomponent5.name=Згубний Мозок
+item.subspaceparasite.lurecomponent6.name=Закривавлений Сегмент
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Саджанець Венозного Дерева
+tile.subspaceparasite.parasitesapling_treethin.name=Саджанець Гнусового Дерева
+tile.subspaceparasite.parasitesapling_flowertall.name=Саджанець Темноцвіту
+
+tile.subspaceparasite.parasitebush_tendril.name=Мережа капілярів
+tile.subspaceparasite.parasitebush_pop.name=Паразитична пухир
+tile.subspaceparasite.parasitebush_bine.name=Нервові закінчення
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=Павутиння
+tile.subspaceparasite.subspaceparasiteweb_two.name=Павутиння
+tile.subspaceparasite.subspaceparasiteweb_three.name=Павутиння
+tile.subspaceparasite.tunnel.name=Нора
+tile.subspaceparasite.dispatchern.name=Розсадник Виконавця
+tile.subspaceparasite.biomeheart.name=Ядро вулика
+tile.subspaceparasite.colonyheart.name=Ядро паразитичної колонії
+tile.subspaceparasite.biomepurifier.name=Очищувач біомів
+tile.subspaceparasite.parasitestructure.name=Незавершена структура колонії
+tile.subspaceparasite.parasitethin.name=Паразитична тонка колода
+tile.subspaceparasite.parasitemouth.name=Паща
+tile.subspaceparasite.parasitetendril.name=Паразитичне Щупальце
+tile.subspaceparasite.parasitefog.name=Паразитичний Туман
+
+tile.subspaceparasite.gore_sim_small.name=Асимільовані останки
+tile.subspaceparasite.gore_sim_big.name=Асимільовані останки
+tile.subspaceparasite.gore_sim_flat.name=Асимільовані останки
+tile.subspaceparasite.gore_pri_small.name=Примітивні останки
+tile.subspaceparasite.gore_pri_big.name=Примітивні останки
+tile.subspaceparasite.gore_pri_flat.name=Примітивні останки
+tile.subspaceparasite.gore_ada_small.name=Адаптовані останки
+tile.subspaceparasite.gore_ada_big.name=Адаптовані останки
+tile.subspaceparasite.gore_ada_flat.name=Адаптовані останки
+tile.subspaceparasite.gore_pure_small.name=Чисті останки
+tile.subspaceparasite.gore_pure_big.name=Чисті останки
+tile.subspaceparasite.gore_pure_flat.name=Чисті останки
+
+tile.subspaceparasite.infestedstain.name=Заражена земля
+tile.subspaceparasite.infestedtrunk.name=Заражене дерево
+tile.subspaceparasite.infestedrubble.name=Заражений камінь
+tile.subspaceparasite.infestremain.name=Заражений залишок
+
+tile.subspaceparasite.infestedbush_infected.name=Заражені Вени
+tile.subspaceparasite.infestedbush_grass1.name=Заражені Вени
+tile.subspaceparasite.infestedbush_flower1.name=Заражені Вени
+tile.subspaceparasite.infestedbush_spine.name=Заражені Вени
+tile.subspaceparasite.infestedbush_vine.name=Заражені Вени
+tile.subspaceparasite.infestedbush_arc.name=Заражені Вени
+
+tile.subspaceparasite.parasitecanister_sac.name=Пухирчастий мішечок
+tile.subspaceparasite.parasitecanister_cyst.name=Порожня кіста
+tile.subspaceparasite.canisteractive.name=Ненажерлива кіста
+tile.subspaceparasite.parasitecanister_lump.name=Гротескний клубок
+tile.subspaceparasite.parasitecanister_bag.name=Мішечок із плоті
+
+tile.subspaceparasite.parasitetrunk_ball.name=Колода Синякового дерева
+tile.subspaceparasite.parasitetrunk_tree.name=Колода Синякового дерева
+tile.subspaceparasite.parasitetrunk_plant.name=Колода Синякового дерева
+
+tile.subspaceparasite.parasitestain_dirt.name=Ґрунт вулика
+tile.subspaceparasite.parasitestain_mud.name=Заражений ґрунт
+tile.subspaceparasite.parasitestain_flesh.name=Шматок плоті
+tile.subspaceparasite.parasitestain_fleshstairs.name=Шматок плоті
+tile.subspaceparasite.parasitestain_feeler.name=Стиснуті артерії
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Укріплена кістка
+tile.subspaceparasite.parasiterubble_flesh.name=Шматок концентрованої плоті
+tile.subspaceparasite.parasiterubble_bone.name=Укріплена кістка
+tile.subspaceparasite.parasiterubble_bonestairs.name=Укріплена кістка
+tile.subspaceparasite.parasiterubble_stone.name=Камінь вулика
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Стиснутий камінь вулика
+tile.subspaceparasite.parasiterubbledense_biome.name=Укріплений камінь вулика
+tile.subspaceparasite.parasiterubbledense_colony.name=Стиснутий паразитичний камінь колонії
+
+tile.subspaceparasite.evolutionlure_one.name=Приманка (Ослаблена)
+tile.subspaceparasite.evolutionlure_two.name=Приманка (Слабка)
+tile.subspaceparasite.evolutionlure_three.name=Приманка (Струнка)
+tile.subspaceparasite.evolutionlure_four.name=Приманка (Стабільна)
+tile.subspaceparasite.evolutionlure_five.name=Приманка (Істотна)
+tile.subspaceparasite.evolutionlure_six.name=Приманка (Концентрована)
+tile.subspaceparasite.evolutionlure_seven.name=Приманка (Концентрована+)
+tile.subspaceparasite.evolutionlure_eight.name=Приманка (Концентрована++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Поклик вулика
+splash_potion.effect.subspaceparasite:coth=Вибухове зілля поклику вулика
+potion.effect.subspaceparasite:coth=Зілля поклику вулика
+lingering_potion.effect.subspaceparasite:coth=Туманне зілля поклику вулика
+tipped_arrow.effect.subspaceparasite:coth=Стріла поклику вулика
+
+mob_effect.subspaceparasite:fear=Страх
+splash_potion.effect.subspaceparasite:fear=Вибухове зілля страху
+potion.effect.subspaceparasite:fear=Зілля страху
+lingering_potion.effect.subspaceparasite:fear=Туманне зілля страху
+tipped_arrow.effect.subspaceparasite:fear=Стріла страху
+
+mob_effect.subspaceparasite:antimall=Невміння
+splash_potion.effect.subspaceparasite:antimall=Вибухове зілля невмілості
+potion.effect.subspaceparasite:antimall=Зілля невмілості
+lingering_potion.effect.subspaceparasite:antimall=Туманне зілля невмілості
+tipped_arrow.effect.subspaceparasite:antimall=Стріла невмілості
+
+mob_effect.subspaceparasite:bleed=Кровотеча
+splash_potion.effect.subspaceparasite:bleed=Вибухове зілля кровотечі
+potion.effect.subspaceparasite:bleed=Зілля кровотечі
+lingering_potion.effect.subspaceparasite:bleed=Туманне зілля кровотечі
+tipped_arrow.effect.subspaceparasite:bleed=Стріла кровотечі
+
+mob_effect.subspaceparasite:corrosive=Корозія
+splash_potion.effect.subspaceparasite:corrosive=Вибухове зілля корозії
+potion.effect.subspaceparasite:corrosive=Зілля корозії
+lingering_potion.effect.subspaceparasite:corrosive=Туманне зілля корозії
+tipped_arrow.effect.subspaceparasite:corrosive=Стріла корозії
+
+mob_effect.subspaceparasite:viral=Заразний
+splash_potion.effect.subspaceparasite:viral=Вибухове зілля вірусності
+potion.effect.subspaceparasite:viral=Зілля вірусності
+lingering_potion.effect.subspaceparasite:viral=Туманне зілля вірусності
+tipped_arrow.effect.subspaceparasite:viral=Стріла вірусності
+
+mob_effect.subspaceparasite:rage=Лють
+splash_potion.effect.subspaceparasite:rage=Вибухове зілля люті
+potion.effect.subspaceparasite:rage=Зілля люті
+lingering_potion.effect.subspaceparasite:rage=Туманне зілля люті
+tipped_arrow.effect.subspaceparasite:rage=Стріла люті
+
+mob_effect.subspaceparasite:repel=Камуфляж
+splash_potion.effect.subspaceparasite:repel=Вибухове зілля камуфляжу
+potion.effect.subspaceparasite:repel=Зілля камуфляжу
+lingering_potion.effect.subspaceparasite:repel=Туманне Зілля камуфляжу
+tipped_arrow.effect.subspaceparasite:repel=Стріла камуфляжу
+
+mob_effect.subspaceparasite:senses=Загострені Почуття
+splash_potion.effect.subspaceparasite:senses=Вибухове зілля загострених почуттів
+potion.effect.subspaceparasite:senses=Зілля загострених почуттів
+lingering_potion.effect.subspaceparasite:senses=Туманне зілля загострених почуттів
+tipped_arrow.effect.subspaceparasite:senses=Стріла загострених почуттів
+
+mob_effect.subspaceparasite:debar=Заборона
+splash_potion.effect.subspaceparasite:debar=Вибухове зілля заборони
+potion.effect.subspaceparasite:debar=Зілля заборони
+lingering_potion.effect.subspaceparasite:debar=Туманне зілля заборони
+tipped_arrow.effect.subspaceparasite:debar=Стріла заборони
+
+mob_effect.subspaceparasite:needler=Проколотий
+splash_potion.effect.subspaceparasite:needler=Вибухове зілля проколеності
+potion.effect.subspaceparasite:needler=Зілля проколеності
+lingering_potion.effect.subspaceparasite:needler=Туманне зілля проколеності
+tipped_arrow.effect.subspaceparasite:needler=Стріла проколеності
+
+//extra
+
+message.subspaceparasite.lure=Очки еволюції було зменшено!
+message.subspaceparasite.fearitem=Ви Панікуєте
+message.subspaceparasite.fearblock=Ви Панікуєте
+message.subspaceparasite.feargui=Ви Панікуєте
+message.subspaceparasite.evolutionsleep=Ви не можете спати зараз
+
+tootip.subspaceparasite.lurecomp.1=Шматки нутрощів Руптера. Компонент для приманки.
+tootip.subspaceparasite.lurecomp.2=Сильно розпухле серце, витягнуте з тіла асимільованої істоти. Компонент для приманки.
+tootip.subspaceparasite.lurecomp.3=Шматки м'язів, витягнуті з тіла примітивного паразита, що виділяють жахливий запах. Компонент для приманки.
+tootip.subspaceparasite.lurecomp.4=Асиметрично виросла легеня, вирвана з тіла адаптованого паразита. Компонент для приманки.
+tootip.subspaceparasite.lurecomp.5=Напіврозвинений мозок, зібраний з тіла чистого паразита. Компонент для приманки.
+tootip.subspaceparasite.lurecomp.6=Схожий на хребет об'єкт, зібраний з мішечків, що звисають із дерев у паразитичному біомі. Компонент для приманки.
+
+tootip.subspaceparasite.item.1=Невелика сфера, витягнута з тіла Закликача, виділяє енергію, коливаючи вашу волю. Є інгредієнтом для компонентів зброї.
+tootip.subspaceparasite.item.2=Міцна кістка, відірвана від Жовтоокого, доволі пружна. Є інгредієнтом для компонентів зброї.
+tootip.subspaceparasite.item.3=Невелика сфера, витягнута з тіла Зникача, виділяє дивну енергію, зникаючи і з'являючись. Є інгредієнтом для компонентів зброї.
+tootip.subspaceparasite.item.4=Жахливо гостре ікло, вирване з пащі Вонючки. Є інгредієнтом для компонентів зброї.
+tootip.subspaceparasite.item.5=Дуже міцний фрагмент броні, зібраний з тіла Довгорукого. Є інгредієнтом для компонентів зброї.
+tootip.subspaceparasite.item.6=Шматочок плоті, відірваний від тіла асимільованої істоти. Базовий матеріал для створення деяких допоміжних предметів.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=Еластичний матеріал, створений із частин різних паразитів. Компонент для зброї.
+tootip.subspaceparasite.item.9=Шматок леза, створений із різних частин тіл паразитів. Компонент для зброї.
+tootip.subspaceparasite.item.10=Полум'я життя досі не згасло в цьому об'єкті. Ядро, що підживлює всю зброю.
+tootip.subspaceparasite.item.11=Вкрай міцна оболонка, створена з різних частин паразитів. Компонент для зброї.
+tootip.subspaceparasite.item.12=Досить товста рукоять, зроблена з міцних кісток, видобутих із тіл паразитів. Компонент для зброї.
+
+tootip.subspaceparasite.item.20=Сухий шматочок шкіри, зібраний з тіла Підбурювача.
+tootip.subspaceparasite.item.21=Жахливо гострі кігті, вирвані з тіла Арахніди.
+tootip.subspaceparasite.item.22=Кістляве щупальце, відірване від тіла Пожирача.
+tootip.subspaceparasite.item.23=Покриття Маяка, здерте зі стовбура.
+tootip.subspaceparasite.item.24=Покриття Виконавця, зібране з його основи.
+
+tootip.subspaceparasite.item.18=Забруднений зараженою плоттю, годинник цокає до Кошмарної Опівночі.
+
+tootip.subspaceparasite.weaponm.1=Результат зміни форм частин паразитів у зброї. Полум'я життя яскраво горить усередині.
+tootip.subspaceparasite.weaponm.2=Вищий ступінь еволюції Живої Коси. Вона знайшла розум.
+tootip.subspaceparasite.weaponm.3=Результат зміни форм частин паразитів у зброї. Полум'я життя яскраво горить усередині.
+tootip.subspaceparasite.weaponm.4=Вищий ступінь еволюції Живої Сокири. Вона знайшла розум.
+tootip.subspaceparasite.weaponm.5=Результат зміни форм частин паразитів у зброї. Полум'я життя яскраво горить усередині.
+tootip.subspaceparasite.weaponm.6=Вищий ступінь еволюції Живого Меча. Він знайшов розум.
+tootip.subspaceparasite.weaponm.7=Результат зміни форм частин паразитів у зброї. Полум'я життя яскраво горить усередині.
+tootip.subspaceparasite.weaponm.8=Вищий ступінь еволюції Живого Тесака. Він знайшов розум.
+
+tootip.subspaceparasite.weaponm.10=Знищує велику теріторію.
+tootip.subspaceparasite.weaponm.20=Знищує велику теріторію.
+tootip.subspaceparasite.weaponm.30=Робить броню марною з плином часу.
+tootip.subspaceparasite.weaponm.40=Робить броню марною з плином часу.
+tootip.subspaceparasite.weaponm.50=Завдає небезпечні для життя травми.
+tootip.subspaceparasite.weaponm.60=Завдає небезпечні для життя травми.
+tootip.subspaceparasite.weaponm.70=Завдає небезпечні удари.
+tootip.subspaceparasite.weaponm.80=Завдає небезпечні удари.
+
+tootip.subspaceparasite.weaponm.100=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.200=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.300=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.400=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.500=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.600=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.700=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponm.800=Ви більше не можете ховатися...
+
+tootip.subspaceparasite.weaponr.1=Результат зміни форм частин паразитів у зброї. Полум'я життя яскраво горить усередині.
+tootip.subspaceparasite.weaponr.2=Вищий ступінь еволюції Живого Лука. Він знайшов розум.
+
+tootip.subspaceparasite.weaponr.10=Продовжуйте утримувати ці стріли
+tootip.subspaceparasite.weaponr.20=Продовжуйте утримувати ці стріли
+
+tootip.subspaceparasite.weaponr.100=Ви більше не можете ховатися...
+tootip.subspaceparasite.weaponr.200=Ви більше не можете ховатися...

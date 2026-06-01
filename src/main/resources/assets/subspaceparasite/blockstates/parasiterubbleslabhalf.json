@@ -1,0 +1,58 @@
+{
+  "variants": {
+    "half=top,variant=flesh": {
+      "model": "subspaceparasite:block/slabflesh_top"
+    },
+    "half=bottom,variant=flesh": {
+      "model": "subspaceparasite:block/slabflesh_bottom"
+    },
+    "half=top,variant=bone": {
+      "model": "subspaceparasite:block/slabbone_top"
+    },
+    "half=bottom,variant=bone": {
+      "model": "subspaceparasite:block/slabbone_bottom"
+    },
+    "half=top,variant=stone": {
+      "model": "subspaceparasite:block/slabstone_top"
+    },
+    "half=bottom,variant=stone": {
+      "model": "subspaceparasite:block/slabstone_bottom"
+    },
+    "half=top,variant=stonedebris": {
+      "model": "subspaceparasite:block/slabstonedebris_top"
+    },
+    "half=bottom,variant=stonedebris": {
+      "model": "subspaceparasite:block/slabstonedebris_bottom"
+    },
+    "half=top,variant=wood": {
+      "model": "subspaceparasite:block/slabwood_top"
+    },
+    "half=bottom,variant=wood": {
+      "model": "subspaceparasite:block/slabwood_bottom"
+    },
+    "half=top,variant=bricks": {
+      "model": "subspaceparasite:block/slabbricks_top"
+    },
+    "half=bottom,variant=bricks": {
+      "model": "subspaceparasite:block/slabbricks_bottom"
+    },
+    "half=top,variant=metal": {
+      "model": "subspaceparasite:block/slabmetal_top"
+    },
+    "half=bottom,variant=metal": {
+      "model": "subspaceparasite:block/slabmetal_bottom"
+    },
+    "half=top,variant=obsidian": {
+      "model": "subspaceparasite:block/slabobsidian_top"
+    },
+    "half=bottom,variant=obsidian": {
+      "model": "subspaceparasite:block/slabobsidian_bottom"
+    },
+    "half=top,variant=fungus": {
+      "model": "subspaceparasite:block/slabfungus_top"
+    },
+    "half=bottom,variant=fungus": {
+      "model": "subspaceparasite:block/slabfungus_bottom"
+    }
+  }
+}

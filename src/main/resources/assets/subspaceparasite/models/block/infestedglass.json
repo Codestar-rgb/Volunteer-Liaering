@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/glass",
+  "textures": {
+    "all": "subspaceparasite:block/infested_glass"
+  }
+}

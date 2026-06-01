@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "subspaceparasite:assimilated_flesh"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:subspaceparasite_field_guide",
+    "count": 1
+  }
+}

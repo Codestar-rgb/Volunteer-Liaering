@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "subspaceparasite:assimilated_jack_o_lantern"
+    ]
+  },
+  "criteria": {
+    "has_ingredients": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "subspaceparasite:assimilated_pumpkin"
+          },
+          {
+            "item": "minecraft:torch"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredients"
+    ]
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/glass_pane_side_alt",
+  "textures": {
+    "pane": "subspaceparasite:block/shade_glass",
+    "edge": "subspaceparasite:block/shade_glass_pane",
+    "particle": "subspaceparasite:block/shade_glass"
+  }
+}

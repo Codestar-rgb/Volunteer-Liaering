@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "YMY",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:parasitestain",
+      "data": 0
+    },
+    "Y": {
+      "item": "subspaceparasite:lurecomponent2"
+    },
+    "M": {
+      "item": "subspaceparasite:module_base"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_deterrent",
+    "data": 0,
+    "count": 1
+  }
+}

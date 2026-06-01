@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:monarch",
+  "tier": "PURE",
+  "name_key": "entity.subspaceparasite.monarch.name",
+  "lore_key": "lore.subspaceparasite.monarch",
+  "render_scale": 0.75,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

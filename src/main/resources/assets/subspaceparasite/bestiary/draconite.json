@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:draconite",
+  "tier": "DERIVED",
+  "name_key": "entity.subspaceparasite.draconite.name",
+  "lore_key": "lore.subspaceparasite.draconite",
+  "render_scale": 0.1,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

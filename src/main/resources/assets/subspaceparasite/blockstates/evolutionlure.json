@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "variant=one": {
+      "model": "subspaceparasite:block/evolutionlure_one"
+    },
+    "variant=two": {
+      "model": "subspaceparasite:block/evolutionlure_two"
+    },
+    "variant=three": {
+      "model": "subspaceparasite:block/evolutionlure_three"
+    },
+    "variant=four": {
+      "model": "subspaceparasite:block/evolutionlure_four"
+    },
+    "variant=five": {
+      "model": "subspaceparasite:block/evolutionlure_five"
+    },
+    "variant=six": {
+      "model": "subspaceparasite:block/evolutionlure_six"
+    },
+    "variant=seven": {
+      "model": "subspaceparasite:block/evolutionlure_seven"
+    },
+    "variant=eight": {
+      "model": "subspaceparasite:block/evolutionlure_eight"
+    },
+    "variant=nine": {
+      "model": "subspaceparasite:block/evolutionlure_nine"
+    },
+    "variant=ten": {
+      "model": "subspaceparasite:block/evolutionlure_ten"
+    }
+  }
+}

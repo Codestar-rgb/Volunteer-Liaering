@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "subspaceparasite:items/hijacked_iron_hoe"
+  }
+}

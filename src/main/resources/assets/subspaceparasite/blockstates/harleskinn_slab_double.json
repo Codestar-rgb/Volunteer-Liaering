@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "subspaceparasite:block/harleskinn_slab_double"
+    },
+    "half=bottom": {
+      "model": "subspaceparasite:block/harleskinn_slab_double"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/harleskinn_slab_double"
+    }
+  }
+}

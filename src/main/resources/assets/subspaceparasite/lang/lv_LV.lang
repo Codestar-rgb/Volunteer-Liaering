@@ -1,0 +1,300 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Primitîvs Garurocis
+entity.subspaceparasite.pri_manducater.name=Primitîvs Manduktors
+entity.subspaceparasite.pri_summoner.name=Primitîvs Izsaucçjs
+entity.subspaceparasite.pri_reeker.name=Primitîvs Rîkers
+entity.subspaceparasite.pri_yelloweye.name=Primitîvs Dzeltenacs
+entity.subspaceparasite.pri_bolster.name=Primitîvs Bolsteris
+entity.subspaceparasite.pri_arachnida.name=Primitîva Arahnida
+
+entity.subspaceparasite.host.name=Uzòçmçjs
+entity.subspaceparasite.sim_bear.name=Asimilçts Lâcis
+entity.subspaceparasite.sim_enderman.name=Asimilçts Endermens
+entity.subspaceparasite.sim_adventurer.name=Asimilçts Avantûrists
+entity.subspaceparasite.sim_bigspider.name=Asimilçts Liels Zirneklis
+entity.subspaceparasite.sim_human.name=Asimilçts Cilvçks
+entity.subspaceparasite.sim_humanhead.name=Staigojoðâ Galva
+entity.subspaceparasite.sim_villager.name=Asimilçts Iedzîvotâjs
+entity.subspaceparasite.sim_villagerhead.name=Staigojoða Galva
+entity.subspaceparasite.sim_cow.name=Asimilçts Govs
+entity.subspaceparasite.sim_cowhead.name=Staigojoða Galva
+entity.subspaceparasite.sim_horse.name=Asimilçts Zirgs
+entity.subspaceparasite.sim_horsehead.name=Staigojoða Galva
+entity.subspaceparasite.sim_pig.name=Asimilçta Cûka
+entity.subspaceparasite.sim_pighead.name=Staigojoða Galva
+entity.subspaceparasite.sim_sheep.name=Asimilçta Aita
+entity.subspaceparasite.sim_sheephead.name=Staigojoða Galva
+entity.subspaceparasite.sim_wolf.name=Asimilçts Vilks
+entity.subspaceparasite.sim_wolfhead.name=Staigojoða Galva
+entity.subspaceparasite.incompleteform_medium.name=Nepilnîga Forma
+entity.subspaceparasite.incompleteform_small.name=Nepilnîga Forma
+
+entity.subspaceparasite.overseer.name=Pârraugs
+entity.subspaceparasite.bomber_light.name=Viegls Bumbvedçjs
+entity.subspaceparasite.carrier_heavy.name=Smags Bumbvedçjs
+entity.subspaceparasite.buglin.name=Buglins
+entity.subspaceparasite.carrier_flying.name=Lidojoðais Pârvadâtâjs
+entity.subspaceparasite.rupter.name=Rupters
+entity.subspaceparasite.beckon_si.name=Beckons I.Posms
+entity.subspaceparasite.beckon_sii.name=Beckons II.Posms
+entity.subspaceparasite.beckon_siii.name=Beckons III.Posms
+entity.subspaceparasite.beckon_siv.name=Beckons IV.Posms
+entity.subspaceparasite.beckon_sv.name=Beckons V.Posms
+entity.subspaceparasite.warden.name=Kalpotâjs
+entity.subspaceparasite.marauder.name=Marodieris
+entity.subspaceparasite.grunt.name=Grunts
+entity.subspaceparasite.sentry.name=Sargpostenis
+entity.subspaceparasite.kyphosis.name=Kifoze
+
+entity.subspaceparasite.anc_dreadnaut.name=Senais Drednauts
+entity.subspaceparasite.anc_overlord.name=Senais Valdnieks
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Kustîgâ Gaïa
+entity.subspaceparasite.tendril.name=Stînîte
+entity.subspaceparasite.anc_pod.name=Kûniòa
+entity.subspaceparasite.biomass.name=Biomasa
+entity.subspaceparasite.gore.name=Gore
+
+entity.subspaceparasite.ada_longarms.name=Adaptçts Garurocis
+entity.subspaceparasite.ada_summoner.name=Adaptçts Izsaucçjs
+entity.subspaceparasite.ada_manducater.name=Adaptçs Manduktors
+entity.subspaceparasite.ada_reeker.name=Adaptçts Rîkers
+entity.subspaceparasite.ada_yelloweye.name=Adaptçts Dzeltenacs
+entity.subspaceparasite.ada_bolster.name=Adaptçts Bolsteris
+entity.subspaceparasite.ada_arachnida.name=Adaptçta Arahnida
+
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parazîti
+
+//Items
+
+item.subspaceparasite.itemmobspawner_host.name=Radîtâjs Uzòçmçjs
+item.subspaceparasite.itemmobspawner_infbear.name=Radîtâjs Asimilçts Lâcis
+item.subspaceparasite.itemmobspawner_infenderman.name=Radîtâjs Asimilçts Endermens
+item.subspaceparasite.itemmobspawner_infplayer.name=Radîtâjs Asimilçts Avantûrists
+item.subspaceparasite.itemmobspawner_dorpa.name=Radîtâjs Asimilçts Liels Zirneklis
+item.subspaceparasite.itemmobspawner_infhuman.name=Radîtâjs Asimilçts Cilvçks
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Radîtâjs Staigojoða Galva (Cilvçks)
+item.subspaceparasite.itemmobspawner_infvillager.name=Radîtâjs Asimilçts Iedzîvotâjs
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Radîtâjs Staigojoða Galva (Iedzîvotâjs)
+item.subspaceparasite.itemmobspawner_infcow.name=Radîtâjs Asimilçts Govs
+item.subspaceparasite.itemmobspawner_infcowhead.name=Radîtâjs Staigojoða Galva (Govs)
+item.subspaceparasite.itemmobspawner_infpig.name=Radîtâjs Asimilçta Cûka
+item.subspaceparasite.itemmobspawner_infpighead.name=Radîtâjs Staigojoða Galva (Cûka)
+item.subspaceparasite.itemmobspawner_infsheep.name=Radîtâjs Asimilçta Aita
+item.subspaceparasite.itemmobspawner_infsheephead.name=Radîtâjs Staigojoða Galva (Aita)
+item.subspaceparasite.itemmobspawner_infwolf.name=Radîtâjs Asimilçts Vilks
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Radîtâjs Staigojoða Galva (Vilks)
+item.subspaceparasite.itemmobspawner_infhorse.name=Radîtâjs Asimilçts Zirgs
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Radîtâjs Staigojoðâ Galva (Zirgs)
+item.subspaceparasite.itemmobspawner_inhoos.name=Radîtâjs Nepilnîga Forma (Mazs)
+item.subspaceparasite.itemmobspawner_inhoom.name=Radîtâjs Nepilnîga Forma (Vidçjs)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Radîtâjs Pârraugs
+item.subspaceparasite.itemmobspawner_omboo.name=Radîtâjs Viegls Bumbvedçjs
+item.subspaceparasite.itemmobspawner_rathol.name=Radîtâjs Viegls Bumbvedçjs
+item.subspaceparasite.itemmobspawner_buthol.name=Radîtâjs Lidojoðais Pârvadâtâjs
+item.subspaceparasite.itemmobspawner_lodo.name=Radîtâjs Buglins
+item.subspaceparasite.itemmobspawner_mudo.name=Radîtâjs Rupters
+item.subspaceparasite.itemmobspawner_venkrol.name=Radîtâjs Beckons I.Posms
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Radîtâjs Beckons II.Posms
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Radîtâjs Beckons III.Posms
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Radîtâjs Beckons IV.Posms
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Radîtâjs Beckons V.Posms
+item.subspaceparasite.itemmobspawner_ganro.name=Radîtâjs Kalpotâjs
+item.subspaceparasite.itemmobspawner_esor.name=Radîtâjs Marodieris
+item.subspaceparasite.itemmobspawner_flog.name=Radîtâjs Grunts
+item.subspaceparasite.itemmobspawner_unvo.name=Radîtâjs Sargpostenis
+item.subspaceparasite.itemmobspawner_tonro.name=Radîtâjs Kifoze
+
+item.subspaceparasite.itemmobspawner_oronco.name=Radîtâjs Senais Drednauts
+item.subspaceparasite.itemmobspawner_terla.name=Radîtâjs Senais Valdnieks
+item.subspaceparasite.itemmobspawner_anged.name=Radîtâjs Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Radîtâjs Kustîgâ Gaïa
+
+item.subspaceparasite.itemmobspawner_shyco.name=Radîtâjs Primitîvs Garurocis
+item.subspaceparasite.itemmobspawner_hull.name=Radîtâjs Primitîvs Manduktors
+item.subspaceparasite.itemmobspawner_canra.name=Radîtâjs Primitîvs Izsaucçjs
+item.subspaceparasite.itemmobspawner_emana.name=Radîtâjs Primitîvs Dzeltenacs
+item.subspaceparasite.itemmobspawner_nogla.name=Radîtâjs Primitîvs Rîkeris
+item.subspaceparasite.itemmobspawner_bano.name=Radîtâjs Primitîvs Bolsteris
+item.subspaceparasite.itemmobspawner_ranrac.name=Radîtâjs Primitîvâ Arahnida
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Radîtâjs Adaptçts Garurocis
+item.subspaceparasite.itemmobspawner_canraadapted.name=Radîtâjs Adaptçts Izsaucçjs
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Radîtâjs Adaptçts Rîkeris
+item.subspaceparasite.itemmobspawner_hulladapted.name=Radîtâjs Adaptçts Manduktors
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Radîtâjs Adaptçts Dzeltenacs
+item.subspaceparasite.itemmobspawner_banoadapted.name=Radîtâjs Adaptçts Bolsteris
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Radîtâjs Adaptçta Arahnida
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Netîrs Pulkstenis
+item.subspaceparasite.weapon_scythe.name=Dzîvs Izkapts
+item.subspaceparasite.weapon_scythe_sentient.name=Jûtîgs Izkapts
+item.subspaceparasite.weapon_bow.name=Dzîvs Lielloks
+item.subspaceparasite.weapon_bow_sentient.name=Jûtîgs Lielloks
+item.subspaceparasite.weapon_axe.name=Dzîvs Lielcirvis
+item.subspaceparasite.weapon_axe_sentient.name=Jûtîgs Lielcirvis 
+
+item.subspaceparasite.bow_upperlimb.name=Dzîvam Liellokam Augðçjâ Daïa
+item.subspaceparasite.bow_lowerlimb.name=Dzîvam Liellokam Apakðçjâ Daïa
+item.subspaceparasite.bow_string.name=Dzîvam Liellokam Stîga
+item.subspaceparasite.bow_grip.name=Dzîvam Liellokam Rokturis
+item.subspaceparasite.bow_core.name=Dzîvam Liellokam Kodols
+
+item.subspaceparasite.scythe_back.name=Dzîvam Izkaptam Apakða
+item.subspaceparasite.scythe_blade.name=Dzîvam Izkaptam Asmens
+item.subspaceparasite.scythe_core.name=Dzîvam Izkaptam Kodols
+item.subspaceparasite.scythe_handle.name=Dzîvam Izkaptam Rokturis
+item.subspaceparasite.scythe_head.name=Dzîvam Izkaptam Augðdaïa
+
+item.subspaceparasite.ada_longarms_drop.name=Garuroèa Bruòu Fragments
+item.subspaceparasite.ada_summoner_drop.name=Izsaucçja Kodols
+item.subspaceparasite.ada_yelloweye_drop.name=Dzeltenaèâ Kauls
+item.subspaceparasite.ada_reeker_drop.name=Rîkera Zobs
+item.subspaceparasite.ada_manducater_drop.name=Manduktora Sfçra
+item.subspaceparasite.assimilated_flesh.name=Inficçta Miesa
+
+item.subspaceparasite.lurecomponent1.name=Trausls Gabals
+item.subspaceparasite.lurecomponent2.name=Smirdîgs Gabals
+item.subspaceparasite.lurecomponent3.name=Sapuvusi Vienîba
+item.subspaceparasite.lurecomponent4.name=Smirdoða Vienîba
+item.subspaceparasite.lurecomponent5.name=Formçts Segments
+item.subspaceparasite.lurecomponent6.name=Bûtisks Segments
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Parazîtiskais Stâds
+tile.subspaceparasite.parasitesapling_treethin.name=Parazîtiskais Stâds
+tile.subspaceparasite.parasitesapling_flowertall.name=Parazîtiskais Stâds
+
+tile.subspaceparasite.parasitebush_tendril.name=Parazîtiskais Tîkls
+tile.subspaceparasite.parasitebush_pop.name=Parazîtiskie Puslîði
+tile.subspaceparasite.parasitebush_bine.name=Parazîtiskais Gredzens
+
+tile.subspaceparasite.subspaceparasiteweb.name=Web
+tile.subspaceparasite.biomeheart.name=Parazîtiskâ Bioma Kodols
+tile.subspaceparasite.colonyheart.name=Parazîtu Kolonijas Kodols
+tile.subspaceparasite.biomepurifier.name=Bioma Attîrîtâjs
+tile.subspaceparasite.parasitestructure.name=Parazîtu Kolonijas Nepilnîga Struktûra
+tile.subspaceparasite.parasitethin.name=Parazîtiskais Plâns Bluíis
+tile.subspaceparasite.parasitemouth.name=Parazîtiska Mute
+tile.subspaceparasite.parasitetendril.name=Parazîtiska Stînîte
+tile.subspaceparasite.parasitefog.name=Migla
+
+tile.subspaceparasite.gore_sim_small.name=Asimilçtâs Atliekas
+tile.subspaceparasite.gore_sim_big.name=Asimilçtâs Atliekas
+tile.subspaceparasite.gore_pri_small.name=Primitîvâs Atliekas
+tile.subspaceparasite.gore_pri_big.name=Primitîvâs Atliekas
+tile.subspaceparasite.gore_ada_small.name=Adaptçtas Atliekas
+tile.subspaceparasite.gore_ada_big.name=Adaptçtas Atliekas
+tile.subspaceparasite.gore_pure_small.name=Nesamaitâtas Atliekas
+tile.subspaceparasite.gore_pure_big.name=Nesamaitâtas Atliekas
+
+tile.subspaceparasite.infestedstain.name=Invadçta Zeme
+tile.subspaceparasite.infestedtrunk.name=Invadçts Bluíis
+tile.subspaceparasite.infestedrubble.name=Invadçts Akmens
+tile.subspaceparasite.infestremain.name=Invadçts Atlikums
+
+tile.subspaceparasite.infestedbush_infected.name=Invadçti Vçni
+tile.subspaceparasite.infestedbush_grass1.name=Invadçti Vçni
+tile.subspaceparasite.infestedbush_flower1.name=Invadçti Vçni
+tile.subspaceparasite.infestedbush_spine.name=Invadçti Vçni
+tile.subspaceparasite.infestedbush_vine.name=Invadçti Vçni
+tile.subspaceparasite.infestedbush_arc.name=Invadçti Vçni
+
+tile.subspaceparasite.parasitecanister_sac.name=Parazîtiskais Pûslîtis
+tile.subspaceparasite.parasitecanister_cyst.name=Parazîtiskâ Cista
+tile.subspaceparasite.parasitecanister_lump.name=Parazîtiskâ Pika
+tile.subspaceparasite.parasitecanister_bag.name=Parazîtiskais Maiss
+
+tile.subspaceparasite.parasitetrunk_ball.name=Parazîtiskais Bluíis
+tile.subspaceparasite.parasitetrunk_tree.name=Parazîtiskais Bluíis
+tile.subspaceparasite.parasitetrunk_plant.name=Parazîtiskais Bluíis
+
+tile.subspaceparasite.parasitestain_dirt.name=Parazîtiskâ Zeme
+tile.subspaceparasite.parasitestain_mud.name=Parazîtiskie Dubïi
+tile.subspaceparasite.parasitestain_flesh.name=Parazîtiskâ Miesa
+tile.subspaceparasite.parasitestain_fleshstairs.name=Parazîtiskâ Miesa Trepes
+tile.subspaceparasite.parasitestain_feeler.name=Parazîtiskie Vçni
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Parazîtiskâ Pusplâksne
+tile.subspaceparasite.parasiterubble_flesh.name=Parazîtiskâ Koncentrçta Miesa
+tile.subspaceparasite.parasiterubble_bone.name=Parazîtiskais Koncentrçts Kauls
+tile.subspaceparasite.parasiterubble_bonestairs.name=Parazîtiskâs Koncentrçtâs Kaulu Kâpnes
+tile.subspaceparasite.parasiterubble_stone.name=Parazîtiskais Akmens
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Parazîtiskais Saspiests Akmens
+tile.subspaceparasite.parasiterubbledense_biome.name=Parazîtiskais Saspiests Biomas Akmens
+tile.subspaceparasite.parasiterubbledense_colony.name=Parazîtiskais Saspiests kolonijas akmens
+
+tile.subspaceparasite.evolutionlure_one.name=Vilinâjums (Vâjinâts)
+tile.subspaceparasite.evolutionlure_two.name=Vilinâjums (Nespçcîgs)
+tile.subspaceparasite.evolutionlure_three.name=Vilinâjums (Trûcîgs)
+tile.subspaceparasite.evolutionlure_four.name=Vilinâjums (Stabils)
+tile.subspaceparasite.evolutionlure_five.name=Vilinâjums (Sâtîgs)
+tile.subspaceparasite.evolutionlure_six.name=Vilinâjums (Koncentrçts)
+tile.subspaceparasite.evolutionlure_seven.name=Vilinâjums (Koncentrçts+)
+tile.subspaceparasite.evolutionlure_eight.name=Vilinâjums (Koncentrçts++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Stropa Izsaukums
+splash_potion.effect.subspaceparasite:coth=Ðïakstoða Stropa Izsaukuma Dzira
+potion.effect.subspaceparasite:coth=Stropa Izsaukuma Dzira
+lingering_potion.effect.subspaceparasite:coth=Ilgstoðâs Stropa Izsaukuma Dzira
+tipped_arrow.effect.subspaceparasite:coth=Stropa Izsaukuma Bulta
+
+mob_effect.subspaceparasite:fear=Bailes
+splash_potion.effect.subspaceparasite:fear=Ðïakstoða Bailes Dzira
+potion.effect.subspaceparasite:fear=Bailes Dzira
+lingering_potion.effect.subspaceparasite:fear=Ilgstoðâs Bailes Dzira
+tipped_arrow.effect.subspaceparasite:fear=Bailes Bulta
+
+mob_effect.subspaceparasite:antimall=Immalleable
+splash_potion.effect.subspaceparasite:antimall=Splash Potion of Immalleable
+potion.effect.subspaceparasite:antimall=Potion of Immalleable
+lingering_potion.effect.subspaceparasite:antimall=Lingering Potion of Immalleable
+tipped_arrow.effect.subspaceparasite:antimall=Arrow of Immalleable
+
+mob_effect.subspaceparasite:bleed=Asiòoðana
+splash_potion.effect.subspaceparasite:bleed=Ðïakstoðâ Asiòoðanas Dzira
+potion.effect.subspaceparasite:bleed=Asiòoðanas Dzira
+lingering_potion.effect.subspaceparasite:bleed=Ilgstoðâs Asiòoðanas Dzira
+tipped_arrow.effect.subspaceparasite:bleed=Asiòoðanas Bulta
+
+mob_effect.subspaceparasite:corrosive=Korozija
+splash_potion.effect.subspaceparasite:corrosive=Ðïakstoðâ Korozijas Dzira
+potion.effect.subspaceparasite:corrosive=Korozijas Dzira
+lingering_potion.effect.subspaceparasite:corrosive=Ilgstoðâs Korozijas Dzira
+tipped_arrow.effect.subspaceparasite:corrosive=Korozijas Dzira
+
+mob_effect.subspaceparasite:viral=Vîruss
+splash_potion.effect.subspaceparasite:viral=Ðïakstoðâ Vîrusu Dzira
+potion.effect.subspaceparasite:viral=Vîrusu Dzira
+lingering_potion.effect.subspaceparasite:viral=Ilgstoðâs Vîrusu Dzira
+tipped_arrow.effect.subspaceparasite:viral=Vîrusa Bulta
+
+mob_effect.subspaceparasite:rage=Dusmas
+splash_potion.effect.subspaceparasite:rage=Ðïakstoðâ Dusmu Dzira
+potion.effect.subspaceparasite:rage=Dusmu Dzira
+lingering_potion.effect.subspaceparasite:rage=Ilgstoðâð Dusmu Dzira
+tipped_arrow.effect.subspaceparasite:rage=Dusmu Bulta
+
+mob_effect.subspaceparasite:repel=Kamuflâþâ
+splash_potion.effect.subspaceparasite:repel=Ðïakstoðâ Kamuflâþâs Dzira
+potion.effect.subspaceparasite:repel=Kamuflâþâs Dzira
+lingering_potion.effect.subspaceparasite:repel=Ilgstoðâð Kamuflâþâs Dzira
+tipped_arrow.effect.subspaceparasite:repel=Kamuflâþâð Bulta
+
+//extra
+
+message.subspaceparasite.lure=Punkti Samazinâti!
+message.subspaceparasite.fearitem=Jûs esat panikâ!
+message.subspaceparasite.fearblock=Jûs esat panikâ!
+message.subspaceparasite.feargui=Jûs esat panikâ!
+message.subspaceparasite.evolutionsleep=Tu tagad nevari aizmigt...

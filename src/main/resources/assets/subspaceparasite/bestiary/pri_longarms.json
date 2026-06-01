@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:pri_longarms",
+  "tier": "PRIMITIVE",
+  "name_key": "entity.subspaceparasite.pri_longarms.name",
+  "lore_key": "lore.subspaceparasite.pri_longarms",
+  "render_scale": 0.95,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

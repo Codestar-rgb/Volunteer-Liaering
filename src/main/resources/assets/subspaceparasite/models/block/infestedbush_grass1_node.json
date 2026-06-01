@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "subspaceparasite:block/parasitebush_grass1_node"
+  }
+}

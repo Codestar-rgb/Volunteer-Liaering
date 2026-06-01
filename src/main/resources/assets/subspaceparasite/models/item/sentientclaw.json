@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "subspaceparasite:item/infectious_blade_fragment"
+  }
+}

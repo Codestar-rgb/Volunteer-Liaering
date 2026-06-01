@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:wraith",
+  "tier": "PREEMINENT",
+  "name_key": "entity.subspaceparasite.wraith.name",
+  "lore_key": "lore.subspaceparasite.wraith",
+  "render_scale": 0.7,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

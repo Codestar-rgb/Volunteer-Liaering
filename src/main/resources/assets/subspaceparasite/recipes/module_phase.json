@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XFX",
+    "LMS",
+    "EXC"
+  ],
+  "key": {
+    "X": { "item": "subspaceparasite:semiorganic_ingot" },
+    "F": { "item": "subspaceparasite:deadblood_fluid" },
+    "L": { "item": "subspaceparasite:lurecomponent6" },
+    "M": { "item": "subspaceparasite:module_base" },
+    "S": { "item": "subspaceparasite:hive_scrap" },
+    "E": { "item": "subspaceparasite:evclock" },
+    "C": { "item": "subspaceparasite:levelclock" }
+  },
+  "result": {
+    "item": "subspaceparasite:module_phase",
+    "count": 1
+  }
+}

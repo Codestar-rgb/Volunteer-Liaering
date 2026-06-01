@@ -1,0 +1,300 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Scurvy Deckhand
+entity.subspaceparasite.pri_manducater.name=Scurvy Dog
+entity.subspaceparasite.pri_summoner.name=Scurvy Cook
+entity.subspaceparasite.pri_reeker.name=Scurvy Bilge Rat
+entity.subspaceparasite.pri_yelloweye.name=Scurvy Barrelman
+entity.subspaceparasite.pri_bolster.name=Scurvy Boatswain
+entity.subspaceparasite.pri_arachnida.name=Scurvy Powder Monkey
+
+entity.subspaceparasite.host.name=Crew o' Bones
+entity.subspaceparasite.sim_bear.name=Assimilated Beast 'o' The Cold
+entity.subspaceparasite.sim_enderman.name=Assimilated Enderman
+entity.subspaceparasite.sim_adventurer.name=Assimilated Matey
+entity.subspaceparasite.sim_bigspider.name=Assimilated 'Uge Night Bug
+entity.subspaceparasite.sim_human.name=Assimilated Sailor
+entity.subspaceparasite.sim_humanhead.name=Sailing 'Ead
+entity.subspaceparasite.sim_villager.name=Assimilated Landlubber
+entity.subspaceparasite.sim_villagerhead.name=Sailing 'Ead
+entity.subspaceparasite.sim_cow.name=Assimilated Bovine
+entity.subspaceparasite.sim_cowhead.name=Sailing 'Ead
+entity.subspaceparasite.sim_horse.name=Assimilated Brumby
+entity.subspaceparasite.sim_horsehead.name=Sailing 'Ead
+entity.subspaceparasite.sim_pig.name=Assimilated Swine
+entity.subspaceparasite.sim_pighead.name=Sailing 'Ead
+entity.subspaceparasite.sim_sheep.name=Assimilated Sheep
+entity.subspaceparasite.sim_sheephead.name=Sailing 'Ead
+entity.subspaceparasite.sim_wolf.name=Assimilated Hound
+entity.subspaceparasite.sim_wolfhead.name=Sailing 'Ead
+entity.subspaceparasite.incompleteform_medium.name=Matey That Ain't Right
+entity.subspaceparasite.incompleteform_small.name=Matey That Ain't Right
+
+entity.subspaceparasite.overseer.name=First Mate
+entity.subspaceparasite.bomber_light.name=Flyin' Cannon
+entity.subspaceparasite.carrier_heavy.name=Barrel o' Rum That Walks
+entity.subspaceparasite.buglin.name=Stowaway
+entity.subspaceparasite.carrier_flying.name=Barrel o' Rum That Flies
+entity.subspaceparasite.rupter.name=Boardin' Deckhand
+entity.subspaceparasite.beckon_si.name=Quartermaster Stage I
+entity.subspaceparasite.beckon_sii.name=Quartermaster Stage II
+entity.subspaceparasite.beckon_siii.name=Quartermaster Stage III
+entity.subspaceparasite.beckon_siv.name=Quartermaster Stage IV
+entity.subspaceparasite.beckon_sv.name=Quartermaster Stage V
+entity.subspaceparasite.warden.name=Second Mate
+entity.subspaceparasite.marauder.name=Third Mate
+entity.subspaceparasite.grunt.name=Buccaneer
+entity.subspaceparasite.sentry.name=Cannon
+entity.subspaceparasite.kyphosis.name=Plank
+
+entity.subspaceparasite.anc_dreadnaut.name=Ol' Flyin' Dutchman
+entity.subspaceparasite.anc_overlord.name=Ol' Davey Jones
+entity.subspaceparasite.vigilante.name=Master Gunner
+entity.subspaceparasite.movingflesh.name=Meat That Got Places T'Be
+entity.subspaceparasite.tendril.name=Meat That Don't Got Places T'Be
+entity.subspaceparasite.anc_pod.name=Cannonball
+entity.subspaceparasite.biomass.name=Meat That Boutta Not Be Meat
+entity.subspaceparasite.gore.name=Tired Meat
+
+entity.subspaceparasite.ada_longarms.name=Hornswogglin' Deckhand
+entity.subspaceparasite.ada_summoner.name=Hornswogglin' Cook
+entity.subspaceparasite.ada_manducater.name=Hornswogglin' Dog
+entity.subspaceparasite.ada_reeker.name=Hornswogglin' Bilge Rat
+entity.subspaceparasite.ada_yelloweye.name=Hornswogglin' Barrelman
+entity.subspaceparasite.ada_bolster.name=Hornswogglin' Boatswain
+entity.subspaceparasite.ada_arachnida.name=Hornswogglin' Powder Monkey
+
+//Creative Tab
+
+itemGroup.SPParasites=SR:Mateys
+
+//Items
+
+item.subspaceparasite.itemmobspawner_host.name=Whirlpool  Crew o' Bones
+item.subspaceparasite.itemmobspawner_infbear.name=Whirlpool  Assimilated Beast 'o' The Cold
+item.subspaceparasite.itemmobspawner_infenderman.name=Whirlpool  Assimilated Enderman 
+item.subspaceparasite.itemmobspawner_infplayer.name=Whirlpool  Assimilated Matey
+item.subspaceparasite.itemmobspawner_dorpa.name=Whirlpool  Assimilated 'Uge Night Bug
+item.subspaceparasite.itemmobspawner_infhuman.name=Whirlpool  Assimilated Sailor
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Whirlpool  Sailing 'Ead (Sailor)
+item.subspaceparasite.itemmobspawner_infvillager.name=Whirlpool  Assimilated Landlubber
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Whirlpool  Sailing 'Ead (Landlubber)
+item.subspaceparasite.itemmobspawner_infcow.name=Whirlpool  Assimilated Bovine
+item.subspaceparasite.itemmobspawner_infcowhead.name=Whirlpool Sailing 'Ead (Bovine)
+item.subspaceparasite.itemmobspawner_infpig.name=Whirlpool Assimilated Swine
+item.subspaceparasite.itemmobspawner_infpighead.name=Whirlpool Sailing 'Ead (Swine)
+item.subspaceparasite.itemmobspawner_infsheep.name=Whirlpool Assimilated Sheep
+item.subspaceparasite.itemmobspawner_infsheephead.name=Whirlpool Sailing 'Ead (Sheep)
+item.subspaceparasite.itemmobspawner_infwolf.name=Whirlpool Assimilated Hound
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Whirlpool Sailing 'Ead (Hound)
+item.subspaceparasite.itemmobspawner_infhorse.name=Whirlpool Assimilated Brumby
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Whirlpool Sailing 'Ead (Brumby)
+item.subspaceparasite.itemmobspawner_inhoos.name=Whirlpool Incomplete Form (Landlubber)
+item.subspaceparasite.itemmobspawner_inhoom.name=Whirlpool Incomplete Form (Bilge Rat)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Whirlpool First Mate
+item.subspaceparasite.itemmobspawner_omboo.name=Whirlpool Flyin' Cannon
+item.subspaceparasite.itemmobspawner_rathol.name=Whirlpool Barrel o' Rum That Walks
+item.subspaceparasite.itemmobspawner_buthol.name=Whirlpool Barrel o' Rum That Flies
+item.subspaceparasite.itemmobspawner_lodo.name=Whirlpool Stowaway
+item.subspaceparasite.itemmobspawner_mudo.name=Whirlpool Boardin' Deckhand
+item.subspaceparasite.itemmobspawner_venkrol.name=Whirlpool Quartermaster Stage I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Whirlpool Quartermaster Stage II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Whirlpool Quartermaster Stage III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Whirlpool Quartermaster Stage IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Whirlpool Quartermaster Stage V
+item.subspaceparasite.itemmobspawner_ganro.name=Whirlpool Second Mate
+item.subspaceparasite.itemmobspawner_esor.name=Whirlpool Third Mate
+item.subspaceparasite.itemmobspawner_flog.name=Whirlpool Buccaneer
+item.subspaceparasite.itemmobspawner_unvo.name=Whirlpool Cannon 
+item.subspaceparasite.itemmobspawner_tonro.name=Whirlpool Plank
+
+item.subspaceparasite.itemmobspawner_oronco.name=Whirlpool Ol' Flyin' Dutchman
+item.subspaceparasite.itemmobspawner_terla.name=Whirlpool Ol' Davey Jones
+item.subspaceparasite.itemmobspawner_anged.name=Whirlpool Master Gunner
+item.subspaceparasite.itemmobspawner_lesh.name=Whirlpool Meat That Got Places T'Be
+
+item.subspaceparasite.itemmobspawner_shyco.name=Whirlpool Scurvy Deckhand
+item.subspaceparasite.itemmobspawner_hull.name=Whirlpool Scurvy Dog
+item.subspaceparasite.itemmobspawner_canra.name=Whirlpool Scurvy Cook
+item.subspaceparasite.itemmobspawner_emana.name=Whirlpool Scurvy Barrelman
+item.subspaceparasite.itemmobspawner_nogla.name=Whirlpool Scurvy Bilge Rat
+item.subspaceparasite.itemmobspawner_bano.name=Whirlpool Scurvy Boatswain
+item.subspaceparasite.itemmobspawner_ranrac.name=Whirlpool Scurvy Powder Monkey
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Whirlpool Hornswogglin' Deckhand
+item.subspaceparasite.itemmobspawner_canraadapted.name=Whirlpool Hornswogglin' Cook
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Whirlpool Hornswogglin' Bilge Rat
+item.subspaceparasite.itemmobspawner_hulladapted.name=Whirlpool Hornswogglin' Dog
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Whirlpool Hornswogglin' Barrelman
+item.subspaceparasite.itemmobspawner_banoadapted.name=Whirlpool Hornswogglin' Boatswain
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Whirlpool Hornswogglin' Powder Monkey
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Filthy Hourglass
+item.subspaceparasite.weapon_scythe.name=Livin' Cutlass
+item.subspaceparasite.weapon_scythe_sentient.name=Smart Cutlass
+item.subspaceparasite.weapon_bow.name=Livin' Flintlock
+item.subspaceparasite.weapon_bow_sentient.name=Smart Flintlock
+item.subspaceparasite.weapon_axe.name=Livin' Ax
+item.subspaceparasite.weapon_axe_sentient.name=Smart Ax
+
+item.subspaceparasite.bow_upperlimb.name=Livin' Flintlock Head
+item.subspaceparasite.bow_lowerlimb.name=Livin' Flintlock Rudder
+item.subspaceparasite.bow_string.name=Livin' Flintlock Rigging
+item.subspaceparasite.bow_grip.name=Livin' Flintlock Deck
+item.subspaceparasite.bow_core.name=Livin' Flintlock Cannon Stores
+
+item.subspaceparasite.scythe_back.name=Livin' Cutlass Rudder
+item.subspaceparasite.scythe_blade.name=Livin' Cutlass Bowsprit
+item.subspaceparasite.scythe_core.name=Livin' Cutlass Cannon Stores
+item.subspaceparasite.scythe_handle.name=Livin' Cutlass Hull
+item.subspaceparasite.scythe_head.name=Livin' Cutlass Main Mast
+
+item.subspaceparasite.ada_longarms_drop.name=Deckhand Noggin Fragment
+item.subspaceparasite.ada_summoner_drop.name=Cook's Pots'n'Pans
+item.subspaceparasite.ada_yelloweye_drop.name=Barrelman's Seein' Eye Tube
+item.subspaceparasite.ada_reeker_drop.name=Bilge Rat's Tooth
+item.subspaceparasite.ada_manducater_drop.name=Dog's Eye
+item.subspaceparasite.assimilated_flesh.name=Filthy Meat
+
+item.subspaceparasite.lurecomponent1.name=Fragile Bit
+item.subspaceparasite.lurecomponent2.name=Smelly Bit
+item.subspaceparasite.lurecomponent3.name=Putrid Stuff
+item.subspaceparasite.lurecomponent4.name=Fetid Stuff
+item.subspaceparasite.lurecomponent5.name=Moldered Cripe
+item.subspaceparasite.lurecomponent6.name=Essential Cripe
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Matey's Grower
+tile.subspaceparasite.parasitesapling_treethin.name=Matey's Grower
+tile.subspaceparasite.parasitesapling_flowertall.name=Matey's Grower
+
+tile.subspaceparasite.parasitebush_tendril.name=Matey's Fishnet
+tile.subspaceparasite.parasitebush_pop.name=Matey's Doctor Problems
+tile.subspaceparasite.parasitebush_bine.name=Matey's Ring
+
+tile.subspaceparasite.subspaceparasiteweb.name=Web o' Matey
+tile.subspaceparasite.biomeheart.name=Captain's Cabin
+tile.subspaceparasite.colonyheart.name=Captain's Helm
+tile.subspaceparasite.biomepurifier.name=Firebomb
+tile.subspaceparasite.parasitestructure.name=Captain's Broken Boat
+tile.subspaceparasite.parasitethin.name=Matey's Thin Log
+tile.subspaceparasite.parasitemouth.name=Matey's Gold Tooth
+tile.subspaceparasite.parasitetendril.name=Matey's Meat
+tile.subspaceparasite.parasitefog.name=ARRGH ME EYES
+
+tile.subspaceparasite.gore_sim_small.name=Assimilated Dead Man
+tile.subspaceparasite.gore_sim_big.name=Assimilated Dead Man
+tile.subspaceparasite.gore_pri_small.name=Scurvy Dead Man
+tile.subspaceparasite.gore_pri_big.name=Scurvy Dead Man
+tile.subspaceparasite.gore_ada_small.name=Hornswogglin' Dead Man
+tile.subspaceparasite.gore_ada_big.name=Hornswogglin' Dead Man
+tile.subspaceparasite.gore_pure_small.name=First Mate Dead Man
+tile.subspaceparasite.gore_pure_big.name=First Mate Dead Man
+
+tile.subspaceparasite.infestedstain.name=Gross Filth
+tile.subspaceparasite.infestedtrunk.name=Gross Timber
+tile.subspaceparasite.infestedrubble.name=Gross Pebbles
+tile.subspaceparasite.infestremain.name=Matey's Grog
+
+tile.subspaceparasite.infestedbush_infected.name=Gross Veins
+tile.subspaceparasite.infestedbush_grass1.name=Gross Veins
+tile.subspaceparasite.infestedbush_flower1.name=Gross Veins
+tile.subspaceparasite.infestedbush_spine.name=Gross Veins
+tile.subspaceparasite.infestedbush_vine.name=Gross Veins
+tile.subspaceparasite.infestedbush_arc.name=Gross Veins
+
+tile.subspaceparasite.parasitecanister_sac.name=Matey's Doctor Problems
+tile.subspaceparasite.parasitecanister_cyst.name=Matey's Doctor Problems
+tile.subspaceparasite.parasitecanister_lump.name=Matey's Doctor Problems
+tile.subspaceparasite.parasitecanister_bag.name=Barber's Bag
+
+tile.subspaceparasite.parasitetrunk_ball.name=Matey's Timber
+tile.subspaceparasite.parasitetrunk_tree.name=Matey's Timber
+tile.subspaceparasite.parasitetrunk_plant.name=Matey's Timber
+
+tile.subspaceparasite.parasitestain_dirt.name=Matey's Filth
+tile.subspaceparasite.parasitestain_mud.name=Matey's Filth
+tile.subspaceparasite.parasitestain_flesh.name=Matey's Meat
+tile.subspaceparasite.parasitestain_fleshstairs.name=Stairs o' Matey's Meat
+tile.subspaceparasite.parasitestain_feeler.name=Matey's Veins
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Slab o' Matey's Meat
+tile.subspaceparasite.parasiterubble_flesh.name=Matey's Grog'd Up Meat
+tile.subspaceparasite.parasiterubble_bone.name=Matey's Grog'd Up Bone
+tile.subspaceparasite.parasiterubble_bonestairs.name=Stairs o' Matey's Grog'd Up Bone
+tile.subspaceparasite.parasiterubble_stone.name=Matey's Pebbles
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Matey's Grog'd Up Pebbles
+tile.subspaceparasite.parasiterubbledense_biome.name=Captain's Lucky Pebbles o' The Cabin
+tile.subspaceparasite.parasiterubbledense_colony.name=Captain's Lucky Pebbles o' The Helm
+
+tile.subspaceparasite.evolutionlure_one.name=Booty (Weakened)
+tile.subspaceparasite.evolutionlure_two.name=Booty (Faint)
+tile.subspaceparasite.evolutionlure_three.name=Booty (Slender)
+tile.subspaceparasite.evolutionlure_four.name=Booty (Stable)
+tile.subspaceparasite.evolutionlure_five.name=Booty (Substantial)
+tile.subspaceparasite.evolutionlure_six.name=Booty (Concentrated)
+tile.subspaceparasite.evolutionlure_seven.name=Booty (Concentrated+)
+tile.subspaceparasite.evolutionlure_eight.name=Booty (Concentrated++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=All Hands On Deck
+splash_potion.effect.subspaceparasite:coth=Grenade o' All Hands On Deck
+potion.effect.subspaceparasite:coth=Rum o' All Hands On Deck
+lingering_potion.effect.subspaceparasite:coth=Foggy Grog o' All Hands On Deck
+tipped_arrow.effect.subspaceparasite:coth=Tipped Bolt o' All Hands On Deck
+
+mob_effect.subspaceparasite:fear=Shakin' Bootsies
+splash_potion.effect.subspaceparasite:fear=Grenade o' Shakin' Bootsies
+potion.effect.subspaceparasite:fear=Rum o' Shakin' Bootsies
+lingering_potion.effect.subspaceparasite:fear=Foggy Grog o' Shakin' Bootsies
+tipped_arrow.effect.subspaceparasite:fear=Tipped Bolt o' Shakin' Bootsies
+
+mob_effect.subspaceparasite:antimall=Stiffy
+splash_potion.effect.subspaceparasite:antimall=Grenade o' Stiffy
+potion.effect.subspaceparasite:antimall=Rum o' Stiffy
+lingering_potion.effect.subspaceparasite:antimall=Foggy Grog o' Stiffy
+tipped_arrow.effect.subspaceparasite:antimall=Tipped Bolt o' Stiffy
+
+mob_effect.subspaceparasite:bleed=Keelhaul
+splash_potion.effect.subspaceparasite:bleed=Grenade o' Keelhaul
+potion.effect.subspaceparasite:bleed=Rum o' Keelhaul
+lingering_potion.effect.subspaceparasite:bleed=Foggy Grog o' Keelhaul
+tipped_arrow.effect.subspaceparasite:bleed=Tipped Bolt o' Keelhaul
+
+mob_effect.subspaceparasite:corrosive=Plundered
+splash_potion.effect.subspaceparasite:corrosive=Grenade o' Plundered
+potion.effect.subspaceparasite:corrosive=Rum o' Plundered
+lingering_potion.effect.subspaceparasite:corrosive=Foggy Grog o' Plundered
+tipped_arrow.effect.subspaceparasite:corrosive=Tipped Bolt o' Plundered
+
+mob_effect.subspaceparasite:viral=Scurvy
+splash_potion.effect.subspaceparasite:viral=Grenade o' Scurvy
+potion.effect.subspaceparasite:viral=Rum o' Scurvy
+lingering_potion.effect.subspaceparasite:viral=Foggy Grog o' Scurvy
+tipped_arrow.effect.subspaceparasite:viral=Tipped Bolt o' Scurvy
+
+mob_effect.subspaceparasite:rage=Squiffy
+splash_potion.effect.subspaceparasite:rage=Grenade o' Squiffy
+potion.effect.subspaceparasite:rage=Rum o' Squiffy
+lingering_potion.effect.subspaceparasite:rage=Foggy Grog o' Squiffy
+tipped_arrow.effect.subspaceparasite:rage=Tipped Bolt o' Squiffy
+
+mob_effect.subspaceparasite:repel=Hidey
+splash_potion.effect.subspaceparasite:repel=Grenade o' Hidey
+potion.effect.subspaceparasite:repel=Rum o' Hidey
+lingering_potion.effect.subspaceparasite:repel=Foggy Grog o' Hidey
+tipped_arrow.effect.subspaceparasite:repel=Tipped Bolt o' Hidey
+
+//extra
+
+message.subspaceparasite.lure=Arr, Davey Jones's backin' up!
+message.subspaceparasite.fearitem=ARRGH YER BOOTSIES SHAKIN!!!
+message.subspaceparasite.fearblock=ARRGH YER BOOTSIES SHAKIN!!!
+message.subspaceparasite.feargui=ARRGH YER BOOTSIES SHAKIN!!!
+message.subspaceparasite.evolutionsleep=WAKE UP YER GETTIN BOARDED MATEY ALL HANDS ON DECK

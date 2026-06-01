@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "subspaceparasite:block/infestedstain",
+    "top": "subspaceparasite:block/parasite_snow",
+    "bottom": "subspaceparasite:block/infested_cobblestone",
+    "side": "subspaceparasite:block/infested_cobblestone_snow"
+  }
+}

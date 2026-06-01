@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:infestedtrunk"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:infested_planks",
+    "count": 4
+  }
+}

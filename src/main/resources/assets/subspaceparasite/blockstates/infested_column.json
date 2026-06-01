@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "subspaceparasite:block/infested_column"
+    },
+    "axis=z": {
+      "model": "subspaceparasite:block/infested_column",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "subspaceparasite:block/infested_column",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

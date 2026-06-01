@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "subspaceparasite:block/infested_furnace_side"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:pumpkin" },
+    { "item": "subspaceparasite:infestedstain" }
+  ],
+  "result": {
+    "item": "subspaceparasite:assimilated_pumpkin",
+    "count": 1
+  }
+}

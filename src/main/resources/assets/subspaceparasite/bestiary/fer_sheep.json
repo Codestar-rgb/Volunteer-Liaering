@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:fer_sheep",
+  "tier": "FERAL",
+  "name_key": "entity.subspaceparasite.fer_sheep.name",
+  "lore_key": "lore.subspaceparasite.fer_sheep",
+  "render_scale": 1.0,
+  "minlorekill": 3,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

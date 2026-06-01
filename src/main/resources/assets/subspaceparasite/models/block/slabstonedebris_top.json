@@ -1,0 +1,9 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "particle": "subspaceparasite:block/hivestone_debris_side",
+    "bottom": "subspaceparasite:block/hivestone_debris",
+    "top": "subspaceparasite:block/hivestone_debris",
+    "side": "subspaceparasite:block/hivestone_debris_side"
+  }
+}

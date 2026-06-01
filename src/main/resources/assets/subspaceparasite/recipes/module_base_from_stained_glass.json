@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZXZ",
+    "XYX",
+    "ZXZ"
+  ],
+  "key": {
+    "Z": {
+      "item": "minecraft:stained_glass",
+      "data": 32767
+    },
+    "X": {
+      "item": "subspaceparasite:tissue_spike"
+    },
+    "Y": {
+      "item": "subspaceparasite:organ_synth"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_base",
+    "data": 0,
+    "count": 1
+  }
+}

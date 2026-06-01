@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CBC",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "subspaceparasite:ada_summoner_drop"
+    },
+    "B": {
+      "item": "subspaceparasite:ada_manducater_drop"
+    },
+    "C": {
+      "item": "subspaceparasite:assimilated_flesh"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:living_core",
+    "count": 1
+  }
+}

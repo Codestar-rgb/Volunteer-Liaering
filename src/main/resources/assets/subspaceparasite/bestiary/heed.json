@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:heed",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.heed.name",
+  "lore_key": "lore.subspaceparasite.heed",
+  "render_scale": 1.0,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

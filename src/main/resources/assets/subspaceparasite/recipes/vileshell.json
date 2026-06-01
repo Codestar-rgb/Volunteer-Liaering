@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CAC",
+    "   "
+  ],
+  "key": {
+    "A": {
+      "item": "subspaceparasite:ada_longarms_drop"
+    },
+    "C": {
+      "item": "subspaceparasite:assimilated_flesh"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:vile_shell",
+    "count": 1
+  }
+}

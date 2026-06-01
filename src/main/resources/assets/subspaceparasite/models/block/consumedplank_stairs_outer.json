@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/consumed_planks",
+    "top": "subspaceparasite:block/consumed_planks",
+    "side": "subspaceparasite:block/consumed_planks"
+  }
+}

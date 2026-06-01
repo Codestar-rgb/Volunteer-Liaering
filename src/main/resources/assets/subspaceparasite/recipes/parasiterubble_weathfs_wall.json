@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "subspaceparasite:parasiterubble",
+      "data": 13
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasiterubble_weathfs_wall",
+    "count": 6
+  }
+}

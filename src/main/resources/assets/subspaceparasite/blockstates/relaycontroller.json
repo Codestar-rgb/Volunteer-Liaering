@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "subspaceparasite:block/relaycontroller"
+    },
+    "facing=east": {
+      "model": "subspaceparasite:block/relaycontroller"
+    },
+    "facing=south": {
+      "model": "subspaceparasite:block/relaycontroller"
+    },
+    "facing=west": {
+      "model": "subspaceparasite:block/relaycontroller"
+    },
+    "": {
+      "model": "subspaceparasite:block/relaycontroller"
+    }
+  }
+}

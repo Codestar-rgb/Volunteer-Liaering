@@ -1,0 +1,14 @@
+{
+  "variants": {
+    "variant=deadhead": [
+      {
+        "model": "subspaceparasite:block/parasiteplank_deadhead"
+      }
+    ],
+    "variant=deadheads": [
+      {
+        "model": "subspaceparasite:block/parasiteplank_deadheads"
+      }
+    ]
+  }
+}

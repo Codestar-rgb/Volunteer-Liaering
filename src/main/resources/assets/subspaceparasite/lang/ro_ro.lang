@@ -1,0 +1,465 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Longarms Primitiv
+entity.subspaceparasite.pri_manducater.name=Manducater Primitiv
+entity.subspaceparasite.pri_summoner.name=Summoner Primitiv
+entity.subspaceparasite.pri_reeker.name=Reeker Primitiv
+entity.subspaceparasite.pri_yelloweye.name=Yelloweye Primitiv
+entity.subspaceparasite.pri_bolster.name=Bolster Primitiv
+entity.subspaceparasite.pri_arachnida.name=Arachnida Primitiv
+entity.subspaceparasite.pri_lum.name=Devourer Primitiv
+
+entity.subspaceparasite.host.name=Gazdă
+entity.subspaceparasite.hostii.name=Turma
+entity.subspaceparasite.crux.name=Crux
+entity.subspaceparasite.heed.name=Heed
+entity.subspaceparasite.thrall.name=Thrall
+
+entity.subspaceparasite.sim_bear.name=Urs Asimilat
+entity.subspaceparasite.sim_enderman.name=Enderman Asimilat
+entity.subspaceparasite.sim_endermanhead.name=Cap Mergător
+entity.subspaceparasite.sim_adventurer.name=Aventurier Asimilat
+entity.subspaceparasite.sim_adventurerhead.name=Cap Mergător
+entity.subspaceparasite.sim_bigspider.name=Păianjen Urias Asimilat
+entity.subspaceparasite.sim_human.name=Om Asimilat
+entity.subspaceparasite.sim_humanhead.name=Cap Mergător
+entity.subspaceparasite.sim_villager.name=Sătean Asimilat
+entity.subspaceparasite.sim_villagerhead.name=Cap Mergător
+entity.subspaceparasite.sim_cow.name=Vacă Asimilată
+entity.subspaceparasite.sim_cowhead.name=Cap Mergător
+entity.subspaceparasite.sim_horse.name=Cal Asimilat
+entity.subspaceparasite.sim_horsehead.name=Cap Mergător
+entity.subspaceparasite.sim_pig.name=Porc Asimilat
+entity.subspaceparasite.sim_pighead.name=Cap Mergător
+entity.subspaceparasite.sim_sheep.name=Oaie Asimilată
+entity.subspaceparasite.sim_sheephead.name=Cap Mergător
+entity.subspaceparasite.sim_wolf.name=Lup Asimilat
+entity.subspaceparasite.sim_wolfhead.name=Cap Mergător
+entity.subspaceparasite.incompleteform_medium.name=Forma Incompletă
+entity.subspaceparasite.incompleteform_small.name=Forma Incompletă
+entity.subspaceparasite.sim_dragone.name=Ender Dragon Asimilat
+entity.subspaceparasite.sim_dragonehead.name=Cap Mergător
+
+entity.subspaceparasite.overseer.name=Overseer
+entity.subspaceparasite.bomber_light.name=Bombardier
+entity.subspaceparasite.carrier_heavy.name=Purtător Greu
+entity.subspaceparasite.buglin.name=Buglin
+entity.subspaceparasite.mangler.name=Mangler
+entity.subspaceparasite.worker.name=Muncitor
+entity.subspaceparasite.carrier_flying.name=Purtător Zburator
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Beckon Stagiu I
+entity.subspaceparasite.beckon_sii.name=Beckon Stagiu II
+entity.subspaceparasite.beckon_siii.name=Beckon Stagiu III
+entity.subspaceparasite.beckon_siv.name=Beckon Stagiu IV
+entity.subspaceparasite.beckon_sv.name=Beckon Stagiu V
+entity.subspaceparasite.warden.name=Gardian
+entity.subspaceparasite.marauder.name=Marauder
+entity.subspaceparasite.monarch.name=Monarh
+entity.subspaceparasite.grunt.name=Grunt
+entity.subspaceparasite.sentry.name=Santinelă
+entity.subspaceparasite.kyphosis.name=Kyphosis
+entity.subspaceparasite.dispatcherten.name=Tentacul Dispecer
+entity.subspaceparasite.dispatcher_si.name=Dispecer Stagiu I
+entity.subspaceparasite.dispatcher_sii.name=Dispecer Stagiu II
+entity.subspaceparasite.dispatcher_siii.name=Dispecer Stagiu III
+entity.subspaceparasite.dispatcher_siv.name=Dispecer Stagiu IV
+entity.subspaceparasite.seizer.name=Sechestrator
+
+entity.subspaceparasite.bomber_heavy.name=Bombardier Greu
+entity.subspaceparasite.carrier_colony.name=Purtatorul Coloniei
+entity.subspaceparasite.wraith.name=Wraith
+entity.subspaceparasite.bogle.name=Bogle
+entity.subspaceparasite.haunter.name=Vanator
+entity.subspaceparasite.succor.name=Succor
+
+entity.subspaceparasite.anc_dreadnaut.name=Dreadnaut Antic
+entity.subspaceparasite.anc_overlord.name=Overlord Antic
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Carne Miscătoare
+entity.subspaceparasite.tendril.name=Tentacul
+entity.subspaceparasite.anc_pod.name=Pod
+entity.subspaceparasite.biomass.name=Biomasa
+entity.subspaceparasite.gore.name=Gor
+
+entity.subspaceparasite.ada_longarms.name=Longarm Adaptat
+entity.subspaceparasite.ada_summoner.name=Summoner Adaptat
+entity.subspaceparasite.ada_manducater.name=Manducator Adaptat
+entity.subspaceparasite.ada_reeker.name=Reeker Adaptat
+entity.subspaceparasite.ada_yelloweye.name=Yelloweye Adaptat
+entity.subspaceparasite.ada_bolster.name=Bolster Adaptat
+entity.subspaceparasite.ada_arachnida.name=Arachnida Adaptat
+
+entity.subspaceparasite.remain.name=Remain
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasites
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=Spawnează Pod
+
+item.subspaceparasite.itemmobspawner_host.name=Spawnează Gazdă
+item.subspaceparasite.itemmobspawner_hostii.name=Spawnează Turma
+item.subspaceparasite.itemmobspawner_heed.name=Spawnează Heed
+item.subspaceparasite.itemmobspawner_cruxa.name=Spawnează Crux
+item.subspaceparasite.itemmobspawner_mes.name=Spawnează Thrall
+
+item.subspaceparasite.itemmobspawner_infbear.name=Spawnează Urs Asimilat
+item.subspaceparasite.itemmobspawner_infenderman.name=Spawnează Enderman Asimilat
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Spawnează Cap Mergător (Enderman)
+item.subspaceparasite.itemmobspawner_infplayer.name=Spawnează Aventurier Asimilat
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Spawnează Cap Mergător (Aventurier)
+item.subspaceparasite.itemmobspawner_dorpa.name=Spawnează Păianjen Urias Asimilat
+item.subspaceparasite.itemmobspawner_infhuman.name=Spawnează Om Asimilat
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Spawnează Cap Mergător (Om)
+item.subspaceparasite.itemmobspawner_infvillager.name=Spawnează Sătean Asimilat
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Spawnează Cap Mergător (Sătean)
+item.subspaceparasite.itemmobspawner_infcow.name=Spawnează Vacă Asimilată
+item.subspaceparasite.itemmobspawner_infcowhead.name=Spawn Cap Mergător (Vacă)
+item.subspaceparasite.itemmobspawner_infpig.name=Spawnează Porc Asimilat
+item.subspaceparasite.itemmobspawner_infpighead.name=Spawn Cap Mergător (Porc)
+item.subspaceparasite.itemmobspawner_infsheep.name=Spawnează Oaie Asimilată
+item.subspaceparasite.itemmobspawner_infsheephead.name=Spawn Cap Mergător (Oaie)
+item.subspaceparasite.itemmobspawner_infwolf.name=Spawnează Lup Asimilat
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Spawn Cap Mergător (Lup)
+item.subspaceparasite.itemmobspawner_infhorse.name=Spawnează Cal Asimilat
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Spawn Cap Mergător (Cal)
+item.subspaceparasite.itemmobspawner_inhoos.name=Spawnează Formă Incompletă (Mica)
+item.subspaceparasite.itemmobspawner_inhoom.name=Spawnează Formă Incompletă (Medium)
+item.subspaceparasite.itemmobspawner_infdragone.name=Spawnază  Ender Dragon Asimilat
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Spawnează Cap Mergător (Ender Dragon)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Spawnează Overseer
+item.subspaceparasite.itemmobspawner_omboo.name=Spawnează Bombardier
+item.subspaceparasite.itemmobspawner_rathol.name=Spawnează Purtător Greu
+item.subspaceparasite.itemmobspawner_buthol.name=Spawnează Purtător Zburător
+item.subspaceparasite.itemmobspawner_lodo.name=Spawnează Buglin
+item.subspaceparasite.itemmobspawner_nuuh.name=Spawnează Mangler
+item.subspaceparasite.itemmobspawner_worker.name=Spawnează Muncitor
+item.subspaceparasite.itemmobspawner_mudo.name=Spawnează Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Spawnează Beckon Stagiu I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Spawnează Beckon Stagiu II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Spawnează Beckon Stagiu III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Spawnează Beckon Stagiu IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Spawnează Beckon Stagiu V
+item.subspaceparasite.itemmobspawner_ganro.name=Spawnează Guardian
+item.subspaceparasite.itemmobspawner_esor.name=Spawnează Marauder
+item.subspaceparasite.itemmobspawner_orch.name=Spawnează Monarh
+item.subspaceparasite.itemmobspawner_flog.name=Spawnează Grunt
+item.subspaceparasite.itemmobspawner_unvo.name=Spawnează Santinelă
+item.subspaceparasite.itemmobspawner_tonro.name=Spawnează Kyphosis
+item.subspaceparasite.itemmobspawner_dod.name=Spawnează Dispecer Stagiu I
+item.subspaceparasite.itemmobspawner_dodsii.name=Spawnează Dispecer Stagiu II
+item.subspaceparasite.itemmobspawner_dodsiii.name=Spawnează Dispecer Stagiu III
+item.subspaceparasite.itemmobspawner_dodsiv.name=Spawnează Dispecer Stagiu IV
+item.subspaceparasite.itemmobspawner_nak.name=Spawnează Sechestrator
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Spawnează Bombardier Greu
+item.subspaceparasite.itemmobspawner_vesta.name=Spawnează Purtatorul Coloniei
+item.subspaceparasite.itemmobspawner_elvia.name=Spawnează Wraith
+item.subspaceparasite.itemmobspawner_lencia.name=Spawnează Bogle
+item.subspaceparasite.itemmobspawner_pheon.name=Spawnează Vanator
+item.subspaceparasite.itemmobspawner_flam.name=Spawnează Succor
+
+item.subspaceparasite.itemmobspawner_oronco.name=Spawnează Dreadnaut Antic
+item.subspaceparasite.itemmobspawner_terla.name=Spawnează Overlord Antic
+item.subspaceparasite.itemmobspawner_anged.name=Spawnează Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Spawnează Carne Miscătoare
+
+item.subspaceparasite.itemmobspawner_shyco.name=Spawnează Longarm Primitiv
+item.subspaceparasite.itemmobspawner_hull.name=Spawnează Manducater Primitiv
+item.subspaceparasite.itemmobspawner_canra.name=Spawnează Summoner Primitiv
+item.subspaceparasite.itemmobspawner_emana.name=Spawnează Yelloweye Primitiv
+item.subspaceparasite.itemmobspawner_nogla.name=Spawnează Reeker Primitiv
+item.subspaceparasite.itemmobspawner_bano.name=Spawnează Bolster Primitiv
+item.subspaceparasite.itemmobspawner_ranrac.name=Spawnează Arachnida Primitiv
+item.subspaceparasite.itemmobspawner_lum.name=Spawnează Devourer Primitiv
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Spawnează Longarm Adaptat
+item.subspaceparasite.itemmobspawner_canraadapted.name=Spawnează Summoner Adaptat
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Spawnează Reeker Adaptat
+item.subspaceparasite.itemmobspawner_hulladapted.name=Spawnează Manducater Adaptat
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Spawnează Yelloweye Adaptat
+item.subspaceparasite.itemmobspawner_banoadapted.name=Spawnează Bolster Adaptat
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Spawnează Arachnida Adaptat
+
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+iitem.subspaceparasite.evclock.name=Ceas Murdar
+ item.subspaceparasite.weapon_scythe.name=Coasa Vie
+ item.subspaceparasite.weapon_scythe_sentient.name=Coasa Constienta
+ item.subspaceparasite.weapon_bow.name=Arc Viu
+ item.subspaceparasite.weapon_bow_sentient.name=Arc Constient
+ item.subspaceparasite.weapon_axe.name=Topor Viu
+ item.subspaceparasite.weapon_axe_sentient.name=Topor Simtitor
+ item.subspaceparasite.weapon_sword.name=Sabie Vie
+ item.subspaceparasite.weapon_sword_sentient.name=Sabie Constienta
+ item.subspaceparasite.weapon_cleaver.name=Satâr Viu
+ item.subspaceparasite.weapon_cleaver_sentient.name=Satâr Constient
+
+item.subspaceparasite.armor_helm.name=Casca Vie
+item.subspaceparasite.armor_chest.name=Placa de piept Vie
+item.subspaceparasite.armor_pants.name=Pantaloni Vii
+item.subspaceparasite.armor_boots.name=Cizme Vii
+item.subspaceparasite.armor_helm_sentient.name=Casca Constienta
+item.subspaceparasite.armor_chest_sentient.name=Placa de piept Constienta
+item.subspaceparasite.armor_pants_sentient.name=Pantaloni Constienti
+item.subspaceparasite.armor_boots_sentient.name=Cizme Constiente
+
+//////
+item.subspaceparasite.bow_upperlimb.name=Membru Superior al Marelui Arc Viu
+item.subspaceparasite.bow_lowerlimb.name=Membru Inferior al Marelui Arc Viu
+item.subspaceparasite.bow_string.name=Ața al Marelui Arc Viu
+item.subspaceparasite.bow_grip.name=Prinderea Marelui Arc Viu
+item.subspaceparasite.bow_core.name=Miezul Marelui Arc Viu
+
+item.subspaceparasite.scythe_back.name=Spatele Coasei Vii
+item.subspaceparasite.scythe_blade.name=Lama Coasei Vii
+item.subspaceparasite.scythe_core.name=Miezul Coasei Vii
+item.subspaceparasite.scythe_handle.name=Mâner Coasei Vii
+item.subspaceparasite.scythe_head.name=Capul Coasei Vii
+///////
+
+item.subspaceparasite.dried_tendons.name=Tendoane Uscate
+item.subspaceparasite.hardened_bone_handle.name=Mâner Intărit de Os
+item.subspaceparasite.infectious_blade_fragment.name=Fragment de Lamă Infectioasă
+item.subspaceparasite.living_core.name=Miez Viu
+item.subspaceparasite.vile_shell.name=Carapace
+item.subspaceparasite.bone.name=Os Ciudat
+
+
+item.subspaceparasite.ada_longarms_drop.name=Fragmentul Armuri Longarm
+item.subspaceparasite.ada_summoner_drop.name=Miezul Summonerului
+item.subspaceparasite.ada_yelloweye_drop.name=Os de Yelloweye
+item.subspaceparasite.ada_reeker_drop.name=Colț de Reeker
+item.subspaceparasite.ada_manducater_drop.name=Orb de Manducator
+item.subspaceparasite.ada_bolster_drop.name=Coaja de Bolster
+item.subspaceparasite.ada_arachnida_drop.name=Gheara de Arachnida
+item.subspaceparasite.ada_devourer_drop.name=Tentacul de Devourer
+
+item.subspaceparasite.assimilated_flesh.name=Carne Infectată
+item.subspaceparasite.beckon_drop.name=Membrana de Beckon
+item.subspaceparasite.dispatcher_drop.name=Membrana de Dispecer
+
+item.subspaceparasite.lurecomponent1.name=Viscerele de Rupter
+item.subspaceparasite.lurecomponent2.name=Inima infectată
+item.subspaceparasite.lurecomponent3.name=Tendoane Alterate
+item.subspaceparasite.lurecomponent4.name=Plămân Toxic
+item.subspaceparasite.lurecomponent5.name=Creier Nociv
+item.subspaceparasite.lurecomponent6.name=Segment Esential
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Copăcel Parazit
+tile.subspaceparasite.parasitesapling_treethin.name=Copăcel Parazit
+tile.subspaceparasite.parasitesapling_flowertall.name=Copăcel Parazit
+
+tile.subspaceparasite.parasitebush_tendril.name=Plasa Parazită
+tile.subspaceparasite.parasitebush_pop.name=Veziculă Parazită
+tile.subspaceparasite.parasitebush_bine.name=Inel Parazit
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=Panza
+tile.subspaceparasite.subspaceparasiteweb_two.name=Panza
+tile.subspaceparasite.subspaceparasiteweb_three.name=Panza
+tile.subspaceparasite.tunnel.name=Tunel
+tile.subspaceparasite.dispatchern.name=Dispatcher Nidus
+tile.subspaceparasite.biomeheart.name=Miezul Biomului Parazit
+tile.subspaceparasite.colonyheart.name=Miezul Coloniei Parazite
+tile.subspaceparasite.biomepurifier.name=Purificator de Biom
+tile.subspaceparasite.parasitestructure.name=Structură Incompletă a Coloniei Parazite
+tile.subspaceparasite.parasitethin.name=Trunchi Subțire Parazit
+tile.subspaceparasite.parasitemouth.name=Gura Parazită
+tile.subspaceparasite.parasitetendril.name=Tentacul Parazit
+tile.subspaceparasite.parasitefog.name=Ceață
+
+tile.subspaceparasite.gore_sim_small.name=Resturi Asimilate
+tile.subspaceparasite.gore_sim_big.name=Resturi Asimilate
+tile.subspaceparasite.gore_sim_flat.name=Resturi Asimilate
+tile.subspaceparasite.gore_pri_small.name=Resturi Primitive
+tile.subspaceparasite.gore_pri_big.name=Resturi Primitive
+tile.subspaceparasite.gore_pri_flat.name=Resturi Primitive
+tile.subspaceparasite.gore_ada_small.name=Resturi Adaptate
+tile.subspaceparasite.gore_ada_big.name=Resturi Adaptate
+tile.subspaceparasite.gore_ada_flat.name=Resturi Adaptate
+tile.subspaceparasite.gore_pure_small.name=Resturi Pure
+tile.subspaceparasite.gore_pure_big.name=Resturi Pure
+tile.subspaceparasite.gore_pure_flat.name=Resturi Pure
+
+tile.subspaceparasite.infestedstain.name=Pământ Infestat
+tile.subspaceparasite.infestedtrunk.name=Trunchi Infestat
+tile.subspaceparasite.infestedrubble.name=Piatra Infestată
+tile.subspaceparasite.infestremain.name=Deşeu Infestat
+
+tile.subspaceparasite.infestedbush_infected.name=Vene Infectate
+tile.subspaceparasite.infestedbush_grass1.name=Vene Infectate
+tile.subspaceparasite.infestedbush_flower1.name=Vene Infectate
+tile.subspaceparasite.infestedbush_spine.name=Vene Infectate
+tile.subspaceparasite.infestedbush_vine.name=Vene Infectate
+tile.subspaceparasite.infestedbush_arc.name=Vene Infectate
+
+tile.subspaceparasite.parasitecanister_sac.name=Sac Parazit
+tile.subspaceparasite.parasitecanister_cyst.name=Chist Parazit
+tile.subspaceparasite.canisteractive.name=Chist Parazit
+tile.subspaceparasite.parasitecanister_lump.name=Coş Parazit
+tile.subspaceparasite.parasitecanister_bag.name=Pungă Parazită
+
+tile.subspaceparasite.parasitetrunk_ball.name=Trunchi Parazitat
+tile.subspaceparasite.parasitetrunk_tree.name=Trunchi Parazitat
+tile.subspaceparasite.parasitetrunk_plant.name=Trunchi Parazitat
+
+tile.subspaceparasite.parasitestain_dirt.name=Pământ Parazitat
+tile.subspaceparasite.parasitestain_mud.name=Noroi Parazitat
+tile.subspaceparasite.parasitestain_flesh.name=Carne Parazitată
+tile.subspaceparasite.parasitestain_fleshstairs.name=Scări din Carne Parazitată
+tile.subspaceparasite.parasitestain_feeler.name=Vene Parazitate
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Dală Parazită
+tile.subspaceparasite.parasiterubble_flesh.name=Carne Parazită Concentrată
+tile.subspaceparasite.parasiterubble_bone.name=Os Parazitat Concentrat
+tile.subspaceparasite.parasiterubble_bonestairs.name=Scări din Os Parazitat Concentrat
+tile.subspaceparasite.parasiterubble_stone.name=Piatra Parazitată
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Piatră Parazită Compresată
+tile.subspaceparasite.parasiterubbledense_biome.name=Piatră Parazitată de Biom
+tile.subspaceparasite.parasiterubbledense_colony.name=Piatră Parazitată de Colonie
+
+tile.subspaceparasite.evolutionlure_one.name=Momeală (Slabă)
+tile.subspaceparasite.evolutionlure_two.name=Momeală (Slabuță)
+tile.subspaceparasite.evolutionlure_three.name=Momeală (Subtire)
+tile.subspaceparasite.evolutionlure_four.name=Momeală (Stabil)
+tile.subspaceparasite.evolutionlure_five.name=Momeală (Substanțială)
+tile.subspaceparasite.evolutionlure_six.name=Momeală (Concentrată)
+tile.subspaceparasite.evolutionlure_seven.name=Momeală (Concentrată+)
+tile.subspaceparasite.evolutionlure_eight.name=Momeală (Concentrată++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Chemarea Stupului
+splash_potion.effect.subspaceparasite:coth=Poțiune Splash de Chemarea a Stupului
+potion.effect.subspaceparasite:coth=Poțiune de Chemarea Stupului
+lingering_potion.effect.subspaceparasite:coth=Poțiune Persistentă de Chemare a Stupului
+tipped_arrow.effect.subspaceparasite:coth=Săgeată de Chemare a Stupului
+
+mob_effect.subspaceparasite:fear=Frică
+splash_potion.effect.subspaceparasite:fear=Poțiune Splash de Frică
+potion.effect.subspaceparasite:fear=Poțiune de Frică
+lingering_potion.effect.subspaceparasite:fear=Poțiune Persistentă de Frică
+tipped_arrow.effect.subspaceparasite:fear=Săgeată de Frică
+
+mob_effect.subspaceparasite:antimall=Imeblabil
+splash_potion.effect.subspaceparasite:antimall=Poțiune Splash de Imeblabil
+potion.effect.subspaceparasite:antimall=Poțiune de Imeblabil
+lingering_potion.effect.subspaceparasite:antimall=Poțiune Persistentă de Imeblebil
+tipped_arrow.effect.subspaceparasite:antimall=Sageata de Imeblebil
+
+mob_effect.subspaceparasite:bleed=Sângerare
+splash_potion.effect.subspaceparasite:bleed=Poțiune Splash de Sângerare
+potion.effect.subspaceparasite:bleed=Poțiune de Sângerare
+lingering_potion.effect.subspaceparasite:bleed=Poțiune Persistentă de Sângerare
+tipped_arrow.effect.subspaceparasite:bleed=Săgeată de Sângerare
+
+mob_effect.subspaceparasite:corrosive=Coroziune
+splash_potion.effect.subspaceparasite:corrosive=Poțiune Splash de Coroziune
+potion.effect.subspaceparasite:corrosive=Poțiune de Coroziune
+lingering_potion.effect.subspaceparasite:corrosive=Poțiune Persistenă de Coroziune
+tipped_arrow.effect.subspaceparasite:corrosive=Săgeată de Coroziune
+
+mob_effect.subspaceparasite:viral=Viral
+splash_potion.effect.subspaceparasite:viral=Poțiune Splash de Viral
+potion.effect.subspaceparasite:viral=Poțiune de Viral
+lingering_potion.effect.subspaceparasite:viral=Poțiune Persistentă de Viral
+tipped_arrow.effect.subspaceparasite:viral=Săgeată de Viral
+
+mob_effect.subspaceparasite:rage=Furie
+splash_potion.effect.subspaceparasite:rage=Poțiune Splash de Furie
+potion.effect.subspaceparasite:rage=Poțiune de Furie
+lingering_potion.effect.subspaceparasite:rage=Poțiune Persistentă de Furie
+tipped_arrow.effect.subspaceparasite:rage=Săgeată de Furie
+
+mob_effect.subspaceparasite:repel=Camuflaj
+splash_potion.effect.subspaceparasite:repel=Poțiune Splash de Camuflaj
+potion.effect.subspaceparasite:repel=Poțiune de Camuflaj
+lingering_potion.effect.subspaceparasite:repel=Poțiune Persistentă de Camuflaj
+tipped_arrow.effect.subspaceparasite:repel=Săgeată de Camuflaj
+
+mob_effect.subspaceparasite:senses=Crestere a Simturilor
+splash_potion.effect.subspaceparasite:senses=Poțiune Splash de Crestere a Simturilor
+potion.effect.subspaceparasite:senses=Poțiune de Crestere a Simturilor
+lingering_potion.effect.subspaceparasite:senses=Poțiune Persistentă de Crestere a Simturilor
+tipped_arrow.effect.subspaceparasite:senses=Săgeată de Crestere a Simturilor
+
+
+//extra
+
+message.subspaceparasite.lure=Puncte Reduse!
+message.subspaceparasite.fearitem=Te panichezi!
+message.subspaceparasite.fearblock=Te panichezi!!
+message.subspaceparasite.feargui=Te panichezi!!
+message.subspaceparasite.evolutionsleep=Nu poți să dormi acum...
+
+tootip.subspaceparasite.lurecomp.1=Bucăți din corpul unui Rupter, recoltate de la un Parazit mic. O componentă a momelei.
+tootip.subspaceparasite.lurecomp.2=Un organ extrem de umflat recoltat de la o Creatură Asimilată. O componentă a momelei.
+tootip.subspaceparasite.lurecomp.3=O bucată de piele recoltată din corpul unui Parazit Primitiv, care excretă un miros oribil. O componentă a momelei.
+tootip.subspaceparasite.lurecomp.4=Un organ recoltat din corpul unui parazit adaptat, care excretă un miros oribil. O componentă a momelei.
+tootip.subspaceparasite.lurecomp.5=Un organ cu aspect de ciupercă recoltat din corpul unui parazit pur. O componentă a momelei.
+tootip.subspaceparasite.lurecomp.6=Un obiect asemănător coloanei vertebrale recoltat din ? . O componentă a momelei.
+
+tootip.subspaceparasite.item.1=O sferă mică care pare să emită Energie, recoltată de la un Summoner Adaptat. Un ingredient de fabricare pentru componentele armelor.
+tootip.subspaceparasite.item.2=Un os robust recoltat dintr-un Yelloweye adaptat. Un ingredient de fabricare pentru componentele armelor.
+tootip.subspaceparasite.item.3=Un orb mic care pare să emită Energie, recoltat dintr-un Manducator Adaptat. Un ingredient de fabricare pentru componentele armelor.
+tootip.subspaceparasite.item.4=Un colt ascuțit recoltat de la un Reeker adaptat. Un ingredient de fabricare pentru componentele armelor.
+tootip.subspaceparasite.item.5=Un fragment de armură ușor, dar rezistent, recoltat de la Longarm Adaptat . Un ingredient de fabricare pentru componentele armelor.
+tootip.subspaceparasite.item.6=O bucată de carne a smuls o Creatură Asimilată. O Componentă a momelei care poate fi folosită și ca mancare, în cele mai disperate situații.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=Un material elastic și organic, produs din părți ale corpului paraziților. O componentă pentru arme.
+tootip.subspaceparasite.item.9=O bucată dintr-o lamă, produsă din părți ale corpului paraziților. O componentă pentru arme.
+tootip.subspaceparasite.item.10=Flacăra vieții nu a strălucit încă în acest obiect. Miezul care alimentează toate Armele.
+tootip.subspaceparasite.item.11=O carcasă extrem de rezistentă, produsă din părți ale corpului Paraziților. O componentă pentru arme.
+tootip.subspaceparasite.item.12=Un os deosebit de gros, produs din părți ale corpului paraziților. O componentă pentru arme.
+
+//
+tootip.subspaceparasite.item.13=
+tootip.subspaceparasite.item.14=Este neted la atingere. O componentă a arcului viu.
+tootip.subspaceparasite.item.15=Este neted la atingere. O componentă a arcului viu.
+tootip.subspaceparasite.item.16=Foarte elastic. O componentă a arcului viu.
+tootip.subspaceparasite.item.17=Pulsează. O componentă a arcului viu.
+//
+
+tootip.subspaceparasite.item.18=
+
+tootip.subspaceparasite.weaponm.1=Rezultatul diferitelor părți ale corpului paraziților remodelate pentru a forma o armă. Înăuntrul ei strălucește flacăra vieții.
+tootip.subspaceparasite.weaponm.2=Evoluția ulterioară a Coasei Vii. A câștigat intelegenta.
+tootip.subspaceparasite.weaponm.3=Rezultatul diferitelor părți ale corpului paraziților remodelate pentru a forma o armă. Înăuntrul ei strălucește flacăra vieții.
+tootip.subspaceparasite.weaponm.4=Evoluția ulterioară a Toporului Viu. A câștigat intelegenta.
+tootip.subspaceparasite.weaponm.5=Rezultatul diferitelor părți ale corpului paraziților remodelate pentru a forma o armă. Înăuntrul ei strălucește flacăra vieții.
+tootip.subspaceparasite.weaponm.6=Evoluția ulterioară a Sabiei Vii. A câștigat intelegenta.
+tootip.subspaceparasite.weaponm.7=Rezultatul diferitelor părți ale corpului paraziților remodelate pentru a forma o armă. Înăuntrul ei strălucește flacăra vieții.
+tootip.subspaceparasite.weaponm.8=Evoluția ulterioară a Satârului Viu. A câștigat intelegenta.
+
+tootip.subspaceparasite.weaponm.10=Curata o suprafață mare.
+tootip.subspaceparasite.weaponm.20=Decimeaza o suprafață mare.
+tootip.subspaceparasite.weaponm.30=Face armura inutilă în timp.
+tootip.subspaceparasite.weaponm.40=Face armura inutilă în timp.
+tootip.subspaceparasite.weaponm.50=Provoacă leziuni care pun viața în pericol.
+tootip.subspaceparasite.weaponm.60=Provoacă leziuni care pun viața în pericol.
+tootip.subspaceparasite.weaponm.70=Creaza lovituri virulente.
+tootip.subspaceparasite.weaponm.80=Creaza lovituri virulente.
+
+tootip.subspaceparasite.weaponm.100=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.200=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.300=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.400=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.500=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.600=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.700=Nu te poti ascunde...
+tootip.subspaceparasite.weaponm.800=Nu te poti ascunde...
+
+tootip.subspaceparasite.weaponr.1=Rezultatul diferitelor părți ale corpului paraziților remodelate pentru a forma o armă. Înăuntrul ei strălucește flacăra vieții.
+tootip.subspaceparasite.weaponr.2=Evoluția ulterioară a Arcului Viu. A câștigat intelegenta.
+
+tootip.subspaceparasite.weaponr.10=Tine de săgeti
+tootip.subspaceparasite.weaponr.20=Tine de săgeti
+
+tootip.subspaceparasite.weaponr.100=Nu te poti ascunde...
+tootip.subspaceparasite.weaponr.200=Nu te poti ascunde...

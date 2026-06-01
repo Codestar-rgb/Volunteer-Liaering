@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:thrall",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.thrall.name",
+  "lore_key": "lore.subspaceparasite.thrall",
+  "render_scale": 1.0,
+  "minlorekill": 5,
+  "minstatkill": 4,
+  "stats": {
+    "source": "entity"
+  }
+}

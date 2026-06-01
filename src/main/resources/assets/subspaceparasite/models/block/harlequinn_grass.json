@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "subspaceparasite:block/hairy_skin_block",
+    "side": "subspaceparasite:block/hairy_skin_block_side",
+    "bottom": "subspaceparasite:block/skin_block"
+  }
+}

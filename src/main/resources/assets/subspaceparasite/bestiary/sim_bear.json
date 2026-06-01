@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_bear",
+  "tier": "ASSIMILATED",
+  "name_key": "entity.subspaceparasite.sim_bear.name",
+  "lore_key": "lore.subspaceparasite.sim_bear",
+  "render_scale": 1.0,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

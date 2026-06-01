@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "subspaceparasite:block/infestedtrunk",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "subspaceparasite:block/infestedtrunk"
+    },
+    "axis=z": {
+      "model": "subspaceparasite:block/infestedtrunk",
+      "x": 90
+    },
+    "axis=none": {
+      "model": "subspaceparasite:block/infestedtrunk"
+    }
+  }
+}

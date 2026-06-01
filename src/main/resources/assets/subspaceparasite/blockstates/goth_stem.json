@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "subspaceparasite:block/goth_stem"
+    },
+    "axis=x": {
+      "model": "subspaceparasite:block/goth_stem",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "subspaceparasite:block/goth_stem",
+      "x": 90
+    }
+  }
+}

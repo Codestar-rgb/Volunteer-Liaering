@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "snowy=false": {
+      "model": "subspaceparasite:block/locs_block"
+    },
+    "snowy=true": {
+      "model": "subspaceparasite:block/locs_block_snowy"
+    }
+  }
+}

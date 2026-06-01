@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YMY",
+    "GLG"
+  ],
+  "key": {
+    "X": { "item": "subspaceparasite:lurecomponent3" },
+    "Y": { "item": "subspaceparasite:dispatcher_drop" },
+    "M": { "item": "subspaceparasite:module_base" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "L": { "item": "subspaceparasite:node_redstone_lamp" }
+  },
+  "result": {
+    "item": "subspaceparasite:module_vectors",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "stage=0": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ],
+    "stage=1": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ],
+    "stage=2": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ],
+    "stage=3": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ],
+    "stage=4": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ],
+    "stage=5": [
+      {
+        "model": "subspaceparasite:block/infested_stone_bricks"
+      }
+    ]
+  }
+}

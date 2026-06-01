@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:infested_cobblestone"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:infested_furnace",
+    "count": 1
+  }
+}

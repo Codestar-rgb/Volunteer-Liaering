@@ -1,0 +1,9 @@
+{
+  "parent": "block/upper_slab",
+  "textures": {
+    "particle": "subspaceparasite:block/assimilated_fungus",
+    "bottom": "subspaceparasite:block/assimilated_fungus",
+    "top": "subspaceparasite:block/assimilated_fungus",
+    "side": "subspaceparasite:block/assimilated_fungus"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "variant=one": [
+      {
+        "model": "subspaceparasite:block/web_one"
+      },
+      {
+        "model": "subspaceparasite:block/web_one",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/web_one",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/web_one",
+        "y": 270
+      }
+    ],
+    "variant=two": [
+      {
+        "model": "subspaceparasite:block/web_two"
+      },
+      {
+        "model": "subspaceparasite:block/web_two",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/web_two",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/web_two",
+        "y": 270
+      }
+    ],
+    "variant=three": [
+      {
+        "model": "subspaceparasite:block/web_three"
+      },
+      {
+        "model": "subspaceparasite:block/web_three",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/web_three",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/web_three",
+        "y": 270
+      }
+    ]
+  }
+}

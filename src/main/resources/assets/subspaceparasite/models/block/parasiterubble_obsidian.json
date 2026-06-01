@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/bleeding_obsidian",
+    "all": "subspaceparasite:block/bleeding_obsidian"
+  }
+}

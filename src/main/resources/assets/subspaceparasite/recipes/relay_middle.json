@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XRX",
+    "XOX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:semiorganic_ingot"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "O": {
+      "item": "subspaceparasite:organ_synth"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:relay_middle",
+    "count": 1
+  }
+}

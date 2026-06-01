@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "subspaceparasite:biomeparasite_harlequin",
+  "features": "subspaceparasite:parasite_spread",
+  "step": "vegetal_decoration"
+}

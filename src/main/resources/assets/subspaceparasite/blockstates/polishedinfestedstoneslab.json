@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/polished_infested_stone_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/polished_infested_stone_slab_top"
+    }
+  }
+}

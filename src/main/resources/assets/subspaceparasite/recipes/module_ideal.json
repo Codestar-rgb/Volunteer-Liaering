@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "ABC",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "Y": {
+      "item": "subspaceparasite:organ_synth"
+    },
+    "A": {
+      "item": "subspaceparasite:module_pure"
+    },
+    "B": {
+      "item": "subspaceparasite:module_derived"
+    },
+    "C": {
+      "item": "subspaceparasite:module_preeminent"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_ideal",
+    "data": 0,
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "particle": "subspaceparasite:block/parasiterubble_flesh",
+    "bottom": "subspaceparasite:block/parasiterubble_flesh",
+    "top": "subspaceparasite:block/parasiterubble_flesh",
+    "side": "subspaceparasite:block/parasiterubble_flesh"
+  }
+}

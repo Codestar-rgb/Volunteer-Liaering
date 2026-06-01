@@ -1,0 +1,62 @@
+{
+  "parent": "subspaceparasite:kill_adapted",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:ada_yelloweye_drop"
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.kill_crude.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.kill_crude.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "k_crux": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:crux" } }
+    },
+    "k_heed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:heed" } }
+    },
+    "k_incomplete_medium": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:incompleteform_medium" } }
+    },
+    "k_incomplete_small": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:incompleteform_small" } }
+    },
+    "k_host": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:host" } }
+    },
+    "k_hostii": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:hostii" } }
+    },
+    "k_thrall": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:thrall" } }
+    },
+    "k_movingflesh": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:movingflesh" } }
+    }
+  },
+  "requirements": [
+    [ "k_crux" ],
+    [ "k_heed" ],
+    [ "k_incomplete_medium" ],
+    [ "k_incomplete_small" ],
+    [ "k_host" ],
+    [ "k_hostii" ],
+    [ "k_thrall" ],
+    [ "k_movingflesh" ]
+  ]
+}

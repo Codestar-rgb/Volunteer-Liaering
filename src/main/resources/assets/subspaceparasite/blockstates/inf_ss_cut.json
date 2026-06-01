@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "stage=0": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ],
+    "stage=1": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ],
+    "stage=2": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ],
+    "stage=3": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ],
+    "stage=4": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ],
+    "stage=5": [
+      {
+        "model": "subspaceparasite:block/inf_ss_cut"
+      }
+    ]
+  }
+}

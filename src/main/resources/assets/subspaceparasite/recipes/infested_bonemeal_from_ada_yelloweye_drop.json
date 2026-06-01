@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:ada_yelloweye_drop"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:infested_bonemeal",
+    "count": 4
+  }
+}

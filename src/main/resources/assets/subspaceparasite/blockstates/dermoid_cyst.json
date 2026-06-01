@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "subspaceparasite:block/dermoid_cyst_north"
+    },
+    "facing=east": {
+      "model": "subspaceparasite:block/dermoid_cyst_east"
+    },
+    "facing=south": {
+      "model": "subspaceparasite:block/dermoid_cyst_south"
+    },
+    "facing=west": {
+      "model": "subspaceparasite:block/dermoid_cyst_west"
+    }
+  }
+}
