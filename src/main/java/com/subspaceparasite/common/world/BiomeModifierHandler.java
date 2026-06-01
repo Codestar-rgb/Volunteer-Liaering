@@ -3,22 +3,15 @@ package com.subspaceparasite.common.world;
 import com.subspaceparasite.SubspaceParasite;
 import com.subspaceparasite.config.ModConfigSystems;
 import com.subspaceparasite.core.ModBiomes;
-import com.subspaceparasite.core.ModFeatures;
 
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.world.level.biome.Biome;
-import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraftforge.common.world.BiomeModifier;
-import net.minecraftforge.common.world.ForgeBiomeModifiers;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.tags.ITagManager;
 
 import java.util.List;
-import java.util.function.Supplier;
 
 /**
  * Handles Forge biome modifier registration for the SubspaceParasite mod.
@@ -26,13 +19,13 @@ import java.util.function.Supplier;
  * In 1.20.1 Forge, biome modifiers are the standard way to add features,
  * spawns, and carvers to biomes. This handler:
  * <ul>
- *   <li>Adds parasite features (infested trees, spread patches, etc.) to parasite biomes</li>
  *   <li>Respects the {@code parasiteBiomeEnabled} and {@code biomeWeight} config values</li>
  * </ul>
  * <p>
- * Note: Adding custom biomes to the overworld's biome source requires
- * data-driven multi_noise_biome_source_parameter_list entries. See the
- * accompanying JSON files in {@code data/subspaceparasite/forge/biome_modifier/}.
+ * Note: ConfiguredFeature and PlacedFeature are data-driven in 1.20.1 and
+ * cannot be registered via DeferredRegister. They must be provided via JSON
+ * data packs. The getParasiteBiomeFeatures() method returns an empty list
+ * until proper data pack JSONs are created.
  */
 @Mod.EventBusSubscriber(modid = SubspaceParasite.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BiomeModifierHandler {
@@ -50,8 +43,9 @@ public class BiomeModifierHandler {
     /**
      * Gets the list of placed features to add to parasite biomes.
      * <p>
-     * These features are only included when the biome system is enabled
-     * in the mod config.
+     * NOTE: Returns empty list until data-driven PlacedFeature JSONs are
+     * created under data/subspaceparasite/worldgen/placed_feature/.
+     * DeferredRegister cannot be used for PlacedFeature in 1.20.1.
      *
      * @return list of placed feature holders for parasite biome generation
      */
@@ -60,12 +54,9 @@ public class BiomeModifierHandler {
             return List.of();
         }
 
-        return List.of(
-                ModFeatures.PLACED_PARASITE_SPREAD.getHolder().orElseThrow(),
-                ModFeatures.PLACED_INFESTED_TREE.getHolder().orElseThrow(),
-                ModFeatures.PLACED_PARASITE_COLONY.getHolder().orElseThrow(),
-                ModFeatures.PLACED_BIOME_HEART.getHolder().orElseThrow()
-        );
+        // TODO: Populate this from data-driven PlacedFeature holders once
+        // JSON data packs are created for worldgen/placed_feature/.
+        return List.of();
     }
 
     /**
