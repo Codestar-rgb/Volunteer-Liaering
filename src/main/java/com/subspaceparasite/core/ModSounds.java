@@ -31,13 +31,23 @@ public class ModSounds {
 
     // Cache for quick lookup during entity initialization - improves performance
     private static final Map<String, RegistryObject<SoundEvent>> SOUND_CACHE = new HashMap<>();
+    // Track already-registered prefixed names to prevent Duplicate registration crash
+    private static final Map<String, RegistryObject<SoundEvent>> REGISTERED_NAMES = new HashMap<>();
 
-    // Helper method with caching and SubSRP prefix enforcement
+    // Helper method with caching, duplicate detection, and SubSRP prefix enforcement
     private static RegistryObject<SoundEvent> register(String name) {
         // Enforce SubSRP prefix in the actual resource path for asset matching
         String prefixedName = "subsrp_" + name;
+
+        // If this name was already registered, return the existing registration
+        // to prevent "Duplicate registration" crash at mod loading time
+        if (REGISTERED_NAMES.containsKey(prefixedName)) {
+            return REGISTERED_NAMES.get(prefixedName);
+        }
+
         ResourceLocation loc = new ResourceLocation(SubspaceParasite.MOD_ID, prefixedName);
         RegistryObject<SoundEvent> event = SOUNDS.register(prefixedName, () -> SoundEvent.createVariableRangeEvent(loc));
+        REGISTERED_NAMES.put(prefixedName, event);
         SOUND_CACHE.put(name, event); // Store with original key for easy lookup
         return event;
     }
