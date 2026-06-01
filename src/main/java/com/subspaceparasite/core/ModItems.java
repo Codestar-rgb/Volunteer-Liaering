@@ -21,6 +21,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.SpawnEggItem;
+import com.subspaceparasite.core.DeferredSpawnEggItem;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.PickaxeItem;
@@ -544,413 +545,413 @@ public class ModItems {
 
     // --- Infected Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_CREEPER = ITEMS.register("spawneigginfectedcreeper",
-            () -> new SpawnEggItem(ModEntities.INFECTED_CREEPER.get(), 0x2D5A1E, 0x4A7A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_CREEPER, 0x2D5A1E, 0x4A7A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_SKELETON = ITEMS.register("spawneigginfectedskeleton",
-            () -> new SpawnEggItem(ModEntities.INFECTED_SKELETON.get(), 0x2D5A1E, 0x7A6B52, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_SKELETON, 0x2D5A1E, 0x7A6B52, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_ZOMBIE = ITEMS.register("spawneigginfectedzombie",
-            () -> new SpawnEggItem(ModEntities.INFECTED_ZOMBIE.get(), 0x2D5A1E, 0x5F6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_ZOMBIE, 0x2D5A1E, 0x5F6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_SPIDER = ITEMS.register("spawneigginfectedspider",
-            () -> new SpawnEggItem(ModEntities.INFECTED_SPIDER.get(), 0x2D5A1E, 0x3B3B3B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_SPIDER, 0x2D5A1E, 0x3B3B3B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_ENDERMAN = ITEMS.register("spawneigginfectedenderman",
-            () -> new SpawnEggItem(ModEntities.INFECTED_ENDERMAN.get(), 0x2D5A1E, 0x1A1A2E, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_ENDERMAN, 0x2D5A1E, 0x1A1A2E, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_PIG = ITEMS.register("spawneigginfectedpig",
-            () -> new SpawnEggItem(ModEntities.INFECTED_PIG.get(), 0x2D5A1E, 0xEFAEB0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_PIG, 0x2D5A1E, 0xEFAEB0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_HUMAN = ITEMS.register("spawneigginfectedhuman",
-            () -> new SpawnEggItem(ModEntities.INFECTED_HUMAN.get(), 0x2D5A1E, 0x8B6B4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_HUMAN, 0x2D5A1E, 0x8B6B4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_COW = ITEMS.register("spawneigginfectedcow",
-            () -> new SpawnEggItem(ModEntities.INFECTED_COW.get(), 0x2D5A1E, 0x6B4226, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_COW, 0x2D5A1E, 0x6B4226, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_SHEEP = ITEMS.register("spawneigginfectedsheep",
-            () -> new SpawnEggItem(ModEntities.INFECTED_SHEEP.get(), 0x2D5A1E, 0xD4C8B0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_SHEEP, 0x2D5A1E, 0xD4C8B0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_CHICKEN = ITEMS.register("spawneigginfectedchicken",
-            () -> new SpawnEggItem(ModEntities.INFECTED_CHICKEN.get(), 0x2D5A1E, 0xF5F0D0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_CHICKEN, 0x2D5A1E, 0xF5F0D0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_VILLAGER = ITEMS.register("spawneigginfectedvillager",
-            () -> new SpawnEggItem(ModEntities.INFECTED_VILLAGER.get(), 0x2D5A1E, 0x8B6B4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_VILLAGER, 0x2D5A1E, 0x8B6B4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_WOLF = ITEMS.register("spawneigginfectedwolf",
-            () -> new SpawnEggItem(ModEntities.INFECTED_WOLF.get(), 0x2D5A1E, 0xC0C0C0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_WOLF, 0x2D5A1E, 0xC0C0C0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_HORSE = ITEMS.register("spawneigginfectedhorse",
-            () -> new SpawnEggItem(ModEntities.INFECTED_HORSE.get(), 0x2D5A1E, 0x8B6914, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_HORSE, 0x2D5A1E, 0x8B6914, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_IRON_GOLEM = ITEMS.register("spawneigginfectedirongolem",
-            () -> new SpawnEggItem(ModEntities.INFECTED_IRON_GOLEM.get(), 0x2D5A1E, 0xA0A0A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_IRON_GOLEM, 0x2D5A1E, 0xA0A0A0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_SNOW_GOLEM = ITEMS.register("spawneigginfectedsnowgolem",
-            () -> new SpawnEggItem(ModEntities.INFECTED_SNOW_GOLEM.get(), 0x2D5A1E, 0xD0D0D0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_SNOW_GOLEM, 0x2D5A1E, 0xD0D0D0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_BAT = ITEMS.register("spawneigginfectedbat",
-            () -> new SpawnEggItem(ModEntities.INFECTED_BAT.get(), 0x2D5A1E, 0x5A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_BAT, 0x2D5A1E, 0x5A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_BLAZE = ITEMS.register("spawneigginfectedblaze",
-            () -> new SpawnEggItem(ModEntities.INFECTED_BLAZE.get(), 0x2D5A1E, 0xE0A020, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_BLAZE, 0x2D5A1E, 0xE0A020, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_WITCH = ITEMS.register("spawneigginfectedwitch",
-            () -> new SpawnEggItem(ModEntities.INFECTED_WITCH.get(), 0x2D5A1E, 0x6B3A8B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_WITCH, 0x2D5A1E, 0x6B3A8B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_RAVAGER = ITEMS.register("spawneigginfectedravager",
-            () -> new SpawnEggItem(ModEntities.INFECTED_RAVAGER.get(), 0x2D5A1E, 0x5A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_RAVAGER, 0x2D5A1E, 0x5A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_PILLAGER = ITEMS.register("spawneigginfectedpillager",
-            () -> new SpawnEggItem(ModEntities.INFECTED_PILLAGER.get(), 0x2D5A1E, 0x5A6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_PILLAGER, 0x2D5A1E, 0x5A6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_EVOKER = ITEMS.register("spawneigginfectedevoker",
-            () -> new SpawnEggItem(ModEntities.INFECTED_EVOKER.get(), 0x2D5A1E, 0x3A5A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_EVOKER, 0x2D5A1E, 0x3A5A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_GHAST = ITEMS.register("spawneigginfectedghast",
-            () -> new SpawnEggItem(ModEntities.INFECTED_GHAST.get(), 0x2D5A1E, 0xE0D0D0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_GHAST, 0x2D5A1E, 0xE0D0D0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_PHANTOM = ITEMS.register("spawneigginfectedphantom",
-            () -> new SpawnEggItem(ModEntities.INFECTED_PHANTOM.get(), 0x2D5A1E, 0x4A5A8B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_PHANTOM, 0x2D5A1E, 0x4A5A8B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_WARDEN = ITEMS.register("spawneigginfectedwarden",
-            () -> new SpawnEggItem(ModEntities.INFECTED_WARDEN.get(), 0x2D5A1E, 0x1A3A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_WARDEN, 0x2D5A1E, 0x1A3A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_WITHER_SKELETON = ITEMS.register("spawneigginfectedwitherskeleton",
-            () -> new SpawnEggItem(ModEntities.INFECTED_WITHER_SKELETON.get(), 0x2D5A1E, 0x2A2A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_WITHER_SKELETON, 0x2D5A1E, 0x2A2A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_STRAY = ITEMS.register("spawneigginfectedstray",
-            () -> new SpawnEggItem(ModEntities.INFECTED_STRAY.get(), 0x2D5A1E, 0x7A8B9A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_STRAY, 0x2D5A1E, 0x7A8B9A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_HUSK = ITEMS.register("spawneigginfectedhusk",
-            () -> new SpawnEggItem(ModEntities.INFECTED_HUSK.get(), 0x2D5A1E, 0x8B7B4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_HUSK, 0x2D5A1E, 0x8B7B4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_DROWNED = ITEMS.register("spawneigginfecteddrowned",
-            () -> new SpawnEggItem(ModEntities.INFECTED_DROWNED.get(), 0x2D5A1E, 0x3A6B8B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_DROWNED, 0x2D5A1E, 0x3A6B8B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_CAVE_SPIDER = ITEMS.register("spawneigginfectedcavespider",
-            () -> new SpawnEggItem(ModEntities.INFECTED_CAVE_SPIDER.get(), 0x2D5A1E, 0x2A2A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_CAVE_SPIDER, 0x2D5A1E, 0x2A2A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_MOOSHROOM = ITEMS.register("spawneigginfectedmooshroom",
-            () -> new SpawnEggItem(ModEntities.INFECTED_MOOSHROOM.get(), 0x2D5A1E, 0x8B3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_MOOSHROOM, 0x2D5A1E, 0x8B3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_LLAMA = ITEMS.register("spawneigginfectedllama",
-            () -> new SpawnEggItem(ModEntities.INFECTED_LLAMA.get(), 0x2D5A1E, 0x8B7B5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_LLAMA, 0x2D5A1E, 0x8B7B5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_POLAR_BEAR = ITEMS.register("spawneigginfectedpolarbear",
-            () -> new SpawnEggItem(ModEntities.INFECTED_POLAR_BEAR.get(), 0x2D5A1E, 0xD0D0D0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_POLAR_BEAR, 0x2D5A1E, 0xD0D0D0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_PANDA = ITEMS.register("spawneigginfectedpanda",
-            () -> new SpawnEggItem(ModEntities.INFECTED_PANDA.get(), 0x2D5A1E, 0x3A3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_PANDA, 0x2D5A1E, 0x3A3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_FOX = ITEMS.register("spawneigginfectedfox",
-            () -> new SpawnEggItem(ModEntities.INFECTED_FOX.get(), 0x2D5A1E, 0xC08030, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_FOX, 0x2D5A1E, 0xC08030, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INFECTED_BEE = ITEMS.register("spawneigginfectedbee",
-            () -> new SpawnEggItem(ModEntities.INFECTED_BEE.get(), 0x2D5A1E, 0xE0C020, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INFECTED_BEE, 0x2D5A1E, 0xE0C020, new Item.Properties()));
 
     // --- Assimilated Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ASSIMILATED_HUMAN = ITEMS.register("spawneiggassimilatedhuman",
-            () -> new SpawnEggItem(ModEntities.ASSIMILATED_HUMAN.get(), 0x8A9A7A, 0x6A7A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ASSIMILATED_HUMAN, 0x8A9A7A, 0x6A7A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ASSIMILATED_COW = ITEMS.register("spawneiggassimilatedcow",
-            () -> new SpawnEggItem(ModEntities.ASSIMILATED_COW.get(), 0x8A9A7A, 0x5A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ASSIMILATED_COW, 0x8A9A7A, 0x5A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ASSIMILATED_SHEEP = ITEMS.register("spawneiggassimilatedsheep",
-            () -> new SpawnEggItem(ModEntities.ASSIMILATED_SHEEP.get(), 0x8A9A7A, 0xC0B8A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ASSIMILATED_SHEEP, 0x8A9A7A, 0xC0B8A0, new Item.Properties()));
 
     // --- Feral Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_CREEPER = ITEMS.register("spawneiggferalcreeper",
-            () -> new SpawnEggItem(ModEntities.FERAL_CREEPER.get(), 0x6B1A1A, 0x3A0A0A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_CREEPER, 0x6B1A1A, 0x3A0A0A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_SKELETON = ITEMS.register("spawneiggferalskeleton",
-            () -> new SpawnEggItem(ModEntities.FERAL_SKELETON.get(), 0x6B1A1A, 0x7A7A6B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_SKELETON, 0x6B1A1A, 0x7A7A6B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_ZOMBIE = ITEMS.register("spawneiggferalzombie",
-            () -> new SpawnEggItem(ModEntities.FERAL_ZOMBIE.get(), 0x6B1A1A, 0x5F6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_ZOMBIE, 0x6B1A1A, 0x5F6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_SPIDER = ITEMS.register("spawneiggferalspider",
-            () -> new SpawnEggItem(ModEntities.FERAL_SPIDER.get(), 0x6B1A1A, 0x3B3B3B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_SPIDER, 0x6B1A1A, 0x3B3B3B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_ENDERMAN = ITEMS.register("spawneiggferalenderman",
-            () -> new SpawnEggItem(ModEntities.FERAL_ENDERMAN.get(), 0x6B1A1A, 0x1A1A2E, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_ENDERMAN, 0x6B1A1A, 0x1A1A2E, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_WOLF = ITEMS.register("spawneiggferalwolf",
-            () -> new SpawnEggItem(ModEntities.FERAL_WOLF.get(), 0x6B1A1A, 0xA0A0A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_WOLF, 0x6B1A1A, 0xA0A0A0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_IRON_GOLEM = ITEMS.register("spawneiggferalirongolem",
-            () -> new SpawnEggItem(ModEntities.FERAL_IRON_GOLEM.get(), 0x6B1A1A, 0xA0A0A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_IRON_GOLEM, 0x6B1A1A, 0xA0A0A0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_COW = ITEMS.register("spawneiggferalcow",
-            () -> new SpawnEggItem(ModEntities.FERAL_COW.get(), 0x6B1A1A, 0x6B4226, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_COW, 0x6B1A1A, 0x6B4226, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_FERAL_HUMAN = ITEMS.register("spawneiggferalhuman",
-            () -> new SpawnEggItem(ModEntities.FERAL_HUMAN.get(), 0x6B1A1A, 0x8B6B4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.FERAL_HUMAN, 0x6B1A1A, 0x8B6B4A, new Item.Properties()));
 
     // --- Hijacked Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_CREEPER = ITEMS.register("spawneigghijackedcreeper",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_CREEPER.get(), 0x5A1A6B, 0x3A0A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_CREEPER, 0x5A1A6B, 0x3A0A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_SKELETON = ITEMS.register("spawneigghijackedskeleton",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_SKELETON.get(), 0x5A1A6B, 0x7A8B9A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_SKELETON, 0x5A1A6B, 0x7A8B9A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_ZOMBIE = ITEMS.register("spawneigghijackedzombie",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_ZOMBIE.get(), 0x5A1A6B, 0x5F7A6B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_ZOMBIE, 0x5A1A6B, 0x5F7A6B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_SPIDER = ITEMS.register("spawneigghijackedspider",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_SPIDER.get(), 0x5A1A6B, 0x3B3B3B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_SPIDER, 0x5A1A6B, 0x3B3B3B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_ENDERMAN = ITEMS.register("spawneigghijackedenderman",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_ENDERMAN.get(), 0x5A1A6B, 0x1A1A2E, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_ENDERMAN, 0x5A1A6B, 0x1A1A2E, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_WITCH = ITEMS.register("spawneigghijackedwitch",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_WITCH.get(), 0x5A1A6B, 0x6B3A8B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_WITCH, 0x5A1A6B, 0x6B3A8B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_PILLAGER = ITEMS.register("spawneigghijackedpillager",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_PILLAGER.get(), 0x5A1A6B, 0x5A6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_PILLAGER, 0x5A1A6B, 0x5A6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_EVOKER = ITEMS.register("spawneigghijackedevoker",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_EVOKER.get(), 0x5A1A6B, 0x3A5A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_EVOKER, 0x5A1A6B, 0x3A5A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_HIJACKED_RAVAGER = ITEMS.register("spawneigghijackedravager",
-            () -> new SpawnEggItem(ModEntities.HIJACKED_RAVAGER.get(), 0x5A1A6B, 0x5A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.HIJACKED_RAVAGER, 0x5A1A6B, 0x5A3A2A, new Item.Properties()));
 
     // --- Inborn Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_ALAFIN = ITEMS.register("spawneigginbornalafin",
-            () -> new SpawnEggItem(ModEntities.INBORN_ALAFIN.get(), 0x1A5A6B, 0x0A3A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_ALAFIN, 0x1A5A6B, 0x0A3A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_OBUS = ITEMS.register("spawneigginbornobus",
-            () -> new SpawnEggItem(ModEntities.INBORN_OBUS.get(), 0x1A5A6B, 0x2A4A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_OBUS, 0x1A5A6B, 0x2A4A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_NORMAS = ITEMS.register("spawneigginbornnormas",
-            () -> new SpawnEggItem(ModEntities.INBORN_NORMAS.get(), 0x1A5A6B, 0x3A5A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_NORMAS, 0x1A5A6B, 0x3A5A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_CANAL = ITEMS.register("spawneigginborncanal",
-            () -> new SpawnEggItem(ModEntities.INBORN_CANAL.get(), 0x1A5A6B, 0x4A6A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_CANAL, 0x1A5A6B, 0x4A6A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_GOTHOL = ITEMS.register("spawneigginborn_gothol",
-            () -> new SpawnEggItem(ModEntities.INBORN_GOTHOL.get(), 0x1A5A6B, 0x5A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_GOTHOL, 0x1A5A6B, 0x5A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_KOL = ITEMS.register("spawneigginborn_kol",
-            () -> new SpawnEggItem(ModEntities.INBORN_KOL.get(), 0x1A5A6B, 0x6A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_KOL, 0x1A5A6B, 0x6A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_LESH = ITEMS.register("spawneigginborn_lesh",
-            () -> new SpawnEggItem(ModEntities.INBORN_LESH.get(), 0x1A5A6B, 0x3A6A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_LESH, 0x1A5A6B, 0x3A6A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_LODO = ITEMS.register("spawneigginborn_lodo",
-            () -> new SpawnEggItem(ModEntities.INBORN_LODO.get(), 0x1A5A6B, 0x4A5A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_LODO, 0x1A5A6B, 0x4A5A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_MOR = ITEMS.register("spawneigginborn_mor",
-            () -> new SpawnEggItem(ModEntities.INBORN_MOR.get(), 0x1A5A6B, 0x7A5A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_MOR, 0x1A5A6B, 0x7A5A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_MUDO = ITEMS.register("spawneigginborn_mudo",
-            () -> new SpawnEggItem(ModEntities.INBORN_MUDO.get(), 0x1A5A6B, 0x5A7A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_MUDO, 0x1A5A6B, 0x5A7A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_NUUH = ITEMS.register("spawneigginborn_nuuh",
-            () -> new SpawnEggItem(ModEntities.INBORN_NUUH.get(), 0x1A5A6B, 0x8A6A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_NUUH, 0x1A5A6B, 0x8A6A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_RATHOL = ITEMS.register("spawneigginborn_rathol",
-            () -> new SpawnEggItem(ModEntities.INBORN_RATHOL.get(), 0x1A5A6B, 0x6A3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_RATHOL, 0x1A5A6B, 0x6A3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_VIIN = ITEMS.register("spawneigginborn_viin",
-            () -> new SpawnEggItem(ModEntities.INBORN_VIIN.get(), 0x1A5A6B, 0x4A7A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_VIIN, 0x1A5A6B, 0x4A7A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_ATA = ITEMS.register("spawneigginborn_ata",
-            () -> new SpawnEggItem(ModEntities.INBORN_ATA.get(), 0x1A5A6B, 0x5A8A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_ATA, 0x1A5A6B, 0x5A8A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_INBORN_BUTHOL = ITEMS.register("spawneigginborn_buthol",
-            () -> new SpawnEggItem(ModEntities.INBORN_BUTHOL.get(), 0x1A5A6B, 0x3A4A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.INBORN_BUTHOL, 0x1A5A6B, 0x3A4A5A, new Item.Properties()));
 
     // --- Crude Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_SCORCHER = ITEMS.register("spawneiggcrudescorcher",
-            () -> new SpawnEggItem(ModEntities.CRUDE_SCORCHER.get(), 0x6B4A1A, 0x4A2A0A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_SCORCHER, 0x6B4A1A, 0x4A2A0A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_MINDIM = ITEMS.register("spawneiggcrudemindim",
-            () -> new SpawnEggItem(ModEntities.CRUDE_MINDIM.get(), 0x6B4A1A, 0x5A3A1A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_MINDIM, 0x6B4A1A, 0x5A3A1A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_EGAS = ITEMS.register("spawneiggcrudeegas",
-            () -> new SpawnEggItem(ModEntities.CRUDE_EGAS.get(), 0x6B4A1A, 0x7A5A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_EGAS, 0x6B4A1A, 0x7A5A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_MOVING_FLESH = ITEMS.register("spawneiggcrude_moving_flesh",
-            () -> new SpawnEggItem(ModEntities.CRUDE_MOVING_FLESH.get(), 0x6B4A1A, 0x8B6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_MOVING_FLESH, 0x6B4A1A, 0x8B6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_WORKER = ITEMS.register("spawneiggcrude_worker",
-            () -> new SpawnEggItem(ModEntities.CRUDE_WORKER.get(), 0x6B4A1A, 0x6A5A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_WORKER, 0x6B4A1A, 0x6A5A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_CRUX_A = ITEMS.register("spawneiggcrude_crux_a",
-            () -> new SpawnEggItem(ModEntities.CRUDE_CRUX_A.get(), 0x6B4A1A, 0x5A7A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_CRUX_A, 0x6B4A1A, 0x5A7A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_CRUX_B = ITEMS.register("spawneiggcrude_crux_b",
-            () -> new SpawnEggItem(ModEntities.CRUDE_CRUX_B.get(), 0x6B4A1A, 0x4A6A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_CRUX_B, 0x6B4A1A, 0x4A6A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_DONE = ITEMS.register("spawneiggcrude_done",
-            () -> new SpawnEggItem(ModEntities.CRUDE_DONE.get(), 0x6B4A1A, 0x9A8A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_DONE, 0x6B4A1A, 0x9A8A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_HEED = ITEMS.register("spawneiggcrude_heed",
-            () -> new SpawnEggItem(ModEntities.CRUDE_HEED.get(), 0x6B4A1A, 0x7A6A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_HEED, 0x6B4A1A, 0x7A6A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_HOST = ITEMS.register("spawneiggcrude_host",
-            () -> new SpawnEggItem(ModEntities.CRUDE_HOST.get(), 0x6B4A1A, 0x8A7A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_HOST, 0x6B4A1A, 0x8A7A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_INHOO_M = ITEMS.register("spawneiggcrude_inhoo_m",
-            () -> new SpawnEggItem(ModEntities.CRUDE_INHOO_M.get(), 0x6B4A1A, 0x5A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_INHOO_M, 0x6B4A1A, 0x5A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_INHOO_S = ITEMS.register("spawneiggcrude_inhoo_s",
-            () -> new SpawnEggItem(ModEntities.CRUDE_INHOO_S.get(), 0x6B4A1A, 0x4A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_INHOO_S, 0x6B4A1A, 0x4A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_LEER = ITEMS.register("spawneiggcrude_leer",
-            () -> new SpawnEggItem(ModEntities.CRUDE_LEER.get(), 0x6B4A1A, 0x6A7A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_LEER, 0x6B4A1A, 0x6A7A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_LESH = ITEMS.register("spawneiggcrude_lesh",
-            () -> new SpawnEggItem(ModEntities.CRUDE_LESH.get(), 0x6B4A1A, 0x8B6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_LESH, 0x6B4A1A, 0x8B6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_MES = ITEMS.register("spawneiggcrude_mes",
-            () -> new SpawnEggItem(ModEntities.CRUDE_MES.get(), 0x6B4A1A, 0x7A5A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_MES, 0x6B4A1A, 0x7A5A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_CRUDE_QUAC = ITEMS.register("spawneiggcrude_quac",
-            () -> new SpawnEggItem(ModEntities.CRUDE_QUAC.get(), 0x6B4A1A, 0x6A4A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.CRUDE_QUAC, 0x6B4A1A, 0x6A4A5A, new Item.Properties()));
 
     // --- Primitive Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_BANO = ITEMS.register("spawneiggprimitive_bano",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_BANO.get(), 0x1A4A2A, 0x0A2A1A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_BANO, 0x1A4A2A, 0x0A2A1A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_CANRA = ITEMS.register("spawneiggprimitive_canra",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_CANRA.get(), 0x1A4A2A, 0x2A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_CANRA, 0x1A4A2A, 0x2A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_EMANA = ITEMS.register("spawneiggprimitive_emana",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_EMANA.get(), 0x1A4A2A, 0x3A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_EMANA, 0x1A4A2A, 0x3A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_GIM = ITEMS.register("spawneiggprimitive_gim",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_GIM.get(), 0x1A4A2A, 0x4A5A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_GIM, 0x1A4A2A, 0x4A5A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_HULL = ITEMS.register("spawneiggprimitive_hull",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_HULL.get(), 0x1A4A2A, 0x5A6A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_HULL, 0x1A4A2A, 0x5A6A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_IKI = ITEMS.register("spawneiggprimitive_iki",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_IKI.get(), 0x1A4A2A, 0x6A7A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_IKI, 0x1A4A2A, 0x6A7A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_LUM = ITEMS.register("spawneiggprimitive_lum",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_LUM.get(), 0x1A4A2A, 0x7A8A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_LUM, 0x1A4A2A, 0x7A8A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_NOGLA = ITEMS.register("spawneiggprimitive_nogla",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_NOGLA.get(), 0x1A4A2A, 0x8A9A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_NOGLA, 0x1A4A2A, 0x8A9A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_RANRAC = ITEMS.register("spawneiggprimitive_ranrac",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_RANRAC.get(), 0x1A4A2A, 0x3A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_RANRAC, 0x1A4A2A, 0x3A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_SHYCO = ITEMS.register("spawneiggprimitive_shyco",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_SHYCO.get(), 0x1A4A2A, 0x4A4A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_SHYCO, 0x1A4A2A, 0x4A4A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_WYMO = ITEMS.register("spawneiggprimitive_wymo",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_WYMO.get(), 0x1A4A2A, 0x5A5A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_WYMO, 0x1A4A2A, 0x5A5A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_ZAA = ITEMS.register("spawneiggprimitive_zaa",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_ZAA.get(), 0x1A4A2A, 0x6A6A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_ZAA, 0x1A4A2A, 0x6A6A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_LONGARMS = ITEMS.register("spawneiggprimitivelongarms",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_LONGARMS.get(), 0x1A4A2A, 0x7A7A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_LONGARMS, 0x1A4A2A, 0x7A7A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_MANDUCATER = ITEMS.register("spawneiggprimitivemanducater",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_MANDUCATER.get(), 0x1A4A2A, 0x8A8A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_MANDUCATER, 0x1A4A2A, 0x8A8A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_REEKER = ITEMS.register("spawneiggprimitivereeker",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_REEKER.get(), 0x1A4A2A, 0x9A9A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_REEKER, 0x1A4A2A, 0x9A9A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_YELLOWEYE = ITEMS.register("spawneiggprimitiveyelloweye",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_YELLOWEYE.get(), 0x1A4A2A, 0xAA9A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_YELLOWEYE, 0x1A4A2A, 0xAA9A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_SUMMONER = ITEMS.register("spawneiggprimitivesummoner",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_SUMMONER.get(), 0x1A4A2A, 0x5A7A9A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_SUMMONER, 0x1A4A2A, 0x5A7A9A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_BOLSTER = ITEMS.register("spawneiggprimitivebolster",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_BOLSTER.get(), 0x1A4A2A, 0x4A6A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_BOLSTER, 0x1A4A2A, 0x4A6A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_TOZON = ITEMS.register("spawneiggprimitivetozon",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_TOZON.get(), 0x1A4A2A, 0x6A8AAA, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_TOZON, 0x1A4A2A, 0x6A8AAA, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_ARACHNIDA = ITEMS.register("spawneiggprimitivearachnida",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_ARACHNIDA.get(), 0x1A4A2A, 0x3A3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_ARACHNIDA, 0x1A4A2A, 0x3A3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_DEVOURER = ITEMS.register("spawneiggprimitivedevourer",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_DEVOURER.get(), 0x1A4A2A, 0x7A5A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_DEVOURER, 0x1A4A2A, 0x7A5A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_VERMIN = ITEMS.register("spawneiggprimitivevermin",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_VERMIN.get(), 0x1A4A2A, 0x5A5A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_VERMIN, 0x1A4A2A, 0x5A5A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_VISCERA = ITEMS.register("spawneiggprimitiveviscera",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_VISCERA.get(), 0x1A4A2A, 0x8A6A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_VISCERA, 0x1A4A2A, 0x8A6A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_BURROWER = ITEMS.register("spawneiggprimitiveburrower",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_BURROWER.get(), 0x1A4A2A, 0x6A4A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_BURROWER, 0x1A4A2A, 0x6A4A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_BOMPH = ITEMS.register("spawneiggprimitivebomph",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_BOMPH.get(), 0x1A4A2A, 0x3B7B3B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_BOMPH, 0x1A4A2A, 0x3B7B3B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PRIMITIVE_WOLF = ITEMS.register("spawneiggprimitivewolf",
-            () -> new SpawnEggItem(ModEntities.PRIMITIVE_WOLF.get(), 0x1A4A2A, 0x5B9B5B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PRIMITIVE_WOLF, 0x1A4A2A, 0x5B9B5B, new Item.Properties()));
 
     // --- Adapted Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_COLONY = ITEMS.register("spawneiggadaptedcolony",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_COLONY.get(), 0x6B4A1A, 0x8A5A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_COLONY, 0x6B4A1A, 0x8A5A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_CREEPER = ITEMS.register("spawneiggadaptedcreeper",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_CREEPER.get(), 0x6B4A1A, 0x3A0A0A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_CREEPER, 0x6B4A1A, 0x3A0A0A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_SKELETON = ITEMS.register("spawneiggadaptedskeleton",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_SKELETON.get(), 0x6B4A1A, 0x7A8B9A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_SKELETON, 0x6B4A1A, 0x7A8B9A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_SPIDER = ITEMS.register("spawneiggadaptedspider",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_SPIDER.get(), 0x6B4A1A, 0x3B3B3B, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_SPIDER, 0x6B4A1A, 0x3B3B3B, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_ZOMBIE = ITEMS.register("spawneiggadaptedzombie",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_ZOMBIE.get(), 0x6B4A1A, 0x5F6B3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_ZOMBIE, 0x6B4A1A, 0x5F6B3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_ENDERMAN = ITEMS.register("spawneiggadaptedenderman",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_ENDERMAN.get(), 0x6B4A1A, 0x1A1A2E, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_ENDERMAN, 0x6B4A1A, 0x1A1A2E, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_BANO = ITEMS.register("spawneiggadapted_bano",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_BANO.get(), 0x6B4A1A, 0x4A6A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_BANO, 0x6B4A1A, 0x4A6A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_CANRA = ITEMS.register("spawneiggadapted_canra",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_CANRA.get(), 0x6B4A1A, 0x5A7A9A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_CANRA, 0x6B4A1A, 0x5A7A9A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_EMANA = ITEMS.register("spawneiggadapted_emana",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_EMANA.get(), 0x6B4A1A, 0xAA9A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_EMANA, 0x6B4A1A, 0xAA9A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_GIM = ITEMS.register("spawneiggadapted_gim",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_GIM.get(), 0x6B4A1A, 0x8A6A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_GIM, 0x6B4A1A, 0x8A6A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_HULL = ITEMS.register("spawneiggadapted_hull",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_HULL.get(), 0x6B4A1A, 0x8A8A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_HULL, 0x6B4A1A, 0x8A8A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_IKI = ITEMS.register("spawneiggadapted_iki",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_IKI.get(), 0x6B4A1A, 0x5A5A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_IKI, 0x6B4A1A, 0x5A5A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_LUM = ITEMS.register("spawneiggadapted_lum",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_LUM.get(), 0x6B4A1A, 0x7A5A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_LUM, 0x6B4A1A, 0x7A5A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_NOGLA = ITEMS.register("spawneiggadapted_nogla",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_NOGLA.get(), 0x6B4A1A, 0x9A9A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_NOGLA, 0x6B4A1A, 0x9A9A8A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_RANRAC = ITEMS.register("spawneiggadapted_ranrac",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_RANRAC.get(), 0x6B4A1A, 0x3A3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_RANRAC, 0x6B4A1A, 0x3A3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_SHYCO = ITEMS.register("spawneiggadapted_shyco",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_SHYCO.get(), 0x6B4A1A, 0x7A7A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_SHYCO, 0x6B4A1A, 0x7A7A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_WYMO = ITEMS.register("spawneiggadapted_wymo",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_WYMO.get(), 0x6B4A1A, 0x6A8AAA, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_WYMO, 0x6B4A1A, 0x6A8AAA, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ADAPTED_ZAA = ITEMS.register("spawneiggadapted_zaa",
-            () -> new SpawnEggItem(ModEntities.ADAPTED_ZAA.get(), 0x6B4A1A, 0x6A4A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ADAPTED_ZAA, 0x6B4A1A, 0x6A4A2A, new Item.Properties()));
 
     // --- Beckon Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BECKON_COMMON = ITEMS.register("spawneiggbeckoncommon",
-            () -> new SpawnEggItem(ModEntities.BECKON_COMMON.get(), 0x8A8A1A, 0x5A5A0A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BECKON_COMMON, 0x8A8A1A, 0x5A5A0A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BECKON_UNCOMMON = ITEMS.register("spawneiggbeckonuncommon",
-            () -> new SpawnEggItem(ModEntities.BECKON_UNCOMMON.get(), 0x8A8A1A, 0x6A6A1A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BECKON_UNCOMMON, 0x8A8A1A, 0x6A6A1A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BECKON_RARE = ITEMS.register("spawneiggbeckonrare",
-            () -> new SpawnEggItem(ModEntities.BECKON_RARE.get(), 0x8A8A1A, 0x7A7A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BECKON_RARE, 0x8A8A1A, 0x7A7A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BECKON_EPIC = ITEMS.register("spawneiggbeckonepic",
-            () -> new SpawnEggItem(ModEntities.BECKON_EPIC.get(), 0x8A8A1A, 0x9A9A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BECKON_EPIC, 0x8A8A1A, 0x9A9A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BECKON_LEGENDARY = ITEMS.register("spawneiggbeckonlegendary",
-            () -> new SpawnEggItem(ModEntities.BECKON_LEGENDARY.get(), 0x8A8A1A, 0xAAAA4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BECKON_LEGENDARY, 0x8A8A1A, 0xAAAA4A, new Item.Properties()));
 
     // --- Dispatcher Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DISPATCHER_COMMON = ITEMS.register("spawneiggdispatchercommon",
-            () -> new SpawnEggItem(ModEntities.DISPATCHER_COMMON.get(), 0x5A5A5A, 0x3A3A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DISPATCHER_COMMON, 0x5A5A5A, 0x3A3A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DISPATCHER_UNCOMMON = ITEMS.register("spawneiggdispatcheruncommon",
-            () -> new SpawnEggItem(ModEntities.DISPATCHER_UNCOMMON.get(), 0x5A5A5A, 0x4A4A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DISPATCHER_UNCOMMON, 0x5A5A5A, 0x4A4A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DISPATCHER_RARE = ITEMS.register("spawneiggdispatcherrare",
-            () -> new SpawnEggItem(ModEntities.DISPATCHER_RARE.get(), 0x5A5A5A, 0x6A6A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DISPATCHER_RARE, 0x5A5A5A, 0x6A6A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DISPATCHER_EPIC = ITEMS.register("spawneiggdispatcherepic",
-            () -> new SpawnEggItem(ModEntities.DISPATCHER_EPIC.get(), 0x5A5A5A, 0x7A7A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DISPATCHER_EPIC, 0x5A5A5A, 0x7A7A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DISPATCHER_LEGENDARY = ITEMS.register("spawneiggdispatcherlegendary",
-            () -> new SpawnEggItem(ModEntities.DISPATCHER_LEGENDARY.get(), 0x5A5A5A, 0x8A8A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DISPATCHER_LEGENDARY, 0x5A5A5A, 0x8A8A8A, new Item.Properties()));
 
     // --- Rooter Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ROOTER_COMMON = ITEMS.register("spawneiggrootercommon",
-            () -> new SpawnEggItem(ModEntities.ROOTER_COMMON.get(), 0x6B4A2A, 0x4A2A1A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ROOTER_COMMON, 0x6B4A2A, 0x4A2A1A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ROOTER_UNCOMMON = ITEMS.register("spawneiggrooteruncommon",
-            () -> new SpawnEggItem(ModEntities.ROOTER_UNCOMMON.get(), 0x6B4A2A, 0x5A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ROOTER_UNCOMMON, 0x6B4A2A, 0x5A3A2A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ROOTER_RARE = ITEMS.register("spawneiggrooterrare",
-            () -> new SpawnEggItem(ModEntities.ROOTER_RARE.get(), 0x6B4A2A, 0x7A5A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ROOTER_RARE, 0x6B4A2A, 0x7A5A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ROOTER_EPIC = ITEMS.register("spawneiggrooterepic",
-            () -> new SpawnEggItem(ModEntities.ROOTER_EPIC.get(), 0x6B4A2A, 0x8A6A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ROOTER_EPIC, 0x6B4A2A, 0x8A6A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ROOTER_LEGENDARY = ITEMS.register("spawneiggrooterlegendary",
-            () -> new SpawnEggItem(ModEntities.ROOTER_LEGENDARY.get(), 0x6B4A2A, 0x9A7A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ROOTER_LEGENDARY, 0x6B4A2A, 0x9A7A5A, new Item.Properties()));
 
     // --- Nexus Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_NEXUS_GUARD = ITEMS.register("spawneiggnexusguard",
-            () -> new SpawnEggItem(ModEntities.NEXUS_GUARD.get(), 0x3A1A5A, 0x1A0A3A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.NEXUS_GUARD, 0x3A1A5A, 0x1A0A3A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_NEXUS_OVERSEER = ITEMS.register("spawneiggnexusoverseer",
-            () -> new SpawnEggItem(ModEntities.NEXUS_OVERSEER.get(), 0x3A1A5A, 0x4A2A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.NEXUS_OVERSEER, 0x3A1A5A, 0x4A2A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_NEXUS_CONSTRUCT = ITEMS.register("spawneiggnexusconstruct",
-            () -> new SpawnEggItem(ModEntities.NEXUS_CONSTRUCT.get(), 0x3A1A5A, 0x5A3A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.NEXUS_CONSTRUCT, 0x3A1A5A, 0x5A3A7A, new Item.Properties()));
 
     // --- Deterrent Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DETERRENT_SENTRY = ITEMS.register("spawneiggdeterrentsentry",
-            () -> new SpawnEggItem(ModEntities.DETERRENT_SENTRY.get(), 0x4A5A6A, 0x2A3A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DETERRENT_SENTRY, 0x4A5A6A, 0x2A3A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DETERRENT_OUTPOST = ITEMS.register("spawneiggdeterrentoutpost",
-            () -> new SpawnEggItem(ModEntities.DETERRENT_OUTPOST.get(), 0x4A5A6A, 0x3A4A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DETERRENT_OUTPOST, 0x4A5A6A, 0x3A4A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DETERRENT_BASTION = ITEMS.register("spawneiggdeterrentbastion",
-            () -> new SpawnEggItem(ModEntities.DETERRENT_BASTION.get(), 0x4A5A6A, 0x5A6A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DETERRENT_BASTION, 0x4A5A6A, 0x5A6A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DETERRENT_VENKROL_SIV = ITEMS.register("spawneiggdeterrent_venkrol_siv",
-            () -> new SpawnEggItem(ModEntities.DETERRENT_VENKROL_SIV.get(), 0x4A5A6A, 0x6A7A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DETERRENT_VENKROL_SIV, 0x4A5A6A, 0x6A7A8A, new Item.Properties()));
 
     // --- Pure Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_CREEPER = ITEMS.register("spawneiggpurecreeper",
-            () -> new SpawnEggItem(ModEntities.PURE_CREEPER.get(), 0xE0D8C0, 0xB0A080, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_CREEPER, 0xE0D8C0, 0xB0A080, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_SKELETON = ITEMS.register("spawneiggpureskeleton",
-            () -> new SpawnEggItem(ModEntities.PURE_SKELETON.get(), 0xE0D8C0, 0xA09070, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_SKELETON, 0xE0D8C0, 0xA09070, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ZOMBIE = ITEMS.register("spawneiggpurezombie",
-            () -> new SpawnEggItem(ModEntities.PURE_ZOMBIE.get(), 0xE0D8C0, 0x908060, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ZOMBIE, 0xE0D8C0, 0x908060, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_SPIDER = ITEMS.register("spawneiggpurespider",
-            () -> new SpawnEggItem(ModEntities.PURE_SPIDER.get(), 0xE0D8C0, 0x807050, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_SPIDER, 0xE0D8C0, 0x807050, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ENDERMAN = ITEMS.register("spawneiggpureenderman",
-            () -> new SpawnEggItem(ModEntities.PURE_ENDERMAN.get(), 0xE0D8C0, 0x706040, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ENDERMAN, 0xE0D8C0, 0x706040, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_WOLF = ITEMS.register("spawneiggpurewolf",
-            () -> new SpawnEggItem(ModEntities.PURE_WOLF.get(), 0xE0D8C0, 0xC0B090, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_WOLF, 0xE0D8C0, 0xC0B090, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_FLAM = ITEMS.register("spawneiggpure_flam",
-            () -> new SpawnEggItem(ModEntities.PURE_FLAM.get(), 0xE0D8C0, 0xD0A060, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_FLAM, 0xE0D8C0, 0xD0A060, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_FLOG = ITEMS.register("spawneiggpure_flog",
-            () -> new SpawnEggItem(ModEntities.PURE_FLOG.get(), 0xE0D8C0, 0xB09070, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_FLOG, 0xE0D8C0, 0xB09070, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_OMBOO = ITEMS.register("spawneiggpure_omboo",
-            () -> new SpawnEggItem(ModEntities.PURE_OMBOO.get(), 0xE0D8C0, 0xA08060, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_OMBOO, 0xE0D8C0, 0xA08060, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ALAFHA = ITEMS.register("spawneiggpure_alafha",
-            () -> new SpawnEggItem(ModEntities.PURE_ALAFHA.get(), 0xE0D8C0, 0xC09050, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ALAFHA, 0xE0D8C0, 0xC09050, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_GANRO = ITEMS.register("spawneiggpure_ganro",
-            () -> new SpawnEggItem(ModEntities.PURE_GANRO.get(), 0xE0D8C0, 0x907050, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_GANRO, 0xE0D8C0, 0x907050, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ESOR = ITEMS.register("spawneiggpure_esor",
-            () -> new SpawnEggItem(ModEntities.PURE_ESOR.get(), 0xE0D8C0, 0xB08060, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ESOR, 0xE0D8C0, 0xB08060, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ELVIA = ITEMS.register("spawneiggpure_elvia",
-            () -> new SpawnEggItem(ModEntities.PURE_ELVIA.get(), 0xE0D8C0, 0x8060A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ELVIA, 0xE0D8C0, 0x8060A0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PURE_ANGED = ITEMS.register("spawneiggpure_anged",
-            () -> new SpawnEggItem(ModEntities.PURE_ANGED.get(), 0xE0D8C0, 0xA07050, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PURE_ANGED, 0xE0D8C0, 0xA07050, new Item.Properties()));
 
     // --- Preeminent Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PREEMINENT_MARAUDER = ITEMS.register("spawneiggpreeminentmarauder",
-            () -> new SpawnEggItem(ModEntities.PREEMINENT_MARAUDER.get(), 0xD4A030, 0xF0E0A0, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PREEMINENT_MARAUDER, 0xD4A030, 0xF0E0A0, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PREEMINENT_WARDEN = ITEMS.register("spawneiggpreeminentwarden",
-            () -> new SpawnEggItem(ModEntities.PREEMINENT_WARDEN.get(), 0xD4A030, 0xE0D090, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PREEMINENT_WARDEN, 0xD4A030, 0xE0D090, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PREEMINENT_SOVEREIGN = ITEMS.register("spawneiggpreeminentsovereign",
-            () -> new SpawnEggItem(ModEntities.PREEMINENT_SOVEREIGN.get(), 0xD4A030, 0xC09020, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PREEMINENT_SOVEREIGN, 0xD4A030, 0xC09020, new Item.Properties()));
 
     // --- Ancient Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ANCIENT_DREADNOUGHT = ITEMS.register("spawneiggancientdreadnought",
-            () -> new SpawnEggItem(ModEntities.ANCIENT_DREADNOUGHT.get(), 0xA08040, 0x604020, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ANCIENT_DREADNOUGHT, 0xA08040, 0x604020, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ANCIENT_LEVIATHAN = ITEMS.register("spawneiggancientleviathan",
-            () -> new SpawnEggItem(ModEntities.ANCIENT_LEVIATHAN.get(), 0xA08040, 0x705030, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ANCIENT_LEVIATHAN, 0xA08040, 0x705030, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ANCIENT_COLOSSUS = ITEMS.register("spawneiggancientcolossus",
-            () -> new SpawnEggItem(ModEntities.ANCIENT_COLOSSUS.get(), 0xA08040, 0x806040, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ANCIENT_COLOSSUS, 0xA08040, 0x806040, new Item.Properties()));
 
     // --- Derived Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DERIVED_FLY = ITEMS.register("spawneiggderivedfly",
-            () -> new SpawnEggItem(ModEntities.DERIVED_FLY.get(), 0x1A3A6B, 0x0A2A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DERIVED_FLY, 0x1A3A6B, 0x0A2A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DERIVED_SWARM = ITEMS.register("spawneiggderivedswarm",
-            () -> new SpawnEggItem(ModEntities.DERIVED_SWARM.get(), 0x1A3A6B, 0x2A4A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DERIVED_SWARM, 0x1A3A6B, 0x2A4A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DERIVED_CRAWLER = ITEMS.register("spawneiggderivedcrawler",
-            () -> new SpawnEggItem(ModEntities.DERIVED_CRAWLER.get(), 0x1A3A6B, 0x3A5A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DERIVED_CRAWLER, 0x1A3A6B, 0x3A5A6A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DERIVED_LEAPER = ITEMS.register("spawneiggderivedleaper",
-            () -> new SpawnEggItem(ModEntities.DERIVED_LEAPER.get(), 0x1A3A6B, 0x4A6A7A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DERIVED_LEAPER, 0x1A3A6B, 0x4A6A7A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_DERIVED_STALKER = ITEMS.register("spawneiggderivedstalker",
-            () -> new SpawnEggItem(ModEntities.DERIVED_STALKER.get(), 0x1A3A6B, 0x5A7A8A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.DERIVED_STALKER, 0x1A3A6B, 0x5A7A8A, new Item.Properties()));
 
     // --- Abomination Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ABOMINATION_AMALGAM = ITEMS.register("spawneiggabominationamalgam",
-            () -> new SpawnEggItem(ModEntities.ABOMINATION_AMALGAM.get(), 0x5A0A2A, 0x3A1A4A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ABOMINATION_AMALGAM, 0x5A0A2A, 0x3A1A4A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ABOMINATION_CHIMERA = ITEMS.register("spawneiggabominationchimera",
-            () -> new SpawnEggItem(ModEntities.ABOMINATION_CHIMERA.get(), 0x5A0A2A, 0x4A2A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ABOMINATION_CHIMERA, 0x5A0A2A, 0x4A2A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ABOMINATION_HYDRA = ITEMS.register("spawneiggabominationhydra",
-            () -> new SpawnEggItem(ModEntities.ABOMINATION_HYDRA.get(), 0x5A0A2A, 0x5A3A6A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ABOMINATION_HYDRA, 0x5A0A2A, 0x5A3A6A, new Item.Properties()));
 
     // --- Misc Spawn Eggs ---
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BUGLIN = ITEMS.register("spawneiggbuglin",
-            () -> new SpawnEggItem(ModEntities.BUGLIN_ENTITY.get(), 0x6B5A3A, 0x8A7A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BUGLIN_ENTITY, 0x6B5A3A, 0x8A7A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_ALVEOLI_WORM = ITEMS.register("spawneiggalveoliworm",
-            () -> new SpawnEggItem(ModEntities.ALVEOLI_WORM.get(), 0x5A4A3A, 0x7A6A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.ALVEOLI_WORM, 0x5A4A3A, 0x7A6A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_PARASITE_LARVA = ITEMS.register("spawneiggparasitelarva",
-            () -> new SpawnEggItem(ModEntities.PARASITE_LARVA.get(), 0x4A6A3A, 0x6A8A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.PARASITE_LARVA, 0x4A6A3A, 0x6A8A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_VOID_ORB = ITEMS.register("spawneiggvoidorb",
-            () -> new SpawnEggItem(ModEntities.VOID_ORB.get(), 0x1A0A3A, 0x3A2A5A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.VOID_ORB, 0x1A0A3A, 0x3A2A5A, new Item.Properties()));
     public static final RegistryObject<SpawnEggItem> SPAWN_EGG_BOOM_ORB = ITEMS.register("spawneiggboomb",
-            () -> new SpawnEggItem(ModEntities.BOOM_ORB.get(), 0x6B1A0A, 0x8A3A2A, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.BOOM_ORB, 0x6B1A0A, 0x8A3A2A, new Item.Properties()));
 
         // ================================================================
     // DEBUG ITEMS (NOT in creative tab)

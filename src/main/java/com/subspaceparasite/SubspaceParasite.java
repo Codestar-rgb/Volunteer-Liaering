@@ -66,8 +66,8 @@ public class SubspaceParasite {
         ModBiomes.BIOMES.register(modEventBus);
         ModSounds.SOUNDS.register(modEventBus);
         ModFeatures.FEATURES.register(modEventBus);
-        ModFeatures.CONFIGURED_FEATURES.register(modEventBus);
-        ModFeatures.PLACED_FEATURES.register(modEventBus);
+        // NOTE: ConfiguredFeature and PlacedFeature cannot use DeferredRegister
+        // in Forge 1.20.1 — they are data-driven registries. See ModFeatures.java.
         ModCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         ModParticleTypes.PARTICLE_TYPES.register(modEventBus);
 
