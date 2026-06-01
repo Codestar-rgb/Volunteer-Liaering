@@ -1,57 +1,10 @@
-# Compiled class files
-*.class
-
-# Log files
-*.log
-
-# Package files
-*.jar
-*.war
-*.ear
-!gradle/wrapper/gradle-wrapper.jar
-
-# Gradle
 .gradle/
 build/
-out/
-!gradle/wrapper/gradle-wrapper.jar
-
-# Forge run directory
 run/
-logs/
-
-# Generated resources by Forge data generators
-src/generated/
-
-# IDE - IntelliJ IDEA
+*.class
+.settings/
+.classpath
+.project
 .idea/
 *.iml
-*.iws
-*.ipr
-
-# IDE - Eclipse
-.project
-.classpath
-.settings/
-bin/
-
-# IDE - VS Code
-.vscode/
-
-# OS files
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Environment
-.env
-.env.local
-
-# Python
-__pycache__/
-*.pyc
-
-# Java crash dumps
-hs_err_pid*
-replay_pid*
-db/Volunteer-Liaering.zip
+out/
