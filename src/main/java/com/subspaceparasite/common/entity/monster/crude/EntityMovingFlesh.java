@@ -378,10 +378,10 @@ public class EntityMovingFlesh extends EntityCrudeBase implements IParasite {
     }
     
     // ==================== 掉落物 ====================
-    
+
     @Override
-    protected void dropCustomDeathLoot(ServerLevel level, DamageSource source, boolean recentlyHit) {
-        super.dropCustomDeathLoot(level, source, recentlyHit);
+    public void die(DamageSource source) {
+        super.die(source);
 
         // 死亡时掉落携带的资源
         if (carryingResources > 0 && !this.level().isClientSide()) {
