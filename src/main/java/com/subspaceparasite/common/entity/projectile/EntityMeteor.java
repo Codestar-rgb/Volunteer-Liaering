@@ -513,8 +513,6 @@ public class EntityMeteor extends EntityOrbBase {
      * and meteor size.
      */
     private void spawnParasites(ServerLevel level) {
-        if (!(level instanceof ServerLevel serverLevel)) return;
-
         int count = switch (meteorSize) {
             case 1 -> PARASITE_COUNT_SMALL;
             case 2 -> PARASITE_COUNT_MEDIUM;
@@ -522,13 +520,10 @@ public class EntityMeteor extends EntityOrbBase {
         };
 
         // Determine which parasites to spawn based on current phase
-        EvoPhase currentPhase = EvoPhase.PHASE_0;
-        if (level instanceof ServerLevel sl) {
-            currentPhase = ModWorldData.get(sl).getCurrentPhase();
-        }
+        EvoPhase currentPhase = ModWorldData.get(level).getCurrentPhase();
 
         for (int i = 0; i < count; i++) {
-            spawnRandomParasite(serverLevel, currentPhase);
+            spawnRandomParasite(level, currentPhase);
         }
     }
 

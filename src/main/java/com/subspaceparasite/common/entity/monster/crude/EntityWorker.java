@@ -449,11 +449,11 @@ public class EntityWorker extends EntityCrudeBase implements IParasite {
     // ==================== 掉落物 ====================
     
     @Override
-    protected void dropCustomDeathLoot(net.minecraft.server.level.ServerLevel level, DamageSource source, boolean recentlyHit) {
+    protected void dropCustomDeathLoot(ServerLevel level, DamageSource source, boolean recentlyHit) {
         super.dropCustomDeathLoot(level, source, recentlyHit);
-        
+
         // 死亡时掉落携带的资源
-        if (carryingResources > 0 && !level.isClientSide()) {
+        if (carryingResources > 0 && !this.level().isClientSide()) {
             // TODO: 掉落资源物品
             carryingResources = 0;
         }

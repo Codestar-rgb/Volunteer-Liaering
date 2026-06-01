@@ -112,11 +112,6 @@ public class EntityBanoAdapted extends EntityAdaptedBase {
 
     /**
      * Spawn rule check for EntityBanoAdapted.
+     * Delegates to EntityParasiteBase.checkSpawnRules via the entity type registration.
      */
-    public static boolean checkSpawnRules(EntityType<EntityBanoAdapted> type,
-                                          net.minecraft.world.level.ServerLevelAccessor level,
-                                          net.minecraft.world.entity.MobSpawnType spawnType,
-                                          BlockPos pos, net.minecraft.util.RandomSource random) {
-        return EntityParasiteBase.checkSpawnRules(type, level, spawnType, pos, random);
-    }
 }

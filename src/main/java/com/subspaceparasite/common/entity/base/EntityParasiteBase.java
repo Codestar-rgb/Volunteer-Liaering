@@ -725,7 +725,7 @@ public abstract class EntityParasiteBase extends Monster
      * @param random    the random source
      * @return true if spawning is allowed
      */
-    public static <T extends EntityParasiteBase> boolean checkSpawnRules(EntityType<T> type,
+    public static boolean checkSpawnRules(EntityType<? extends EntityParasiteBase> type,
                                           ServerLevelAccessor level, MobSpawnType spawnType,
                                           BlockPos pos, RandomSource random) {
         EvoPhase currentPhase = getCurrentPhase(level.getLevel());
