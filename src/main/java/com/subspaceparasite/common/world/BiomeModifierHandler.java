@@ -8,8 +8,6 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.HolderSet;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.common.Mod;
 
 import java.util.List;
 
@@ -27,7 +25,6 @@ import java.util.List;
  * data packs. The getParasiteBiomeFeatures() method returns an empty list
  * until proper data pack JSONs are created.
  */
-@Mod.EventBusSubscriber(modid = SubspaceParasite.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BiomeModifierHandler {
 
     private BiomeModifierHandler() {}
@@ -66,9 +63,16 @@ public class BiomeModifierHandler {
      * @return HolderSet containing all registered parasite biomes
      */
     public static HolderSet<Biome> getParasiteBiomeHolders() {
-        return HolderSet.direct(
-                ModBiomes.BIOMEPARASITE_SHROUDED.getHolder().orElseThrow(),
-                ModBiomes.BIOMEPARASITE_HARLEQUIN.getHolder().orElseThrow()
-        );
+        var shrouded = ModBiomes.BIOMEPARASITE_SHROUDED.getHolder();
+        var harlequin = ModBiomes.BIOMEPARASITE_HARLEQUIN.getHolder();
+
+        if (shrouded.isEmpty() || harlequin.isEmpty()) {
+            SubspaceParasite.LOGGER.warn(
+                    "Parasite biome holders not yet bound; returning empty HolderSet"
+            );
+            return HolderSet.direct();
+        }
+
+        return HolderSet.direct(shrouded.get(), harlequin.get());
     }
 }

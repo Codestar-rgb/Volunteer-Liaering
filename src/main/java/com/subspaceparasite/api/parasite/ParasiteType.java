@@ -134,7 +134,7 @@ public enum ParasiteType implements StringRepresentable {
     CARRIER_WORM          (0x5A, 3.0f, 20.0f,  2.0f, 0.0f, 0.30f, false, 5, 1, 5, "carrier_worm",          "Carrier Worm"),
 
     // ────────────────────────────────────────────────────────────────
-    //  PRIMITIVE  (0x60 – 0x6F)
+    //  PRIMITIVE  (0x60 – 0x77)
     //  First true combat forms; colony defenders.
     // ────────────────────────────────────────────────────────────────
     PRI_BANO        (0x60, 3.0f, 60.0f,  8.0f, 4.0f, 0.19f, false, 4, 1, 3, "pri_bano",        "Bano"),
@@ -163,24 +163,24 @@ public enum ParasiteType implements StringRepresentable {
     PRI_BURROWER    (0x77, 3.5f, 28.0f,  4.0f, 2.0f, 0.25f, false, 5, 2, 5, "pri_burrower",    "Primitive Burrower"),
 
     // ────────────────────────────────────────────────────────────────
-    //  ADAPTED  (0x70 – 0x7F)
+    //  ADAPTED  (0x84 – 0x8F)
     //  Evolved primitives — stronger in every stat.
     // ────────────────────────────────────────────────────────────────
-    ADA_LONGARMS    (0x70, 7.0f,  60.0f, 12.0f, 4.0f, 0.32f, false,  9, 3, 6, "ada_longarms",    "Adapted Longarms"),
-    ADA_MANDUCATER  (0x71, 6.5f,  54.0f, 10.0f, 4.0f, 0.30f, false,  8, 3, 6, "ada_manducater",  "Adapted Manducater"),
-    ADA_REEKER      (0x72, 5.0f,  40.0f,  6.0f, 0.0f, 0.28f, false,  7, 3, 6, "ada_reeker",      "Adapted Reeker"),
-    ADA_YELLOWEYE   (0x73, 6.0f,  48.0f,  9.0f, 4.0f, 0.32f, false,  8, 3, 6, "ada_yelloweye",   "Adapted Yelloweye"),
-    ADA_SUMMONER    (0x74, 5.5f,  44.0f,  6.0f, 2.0f, 0.28f, false,  9, 4, 7, "ada_summoner",    "Adapted Summoner"),
-    ADA_BOLSTER     (0x75, 5.0f,  40.0f,  5.0f, 4.0f, 0.28f, false,  7, 3, 6, "ada_bolster",     "Adapted Bolster"),
-    ADA_TOZON       (0x76, 7.0f,  70.0f, 10.0f, 6.0f, 0.25f, false, 10, 4, 7, "ada_tozon",       "Adapted Tozon"),
-    ADA_ARACHNIDA   (0x77, 6.0f,  48.0f,  9.0f, 0.0f, 0.35f, false,  8, 3, 6, "ada_arachnida",   "Adapted Arachnida"),
-    ADA_DEVOURER    (0x78, 8.0f,  80.0f, 13.0f, 5.0f, 0.30f, false, 11, 4, 7, "ada_devourer",    "Adapted Devourer"),
-    ADA_VERMIN      (0x79, 4.5f,  30.0f,  6.0f, 0.0f, 0.38f, false,  6, 3, 6, "ada_vermin",      "Adapted Vermin"),
-    ADA_VISCERA     (0x7A, 6.0f,  50.0f,  8.0f, 4.0f, 0.28f, false,  9, 4, 7, "ada_viscera",     "Adapted Viscera"),
-    ADA_BURROWER    (0x7B, 5.0f,  40.0f,  6.0f, 4.0f, 0.28f, false,  7, 3, 6, "ada_burrower",    "Adapted Burrower"),
+    ADA_LONGARMS    (0x84, 7.0f,  60.0f, 12.0f, 4.0f, 0.32f, false,  9, 3, 6, "ada_longarms",    "Adapted Longarms"),
+    ADA_MANDUCATER  (0x85, 6.5f,  54.0f, 10.0f, 4.0f, 0.30f, false,  8, 3, 6, "ada_manducater",  "Adapted Manducater"),
+    ADA_REEKER      (0x86, 5.0f,  40.0f,  6.0f, 0.0f, 0.28f, false,  7, 3, 6, "ada_reeker",      "Adapted Reeker"),
+    ADA_YELLOWEYE   (0x87, 6.0f,  48.0f,  9.0f, 4.0f, 0.32f, false,  8, 3, 6, "ada_yelloweye",   "Adapted Yelloweye"),
+    ADA_SUMMONER    (0x88, 5.5f,  44.0f,  6.0f, 2.0f, 0.28f, false,  9, 4, 7, "ada_summoner",    "Adapted Summoner"),
+    ADA_BOLSTER     (0x89, 5.0f,  40.0f,  5.0f, 4.0f, 0.28f, false,  7, 3, 6, "ada_bolster",     "Adapted Bolster"),
+    ADA_TOZON       (0x8A, 7.0f,  70.0f, 10.0f, 6.0f, 0.25f, false, 10, 4, 7, "ada_tozon",       "Adapted Tozon"),
+    ADA_ARACHNIDA   (0x8B, 6.0f,  48.0f,  9.0f, 0.0f, 0.35f, false,  8, 3, 6, "ada_arachnida",   "Adapted Arachnida"),
+    ADA_DEVOURER    (0x8C, 8.0f,  80.0f, 13.0f, 5.0f, 0.30f, false, 11, 4, 7, "ada_devourer",    "Adapted Devourer"),
+    ADA_VERMIN      (0x8D, 4.5f,  30.0f,  6.0f, 0.0f, 0.38f, false,  6, 3, 6, "ada_vermin",      "Adapted Vermin"),
+    ADA_VISCERA     (0x8E, 6.0f,  50.0f,  8.0f, 4.0f, 0.28f, false,  9, 4, 7, "ada_viscera",     "Adapted Viscera"),
+    ADA_BURROWER    (0x8F, 5.0f,  40.0f,  6.0f, 4.0f, 0.28f, false,  7, 3, 6, "ada_burrower",    "Adapted Burrower"),
 
     // ────────────────────────────────────────────────────────────────
-    //  NEXUS — BECKON  (0x80 – 0x8F)
+    //  NEXUS — BECKON  (0x80 – 0x83)
     //  Colony nexus structures that lure and convert.
     // ────────────────────────────────────────────────────────────────
     BECKON_SI       (0x80,  8.0f,  80.0f,  6.0f, 6.0f, 0.00f, false, 12, 3, 6, "beckon_si",    "Beckon Stage I"),
@@ -389,9 +389,10 @@ public enum ParasiteType implements StringRepresentable {
         if (unsigned <= 0x3F) return EvolutionPath.HIJACKED;
         if (unsigned <= 0x4F) return EvolutionPath.INBORN;
         if (unsigned <= 0x5F) return EvolutionPath.CRUDE;
-        if (unsigned <= 0x6F) return EvolutionPath.PRIMITIVE;
-        if (unsigned <= 0x7F) return EvolutionPath.ADAPTED;
-        if (unsigned <= 0xAF) return EvolutionPath.NEXUS;  // 0x80–0xAF: Beckon, Dispatcher, Rooter, other nexus
+        if (unsigned <= 0x77) return EvolutionPath.PRIMITIVE;          // 0x60–0x77
+        if (unsigned <= 0x7F) return EvolutionPath.ADAPTED;             // 0x78–0x7F reserved for ADAPTED expansion
+        if (unsigned >= 0x84 && unsigned <= 0x8F) return EvolutionPath.ADAPTED;  // 0x84–0x8F
+        if (unsigned <= 0xAF) return EvolutionPath.NEXUS;  // 0x80–0x83, 0x90–0xAF: Beckon, Dispatcher, Rooter, other nexus
         if (unsigned <= 0xBF) return EvolutionPath.DETERRENT;
         if (unsigned <= 0xCF) return EvolutionPath.PURE;
         if (unsigned <= 0xDF) return EvolutionPath.PREEMINENT;

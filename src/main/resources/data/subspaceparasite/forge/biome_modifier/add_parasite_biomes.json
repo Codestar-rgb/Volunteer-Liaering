@@ -1,0 +1,5 @@
+{
+  "type": "forge:add_biomes",
+  "biomes": "#subspaceparasite:parasite_biomes",
+  "target_biomes": "#minecraft:is_overworld"
+}

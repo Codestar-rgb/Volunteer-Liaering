@@ -7410,5 +7410,195 @@
     "sounds": [
       "subspaceparasite:infected_melting"
     ]
+  },
+  "subsrp_block.relay.activate": {
+    "category": "player",
+    "subtitle": "subtitles.relay.activate",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/relay/activate",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_block.relay.paper": {
+    "category": "player",
+    "subtitle": "subtitles.relay.paper",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/relay/paper",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.assimilated.attack": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimilated.attack",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/assimilated/attack",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.canra_adapted.ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.canra_adapted.ambient",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/canra_adapted/ambient",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.canra_adapted.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.canra_adapted.death",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/canra_adapted/death",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.canra_adapted.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.canra_adapted.hurt",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/canra_adapted/hurt",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.flam.ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.flam.ambient",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/flam/ambient",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.flam.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.flam.death",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/flam/death",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.flam.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.flam.hurt",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/flam/hurt",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_creeper.ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_creeper.ambient",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_creeper/ambient",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_creeper.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_creeper.death",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_creeper/death",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_creeper.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_creeper.hurt",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_creeper/hurt",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_enderman.ambient": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_enderman.ambient",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_enderman/ambient",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_enderman.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_enderman.death",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_enderman/death",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.infected_enderman.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.infected_enderman.hurt",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/infected_enderman/hurt",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.pure.attack": {
+    "category": "hostile",
+    "subtitle": "subtitles.pure.attack",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/pure/attack",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.pure.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.pure.death",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/pure/death",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.pure.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.pure.hurt",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/pure/hurt",
+        "stream": false
+      }
+    ]
+  },
+  "subsrp_entity.pure.idle": {
+    "category": "hostile",
+    "subtitle": "subtitles.pure.idle",
+    "sounds": [
+      {
+        "name": "subspaceparasite:entity/pure/idle",
+        "stream": false
+      }
+    ]
   }
 }
