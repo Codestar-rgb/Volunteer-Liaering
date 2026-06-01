@@ -25,6 +25,8 @@ public class NodeRelayBlockEntity extends BlockEntity {
     @Nullable
     private BlockPos controllerPos;
 
+    /** @deprecated Dead code — typedBlockEntity factory always uses the 3-arg constructor. */
+    @Deprecated
     public NodeRelayBlockEntity(BlockPos pos, BlockState state) {
         super(null, pos, state);
     }

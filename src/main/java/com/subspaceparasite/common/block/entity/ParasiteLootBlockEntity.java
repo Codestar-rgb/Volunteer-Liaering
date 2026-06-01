@@ -27,6 +27,8 @@ public class ParasiteLootBlockEntity extends BaseContainerBlockEntity {
     private static final int INV_SIZE = 27;
     private final NonNullList<ItemStack> items = NonNullList.withSize(INV_SIZE, ItemStack.EMPTY);
 
+    /** @deprecated Dead code — typedBlockEntity factory always uses the 3-arg constructor. */
+    @Deprecated
     public ParasiteLootBlockEntity(BlockPos pos, BlockState state) {
         super(null, pos, state);
     }

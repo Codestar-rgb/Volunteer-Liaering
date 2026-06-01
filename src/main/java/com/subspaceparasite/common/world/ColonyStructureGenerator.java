@@ -11,6 +11,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraftforge.registries.RegistryObject;
 
 import java.util.*;
 
@@ -29,31 +30,38 @@ import java.util.*;
  * Structure generation is incremental — blocks are placed over time via
  * a build queue, not all at once. Beckons and Rooters call into this
  * generator to advance construction.
+ * <p>
+ * NOTE: Block references use RegistryObject Suppliers for lazy resolution.
+ * Calling .get() at class-load time would crash because blocks may not be
+ * registered yet when this class is first loaded. Instead, we call .get()
+ * at usage time when blocks are guaranteed to be registered.
  */
 public class ColonyStructureGenerator {
 
     // ========== Structure Block Palette ==========
+    // Using RegistryObject references directly; .get() is called at usage time
+    // to avoid "Registry Object not present" crashes during class loading.
 
     /** Floor and basic building material. */
-    private static final Block BIOMASS = ModBlocks.BIOMASS_BLOCK.get();
+    private static final RegistryObject<? extends Block> BIOMASS = ModBlocks.BIOMASS_BLOCK;
     /** Wall and structural material. */
-    private static final Block STRUCTURE = ModBlocks.PARASITE_STRUCTURE.get();
+    private static final RegistryObject<? extends Block> STRUCTURE = ModBlocks.PARASITE_STRUCTURE;
     /** Tendril / support / connection material. */
-    private static final Block TENDRIL = ModBlocks.PARASITE_THIN.get();
+    private static final RegistryObject<? extends Block> TENDRIL = ModBlocks.PARASITE_THIN;
     /** Hive spawning pod material. */
-    private static final Block HIVE = ModBlocks.ALVEOLI.get();
+    private static final RegistryObject<? extends Block> HIVE = ModBlocks.ALVEOLI;
     /** Flesh filler material. */
-    private static final Block FLESH = ModBlocks.FLESH_PLANKS.get();
+    private static final RegistryObject<? extends Block> FLESH = ModBlocks.FLESH_PLANKS;
     /** Stain / ground cover material. */
-    private static final Block STAIN = ModBlocks.PARASITE_STAIN.get();
+    private static final RegistryObject<? extends Block> STAIN = ModBlocks.PARASITE_STAIN;
     /** Solid hive block for advanced structures. */
-    private static final Block SOLID_HIVE = ModBlocks.SOLID_ALVEOLI.get();
+    private static final RegistryObject<? extends Block> SOLID_HIVE = ModBlocks.SOLID_ALVEOLI;
     /** Parasite rubble for decoration. */
-    private static final Block RUBBLE = ModBlocks.PARASITE_RUBBLE.get();
+    private static final RegistryObject<? extends Block> RUBBLE = ModBlocks.PARASITE_RUBBLE;
     /** Colony Heart block for colony center. */
-    private static final Block COLONY_HEART = ModBlocks.COLONY_HEART.get();
+    private static final RegistryObject<? extends Block> COLONY_HEART = ModBlocks.COLONY_HEART;
     /** Colony Outpost block for extensions. */
-    private static final Block COLONY_OUTPOST = ModBlocks.COLONY_OUTPOST.get();
+    private static final RegistryObject<? extends Block> COLONY_OUTPOST = ModBlocks.COLONY_OUTPOST;
 
     // ========== Build Rate ==========
 
@@ -135,14 +143,14 @@ public class ColonyStructureGenerator {
                 BlockPos floorPos = center.offset(dx, -1, dz);
                 // Outer edge uses structure block; inner uses biomass
                 boolean isEdge = Math.abs(dx) == halfSize || Math.abs(dz) == halfSize;
-                Block floorBlock = isEdge ? STRUCTURE : BIOMASS;
+                Block floorBlock = isEdge ? STRUCTURE.get() : BIOMASS.get();
                 entries.add(new BuildEntry(floorPos, floorBlock.defaultBlockState(),
                         0, BuildCategory.FOUNDATION));
             }
         }
 
         // ── Core (Colony Heart at center) ──
-        entries.add(new BuildEntry(center, COLONY_HEART.defaultBlockState(),
+        entries.add(new BuildEntry(center, COLONY_HEART.get().defaultBlockState(),
                 1, BuildCategory.CORE));
 
         // ── Walls ──
@@ -199,7 +207,7 @@ public class ColonyStructureGenerator {
                     if (!isWallEdge) continue;
 
                     BlockPos wallPos = center.offset(dx, y, dz);
-                    Block wallBlock = isCorner ? STRUCTURE : FLESH;
+                    Block wallBlock = isCorner ? STRUCTURE.get() : FLESH.get();
                     entries.add(new BuildEntry(wallPos, wallBlock.defaultBlockState(),
                             y, BuildCategory.WALLS));
                 }
@@ -221,7 +229,7 @@ public class ColonyStructureGenerator {
                 if (dx == 0 && dz == 0) continue; // Skip center (colony heart)
                 for (int y = 0; y < wallHeight; y++) {
                     BlockPos pillarPos = center.offset(dx, y, dz);
-                    entries.add(new BuildEntry(pillarPos, STRUCTURE.defaultBlockState(),
+                    entries.add(new BuildEntry(pillarPos, STRUCTURE.get().defaultBlockState(),
                             y, BuildCategory.WALLS));
                 }
             }
@@ -239,11 +247,11 @@ public class ColonyStructureGenerator {
             int tendrilLength = Math.min(halfSize + 1, 2 + level / 2);
             for (int i = 1; i <= tendrilLength; i++) {
                 BlockPos tendrilPos = center.relative(dir, i).below();
-                entries.add(new BuildEntry(tendrilPos, TENDRIL.defaultBlockState(),
+                entries.add(new BuildEntry(tendrilPos, TENDRIL.get().defaultBlockState(),
                         i, BuildCategory.TENDRILS));
                 // Place tendril blocks one above too for visual connection
                 if (i > 1) {
-                    entries.add(new BuildEntry(tendrilPos.above(), TENDRIL.defaultBlockState(),
+                    entries.add(new BuildEntry(tendrilPos.above(), TENDRIL.get().defaultBlockState(),
                             i + 10, BuildCategory.TENDRILS));
                 }
             }
@@ -260,7 +268,7 @@ public class ColonyStructureGenerator {
         int[][] podPositions = getPodPositions(level);
         for (int[] offset : podPositions) {
             BlockPos podPos = center.offset(offset[0], 0, offset[1]);
-            Block podBlock = level >= 4 ? SOLID_HIVE : HIVE;
+            Block podBlock = level >= 4 ? SOLID_HIVE.get() : HIVE.get();
             entries.add(new BuildEntry(podPos, podBlock.defaultBlockState(),
                     0, BuildCategory.PODS));
         }
@@ -293,13 +301,13 @@ public class ColonyStructureGenerator {
             // North-south chamber wall
             BlockPos nsWall = center.offset(d, 0, 0);
             if (Math.abs(d) != chamberOffset && d != 0) {
-                entries.add(new BuildEntry(nsWall, FLESH.defaultBlockState(),
+                entries.add(new BuildEntry(nsWall, FLESH.get().defaultBlockState(),
                         0, BuildCategory.WALLS));
             }
             // East-west chamber wall
             BlockPos ewWall = center.offset(0, 0, d);
             if (Math.abs(d) != chamberOffset && d != 0) {
-                entries.add(new BuildEntry(ewWall, FLESH.defaultBlockState(),
+                entries.add(new BuildEntry(ewWall, FLESH.get().defaultBlockState(),
                         0, BuildCategory.WALLS));
             }
         }
@@ -317,12 +325,12 @@ public class ColonyStructureGenerator {
                 if (!isPerimeter) continue;
 
                 BlockPos perimeterPos = center.offset(dx, -1, dz);
-                entries.add(new BuildEntry(perimeterPos, STRUCTURE.defaultBlockState(),
+                entries.add(new BuildEntry(perimeterPos, STRUCTURE.get().defaultBlockState(),
                         0, BuildCategory.EXTENSION));
 
                 // Tendril barriers on perimeter for level 5
                 if (level >= 5 && (dx + dz) % 3 == 0) {
-                    entries.add(new BuildEntry(perimeterPos.above(), TENDRIL.defaultBlockState(),
+                    entries.add(new BuildEntry(perimeterPos.above(), TENDRIL.get().defaultBlockState(),
                             0, BuildCategory.EXTENSION));
                 }
             }
@@ -338,13 +346,13 @@ public class ColonyStructureGenerator {
         Direction[] dirs = Direction.Plane.HORIZONTAL.stream().toArray(Direction[]::new);
         for (Direction dir : dirs) {
             BlockPos outpostPos = center.relative(dir, halfSize + 4);
-            entries.add(new BuildEntry(outpostPos, COLONY_OUTPOST.defaultBlockState(),
+            entries.add(new BuildEntry(outpostPos, COLONY_OUTPOST.get().defaultBlockState(),
                     0, BuildCategory.EXTENSION));
             // Small pad under outpost
             for (int dx = -1; dx <= 1; dx++) {
                 for (int dz = -1; dz <= 1; dz++) {
                     BlockPos padPos = outpostPos.offset(dx, -1, dz);
-                    entries.add(new BuildEntry(padPos, BIOMASS.defaultBlockState(),
+                    entries.add(new BuildEntry(padPos, BIOMASS.get().defaultBlockState(),
                             0, BuildCategory.EXTENSION));
                 }
             }
@@ -368,12 +376,12 @@ public class ColonyStructureGenerator {
                 BlockPos decorPos = center.offset(dx, -1, dz);
                 // Stain on ground outside the structure
                 if (Math.abs(dx) > halfSize || Math.abs(dz) > halfSize) {
-                    entries.add(new BuildEntry(decorPos, STAIN.defaultBlockState(),
+                    entries.add(new BuildEntry(decorPos, STAIN.get().defaultBlockState(),
                             (int) dist, BuildCategory.DECORATION));
                 }
                 // Occasional rubble
                 if ((dx + dz) % 4 == 0) {
-                    entries.add(new BuildEntry(decorPos.above(), RUBBLE.defaultBlockState(),
+                    entries.add(new BuildEntry(decorPos.above(), RUBBLE.get().defaultBlockState(),
                             (int) dist + 5, BuildCategory.DECORATION));
                 }
             }
@@ -518,13 +526,13 @@ public class ColonyStructureGenerator {
 
         // Determine what block should be here based on position relative to colony
         // For simplicity, regenerate with biomass for floor positions, flesh for walls
-        BlockState regenState = BIOMASS.defaultBlockState();
+        BlockState regenState = BIOMASS.get().defaultBlockState();
 
         // If position is above ground level, it's likely a wall or tendril
         BlockPos groundCheck = pos.below();
         if (!level.getBlockState(groundCheck).isAir()) {
             // This might be a wall or support position
-            regenState = colonyLevel >= 3 ? STRUCTURE.defaultBlockState() : FLESH.defaultBlockState();
+            regenState = colonyLevel >= 3 ? STRUCTURE.get().defaultBlockState() : FLESH.get().defaultBlockState();
         }
 
         level.setBlock(pos, regenState, 3);
@@ -550,7 +558,7 @@ public class ColonyStructureGenerator {
             scanned++;
 
             if (level.getBlockState(pos).isAir()) {
-                regenQueue.add(new BuildEntry(pos, BIOMASS.defaultBlockState(),
+                regenQueue.add(new BuildEntry(pos, BIOMASS.get().defaultBlockState(),
                         0, BuildCategory.FOUNDATION));
                 missing++;
             }
@@ -572,17 +580,17 @@ public class ColonyStructureGenerator {
      * Checks whether a block at the given position is a parasite block.
      */
     public static boolean isParasiteBlock(Block block) {
-        return block == BIOMASS || block == STRUCTURE || block == TENDRIL ||
-               block == HIVE || block == FLESH || block == STAIN ||
-               block == SOLID_HIVE || block == RUBBLE || block == COLONY_HEART ||
-               block == COLONY_OUTPOST;
+        return block == BIOMASS.get() || block == STRUCTURE.get() || block == TENDRIL.get() ||
+               block == HIVE.get() || block == FLESH.get() || block == STAIN.get() ||
+               block == SOLID_HIVE.get() || block == RUBBLE.get() || block == COLONY_HEART.get() ||
+               block == COLONY_OUTPOST.get();
     }
 
     /**
      * Returns the set of all parasite block types used in colony structures.
      */
     public static Set<Block> getColonyBlockTypes() {
-        return Set.of(BIOMASS, STRUCTURE, TENDRIL, HIVE, FLESH, STAIN,
-                SOLID_HIVE, RUBBLE, COLONY_HEART, COLONY_OUTPOST);
+        return Set.of(BIOMASS.get(), STRUCTURE.get(), TENDRIL.get(), HIVE.get(), FLESH.get(), STAIN.get(),
+                SOLID_HIVE.get(), RUBBLE.get(), COLONY_HEART.get(), COLONY_OUTPOST.get());
     }
 }

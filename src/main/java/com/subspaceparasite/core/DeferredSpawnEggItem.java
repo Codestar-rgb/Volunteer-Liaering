@@ -4,8 +4,11 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.Level;
 
 import java.util.function.Supplier;
+
+import org.jetbrains.annotations.Nullable;
 
 /**
  * A spawn egg item that defers EntityType resolution to prevent
@@ -26,30 +29,33 @@ public class DeferredSpawnEggItem extends SpawnEggItem {
 
     /**
      * Creates a deferred spawn egg. The EntityType is resolved lazily
-     * via the supplier when {@link #getType()} is called at runtime.
+     * via the supplier when {@link #getType(Level)} is called at runtime.
      *
-     * @param entityTypeSupplier supplier for the entity type (e.g. () -> ModEntities.XXX.get())
+     * @param entityTypeSupplier supplier for the entity type (e.g. ModEntities.XXX)
      * @param backgroundColor    background color of the egg
      * @param highlightColor     highlight color of the egg
      * @param properties         item properties
      */
+    @SuppressWarnings("unchecked")
     public DeferredSpawnEggItem(Supplier<? extends EntityType<? extends Mob>> entityTypeSupplier,
                                 int backgroundColor, int highlightColor,
                                 Item.Properties properties) {
         // Pass a safe dummy EntityType to the super constructor.
         // EntityType.PIG is always available in vanilla and satisfies
-        // the non-null requirement. getType() is overridden below
+        // the non-null requirement. getType(Level) is overridden below
         // to return the actual deferred entity type at runtime.
-        super(EntityType.PIG, backgroundColor, highlightColor, properties);
+        super((EntityType<? extends Mob>) (EntityType<?>) EntityType.PIG,
+                backgroundColor, highlightColor, properties);
         this.entityTypeSupplier = entityTypeSupplier;
     }
 
     /**
      * Returns the actual EntityType supplied lazily.
      * Called by Minecraft when the spawn egg is used.
+     * Overrides SpawnEggItem.getType(@Nullable Level) in 1.20.1.
      */
     @Override
-    public EntityType<? extends Mob> getType() {
+    public EntityType<? extends Mob> getType(@Nullable Level level) {
         return entityTypeSupplier.get();
     }
 }

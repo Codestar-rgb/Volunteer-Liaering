@@ -51,7 +51,16 @@ public class InfuserFurnaceBlockEntity extends BaseContainerBlockEntity implemen
     private int cookTimeSmelt;
     private int cookTimeInfuse;
 
+    /**
+     * @deprecated Use the (BlockEntityType, BlockPos, BlockState) constructor instead.
+     * This constructor only exists for compatibility and will create a BlockEntity
+     * with a null type which can cause NPE. The typedBlockEntity factory in
+     * ModEntities always uses the 3-arg constructor.
+     */
+    @Deprecated
     public InfuserFurnaceBlockEntity(BlockPos pos, BlockState state) {
+        // Note: passing null type is dangerous but this constructor is dead code
+        // — ModEntities.typedBlockEntity always uses the 3-arg constructor.
         super(null, pos, state);
     }
 

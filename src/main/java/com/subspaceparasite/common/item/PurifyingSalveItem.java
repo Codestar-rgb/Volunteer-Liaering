@@ -57,10 +57,8 @@ public class PurifyingSalveItem extends Item {
                     cap.markDirty();
 
                     // Apply Cleansing effect for ongoing reduction
-                    if (ModEffects.CLEANSING != null) {
-                        player.addEffect(new MobEffectInstance(ModEffects.CLEANSING.get(),
-                                CLEANSING_DURATION, 0));
-                    }
+                    player.addEffect(new MobEffectInstance(ModEffects.CLEANSING.get(),
+                            CLEANSING_DURATION, 0));
 
                     // Remove COTH indicator effects
                     player.removeEffect(net.minecraft.world.effect.MobEffects.WITHER);

@@ -106,10 +106,10 @@ public class EntityMovingFlesh extends EntityCrudeBase implements IParasite {
     protected void registerGoals() {
         super.registerGoals();
         
-        // 清除基类的部分目标，添加自定义目标
-        this.goalSelector.removeAllGoals(goal -> 
-            goal instanceof MeleeAttackGoal || 
-            goal instanceof RandomStrollGoal
+        // 清除基类的部分目标，添加自定义目标（1.20.1 GoalSelector 没有 removeAllGoals(Predicate) 方法）
+        this.goalSelector.getAvailableGoals().removeIf(w ->
+            w.getGoal() instanceof MeleeAttackGoal ||
+            w.getGoal() instanceof RandomStrollGoal
         );
         
         // 基础目标

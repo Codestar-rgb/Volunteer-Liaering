@@ -2,10 +2,8 @@ package com.subspaceparasite.common.block.entity;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.FurnaceMenu;
 import net.minecraft.world.item.ItemStack;
@@ -22,6 +20,11 @@ import javax.annotation.Nullable;
  * Infested Furnace block entity - a furnace variant used in parasite structures.
  * Functions as a standard furnace but with parasite-themed behavior.
  * Ported from TileEntityInfestedFurnace (1.12) to 1.20.1.
+ *
+ * NOTE: In 1.20.1, AbstractFurnaceBlockEntity has only one constructor:
+ *   (BlockPos, BlockState, RecipeType)
+ * It does NOT accept BlockEntityType in the constructor. We store the type
+ * separately and override getType() to return it.
  */
 public class InfestedFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
 
@@ -29,13 +32,20 @@ public class InfestedFurnaceBlockEntity extends AbstractFurnaceBlockEntity {
     private static final int[] SLOTS_BOTTOM = new int[]{2, 1};
     private static final int[] SLOTS_SIDES = new int[]{1};
 
+    private BlockEntityType<?> resolvedType;
+
     public InfestedFurnaceBlockEntity(BlockPos pos, BlockState state) {
-        // Use the FURNACE type as a fallback; ModEntities will override with the proper type
-        super(null, pos, state, RecipeType.SMELTING);
+        super(pos, state, RecipeType.SMELTING);
     }
 
     public InfestedFurnaceBlockEntity(BlockEntityType<?> type, BlockPos pos, BlockState state) {
-        super(type, pos, state, RecipeType.SMELTING);
+        super(pos, state, RecipeType.SMELTING);
+        this.resolvedType = type;
+    }
+
+    @Override
+    public BlockEntityType<?> getType() {
+        return resolvedType != null ? resolvedType : super.getType();
     }
 
     @Override

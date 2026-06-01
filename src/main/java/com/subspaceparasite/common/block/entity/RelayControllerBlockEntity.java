@@ -79,6 +79,8 @@ public class RelayControllerBlockEntity extends BlockEntity {
 
     private final LazyOptional<IItemHandler> handlerLazy = LazyOptional.of(() -> itemHandler);
 
+    /** @deprecated Dead code — typedBlockEntity factory always uses the 3-arg constructor. */
+    @Deprecated
     public RelayControllerBlockEntity(BlockPos pos, BlockState state) {
         super(null, pos, state);
     }

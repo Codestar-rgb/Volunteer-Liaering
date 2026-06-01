@@ -8,6 +8,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 
@@ -132,32 +133,22 @@ public class ItemGreekFire extends Item {
         // TODO: 根据原版逻辑替换为相应的燃烧后状态
         world.setBlockAndUpdate(pos, net.minecraft.world.level.block.Blocks.AIR.defaultBlockState());
         
-        // 生成火焰粒子
-        for (int i = 0; i < 5; i++) {
-            double offsetX = world.random.nextDouble();
-            double offsetY = world.random.nextDouble();
-            double offsetZ = world.random.nextDouble();
-            world.addParticle(
-                net.minecraft.core.particles.ParticleTypes.FLAME,
-                pos.getX() + offsetX, pos.getY() + offsetY, pos.getZ() + offsetZ,
-                0, 0, 0
-            );
+        // 生成火焰粒子（服务端使用sendParticles，客户端addParticle是no-op）
+        if (world instanceof ServerLevel serverLevel) {
+            serverLevel.sendParticles(net.minecraft.core.particles.ParticleTypes.FLAME,
+                pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
+                5, 0.5, 0.5, 0.5, 0.01);
         }
     }
     
     /**
-     * 生成燃烧粒子效果
+     * 生成燃烧粒子效果（服务端使用sendParticles）
      */
     private void spawnBurnParticles(Level world, BlockPos pos) {
-        for (int i = 0; i < 3; i++) {
-            double offsetX = (world.random.nextDouble() - 0.5) * 2;
-            double offsetY = (world.random.nextDouble() - 0.5) * 2;
-            double offsetZ = (world.random.nextDouble() - 0.5) * 2;
-            world.addParticle(
-                net.minecraft.core.particles.ParticleTypes.SMOKE,
-                pos.getX() + 0.5 + offsetX, pos.getY() + 0.5 + offsetY, pos.getZ() + 0.5 + offsetZ,
-                0, 0.1, 0
-            );
+        if (world instanceof ServerLevel serverLevel) {
+            serverLevel.sendParticles(net.minecraft.core.particles.ParticleTypes.SMOKE,
+                pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
+                3, 1.0, 1.0, 1.0, 0.02);
         }
     }
     
