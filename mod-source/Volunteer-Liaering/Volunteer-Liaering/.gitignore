@@ -58,3 +58,7 @@ db/Volunteer-Liaering.zip
 db/
 *.jar
 *.zip
+download/
+crash-report/
+upload/
+db/
