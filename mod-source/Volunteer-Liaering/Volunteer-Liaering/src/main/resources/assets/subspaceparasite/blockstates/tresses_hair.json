@@ -1,0 +1,20 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "half": "lower"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/tresses_hair_bottom"
+      }
+    },
+    {
+      "when": {
+        "half": "upper"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/tresses_hair_top"
+      }
+    }
+  ]
+}

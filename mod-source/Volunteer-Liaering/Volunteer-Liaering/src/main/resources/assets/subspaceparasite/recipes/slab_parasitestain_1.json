@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:parasitestain",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasitestainslabhalf",
+    "data": 1,
+    "count": 6
+  }
+}

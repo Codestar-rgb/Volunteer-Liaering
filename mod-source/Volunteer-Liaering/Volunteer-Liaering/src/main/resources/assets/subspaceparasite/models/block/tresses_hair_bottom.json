@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "subspaceparasite:block/tall_hair_bottom"
+  }
+}

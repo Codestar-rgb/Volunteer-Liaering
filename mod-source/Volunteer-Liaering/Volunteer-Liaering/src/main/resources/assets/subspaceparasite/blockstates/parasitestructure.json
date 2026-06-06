@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "active=0": {
+      "model": "subspaceparasite:block/parasitestain_dirt"
+    },
+    "active=1": {
+      "model": "subspaceparasite:block/parasitestain_dirt"
+    },
+    "active=2": {
+      "model": "subspaceparasite:block/parasitestain_dirt"
+    },
+    "active=3": {
+      "model": "subspaceparasite:block/parasitestain_dirt"
+    },
+    "": {
+      "model": "subspaceparasite:block/parasitestain_dirt"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "stage=0,variant=tree": {
+      "model": "subspaceparasite:block/parasitesapling_tree"
+    },
+    "stage=1,variant=tree": {
+      "model": "subspaceparasite:block/parasitesapling_tree"
+    },
+    "stage=0,variant=treethin": {
+      "model": "subspaceparasite:block/parasitesapling_treethin"
+    },
+    "stage=1,variant=treethin": {
+      "model": "subspaceparasite:block/parasitesapling_treethin"
+    },
+    "stage=0,variant=flowertall": {
+      "model": "subspaceparasite:block/parasitesapling_flowertall"
+    },
+    "stage=1,variant=flowertall": {
+      "model": "subspaceparasite:block/parasitesapling_flowertall"
+    },
+    "stage=0,variant=consumed": {
+      "model": "subspaceparasite:block/parasitesapling_consumed"
+    },
+    "stage=1,variant=consumed": {
+      "model": "subspaceparasite:block/parasitesapling_consumed"
+    },
+    "stage=0,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitesapling_deadhead"
+    },
+    "stage=1,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitesapling_deadhead"
+    },
+    "stage=0,variant=infested": {
+      "model": "subspaceparasite:block/parasitesapling_infested"
+    },
+    "stage=1,variant=infested": {
+      "model": "subspaceparasite:block/parasitesapling_infested"
+    }
+  }
+}

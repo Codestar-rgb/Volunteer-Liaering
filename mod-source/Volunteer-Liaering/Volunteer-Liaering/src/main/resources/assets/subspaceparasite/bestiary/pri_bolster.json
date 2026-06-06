@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:pri_bolster",
+  "tier": "PRIMITIVE",
+  "name_key": "entity.subspaceparasite.pri_bolster.name",
+  "lore_key": "lore.subspaceparasite.pri_bolster",
+  "render_scale": 1.0,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

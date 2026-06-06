@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:hi_golem",
+  "tier": "HIJACKED",
+  "name_key": "entity.subspaceparasite.hi_golem.name",
+  "lore_key": "lore.subspaceparasite.hi_golem",
+  "render_scale": 0.7,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

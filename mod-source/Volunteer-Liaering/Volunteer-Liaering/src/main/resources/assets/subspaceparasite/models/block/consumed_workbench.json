@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "subspaceparasite:block/consumed_crafting_table_side",
+    "down": "subspaceparasite:block/consumed_planks",
+    "up": "subspaceparasite:block/consumed_crafting_table_top",
+    "north": "subspaceparasite:block/consumed_crafting_table_front",
+    "south": "subspaceparasite:block/consumed_crafting_table_front",
+    "west": "subspaceparasite:block/consumed_crafting_table_side",
+    "east": "subspaceparasite:block/consumed_crafting_table_side"
+  }
+}

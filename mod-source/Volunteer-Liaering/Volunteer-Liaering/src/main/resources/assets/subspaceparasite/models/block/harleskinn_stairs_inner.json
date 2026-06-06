@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/harleskinn_block",
+    "top": "subspaceparasite:block/harleskinn_block",
+    "side": "subspaceparasite:block/harleskinn_block"
+  }
+}

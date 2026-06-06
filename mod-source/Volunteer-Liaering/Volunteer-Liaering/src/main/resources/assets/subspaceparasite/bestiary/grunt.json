@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:grunt",
+  "tier": "PURE",
+  "name_key": "entity.subspaceparasite.grunt.name",
+  "lore_key": "lore.subspaceparasite.grunt",
+  "render_scale": 0.9,
+  "minlorekill": 3,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/hivesteel",
+    "top": "subspaceparasite:block/hivesteel",
+    "side": "subspaceparasite:block/hivesteel"
+  }
+}

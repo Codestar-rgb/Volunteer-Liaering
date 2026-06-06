@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_bigspider",
+  "tier": "ASSIMILATED",
+  "name_key": "entity.subspaceparasite.sim_bigspider.name",
+  "lore_key": "lore.subspaceparasite.sim_bigspider",
+  "render_scale": 0.75,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

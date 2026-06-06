@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:beckon_siv",
+  "tier": "NEXUS",
+  "name_key": "entity.subspaceparasite.beckon_siv.name",
+  "lore_key": "lore.subspaceparasite.beckon_siv",
+  "render_scale": 0.2,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

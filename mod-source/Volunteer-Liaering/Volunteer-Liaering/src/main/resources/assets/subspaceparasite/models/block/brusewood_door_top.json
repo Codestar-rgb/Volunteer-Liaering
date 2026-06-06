@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "bottom": "subspaceparasite:block/brucewood_planks",
+    "top": "subspaceparasite:block/brucewood_planks"
+  }
+}

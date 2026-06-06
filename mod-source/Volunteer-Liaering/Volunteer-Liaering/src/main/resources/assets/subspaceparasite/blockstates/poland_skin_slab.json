@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/poland_skin_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/poland_skin_slab_top"
+    }
+  }
+}

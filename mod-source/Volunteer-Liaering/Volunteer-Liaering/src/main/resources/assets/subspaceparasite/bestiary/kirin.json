@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:kirin",
+  "tier": "DERIVED",
+  "name_key": "entity.subspaceparasite.kirin.name",
+  "lore_key": "lore.subspaceparasite.kirin",
+  "render_scale": 0.1,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

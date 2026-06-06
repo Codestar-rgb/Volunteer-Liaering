@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/parasite_fog",
+    "down": "subspaceparasite:block/parasite_fog",
+    "up": "subspaceparasite:block/parasite_fog",
+    "east": "subspaceparasite:block/parasite_fog",
+    "west": "subspaceparasite:block/parasite_fog",
+    "north": "subspaceparasite:block/parasite_fog",
+    "south": "subspaceparasite:block/parasite_fog"
+  }
+}

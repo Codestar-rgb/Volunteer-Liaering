@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "YMY",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:hijacked_drop"
+    },
+    "Y": {
+      "item": "subspaceparasite:bloody_iron_ingot"
+    },
+    "M": {
+      "item": "subspaceparasite:module_base"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_hijacked",
+    "data": 0,
+    "count": 1
+  }
+}

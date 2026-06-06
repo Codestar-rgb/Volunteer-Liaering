@@ -1,0 +1,116 @@
+{
+  "variants": {
+    "variant=co": [
+      {
+        "model": "subspaceparasite:block/infestedore_co"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_co"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_co"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_co"
+      }
+    ],
+    "variant=dia": [
+      {
+        "model": "subspaceparasite:block/infestedore_dia"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_dia"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_dia"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_dia"
+      }
+    ],
+    "variant=eme": [
+      {
+        "model": "subspaceparasite:block/infestedore_eme"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_eme"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_eme"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_eme"
+      }
+    ],
+    "variant=gol": [
+      {
+        "model": "subspaceparasite:block/infestedore_gol"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_gol"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_gol"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_gol"
+      }
+    ],
+    "variant=iro": [
+      {
+        "model": "subspaceparasite:block/infestedore_iro"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_iro"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_iro"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_iro"
+      }
+    ],
+    "variant=lap": [
+      {
+        "model": "subspaceparasite:block/infestedore_lap"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_lap"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_lap"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_lap"
+      }
+    ],
+    "variant=red": [
+      {
+        "model": "subspaceparasite:block/infestedore_red"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_red"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_red"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_red"
+      }
+    ],
+    "variant=un": [
+      {
+        "model": "subspaceparasite:block/infestedore_un"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_un"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_un"
+      },
+      {
+        "model": "subspaceparasite:block/infestedore_un"
+      }
+    ]
+  }
+}

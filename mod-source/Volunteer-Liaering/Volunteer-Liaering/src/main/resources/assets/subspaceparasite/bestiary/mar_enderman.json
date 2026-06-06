@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:mar_enderman",
+  "tier": "ASSIMARA",
+  "name_key": "entity.subspaceparasite.mar_enderman.name",
+  "lore_key": "lore.subspaceparasite.mar_enderman",
+  "render_scale": 0.9,
+  "minlorekill": 3,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

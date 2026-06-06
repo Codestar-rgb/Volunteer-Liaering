@@ -1,0 +1,47 @@
+{
+  "parent": "subspaceparasite:kill_adapted",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:ada_reeker_drop"
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.kill_deterrent.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.kill_deterrent.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "k_dispatcherten": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:dispatcherten" } }
+    },
+    "k_kyphosis": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:kyphosis" } }
+    },
+    "k_seizer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:seizer" } }
+    },
+    "k_sentry": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:sentry" } }
+    },
+    "k_worm": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": { "entity": { "type": "subspaceparasite:worm" } }
+    }
+  },
+  "requirements": [
+    [ "k_dispatcherten" ],
+    [ "k_kyphosis" ],
+    [ "k_seizer" ],
+    [ "k_sentry" ],
+    [ "k_worm" ]
+  ]
+}

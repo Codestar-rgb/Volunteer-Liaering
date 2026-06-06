@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:carrier_colony",
+  "tier": "PREEMINENT",
+  "name_key": "entity.subspaceparasite.carrier_colony.name",
+  "lore_key": "lore.subspaceparasite.carrier_colony",
+  "render_scale": 0.6,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

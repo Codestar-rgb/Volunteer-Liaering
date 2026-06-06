@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:goth_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:goth_door",
+    "count": 3
+  }
+}

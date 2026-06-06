@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:dispatcher_siii",
+  "tier": "NEXUS",
+  "name_key": "entity.subspaceparasite.dispatcher_siii.name",
+  "lore_key": "lore.subspaceparasite.dispatcher_siii",
+  "render_scale": 0.35,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,397 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Primitiv Långarm
+entity.subspaceparasite.pri_manducater.name=Primitiv Ätare
+entity.subspaceparasite.pri_summoner.name=Primitiv Kallare
+entity.subspaceparasite.pri_reeker.name=Primitiv Stinkare
+entity.subspaceparasite.pri_yelloweye.name=Primitiv Gulöga
+entity.subspaceparasite.pri_bolster.name=Primitiv Stödjare
+entity.subspaceparasite.pri_arachnida.name=Primitivt Spindeldjur
+entity.subspaceparasite.pri_devourer.name=Primitiv Slukare
+
+entity.subspaceparasite.host.name=Värd
+entity.subspaceparasite.crux.name=Krux
+entity.subspaceparasite.heed.name=Betraktare
+
+entity.subspaceparasite.sim_bear.name=Assimilerad Björn
+entity.subspaceparasite.sim_enderman.name=Assimilerad Enderman
+entity.subspaceparasite.sim_adventurer.name=Assimilerad Äventyrare
+entity.subspaceparasite.sim_bigspider.name=Assimilerad Stor Spindel
+entity.subspaceparasite.sim_human.name=Assimilerad Människa
+entity.subspaceparasite.sim_humanhead.name=Vandrande Huvud
+entity.subspaceparasite.sim_villager.name=Assimilerad Bybo
+entity.subspaceparasite.sim_villagerhead.name=Vandrande Huvud
+entity.subspaceparasite.sim_cow.name=Assimilerad Ko
+entity.subspaceparasite.sim_cowhead.name=Vandrande Huvud
+entity.subspaceparasite.sim_horse.name=Assimilerad Häst
+entity.subspaceparasite.sim_horsehead.name=Vandrande Huvud
+entity.subspaceparasite.sim_pig.name=Assimilerad Gris
+entity.subspaceparasite.sim_pighead.name=Vandrande Huvud
+entity.subspaceparasite.sim_sheep.name=Assimilerat Får
+entity.subspaceparasite.sim_sheephead.name=Vandrande Huvud
+entity.subspaceparasite.sim_wolf.name=Assimilerad Varg
+entity.subspaceparasite.sim_wolfhead.name=Vandrande Huvud
+entity.subspaceparasite.incompleteform_medium.name=Ofärdig Form
+entity.subspaceparasite.incompleteform_small.name=Ofärdig Form
+entity.subspaceparasite.sim_dragone.name=Assimilerad Enderdrake
+
+entity.subspaceparasite.overseer.name=Överseare
+entity.subspaceparasite.bomber_light.name=Lätt Bombare
+entity.subspaceparasite.bomber_heavy.name=Tung Bombare
+entity.subspaceparasite.carrier_heavy.name=Tung Bärare
+entity.subspaceparasite.buglin.name=Krypling
+entity.subspaceparasite.worker.name=Arbetare
+entity.subspaceparasite.carrier_flying.name=Flygande Bärare
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Lockare Steg I
+entity.subspaceparasite.beckon_sii.name=Lockare Steg II
+entity.subspaceparasite.beckon_siii.name=Lockare Steg III
+entity.subspaceparasite.beckon_siv.name=Lockare Steg IV
+entity.subspaceparasite.beckon_sv.name=Lockare Steg V
+entity.subspaceparasite.warden.name=Vakt
+entity.subspaceparasite.marauder.name=Marodör
+entity.subspaceparasite.grunt.name=Grunt
+entity.subspaceparasite.sentry.name=Skjutvakt
+entity.subspaceparasite.kyphosis.name=Puckelrygg
+
+entity.subspaceparasite.anc_dreadnaut.name=Antik Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Antik Överherre
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Förflyttande fläsk
+entity.subspaceparasite.tendril.name=Klänge
+entity.subspaceparasite.anc_pod.name=Podd
+entity.subspaceparasite.biomass.name=Biomassa
+entity.subspaceparasite.gore.name=Blod
+
+entity.subspaceparasite.ada_longarms.name=Anpassad Långarm
+entity.subspaceparasite.ada_summoner.name=Anpassad Kallare
+entity.subspaceparasite.ada_manducater.name=Anpassad Ätare
+entity.subspaceparasite.ada_reeker.name=Anpassad Stinkare
+entity.subspaceparasite.ada_yelloweye.name=Anpassad Gulöga
+entity.subspaceparasite.ada_bolster.name=Anpassad Stödjare
+entity.subspaceparasite.ada_arachnida.name=Anpassad Spindeldjur
+
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasiter
+
+//Items
+
+item.subspaceparasite.itemmobspawner_host.name=Spawna Värd
+item.subspaceparasite.itemmobspawner_heed.name=Spawna Betraktare
+item.subspaceparasite.itemmobspawner_cruxa.name=Spawna Krux
+
+item.subspaceparasite.itemmobspawner_infbear.name=Spawna Assimilerad Björn
+item.subspaceparasite.itemmobspawner_infenderman.name=Spawna Assimilerad Enderman 
+item.subspaceparasite.itemmobspawner_infplayer.name=Spawna Assimilerad Äventyrare
+item.subspaceparasite.itemmobspawner_dorpa.name=Spawna Assimilerad Stor Spindel
+item.subspaceparasite.itemmobspawner_infhuman.name=Spawna Assimilerad Människa
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Spawna Vandrande Huvud (Människa)
+item.subspaceparasite.itemmobspawner_infvillager.name=Spawna Assimilerad Bybo
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Spawna Vandrande Huvud (Bybo)
+item.subspaceparasite.itemmobspawner_infcow.name=Spawna Assimilerad Ko
+item.subspaceparasite.itemmobspawner_infcowhead.name=Spawna Vandrande Huvud (Ko)
+item.subspaceparasite.itemmobspawner_infpig.name=Spawna Assimilerad Gris
+item.subspaceparasite.itemmobspawner_infpighead.name=Spawna Vandrande Huvud (Gris)
+item.subspaceparasite.itemmobspawner_infsheep.name=Spawna AssimileraT Får
+item.subspaceparasite.itemmobspawner_infsheephead.name=Spawna Vandrande Huvud (Får)
+item.subspaceparasite.itemmobspawner_infwolf.name=Spawna Assimilerad Varg
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Spawna Vandrande Huvud (Varg)
+item.subspaceparasite.itemmobspawner_infhorse.name=Spawna Assimilerad Häst
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Spawna Vandrande Huvud (Häst)
+item.subspaceparasite.itemmobspawner_inhoos.name=Spawna Ofärdig Form (Liten)
+item.subspaceparasite.itemmobspawner_inhoom.name=Spawna Ofärdig Form (Mellanstor)
+item.subspaceparasite.itemmobspawner_infdragone.name=Spawna Assimilerad Enderdrake
+
+item.subspaceparasite.itemmobspawner_alafha.name=Spawna Överseare
+item.subspaceparasite.itemmobspawner_omboo.name=Spawna Lätt Bombare
+item.subspaceparasite.itemmobspawner_jinjo.name=Spawna Tung Bombare
+item.subspaceparasite.itemmobspawner_rathol.name=Spawna Tung Bärare
+item.subspaceparasite.itemmobspawner_buthol.name=Spawna Flygande Bärare
+item.subspaceparasite.itemmobspawner_lodo.name=Spawna Krypling
+item.subspaceparasite.itemmobspawner_worker.name=Spawna Arbetare
+item.subspaceparasite.itemmobspawner_mudo.name=Spawna Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Spawna Lockare Steg I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Spawna Lockare Steg II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Spawna Lockare Steg III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Spawna Lockare Steg IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Spawna Lockare Steg V
+item.subspaceparasite.itemmobspawner_ganro.name=Spawna Vakt
+item.subspaceparasite.itemmobspawner_esor.name=Spawna Marodör
+item.subspaceparasite.itemmobspawner_flog.name=Spawna Grunt
+item.subspaceparasite.itemmobspawner_unvo.name=Spawna Skjutvakt 
+item.subspaceparasite.itemmobspawner_tonro.name=Spawna Puckelrygg
+
+item.subspaceparasite.itemmobspawner_oronco.name=Spawna Antik Dreadnaut
+item.subspaceparasite.itemmobspawner_terla.name=Spawna Antik Överherre
+item.subspaceparasite.itemmobspawner_anged.name=Spawna Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Spawna Förflyttande fläsk
+
+item.subspaceparasite.itemmobspawner_shyco.name=Spawna Primitiv Långarm
+item.subspaceparasite.itemmobspawner_hull.name=Spawna Primitiv Ätare
+item.subspaceparasite.itemmobspawner_canra.name=Spawna Primitiv Kallare
+item.subspaceparasite.itemmobspawner_emana.name=Spawna Primitiv Gulöga
+item.subspaceparasite.itemmobspawner_nogla.name=Spawna Primitiv Stinkare
+item.subspaceparasite.itemmobspawner_bano.name=Spawna Primitiv Stödjare
+item.subspaceparasite.itemmobspawner_ranrac.name=Spawna Primitiv Spindeldjur
+item.subspaceparasite.itemmobspawner_lum.name=Spawna Primitiv Slukare
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Spawna Anpassad Långarm
+item.subspaceparasite.itemmobspawner_canraadapted.name=Spawna Anpassad Kallare
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Spawna Anpassad Stinkare
+item.subspaceparasite.itemmobspawner_hulladapted.name=Spawna Anpassad Ätare
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Spawna Anpassad Gulöga
+item.subspaceparasite.itemmobspawner_banoadapted.name=Spawna Anpassad Stödjare
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Spawna Anpassad Spindeldjur
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Smutsig Klocka
+item.subspaceparasite.weapon_scythe.name=Levande Lie
+item.subspaceparasite.weapon_scythe_sentient.name=Kännande Jättelie
+item.subspaceparasite.weapon_bow.name=Levande Bow
+item.subspaceparasite.weapon_bow_sentient.name=Kännande Jättepilbåge
+item.subspaceparasite.weapon_axe.name=Levande Axe
+item.subspaceparasite.weapon_axe_sentient.name=Kännande Jätteyxa
+item.subspaceparasite.weapon_sword.name=Levande Svärd
+item.subspaceparasite.weapon_sword_sentient.name=Kännande Storsvärd
+item.subspaceparasite.weapon_cleaver.name=Levande Klyvare
+item.subspaceparasite.weapon_cleaver_sentient.name=Kännande Jätteklyvare
+
+//////
+item.subspaceparasite.bow_upperlimb.name=Levande Jättepilbåge Övre Båglem
+item.subspaceparasite.bow_lowerlimb.name=Levande Jättepilbåge Nedre Båglem
+item.subspaceparasite.bow_string.name=Levande Jättepilbåge Tråd
+item.subspaceparasite.bow_grip.name=Levande Jättepilbåge Grepp
+item.subspaceparasite.bow_core.name=Levande Jättepilbåge Kärna
+
+item.subspaceparasite.scythe_back.name=Levande Lie Rygg
+item.subspaceparasite.scythe_blade.name=Levande Lie Blad
+item.subspaceparasite.scythe_core.name=Levande Lie Kärna
+item.subspaceparasite.scythe_handle.name=Levande Lie Handtag
+item.subspaceparasite.scythe_head.name=Levande Lie Huvud
+///////
+
+item.subspaceparasite.dried_tendons.name=Torkade Senor
+item.subspaceparasite.hardened_bone_handle.name=Förhårdnad Benhandtag
+item.subspaceparasite.infectious_blade_fragment.name=Infekterande Bladfragment
+item.subspaceparasite.living_core.name=Levande Kärna
+item.subspaceparasite.vile_shell.name=Vidrigt skal
+item.subspaceparasite.bone.name=Konstigt Ben
+
+
+item.subspaceparasite.ada_longarms_drop.name=Långarm Rustningsfragment
+item.subspaceparasite.ada_summoner_drop.name=Kallarkärna
+item.subspaceparasite.ada_yelloweye_drop.name=Gulögsben
+item.subspaceparasite.ada_reeker_drop.name=Stinkares Huggtand
+item.subspaceparasite.ada_manducater_drop.name=Ätares Klot
+item.subspaceparasite.assimilated_flesh.name=Infekterat Fläsk
+
+item.subspaceparasite.lurecomponent1.name=Rupterinälvor
+item.subspaceparasite.lurecomponent2.name=Sjukligt Hjärta
+item.subspaceparasite.lurecomponent3.name=Förändrade Senor
+item.subspaceparasite.lurecomponent4.name=Giftig Lunga
+item.subspaceparasite.lurecomponent5.name=Skadlig Hjärna
+item.subspaceparasite.lurecomponent6.name=Grundläggande Segment
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Parasitiskt Skott
+tile.subspaceparasite.parasitesapling_treethin.name=Parasitiskt Skott
+tile.subspaceparasite.parasitesapling_flowertall.name=Parasitiskt Skott
+
+tile.subspaceparasite.parasitebush_tendril.name=Parasitiskt Nät
+tile.subspaceparasite.parasitebush_pop.name=Parasitiskt Vesiklar
+tile.subspaceparasite.parasitebush_bine.name=Parasitisk Buske
+
+tile.subspaceparasite.subspaceparasiteweb.name=Nät
+tile.subspaceparasite.biomeheart.name=Parasitiskt Landskapskärna
+tile.subspaceparasite.colonyheart.name=Parasitisk Kolonikärna
+tile.subspaceparasite.biomepurifier.name=Landskapsrenare
+tile.subspaceparasite.parasitestructure.name=Parasitisk Koloni Ofärdig Struktur
+tile.subspaceparasite.parasitethin.name=Parasitisk Liten Stock
+tile.subspaceparasite.parasitemouth.name=Parasitisk Mun
+tile.subspaceparasite.parasitetendril.name=Parasitiskt Klänge
+tile.subspaceparasite.parasitefog.name=Dimma
+
+tile.subspaceparasite.gore_sim_small.name=Assimilerad Kvarlevor
+tile.subspaceparasite.gore_sim_big.name=Assimilerad Kvarlevor
+tile.subspaceparasite.gore_sim_flat.name=Assimilerad Kvarlevor
+tile.subspaceparasite.gore_pri_small.name=Primitiv Kvarlevor
+tile.subspaceparasite.gore_pri_big.name=Primitiv Kvarlevor
+tile.subspaceparasite.gore_pri_flat.name=Primitiv Kvarlevor
+tile.subspaceparasite.gore_ada_small.name=Anpassad Kvarlevor
+tile.subspaceparasite.gore_ada_big.name=Anpassad Kvarlevor
+tile.subspaceparasite.gore_ada_flat.name=Anpassad Kvarlevor
+tile.subspaceparasite.gore_pure_small.name=Ren Kvarlevor
+tile.subspaceparasite.gore_pure_big.name=Ren Kvarlevor
+tile.subspaceparasite.gore_pure_flat.name=Ren Kvarlevor
+
+tile.subspaceparasite.infestedstain.name=Infesterad Jord
+tile.subspaceparasite.infestedtrunk.name=Infesterat Trä
+tile.subspaceparasite.infestedrubble.name=Infesterad Sten
+tile.subspaceparasite.infestremain.name=Infesterat Överskott
+
+tile.subspaceparasite.infestedbush_infected.name=Infesterade Vener
+tile.subspaceparasite.infestedbush_grass1.name=Infesterade Vener
+tile.subspaceparasite.infestedbush_flower1.name=Infesterade Vener
+tile.subspaceparasite.infestedbush_spine.name=Infesterade Vener
+tile.subspaceparasite.infestedbush_vine.name=Infesterade Vener
+tile.subspaceparasite.infestedbush_arc.name=Infesterade Vener
+
+tile.subspaceparasite.parasitecanister_sac.name=Parasitisk Säck
+tile.subspaceparasite.parasitecanister_cyst.name=Parasitisk cysta
+tile.subspaceparasite.canisteractive.name=Parasitisk cysta (Aktiv)
+tile.subspaceparasite.parasitecanister_lump.name=Parasitiisk Klump
+tile.subspaceparasite.parasitecanister_bag.name=Parasitisk Behållare
+
+tile.subspaceparasite.parasitetrunk_ball.name=Parasitisk Stock
+tile.subspaceparasite.parasitetrunk_tree.name=Parasitisk Stock
+tile.subspaceparasite.parasitetrunk_plant.name=Parasitisk Stock
+
+tile.subspaceparasite.parasitestain_dirt.name=Parasitisk Jord
+tile.subspaceparasite.parasitestain_mud.name=Parasitisk Lera
+tile.subspaceparasite.parasitestain_flesh.name=Parasitiskt fläsk
+tile.subspaceparasite.parasitestain_fleshstairs.name=Parasitiska Fläsktrappor
+tile.subspaceparasite.parasitestain_feeler.name=Parasitiska Vener
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Parasitisk Platta
+tile.subspaceparasite.parasiterubble_flesh.name=Parasitiskt Koncentrerat Fläsk
+tile.subspaceparasite.parasiterubble_bone.name=Parasitiiskt Koncentrerat Ben
+tile.subspaceparasite.parasiterubble_bonestairs.name=Parasitiiskt Koncentrerat Bentrappor
+tile.subspaceparasite.parasiterubble_stone.name=Parasitisk Sten
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Parasitiskt Komprimerad Sten
+tile.subspaceparasite.parasiterubbledense_biome.name=Parasitiskt landskap Komprimerad Sten
+tile.subspaceparasite.parasiterubbledense_colony.name=Parasitiskt Komprimerad Kolonisten
+
+tile.subspaceparasite.evolutionlure_one.name=Bete (Försvagat)
+tile.subspaceparasite.evolutionlure_two.name=Bete (Svag)
+tile.subspaceparasite.evolutionlure_three.name=Bete (Litet)
+tile.subspaceparasite.evolutionlure_four.name=Bete (Stabilt)
+tile.subspaceparasite.evolutionlure_five.name=Bete (Betydande)
+tile.subspaceparasite.evolutionlure_six.name=Bete (Koncentrerad)
+tile.subspaceparasite.evolutionlure_seven.name=Bete (Koncentrerad+)
+tile.subspaceparasite.evolutionlure_eight.name=Bete (Koncentrerad++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Svärmens Kallelse
+splash_potion.effect.subspaceparasite:coth=Svärmens Kallelse Brygd
+potion.effect.subspaceparasite:coth=Kastbar Svärmens Kallelse Brygd
+lingering_potion.effect.subspaceparasite:coth=Kvardröjande Svärmens Kallelse Brygd
+tipped_arrow.effect.subspaceparasite:coth=Svärmens Kallelse Pil
+
+mob_effect.subspaceparasite:fear=Rädsla
+splash_potion.effect.subspaceparasite:fear=Kastbar Rädslebrygd
+potion.effect.subspaceparasite:fear=Rädslebrygd
+lingering_potion.effect.subspaceparasite:fear=Kvardröjande Rädslebrygd
+tipped_arrow.effect.subspaceparasite:fear=Rädslepil
+
+mob_effect.subspaceparasite:antimall=Oformbar
+splash_potion.effect.subspaceparasite:antimall=Kastbar Oformbarhets Brygd
+potion.effect.subspaceparasite:antimall=Oformbarhets Brygd
+lingering_potion.effect.subspaceparasite:antimall=Kvardröjande Oformbarhets Brygd
+tipped_arrow.effect.subspaceparasite:antimall=Oformbarhetspil
+
+mob_effect.subspaceparasite:bleed=Blödning
+splash_potion.effect.subspaceparasite:bleed=Kastbar Blödningsbrygd
+potion.effect.subspaceparasite:bleed=Blödningsbrygd
+lingering_potion.effect.subspaceparasite:bleed=Kvardröjande Blödningsbrygd
+tipped_arrow.effect.subspaceparasite:bleed=Blödningspil
+
+mob_effect.subspaceparasite:corrosive=Korrosion
+splash_potion.effect.subspaceparasite:corrosive=Kastbar Korrisionsbrygd
+potion.effect.subspaceparasite:corrosive=Korrisionsbrygd
+lingering_potion.effect.subspaceparasite:corrosive=Kvardröjande Korrisionsbrygd
+tipped_arrow.effect.subspaceparasite:corrosive=Korroderande Pil
+
+mob_effect.subspaceparasite:viral=Viral
+splash_potion.effect.subspaceparasite:viral=Kastbar Viral Brygd
+potion.effect.subspaceparasite:viral=Viral Brygd
+lingering_potion.effect.subspaceparasite:viral=Kvardröjande Viral Brygd
+tipped_arrow.effect.subspaceparasite:viral=Viral Pil
+
+mob_effect.subspaceparasite:rage=Ilska
+splash_potion.effect.subspaceparasite:rage=Kastbar Ilskebrygd
+potion.effect.subspaceparasite:rage=Ilskebrygd
+lingering_potion.effect.subspaceparasite:rage=Kvardröjande Ilskebrygd
+tipped_arrow.effect.subspaceparasite:rage=Ilskepil
+
+mob_effect.subspaceparasite:repel=Kamouflage
+splash_potion.effect.subspaceparasite:repel=Kastbar Kamouflagebrygd
+potion.effect.subspaceparasite:repel=Kamouflagebrygd
+lingering_potion.effect.subspaceparasite:repel=Kvardröjande Kamouflagebrygd
+tipped_arrow.effect.subspaceparasite:repel=Kamouflagepil
+
+mob_effect.subspaceparasite:senses=Förbättrat Sinne
+splash_potion.effect.subspaceparasite:senses=Kastbar Sinnesförbättringbrygd
+potion.effect.subspaceparasite:senses=Sinnesförbättringbrygd
+lingering_potion.effect.subspaceparasite:senses=Kvarlevande Sinnesförbättringbrygd
+tipped_arrow.effect.subspaceparasite:senses=Sinnesförbättringpil
+
+//extra
+
+message.subspaceparasite.lure=Poäng har gått ner!
+message.subspaceparasite.fearitem=Du får panik!
+message.subspaceparasite.fearblock=Du får panik!
+message.subspaceparasite.feargui=Du får panik!
+message.subspaceparasite.evolutionsleep=Du kan inte sova just nu...
+
+tootip.subspaceparasite.lurecomp.1=Bitar av Rupturens inälvor, plockade från den lilla parasitens kropp. En del av beten.
+tootip.subspaceparasite.lurecomp.2=Ett vidrigt svullet hjärta från ett assimilerat djurs kropp. En del av beten.
+tootip.subspaceparasite.lurecomp.3=Bitar från utvecklade muskler från en primitiv parasits kropp, det ger ifrån sig en vidrig lukt. En del av beten.
+tootip.subspaceparasite.lurecomp.4=En utvecklad lunga taget från en anpassad parasits kropp, det ger ifrån sig en vidrig lukt. En del av beten.
+tootip.subspaceparasite.lurecomp.5=En utvecklad hjärna taget från en ren parasits kropp, det ger ifrån sig en vidrig lukt. En del av beten.
+tootip.subspaceparasite.lurecomp.6=Ryggradsliknande obejekt taget från säckarna som hänger i det parasitiska landskapet. En del av beten.
+
+tootip.subspaceparasite.item.1=Ett litet klot som ger ifrån sig energi, taget från en kallares kropp. En del av komponenter som används till tillverkning av vapen.
+tootip.subspaceparasite.item.2=Ett starkt ben taget från en gulögas kropp. En del av komponenter som används till tillverkning av vapen.
+tootip.subspaceparasite.item.3=Ett litet klot som ger ifrån sig energi, taget från en ätares kropp. En del av komponenter som används till tillverkning av vapen.
+tootip.subspaceparasite.item.4=En otäckt vass huggtand taget från en stinkares kropp. En del av komponenter som används till tillverkning av vapen.
+tootip.subspaceparasite.item.5=Ett lätt men också resistant rustningsfragment taget från en långarms kropp. En del av komponenter som används till tillverkning av vapen.
+tootip.subspaceparasite.item.6=En bit fläsk taget från en assimilerad varelse. En del av komponenter som används till tillverkning av vapen och några grundläggande saker som också kan användas till föda, i desperata situationer.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=Ett elastiskt och organiskt material, tillverkat från parasiters kroppsdelar. En komponent för tillverkning av vapen.
+tootip.subspaceparasite.item.9=A piece of a blade, produced from Parasites body parts. A Component for Weapons. En bit av ett blad, tillverkat från parasiters kroppsdelar. En komponent för tillverkning av vapen.
+tootip.subspaceparasite.item.10=Livets flamma har inte lyst i detta objekt än. Kärnan som ger kraft till alla vapen.
+tootip.subspaceparasite.item.11=Ett mycket resistant skal, tillverkat från parasiters kroppsdelar. En komponent för tillverkning av vapen.
+tootip.subspaceparasite.item.12=Ett ovanligt tjockt handtag gjort av ben, tillverkat från parasiters kroppsdelar. En komponent för tillverkning av vapen.
+
+tootip.subspaceparasite.item.18=Nedsmutsat av infekterat fläsk, denna klockar räknar nu fram till en mycket läskig midnatt.
+
+tootip.subspaceparasite.weaponm.1=Resultatet från olika parasitkroppsdelar formgivet till ett vapen. Livets flamma lyser innuti.
+tootip.subspaceparasite.weaponm.2=En evolution av den levande lien. Den har nu blivit medvetande.
+tootip.subspaceparasite.weaponm.3=Resultatet från olika parasitkroppsdelar formgivet till ett vapen. Livets flamma lyser innuti.
+tootip.subspaceparasite.weaponm.4=En evolution av den levande yxan. Den har nu blivit medvetande.
+tootip.subspaceparasite.weaponm.5=Resultatet från olika parasitkroppsdelar formgivet till ett vapen. Livets flamma lyser innuti.
+tootip.subspaceparasite.weaponm.6=En evolution av det levande svärdet. Den har nu blivit medvetande.
+tootip.subspaceparasite.weaponm.7=Resultatet från olika parasitkroppsdelar formgivet till ett vapen. Livets flamma lyser innuti. 
+tootip.subspaceparasite.weaponm.8=En evolution av den levande klyvaren. Den har nu blivit medvetande.
+
+tootip.subspaceparasite.weaponm.10=Utplånar en stor yta.
+tootip.subspaceparasite.weaponm.20=Utplånar en stor yta.
+tootip.subspaceparasite.weaponm.30=Gör rustning oanvändbar efter en stund. 
+tootip.subspaceparasite.weaponm.40=Gör rustning oanvändbar efter en stund.
+tootip.subspaceparasite.weaponm.50=Ger livsfarliga skador. 
+tootip.subspaceparasite.weaponm.60=Ger livsfarliga skador.
+tootip.subspaceparasite.weaponm.70=Ger ut viruella slag. 
+tootip.subspaceparasite.weaponm.80=Ger ut viruella slag.
+
+tootip.subspaceparasite.weaponm.100=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.200=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.300=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.400=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.500=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.600=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.700=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponm.800=Du kan inte gömma dig längre...
+
+tootip.subspaceparasite.weaponr.1=Resultatet från olika parasitkroppsdelar formgivet till ett vapen. Livets flamma lyser innuti.
+tootip.subspaceparasite.weaponr.2=En evolution av den levande pilbågen. Den har nu blivit medvetande.
+
+tootip.subspaceparasite.weaponr.10=Fortsätt att hålla i pilarna
+tootip.subspaceparasite.weaponr.20=Fortsätt att hålla i pilarna
+
+tootip.subspaceparasite.weaponr.100=Du kan inte gömma dig längre...
+tootip.subspaceparasite.weaponr.200=Du kan inte gömma dig längre...

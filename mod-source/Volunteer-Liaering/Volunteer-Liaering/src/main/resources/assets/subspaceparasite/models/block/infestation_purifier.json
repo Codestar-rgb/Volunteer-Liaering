@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/biomepurifier_down",
+    "down": "subspaceparasite:block/biomepurifier_down",
+    "up": "subspaceparasite:block/biomepurifier_up",
+    "east": "subspaceparasite:block/biomepurifier_side",
+    "west": "subspaceparasite:block/biomepurifier_side",
+    "north": "subspaceparasite:block/biomepurifier_side",
+    "south": "subspaceparasite:block/biomepurifier_side"
+  }
+}

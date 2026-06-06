@@ -1,0 +1,17 @@
+package com.subspaceparasite.client.renderer.entity;
+
+import com.subspaceparasite.common.entity.monster.rooter.EntityLeemB;
+import com.subspaceparasite.client.model.entity.ModelDeterrentLeemb;
+import software.bernie.geckolib.renderer.GeoEntityRenderer;
+import net.minecraft.client.renderer.entity.EntityRendererProvider;
+
+/**
+ * GeckoLib renderer for deterrent_leemB.
+ * Generated from MinecraftModelMigrator-Pro-GeckoLib resource mapping.
+ */
+public class RenderDeterrentLeemb extends GeoEntityRenderer<EntityLeemB> {
+
+    public RenderDeterrentLeemb(EntityRendererProvider.Context renderManager) {
+        super(renderManager, new ModelDeterrentLeemb());
+    }
+}

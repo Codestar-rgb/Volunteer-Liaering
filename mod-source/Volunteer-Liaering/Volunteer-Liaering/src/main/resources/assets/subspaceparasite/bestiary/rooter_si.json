@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:rooter_si",
+  "tier": "NEXUS",
+  "name_key": "entity.subspaceparasite.rooter_si.name",
+  "lore_key": "lore.subspaceparasite.rooter_si",
+  "render_scale": 0.55,
+  "minlorekill": 3,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

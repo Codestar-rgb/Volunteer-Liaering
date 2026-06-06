@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BB",
+    "DCB",
+    "ED "
+  ],
+  "key": {
+    "B": {
+      "item": "subspaceparasite:infectious_blade_fragment"
+    },
+    "C": {
+      "item": "subspaceparasite:living_core"
+    },
+    "D": {
+      "item": "subspaceparasite:vile_shell"
+    },
+    "E": {
+      "item": "subspaceparasite:hardened_bone_handle"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:weapon_sword",
+    "count": 1
+  }
+}

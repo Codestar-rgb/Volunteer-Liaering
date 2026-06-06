@@ -1,0 +1,2563 @@
+
+##Entities
+
+entity.subspaceparasite.scent.name=Scent
+
+entity.subspaceparasite.abo_bodies.name=Many Bodies
+entity.subspaceparasite.abo_head.name=Giant Head
+
+entity.subspaceparasite.pri_longarms.name=Primitive Longarms
+entity.subspaceparasite.pri_manducater.name=Primitive Manducater
+entity.subspaceparasite.pri_summoner.name=Primitive Summoner
+entity.subspaceparasite.pri_reeker.name=Primitive Reeker
+entity.subspaceparasite.pri_yelloweye.name=Primitive Yelloweye
+entity.subspaceparasite.pri_bolster.name=Primitive Bolster
+entity.subspaceparasite.pri_arachnida.name=Primitive Arachnida
+entity.subspaceparasite.pri_devourer.name=Primitive Devourer
+entity.subspaceparasite.pri_vermin.name=Primitive Vermin
+entity.subspaceparasite.pri_tozoon.name=Primitive Tozoon
+entity.subspaceparasite.pri_burrower.name=Primitive Burrower
+entity.subspaceparasite.pri_viscera.name=Primitive Viscera
+entity.subspaceparasite.nametag.ricardo=ricardo
+
+# Advancements
+
+advancements.subspaceparasite.root.title=Scape and Run: Parasites
+advancements.subspaceparasite.root.description=Internus Incrementum.
+
+advancements.subspaceparasite.kill_root.title=Venari.
+advancements.subspaceparasite.kill_root.description=???
+
+advancements.subspaceparasite.secret_root.title=Cognitio.
+advancements.subspaceparasite.secret_root.description=???
+
+advancements.subspaceparasite.monument_root.title=Monumenta.
+advancements.subspaceparasite.monument_root.description=???
+
+advancements.subspaceparasite.firmamentum_root.title=Firmamentum.
+advancements.subspaceparasite.firmamentum_root.description=???
+
+advancements.subspaceparasite.brew_fear.title=§bEcstasy
+advancements.subspaceparasite.brew_fear.description=Brew a Potion of Fear
+
+advancements.subspaceparasite.guerilla.title=§bGuerilla
+advancements.subspaceparasite.guerilla.description=Kill a player you disturbed with a splash of Fear
+
+advancements.subspaceparasite.kill_inborn.title=Inborn
+advancements.subspaceparasite.kill_inborn.description=Kill every Inborn parasite
+
+advancements.subspaceparasite.kill_assimilated.title=Assimilated
+advancements.subspaceparasite.kill_assimilated.description=Kill every assimilated mob
+
+advancements.subspaceparasite.beheaded.title=L Corp
+advancements.subspaceparasite.beheaded.description=Kill every assimilated head
+
+advancements.subspaceparasite.kill_primitive.title=Primitive
+advancements.subspaceparasite.kill_primitive.description=Kill every primitive parasite
+
+advancements.subspaceparasite.kill_adapted.title=Adapted
+advancements.subspaceparasite.kill_adapted.description=Kill every adapted parasite
+
+advancements.subspaceparasite.kill_deterrent.title=Deterrent
+advancements.subspaceparasite.kill_deterrent.description=Kill every deterrent parasite
+
+advancements.subspaceparasite.kill_pure.title=Pure
+advancements.subspaceparasite.kill_pure.description=Kill every pure parasite
+
+advancements.subspaceparasite.controversial.title=Controversial
+advancements.subspaceparasite.controversial.description=Kill an assimilated enderman
+
+advancements.subspaceparasite.kill_crude.title=Crude
+advancements.subspaceparasite.kill_crude.description=Kill every crude parasite
+
+advancements.subspaceparasite.kill_beckon_s1.title=Gardener
+advancements.subspaceparasite.kill_beckon_s1.description=Kill a Beckon (Stage I)
+
+advancements.subspaceparasite.kill_beckon_s2.title=Pruner
+advancements.subspaceparasite.kill_beckon_s2.description=Kill a Beckon (Stage II)
+
+advancements.subspaceparasite.kill_beckon_s3.title=Uprooter
+advancements.subspaceparasite.kill_beckon_s3.description=Kill a Beckon (Stage III)
+
+advancements.subspaceparasite.kill_beckon_s4.title=Eradicator
+advancements.subspaceparasite.kill_beckon_s4.description=Kill a Beckon (Stage IV)
+
+advancements.subspaceparasite.kill_dispatcher_s1.title=ZAYIN Suppression
+advancements.subspaceparasite.kill_dispatcher_s1.description=Kill a Dispatcher (Stage I)
+
+advancements.subspaceparasite.kill_dispatcher_s2.title=TETH Suppression
+advancements.subspaceparasite.kill_dispatcher_s2.description=Kill a Dispatcher (Stage II)
+
+advancements.subspaceparasite.kill_dispatcher_s3.title=HE Suppression
+advancements.subspaceparasite.kill_dispatcher_s3.description=Kill a Dispatcher (Stage III)
+
+advancements.subspaceparasite.kill_dispatcher_s4.title=ALEPH Suppression
+advancements.subspaceparasite.kill_dispatcher_s4.description=Kill a Dispatcher (Stage IV)
+
+advancements.subspaceparasite.fermented_arrogance.title=Fermented Arrogance
+advancements.subspaceparasite.fermented_arrogance.description=Kill a Feral Enderman
+
+advancements.subspaceparasite.monument.title=I am a monument to all of your sins
+advancements.subspaceparasite.monument.description=Something has reached Stage IV
+
+advancements.subspaceparasite.cut_roots.title=Cut the evil by its roots
+advancements.subspaceparasite.cut_roots.description=Reach 1000 Rupter kills
+
+advancements.subspaceparasite.peacekeeper.title=Peacekeeper
+advancements.subspaceparasite.peacekeeper.description=Obtain a Biome Purifier
+
+advancements.subspaceparasite.enemy_enemy.title=The enemy of my enemy
+advancements.subspaceparasite.enemy_enemy.description=Make a Creeper kill a parasite
+
+advancements.subspaceparasite.ruin_of_fools.title=Ruin of Fools
+advancements.subspaceparasite.ruin_of_fools.description=Kill every primitive parasite
+
+advancements.subspaceparasite.hunt_season.title=Hunt season
+advancements.subspaceparasite.hunt_season.description=Exterminate 50 parasites in one day
+
+advancements.subspaceparasite.qliphoth_overload.title=Qliphoth Overload
+advancements.subspaceparasite.qliphoth_overload.description=Something has reached Stage IV
+
+advancement.subspaceparasite.thornshade_self_destruct.title=Beautiful Self-Destruction
+advancement.subspaceparasite.thornshade_self_destruct.desc=Trigger a Thornshade Thorns detonation on yourself.
+
+advancement.subspaceparasite.sepeku.title=Seppuku
+advancement.subspaceparasite.sepeku.desc=You offered your life.
+
+advancement.subspaceparasite.hellfire_chemical_warfare.title=Hellfire Chemical Warfare
+advancement.subspaceparasite.hellfire_chemical_warfare.desc=Terminate the Draconite and survive its internal furnace.
+
+advancement.subspaceparasite.cosmic_structural_failure.title=Cosmic Structural Failure
+advancement.subspaceparasite.cosmic_structural_failure.desc=Put the Kirin out of its perpetual self-destruction.
+
+advancements.subspaceparasite.columbus.title=Columbus
+advancements.subspaceparasite.columbus.description=Discover half of all celestial events.
+
+advancements.subspaceparasite.stolas.title=STOLAS
+advancements.subspaceparasite.stolas.description=Discover all celestial events.
+
+item.subspaceparasite.shrimp.name=Shrimp
+tooltip.subspaceparasite.shrimp.desc=The greatest delicacy in the multiverse.
+tooltip.subspaceparasite.shrimp.arrow=Sometimes falls from parasites during an Arrow's presence.
+tooltip.subspaceparasite.shrimp.ariral=Can be fed to an assimilated enderman.
+
+# Esca Bulbs
+tile.subspaceparasite.esca_bulb.name=Esca Bulb
+tile.subspaceparasite.esca_bulb_white.name=Esca Bulb (White)
+tile.subspaceparasite.esca_bulb_orange.name=Esca Bulb (Orange)
+tile.subspaceparasite.esca_bulb_magenta.name=Esca Bulb (Magenta)
+tile.subspaceparasite.esca_bulb_light_blue.name=Esca Bulb (Light Blue)
+tile.subspaceparasite.esca_bulb_yellow.name=Esca Bulb (Yellow)
+tile.subspaceparasite.esca_bulb_lime.name=Esca Bulb (Lime)
+tile.subspaceparasite.esca_bulb_pink.name=Esca Bulb (Pink)
+tile.subspaceparasite.esca_bulb_gray.name=Esca Bulb (Gray)
+tile.subspaceparasite.esca_bulb_light_gray.name=Esca Bulb (Light Gray)
+tile.subspaceparasite.esca_bulb_cyan.name=Esca Bulb (Cyan)
+tile.subspaceparasite.esca_bulb_purple.name=Esca Bulb (Purple)
+tile.subspaceparasite.esca_bulb_blue.name=Esca Bulb (Blue)
+tile.subspaceparasite.esca_bulb_brown.name=Esca Bulb (Brown)
+tile.subspaceparasite.esca_bulb_green.name=Esca Bulb (Green)
+tile.subspaceparasite.esca_bulb_red.name=Esca Bulb (Red)
+tile.subspaceparasite.esca_bulb_black.name=Esca Bulb (Black)
+tooltip.esca_bulb=Smells like fish.
+
+tile.subspaceparasite.alveoli.name=Alveoli
+tile.subspaceparasite.sick_alveoli.name=Sick Alveoli
+tile.subspaceparasite.alveoli_growth.name=Alveoli Growth
+tile.subspaceparasite.solid_alveoli_block.name=Solid Alveoli Block
+item.subspaceparasite.alveolar_fluid.name=Alveolar Fluid
+item.subspaceparasite.deadblood_fluid.name=§2Dead Blood Fluid
+
+tile.subspaceparasite.assimilated_reed.name=Assimilated Sugar Cane
+tile.subspaceparasite.infested_leaves.name=Infested Leaves
+tile.subspaceparasite.infested_leaves_fast.name=Infested Leaves (Fast)
+tile.subspaceparasite.infested_planks.name=Infested Planks
+tile.subspaceparasite.infested_stone_bricks.name=Infested Stone Bricks
+tile.subspaceparasite.residue_bricks.name=Residue Bricks
+tile.subspaceparasite.residue_stairs.name=Residue Brick Stairs
+tile.subspaceparasite.residue_wall.name=Residue Wall
+tile.subspaceparasite.residue_block.name=Residue Block
+tile.subspaceparasite.diseased_sponge.name=Diseased Sponge
+tile.subspaceparasite.residue_plants.name=Residue Bloomings
+tile.subspaceparasite.infested_column.name=Infested Column
+tile.subspaceparasite.infested_terracotta.name=Infested Terracotta
+tile.subspaceparasite.infested_stone_polished.name=Polished Infested Stone
+tile.subspaceparasite.inf_ss.name=Infested Sandstone
+tile.subspaceparasite.inf_ss_chiseled.name=Chiseled Infested Sandstone
+tile.subspaceparasite.inf_ss_cut.name=Chiseled Cut Sandstone
+tile.subspaceparasite.ashen_glass.name=Ashen Glass
+tile.subspaceparasite.ashen_glass_pane.name=Ashen Glass Pane
+tile.subspaceparasite.infested_glass_pane.name=Infested Glass Pane
+tile.subspaceparasite.bloody_glass_pane.name=Bloody Glass Pane
+tile.subspaceparasite.harlequinn_glass_pane.name=Harlequinn Glass Pane
+tile.subspaceparasite.shrouded_glass_pane.name=Shrouded Glass Pane
+tile.subspaceparasite.shrouded_glass.name=Shrouded Glass
+tile.subspaceparasite.harlequinn_glass.name=Harlequinn Glass
+tile.subspaceparasite.bloody_glass.name=Bloody Glass
+tile.subspaceparasite.infested_glass.name=Infested Glass
+tile.subspaceparasite.biomass_block.name=Biomass Block
+tile.subspaceparasite.shade_glass_pane.name=Shade Glass Pane
+tile.subspaceparasite.sepia_glass_pane.name=Sepia Glass Pane
+tile.subspaceparasite.moody_glass_pane.name=Moody Glass Pane
+tile.subspaceparasite.shade_glass.name=Shade Glass
+tile.subspaceparasite.sepia_glass.name=Sepia Glass
+tile.subspaceparasite.moody_glass.name=Moody Glass
+
+#Fog Nullifier
+tile.subspaceparasite.fog_nullifier.name=Fog Nullifier
+advancements.subspaceparasite.fog_nullifier.title=Fog Nullifier
+advancements.subspaceparasite.fog_nullifier.description=Obtain a device that dispels parasite fog.
+
+tile.subspaceparasite.assimilated_pumpkin.name=Assimilated Pumpkin
+tile.subspaceparasite.assimilated_jack_o_lantern.name=Assimilated Jack o'Lantern
+tile.subspaceparasite.goth_stem.name=Goth Stem
+tile.subspaceparasite.goth_planks.name=Goth Planks
+item.subspaceparasite.goth_door.name=Goth Door §l|§r §oWIP
+tile.subspaceparasite.brusewood_planks.name=Bruisewood Planks
+item.subspaceparasite.brusewood_door.name=Bruisewood Door §l|§r §oWIP
+tile.subspaceparasite.brusewood_trapdoor.name=Bruisewood Trapdoor §l|§r §oWIP
+tile.subspaceparasite.consumed_planks.name=Consumed Planks
+tile.subspaceparasite.consumed_workbench.name=Consumed Crafting Table
+item.subspaceparasite.consumed_door.name=Consumed Door §l|§r §oWIP
+tile.subspaceparasite.consumed_trapdoor.name=Consumed Trapdoor §l|§r §oWIP
+
+
+entity.subspaceparasite.host.name=Host
+entity.subspaceparasite.hostii.name=Herd
+entity.subspaceparasite.crux.name=Crux
+entity.subspaceparasite.crux_incomplete.name=Incomplete Crux
+entity.subspaceparasite.heed.name=Heed
+entity.subspaceparasite.thrall.name=Thrall
+entity.subspaceparasite.done.name=Dredge
+entity.subspaceparasite.carrier_worm.name=Worm Carrier
+entity.subspaceparasite.airscrew.name=Airscrew
+
+death.attack.subspaceparasite.ricardo=%s was added to the Book of Vengeance
+item.subspaceparasite.book_of_vengeance.name=§d§lThe Book of Vengeance
+item.subspaceparasite.book_of_vengeance.vengeance0=§7------------------
+item.subspaceparasite.book_of_vengeance.vengeance1=§6Domineer, Assemble, Swear Vengeance.
+item.subspaceparasite.book_of_vengeance.vengeance3=§dBleed, Debar, Smoke Trail §8(5s)
+item.subspaceparasite.book_of_vengeance.vengeance5=§dInteract: §7Vengeance slam chain §8(on hit)
+item.subspaceparasite.book_of_vengeance.vengeance6=§dSneak-Use: §7Pulse knockback
+
+death.attack.subspaceparasite_dod_block=%1$s was slammed by a Dispatcher Nidus.
+death.attack.subspaceparasite_dod_block.player=%1$s was slammed by a Dispatcher Nidus while fighting %2$s.
+
+entity.subspaceparasite.sim_bear.name=Assimilated Bear
+entity.subspaceparasite.sim_squid.name=Assimilated Squid
+entity.subspaceparasite.sim_enderman.name=Assimilated Enderman
+entity.subspaceparasite.sim_endermanhead.name=Walking Head
+entity.subspaceparasite.sim_adventurer.name=Assimilated Adventurer
+entity.subspaceparasite.sim_adventurerhead.name=Walking Head
+entity.subspaceparasite.sim_bigspider.name=Assimilated Big Spider
+entity.subspaceparasite.sim_human.name=Assimilated Human
+entity.subspaceparasite.sim_humanhead.name=Walking Head
+entity.subspaceparasite.sim_villager.name=Assimilated Villager
+entity.subspaceparasite.sim_villagerhead.name=Walking Head
+entity.subspaceparasite.sim_cow.name=Assimilated Cow
+entity.subspaceparasite.sim_cowhead.name=Walking Head
+entity.subspaceparasite.sim_horse.name=Assimilated Horse
+entity.subspaceparasite.sim_horsehead.name=Walking Head
+entity.subspaceparasite.sim_pig.name=Assimilated Pig
+entity.subspaceparasite.sim_pighead.name=Walking Head
+entity.subspaceparasite.sim_sheep.name=Assimilated Sheep
+entity.subspaceparasite.sim_sheephead.name=Walking Head
+entity.subspaceparasite.sim_wolf.name=Assimilated Wolf
+entity.subspaceparasite.sim_wolfhead.name=Walking Head
+entity.subspaceparasite.incompleteform_medium.name=Incomplete Form
+entity.subspaceparasite.incompleteform_small.name=Incomplete Form
+entity.subspaceparasite.sim_dragone.name=Assimilated Ender Dragon
+entity.subspaceparasite.sim_dragonehead.name=Walking Head
+
+entity.subspaceparasite.mar_bear.name=Assimara Bear
+entity.subspaceparasite.mar_enderman.name=Assimara Enderman
+entity.subspaceparasite.mar_human.name=Assimara Human
+entity.subspaceparasite.mar_villager.name=Assimara Villager
+entity.subspaceparasite.mar_cow.name=Assimara Cow
+entity.subspaceparasite.mar_sheep.name=Assimara Sheep
+
+entity.subspaceparasite.fer_cow.name=Feral Cow
+entity.subspaceparasite.fer_bear.name=Feral Bear
+entity.subspaceparasite.fer_enderman.name=Feral Enderman
+entity.subspaceparasite.fer_human.name=Feral Human
+entity.subspaceparasite.fer_horse.name=Feral Horse
+entity.subspaceparasite.fer_sheep.name=Feral Sheep
+entity.subspaceparasite.fer_pig.name=Feral Pig
+entity.subspaceparasite.fer_villager.name=Feral Villager
+entity.subspaceparasite.fer_wolf.name=Feral Wolf
+
+entity.subspaceparasite.hi_blaze.name=Hijacked Blaze
+entity.subspaceparasite.hi_golem.name=Hijacked Golem
+entity.subspaceparasite.hi_skeleton.name=Hijacked Skeleton
+
+entity.subspaceparasite.overseer.name=Overseer
+entity.subspaceparasite.bomber_light.name=Light Bomber
+entity.subspaceparasite.carrier_heavy.name=Heavy Carrier
+entity.subspaceparasite.carrier_light.name=Light Carrier
+entity.subspaceparasite.buglin.name=Buglin
+entity.subspaceparasite.mangler.name=Mangler
+entity.subspaceparasite.gnat.name=Gnat
+entity.subspaceparasite.lice.name=Lice
+entity.subspaceparasite.worker.name=Worker
+entity.subspaceparasite.carrier_flying.name=Flying Carrier
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Beckon Stage I
+entity.subspaceparasite.beckon_sii.name=Beckon Stage II
+entity.subspaceparasite.beckon_siii.name=Beckon Stage III
+entity.subspaceparasite.beckon_siv.name=Beckon Stage IV
+entity.subspaceparasite.beckon_sv.name=Beckon Stage V
+entity.subspaceparasite.warden.name=Warden
+entity.subspaceparasite.marauder.name=Marauder
+entity.subspaceparasite.monarch.name=Monarch 
+entity.subspaceparasite.grunt.name=Grunt
+entity.subspaceparasite.sentry.name=Sentry
+entity.subspaceparasite.kyphosis.name=Kyphosis
+entity.subspaceparasite.dispatcherten.name=Dispatcher Tentacle
+entity.subspaceparasite.dispatcher_si.name=Dispatcher Stage I
+entity.subspaceparasite.dispatcher_sii.name=Dispatcher Stage II
+entity.subspaceparasite.dispatcher_siii.name=Dispatcher Stage III
+entity.subspaceparasite.dispatcher_siv.name=Dispatcher Stage IV
+entity.subspaceparasite.rooter_si.name=Rooter Stage I
+entity.subspaceparasite.rooter_sii.name=Rooter Stage II
+entity.subspaceparasite.rooter_siii.name=Rooter Stage III
+entity.subspaceparasite.rooter_siv.name=Rooter Stage IV
+entity.subspaceparasite.rooterball.name=Rootmass Cyst
+entity.subspaceparasite.seizer.name=Seizer
+
+entity.subspaceparasite.bomber_heavy.name=Heavy Bomber
+entity.subspaceparasite.carrier_colony.name=Colony Carrier
+entity.subspaceparasite.wraith.name=Wraith
+entity.subspaceparasite.bogle.name=Bogle
+entity.subspaceparasite.haunter.name=Haunter
+entity.subspaceparasite.succor.name=Succor
+entity.subspaceparasite.seeker.name=Seeker
+entity.subspaceparasite.architect.name=Architect
+entity.subspaceparasite.dredge.name=Dredge
+entity.subspaceparasite.sim_dragonhead.name=Walking Dragon Head
+
+entity.subspaceparasite.draconite.name=§9Draconite
+entity.subspaceparasite.kirin.name=§9Kirin
+
+entity.subspaceparasite.anc_dreadnaut.name=Ancient Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Ancient Overlord
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Moving Flesh
+entity.subspaceparasite.tendril.name=Tendril
+entity.subspaceparasite.anc_pod.name=Pod
+entity.subspaceparasite.biomass.name=Biomass
+entity.subspaceparasite.gore.name=Gore
+
+entity.subspaceparasite.ada_longarms.name=Adapted Longarms
+entity.subspaceparasite.ada_summoner.name=Adapted Summoner
+entity.subspaceparasite.ada_manducater.name=Adapted Manducater
+entity.subspaceparasite.ada_reeker.name=Adapted Reeker
+entity.subspaceparasite.ada_yelloweye.name=Adapted Yelloweye
+entity.subspaceparasite.ada_bolster.name=Adapted Bolster
+entity.subspaceparasite.ada_arachnida.name=Adapted Arachnida
+entity.subspaceparasite.ada_devourer.name=Adapted Devourer
+entity.subspaceparasite.ada_vermin.name=Adapted Vermin
+entity.subspaceparasite.ada_tozoon.name=Adapted Tozoon
+entity.subspaceparasite.ada_burrower.name=Adapted Burrower
+entity.subspaceparasite.ada_viscera.name=Adapted Viscera
+
+entity.subspaceparasite.wave.name=Wave
+entity.subspaceparasite.waveshock.name=Wave
+
+entity.subspaceparasite.worm.name=Worm
+entity.subspaceparasite.anc_dreadnaut_ten.name=Ancient Dreadnaut Tendril
+
+entity.subspaceparasite.remain.name=Remain
+
+entity.subspaceparasite.meteor.name=Hive Satellite
+entity.subspaceparasite.cloudtoxic.name=Toxic gas
+entity.subspaceparasite.orbscary.name=Scorb
+entity.subspaceparasite.orbboom.name=Shockwave
+entity.subspaceparasite.orbvoid.name=Void orb
+entity.subspaceparasite.bomb.name=Parasitic Bomb
+
+# Creative Tab
+
+itemGroup.SPParasites=Scape and Run: Parasites
+
+# Items
+item.subspaceparasite.itemmobspawner_pod.name=Spawn Pod
+
+item.subspaceparasite.itemmobspawner_abobodies.name=Spawn Abomination Many Bodies
+item.subspaceparasite.itemmobspawner_abohead.name=Spawn Abomination Giant Head
+
+item.subspaceparasite.itemmobspawner_host.name=Spawn Host
+item.subspaceparasite.itemmobspawner_hostii.name=Spawn Herd
+item.subspaceparasite.itemmobspawner_heed.name=Spawn Heed
+item.subspaceparasite.itemmobspawner_cruxa.name=Spawn Crux
+item.subspaceparasite.itemmobspawner_mes.name=Spawn Thrall
+item.subspaceparasite.itemmobspawner_done.name=Spawn Dredge 
+item.subspaceparasite.itemmobspawner_quac.name=Spawn Worm Carrier 
+item.subspaceparasite.itemmobspawner_leer.name=Spawn Airscrew 
+item.subspaceparasite.itemmobspawner_cruxb.name=Spawn Incomplete Crux
+
+item.subspaceparasite.itemmobspawner_infbear.name=Spawn Assimilated Bear
+item.subspaceparasite.itemmobspawner_infsquid.name=Spawn Assimilated Squid
+item.subspaceparasite.itemmobspawner_infenderman.name=Spawn Assimilated Enderman 
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Spawn Walking Enderman Head
+item.subspaceparasite.itemmobspawner_infplayer.name=Spawn Assimilated Adventurer
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Spawn Walking Adventurer Head
+item.subspaceparasite.itemmobspawner_dorpa.name=Spawn Assimilated Big Spider
+item.subspaceparasite.itemmobspawner_infhuman.name=Spawn Assimilated Human
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Spawn Walking Human Head
+item.subspaceparasite.itemmobspawner_infvillager.name=Spawn Assimilated Villager
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Spawn Walking Villager Head
+item.subspaceparasite.itemmobspawner_infcow.name=Spawn Assimilated Cow
+item.subspaceparasite.itemmobspawner_infcowhead.name=Spawn Walking Cow Head
+item.subspaceparasite.itemmobspawner_infpig.name=Spawn Assimilated Pig
+item.subspaceparasite.itemmobspawner_infpighead.name=Spawn Walking Pig Head
+item.subspaceparasite.itemmobspawner_infsheep.name=Spawn Assimilated Sheep
+item.subspaceparasite.itemmobspawner_infsheephead.name=Spawn Walking Sheep Head
+item.subspaceparasite.itemmobspawner_infwolf.name=Spawn Assimilated Wolf
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Spawn Walking Wolf Head
+item.subspaceparasite.itemmobspawner_infhorse.name=Spawn Assimilated Horse
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Spawn Walking Horse Head
+item.subspaceparasite.itemmobspawner_inhoos.name=Spawn Small Incomplete Form
+item.subspaceparasite.itemmobspawner_inhoom.name=Spawn Medium Incomplete Form
+item.subspaceparasite.itemmobspawner_infdragone.name=Spawn Assimilated Ender Dragon
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Spawn Walking Ender Dragon Head
+
+item.subspaceparasite.itemmobspawner_marbear.name=Spawn Assimara Bear
+item.subspaceparasite.itemmobspawner_marhuman.name=Spawn Assimara Human
+item.subspaceparasite.itemmobspawner_marcow.name=Spawn Assimara Cow
+item.subspaceparasite.itemmobspawner_marsheep.name=Spawn Assimara Sheep
+item.subspaceparasite.itemmobspawner_marenderman.name=Spawn Assimara Enderman 
+item.subspaceparasite.itemmobspawner_marvillager.name=Spawn Assimara Villager
+
+item.subspaceparasite.itemmobspawner_fercow.name=Spawn Feral Cow
+item.subspaceparasite.itemmobspawner_ferbear.name=Spawn Feral Bear
+item.subspaceparasite.itemmobspawner_ferenderman.name=Spawn Feral Enderman
+item.subspaceparasite.itemmobspawner_ferhuman.name=Spawn Feral Human
+item.subspaceparasite.itemmobspawner_ferhorse.name=Spawn Feral Horse
+item.subspaceparasite.itemmobspawner_ferpig.name=Spawn Feral Pig
+item.subspaceparasite.itemmobspawner_fersheep.name=Spawn Feral Sheep
+item.subspaceparasite.itemmobspawner_fervillager.name=Spawn Feral Villager
+item.subspaceparasite.itemmobspawner_ferwolf.name=Spawn Feral Wolf
+
+item.subspaceparasite.itemmobspawner_hiblaze.name=Spawn Hijacked Blaze
+item.subspaceparasite.itemmobspawner_higolem.name=Spawn Hijacked Golem
+item.subspaceparasite.itemmobspawner_hiskeleton.name=Spawn Hijacked Skeleton
+
+item.subspaceparasite.itemmobspawner_alafha.name=Spawn Overseer
+item.subspaceparasite.itemmobspawner_omboo.name=Spawn Light Bomber
+item.subspaceparasite.itemmobspawner_rathol.name=Spawn Heavy Carrier
+item.subspaceparasite.itemmobspawner_gothol.name=Spawn Light Carrier
+item.subspaceparasite.itemmobspawner_buthol.name=Spawn Flying Carrier
+item.subspaceparasite.itemmobspawner_lodo.name=Spawn Buglin
+item.subspaceparasite.itemmobspawner_nuuh.name=Spawn Mangler
+item.subspaceparasite.itemmobspawner_ata.name=Spawn Gnat
+item.subspaceparasite.itemmobspawner_worker.name=Spawn Worker
+item.subspaceparasite.itemmobspawner_mudo.name=Spawn Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Spawn Beckon Stage I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Spawn Beckon Stage II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Spawn Beckon Stage III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Spawn Beckon Stage IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Spawn Beckon Stage V
+item.subspaceparasite.itemmobspawner_ganro.name=Spawn Warden
+item.subspaceparasite.itemmobspawner_esor.name=Spawn Marauder
+item.subspaceparasite.itemmobspawner_orch.name=Spawn Monarch 
+item.subspaceparasite.itemmobspawner_flog.name=Spawn Grunt
+item.subspaceparasite.itemmobspawner_unvo.name=Spawn Sentry 
+item.subspaceparasite.itemmobspawner_tonro.name=Spawn Kyphosis
+item.subspaceparasite.itemmobspawner_dod.name=Spawn Dispatcher Stage I
+item.subspaceparasite.itemmobspawner_dodsii.name=Spawn Dispatcher Stage II
+item.subspaceparasite.itemmobspawner_dodsiii.name=Spawn Dispatcher Stage III
+item.subspaceparasite.itemmobspawner_dodsiv.name=Spawn Dispatcher Stage IV
+item.subspaceparasite.itemmobspawner_leem.name=Spawn Rooter Stage I
+item.subspaceparasite.itemmobspawner_leemsii.name=Spawn Rooter Stage II
+item.subspaceparasite.itemmobspawner_leemsiii.name=Spawn Rooter Stage III
+item.subspaceparasite.itemmobspawner_leemsiv.name=Spawn Rooter Stage IV
+item.subspaceparasite.itemmobspawner_nak.name=Spawn Seizer
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Spawn Heavy Bomber
+item.subspaceparasite.itemmobspawner_vesta.name=Spawn Colony Carrier
+item.subspaceparasite.itemmobspawner_elvia.name=Spawn Wraith
+item.subspaceparasite.itemmobspawner_lencia.name=Spawn Bogle
+item.subspaceparasite.itemmobspawner_pheon.name=Spawn Haunter
+item.subspaceparasite.itemmobspawner_flam.name=Spawn Succor
+item.subspaceparasite.itemmobspawner_soo.name=Spawn Seeker
+item.subspaceparasite.itemmobspawner_tenn.name=Spawn Architect
+
+item.subspaceparasite.itemmobspawner_heblu.name=Spawn Draconite
+item.subspaceparasite.itemmobspawner_kirin.name=Spawn Kirin
+
+item.subspaceparasite.itemmobspawner_oronco.name=Spawn Ancient Dreadnaut
+item.subspaceparasite.itemmobspawner_terla.name=Spawn Ancient Overlord
+item.subspaceparasite.itemmobspawner_anged.name=Spawn Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Spawn Moving Flesh
+
+item.subspaceparasite.itemmobspawner_shyco.name=Spawn Primitive Longarms
+item.subspaceparasite.itemmobspawner_hull.name=Spawn Primitive Manducater
+item.subspaceparasite.itemmobspawner_canra.name=Spawn Primitive Summoner
+item.subspaceparasite.itemmobspawner_emana.name=Spawn Primitive Yelloweye
+item.subspaceparasite.itemmobspawner_nogla.name=Spawn Primitive Reeker
+item.subspaceparasite.itemmobspawner_bano.name=Spawn Primitive Bolster
+item.subspaceparasite.itemmobspawner_ranrac.name=Spawn Primitive Arachnida
+item.subspaceparasite.itemmobspawner_lum.name=Spawn Primitive Devourer
+item.subspaceparasite.itemmobspawner_iki.name=Spawn Primitive Vermin
+item.subspaceparasite.itemmobspawner_wymo.name=Spawn Primitive Tozoon 
+item.subspaceparasite.itemmobspawner_gim.name=Spawn Primitive Viscera
+item.subspaceparasite.itemmobspawner_zaa.name=Spawn Primitive Burrower
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Spawn Adapted Longarms
+item.subspaceparasite.itemmobspawner_canraadapted.name=Spawn Adapted Summoner
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Spawn Adapted Reeker
+item.subspaceparasite.itemmobspawner_hulladapted.name=Spawn Adapted Manducater
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Spawn Adapted Yelloweye
+item.subspaceparasite.itemmobspawner_banoadapted.name=Spawn Adapted Bolster
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Spawn Adapted Arachnida
+item.subspaceparasite.itemmobspawner_lumadapted.name=Spawn Adapted Devourer
+item.subspaceparasite.itemmobspawner_ikiadapted.name=Spawn Adapted Vermin
+item.subspaceparasite.itemmobspawner_wymoadapted.name=Spawn Adapted Tozoon 
+item.subspaceparasite.itemmobspawner_gimadapted.name=Spawn Adapted Viscera
+item.subspaceparasite.itemmobspawner_zaaadapted.name=Spawn Adapted Burrower
+
+item.subspaceparasite.itemthrow.name=§6Quench
+item.subspaceparasite.itemtab.name=§dNULL
+item.subspaceparasite.itemevolve.name=Evolution Wand
+item.subspaceparasite.itemassimilate.name=Assimilation Wand
+item.subspaceparasite.itemdevolve.name=Devolution Wand
+item.subspaceparasite.itemvariant.name=Variant Wand
+item.subspaceparasite.evclock.name=§cBloody Clock
+item.subspaceparasite.levelclock.name=§bLevel Clock
+item.subspaceparasite.weapon_scythe.name=§eLiving Scythe
+item.subspaceparasite.weapon_scythe_sentient.name=§6Sentient Greatscythe
+item.subspaceparasite.weapon_bow.name=§eLiving Bow
+item.subspaceparasite.weapon_bow_sentient.name=§6Sentient Greatbow
+item.subspaceparasite.weapon_axe.name=§eLiving Axe
+item.subspaceparasite.weapon_axe_sentient.name=§6Sentient Greataxe
+item.subspaceparasite.weapon_sword.name=§eLiving Sword
+item.subspaceparasite.weapon_sword_sentient.name=§6Sentient Greatsword
+item.subspaceparasite.weapon_cleaver.name=§eLiving Cleaver
+item.subspaceparasite.weapon_cleaver_sentient.name=§6Sentient Greatcleaver
+item.subspaceparasite.weapon_maul.name=§eLiving Maul 
+item.subspaceparasite.weapon_maul_sentient.name=§6Sentient Greatmaul
+item.subspaceparasite.weapon_lance.name=§eLiving Lance
+item.subspaceparasite.weapon_lance_sentient.name=§6Sentient Greatlance
+
+item.subspaceparasite.hijacked_iron_sword.name=§cHijacked Iron Sword
+item.subspaceparasite.hijacked_iron_axe.name=§cHijacked Iron Axe
+item.subspaceparasite.hijacked_iron_shovel.name=§cHijacked Iron Shovel
+item.subspaceparasite.hijacked_iron_hoe.name=§cHijacked Iron Hoe
+item.subspaceparasite.hijacked_iron_pickaxe.name=§cHijacked Iron Pickaxe
+
+item.subspaceparasite.hijacked_iron_sword.desc=§cBleeds §ftargets. Rends parasites. Induces §crage §fon target when near death.
+item.subspaceparasite.hijacked_iron_axe.desc=§cBleeds §ftargets. Rends parasites. Induces §crage §fon target when near death.
+item.subspaceparasite.hijacked_iron_shovel.desc=§cBleeds §ftargets. Rends parasites. Induces §crage §fon target when near death.
+item.subspaceparasite.hijacked_iron_hoe.desc=§cBleeds §ftargets. Rends parasites. Induces §crage §fon target when near death.
+item.subspaceparasite.hijacked_iron_pickaxe.desc=§cBleeds §ftargets. Rends parasites. Induces §crage §fon target when near death.
+
+item.subspaceparasite.armor_helm.name=§eLiving Helm
+item.subspaceparasite.armor_chest.name=§eLiving Chest
+item.subspaceparasite.armor_pants.name=§eLiving Pants
+item.subspaceparasite.armor_boots.name=§eLiving Boots
+item.subspaceparasite.armor_helm_sentient.name=§6Sentient Helm
+item.subspaceparasite.armor_chest_sentient.name=§6Sentient Chest
+item.subspaceparasite.armor_pants_sentient.name=§6Sentient Pants
+item.subspaceparasite.armor_boots_sentient.name=§6Sentient Boots
+
+####
+item.subspaceparasite.bow_upperlimb.name=§6Living Greatbow Upper Limb
+item.subspaceparasite.bow_lowerlimb.name=§6Living Greatbow Lower Limb
+item.subspaceparasite.bow_string.name=§6Living Greatbow String
+item.subspaceparasite.bow_grip.name=§6Living Greatbow Grip
+item.subspaceparasite.bow_core.name=§6Living Greatbow core
+
+item.subspaceparasite.scythe_back.name=§6Living Scythe Back
+item.subspaceparasite.scythe_blade.name=§6Living Scythe Blade
+item.subspaceparasite.scythe_core.name=§6Living Scythe Core
+item.subspaceparasite.scythe_handle.name=§6Living Scythe Handle
+item.subspaceparasite.scythe_head.name=§6Living Scythe Head
+####
+
+
+item.subspaceparasite.dried_tendons.name=§eDried Tendons
+item.subspaceparasite.hardened_bone_handle.name=§eHardened Bone Handle
+item.subspaceparasite.infectious_blade_fragment.name=§eInfectious Blade Fragment
+item.subspaceparasite.living_core.name=§eLiving Core
+item.subspaceparasite.vile_shell.name=§eVile Shell
+item.subspaceparasite.bone.name=§eStrange Bone
+
+item.subspaceparasite.ada_longarms_drop.name=§bLongarm Armor Fragment
+item.subspaceparasite.ada_summoner_drop.name=§bSummoner Core
+item.subspaceparasite.ada_yelloweye_drop.name=§bYelloweye Bone
+item.subspaceparasite.ada_reeker_drop.name=§bReeker Fang
+item.subspaceparasite.ada_manducater_drop.name=§bManducater Orb
+item.subspaceparasite.ada_bolster_drop.name=§bBolster Husk
+item.subspaceparasite.ada_arachnida_drop.name=§bArachnida Claw
+item.subspaceparasite.ada_devourer_drop.name=§bDevourer Tentacle
+item.subspaceparasite.ada_vermin_drop.name=§dCorrosive Mucus
+item.subspaceparasite.ada_viscera_drop.name=§dChipped Motherly Membrane
+item.subspaceparasite.hijacked_drop.name=§cHijacked Growth
+item.subspaceparasite.ada_burrower_drop.name=§cFigment
+item.subspaceparasite.hive_scrap.name=§7Hive Scrap
+item.subspaceparasite.bloody_iron_ingot.name=Hijacked Iron Ingot
+item.subspaceparasite.semiorganic_ingot.name=Semi-organic Ingot
+tile.subspaceparasite.semiorganic_block.name=Semi-organic Block
+item.subspaceparasite.bloody_rod.name=Hijacked Blaze Rod
+item.subspaceparasite.bloody_bone.name=Hijacked Bone
+tile.subspaceparasite.assimilated_blossom.name=Assimilated Blossom
+tile.subspaceparasite.potted_assimilated_blossom.name=Potted Assimilated Blossom
+tile.subspaceparasite.potted_consumed_assimilated_blossom.name=Consumed Potted Assimilated Blossom
+tile.subspaceparasite.consumed_pot.name=Consumed Flower Pot
+tile.subspaceparasite.infested_pot.name=Infested Flower Pot
+item.subspaceparasite.infested_bonemeal.name=Infested Bonemeal
+tile.subspaceparasite.infested_cactus.name=Infested Cactus
+tile.subspaceparasite.infested_workbench.name=Infested Crafting Table
+tile.subspaceparasite.trophy_void_orb.name=Kirin Trophy
+tile.subspaceparasite.trophy_boom_orb.name=Draconite Trophy
+
+item.subspaceparasite.assimilated_flesh.name=Infected Flesh
+item.subspaceparasite.beckon_drop.name=§aBeckon Membrane
+item.subspaceparasite.dispatcher_drop.name=§cDispatcher Membrane
+
+item.subspaceparasite.lurecomponent1.name=§bRupter Viscera
+item.subspaceparasite.lurecomponent2.name=§bDiseased Heart
+item.subspaceparasite.lurecomponent3.name=§bAltered Tendons
+item.subspaceparasite.lurecomponent4.name=§bToxic Lung
+item.subspaceparasite.lurecomponent5.name=§bNoxious Brain
+item.subspaceparasite.lurecomponent6.name=§bTwisted Spinal Signal
+item.subspaceparasite.lurecomponent7.name=§bLure Component 7
+item.subspaceparasite.lurecomponent8.name=§bLure Component 8
+item.subspaceparasite.lurecomponent9.name=§bLure Component 9
+item.subspaceparasite.lurecomponent10.name=§bLure Component 10
+
+item.subspaceparasite.greek_fire.name=§6Greek Fire
+item.subspaceparasite.bough.name=§eBough
+tooltip.subspaceparasite.bough.line1=Shines with a radiant, warming yellow hue.
+tooltip.subspaceparasite.bough.line2=Used in Seppuku.
+death.attack.sepeku=%1$s performed Seppuku
+
+item.subspaceparasite.nodecompass.name=§cNode Compass
+item.subspaceparasite.colonycompass.name=§cColony Compass
+item.subspaceparasite.origincompass.name=§cVector Compass
+
+##Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Veinwood Sapling
+tile.subspaceparasite.parasitesapling_treethin.name=Eyesore Sapling
+tile.subspaceparasite.parasitesapling_flowertall.name=Darkwood Sapling
+tile.subspaceparasite.parasitesapling_consumed.name=Consumed Sapling §l|§r §oWIP
+tile.subspaceparasite.parasitesapling_deadhead.name=Deadhead Sapling §l|§r §oWIP
+tile.subspaceparasite.parasitesapling_infested.name=Infested Sapling §l|§r §oWIP
+
+tile.subspaceparasite.parasiteplank_deadhead_wall.name=Deadhead Plank Wall
+tile.subspaceparasite.parasiterubble_weathb_wall.name=Weathered Brick Wall
+tile.subspaceparasite.parasiterubbledense_colony_wall.name=Compressed Colony Stone Wall
+tile.subspaceparasite.parasiterubble_weathfs_wall.name=Frost Weathered Stone Wall
+tile.subspaceparasite.parasiterubbledense_biome_wall.name=Reinforced Hivestone Wall
+tile.subspaceparasite.parasiterubble_weathbc_wall.name=Weathered Cobblestone Wall
+tile.subspaceparasite.parasiterubble_bricks_wall.name=Hivestone Brick Wall
+tile.subspaceparasite.parasitecanister_bag_wall.name=Sac of Flesh Wall
+tile.subspaceparasite.infestedrubble_wall.name=Infested Stone Wall
+tile.subspaceparasite.infestedstain_wall.name=Infested Dirt Wall
+tile.subspaceparasite.parasitestain_flesh_wall.name=Flesh Chunk Wall
+tile.subspaceparasite.parasiterubble_metal_wall.name=Hivesteel Wall
+
+tile.subspaceparasite.infested_plank_wall.name=Infested Plank Wall
+tile.subspaceparasite.bruisewood_plank_wall.name=Bruisewood Plank Wall
+tile.subspaceparasite.polished_infested_stone_wall.name=Polished Infested Stone Wall
+tile.subspaceparasite.infested_stone_brick_wall.name=Infested Stone Brick Wall
+tile.subspaceparasite.goth_plank_wall.name=Goth Plank Wall
+tile.subspaceparasite.infested_sandstone_wall.name=Infested Sandstone Wall
+tile.subspaceparasite.consumed_plank_wall.name=Consumed Plank Wall
+
+tile.subspaceparasite.harlequinn_grass.name=Harlequinn Grass Block
+tile.subspaceparasite.harleskinn_block.name=Harleskinn Block
+tile.subspaceparasite.poland_skin_block.name=Poland Skin Block
+tile.subspaceparasite.hair_follicle_block.name=Bronchial Tube
+tile.subspaceparasite.locs_block.name=Locs Block
+tile.subspaceparasite.hirsute_hair.name=Hirsute Hair
+tile.subspaceparasite.tresses_hair.name=Tresses Hair
+tile.subspaceparasite.lipoma_mass.name=Lipoma Mass
+
+# Parasite Barrier Text
+tile.subspaceparasite.parasite_barrier.name=Parasite Chunk Barrier §l|§r §oCreative-Only
+msg.subspaceparasite.barrier.no_permission=You don't have permission to configure this barrier.
+msg.subspaceparasite.barrier.radius_set=[Barrier] Radius set to %s chunk(s).
+# Parasite Barrier Tooltip lines
+tooltip.subspaceparasite.parasite_barrier.creative_only=CREATIVE ITEM ONLY
+tooltip.subspaceparasite.parasite_barrier.desc1=Forces Parasites outside of chunk barrier.
+tooltip.subspaceparasite.parasite_barrier.desc2=Interact to change Chunk Distance.
+
+tile.subspaceparasite.parasitebush_tendril.name=Capillary Net
+tile.subspaceparasite.parasitebush_pop.name=Parasitic Vesicle
+tile.subspaceparasite.parasitebush_bine.name=Nerve Ringlet
+tile.subspaceparasite.parasitebush_eye.name=Terminal Blinder
+tile.subspaceparasite.parasitebush_tooh.name=Small Incisor 
+tile.subspaceparasite.parasitebush_frostg.name=Frost-burnt Grass
+tile.subspaceparasite.parasitebush_frostgt.name=Frost-burned Grass 
+tile.subspaceparasite.parasitebush_thorn.name=Thornshade
+tile.subspaceparasite.parasitebush_thorndead.name=Dead Thornshade
+tile.subspaceparasite.parasitebush_thorndormat.name=Dormat Thornshade
+tile.subspaceparasite.parasitebush_thorndormats.name=Dormat Thornshade
+tile.subspaceparasite.parasitebush_thorntwo.name=Thornshade
+tile.subspaceparasite.parasitebush_thorntwos.name=Thornshade
+tile.subspaceparasite.parasitebush_decanter.name=Decanter
+tile.subspaceparasite.parasitebush_decanterempty.name=Empty Decanter
+tooltip.subspaceparasite.thornshade_decanter.line1=Redirects a portion of melee damage back to the attacker.
+tooltip.subspaceparasite.thornshade_decanter.line2=Does not affect ranged or magic damage.
+item.subspaceparasite.thornshade_decanter.name=§5Thornshade Decanter
+effect.subspaceparasite.thornshade_thorns=§5Thornshade Thorns
+
+tile.subspaceparasite.infestedore_co.name=Pestilential Coal Ore
+tile.subspaceparasite.infestedore_dia.name=Pestilential Diamond Ore
+tile.subspaceparasite.infestedore_eme.name=Pestilential Emerald Ore
+tile.subspaceparasite.infestedore_gol.name=Pestilential Gold Ore
+tile.subspaceparasite.infestedore_iro.name=Pestilential Iron Ore
+tile.subspaceparasite.infestedore_lap.name=Pestilential Lapis Lazuli Ore
+tile.subspaceparasite.infestedore_red.name=Pestilential Redstone Ore
+tile.subspaceparasite.infestedore_un.name= Pestilential Ore
+
+# Harleskinn building set
+tile.subspaceparasite.harleskinn_stairs.name=Harleskinn Stairs
+tile.subspaceparasite.harleskinn_fence.name=Harleskinn Fence
+tile.subspaceparasite.infested_fence.name=Infested Fence
+tile.subspaceparasite.deadhead_fence.name=Deadhead Fence
+tile.subspaceparasite.goth_fence.name=Goth Fence
+tile.subspaceparasite.consumed_fence.name=Consumed Fence
+tile.subspaceparasite.bruisewood_fence.name=Bruisewood Fence
+tile.subspaceparasite.harleskinn_slab.name=Harleskinn Slab
+# single slabs
+tile.subspaceparasite.infested_cobblestone_slab.name=Infested Cobblestone Slab
+tile.subspaceparasite.infested_plank_slab.name=Infested Plank Slab
+tile.subspaceparasite.infested_stone_slab.name=Infested Stone Slab
+tile.subspaceparasite.infested_dirt_slab.name=Infested Dirt Slab
+tile.subspaceparasite.reinforced_hivestone_slab.name=Reinforced Hivestone Slab
+tile.subspaceparasite.parasitic_colony_core_slab.name=Parasitic Colony Core Slab
+tile.subspaceparasite.sac_of_flesh_slab.name=Sac of Flesh Slab
+tile.subspaceparasite.dead_head_plank_slab.name=Deadhead Plank Slab
+tile.subspaceparasite.weathered_bricks_slab.name=Weathered Bricks Slab
+tile.subspaceparasite.parasitic_compressed_colony_stone_slab.name=Parasitic Compressed Colony Stone Slab
+tile.subspaceparasite.weathered_cobblestone_slab.name=Weathered Cobblestone Slab
+tile.subspaceparasite.frost_weathered_stone_slab.name=Frost Weathered Stone Slab
+tile.subspaceparasite.infested_stone_brick_slab.name=Infested Stone Brick Slab
+tile.subspaceparasite.infested_terracotta_slab.name=Infested Terracotta Slab
+tile.subspaceparasite.polished_infested_stone_slab.name=Polished Infested Stone Slab
+tile.subspaceparasite.residue_brick_slab.name=Residue Brick Slab
+tile.subspaceparasite.infested_sandstone_slab.name=Infested Sandstone Slab
+tile.subspaceparasite.goth_plank_slab.name=Goth Plank Slab
+tile.subspaceparasite.bruisewood_plank_slab.name=Bruisewood Plank Slab
+tile.subspaceparasite.consumed_plank_slab.name=Consumed Plank Slab
+tile.subspaceparasite.harleskinn_block_slab.name=Harleskinn Block Slab
+tile.subspaceparasite.poland_skin_slab.name=Poland Skin Slab
+tile.subspaceparasite.locs_block_slab.name=Locs Block Slab
+
+tile.subspaceparasite.parasitestainslabdouble.name=Parasite Stain Double Slab
+tile.subspaceparasite.infested_cobblestone_slab_double.name=Infested Cobblestone Double Slab
+tile.subspaceparasite.infested_stone_slab_double.name=Infested Stone Double Slab
+tile.subspaceparasite.infested_dirt_slab_double.name=Infested Dirt Double Slab
+tile.subspaceparasite.reinforced_hivestone_slab_double.name=Reinforced Hivestone Double Slab
+tile.subspaceparasite.parasitic_colony_core_slab_double.name=Parasitic Colony Core Double Slab
+tile.subspaceparasite.sac_of_flesh_slab_double.name=Sac of Flesh Double Slab
+tile.subspaceparasite.dead_head_plank_slab_double.name=Deadhead Plank Double Slab
+tile.subspaceparasite.weathered_bricks_slab_double.name=Weathered Bricks Double Slab
+tile.subspaceparasite.parasitic_compressed_colony_stone_slab_double.name=Parasitic Compressed Colony Stone Double Slab
+tile.subspaceparasite.weathered_cobblestone_slab_double.name=Weathered Cobblestone Double Slab
+tile.subspaceparasite.frost_weathered_stone_slab_double.name=Frost Weathered Stone Double Slab
+tile.subspaceparasite.infested_stone_brick_slab_double.name=Infested Stone Brick Double Slab
+tile.subspaceparasite.infested_terracotta_slab_double.name=Infested Terracotta Double Slab
+tile.subspaceparasite.polished_infested_stone_slab_double.name=Polished Infested Stone Double Slab
+tile.subspaceparasite.residue_brick_slab_double.name=Residue Brick Double Slab
+tile.subspaceparasite.infested_sandstone_slab_double.name=Infested Sandstone Double Slab
+tile.subspaceparasite.goth_plank_slab_double.name=Goth Plank Double Slab
+tile.subspaceparasite.bruisewood_plank_slab_double.name=Bruisewood Plank Double Slab
+tile.subspaceparasite.consumed_plank_slab_double.name=Consumed Plank Double Slab
+tile.subspaceparasite.harleskinn_block_slab_double.name=Harleskinn Block Double Slab
+tile.subspaceparasite.poland_skin_slab_double.name=Poland Skin Double Slab
+tile.subspaceparasite.locs_block_slab_double.name=Locs Block Double Slab
+
+tile.subspaceparasite.relaycontroller.name=Relay Controller
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=§8Thin Webbing
+tile.subspaceparasite.subspaceparasiteweb_two.name=§aToxicant Webbing
+tile.subspaceparasite.subspaceparasiteweb_three.name=§8Tarnished Webbing
+tile.subspaceparasite.tunnel.name=Tunnel
+tile.subspaceparasite.dispatchern.name=§cDispatcher Nidus
+tile.subspaceparasite.biomeheart.name=Hive Core
+tile.subspaceparasite.colonyheart.name=Parasitic Colony Core
+tile.subspaceparasite.colonyoutpost.name=Parasitic Colony Outpost
+tile.subspaceparasite.biomepurifier.name=§bBiome Purifier
+tile.subspaceparasite.parasitestructure.name=Incomplete Parasitic Colony Structure
+tile.subspaceparasite.parasitethin.name=Thin Parasitic Log
+tile.subspaceparasite.parasitemouth.name=Maw
+tile.subspaceparasite.parasitetendril.name=Parasitic Tendril
+tile.subspaceparasite.parasitefog.name=Fog
+
+tile.subspaceparasite.parasitestainslabhalf_dirt.name=Hivesoil Slab
+tile.subspaceparasite.parasitestainslabhalf_mud.name=Visceral Mud Slab
+tile.subspaceparasite.parasitestainslabhalf_sflesh.name=Flesh Chunk Slab
+tile.subspaceparasite.parasitestainslabhalf_feeler.name=Compressed Artery Slab
+tile.subspaceparasite.parasitestainslabhalf_spore.name=Mycelium Network Slab
+tile.subspaceparasite.parasitestain_spore.name=Mycelium Network
+tile.subspaceparasite.parasitestainslabhalf_red.name=Contusion Slab
+tile.subspaceparasite.parasitestain_red.name=Contusion Block
+tile.subspaceparasite.parasitestainslabhalf_sackflesh.name=Sacked Flesh Slab
+tile.subspaceparasite.parasitestain_sackflesh.name=Sacked Flesh Block
+
+tile.subspaceparasite.parasiterubbleslabhalf_flesh.name=Concentrated Flesh Slab
+tile.subspaceparasite.parasiterubbleslabhalf_bone.name=Fortified Bone Slab
+tile.subspaceparasite.parasiterubbleslabhalf_stone.name=Hivestone Slab
+tile.subspaceparasite.parasiterubbleslabhalf_stonedebris.name=Hivestone Debris Slab
+tile.subspaceparasite.parasiterubbleslabhalf_wood.name=Consumed Wood Slab
+tile.subspaceparasite.parasiterubbleslabhalf_bricks.name=Hivestone Brick Slab
+tile.subspaceparasite.parasiterubbleslabhalf_metal.name=Hivesteel Slab
+tile.subspaceparasite.parasiterubbleslabhalf_obsidian.name=Bleeding Obsidian Slab
+tile.subspaceparasite.parasiterubbleslabhalf_fungus.name=Assimilated Fungus Slab
+
+tile.subspaceparasite.parasiteloot_common.name=Benign Growth
+tile.subspaceparasite.parasiteloot_uncommon.name=Malignant Growth
+tile.subspaceparasite.parasiteloot_rare.name=Metastatic Mass
+
+tile.subspaceparasite.goresim_small.name=Assimilated Remains (S)
+tile.subspaceparasite.goresim_big.name=Assimilated Remains (L)
+tile.subspaceparasite.goresim_flat.name=Assimilated Remains (M)
+tile.subspaceparasite.gorepri_small.name=Primitive Remains (S)
+tile.subspaceparasite.gorepri_big.name=Primitive Remains (L)
+tile.subspaceparasite.gorepri_flat.name=Primitive Remains (M)
+tile.subspaceparasite.goreada_small.name=Adapted Remains (S)
+tile.subspaceparasite.goreada_big.name=Adapted Remains (L)
+tile.subspaceparasite.goreada_flat.name=Adapted Remains (M)
+tile.subspaceparasite.gorepur_small.name=Pure Remains (S)
+tile.subspaceparasite.gorepur_big.name=Pure Remains (L)
+tile.subspaceparasite.gorepur_flat.name=Pure Remains (M)
+tile.subspaceparasite.gorefer_small.name=Feral Remains (S)
+tile.subspaceparasite.gorefer_big.name=Feral Remains (L)
+tile.subspaceparasite.gorefer_flat.name=Feral Remains (M)
+tile.subspaceparasite.goremar_small.name=Assimara Remains (S)
+tile.subspaceparasite.goremar_big.name=Assimara Remains (L)
+tile.subspaceparasite.goremar_flat.name=Assimara Remains (M)
+
+tile.subspaceparasite.infestedstain.name=Infested Dirt
+tile.subspaceparasite.infestedsand.name=Infested Sand
+tile.subspaceparasite.infestedtrunk.name=Infested Log
+tile.subspaceparasite.infestedrubble.name=Infested Stone
+tile.subspaceparasite.infestremain.name=Infested Residue
+
+tile.subspaceparasite.infestedbush_infected.name=Infested Vein Thorns
+tile.subspaceparasite.infestedbush_grass1.name=Infested Vein Branches
+tile.subspaceparasite.infestedbush_flower1.name=Infested Vein Sprout
+tile.subspaceparasite.infestedbush_spine.name=Infested Veins Bush
+tile.subspaceparasite.infestedbush_vine.name=Infested Vein Coil
+tile.subspaceparasite.infestedbush_arc.name=Infested Vein Roots
+
+tile.subspaceparasite.parasitecanister_sac.name=§aBladder Sac
+tile.subspaceparasite.parasitecanister_cyst.name=Vacuous Cyst
+tile.subspaceparasite.canisteractive.name=Gluttonous Cyst
+tile.subspaceparasite.dermoid_cyst.name=Dermoid Cyst
+container.dermoid_cyst=Dermoid Cyst
+container.subspaceparasite.parasite_loot=Parasitic Growth
+tile.subspaceparasite.parasitecanister_lump.name=Grotesque Lump
+tile.subspaceparasite.parasitecanister_bag.name=Sac of Flesh
+
+tile.subspaceparasite.parasitetrunk_ball.name=Bruisewood Log
+tile.subspaceparasite.parasitetrunk_ballstairs.name=Bruisewood Stairs
+tile.subspaceparasite.parasitetrunk_tree.name=Veinwood Log
+tile.subspaceparasite.parasitetrunk_treestairs.name=Veinwood Stairs
+tile.subspaceparasite.parasitetrunk_plant.name=Darkwood Log
+tile.subspaceparasite.parasitetrunk_plantstairs.name=Darkwood Stairs
+tile.subspaceparasite.parasitetrunk_deadhead.name=Deadhead Log
+tile.subspaceparasite.parasitetrunk_circle.name=Circle Trunk
+tile.subspaceparasite.deadhead_plank_stairs.name=Deadhead Stairs
+tile.subspaceparasite.flesh_stairs.name=Flesh Plank Stairs
+tile.subspaceparasite.cooked_flesh_stairs.name=Cooked Flesh Stairs
+tile.subspaceparasite.flesh_planks.name=Flesh Planks
+tile.subspaceparasite.cooked_flesh_planks.name=Cooked Flesh Planks
+tooltip.subspaceparasite.parasite_loot=§aStrikes harder the emptier it is.
+item.subspaceparasite.pearl.name=Eye of the Beholder
+tooltip.subspaceparasite.pearl.desc=Gleams with a euphoric shimmer only present around its beholder. Item will disappear if wielder is slain by its beholder.
+
+item.subspaceparasite.false_apple.name=False Apple
+tooltip.subspaceparasite.false_apple=§7§o"Is it so wrong that I survived?"
+item.subspaceparasite.fishlin.name=Fishlin
+tooltip.subspaceparasite.fishlin=§7§oFreshly writhing.
+item.subspaceparasite.alveoligrowth.name=Alveoli
+tooltip.subspaceparasite.alveoligrowth=§7§oBreathe easy.
+
+tile.subspaceparasite.bruisewood_plank_stairs.name=Bruisewood Plank Stairs
+tile.subspaceparasite.infested_sandstone_stairs.name=Infested Sandstone Stairs
+tile.subspaceparasite.goth_planks_stairs.name=Goth Planks Stairs
+tile.subspaceparasite.infested_planks_stairs.name=Infested Planks Stairs
+tile.subspaceparasite.frost_weathered_stone_stairs.name=Frost Weathered Stone Stairs
+tile.subspaceparasite.consumed_planks_stairs.name=Consumed Plank Stairs
+tile.subspaceparasite.infested_stone_bricks_stairs.name=Infested Stone Bricks Stairs
+tile.subspaceparasite.infested_polished_stone_bricks_stairs.name=Infested Polished Stone Bricks Stairs
+tile.subspaceparasite.infested_stone_stairs.name=Infested Stone Stairs
+tile.subspaceparasite.wheathered_bricks_stairs.name=Weathered Bricks Stairs
+tile.subspaceparasite.wheathered_cobblestone_stairs.name=Weathered Cobblestone Stairs
+
+
+tile.subspaceparasite.parasiteplank_deadhead.name=Deadhead Plank
+tile.subspaceparasite.parasiteplank_deadheads.name=Deadhead Plank
+
+tile.subspaceparasite.parasitestain_dirt.name=Hivesoil
+tile.subspaceparasite.parasitestain_dirtstairs.name=Hivesoil Stairs
+tile.subspaceparasite.parasitestain_mud.name=Visceral Mud
+tile.subspaceparasite.parasitestain_mudstairs.name=Visceral Mud Stairs
+tile.subspaceparasite.parasitestain_flesh.name=Flesh Chunk
+tile.subspaceparasite.parasitestain_fleshstairs.name=Flesh Chunk Stairs
+tile.subspaceparasite.cooked_flesh_slab.name=Cooked Flesh Plank Slab
+tile.subspaceparasite.flesh_slab.name=Flesh Plank Slab
+tile.subspaceparasite.cooked_flesh.name=Cooked Flesh
+tile.subspaceparasite.cooked_flesh_fence.name=Cooked Flesh Fence
+tile.subspaceparasite.flesh_fence.name=Flesh Fence
+tile.subspaceparasite.parasitestain_feeler.name=Compressed Arteries
+tile.subspaceparasite.parasitestain_feelerstairs.name=Compressed Arteries Stairs
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Fortified Bone Slab
+tile.subspaceparasite.parasiterubble_slabdouble.name=Fortified Bone
+tile.subspaceparasite.parasiterubble_flesh.name=Concentrated Flesh Chunk
+tile.subspaceparasite.parasiterubble_fleshstairs.name=Concentrated Flesh Stairs
+tile.subspaceparasite.parasiterubble_flesh_wall.name=Concentrated Flesh Wall
+tile.subspaceparasite.parasiterubble_bone.name=Fortified Bone
+tile.subspaceparasite.parasiterubble_boneslabhalf.name=Fortified Bone Half Slab
+tile.subspaceparasite.parasiterubble_boneslabdouble.name=Fortified Bone Double Slab
+tile.subspaceparasite.parasiterubble_bonestairs.name=Fortified Bone Stairs
+tile.subspaceparasite.parasiterubble_stone.name=Hivestone
+tile.subspaceparasite.parasiterubble_stonestairs.name=Hivestone Stairs
+tile.subspaceparasite.parasiterubble_stonedebris.name=Hivestone Debris
+tile.subspaceparasite.parasiterubble_stonedebrisstairs.name=Hivestone Debris Stairs
+tile.subspaceparasite.parasiterubble_wood.name=Consumed Wood
+tile.subspaceparasite.parasiterubble_woodstairs.name=Consumed Wood Stairs
+tile.subspaceparasite.parasiterubble_bricks.name=Hivestone Bricks
+tile.subspaceparasite.parasiterubble_bricksstairs.name=Hivestone Bricks Stairs
+tile.subspaceparasite.parasiterubble_metal.name=Hivesteel
+tile.subspaceparasite.parasiterubble_metalstairs.name=Hivesteel Stairs
+tile.subspaceparasite.parasiterubble_obsidian.name=Bleeding Obsidian
+tile.subspaceparasite.parasiterubble_obsidianstairs.name=Bleeding Obsidian Stairs
+tile.subspaceparasite.parasiterubble_fungus.name=Assimilated Fungus
+tile.subspaceparasite.parasiterubble_fungusstairs.name=Assimilated Fungus Stairs
+tile.subspaceparasite.parasiterubble_weathb.name=Weathered Bricks
+tile.subspaceparasite.parasiterubble_weathbs.name=Weathered Bricks
+tile.subspaceparasite.parasiterubble_weathbc.name=Weathered Cobblestone
+tile.subspaceparasite.parasiterubble_weathbcs.name=Weathered Cobblestone
+tile.subspaceparasite.parasiterubble_weathfs.name=Frost Weathered Stone
+tile.subspaceparasite.parasiterubble_weathfss.name=Frost Weathered Stone
+tile.subspaceparasite.infested_cobblestone.name=Infested Cobblestone
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Compressed Hivestone
+tile.subspaceparasite.parasiterubbledense_wallstairs.name=Compressed Hivestone Stairs
+tile.subspaceparasite.parasiterubbledense_biome.name=Reinforced Hivestone
+tile.subspaceparasite.parasiterubbledense_biomestairs.name=Reinforced Hivestone Stairs
+tile.subspaceparasite.parasiterubbledense_colony.name=Parasitic Compressed Colony Stone
+tile.subspaceparasite.parasiterubbledense_colonystairs.name=Parasitic Compressed Colony Stone Stairs
+
+tile.subspaceparasite.evolutionlure_one.name=Lure (§4Weakened§f)
+tile.subspaceparasite.evolutionlure_two.name=Lure (§cFaint§f)
+tile.subspaceparasite.evolutionlure_three.name=Lure (§6Slender§f)
+tile.subspaceparasite.evolutionlure_four.name=Lure (§eStable§f)
+tile.subspaceparasite.evolutionlure_five.name=Lure (§2Substantial§f)
+tile.subspaceparasite.evolutionlure_six.name=Lure (§aConcentrated§f)
+tile.subspaceparasite.evolutionlure_seven.name=Lure (§bConcentrated+§f)
+tile.subspaceparasite.evolutionlure_eight.name=Lure (§dConcentrated++§f)
+tile.subspaceparasite.evolutionlure_nine.name=Lure (§5Overloaded§f)
+tile.subspaceparasite.evolutionlure_ten.name=Lure (§9Anomalous§f)
+
+tile.subspaceparasite.bloodyice.name=Bloody Ice
+tile.subspaceparasite.gothshroom.name=Gothshroom
+
+tile.subspaceparasite.node_redstone_lamp.name=Node Lamp
+
+tile.subspaceparasite.infested_furnace.name=Infested Furnace
+tile.subspaceparasite.infested_furnace_lit.name=Infested Furnace
+tile.subspaceparasite.infuser_furnace.name=Metallurgical Infuser Furnace
+container.infuser_furnace=Metallurgical Infuser Furnace
+
+
+tile.subspaceparasite.relay_base.name=Relay Terminal §l|§r §oBottom
+tile.subspaceparasite.relay_middle.name=Relay Structure §l|§r §oMiddle
+tile.subspaceparasite.relay_roof.name=Relay Antennas §l|§r §oTop
+
+
+tile.node_lamp_off.name=Node Lamp
+tile.node_lamp_on.name=Node Lamp (On)
+
+# Compendium Block Page
+
+bestiary.blocks.home=Home
+bestiary.blocks.title=Blocks
+bestiary.blocks.subtitle=Physical Database
+bestiary.blocks.empty=No Notable Specimens Found
+bestiary.block.subspaceparasite.harleskinn_block.desc=A dense parasitic mineral grown from corrupted terrain.
+bestiary.block.subspaceparasite.locs_block.desc=A calcified mass of tissue used as a structural anchor.
+bestiary.block.subspaceparasite.fog_nullifier.desc=Destroys connected Fog Blocks. Breaks after the third use. Cannot be picked up.
+bestiary.block.subspaceparasite.dispatchern.desc=§cIt hurts.
+bestiary.block.subspaceparasite.assimilated_reed.desc=The rods are full of a jelly-like substance.
+bestiary.block.subspaceparasite.infested_furnace.desc=Used to Smelt Parasite-specific Blocks and Items.
+bestiary.block.subspaceparasite.biomass_block.desc=Hurts anything that touches it. It constantly seeps green vapors and dripping biomass. Parasites aren't harmed by it.
+bestiary.block.subspaceparasite.residue_block.desc=Used in building recipes. Residue Bloomings naturally grow on this block.
+bestiary.block.subspaceparasite.sick_alveoli.desc=A weakened, infected form of the Alveoli Block. It poisons any creature that touches it and will remain diseased until brought close to a Bronchial Tube.
+bestiary.block.subspaceparasite.alveoli.desc=A primary source of airborne nutrients for underground mega-organs. Using a bottle on it gathers Alveolar Fluid, an important ingredient in biological brewing. It becomes sick if left too far from a Bronchial Tube.
+bestiary.block.subspaceparasite.hair_follicle_block.desc=Transports airborne nutrients for underground mega-organs.
+bestiary.block.subspaceparasite.parasite_barrier.desc=Pushes all SPParasites entities outwards. Can be cycled through a 1 - 10 chunk radius.
+bestiary.block.subspaceparasite.assimilated_pumpkin.desc=Can be worn. Applies COTH.
+bestiary.block.subspaceparasite.esca_bulb.desc=Smells and Feels like Rotting fish. Packed with Bioluminescence.
+bestiary.block.subspaceparasite.node_redstone_lamp.desc=A fragile glass node wired into Dispatchers within a 250-block range. It lights up and outputs a comparator signal based on how close one is, and right-clicking it shows the nearest Dispatcher's tier and distance. Strength = Dispatcher Level §l|§r §oDistance = Dispatcher Distance ( 1 being the closest. 5 being the farthest. )
+bestiary.block.subspaceparasite.parasiteloot_common.desc=Found in colony mega-structures. Hurts the player when taking items. Damage is increased when the container is more empty (refer to progress bar).
+bestiary.block.subspaceparasite.infestation_purifier.desc=A creative-only block that removes beckon infestations when using a diamond. It is required that there be no nearby beckons.
+bestiary.block.subspaceparasite.parasitemouth.desc=A fleshy parasite mouth embedded in the ground. Anything that steps directly on it gets bitten, taking armor-piercing damage and gaining corrosive and viral infections. Parasites and players in Creative mode are unaffected.
+bestiary.block.subspaceparasite.relay_base.desc=Used in the Relay tower construction. Placed on the bottom.
+bestiary.block.subspaceparasite.relay_middle.desc=Used in the Relay tower construction. Placed in the middle.
+bestiary.block.subspaceparasite.relay_roof.desc=Used in the Relay tower construction. Placed on the top.
+bestiary.block.subspaceparasite.biomepurifier.desc=Purifies the beckon Infestation if left alone and there are no Beckons nearby. Interacting with Purifier removes parasite biomes LOGICALLY once node has been cleared.
+bestiary.block.subspaceparasite.infested_remain.desc=Can be removed using fire. Used in crafting and harvesting of Residue Bloomings.
+bestiary.block.subspaceparasite.diseased_sponge.desc=Can be brewed with water bottles or Awkward Potions to create §2Dead Blood Fluid§7.
+
+
+message.subspaceparasite.node_lamp.strength=Signal Strength: %s
+message.subspaceparasite.node_lamp.distance=Signal Distance: %s
+
+#Array text
+# Relay scan
+chat.subspaceparasite.relay.not_formed=[Relay] Structure not formed.
+chat.subspaceparasite.relay.insert_module=[Relay] Insert a module to scan.
+chat.subspaceparasite.relay.no_profile=[Relay] No scan profile for module: %s
+chat.subspaceparasite.relay.scan_header=§b[Relay] Scan - %s
+chat.subspaceparasite.relay.tier_line=  §7%s: §f%s
+chat.subspaceparasite.relay.total_parasites=  §7Parasites (profile): §f%s
+chat.subspaceparasite.relay.total_other=  §7Other mobs: §f%s
+chat.subspaceparasite.relay.percent=  §7Parasites %% of mobs: §f%s
+chat.subspaceparasite.relay.ratio=  §7Parasite:Non-parasite = §f%s
+block.subspaceparasite.relay_controller.no_space=§cNot enough space for Relay.§r
+item.subspaceparasite.tissue_spike.name=Module Tissue Spike
+item.subspaceparasite.module_base.name=Module Genic Receptacle
+item.subspaceparasite.organ_synth.name=Module Organ Synth
+gui.subspaceparasite.scanner.cooldown=Scan cooldown: %ss
+
+
+chat.subspaceparasite.relay.scan_started=§aScan initiated...§r
+chat.subspaceparasite.relay.scan_busy=§cRelay is already scanning.§r
+chat.subspaceparasite.relay.scan_text=Scan
+
+
+item.subspaceparasite.relay_report.name=§fRelay Scan Report §7(%s)§r
+item.subspaceparasite.relay_report.lore.global_loaded=§7Scope: §eLoaded areas (dimension-wide)§r
+item.subspaceparasite.relay_report.lore.tier=§7- §f%s§7: §e%d§r
+item.subspaceparasite.relay_report.lore.total_parasites=§7Total parasites: §c%d§r
+item.subspaceparasite.relay_report.lore.total_other=§7Total others: §a%d§r
+item.subspaceparasite.relay_report.lore.percent=§7Parasite percent: §e%s§r
+item.subspaceparasite.relay_report.lore.ratio=§7Parasite ratio: §e%s§r
+
+
+# Tier display names (by ID)
+tier.subspaceparasite.inborn=Inborn
+tier.subspaceparasite.assimilated=Assimilated
+tier.subspaceparasite.hijacked=Hijacked
+tier.subspaceparasite.feral=Feral
+tier.subspaceparasite.crude=Crude
+tier.subspaceparasite.primitive=Primitive
+tier.subspaceparasite.adapted=Adapted
+tier.subspaceparasite.nexus=Nexus
+tier.subspaceparasite.deterrent=Deterrent
+tier.subspaceparasite.pure=Pure
+tier.subspaceparasite.preeminent=Preeminent
+tier.subspaceparasite.ancient=Ancient
+tier.subspaceparasite.assimara=Assimara
+tier.subspaceparasite.derived=Derived
+
+item.subspaceparasite.scan_report.name=Relay Scan Report
+item.subspaceparasite.scan_report.header=Relay scan results:
+item.subspaceparasite.scan_report.tiers=Tiers:
+item.subspaceparasite.scan_report.tier_line=- %s: %s
+
+item.subspaceparasite.scan_report.dimension=Dimension: %s
+item.subspaceparasite.scan_report.total_mobs=Total mobs: %s
+item.subspaceparasite.scan_report.total_parasites=Parasites: %s
+item.subspaceparasite.scan_report.percent=Parasite share: %s
+item.subspaceparasite.scan_report.ratio=Parasite ratio: %s
+
+# Module profile names (printed in the header)
+profile.subspaceparasite.inborn=Inborn
+profile.subspaceparasite.assimilated=Assimilated
+profile.subspaceparasite.hijacked=Hijacked
+profile.subspaceparasite.feral=Feral
+profile.subspaceparasite.crude=Crude
+profile.subspaceparasite.primitive=Primitive
+profile.subspaceparasite.adapted=Adapted
+profile.subspaceparasite.nexus=Nexus
+profile.subspaceparasite.deterrent=Deterrent
+profile.subspaceparasite.pure=Pure
+profile.subspaceparasite.preeminent=Preeminent
+profile.subspaceparasite.ancient=Ancient
+profile.subspaceparasite.desmoid=Desmoid
+profile.subspaceparasite.eschar=Eschar
+profile.subspaceparasite.resistance=Resistance
+profile.subspaceparasite.ideal=Ideal
+profile.subspaceparasite.origin=Origin
+
+
+# Display names
+tile.relaycontroller.name=§6Relay Controller
+tile.relay_base.name=§7Relay Terminal
+tile.relay_middle.name=§7Relay Structure
+tile.relay_roof.name=§7Relay Antenna
+
+# Tooltips used by ItemBlockWithTooltip
+tooltip.relaycontroller=§7Controls the §6Relay Multiblock. §7Breaking it dismantles the whole structure. Model by Peter
+tooltip.relay_base=§7Bottom piece of §6Relay Multiblock. §7Forms the relay when stacked with middle and top.
+tooltip.relay_middle=§7Middle piece of §6Relay Multiblock. §7Connects base to the antenna.
+tooltip.relay_roof=§7Top piece of §6Relay Multiblock. §7Antenna head of the relay used for capturing Dispatcher frequencies.
+
+# Module Names
+item.subspaceparasite.module_inborn.name=Inborn Module
+item.subspaceparasite.module_assimilated.name=Assimilated + Assimara Module
+item.subspaceparasite.module_hijacked.name=Hijacked Module
+item.subspaceparasite.module_feral.name=Feral Module
+item.subspaceparasite.module_crude.name=Crude Module
+item.subspaceparasite.module_primitive.name=Primitive Module
+item.subspaceparasite.module_adapted.name=Adapted Module
+item.subspaceparasite.module_nexus.name=Nexus Module
+item.subspaceparasite.module_deterrent.name=Deterrent Module
+item.subspaceparasite.module_pure.name=Pure Module
+item.subspaceparasite.module_preeminent.name=Preeminent Module
+item.subspaceparasite.module_ancient.name=Ancient Module
+
+item.subspaceparasite.module_desmoid.name=Desmoid Module
+item.subspaceparasite.module_eschar.name=Eschar Module
+item.subspaceparasite.module_resistance.name=Resistance Module
+item.subspaceparasite.module_ideal.name=Ideal Module
+item.subspaceparasite.module_origin.name=Origin Module
+item.subspaceparasite.module_vectors.name=Vector Module
+item.subspaceparasite.module_assimara.name=Assimara Module
+item.subspaceparasite.module_derived.name=Derived Module
+item.subspaceparasite.module_phase.name=Phase Module
+item.subspaceparasite.module_dislodgement.name=Dislodgement Module
+
+tile.subspaceparasite.thornshade.name=Thornshade
+item.subspaceparasite.thornshade_berry.name=§5Thornshade Berry
+
+##Fluids
+
+fluid.deadblood=Dead Blood
+
+##Effects
+
+effect.subspaceparasite.dod_smoke_trail=Concussive Smoke Trail
+mob_effect.subspaceparasite:dod_smoke_trail=Concussive Smoke Trail
+
+mob_effect.subspaceparasite:thornshade_thorns=§5Thornshades
+splash_potion.effect.subspaceparasite:thornshade_thorns=Splash Potion of §5Thornshade
+potion.effect.subspaceparasite:thornshade_thorns=Potion of §5Thornshade
+lingering_potion.effect.subspaceparasite:thornshade_thorns=Lingering potion of §5Thornshade
+tipped_arrow.effect.subspaceparasite:thornshade_thorns=Tipped Arrow of §5Thornshade
+
+mob_effect.subspaceparasite:coth=§4Call of the Hive
+splash_potion.effect.subspaceparasite:coth=Splash Potion of §4Call of the Hive
+potion.effect.subspaceparasite:coth=Potion of §4Call of the Hive
+lingering_potion.effect.subspaceparasite:coth=Lingering Potion of §4Call of the Hive
+tipped_arrow.effect.subspaceparasite:coth=Arrow of §4Call of the Hive
+
+mob_effect.subspaceparasite:fear=§8Fear
+splash_potion.effect.subspaceparasite:fear=Splash Potion of §8Fear
+potion.effect.subspaceparasite:fear=Potion of §8Fear
+lingering_potion.effect.subspaceparasite:fear=Lingering Potion of §8Fear
+tipped_arrow.effect.subspaceparasite:fear=Arrow of §8Fear
+
+mob_effect.subspaceparasite:vomit=§7Vomit
+splash_potion.effect.subspaceparasite:vomit=Splash Potion of §7Vomit
+potion.effect.subspaceparasite:vomit=Potion of §7Vomit
+lingering_potion.effect.subspaceparasite:vomit=Lingering Potion of §7Vomit
+tipped_arrow.effect.subspaceparasite:vomit=Arrow of §7Vomit
+
+mob_effect.subspaceparasite:jugg=§7Jugg
+splash_potion.effect.subspaceparasite:jugg=Splash Potion of §7Jugg
+potion.effect.subspaceparasite:jugg=Potion of §7Jugg
+lingering_potion.effect.subspaceparasite:jugg=Lingering Potion of §7Jugg
+tipped_arrow.effect.subspaceparasite:jugg=Arrow of §7Jugg
+
+mob_effect.subspaceparasite:conta=§7Conta
+splash_potion.effect.subspaceparasite:conta=Splash Potion of §7Conta
+potion.effect.subspaceparasite:conta=Potion of §7Conta
+lingering_potion.effect.subspaceparasite:conta=Lingering Potion of §7Conta
+tipped_arrow.effect.subspaceparasite:conta=Arrow of §7Conta
+
+mob_effect.subspaceparasite:antimall=§7Immalleable
+splash_potion.effect.subspaceparasite:antimall=Splash Potion of §7Immalleable
+potion.effect.subspaceparasite:antimall=Potion of §7Immalleable
+lingering_potion.effect.subspaceparasite:antimall=Lingering Potion of §7Immalleable
+tipped_arrow.effect.subspaceparasite:antimall=Arrow of §7Immalleable
+
+splash_potion.effect.subspaceparasite:the_sign=Splash Potion of §bThe Sign
+potion.effect.subspaceparasite:the_sign=Potion of §bThe Sign
+lingering_potion.effect.subspaceparasite:the_sign=Lingering Potion of §bThe Sign
+item.subspaceparasite.the_sign_charm.name=§dThe Sign
+tooltip.subspaceparasite.the_sign_charm.red=CREATIVE-ONLY ITEM
+tooltip.subspaceparasite.the_sign_charm.white=One who seeks to be born must first destroy a world.
+tooltip.subspaceparasite.the_sign_charm.gray=Parasites ignore the Player while in inventory. Derived Distortion Phenomenon is negated.
+mob_effect.subspaceparasite:the_sign=The Sign
+effect.subspaceparasite.the_sign=The Sign
+tipped_arrow.effect.subspaceparasite:the_sign=Tipped Arrow of §bThe Sign
+
+
+mob_effect.subspaceparasite:bleed=§4Bleeding
+splash_potion.effect.subspaceparasite:bleed=Splash Potion of §4Bleeding
+potion.effect.subspaceparasite:bleed=Potion of §4Bleeding
+lingering_potion.effect.subspaceparasite:bleed=Lingering Potion of §4Bleeding
+tipped_arrow.effect.subspaceparasite:bleed=Arrow of §4Bleeding
+
+mob_effect.subspaceparasite:corrosive=§6Corrosion
+splash_potion.effect.subspaceparasite:corrosive=Splash Potion of §6Corrosion
+potion.effect.subspaceparasite:corrosive=Potion of §6Corrosion
+lingering_potion.effect.subspaceparasite:corrosive=Lingering Potion of §6Corrosion
+tipped_arrow.effect.subspaceparasite:corrosive=Arrow of §6Corrosion
+
+mob_effect.subspaceparasite:viral=§aViral
+splash_potion.effect.subspaceparasite:viral=Splash Potion of §aViral
+potion.effect.subspaceparasite:viral=Potion of §aViral
+lingering_potion.effect.subspaceparasite:viral=Lingering Potion of §aViral
+tipped_arrow.effect.subspaceparasite:viral=Arrow of §aViral
+
+mob_effect.subspaceparasite:rage=§cRage
+splash_potion.effect.subspaceparasite:rage=Splash Potion of §cRage
+potion.effect.subspaceparasite:rage=Potion of §cRage
+lingering_potion.effect.subspaceparasite:rage=Lingering Potion of §cRage
+tipped_arrow.effect.subspaceparasite:rage=Arrow of §cRage
+
+mob_effect.subspaceparasite:repel=§2Camouflage
+splash_potion.effect.subspaceparasite:repel=Splash Potion of §2Camouflage
+potion.effect.subspaceparasite:repel=Potion of §2Camouflage
+lingering_potion.effect.subspaceparasite:repel=Lingering Potion of §2Camouflage
+tipped_arrow.effect.subspaceparasite:repel=Arrow of §2Camouflage
+
+mob_effect.subspaceparasite:senses=§3Heightened Senses
+splash_potion.effect.subspaceparasite:senses=Splash Potion of §3Heightened Senses
+potion.effect.subspaceparasite:senses=Potion of §3Heightened Senses
+lingering_potion.effect.subspaceparasite:senses=Lingering Potion of §3Heightened Senses
+tipped_arrow.effect.subspaceparasite:senses=Arrow of §3Heightened Senses
+
+mob_effect.subspaceparasite:debar=§7Debar
+splash_potion.effect.subspaceparasite:debar=Splash Potion of §7Debar
+potion.effect.subspaceparasite:debar=Potion of §7Debar
+lingering_potion.effect.subspaceparasite:debar=Lingering Potion of §7Debar
+tipped_arrow.effect.subspaceparasite:debar=Arrow of §7Debar
+
+mob_effect.subspaceparasite:needler=§6Needler
+splash_potion.effect.subspaceparasite:needler=Splash Potion of §6Needler
+potion.effect.subspaceparasite:needler=Potion of §6Needler
+lingering_potion.effect.subspaceparasite:needler=Lingering Potion of §6Needler
+tipped_arrow.effect.subspaceparasite:needler=Arrow of §6Needler
+
+mob_effect.subspaceparasite:link=§aLink
+splash_potion.effect.subspaceparasite:link=Splash Potion of §aLink
+potion.effect.subspaceparasite:link=Potion of §aLink
+lingering_potion.effect.subspaceparasite:link=Lingering Potion of §aLink
+tipped_arrow.effect.subspaceparasite:link=Arrow of §aLink
+
+mob_effect.subspaceparasite:foster=§eFoster
+splash_potion.effect.subspaceparasite:foster=Splash Potion of §eFoster
+potion.effect.subspaceparasite:foster=Potion of §eFoster
+lingering_potion.effect.subspaceparasite:foster=Lingering Potion of §eFoster
+tipped_arrow.effect.subspaceparasite:foster=Arrow of §eFoster
+
+mob_effect.subspaceparasite:prey=§ePrey
+splash_potion.effect.subspaceparasite:prey=Splash Potion of §ePrey
+potion.effect.subspaceparasite:prey=Potion of §ePrey
+lingering_potion.effect.subspaceparasite:prey=Lingering Potion of §ePrey
+tipped_arrow.effect.subspaceparasite:prey=Arrow of §ePrey
+
+mob_effect.subspaceparasite:pivot=§ePivot
+splash_potion.effect.subspaceparasite:pivot=Splash Potion of §ePivot
+potion.effect.subspaceparasite:pivot=Potion of §ePivot
+lingering_potion.effect.subspaceparasite:pivot=Lingering Potion of §ePivot
+tipped_arrow.effect.subspaceparasite:pivot=Arrow of §ePivot
+
+mob_effect.subspaceparasite:parate=§Pparate
+splash_potion.effect.subspaceparasite:parate=Splash Potion of §eParate
+potion.effect.subspaceparasite:parate=Potion of §eParate
+lingering_potion.effect.subspaceparasite:parate=Lingering Potion of §eParate
+tipped_arrow.effect.subspaceparasite:parate=Arrow of §eParate
+
+mob_effect.subspaceparasite:primitive=§ePrimitive
+splash_potion.effect.subspaceparasite:primitive=Splash Potion of §ePrimitive
+potion.effect.subspaceparasite:primitive=Potion of §ePrimitive
+lingering_potion.effect.subspaceparasite:primitive=Lingering Potion of §ePrimitive
+tipped_arrow.effect.subspaceparasite:primitive=Arrow of §ePrimitive
+
+mob_effect.subspaceparasite:adapted=§eAdapted
+splash_potion.effect.subspaceparasite:adapted=Splash Potion of §eAdapted
+potion.effect.subspaceparasite:adapted=Potion of §eAdapted
+lingering_potion.effect.subspaceparasite:adapted=Lingering Potion of §eAdapted
+tipped_arrow.effect.subspaceparasite:adapted=Arrow of §eAdapted
+
+mob_effect.subspaceparasite:pure=§ePure
+splash_potion.effect.subspaceparasite:pure=Splash Potion of §ePure
+potion.effect.subspaceparasite:pure=Potion of §ePure
+lingering_potion.effect.subspaceparasite:pure=Lingering Potion of §ePure
+tipped_arrow.effect.subspaceparasite:pure=Arrow of §ePure
+
+mob_effect.subspaceparasite:crude=§eCrude
+splash_potion.effect.subspaceparasite:crude=Splash Potion of §eCrude
+potion.effect.subspaceparasite:crude=Potion of §eCrude
+lingering_potion.effect.subspaceparasite:crude=Lingering Potion of §eCrude
+tipped_arrow.effect.subspaceparasite:crude=Arrow of §eCrude
+
+mob_effect.subspaceparasite:feral=§eFeral
+splash_potion.effect.subspaceparasite:feral=Splash Potion of §eFeral
+potion.effect.subspaceparasite:feral=Potion of §eFeral
+lingering_potion.effect.subspaceparasite:feral=Lingering Potion of §eFeral
+tipped_arrow.effect.subspaceparasite:feral=Arrow of §eFeral
+
+mob_effect.subspaceparasite:nexus=§eNexus
+splash_potion.effect.subspaceparasite:nexus=Splash Potion of §eNexus
+potion.effect.subspaceparasite:nexus=Potion of §eNexus
+lingering_potion.effect.subspaceparasite:nexus=Lingering Potion of §eNexus
+tipped_arrow.effect.subspaceparasite:nexus=Arrow of §eNexus
+
+mob_effect.subspaceparasite:muscleout=§eMuscle Out
+splash_potion.effect.subspaceparasite:muscleout=Splash Potion of §eMuscle Out
+potion.effect.subspaceparasite:muscleout=Potion of §eMuscle Out
+lingering_potion.effect.subspaceparasite:muscleout=Lingering Potion of §eMuscle Out
+tipped_arrow.effect.subspaceparasite:muscleout=Arrow of §eMuscle Out
+
+mob_effect.subspaceparasite:effectpos=§ePositive
+splash_potion.effect.subspaceparasite:effectpos=Splash Potion of §ePositive
+potion.effect.subspaceparasite:effectpos=Potion of §ePositive
+lingering_potion.effect.subspaceparasite:effectpos=Lingering Potion of §ePositive
+tipped_arrow.effect.subspaceparasite:effectpos=Arrow of §ePositive
+
+mob_effect.subspaceparasite:effectneg=§eNegative
+splash_potion.effect.subspaceparasite:effectneg=Splash Potion of §eNegative
+potion.effect.subspaceparasite:effectneg=Potion of §eNegative
+lingering_potion.effect.subspaceparasite:effectneg=Lingering Potion of §eNegative
+tipped_arrow.effect.subspaceparasite:effectneg=Arrow of §eNegative
+
+mob_effect.subspaceparasite:spotted=§eSpotted
+splash_potion.effect.subspaceparasite:spotted=Splash Potion of §eSpotted
+potion.effect.subspaceparasite:spotted=Potion of §eSpotted
+lingering_potion.effect.subspaceparasite:spotted=Lingering Potion of §eSpotted
+tipped_arrow.effect.subspaceparasite:spotted=Arrow of §eSpotted
+
+mob_effect.subspaceparasite:braining=§eBraining
+splash_potion.effect.subspaceparasite:braining=Splash Potion of §eBraining
+potion.effect.subspaceparasite:braining=Potion of §eBraining
+lingering_potion.effect.subspaceparasite:braining=Lingering Potion of §eBraining
+tipped_arrow.effect.subspaceparasite:braining=Arrow of §eBraining
+
+mob_effect.subspaceparasite:novision=§eNo vision
+splash_potion.effect.subspaceparasite:novision=Splash Potion of §eNo vision
+potion.effect.subspaceparasite:novision=Potion of §eNo vision
+lingering_potion.effect.subspaceparasite:novision=Lingering Potion of §eNo vision
+tipped_arrow.effect.subspaceparasite:novision=Arrow of §eNo vision
+
+mob_effect.subspaceparasite:indeaf=§eIndeaf
+splash_potion.effect.subspaceparasite:indeaf=Splash Potion of §eIndeaf
+potion.effect.subspaceparasite:indeaf=Potion of §eIndeaf
+lingering_potion.effect.subspaceparasite:indeaf=Lingering Potion of §eIndeaf
+tipped_arrow.effect.subspaceparasite:indeaf=Arrow of §eIndeaf
+
+mob_effect.subspaceparasite:overheating=§eOverheating
+splash_potion.effect.subspaceparasite:overheating=Splash Potion of §eOverheating
+potion.effect.subspaceparasite:overheating=Potion of §eOverheating
+lingering_potion.effect.subspaceparasite:overheating=Lingering Potion of §eOverheating
+tipped_arrow.effect.subspaceparasite:overheating=Arrow of §eOverheating
+
+mob_effect.subspaceparasite:contagion=§eContagion
+splash_potion.effect.subspaceparasite:contagion=Splash Potion of §eContagion
+potion.effect.subspaceparasite:contagion=Potion of §eContagion
+lingering_potion.effect.subspaceparasite:contagion=Lingering Potion of §eContagion
+tipped_arrow.effect.subspaceparasite:contagion=Arrow of §eContagion
+
+##extra
+
+message.subspaceparasite.lureb=Point Cooldown added!
+message.subspaceparasite.lurec=Points reduced!
+message.subspaceparasite.fearitem=You're panicking!
+message.subspaceparasite.fearblock=You're panicking!
+message.subspaceparasite.feargui=You're panicking!
+message.subspaceparasite.evolutionsleep=You cannot sleep now...
+message.subspaceparasite.armortooltips1=Current Adaptation
+
+tootip.subspaceparasite.quench=§fA warm and malleable substance made of saturated magma cream. Its high concentration of blaze powder makes it incredibly §atoxic §fto parasitic matter.
+
+tootip.subspaceparasite.lurecomp.1=§fChunks of the insides of a §7Rupter§f. A §cLure §fComponent.
+tootip.subspaceparasite.lurecomp.2=§fA grossly swollen heart harvested from an §4Assimilated §fCreature body. A §cLure §fComponent.
+tootip.subspaceparasite.lurecomp.3=§f§fChunks of developed muscles harvested from a §cPrimitive §fParasite body, which excretes a horrible smell. A §cLure §fComponent.
+tootip.subspaceparasite.lurecomp.4=§fA well-developed lung harvested from an §6Adapted §fParasite body. A §cLure §fComponent.
+tootip.subspaceparasite.lurecomp.5=§fA well-developed brain harvested from a §ePure §fParasite body. A §cLure §fComponent.
+tootip.subspaceparasite.lurecomp.6=§fA spine-like object harvested from the Sacs hanging in the Biome. A §cLure §fComponent.
+
+tootip.subspaceparasite.item.0=An essential crafting component in both §6relay §fand §6module §fassembly.
+tootip.subspaceparasite.item.1=A small sphere which seems to emit Energy, harvested from a §6Summoner §fbody. A Crafting Ingredient for §6Weapon §fComponents.
+tootip.subspaceparasite.item.2=A sturdy bone harvested from a Yelloweye body. A Crafting Ingredient for §6Weapon §fComponents.
+tootip.subspaceparasite.item.3=A small orb which seems to emit Energy, harvested from a §6Manducater §fbody. A Crafting Ingredient for §6Weapon §fComponents.
+tootip.subspaceparasite.item.4=A terrifyingly sharp fang harvested from a §6Reeker §fbody. A Crafting Ingredient for §6Weapon §fComponents.
+tootip.subspaceparasite.item.5=A light yet resistant armor fragment harvested from a §6Longarms §fbody. A Crafting ingredient for §6Weapon §fComponents.
+tootip.subspaceparasite.item.6=A piece of flesh ripped off an §cAssimilated §fCreature. A basic Crafting Material.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=An elastic material, produced from Parasites body parts. A Component for §6Weapons§f.
+tootip.subspaceparasite.item.9=A piece of a blade, produced from Parasites body parts. A Component for §6Weapons§f.
+tootip.subspaceparasite.item.10=The flame of life has not yet shined in this object. The Core that fuels all §6Weapons§f.
+tootip.subspaceparasite.item.11=An extremely resistant shell, produced from Parasites body parts. A Component for §6Weapons§f.
+tootip.subspaceparasite.item.12=A particularly thick handle, composed of bones, produced from Parasites body parts. A Component for §6Weapons§f.
+tootip.subspaceparasite.item.13=An unusual bone that you don't see every day.
+tootip.subspaceparasite.item.14=§8§oAn iron alloy infused with parasitic hemolymph while in a molten state. The resulting alloy exhibits heightened sensitivity to bioelectric and anomalous signal patterns associated with parasitic entities. Created by combining Iron, Bottled Deadblood, and a fuel source.
+
+tootip.subspaceparasite.item.20=A dry piece of skin harvested from a §7Bolster §fcorpse.
+tootip.subspaceparasite.item.21=Terrifyingly sharp claws harvested from an §7Arachnida §fcorpse.
+tootip.subspaceparasite.item.22=A bony tentacle ripped off a §bDevourer§f.
+tootip.subspaceparasite.item.23=A coating for §aBeckons§f, peeled off their corpse.
+tootip.subspaceparasite.item.24=A coating of §cDispatchers§f, peeled off their corpse.
+
+tootip.subspaceparasite.item.25=Target a Parasite for §cEvolution
+tootip.subspaceparasite.item.28=Target a Creature for §cAssimilation
+tootip.subspaceparasite.item.26=Target a Parasite for §cDevolution
+tootip.subspaceparasite.item.27=Target a Parasite to change §cVariants
+tootip.subspaceparasite.item.29=§fTurns your §5wounds §finto theirs, reflecting §5some melee damage. §fIts blessing only works §5twice §fper life. Totems §5nullify §ffuture effects.
+tootip.subspaceparasite.item.30=An essential brewing component used for §5Thornshade Decanters§f.
+tootip.subspaceparasite.item.31=Creative Item §l|§r §oBurns parasite flora instantly
+
+tootip.subspaceparasite.item.18=While dripping blood, the Clock ticks towards a terrible Midnight. 
+
+tootip.subspaceparasite.weaponm.1=§fResult of various Parasites body parts reshaped to form a Weapon. The flame of life shines inside it.
+tootip.subspaceparasite.weaponm.2=§fThe ulterior Evolution of the Living Scythe. It has gained a §bMind§f.
+tootip.subspaceparasite.weaponm.3=§fResult of various Parasites body parts reshaped to form a Weapon. The flame of life shines inside it.
+tootip.subspaceparasite.weaponm.4=§fThe ulterior Evolution of the Living Axe. It has gained a §bMind§f.
+tootip.subspaceparasite.weaponm.5=§fResult of various Parasites body parts reshaped to form a Weapon. The flame of life shines inside it.
+tootip.subspaceparasite.weaponm.6=§fThe ulterior Evolution of the Living Sword. It has gained a §bMind§f.
+tootip.subspaceparasite.weaponm.7=§fResult of various Parasites body parts reshaped to form a Weapon. The flame of life shines inside it.
+tootip.subspaceparasite.weaponm.8=§fThe ulterior Evolution of the Living Cleaver. It has gained a §bMind§f.
+tootip.subspaceparasite.weaponm.9=§fResult of various Parasites body parts reshaped to form a Weapon. The flame of life shines inside it.
+
+tootip.subspaceparasite.weaponm.10=§cWipes out§f a large area.
+tootip.subspaceparasite.weaponm.20=§cDecimates§f a large area.
+tootip.subspaceparasite.weaponm.30=§fRenders armour §cuseless §fover time.
+tootip.subspaceparasite.weaponm.40=§fRenders armour §cuseless §fover time.
+tootip.subspaceparasite.weaponm.50=§fInflicts §clife-threatening§f injuries.
+tootip.subspaceparasite.weaponm.60=§fInflicts §clife-threatening§f injuries.
+tootip.subspaceparasite.weaponm.70=§fLashes out §avirulent §fstrikes.
+tootip.subspaceparasite.weaponm.80=§fLashes out §avirulent §fstrikes.
+tootip.subspaceparasite.weaponm.90=§cKill one§f kill many.
+
+tootip.subspaceparasite.weaponm.11=
+tootip.subspaceparasite.weaponm.110=
+tootip.subspaceparasite.weaponm.12=
+
+tootip.subspaceparasite.weaponm.1200=? ? ?
+tootip.subspaceparasite.weaponm.1000=? ? ?
+
+tootip.subspaceparasite.weaponm.100=? ? ?
+tootip.subspaceparasite.weaponm.200=? ? ?
+tootip.subspaceparasite.weaponm.300=? ? ?
+tootip.subspaceparasite.weaponm.400=? ? ?
+tootip.subspaceparasite.weaponm.500=? ? ?
+tootip.subspaceparasite.weaponm.600=? ? ?
+tootip.subspaceparasite.weaponm.700=? ? ?
+tootip.subspaceparasite.weaponm.800=? ? ?
+
+tootip.subspaceparasite.weaponr.1=§fResult of various Parasites body parts reshaped to form a §6Weapon§f. The flame of life shines inside it.
+tootip.subspaceparasite.weaponr.2=§fThe ulterior Evolution of the Living Bow. It has gained a §bMind§f.
+
+tootip.subspaceparasite.weaponr.10=Keep holding those arrows
+tootip.subspaceparasite.weaponr.20=Keep holding those arrows
+
+tootip.subspaceparasite.weaponr.100=? ? ?
+tootip.subspaceparasite.weaponr.200=? ? ?
+
+tooltip.tile.subspaceparasite.evolutionlure=Will pause evolution points for approximately %s seconds
+
+item.subspaceparasite.discone.name=Duality
+item.subspaceparasite.disctwo.name=We'll Meet Again
+item.subspaceparasite.discthree.name=§bSerenity
+
+item.record.discone.desc=Duality
+item.record.disctwo.desc=We'll Meet Again
+item.record.discthree.desc=§bSerenity
+
+### SUBTITLES
+
+subtitles.purifier.use=Purifier purifies
+subtitles.lure.use=Lure lures
+subtitles.carcass.use=Carcass crumbles
+
+subtitles.inhoosdeath=Small form dies
+subtitles.inhoosliving=Small form gurgles
+subtitles.inhooshurt=Small form hurt
+subtitles.inhoomdeath=Medium form dies
+subtitles.inhoomliving=Medium form gurgles
+subtitles.inhoomhurt=Medium form hurt
+subtitles.inhoomstep=Flesh slides
+
+subtitles.carrierdeath=Carrier perishes
+subtitles.carrierliving=Carrier bubbling
+subtitles.carrierhurt=Carrier snarls
+
+subtitles.devourerliving=Primitive Devourer roars
+subtitles.devourerhurt=Primitive Devourer hurt
+subtitles.devourerdeath=Primitive Devourer dying
+
+subtitles.adabolsterdeath=Adapted Bolster dies
+subtitles.adabolsterliving=Adapted Bolster growls
+subtitles.adabolsterhurt=Adapted Bolster snarls
+
+subtitles.monarchdeath=Monarch cries
+subtitles.monarchliving=Monarch calls
+subtitles.monarchhurt=Monarch screeches
+
+subtitles.marauderdeath=Marauder perishes
+subtitles.marauderliving=Marauder gurgles
+subtitles.marauderhurt=Marauder snarls
+
+subtitles.assimadvliving=Assimilated adventurer breaths
+
+subtitles.assimhumanliving=Assimilated human screams
+subtitles.assimhumanhurt=Assimilated human howling
+subtitles.assimhumandeath=Assimilated human dying
+
+subtitles.assimpigliving=Distorted oinks
+subtitles.assimpighurt=Assimilated pig squeals
+subtitles.assimpigdeath=Assimilated pig dies
+
+subtitles.assimhorseliving=Distorted neighs
+subtitles.assimhorsecharge=Assimilated horse charges
+subtitles.assimhorsehurt=Assimilated horse screams
+subtitles.assimhorsedeath=Assimilated horse dies
+
+subtitles.assimspiderliving=Distorted hissing
+subtitles.assimspidersteps=Insect steps
+subtitles.assimspiderdeath=Big spider dies
+
+subtitles.headliving=Head screams
+subtitles.headhurt=Head screeches
+subtitles.headdeath=Head dying
+
+subtitles.verminliving=Vermin craws
+subtitles.verminhurt=Vermin yells
+subtitles.vermindeath=Vermin perishes
+
+subtitles.buglinliving=Buglin hisses
+subtitles.buglinhurt=Buglin squished
+subtitles.buglindeath=Buglin squashed
+
+subtitles.rupterliving=Rupter clicks
+subtitles.rupterhurt=Rupter screeches
+subtitles.rupterdies=Rupter dying
+subtitles.rupterinfect=Rupter releases COTH
+
+subtitles.wardenliving=Warden growls
+subtitles.wardenhurt=Warden snarls
+subtitles.wardendeath=Warden dies
+
+subtitles.adaarachliving=Adapted Arachnida growls
+subtitles.adaarachhurt=Adapted Arachnida snarls
+subtitles.adaarachdeath=Adapted Arachnida hisses
+
+subtitles.assimcowliving=Distorted mooing
+subtitles.assimcowhurt=Assimilated cow grunts
+subtitles.assimcowdeath=Assimilated cow dying
+
+subtitles.assimsheepliving=Distorted bahhs
+subtitles.assimsheephurt=Assimilated sheep bleats
+subtitles.assimsheepdeath=Assimilated sheep dying
+
+subtitles.assimwolfliving=Unusual barking
+subtitles.assimwolfhurt=Distorted yips
+subtitles.assimwolfdeath=Assimilated wolf dying
+
+subtitles.assimbearliving=Distorted gruffs
+subtitles.assimbearhurt=Distorted roars
+subtitles.assimbeardeath=Assimilated bear dying
+
+subtitles.assendermanliving=Otherworldly vwaamps
+subtitles.assendermanhurt=Distorted bwaamps
+subtitles.assendermanteleports=Corrupted waamps
+subtitles.assendermandeath=Assimara Enderman bawls
+
+subtitles.simmermanliving=Otherworldly vwoomps
+subtitles.simmermanhurt=Distorted bwoomps
+subtitles.simmermanteleports=Corrupted woomps
+subtitles.simmermandeath=Assimilated Enderman bawls
+
+subtitles.adasummonerliving=Adapted Summoner screams
+subtitles.adasummonerhurt=Adapted Summoner screeches
+subtitles.adasummonerdeath=Adapted Summoner cries
+subtitles.adasummonersummon=Loud screeching
+
+subtitles.adayelloweyeliving=Adapted Yelloweye growls
+subtitles.adayelloweyehurt=Adapted Yelloweye roars
+subtitles.adayelloweyedeath=Adapted Yelloweye dying
+subtitles.adayelloweyeshoot=Adapted Yelloweye spits
+
+subtitles.adareekerliving=Adapted Reeker growls
+subtitles.adareekerhurt=Adapted Reeker grunts
+subtitles.adareekerdeath=Adapted Reeker dying
+
+subtitles.adamanduliving=Adapted Manducater growls
+subtitles.adamanduhurt=Adapted Manducater screams
+subtitles.adamandudeath=Adapted Manducater roars
+
+subtitles.vigiliving=Vigilante rumbles
+subtitles.vigihurt= Vigilante crackles
+subtitles.vigideath=Vigilante bubbles
+
+subtitles.bogleliving=Gargles
+subtitles.boglehurt=Growls
+subtitles.bogledeath=Something perishes
+
+subtitles.hostliving=Host looms
+subtitles.hosthurt=Host screams
+subtitles.hostdeath=Host dying
+subtitles.hostmerge=Collective groans
+
+subtitles.infectedfleshmelt=Moving flesh merges
+subtitles.fleshgrow=Moving flesh grows
+subtitles.flesheat=Moving flesh eats
+subtitles.fleshprimitive=Moving flesh pops
+subtitles.fleshliving=Moving flesh hisses
+subtitles.fleshdeath=Moving flesh decays
+subtitles.fleshhurt=Moving flesh squishes
+
+subtitles.adamaducamo=Ghastly taunting
+subtitles.adavomit=Parasite vomits
+
+subtitles.litefleshslide=Flesh slides
+
+subtitles.sentryliving=Sentry growls
+subtitles.sentryhurt=Sentry hisses
+subtitles.sentrydeath=Sentry dies
+
+subtitles.beckonliving=Beckon whispers
+subtitles.beckonhurt=Beckon hisses
+subtitles.beckondeath=Beckon cries
+
+subtitles.beckonbell=Bell tolls
+subtitles.mobexplodes=Mob explodes
+subtitles.mobswipe=Mob swipes
+subtitles.moblands=Mob lands on ground
+subtitles.cysteats=Item crunched
+subtitles.adaptationpart=Parasite adapts
+subtitles.adaptationfull=Parasite adapted
+subtitles.biomeheart=§cHeartbeats
+subtitles.vengeance.chain=Chains clacking
+subtitles.vengeance.paper=Pages Flipping
+subtitles.vengeance.impact=Impact
+subtitles.vengeance.whoosh=Whoosh
+subtitles.vengeance.rock=Impact
+subtitles.orb.idle=Orb Buzzing
+subtitles.orb.summon=Orb Whooshing
+subtitles.beckonvortex=Vortex Accumulating
+
+subtitles.block.unlocked=Block Unlocked In Compendium
+subtitles.item.unlocked=Item Unlocked In Compendium
+subtitles.celestial.unlocked=Celestial Event Unlocked In Compendium
+subtitles.entity.unlocked=Entity Unlocked In Compendium
+subtitles.entity.relaypaper=Slip of paper being printed
+subtitles.entity.relayscan=Relay Scanning
+subtitles.shrimp.eat=Shrimp Destroyed
+
+subtitles.adaverminhurt=Adapted Vermin snarl
+subtitles.adaverminidle=Adapted Vermin yelp
+
+subtitles.dredgedeath=Dredge dies
+subtitles.dredgeliving=Dredge rustles
+subtitles.dredgehurt=Dredge snarls
+
+subtitles.cruxdeath=Crux dies
+subtitles.cruxliving=Crux howls
+subtitles.cruxhurt=Crux snarls
+
+subtitles.mangler_dies=Mangler dies
+subtitles.mangler_idle=Mangler ticks
+subtitles.mangler_hurt=Mangler screams
+
+subtitles.lightbomberdeath=Light Bomber dies
+subtitles.lightbomberliving=Light Bomber howls
+subtitles.lightbomberhurt=Light Bomber snarls
+
+subtitles.kyphosisdeath=Kyphosis dies
+subtitles.kyphosisliving=Kyphosis howls
+subtitles.kyphosishurt=Kyphosis hisses
+
+subtitles.rof.spitout=Worm spits
+subtitles.rof.emerge=Worm emerges
+
+### COMPENDIUM
+
+item.subspaceparasite.subspaceparasite_field_guide.name=Compendium
+lore.subspaceparasite.compendium=Compendium
+
+bestiary.tier.assimilated=Assimilated
+bestiary.tier.walking_head=Walking Head
+bestiary.tier.inborn=Inborn
+bestiary.tier.hijacked=Hijacked
+bestiary.tier.feral=Feral
+bestiary.tier.crude=Crude
+bestiary.tier.assimara=Assimara
+bestiary.tier.primitive=Primitive
+bestiary.tier.adapted=Adapted
+bestiary.tier.abomination=Abomination
+bestiary.tier.deterrent=Deterrent
+bestiary.tier.pure=Pure
+bestiary.tier.preeminent=Preeminent
+bestiary.tier.ancient=Ancient
+bestiary.tier.nexus=Nexus
+bestiary.tier.derived=Derived
+
+# Generic / GUI
+bestiary.capability_missing_client=Capability missing (client). Try reopening.
+bestiary.no_mobs_unlocked_in_tier=No mobs unlocked in this tier yet.
+bestiary.tier_label=Tier: %s
+bestiary.select_category=Select a category
+bestiary.parasite_tiers=Parasite Tiers
+bestiary.kills_label=Kills
+bestiary.unlock_by_kill=(Kill a mob in this tier to unlock entries.)
+
+
+bestiary.stats=Health: %s   Damage: %s
+
+
+
+gui.subspaceparasite.escape_button=DeathLoop Prevention |
+gui.subspaceparasite.escape_button_blocks=blocks
+gui.subspaceparasite.escape_tooltip=Are you ok? Try a spot nearby.
+
+# Purifier messages
+message.subspaceparasite.purifier_use_diamond=Please Interact using Diamond
+message.subspaceparasite.purifier_not_over_subspaceparasite=This needs to sit on an SP block.
+message.subspaceparasite.purifier_entities_marked=Marked %s entities with Glowing.
+message.subspaceparasite.purifier_purified=Purified %s blocks.
+tile.subspaceparasite.infestation_purifier.name=Creative Infestation Purifier
+message.subspaceparasite.purifier_started=Purification started.
+
+tooltip.subspaceparasite.hijacked.fullset_bleed=Full Set: Immune to Bleed
+tooltip.subspaceparasite.hijacked.boots_save=Boots: Critical fall save (2m cooldown)
+tooltip.subspaceparasite.hijacked.fire_penalty=Full Set: Takes extra fire damage (x%s)
+tooltip.subspaceparasite.hijacked.boots_cd=Boots save cooldown: %s
+tooltip.subspaceparasite.ready=Ready
+
+item.subspaceparasite.hijacked_iron_boots.name=Hijacked Iron Boots
+item.subspaceparasite.hijacked_iron_leggings.name=Hijacked Iron Leggings
+item.subspaceparasite.hijacked_iron_chestpiece.name=Hijacked Iron Chestplate
+item.subspaceparasite.hijacked_iron_helmet.name=Hijacked Iron Helmet
+
+item.subspaceparasite.venkrol_boots.name=§aVenkrol Anchor Boots
+tooltip.subspaceparasite.item.venkrol_boots.0=Prevents the vortex from dragging you inward.
+
+
+# Bestiary Celestial
+
+bestiary.tab.celestial=Celestial
+
+bestiary.celestial.id=ID
+
+bestiary.celestial.title=Celestial Events
+bestiary.celestial.home=Home
+bestiary.celestial.none=No celestial events recorded.
+bestiary.celestial.select_hint=Select an event to view details.
+bestiary.celestial.missing_desc=(No description recorded.)
+bestiary.celestial.phase=Phase
+bestiary.celestial.chance=Chance
+
+bestiary.celestial.blip.name=Blip
+bestiary.celestial.blip.desc=A brief light in the sky that's existed for as long as you could remember.
+
+bestiary.celestial.pulse.name=Pulse
+bestiary.celestial.pulse.desc=A slow, rhythmic pulse.
+
+bestiary.celestial.eight.name=Eight
+bestiary.celestial.eight.desc=???
+
+bestiary.celestial.arrow.name=Arrow
+bestiary.celestial.arrow.desc=An odd tetrahedron | Parasites may drop shrimp.
+
+bestiary.celestial.twenty_seven.name=Twenty Seven
+bestiary.celestial.twenty_seven.desc=??? §l|§r §oParasites spawn enraged.
+
+bestiary.celestial.three.name=Three
+bestiary.celestial.three.desc=???
+
+bestiary.celestial.eighty_three.name=Eighty Three
+bestiary.celestial.eighty_three.desc=???
+
+bestiary.celestial.four_comet.name=Comet Four
+bestiary.celestial.four_comet.desc=???
+
+bestiary.celestial.jupiter.name=Jupiter
+bestiary.celestial.jupiter.desc=A swollen giant adrift in the dark. Its bands churn like bruises watching without eyes. So massive that its gravity reshapes the paths of everything around it.
+
+bestiary.celestial.mars.name=Mars
+bestiary.celestial.mars.desc=A red ember suspended in the heavens. Was once warm enough for liquid water, leaving scars that still cut across its surface.
+
+bestiary.celestial.mercury.name=Mercury
+bestiary.celestial.mercury.desc=A pale spark skimming the sky. Temperatures swing violently, burning and freezing the same ground in a single day. Its too close.
+
+bestiary.celestial.neptune.name=Neptune
+bestiary.celestial.neptune.desc=A deep-blue puncture in the night. Its winds are the fastest in the solar system, tearing across its surface faster than sound. Neptune has been mutated.
+
+bestiary.celestial.pluto.name=Pluto
+bestiary.celestial.pluto.desc=A small, forgotten bead at the edge of sight. Its orbit is unstable and tilted.
+
+bestiary.celestial.saturn.name=Saturn
+bestiary.celestial.saturn.desc=A crown of rings wrapped around a heavy silhouette. Its rings are fragile and temporary, slowly unraveling.
+
+bestiary.celestial.uranus.name=Uranus
+bestiary.celestial.uranus.desc=A cold, tilted orb that refuses to sit right in the sky. It drags its seasons sideways on its tilted axis.
+
+bestiary.celestial.venus.name=Venus
+bestiary.celestial.venus.desc=A bright cloud-suffocated marble. It has a day longer than its year. There are mice on it.
+
+bestiary.celestial.ongoing=Celestial event is active tonight
+bestiary.celestial.counter=%s / %s
+
+# Bestiary UI
+bestiary.kills=kills
+bestiary.cap_missing_client=Capability missing (client). Try reopening.
+bestiary.more_info_at_n=More info at %s kills (HP/DMG).
+bestiary.lore_unlocks_at_n=Lore at %s kills.
+bestiary.loot_looting=+Looting
+bestiary.drops=Drops
+bestiary.no_drops=No drops
+bestiary.drops_unlock_at_n=Drops unlock at %s kills
+bestiary.loot_unlocks_at_n=Loot unlocks at %s kills
+bestiary.drops.none_fallback=(No drops found in config)
+bestiary.drops_fallback=Drops
+bestiary.loot_unlocks_at_n_fallback=Loot unlocks at %s kills
+bestiary.lore_fallback=Lore
+bestiary.tab.parasites=Parasites
+bestiary.tab.blocks=Blocks
+
+bestiary.nav.home=< Home
+bestiary.nav.tiers=< Tiers
+bestiary.nav.mob_list=< Mob List
+
+# Bestiary Mob Detail Controls
+bestiary.controls.greenscreen.on=Greenscreen: ON
+bestiary.controls.greenscreen.off=Greenscreen: OFF
+
+bestiary.controls.rotation.on=Rotation: ON
+bestiary.controls.rotation.off=Rotation: OFF
+
+bestiary.controls.run.on=Run: ON
+bestiary.controls.run.off=Run: OFF
+bestiary.tooltip.run_inaccurate=Animations might not always be accurate.
+bestiary.parasites.unlock_tier_hint=(Kill a mob in this tier to unlock entries.)
+bestiary.pose.yaw=Yaw
+bestiary.pose.pitch=Pitch
+bestiary.pose.zoom=Zoom
+bestiary.pose.panx=X
+bestiary.pose.pany=Y
+bestiary.pose.apply=Apply
+bestiary.pose.reset=Reset
+bestiary.pose.title=Pose
+
+
+# Bestiary Potions
+
+bestiary.tab.effects=Status Effects
+bestiary.effects.title=Status Effects
+bestiary.effects.home=Home
+bestiary.effects.none=No effects discovered.
+bestiary.effects.select_hint=Select an effect to view details.
+bestiary.effects.id=ID
+bestiary.effects.missing_desc=Missing description.
+
+# Bestiary Potion descriptions
+bestiary.effect.dod_smoke_trail.desc=A constant trail of thick smoke follows the afflicted entity.
+bestiary.effect.bleed.desc=The host suffers continuous internal bleeding. Damage scales with maximum health and worsens while moving.
+bestiary.effect.conta.desc=The host is biologically contaminated, suffering periodic damage and risking spread to nearby entities.
+bestiary.effect.corrosive.desc=Corrosive substances eat away at the host, dealing periodic damage over time.
+bestiary.effect.foster.desc=The host is marked as suitable for parasitic growth, drawing the attention and protection of nearby parasites.
+bestiary.effect.prey.desc=The host is designated as prey, making them more likely to be hunted and targeted by parasites.
+bestiary.effect.needler.desc=Parasitic growths erupt from the host, launching needle-like projectiles that damage nearby entities.
+bestiary.effect.overheating.desc=The host's body overheats, suffering escalating damage as internal systems begin to fail.
+bestiary.effect.spotted.desc=The host has been marked and is easier for parasites to track and locate.
+bestiary.effect.the_sign.desc=The host bears a mark of significance. Parasites will ignore their presence while the sign persists. The Sign is a bright red symbol possessed by only a select number of people. Among these individuals, the Sign is considered to be a signifier of traits such as great potential, specialness, and competent leadership. The Sign grants immunity to Derived Distortion Phenomenon and parasite aggression.
+bestiary.effect.thornshade_thorns.desc=Barbed growths erupt from the host, damaging those who physically strike them. The host will violently erupt if afflicted with said-affect more than 2 times. Nearby entities afflicted with same affects and will erupt if too close to the host during eruption. Does not break tiles.
+bestiary.effect.coth.desc=An assimilative infection that escalates in stages. It can refresh and intensify, spread to nearby living hosts (unless repelled), and eventually trigger conversion when the host is weakened or progression thresholds are met.
+bestiary.effect.viral.desc=A rapidly mutating infection spreads through the host, dealing periodic damage and risking transmission to nearby living entities. Higher effect levels increase severity and spread potential.
+bestiary.effect.jugg.desc=A dislodgement-bound effect that triggers on death. Depending on active Dislo codes, nearby parasites may be healed, nearby non-parasites may be damaged, and nearby players may suffer exhaustion. Certain deaths also apply a Jugg surge to the killer for a short time, with strength tied to stored dislocation values.
+bestiary.effect.senses.desc=The host's sensory perception is heightened, increasing detection and follow range.
+bestiary.effect.repel.desc=A repellent mark that protects the host from Call of the Hive infection. While active, it can block assimilation-related behaviors such as conversion/transform triggers and helps prevent nearby spread.
+bestiary.effect.rage.desc=The host enters a violent frenzy, increasing movement speed and attack damage. Both bonuses can be multiplied and scale with effect strength (values are configuration-based).
+bestiary.effect.primitive.desc=Damage dealt to primitive parasite variants is reduced while this effect is active.
+bestiary.effect.adapted.desc=Damage dealt to adapted parasite variants is reduced while this effect is active.
+bestiary.effect.pure.desc=Damage dealt to pure parasite variants is reduced while this effect is active.
+bestiary.effect.crude.desc=Damage dealt to crude parasite variants is reduced while this effect is active.
+bestiary.effect.feral.desc=Damage dealt to feral parasite variants is reduced while this effect is active.
+bestiary.effect.nexus.desc=Damage dealt to nexus-linked parasite entities is reduced while this effect is active.
+bestiary.effect.pivot.desc=While active, kills contribute increased evolution/progression points (scaled by a multiplier and effect strength), and certain parasite events may treat pivot-marked entities as a stronger "signal" when evaluating spawns or stages.
+bestiary.effect.parate.desc=A mutative surge that boosts core combat stats. While active, the host's maximum health, armor, and attack damage are increased by a percentage of their base values (scaled by effect strength and configuration multiplier).
+bestiary.effect.novision.desc=The host's vision is smothered by a full-screen impairment and mining fatigue is applied; commonly inflicted while a parasite is latched onto host.
+bestiary.effect.muscleout.desc=Greatly increases the host's outgoing damage. Attacks are multiplied by a configuration-based factor that scales with effect strength (amplifier + 1).
+bestiary.effect.link.desc=Links the host to a colony network. While active, colony-related reactions (such as adaptation/colony triggers) become more likely, scaling with effect strength. Some colony entities can also propagate Link to nearby parasites, synchronizing them as part of the colony.
+bestiary.effect.fear.desc=A crippling panic response that disrupts control. At higher levels it can randomly prevent using items or interacting with blocks, cancelling item use outright (subject to blacklist/whitelist rules). Fear also amplifies fall damage and can increase damage taken while airborne, scaling with effect strength and configuration.
+bestiary.effect.indeaf.desc=Severs movement control. While active, movement inputs (forward/back/jump) are forcibly disabled and horizontal motion is continually cancelled, effectively rooting the host in place.
+bestiary.effect.effectpos.desc=Punishes beneficial effects. The host suffers damage based on the number of active positive potion effects, scaling with effect strength.
+bestiary.effect.effectneg.desc=Intensifies harmful effects. While active, negative potion effects on the host are strengthened, scaling with effect strength.
+bestiary.effect.debar.desc=Suppresses parasite loot. Parasites affected by Debar will not generate their configured drops on death (respecting the doMobLoot gamerule).
+bestiary.effect.braining.desc=Disrupts perception of parasites. While active, parasite entities will not render on the client (they still exist and act normally), updated once per-second.
+bestiary.effect.antimall.desc=Reduces or removes adaptive resistance in malleable parasites.
+
+# Bestiary Systems
+
+bestiary.tab.systems=Systems
+bestiary.systems.title=Systems
+bestiary.systems.home=Home
+bestiary.systems.id=ID
+bestiary.systems.none=No systems found.
+bestiary.systems.missing_desc=Missing description.
+
+bestiary.system.reinforcement.name=Reinforcements
+bestiary.system.reinforcement.desc=When a parasite is killed, it may signal for help. A Beckon can appear nearby and begin summoning allies. Beckons grow through stages, and higher stages bring stronger or more numerous reinforcements, allowing small encounters to escalate rapidly. It is paramount that Beckons are removed before they're able to grow and evolve.
+
+bestiary.system.merge.name=Merge
+bestiary.system.merge.desc=Assimilated creatures can fuse and reform into new entities. Depending on conditions, merged forms may be selected from specific outcomes or generated randomly.
+
+bestiary.system.status_effects.name=Status Effects
+bestiary.system.status_effects.desc=The parasite inflicts unique status effects such as Fear, COTH, Needler, Bleeding, and Camouflage. These effects interfere with combat, movement, and survival, often stacking or intensifying the longer an encounter continues. Be very cautious when these effects are active.
+
+bestiary.system.evolution.name=Evolution
+bestiary.system.evolution.desc=The infection progresses through evolution phases as it gains strength. Each phase unlocks more behaviors and mechanics. Certain actions, such as using Lure Blocks, can reduce evolution and slow the outbreak's growth.
+
+bestiary.system.hives.name=Hives
+bestiary.system.hives.desc=Hives are structures that organize and defend parasite territory.
+
+bestiary.system.collective_consciousness.name=Collective Consciousness
+bestiary.system.collective_consciousness.desc=Parasites can act as a single coordinated organism. With Collective Consciousness active, nearby entities share awareness and respond together.
+
+bestiary.system.eiv.name=Vectors
+bestiary.system.eiv.desc=When Emerging Infestation Vectors are enabled, parasites can only spawn naturally within the area of an active Vector. These zones can grow over time, and parasites cannot naturally spawn outside of them. If that restriction is disabled in config or SP world options, parasites are no longer confined to Vector zones and may spawn naturally throughout the world. Each Vector has health points that increase whenever a parasite kills a mob or assimilates one. When either of those happens, the total health of that mob is added to the Vector’s own health. The radius and health of Vectors can also increase independently each day, or roughly every 24000 ticks. To view a Vector's information, place a Vector Module into an Array and press 'Scan'.
+bestiary.system.scent.name=Scent
+bestiary.system.scent.desc=The parasite reacts to activity through 'scent' buildup. As scent levels rise, waves of enemies become more frequent and more aggressive. Careless combat or lingering in infested areas can draw increasingly dangerous responses.
+subspaceparasite.msg.scent.closest_notified=Closest Scent was notified
+subspaceparasite.msg.scent.deployed_area=A Scent has been deployed in this area
+subspaceparasite.msg.scent.active=Scent is active
+
+bestiary.system.ubiquitous_development.name=Ubiquitous Development
+bestiary.system.ubiquitous_development.desc=As parasites grow further, new systems begin to activate across the world. Higher development levels unlock mechanics such as coordinated behavior, merging, scent waves, structures, and expanded spawning rules.
+
+bestiary.system.dislodgment.name=Dislodgment
+bestiary.system.dislodgment.desc=Certain actions can disturb the infection and provoke retaliation. Dislodgment triggers can activate through interaction, recovery, or parasite activity, escalating responses through multiple tiers of strength. To view the current dislodgment codes and their effects, place a Dislodgment Module in the array and press scan.
+
+bestiary.system.generations.name=Generations
+bestiary.system.generations.desc=Incremental difficulty and tweaks to parasite stats and relating systems. Parasites matures through said-generations over time. Each generation requires sustained growth, and mismatched conditions can slow progress.
+
+bestiary.system.vectors.name=Vectors
+bestiary.system.vectors.desc=Emerging Infestation Vectors are areas where most parasites are allowed to spawn naturally. If vector spawning is enabled, natural parasite spawns are usually limited to the range of an active Vector. Active Vectors can be viewed with the Vector Module. Every 24000 ticks, the first Vector has a 1 in 3 chance to appear. Once at least one Vector exists, additional Vector creation checks have a 1 in 10 chance to succeed.
+
+bestiary.system.colonies.name=Colonies
+bestiary.system.colonies.desc=Colonies are established 'industrial' segments of the infection. They strengthen parasite presence in an area and make infestations harder to remove. Sponges can be used to remove Dead Blood from Colony structures.
+
+bestiary.system.nodes.name=Nodes
+bestiary.system.nodes.desc=Nodes serve as infrastructure for parasite expansion. When active, they support spreading and reinforce nearby growth.
+
+bestiary.system.nests.name=Nests
+bestiary.system.nests.desc=Specialized Relay(Nexus) parasites such as Dispatchers can form nests that accelerate growth and expansion for the hive. These sites rapidly turn surrounding terrain into active and foggy infestation zones. A Fog Nullifier can be used to remove said-fog.
+
+bestiary.system.variants.name=Variants
+bestiary.system.variants.desc=Parasites have a chance to spawn from an array of variants that are not limited to inflicting viral, bleeding, or doing more damage to blocks.
+
+bestiary.system.derived_distortion.name=Derived Distortion Phenomenon
+bestiary.system.derived_distortion.desc=Derived parasites emit a disruptive phenomenon that interferes with nearby analysis tools and interfaces. When one is close enough, affected GUI pages may display scrambled text, falsified readouts, and distorted values instead of reliable information. This proximity-based effect causes a black, oily substance to seep from the victim's eyes, while thoughts and senses take on the feeling of a rough, staticky granite surface.
+subspaceparasitehelp.header.warning=§cWarning: Information may not be up to date.
+subspaceparasitehelp.header.topics=§eSP Help Topics:
+subspaceparasitehelp.header.topics_inline=§eKnown topics: %s
+subspaceparasitehelp.topic.item= - %s
+subspaceparasitehelp.footer.hint=§7Use §b/subspaceparasitehelp <topic>§7 for details.
+subspaceparasitehelp.error.unknown=§cUnknown help topic: §f%s
+subspaceparasitehelp.topic.header=§6/subspaceparasitehelp %s
+
+# subspaceparasite
+subspaceparasitehelp.subspaceparasite.setgeneration.usage=§b/subspaceparasite setgeneration <0..5>
+subspaceparasitehelp.subspaceparasite.setgeneration.desc=Force the parasite generation in the current dimension.
+subspaceparasitehelp.subspaceparasite.getgeneration.usage=§b/subspaceparasite getgeneration
+subspaceparasitehelp.subspaceparasite.getgeneration.desc=Show the parasite generation in the current dimension.
+subspaceparasitehelp.subspaceparasite.readconfigurationfile.usage=§b/subspaceparasite readconfigurationfile
+subspaceparasitehelp.subspaceparasite.readconfigurationfile.desc=Reload SP configs and reinitialize some systems.
+subspaceparasitehelp.subspaceparasite.toggle_dotiledrops.usage=§b/subspaceparasite toggle_dotiledrops
+subspaceparasitehelp.subspaceparasite.toggle_dotiledrops.desc=Toggle SP tile drop behavior.
+subspaceparasitehelp.subspaceparasite.toggle_domobevolution.usage=§b/subspaceparasite toggle_domobevolution
+subspaceparasitehelp.subspaceparasite.toggle_domobevolution.desc=Toggle SP mob evolution.
+subspaceparasitehelp.subspaceparasite.resetdatafile.usage=§b/subspaceparasite resetdatafile
+subspaceparasitehelp.subspaceparasite.resetdatafile.desc=Reset SP world data for this dimension.
+subspaceparasitehelp.subspaceparasite.parasites.usage=§b/subspaceparasite parasites
+subspaceparasitehelp.subspaceparasite.parasites.desc=Print a quick summary of active parasite entities.
+
+# subspaceparasitegeneration
+subspaceparasitehelp.subspaceparasitegeneration.setgeneration.usage=§b/subspaceparasitegeneration setgeneration <0..5>
+subspaceparasitehelp.subspaceparasitegeneration.setgeneration.desc=Set the parasite generation directly.
+subspaceparasitehelp.subspaceparasitegeneration.getgeneration.usage=§b/subspaceparasitegeneration getgeneration
+subspaceparasitehelp.subspaceparasitegeneration.getgeneration.desc=Show the current parasite generation.
+
+# subspaceparasiteevolution
+subspaceparasitehelp.subspaceparasiteevolution.getphase.usage=§b/subspaceparasiteevolution getphase
+subspaceparasitehelp.subspaceparasiteevolution.getphase.desc=Report the current evolution phase and status.
+subspaceparasitehelp.subspaceparasiteevolution.addpoints.usage=§b/subspaceparasiteevolution addpoints <amount>
+subspaceparasitehelp.subspaceparasiteevolution.addpoints.desc=Add (or subtract) evolution points.
+subspaceparasitehelp.subspaceparasiteevolution.setcooldown.usage=§b/subspaceparasiteevolution setcooldown <seconds>
+subspaceparasitehelp.subspaceparasiteevolution.setcooldown.desc=Set the evolution cooldown to an exact value.
+subspaceparasitehelp.subspaceparasiteevolution.addcooldown.usage=§b/subspaceparasiteevolution addcooldown <seconds>
+subspaceparasitehelp.subspaceparasiteevolution.addcooldown.desc=Add seconds to the cooldown timer.
+subspaceparasitehelp.subspaceparasiteevolution.setphase.usage=§b/subspaceparasiteevolution setphase <phase> [generation]
+subspaceparasitehelp.subspaceparasiteevolution.setphase.desc=Force the evolution phase (optionally also set generation).
+subspaceparasitehelp.subspaceparasiteevolution.set_evolutiongaining.usage=§b/subspaceparasiteevolution set_evolutiongaining <true|false>
+subspaceparasitehelp.subspaceparasiteevolution.set_evolutiongaining.desc=Enable or disable evolution point gain over time.
+subspaceparasitehelp.subspaceparasiteevolution.set_evolutionloss.usage=§b/subspaceparasiteevolution set_evolutionloss <true|false>
+subspaceparasitehelp.subspaceparasiteevolution.set_evolutionloss.desc=Enable or disable evolution point loss over time.
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_getlist.usage=§b/subspaceparasiteevolution evolutionlock_getlist
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_getlist.desc=List all mobs/items currently locked from evolving.
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_reset.usage=§b/subspaceparasiteevolution evolutionlock_reset
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_reset.desc=Clear all evolution locks.
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_unlockall.usage=§b/subspaceparasiteevolution evolutionlock_unlockall
+subspaceparasitehelp.subspaceparasiteevolution.evolutionlock_unlockall.desc=Unlock every evolution lock.
+
+# subspaceparasiteudevelopment
+subspaceparasitehelp.subspaceparasiteudevelopment.getlevel.usage=§b/subspaceparasiteudevelopment getlevel
+subspaceparasitehelp.subspaceparasiteudevelopment.getlevel.desc=Show the current Ubiquitous Development level.
+subspaceparasitehelp.subspaceparasiteudevelopment.setlevel.usage=§b/subspaceparasiteudevelopment setlevel <level>
+subspaceparasitehelp.subspaceparasiteudevelopment.setlevel.desc=Set the Ubiquitous Development level.
+subspaceparasitehelp.subspaceparasiteudevelopment.viewalldims.usage=§b/subspaceparasiteudevelopment viewalldims
+subspaceparasitehelp.subspaceparasiteudevelopment.viewalldims.desc=List parasite progress by dimension.
+
+# subspaceparasitenodes
+subspaceparasitehelp.subspaceparasitenodes.viewall.usage=§b/subspaceparasitenodes viewall
+subspaceparasitehelp.subspaceparasitenodes.viewall.desc=List all nodes and their points.
+subspaceparasitehelp.subspaceparasitenodes.setnode.usage=§b/subspaceparasitenodes setnode <x> <y> <z> <type>
+subspaceparasitehelp.subspaceparasitenodes.setnode.desc=Place/register a node at coordinates.
+subspaceparasitehelp.subspaceparasitenodes.removenode.usage=§b/subspaceparasitenodes removenode <x> <y> <z>
+subspaceparasitehelp.subspaceparasitenodes.removenode.desc=Remove a node near the coordinates.
+subspaceparasitehelp.subspaceparasitenodes.clearworld.usage=§b/subspaceparasitenodes clearworld
+subspaceparasitehelp.subspaceparasitenodes.clearworld.desc=Remove all nodes from this world.
+
+# subspaceparasitecolonies
+subspaceparasitehelp.subspaceparasitecolonies.viewall.usage=§b/subspaceparasitecolonies viewall
+subspaceparasitehelp.subspaceparasitecolonies.viewall.desc=List all colonies and their points.
+subspaceparasitehelp.subspaceparasitecolonies.setcolony.usage=§b/subspaceparasitecolonies setcolony <x> <y> <z>
+subspaceparasitehelp.subspaceparasitecolonies.setcolony.desc=Attempt to place/register a colony at coordinates.
+subspaceparasitehelp.subspaceparasitecolonies.removecolony.usage=§b/subspaceparasitecolonies removecolony <x> <y> <z>
+subspaceparasitehelp.subspaceparasitecolonies.removecolony.desc=Remove a colony near the coordinates.
+subspaceparasitehelp.subspaceparasitecolonies.clearworld.usage=§b/subspaceparasitecolonies clearworld
+subspaceparasitehelp.subspaceparasitecolonies.clearworld.desc=Remove all colonies from this world.
+subspaceparasitehelp.subspaceparasitecolonies.resetglobaladaptation.usage=§b/subspaceparasitecolonies resetglobaladaptation
+subspaceparasitehelp.subspaceparasitecolonies.resetglobaladaptation.desc=Reset global adaptation values.
+subspaceparasitehelp.subspaceparasitecolonies.viewallglobaladaptation.usage=§b/subspaceparasitecolonies viewallglobaladaptation
+subspaceparasitehelp.subspaceparasitecolonies.viewallglobaladaptation.desc=Show global adaptation points per damage type.
+
+# subspaceparasitevectors
+subspaceparasitehelp.subspaceparasitevectors.viewall.usage=§b/subspaceparasitevectors viewall
+subspaceparasitehelp.subspaceparasitevectors.viewall.desc=List all infestation vectors (EIVs).
+subspaceparasitehelp.subspaceparasitevectors.setvector.usage=§b/subspaceparasitevectors setvector <x> <y> <z> <health> <radius>
+subspaceparasitehelp.subspaceparasitevectors.setvector.desc=Create/register a new EIV at coordinates.
+subspaceparasitehelp.subspaceparasitevectors.removevector.usage=§b/subspaceparasitevectors removevector <x> <y> <z>
+subspaceparasitehelp.subspaceparasitevectors.removevector.desc=Remove an EIV near the coordinates.
+subspaceparasitehelp.subspaceparasitevectors.clearworld.usage=§b/subspaceparasitevectors clearworld
+subspaceparasitehelp.subspaceparasitevectors.clearworld.desc=Remove all EIVs from this world.
+
+# subspaceparasitedislodgment
+subspaceparasitehelp.subspaceparasitedislodgment.random_code.usage=§b/subspaceparasitedislodgment random_code <duration_s>
+subspaceparasitehelp.subspaceparasitedislodgment.random_code.desc=Generate a random dislodgment code/value for a duration.
+subspaceparasitehelp.subspaceparasitedislodgment.set_code.usage=§b/subspaceparasitedislodgment set_code <code> <value> <duration_s>
+subspaceparasitehelp.subspaceparasitedislodgment.set_code.desc=Manually set the dislodgment code/value with duration.
+subspaceparasitehelp.subspaceparasitedislodgment.codes_reset.usage=§b/subspaceparasitedislodgment codes_reset
+subspaceparasitehelp.subspaceparasitedislodgment.codes_reset.desc=Clear any active dislodgment code/value.
+
+# subspaceparasiteguide
+subspaceparasitehelp.subspaceparasiteguide.unlockall.usage=§b/subspaceparasiteguide unlockall
+subspaceparasitehelp.subspaceparasiteguide.unlockall.desc=Unlock every Bestiary entry and mark all tiers seen.
+subspaceparasitehelp.subspaceparasiteguide.restore.usage=§b/subspaceparasiteguide restore
+subspaceparasitehelp.subspaceparasiteguide.restore.desc=Restore your Bestiary from a snapshot (taken by unlockall).
+subspaceparasitehelp.subspaceparasiteguide.clearall.usage=§b/subspaceparasiteguide clearall
+subspaceparasitehelp.subspaceparasiteguide.clearall.desc=Clear your Bestiary progress.
+subspaceparasitehelp.subspaceparasiteguidistortion.usage=§b/subspaceparasiteguidistortion <on|off|toggle|status> [player]
+subspaceparasitehelp.subspaceparasiteguidistortion.desc=Enables, disables, toggles, or checks GUI distortion for yourself or another player.
+subspaceparasitehelp.subspaceparasitebestiarystats.clear.usage=§b/subspaceparasitebestiarystats clear [player]
+subspaceparasitehelp.subspaceparasitebestiarystats.clear.desc=Clears the tracked Bestiary stats page data for yourself or the specified player.
+
+# subspaceparasiteguideclear
+subspaceparasitehelp.subspaceparasiteguideclear.self.usage=§b/subspaceparasiteguideclear
+subspaceparasitehelp.subspaceparasiteguideclear.self.desc=Shortcut: same as §b/subspaceparasiteguide clearall§r.
+
+# harlequin_here
+subspaceparasitehelp.harlequin_here.convert.usage=§b/harlequin_here [radiusChunks=1]
+subspaceparasitehelp.harlequin_here.convert.desc=Convert the surrounding biome to Harlequin and refresh chunks.
+
+# harlequin_convert
+subspaceparasitehelp.harlequin_convert.blotch.usage=§b/harlequin_convert [radius] [sampleChance] [depth] [blotchChance] [blotchMinDiam] [blotchMaxDiam]
+subspaceparasitehelp.harlequin_convert.blotch.desc=Seed circular Harlequin blotches and convert eligible tops within radius.
+
+# harlequin_scatter
+subspaceparasitehelp.harlequin_scatter.ruins.usage=§b/harlequin_scatter <rock|bush|tree|ruin|both|all> [tries=32] [radius=32]
+subspaceparasitehelp.harlequin_scatter.ruins.desc=Scatter Harlequin rocks/bushes/trees/ruins on valid surfaces in-biome.
+
+# conjure
+subspaceparasitehelp.conjure.usage=§b/conjure <entity_id>
+subspaceparasitehelp.conjure.desc=Spawn a specific SP entity (aliases: /conj).
+
+# breathe
+subspaceparasitehelp.subspaceparasite_breathe.usage=/subspaceparasite_breathe <on|off|toggle>
+subspaceparasitehelp.subspaceparasite_breathe.desc=Turns the breathe shader effect on, off, or toggles it on the client.
+
+# celestial
+subspaceparasitehelp.subspaceparasite_celestial.usage=/subspaceparasite_celestial <list|clear|all|id>
+subspaceparasitehelp.subspaceparasite_celestial.desc=Lists, clears, forces all, or toggles a specific celestial event for the current dimension.
+
+# subspaceparasiteguide command messages
+command.subspaceparasiteguide.usage=/subspaceparasiteguide unlockall §l|§r §oclear §l|§r §oclearall §l|§r §oreset §l|§r §ounlockblocks §l|§r §oclearblocks §l|§r §ounlockcelestial §l|§r §oclearcelestial §l|§r §ounlockeffects §l|§r §ocleareffects
+command.subspaceparasiteguide.players_only=Players only.
+command.subspaceparasiteguide.cap_missing=Bestiary capability missing.
+
+command.subspaceparasiteguide.unlockall_ok=Bestiary: unlocked %s mobs, all tiers seen.
+command.subspaceparasiteguide.unlockblocks_ok=Bestiary: unlocked %s block entries.
+command.subspaceparasiteguide.unlockcelestial_ok=Bestiary: unlocked %s celestial events.
+
+command.subspaceparasiteguide.unlockeffects_ok=Bestiary: unlocked %s status effects.
+command.subspaceparasiteguide.cleareffects_ok=Bestiary: status effect progress cleared.
+command.subspaceparasiteguide.cleareffects_need_getter=Bestiary: can't clear effects (missing getSeenEffects() or seenEffects NBT key).
+
+command.subspaceparasiteguide.clear_restore_ok=Bestiary restored to your pre-unlockall state.
+command.subspaceparasiteguide.clear_no_snapshot=No snapshot found. Bestiary cleared to zero.
+command.subspaceparasiteguide.clearall_ok=Bestiary cleared to zero.
+
+command.subspaceparasiteguide.clearblocks_ok=Bestiary: block compendium progress cleared.
+command.subspaceparasiteguide.clearcelestial_ok=Bestiary: celestial event progress cleared.
+command.subspaceparasiteguide.clearcelestial_need_getter=Missing getSeenCelestials() on IBestiaryProgress/BestiaryProgress. Add it to support /subspaceparasiteguide clearcelestial.
+
+commands.subspaceparasite.bestiary_stats.usage=Usage: %s
+commands.subspaceparasite.bestiary_stats.player_not_found=Player not found: %s
+commands.subspaceparasite.bestiary_stats.console_requires_player=Console must specify a player.
+commands.subspaceparasite.bestiary_stats.cleared_other=Bestiary stats cleared for %s.
+commands.subspaceparasite.bestiary_stats.cleared_self=Your bestiary stats have been cleared.
+commands.subspaceparasite.bestiary_stats.cap_missing=Bestiary capability missing for %s.
+
+subspaceparasiteguide.sounds.on=Field Guide sounds: ON
+subspaceparasiteguide.sounds.off=Field Guide sounds: OFF
+
+tooltip.module_inborn=Scans for Inborn parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_assimilated=Scans for Assimilated and Assimara parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_hijacked=Scans for Hijacked parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_feral=Scans for Feral parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_crude=Scans for Crude parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_primitive=Scans for Primitive parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_adapted=Scans for Adapted parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_nexus=Scans for Nexus parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_deterrent=Scans for Deterrent parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_pure=Scans for Pure parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_preeminent=Scans for Preeminent parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_ancient=Scans for Ancient parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_derived=Scans for Derived parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_assimara=Scans for Assimara parasites within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+
+tooltip.module_vectors=Scans for Vectors within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_phase=Scans for Phase Info within your dimension. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.dislodgement=Scans for Dislodgement Events/Info/Code and decodes them. §l|§r §oInsert into the Relay Terminal and press Scan.
+
+tooltip.module_desmoid=Covers Inborn, Assimara, Assimilated, and Hijacked tiers. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_eschar=Covers Feral, Crude, and Primitive tiers. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_resistance=Covers Adapted, Nexus, and Deterrent tiers. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_ideal=Covers Pure, Preeminent, Derived, and Ancient tiers. §l|§r §oInsert into the Relay Terminal and press Scan.
+tooltip.module_origin=Scans for ALL parasite tiers. §l|§r §oInsert into the Relay Terminal and press Scan.
+
+# dislodgement Module
+tooltip.module_dislodgement=Used by the Relay Controller to print the current dislodgement code.
+item.subspaceparasite.dislodgement_report.name=Dislodgement Report
+tooltip.subspaceparasite.dislodgement_report=Obtained from scanning the Dislodgement Module in the array.
+
+subspaceparasite.dislodgement.header=Dislodgement Code Report
+subspaceparasite.dislodgement.code=Raw Code:
+subspaceparasite.dislodgement.code.value=%s
+subspaceparasite.dislodgement.decoded=Decoded Events:
+subspaceparasite.dislodgement.line=Dim %s | Event %s: %s (value=%s, time=%ss)
+subspaceparasite.dislodgement.unknown_format=Could not decode: unknown code format.
+subspaceparasite.dislodgement.truncated=...truncated (too many entries)
+
+subspaceparasite.dislodgement.event.unknown=Unknown event
+subspaceparasite.dislodgement.event.0=COTH ignores amplifier.
+subspaceparasite.dislodgement.event.1=COTH spawns higher tiers (1=Feral, 2=Primitive, 3=Adapted, 4=Pure). Value: %s
+subspaceparasite.dislodgement.event.2=Parasite kills can spawn a unit. Value: %s
+subspaceparasite.dislodgement.event.3=Parasites spawn with potion effects. Amplifier: %s
+subspaceparasite.dislodgement.event.4=Parasites spawn with increased stats. Multiplier: %s
+subspaceparasite.dislodgement.event.6=Parasites consume more durability. Multiplier: %s
+subspaceparasite.dislodgement.event.7=On parasite death: heal nearby parasites. Amount: %s
+subspaceparasite.dislodgement.event.8=On parasite death: damage nearby entities. Amount: %s
+subspaceparasite.dislodgement.event.9=On parasite death: drain nearby players' food. Amount: %s
+subspaceparasite.dislodgement.event.10=Killing low tiers can spawn higher tier. Mob: %s
+subspaceparasite.dislodgement.event.11=Parasites are immune to potion effects.
+subspaceparasite.dislodgement.event.12=Drain health from non-parasite mobs. Amount: %s
+subspaceparasite.dislodgement.event.13=Drain food from all players. Amount: %s
+subspaceparasite.dislodgement.event.14=Evolution uses next phase spawn list. Phase: %s
+subspaceparasite.dislodgement.event.15=Growl cancelled; Nexus spawning enabled.
+subspaceparasite.dislodgement.event.16=Walk cancelled; Nexus evolving enabled.
+subspaceparasite.dislodgement.event.17=Shields disabled; food spoils.
+subspaceparasite.dislodgement.event.18=Parasite loot/XP cancelled.
+subspaceparasite.dislodgement.event.19=Parasite killcount increased. Amount: %s
+subspaceparasite.dislodgement.event.20=Bodies enabled for certain forms.
+subspaceparasite.dislodgement.event.21=Parasites can only die while burning.
+subspaceparasite.dislodgement.event.22=Penalty for killing same versions. Amplifier: %s
+subspaceparasite.dislodgement.event.25=Breaking parasite blocks can spawn parasites (1=SIM, 2=Feral, 3=Primitive, 4=Adapted, 5=Pure). Value: %s
+
+gui.subspaceparasite.dislodgement.title=Dislodgement Report
+gui.subspaceparasite.dislodgement.none=No dislodgement entries found.
+gui.subspaceparasite.dislodgement.entry.head=Dimension %s | Event %s | %s
+gui.subspaceparasite.dislodgement.entry.value=Value: %s
+
+# Vector Report paper
+item.subspaceparasite.vector_report.name=Vector Report
+item.subspaceparasite.vector_report.lore.header=Current Emerging Infestation Vectors in the world (x, y, z, health, radius):
+item.subspaceparasite.vector_report.lore.none=-> (none)
+item.subspaceparasite.vector_report.lore.line=-> [%s, %s, %s, %s, %s]
+item.subspaceparasite.vector_map.name=Vector Map
+gui.subspaceparasite.vector_map.title=Vector Map
+gui.subspaceparasite.vector_map.day=Day %s
+gui.subspaceparasite.vector_map.page=Vector %s/%s
+gui.subspaceparasite.vector_map.vector_coords=Vector: X=%s Z=%s  R=%s
+gui.subspaceparasite.vector_map.player_coords=You: X=%s Z=%s
+gui.subspaceparasite.vector_map.range=Map Coverage: %sx%s blocks
+chat.subspaceparasite.vectors.disabled=Emerging Infestation Vectors are disabled.
+chat.subspaceparasite.vectors.not_activated=Emerging Infestation Vectors are not activated.
+tooltip.subspaceparasite.vector_map=Obtained and filled with data from scanning the Vector Module in the Relay.
+
+#VECTOR MAP GUI
+gui.subspaceparasite.vector_map.vectors=Vectors:
+
+gui.subspaceparasite.vector_map.entry.xyz=%d) XYZ = "%d, %d, %d"
+gui.subspaceparasite.vector_map.entry.size=   Size = "%d"
+gui.subspaceparasite.vector_map.entry.hp=   HP = "%s"
+gui.subspaceparasite.vector_map.legend.line1=Red ring = vector.
+gui.subspaceparasite.vector_map.legend.line2=Vectors outside (%s) scan distance appear as a yellow dot.
+gui.subspaceparasite.vector_map.legend.line3=Blue marker = scan origin.
+
+#STAT PAGE
+bestiary.tab.stats=Stats
+bestiary.stats.info=Recorded parasite kills by tier.
+bestiary.stats.summary=Total parasite kills recorded: %s
+bestiary.stats.note=These values are summed from your bestiary kill data for each parasite registry ID.
+bestiary.stats.total_kills=Kill Totals
+bestiary.stats.all_parasites=All Parasites
+bestiary.stats.scroll_hint=Use the mouse wheel over a panel to scroll.
+bestiary.stats.chart_title=Kills by Tier
+bestiary.stats.combat_totals=Combat Totals
+bestiary.stats.damage_to_parasites=Total Damage to Parasites
+bestiary.stats.damage_from_parasites=Total Damage from Parasites
+bestiary.stats.deaths_by_parasites=Total Parasite Deaths
+
+#DISTORTION
+commands.subspaceparasite.guidistortion.usage=commands.subspaceparasite.guidistortion.usage
+commands.subspaceparasite.guidistortion.usage.text=Usage: %s
+commands.subspaceparasite.guidistortion.player_not_found=Player not found: %s
+commands.subspaceparasite.guidistortion.console_requires_player=Console must specify a player.
+commands.subspaceparasite.guidistortion.invalid_argument=Invalid argument. Use on, off, toggle, or status.
+commands.subspaceparasite.guidistortion.status=GUI distortion for %s: %s
+commands.subspaceparasite.guidistortion.set_other=GUI distortion for %s is now %s
+commands.subspaceparasite.guidistortion.set_self=Your GUI distortion is now %s
+commands.subspaceparasite.guidistortion.state.enabled=ENABLED
+commands.subspaceparasite.guidistortion.state.disabled=DISABLED
+commands.subspaceparasite.guidistortion.set_all=GUI distortion updated for %s online players.
+commands.subspaceparasite.guidistortion.status.detailed=%s: distortion is %s. Creative/spectator override: %s. Current mode: %s.
+commands.subspaceparasite.guidistortion.creative_override.enabled=allowed
+commands.subspaceparasite.guidistortion.creative_override.disabled=not allowed
+commands.subspaceparasite.guidistortion.gamemode.creative_or_spectator=creative/spectator
+commands.subspaceparasite.guidistortion.gamemode.normal=normal
+
+#PHASE REPORT
+item.subspaceparasite.phase_report.name=Phase Report
+tooltip.subspaceparasite.phase_report=Displays the current scanned evolution report.
+gui.subspaceparasite.phase_report.no_data=No report data found.
+gui.subspaceparasite.phase_report.no_data_hint=Run this through a scanner to generate a report.
+gui.subspaceparasite.phase_report.title=Evolution Phase Report
+gui.subspaceparasite.phase_report.empty=No phase data was found on this report.
+gui.subspaceparasite.phase_report.mob_chart=Mob Chart
+gui.subspaceparasite.phase_report.uninfected_hosts=Uninfected Hosts
+gui.subspaceparasite.phase_report.parasite_entities=Parasite Entities
+gui.subspaceparasite.phase_report.infected_hosts=Infected Hosts
+gui.subspaceparasite.phase_report.point_gain=Point Gain
+gui.subspaceparasite.phase_report.point_loss=Point Loss
+gui.subspaceparasite.phase_report.enabled=Enabled
+gui.subspaceparasite.phase_report.disabled=Disabled
+#INBORN
+lore.subspaceparasite.buglin=§lEpithet:§r Lodo §l|§r §oRoughly the size of a basketball, this grub-like mass is formed from unstable flesh that bends and compresses in ways it should not, often appearing moments from rupturing. It carries a sharp metallic stench, and its substance tastes sour and aggressively acidic. Sixteen small hook-like claws, each about an inch long, line its underside and allow it to crawl across terrain or force itself into and out of living prey. It possesses no visible orifices, its body sealed like a malformed catalyst. Despite its flexibility, the Buglin is fragile under extreme pressure, rupturing instantly beneath the weight of an iron golem. Often found emerging from parasite tunnels.
+lore.subspaceparasite.rupter=§lEpithet:§r Mudo §l|§r §oRupters operate in packs, using speed and numbers to split formations and harass isolated targets. When alone they are initially docile, though this behavior is subject to rapid change. Their musculature and tendons are folded into a dense, tesseract-like arrangement, while internal organs sprawl through the body like root systems with no clear structure. They weigh roughly the same as a cannonball and are capable of long, fast jumps, as well as climbing sheer surfaces, though they lack the dexterity to hang from ceilings that well. Tendrils twinge outward when agitated, gripping and boring into targets. Rupters frequently tear through cattle and smaller creatures, often killing them unintentionally. Solid matter is dissolved within the stomach and regurgitated back onto or into victims in small indistinguishable traces to efficiently transmit COTH without much retaliation. Their organs can be harvested, dried, and processed into a durable fiber-like material. Limbs may be torn free from the body similar to a spider; it remains unknown whether lost limbs can regenerate.
+lore.subspaceparasite.mangler=§lEpithet:§r Nuuh §l|§r §oA close-quarters brute derived from Rupters, grown specifically for larger prey such as cattle, horses, and llamas. It weighs roughly the same as a large dog and is built for endurance and sustained force rather than speed. While bulkier in form, it retains the transmissible capabilities of its predecessors. The metallic scent present in Rupters is significantly stronger, often detectable before visual contact.
+lore.subspaceparasite.carrier_flying=§lEpithet:§r Buthol §l|§r §oAn airborne infestation vector that hovers over active infestation zones. Three external bulbous growths hang blow the body, each containing a separate chemical component. When agitated, the compounds are forcibly mixed within the bulbs, causing rapid inflation before the body ruptures outward. Upon exposure to open air, the released mixture converts into a highly toxic, gas-like substance. The creature emits an odor similar to industrial chemical waste. Its surface is lined with fine hypodermic pricks and needle-like protrusions that damage nearby matter during detonation. The resulting compound rapidly melts exposed skin. Fire engulfment appears to destabilize and partially defuse the reaction.
+lore.subspaceparasite.carrier_heavy=§lEpithet:§r Rathol §l|§r §oA heavy carrier designed to spread dense payloads of filth, toxins, and supporting parasites. The body is fully sealed, displaying no visible orifices, and functions primarily as a pressure vessel for stored noxious gas. Specimens may form empty of living mass yet remain filled with volatile chemical mixtures. Within its compartmental structure, several partially digested parasites remain suspended and mobile, swimming through the slurry. Prior to detonation, the organism dissolves its own internal organs and structural barriers, rapidly building internal pressure before rupturing. It reacts strongly to vibrations and emits an odor comparable to spoiled cooked meat sealed in a warm container. Fire engulfment appears to destabilize and partially defuse the reaction.
+lore.subspaceparasite.carrier_light=§lEpithet:§r Gothol §l|§r §oA nimble carrier adapted for rapid strikes and short-range seeding. Its body is composed of hundreds of small compartments filled with a volatile slurry chemically bound to its vital functions. Internal organs are densely centralized, forming a firm core similar in structure to the center of a blackberry. Despite its instability, the organism is capable of maintaining balance independently and reacts aggressively to vibrations in its surroundings. It emits an odor comparable to spoiled cooked meat sealed in a warm container. Detonation leaves widespread residue. Fire engulfment appears to destabilize and partially defuse the reaction.
+lore.subspaceparasite.gnat=§lEpithet:§r Ata §l|§r §oA small parasitic that uses its tentacles as rotating drill-heads to bore into hosts, allowing it to hijack and control both organic and inorganic entities. Individually weak, its appendages are exceptionally sharp and capable of chewing through dense material and resilient prey. A bulbous growth along its back dissolves or violently ruptures once embedded within a host, accelerating internal damage and takeover. It is heavily attracted to the scent of blood, to the point where it can be deliberately used as a distraction. The organism lacks any form of hearing and relies entirely on scent to navigate. Specimens are often coated in a slick, lubricant-like mucus, a residue from being secreted out of vermin.
+lore.subspaceparasite.lice=§lEpithet:§r Viin §l|§r §oA highly erratic parasitic that uses its tentacles as rotating drill-heads to burrow into hosts, hijacking and controlling both organic and inorganic entities. Its abdomen is grossly inflated and lined with multiple bulbous growths that serve as both fuel and explosive charges, allowing it to force attachment and penetrate resistant targets. Movement is unpredictable to the point of inefficiency, making it difficult to track or swat. The organism is strongly attracted to the scent of sweat and blood and produces a faint humming noise when in close proximity.
+
+#ASSIMILATED
+lore.subspaceparasite.sim_adventurer=§lEpithet:§r Sim §l|§r §oObserved traveling in loose groups, but once enough gather, they begin to match pace. They still check containers, doorways, and camp-like structures, as if memory survives in fragments. Occasionally, one will stop and stare into familiar spaces for several seconds, as though trying to remember what it once was. They appear to like assimilated dogs. I guess some things never change.
+lore.subspaceparasite.sim_bear=§lEpithet:§r Sim §l|§r §oIts body has been preserved for force rather than speed. Specimens do not posture or bluff-charge like healthy bears; once agitated, they commit fully. Trees, barricades, and even damaged walls are treated as inconveniences by this thing. I observed one of them chewing the flesh from its own body once, as if to satiate an itch.
+lore.subspaceparasite.sim_bigspider=§lEpithet:§r Dorpa §l|§r §oThis one produces excessive webbing mixed with foul organic runoff. Trails left behind often remain contaminated long after the host has passed. Its movements are strangely deliberate, as if it is less interested in pursuit and more concerned with spreading material across as much ground as possible. This one has a discernible temper, and I once witnessed it relentlessly stab holes into a pig with its legs, like a horse trampling a mound of flesh. I can only assume it did this because the prey was loud; it did not bother infesting it. Perhaps it was just food for fodder parasites?
+lore.subspaceparasite.sim_cow=§lEpithet:§r Sim §l|§r §oStill reacts to the presence of feed and familiar sounds from husbandry, though only briefly. Once engaged, it lowers its head and drives forward with enough force to crush fencing or break bone. The contrast between its farm-bred mannerisms and sudden violence is deeply unsettling. It keeps wailing and crying whenever the sun rises. I don't know why.
+lore.subspaceparasite.sim_dragone=§lEpithet:§r Sim §l|§r §oFlight appears difficult for its body, suggesting severe anatomical compromise. Even so, it remains highly lethal during descent and close approach. It seems to compensate for its failing body with distance and flight. Armor recovered from corpses often shows tearing and melted patterns, consistent with dipping tin foil in acid rather than clean predation. It does not seem acclimated to its body yet, as evidenced by it repeatedly thrashing its skull against the obsidian pillars of the End like a mace.
+lore.subspaceparasite.sim_enderman=§lEpithet:§r Sim §l|§r §oDisplays unstable teleportation behavior and little concern for its own condition. When set ablaze, it does not retreat as expected and may instead continue advancing, igniting anything nearby in the process. It shows no sign of preserving itself and will throw itself into water despite its seemingly toxic nature. This suggests pain response has either been dulled or rendered irrelevant. Its beheaded variant doesn't seem to be affected by water for some reason, though.
+lore.subspaceparasite.sim_horse=§lEpithet:§r Sim §l|§r §oThe abdomen is swollen with pressurized putrid matter, making even minor trauma hazardous. It startles easily under force, heat, or sudden rupture and may detonate before full collapse. Despite this instability, it can still close distance quickly. I've seen it thrash and cry like a living horse moments before detonation.
+lore.subspaceparasite.sim_human=§lEpithet:§r Sim §l|§r §oRetains more recognizable behavior than most infected stock. Some specimens hesitate at doorways, look toward voices, or recoil from sudden heat before resuming attack. These reactions imply awareness has not been fully erased. They are difficult to study for long, as their movements often resemble panic as much as hostility. I can't discern what emotions they might be exhibiting.
+lore.subspaceparasite.sim_pig=§lEpithet:§r Sim §l|§r §oAt a distance, it can still pass for an ordinary animal, especially when idle. Closer observation reveals constant chewing motions and abrupt changes in focus. It roots through organic waste, remains, and contaminated growth with equal interest. Very little of the original temperament appears intact, other than its impressive intelligence. I've seen it mindlessly roll around in the dirt and dig up carrots, but they just fall out of its maw, seemingly unwilling to commit to fully consuming them.
+lore.subspaceparasite.sim_sheep=§lEpithet:§r Sim §l|§r §oIts crying is among the worst sounds recorded from infected livestock. The vocalization resembles an ordinary bleat, but prolonged listening reveals a strained, wet quality unlike anything natural. Nearby specimens sometimes grow more active when it cries. Whether this is communication or simple agitation is still unknown. I've noticed they can be dyed in a few select colors. Why anyone would want to do that, I don't know.
+lore.subspaceparasite.sim_squid=§lEpithet:§r Sim §l|§r §oMoves through water with an almost passive grace, shedding rot, debris, and infectious matter as it drifts. Areas it frequents become visibly fouled over time. It shows little urgency when approached. The surrounding current often carries pieces of it farther than the body travels. I can't tell which end is its mouth. Maybe it has two.
+lore.subspaceparasite.sim_villager=§lEpithet:§r Sim §l|§r §oStill turns its head toward movement with the same curious rhythm seen in normal villagers. Some have been observed lingering near doors, workstations, and former gathering places. The resemblance ends the moment one closes distance. Whatever social instinct remains has been hollowed out and repurposed into a grotesque imitation. I've seen one that did not approach in open aggression, though it looked nothing like a villager. Six legs, long hair, and an odd 'face'. Something tall and pulsing runs along the back of its neck. I once watched it place something strange into the hands of another thing nearby, as though carrying out some sort of exchange. I feel like it's trying to say something, but I can't make sense of its hollow noises. Not yet, anyway.
+lore.subspaceparasite.sim_wolf=§lEpithet:§r Sim §l|§r §oResponds quickly to movement and rarely attacks without testing distance first. Multiple specimens will begin circling behavior even when no clear pack leader is present, implying the old instinct survives in broken form. Maybe it's chasing its own tail? Bites are fast, repetitive, and often aimed low, toward ankles. I've seen some with collars still strapped around their necks, and they react oddly when their former names, printed on their collars, are called out.
+
+#DETACHED HEADS
+lore.subspaceparasite.sim_cowhead=§lEpithet:§r Desim §l|§r §oA decapitated host animated by crawling sinew. It smells like stomach acid and beef. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_dragonehead=§lEpithet:§r Desim §l|§r §oAncient bone and teeth driven by fresh hunger. Still can use its rancid breath somehow.
+lore.subspaceparasite.sim_endermanhead=§lEpithet:§r Desim §l|§r §oStill looks... still finds. Still works. Still annoying. Can only carry the things of a similar size.
+lore.subspaceparasite.sim_horsehead=§lEpithet:§r Desim §l|§r §oGallops on rotten skin-covered tendrils where legs once were. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_humanhead=§lEpithet:§r Desim §l|§r §oIts hollow sockets hold enough shape to form a gaze. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_pighead=§lEpithet:§r Desim §l|§r §oSnuffling mass tethered by cords of meat. It still oinks. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_sheephead=§lEpithet:§r Desim §l|§r §oWool matted with living threads. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_villagerhead=§lEpithet:§r Desim §l|§r §oMutters in a voice that isn't language. Will seek to reunite with any pile of meat to hijack.
+lore.subspaceparasite.sim_wolfhead=§lEpithet:§r Desim §l|§r §oThinking is optional. Will seek to reunite with any pile of meat to hijack.
+
+#FERAL
+lore.subspaceparasite.fer_bear=§lEpithet:§r Fer §l|§r §oUnleashes unstoppable fury, rending prey. As if converted bear wasn't enough.
+lore.subspaceparasite.fer_cow=§lEpithet:§r Fer §l|§r §oA lumbering vessel of meat and muscle, driven by endless hunger. The one who denies all.
+lore.subspaceparasite.fer_enderman=§lEpithet:§r Fer §l|§r §oStalks silently, warping through space with feral precision. Can ferry larger things and is not deterred by any water at all. Rage eternal.
+lore.subspaceparasite.fer_horse=§lEpithet:§r Fer §l|§r §oGallops with reckless speed, trampling the fallen in its path.
+lore.subspaceparasite.fer_human=§lEpithet:§r Fer §l|§r §oHuman form stripped of reason and skin.
+lore.subspaceparasite.fer_pig=§lEpithet:§r Fer §l|§r §oA grotesque feeder, squealing with hunger.
+lore.subspaceparasite.fer_sheep=§lEpithet:§r Fer §l|§r §oA maw in fleece.
+lore.subspaceparasite.fer_villager=§lEpithet:§r Fer §l|§r §oCommunity instincts perverted.
+lore.subspaceparasite.fer_wolf=§lEpithet:§r Fer §l|§r §oAlpha predator; a relentless hunter.
+
+# CRUDE
+lore.subspaceparasite.crux=§lEpithet:§r Cruxa §l|§r §oFramework of a brutish, selfless creature still knitting itself together. Its rage deepens with every corpse it leaves behind. I have seen it hurl its own comrades at fleeing prey, with little care for whether the impact kills them. Under immense strain, its body secretes a strange boiling orange substance, and when driven to great speed, steam rises from it as though the whole frame is on the verge of catching fire. I cannot imagine the force required to keep such a body in motion.
+lore.subspaceparasite.crux_incomplete=§lEpithet:§r Cruxa §l|§r §oAn outline of awkwardly knitted teeth. What remains is little more than a charred, half-formed frame, buying time and flesh until the fuller body forces its way through. It often settles in shallow creeks and streams to cool itself, as though the water hastens the mending of its crude, misshapen, chrysalis-like body.
+lore.subspaceparasite.heed=§lEpithet:§r Heed §l|§r §oFive-headed scout borne on an ant-like frame, with a maw set sideways across the face. It does little leading of its own, instead carrying signals forward and stirring the hunt where resistance is found. I have seen it engage in trophallaxis with smaller, needier parasites.
+lore.subspaceparasite.host=§lEpithet:§r Host §l|§r §oIt is often said that earthquakes foretell doom. Much of it remains buried, with only otherworldly groans and the stirring ground above betraying where the rest has gone. Corpses are rendered down into a strange black, tar-like matter that binds through its frame and keeps the greater body pliant. Each tentacle ends in a hollow opening put to many uses, from mending torn flesh to feeding from the fallen.
+lore.subspaceparasite.hostii=§lEpithet:§r Hostii §l|§r §oThe herd moves beneath soft and jagged ground as though its body can yield to every sharp crevice in the tainted soil. What was once a buried carrier has swollen into a heavier colony-form, casting out engorged bombs in quick bursts, each one packed with unknown venom and disease. Beneath the noise of its passing, there are often repeated mutterings that suggest some low, collective intelligence, though nothing in them has yet proven understandable.
+lore.subspaceparasite.incompleteform_medium=§lEpithet:§r Inhoo §l|§r §oHalf-shaped, wholly lethal. The sort of thing one expects to find scraping at the walls of a body, not running loose without one.
+lore.subspaceparasite.incompleteform_small=§lEpithet:§r Inhoo §l|§r §oSmall frame, fast cuts. Light in the arms and ugly on impact, like catching a sack filled with teeth. Smells abhorrent and is best taken care of quickly.
+lore.subspaceparasite.thrall=§lEpithet:§r Mes §l|§r §oObedience made flesh. Its body hangs together like a butchered thing forced back upright, with dark trailing filaments lashing behind it like severed reins. They are often found near places once crowded with life, kneading and worrying at the objects of vanished routine. The feet have warped into hard, hoof-like stumps, and the face has drawn into a melted expression too ruined to call human, yet still recognizably trying.
+lore.subspaceparasite.dredge=§lEpithet:§r Done §l|§r §oMeasured violence. Beneath an otherworldly executioner's skull, the body closes in deliberate loops, testing ribs, throat, and spine with the calm precision of something that already knows where the human frame and spirit gives first. The tail binds and strangles, starves the body of air, and leaves the victim reeling with a violent loss of coordination long before death. Its victims are left in a state resembling '§4ataxia telangiectasia§o§0', §obut accelerated into something cruelly immediate. The struggle is prolonged with too much care to be accidental. No other parasite of this tier appears so invested in keeping prey conscious through the worst of it. Whether it feeds on the chemicals of panic or on the memories shaken loose by suffering, I cannot yet say.
+lore.subspaceparasite.airscrew=§lEpithet:§r Leer §l|§r §oIts proboscis yields enough strength to lift a van with ease. The sac above its body keeps it hanging like a spoiled calamari, likely filled with a volatile low-density gas produced in excess by its own tissues and held under enough pressure to offset the creature's weight. The mouth beneath gives off concentrated COTH in wet, choking drafts. Prey caught in its webbed projectiles is drawn upward and worked against the hooked underside of its dislocated maw with similar rhythm one might use to strip meat from bone. More than once, I have seen two or more fight over the same catch, pulling with such blind force that the victim came apart between them. Those that survive the feeding do not always remain whole in mind; the turned variants are sometimes discarded afterward and left to tumble to their deaths.
+
+#ASSIMARA
+lore.subspaceparasite.mar_bear=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. A colony of spiders nests inside.
+lore.subspaceparasite.mar_cow=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. Its internal chamber works ceaselessly.
+lore.subspaceparasite.mar_enderman=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. Twisted beyond recognition.
+lore.subspaceparasite.mar_human=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. Irritatingly disruptive.
+lore.subspaceparasite.mar_sheep=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. A tall vigil.
+lore.subspaceparasite.mar_villager=§lEpithet:§r Mar §l|§r §oNothing about its body makes sense. The face of the oblivion.
+
+#HIJACKED
+lore.subspaceparasite.hi_blaze=§lEpithet:§r Hi §l|§r §oThe impossible has happened.
+lore.subspaceparasite.hi_skeleton=§lEpithet:§r Hi §l|§r §oA frame for something to stand on.
+lore.subspaceparasite.hi_golem=§lEpithet:§r Hi §l|§r §oFrom protector to oppressor.
+
+#PRIMITIVE
+lore.subspaceparasite.pri_arachnida=§lEpithet:§r Ranrac §l|§r §oCrude eight-legged horror, precursor to greater forms.
+lore.subspaceparasite.pri_bolster=§lEpithet:§r Bano e'Zetmo §l|§r §oBulky frame, primitive yet resilient.
+lore.subspaceparasite.pri_devourer=§lEpithet:§r Lum §l|§r §oGuided only by hunger and the scent of blood in water.
+lore.subspaceparasite.pri_longarms=§lEpithet:§r Shyco §l|§r §oGrasping limbs lunge far, though clumsy compared to later forms.
+lore.subspaceparasite.pri_manducater=§lEpithet:§r Hull §l|§r §oGrinding jaws that never cease. Stays out of the eyesight.
+lore.subspaceparasite.pri_reeker=§lEpithet:§r Nogla §l|§r §oIt smells awful. Charges headfast.
+lore.subspaceparasite.pri_summoner=§lEpithet:§r Canra §l|§r §oCalls lesser spawn in erratic bursts. Re-sews what was slain out of leftovers.
+lore.subspaceparasite.pri_tozoon=§lEpithet:§r Wymo §l|§r §oEarthquakes are a sign.
+lore.subspaceparasite.pri_yelloweye=§lEpithet:§r Emana §l|§r §oPonytails of sinew and bone. Its caustic bile is anathema to armor.
+lore.subspaceparasite.pri_vermin=§lEpithet:§r Iki §l|§r §oIt's a weather balloon. Its contents are even worse.
+lore.subspaceparasite.pri_burrower=§lEpithet:§r Zaa §l|§r §oInstinctively digs, carving out nests for others.
+lore.subspaceparasite.pri_viscera=§lEpithet:§r Gim §l|§r §oRaw flesh given crude mobility.
+
+#ADAPTED
+lore.subspaceparasite.ada_burrower=§lEpithet:§r Zaa §l|§r §oEfficient tunneler, opening controlled paths.
+lore.subspaceparasite.ada_viscera=§lEpithet:§r Gim §l|§r §oLooks like a Nautilidae. Others treat it like mother.
+lore.subspaceparasite.ada_devourer=§lEpithet:§r Lum §l|§r §oA scavenging harpoon. A damnation of the seas.
+lore.subspaceparasite.ada_tozoon=§lEpithet:§r Wymo §l|§r §oWormy.
+lore.subspaceparasite.ada_arachnida=§lEpithet:§r Ranrac §l|§r §oRefined hunter, webs and strikes with precision.
+lore.subspaceparasite.ada_bolster=§lEpithet:§r Bano e'Zetmo §l|§r §oAdapted bulk, built to shield and support.
+lore.subspaceparasite.ada_longarms=§lEpithet:§r Shyco §l|§r §oLimbs elongated with accuracy, no wasted motion. Surrender, or don't. It is fine with either.
+lore.subspaceparasite.ada_manducater=§lEpithet:§r Hull §l|§r §oJaw structure perfected for maximum tissue yield. Nobody sees it coming.
+lore.subspaceparasite.ada_reeker=§lEpithet:§r Nogla §l|§r §oBuilt for charging long distances. Move fast or die slow.
+lore.subspaceparasite.ada_summoner=§lEpithet:§r Canra §l|§r §oSummons spawn from the remains of other parasites.
+lore.subspaceparasite.ada_yelloweye=§lEpithet:§r Emana §l|§r §oHatsune Miku or Kasane Teto. High acidic harzard.
+lore.subspaceparasite.ada_vermin=§lEpithet:§r Iki §l|§r §oIt can unhinge its body to twice its width and has the jaw strength to crush steel with ease.
+
+
+#DETERRENT
+lore.subspaceparasite.dispatcherten=§lEpithet:§r DodT §l|§r §oA barbed conduit for orders.
+lore.subspaceparasite.kyphosis=§lEpithet:§r Tonro §l|§r §oHunched mass that coiled sinew uses as a living shield and battering ram.
+lore.subspaceparasite.seizer=§lEpithet:§r Nak §l|§r §oGrabs and pins. Struggling makes it angrier.
+lore.subspaceparasite.sentry=§lEpithet:§r Unvo §l|§r §oTheir projectiles melt through bone and steel alike.
+lore.subspaceparasite.worm=§lEpithet:§r Rof §l|§r §oComing into contact with such a creature is difficult. How did you manage that?
+
+#PURE
+lore.subspaceparasite.grunt=§lEpithet:§r Flog §l|§r §oNothing wasted, nothing spared; advances until one of you stops. A "grunt" to the larger ones out there.
+lore.subspaceparasite.bomber_light=§lEpithet:§r Omboo §l|§r §oHollow frame packed with volatile tissue.
+lore.subspaceparasite.marauder=§lEpithet:§r Esor §l|§r §oCarver of corridors through living lines; momentum is its favorite weapon.
+lore.subspaceparasite.monarch=§lEpithet:§r Orch §l|§r §oCommands lesser forms by impulse alone; the swarm kneels without thought.
+lore.subspaceparasite.overseer=§lEpithet:§r Alafha §l|§r §oAn auditor of authority.
+lore.subspaceparasite.vigilante=§lEpithet:§r Anged §l|§r §oHunts outliers and stragglers. It is a good job, mate.
+lore.subspaceparasite.warden=§lEpithet:§r Ganro §l|§r §oBulwark organism. Holds its authority and ground like a tumor.
+
+#PREEMINENT
+lore.subspaceparasite.bogle=§lEpithet:§r Lencia §l|§r §oHow does it fly? Regardless of that, only  deep blast craters remain.
+lore.subspaceparasite.carrier_colony=§lEpithet:§r Vesta §l|§r §oA city of mouths and holes travelling on too many legs. It appears to link and coordinate nearby units, and make them adapt faster and together.
+lore.subspaceparasite.haunter=§lEpithet:§r Pheon §l|§r §oA presence felt before seen.
+lore.subspaceparasite.bomber_heavy=§lEpithet:§r Jinjo §l|§r §oA walking verdict when it arrives, the area is rewritten. Where have I seen this before?
+lore.subspaceparasite.wraith=§lEpithet:§r Elvia §l|§r §oHalf-anchored to flesh, half to nightmare; passes where walls do not. Fires a headache of a projectile.
+lore.subspaceparasite.succor=§lEpithet:§r Flam §l|§r §oLittle guy.
+
+#ANCIENT
+lore.subspaceparasite.anc_dreadnaut=§lEpithet:§r Oronco §l|§r §oNULL EXISTENCE
+lore.subspaceparasite.anc_overlord=§lEpithet:§r Terla §l|§r §oNULL EXISTENCE
+
+#NEXUS
+lore.subspaceparasite.beckon_si=§lEpithet:§r Venkrol §l|§r §oSeed structure that calls parasites like moths to a wound.
+lore.subspaceparasite.beckon_sii=§lEpithet:§r Venkrol §l|§r §oThe call grows louder; the ground learns to answer back.
+lore.subspaceparasite.beckon_siii=§lEpithet:§r Venkrol §l|§r §oBeacon and birthing room; the air tastes like copper and is thick like mud.
+lore.subspaceparasite.beckon_siv=§lEpithet:§r Venkrol §l|§r §oAn address for the hive. Everything nearby is now an entrance, exit, and void.
+lore.subspaceparasite.dispatcher_si=§lEpithet:§r Dod §l|§r §oFirst dispatcher; signals, orders, and others in tidy loops.
+lore.subspaceparasite.dispatcher_sii=§lEpithet:§r Dod §l|§r §oChannels widen; traffic of limbs and messages never ceases.
+lore.subspaceparasite.dispatcher_siii=§lEpithet:§r Dod §l|§r §oLogistics perfected and reinforcements arrive before you finish bleeding.
+lore.subspaceparasite.dispatcher_siv=§lEpithet:§r Dod §l|§r §oThe hub and the highway; strike it down or watch a living continent converge.
+lore.subspaceparasite.rooter_si=§lEpithet:§r Leem §l|§r §oSeeded structure meant for enduring the pain of other parasites in it's place.
+lore.subspaceparasite.rooter_sii=§lEpithet:§r Leem §l|§r §oSeeded structure meant for enduring the pain of other parasites in it's place.
+lore.subspaceparasite.rooter_siii=§lEpithet:§r Leem §l|§r §oSeeded structure meant for enduring the pain of other parasites in it's place.
+lore.subspaceparasite.rooter_siv=§lEpithet:§r Leem §l|§r §oSeeded structure meant for enduring the pain of other parasites in it's place.
+lore.subspaceparasite.rooterball=§lEpithet:§r Leem §l|§r §oSeeded structure meant for enduring the pain of other parasites in it's place.
+
+#ABOMINATION
+lore.subspaceparasite.abo_bodies=§lEpithet:§r Abo §l|§r §oConglomerate of conscious creatures mashed together from some unknown cause. Resembles that of a siphonophore.
+lore.subspaceparasite.abo_head=§lEpithet:§r Abo §l|§r §oConglomerate of conscious creatures mashed together from some unknown cause. Resembles that of a siphonophore shaped like a head.
+
+#DETERRENT
+lore.subspaceparasite.draconite=§lEpithet:§r Heblu §l|§r §oIt is perpetually caked in ash, burning from the inside out. Its chest and stomach function as a toxic hellforge, cycling extreme heat and corrosive byproducts through its body and the surrounding air. The process melts its own flesh as it runs, rupturing weak points and punching holes clean through its frame. Layers of skin continually char, split, and peel away, giving it a pale, ashy-white appearance. Evidence suggests it was formed from something sealed deep within netherrack, only recently forced back into existence. The growth was so violent and rapid that it shed itself faster than its body could stabilize- its head tearing free from the base of its neck during formation, leaving behind a blunt, stump-like structure. The internal combustion of its core sounds as if a freight train is carrying me through the deepest pits of hell.
+lore.subspaceparasite.kirin=§lEpithet:§r Kirin §l|§r §oKirin exists in a constant state of structural failure. Its body is perpetually on the verge of tearing itself apart, which explains its bruised, bloodied exterior and unstable movements. Large cavities line each of its hollow arm structures, acting as vents for excess heat and bursts of cosmic radiation generated internally. These openings along their body act as vents or outlets- without them, the entity would likely detonate. The strain placed on its form causes Kirin to molt daily. Each projection it manifests further destabilizes its body, forcing layers of damaged tissue to be shed and replaced at an alarming rate. The creature shows no signs of self-preservation. It has not yet failed completely. Else I would be dead.
+
+#CREATE WORLD MENU OPTIONS
+gui.subspaceparasite.worldsettings.title=SP World Settings
+gui.subspaceparasite.worldsettings.open=SP World Options...
+gui.subspaceparasite.worldsettings.subtitle=Placeholder options
+gui.subspaceparasite.worldsettings.done=Done
+
+# Labels
+gui.subspaceparasite.worldsettings.difficulty=Difficulty Preset
+gui.subspaceparasite.worldsettings.challenge=Challenge Configs
+gui.subspaceparasite.worldsettings.meteor=Meteor Infection
+
+# Difficulty options
+gui.subspaceparasite.worldsettings.difficulty.normal=§eNormal
+gui.subspaceparasite.worldsettings.difficulty.easy=§aEasy
+gui.subspaceparasite.worldsettings.difficulty.hard=§4Hard
+gui.subspaceparasite.worldsettings.difficulty.impossible=§4§lImpossible
+
+# Vectors Option
+gui.subspaceparasite.worldsettings.vectors=Vectors
+gui.subspaceparasite.worldsettings.vectors.enabled=§aEnabled
+gui.subspaceparasite.worldsettings.vectors.disabled=§4Disabled
+
+gui.subspaceparasite.worldsettings.tooltip.vectors.enabled=Emerging Infestation Vectors are enabled. Natural parasite spawning is confined to vector zones, which can grow over time. Parasites cannot naturally spawn outside an active vector.
+gui.subspaceparasite.worldsettings.tooltip.vectors.disabled=THIS BUTTON DOESN'T DO ANYTHING (WIP) Emerging Infestation Vectors are disabled. Natural parasite spawning is no longer confined to vector zones, allowing parasites to spawn throughout the world.
+
+# Challenge options
+gui.subspaceparasite.worldsettings.challenge.c1=Config §a1
+gui.subspaceparasite.worldsettings.challenge.c2=Config §e2
+gui.subspaceparasite.worldsettings.challenge.c3=Config §43
+gui.subspaceparasite.worldsettings.challenge.off=Off
+gui.subspaceparasite.worldsettings.tooltip.challenge.off=No additional challenge modifiers are applied.
+
+# Meteor options
+gui.subspaceparasite.worldsettings.meteor.on=§aOn
+gui.subspaceparasite.worldsettings.meteor.off=§4Off
+
+# Difficulty tooltips
+gui.subspaceparasite.worldsettings.tooltip.difficulty.easy=This is easy mode.
+gui.subspaceparasite.worldsettings.tooltip.difficulty.normal=This is normal mode.
+gui.subspaceparasite.worldsettings.tooltip.difficulty.hard=This is hard mode.
+gui.subspaceparasite.worldsettings.tooltip.difficulty.impossible=This is impossible mode.
+
+# Tooltips
+gui.subspaceparasite.worldsettings.tooltip.difficulty=Difficulty of the Infection
+gui.subspaceparasite.worldsettings.tooltip.challenge=Select a challenge configuration.
+gui.subspaceparasite.worldsettings.tooltip.challenge.c1=This is config 1's config.
+gui.subspaceparasite.worldsettings.tooltip.challenge.c2=This is config 2's config.
+gui.subspaceparasite.worldsettings.tooltip.challenge.c3=This is config 3's config.
+gui.subspaceparasite.worldsettings.tooltip.meteor=A meteor impact can occur after day %s. Checks every %s day(s) (%s ticks). Chance per check: %s%%. §4A high-risk, hastened option.
+
+# config openers
+gui.subspaceparasite.worldsettings.config.general=General Config
+gui.subspaceparasite.worldsettings.config.world=World Config
+gui.subspaceparasite.worldsettings.config.systems=Systems Config
+gui.subspaceparasite.worldsettings.config.mobs=Mobs Config
+
+# config viewer titles
+gui.subspaceparasite.config.title.general=SP Config: General
+gui.subspaceparasite.config.title.world=SP Config: World
+gui.subspaceparasite.config.title.systems=SP Config: Systems
+gui.subspaceparasite.config.title.mobs=SP Config: Mobs
+
+# other config stuff
+gui.subspaceparasite.config.apply=Apply
+gui.subspaceparasite.config.edit.title=Edit SP Config Value
+gui.subspaceparasite.config.edit.key=%s / %s
+gui.subspaceparasite.config.edit.todo=TODO: pwease save these changes back to the config file dhan.
+
+# Viewer subtitle + tooltips
+gui.subspaceparasite.config.subtitle.readonly=Read-only view (saving is WIP/TODO)
+gui.subspaceparasite.config.search=Search:
+
+# subspaceparasiteevolution errors
+command.subspaceparasiteevolution.prefix=§8[§dSP§8]§r
+command.subspaceparasiteevolution.error.evolution_disabled=§cEvolution phases are not active§r
+command.subspaceparasiteevolution.error.invalid_argument=§cInvalid argument§r
+command.subspaceparasiteevolution.error.invalid_arg=§cInvalid arg§r
+command.subspaceparasiteevolution.error.invalid_command=§cInvalid command§r
+command.subspaceparasiteevolution.error.generic=§cThere is an error§r
+
+# subspaceparasiteevolution evolutionloss
+command.subspaceparasiteevolution.evolutionloss.set.true=§7Current §esubspaceparasiteevolutionloss§7 is now §atrue§r
+command.subspaceparasiteevolution.evolutionloss.set.false=§7Current §esubspaceparasiteevolutionloss§7 is now §cfalse§r
+
+# subspaceparasiteevolution evolutiongain
+command.subspaceparasiteevolution.evolutiongaining.set.true=§7Current §esubspaceparasiteevolutiongaining§7 is now §atrue§r
+command.subspaceparasiteevolution.evolutiongaining.set.false=§7Current §esubspaceparasiteevolutiongaining§7 is now §cfalse§r
+
+# subspaceparasiteevolution evolution lock list
+command.subspaceparasiteevolution.evolutionlock.reset=§aThe list has been reset§r
+command.subspaceparasiteevolution.evolutionlock.unlockall=§aThe list is now empty§r
+command.subspaceparasiteevolution.evolutionlock.getlist=§7Current list: §f%s§r
+
+# subspaceparasiteevolution addpoints
+command.subspaceparasiteevolution.addpoints.error.phase_minus2=§cCurrent phase §4-2§c, cannot add points§r
+command.subspaceparasiteevolution.addpoints.error.cooldown=§cCurrent phase is in cooldown, cannot add/remove points§r
+command.subspaceparasiteevolution.addpoints.error.cannot_gain=§cCurrent dimension cannot gain points§r
+command.subspaceparasiteevolution.addpoints.error.cannot_lose=§cCurrent dimension cannot lose points§r
+
+command.subspaceparasiteevolution.addpoints.success.one=§aAdded §e%d§a point§r
+command.subspaceparasiteevolution.addpoints.success.many=§aAdded §e%d§a points§r
+
+# subspaceparasiteevolution setcooldown/addcooldown
+command.subspaceparasiteevolution.cooldown.error.negative=§cCooldown value must be positive or §e0§c§r
+command.subspaceparasiteevolution.cooldown.set=§aThe cooldown was set to §e%d§a second(s)§r
+
+# subspaceparasiteevolution setphase
+command.subspaceparasiteevolution.setphase.error.phase_too_high=§cInvalid argument: phase too high§r
+command.subspaceparasiteevolution.setphase.error.phase_too_low=§cInvalid argument: phase too low§r
+
+command.subspaceparasiteevolution.setphase.changed_phase=§aChanged Evolution Phase for Parasites to §e%s§r
+
+command.subspaceparasiteevolution.setphase.error.generation_too_high=§cInvalid argument: generation too high§r
+command.subspaceparasiteevolution.setphase.error.generation_too_low=§cInvalid argument: generation too low§r
+command.subspaceparasiteevolution.setphase.changed_generation=§aChanged Generation of Parasites to §e%s§r
+command.subspaceparasiteevolution.setphase.error.invalid_arg_evo=§cInvalid arg evo§r
+
+# subspaceparasiteevolution getphase
+command.subspaceparasiteevolution.getphase.header=§8§m-----§r §dSP Evolution§r §8§m-----§r
+
+command.subspaceparasiteevolution.getphase.dimension=§7 -> Dimension: §e%d§r
+command.subspaceparasiteevolution.getphase.phase=§7 -> Evolution Phase: §b%d§r
+command.subspaceparasiteevolution.getphase.total_points=§7 -> Total points: §a%d§r
+command.subspaceparasiteevolution.getphase.points_next=§7 -> Points required for next phase: §a%d§r
+command.subspaceparasiteevolution.getphase.progress=§7 -> Progress: §e%s%%§r
+command.subspaceparasiteevolution.getphase.cooldown=§7 -> Phase cooldown: §e%d§7 second(s) remaining§r
+
+command.subspaceparasiteevolution.getphase.gaining=§7 -> subspaceparasiteevolutiongaining: §f%s §8(§7True = can gain points§8)§r
+command.subspaceparasiteevolution.getphase.loss=§7 -> subspaceparasiteevolutionloss: §f%s §8(§7True = can lose points§8)§r
+
+command.subspaceparasiteevolution.getphase.dislodgement=§7 -> Dislodgment code:§r
+command.subspaceparasiteevolution.getphase.dislodgement.value=§f%s§r
+
+command.subspaceparasiteevolution.getphase.mobcap=§7 -> Parasite Mob Cap: §e%d§r
+command.subspaceparasiteevolution.getphase.generation=§7 -> Generation: §b%d§r
+command.subspaceparasiteevolution.getphase.gen_ticks=§7 -> Ticks needed for next Generation: §e%d§r
+command.subspaceparasiteevolution.getphase.udl=§7 -> Ubiquitous Development Level: §d%d§r
+command.subspaceparasiteevolution.getphase.parasite_count=§7 -> Parasite count: §c%d§r
+command.subspaceparasiteevolution.getphase.coth_count=§7 -> Number of Mobs with COTH: §5%d§r
+command.subspaceparasiteevolution.getphase.eivs=§7 -> EIVs in the world: §6%d§r
+
+command.subspaceparasiteevolution.getphase.footer=§8§m----------------------§r
+command.subspaceparasiteevolution.getphase.all=§8§m-----§r §dSP Evolution§r §8§m-----§r\n§7 -> Dimension: §e%d§r\n§7 -> Evolution Phase: §b%d§r\n§7 -> Total points: §a%d§r\n§7 -> Points required for next phase: §a%d§r\n§7 -> Progress: §e%s%%§r\n§7 -> Phase cooldown: §e%d§7 second(s) remaining§r\n§7 -> subspaceparasiteevolutiongaining: §f%s §8(§7True = can gain points§8)§r\n§7 -> subspaceparasiteevolutionloss: §f%s §8(§7True = can lose points§8)§r\n§7 -> Dislodgment code:§r\n§f%s§r\n§7 -> Parasite Mob Cap: §e%d§r\n§7 -> Generation: §b%d§r\n§7 -> Ticks needed for next Generation: §e%d§r\n§7 -> Ubiquitous Development Level: §d%d§r\n§7 -> Parasite count: §c%d§r\n§7 -> Number of Mobs with COTH: §5%d§r\n§7 -> EIVs in the world: §6%d§r\n§8§m----------------------§r

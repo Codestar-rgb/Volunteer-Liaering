@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:marauder",
+  "tier": "PURE",
+  "name_key": "entity.subspaceparasite.marauder.name",
+  "lore_key": "lore.subspaceparasite.marauder",
+  "render_scale": 0.85,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

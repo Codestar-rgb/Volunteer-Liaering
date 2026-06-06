@@ -1,0 +1,9 @@
+{
+  "parent": "block/cactus",
+  "textures": {
+    "particle": "subspaceparasite:block/infested_cactus",
+    "side": "subspaceparasite:block/infested_cactus",
+    "top": "subspaceparasite:block/infested_cactus_top",
+    "bottom": "subspaceparasite:block/infested_cactus_bottom"
+  }
+}

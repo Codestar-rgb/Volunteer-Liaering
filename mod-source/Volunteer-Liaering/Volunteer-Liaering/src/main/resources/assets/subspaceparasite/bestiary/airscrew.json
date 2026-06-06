@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:airscrew",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.airscrew.name",
+  "lore_key": "lore.subspaceparasite.airscrew",
+  "render_scale": 0.1,
+  "minlorekill": 2,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

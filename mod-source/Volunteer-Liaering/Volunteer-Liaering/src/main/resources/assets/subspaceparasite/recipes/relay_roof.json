@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "XSX",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:semiorganic_ingot"
+    },
+    "B": {
+      "item": "subspaceparasite:bone"
+    },
+    "S": {
+      "item": "subspaceparasite:tissue_spike"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:relay_roof",
+    "count": 1
+  }
+}

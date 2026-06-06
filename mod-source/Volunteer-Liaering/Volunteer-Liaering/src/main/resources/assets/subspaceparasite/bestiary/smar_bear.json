@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:smar_bear",
+  "tier": "ASSIMARA",
+  "name_key": "entity.subspaceparasite.smar_bear.name",
+  "lore_key": "lore.subspaceparasite.smar_bear",
+  "render_scale": 0.95,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

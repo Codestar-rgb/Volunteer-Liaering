@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:incompleteform_medium",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.incompleteform_medium.name",
+  "lore_key": "lore.subspaceparasite.incompleteform_medium",
+  "render_scale": 0.9,
+  "minlorekill": 4,
+  "minstatkill": 4,
+  "stats": {
+    "source": "entity"
+  }
+}

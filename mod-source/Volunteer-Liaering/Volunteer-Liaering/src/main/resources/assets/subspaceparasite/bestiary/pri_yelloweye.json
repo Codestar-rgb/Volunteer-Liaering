@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:pri_yelloweye",
+  "tier": "PRIMITIVE",
+  "name_key": "entity.subspaceparasite.pri_yelloweye.name",
+  "lore_key": "lore.subspaceparasite.pri_yelloweye",
+  "render_scale": 1.0,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "subspaceparasite_potted_assimilated",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:consumed_pot"
+    },
+    {
+      "item": "subspaceparasite:assimilated_blossom"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:potted_consumed_assimilated_blossom",
+    "count": 1
+  }
+}

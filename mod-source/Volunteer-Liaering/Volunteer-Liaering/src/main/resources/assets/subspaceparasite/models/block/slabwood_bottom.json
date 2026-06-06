@@ -1,0 +1,9 @@
+{
+  "parent": "block/half_slab",
+  "textures": {
+    "particle": "subspaceparasite:block/consumed_wood",
+    "bottom": "subspaceparasite:block/consumed_wood",
+    "top": "subspaceparasite:block/consumed_wood",
+    "side": "subspaceparasite:block/consumed_wood_side"
+  }
+}

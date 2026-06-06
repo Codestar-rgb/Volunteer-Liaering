@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:pri_summoner",
+  "tier": "PRIMITIVE",
+  "name_key": "entity.subspaceparasite.pri_summoner.name",
+  "lore_key": "lore.subspaceparasite.pri_summoner",
+  "render_scale": 0.95,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

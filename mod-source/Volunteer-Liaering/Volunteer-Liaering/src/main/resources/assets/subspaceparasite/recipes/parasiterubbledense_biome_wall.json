@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "subspaceparasite:parasiterubbledense",
+      "data": 1
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasiterubbledense_biome_wall",
+    "count": 6
+  }
+}

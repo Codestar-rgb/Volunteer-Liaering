@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "subspaceparasite:block/infuser_furnace"
+    },
+    "facing=south": {
+      "model": "subspaceparasite:block/infuser_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "subspaceparasite:block/infuser_furnace",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "subspaceparasite:block/infuser_furnace",
+      "y": 90
+    }
+  }
+}

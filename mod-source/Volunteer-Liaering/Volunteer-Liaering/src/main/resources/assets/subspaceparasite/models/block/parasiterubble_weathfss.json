@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/parasiterubble_weathfs_snow",
+    "down": "subspaceparasite:block/parasiterubble_weathfs",
+    "up": "subspaceparasite:block/parasite_snow",
+    "east": "subspaceparasite:block/parasiterubble_weathfs_snow",
+    "west": "subspaceparasite:block/parasiterubble_weathfs_snow",
+    "north": "subspaceparasite:block/parasiterubble_weathfs_snow",
+    "south": "subspaceparasite:block/parasiterubble_weathfs_snow"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_horse",
+  "tier": "ASSIMILATED",
+  "name_key": "entity.subspaceparasite.sim_horse.name",
+  "lore_key": "lore.subspaceparasite.sim_horse",
+  "render_scale": 0.95,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "subspaceparasite_alveoli",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:solid_alveoli_block"
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:alveoli",
+    "count": 2
+  }
+}

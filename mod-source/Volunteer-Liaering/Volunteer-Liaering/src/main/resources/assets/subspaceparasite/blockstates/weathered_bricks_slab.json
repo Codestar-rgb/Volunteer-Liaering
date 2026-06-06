@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/weathered_bricks_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/weathered_bricks_slab_top"
+    }
+  }
+}

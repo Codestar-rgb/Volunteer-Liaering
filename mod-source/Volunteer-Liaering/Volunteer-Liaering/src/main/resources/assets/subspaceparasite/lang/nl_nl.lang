@@ -1,0 +1,300 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Primitieve Langarm
+entity.subspaceparasite.pri_manducater.name=Primitieve Manducator
+entity.subspaceparasite.pri_summoner.name=Primitieve Oproeper
+entity.subspaceparasite.pri_reeker.name=Primitieve Reeker
+entity.subspaceparasite.pri_yelloweye.name=Primitieve Geeloog
+entity.subspaceparasite.pri_bolster.name=Primitieve Versterker
+entity.subspaceparasite.pri_arachnida.name=Primitieve Arachnida
+
+entity.subspaceparasite.host.name=Gastheer
+entity.subspaceparasite.sim_bear.name=Geassimileerde Beer
+entity.subspaceparasite.sim_enderman.name=Geassimileerde Enderman
+entity.subspaceparasite.sim_adventurer.name=Geassimileerde Avonturier
+entity.subspaceparasite.sim_bigspider.name=Geassimileerde Grote Spin
+entity.subspaceparasite.sim_human.name=Geassimileerd Mens
+entity.subspaceparasite.sim_humanhead.name=Wandelend Hoofd
+entity.subspaceparasite.sim_villager.name=Geassimileerde Dorpeling
+entity.subspaceparasite.sim_villagerhead.name=Walking Head
+entity.subspaceparasite.sim_cow.name=Geassimileerde Koe
+entity.subspaceparasite.sim_cowhead.name=Wandelend Hoofd
+entity.subspaceparasite.sim_horse.name=Geassimileerd Paard
+entity.subspaceparasite.sim_horsehead.name=Wandelend Hoofd
+entity.subspaceparasite.sim_pig.name=Geassimileerd Varken
+entity.subspaceparasite.sim_pighead.name=Wandelend Hoofd
+entity.subspaceparasite.sim_sheep.name=Geassimileerd Schaap
+entity.subspaceparasite.sim_sheephead.name=Wandelend Hoofd
+entity.subspaceparasite.sim_wolf.name=Geassimileerde Wolf
+entity.subspaceparasite.sim_wolfhead.name=Wandelend Hoofd
+entity.subspaceparasite.incompleteform_medium.name=Onvolledige Samenstelling
+entity.subspaceparasite.incompleteform_small.name=Onvolledige Samenstelling
+
+entity.subspaceparasite.overseer.name=Opzichter
+entity.subspaceparasite.bomber_light.name=Lichte Bommenwerper
+entity.subspaceparasite.carrier_heavy.name=Zware Drager
+entity.subspaceparasite.buglin.name=Rupter Larve
+entity.subspaceparasite.carrier_flying.name=Vliegende Drager
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Beckon Stadium I
+entity.subspaceparasite.beckon_sii.name=Beckon Stadium II
+entity.subspaceparasite.beckon_siii.name=Beckon Stadium III
+entity.subspaceparasite.beckon_siv.name=Beckon Stadium IV
+entity.subspaceparasite.beckon_sv.name=Beckon Stadium V
+entity.subspaceparasite.warden.name=Bewaker
+entity.subspaceparasite.marauder.name=Stroper
+entity.subspaceparasite.grunt.name=Soldaat
+entity.subspaceparasite.sentry.name=Wachter
+entity.subspaceparasite.kyphosis.name=Kyphose
+
+entity.subspaceparasite.anc_dreadnaut.name=Oeroude Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Oeroude Opperheer
+entity.subspaceparasite.vigilante.name=Wreker
+entity.subspaceparasite.movingflesh.name=Verplaatsend Vlees
+entity.subspaceparasite.tendril.name=Uitloper
+entity.subspaceparasite.anc_pod.name=Capsule
+entity.subspaceparasite.biomass.name=Biomassa
+entity.subspaceparasite.gore.name=Geronnen Bloed
+
+entity.subspaceparasite.ada_longarms.name=Aangepaste Langarm
+entity.subspaceparasite.ada_summoner.name=Aangepaste Oproeper
+entity.subspaceparasite.ada_manducater.name=Aangepaste Manducater
+entity.subspaceparasite.ada_reeker.name=Aangepaste Reeker
+entity.subspaceparasite.ada_yelloweye.name=Aangepaste Geeloog
+entity.subspaceparasite.ada_bolster.name=Aangepaste Versterker
+entity.subspaceparasite.ada_arachnida.name=Aangepaste Arachnida
+
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasieten
+
+//Items
+
+item.subspaceparasite.itemmobspawner_host.name=Spawn Gastheer
+item.subspaceparasite.itemmobspawner_infbear.name=Spawn Geassimileerde Beer
+item.subspaceparasite.itemmobspawner_infenderman.name=Spawn Geassimileerde Enderman 
+item.subspaceparasite.itemmobspawner_infplayer.name=Spawn Geassimileerde Avonturier
+item.subspaceparasite.itemmobspawner_dorpa.name=Spawn Assimilated Big Spider
+item.subspaceparasite.itemmobspawner_infhuman.name=Spawn Geassimileerd Mens
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Spawn Wandelend Hoofd (Mens)
+item.subspaceparasite.itemmobspawner_infvillager.name=Spawn Geassimileerde Dorpeling
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Spawn Wandelend Hoofd (Dorpeling)
+item.subspaceparasite.itemmobspawner_infcow.name=Spawn Geassimileerde Koe
+item.subspaceparasite.itemmobspawner_infcowhead.name=Spawn Wandelend Hoofd (Koe)
+item.subspaceparasite.itemmobspawner_infpig.name=Spawn Geassimileerd Varken
+item.subspaceparasite.itemmobspawner_infpighead.name=Spawn Wandelend Hoofd (Varken)
+item.subspaceparasite.itemmobspawner_infsheep.name=Spawn Geassimileerd Schaap
+item.subspaceparasite.itemmobspawner_infsheephead.name=Spawn Wandelend Hoofd (Schaap)
+item.subspaceparasite.itemmobspawner_infwolf.name=Spawn Geassimileerde Wolf
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Spawn Wandelend Hoofd (Wolf)
+item.subspaceparasite.itemmobspawner_infhorse.name=Spawn Geassimileerd Paard
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Spawn Wandelend Hoofd (Paard)
+item.subspaceparasite.itemmobspawner_inhoos.name=Spawn Onvolledige Samenstelling (Klein)
+item.subspaceparasite.itemmobspawner_inhoom.name=Spawn Onvolledige Samenstelling (Gemiddeld)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Spawn Opzichter
+item.subspaceparasite.itemmobspawner_omboo.name=Spawn Lichte Bommenwerper
+item.subspaceparasite.itemmobspawner_rathol.name=Spawn Zware Drager
+item.subspaceparasite.itemmobspawner_buthol.name=Spawn Vliegende Drager
+item.subspaceparasite.itemmobspawner_lodo.name=Spawn Rupter Larve
+item.subspaceparasite.itemmobspawner_mudo.name=Spawn Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Spawn Beckon Stadium I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Spawn Beckon Stadium II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Spawn Beckon Stadium III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Spawn Beckon Stadium IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Spawn Beckon Stadium V
+item.subspaceparasite.itemmobspawner_ganro.name=Spawn Bewaker
+item.subspaceparasite.itemmobspawner_esor.name=Spawn Stroper
+item.subspaceparasite.itemmobspawner_flog.name=Spawn Soldaat
+item.subspaceparasite.itemmobspawner_unvo.name=Spawn Wachter
+item.subspaceparasite.itemmobspawner_tonro.name=Spawn Kyphose
+
+item.subspaceparasite.itemmobspawner_oronco.name=Spawn Oeroude Dreadnaut
+item.subspaceparasite.itemmobspawner_terla.name=Spawn Oeroude Opperheer
+item.subspaceparasite.itemmobspawner_anged.name=Spawn Wreker
+item.subspaceparasite.itemmobspawner_lesh.name=Spawn Verplaatsend Vlees
+
+item.subspaceparasite.itemmobspawner_shyco.name=Spawn Primitieve Langarm
+item.subspaceparasite.itemmobspawner_hull.name=Spawn Primitieve Manducater
+item.subspaceparasite.itemmobspawner_canra.name=Spawn Primitieve Oproeper
+item.subspaceparasite.itemmobspawner_emana.name=Spawn Primitieve Geeloog
+item.subspaceparasite.itemmobspawner_nogla.name=Spawn Primitieve Reeker
+item.subspaceparasite.itemmobspawner_bano.name=Spawn Primitieve Versterker
+item.subspaceparasite.itemmobspawner_ranrac.name=Spawn Primitieve Arachnida
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Spawn Aangepaste Langarm
+item.subspaceparasite.itemmobspawner_canraadapted.name=Spawn Aangepaste Oproeper
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Spawn Aangepaste Reeker
+item.subspaceparasite.itemmobspawner_hulladapted.name=Spawn Aangepaste Manducater
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Spawn Aangepaste Geeloog
+item.subspaceparasite.itemmobspawner_banoadapted.name=Spawn Aangepaste Versterker
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Spawn Aangepaste Arachnida
+
+item.subspaceparasite.itemthrow.name=
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Vuile Klok
+item.subspaceparasite.weapon_scythe.name=Levende Zeis
+item.subspaceparasite.weapon_scythe_sentient.name=Bewuste Zeis
+item.subspaceparasite.weapon_bow.name=Levende Boog
+item.subspaceparasite.weapon_bow_sentient.name=Bewuste Boog
+item.subspaceparasite.weapon_axe.name=Levende Bijl
+item.subspaceparasite.weapon_axe_sentient.name=Bewuste Bijl
+
+item.subspaceparasite.bow_upperlimb.name=Levende Boog Bovenste Lid
+item.subspaceparasite.bow_lowerlimb.name=Levende Boog Onderste Lid
+item.subspaceparasite.bow_string.name=Levende Boog Koord
+item.subspaceparasite.bow_grip.name=Levende Boog Handvat
+item.subspaceparasite.bow_core.name=Levende Boog Middenstuk
+
+item.subspaceparasite.scythe_back.name=Levende Zeis Achterkant
+item.subspaceparasite.scythe_blade.name=Levende Zeis Blad
+item.subspaceparasite.scythe_core.name=Levende Zeis Middenstuk
+item.subspaceparasite.scythe_handle.name=Levende Zeis Handvat
+item.subspaceparasite.scythe_head.name=Levende Zeis Hoofd
+
+item.subspaceparasite.ada_longarms_drop.name=Langarm Pantserfragment
+item.subspaceparasite.ada_summoner_drop.name=Oproeper Kern
+item.subspaceparasite.ada_yelloweye_drop.name=Geeloogbot
+item.subspaceparasite.ada_reeker_drop.name=Reeker Slagtand
+item.subspaceparasite.ada_manducater_drop.name=Manducatorbol
+item.subspaceparasite.assimilated_flesh.name=Geïnfecteerd Vlees
+
+item.subspaceparasite.lurecomponent1.name=Fragiel Stuk
+item.subspaceparasite.lurecomponent2.name=Stinkend Stuk
+item.subspaceparasite.lurecomponent3.name=Verrot Deel
+item.subspaceparasite.lurecomponent4.name=Walgelijk Deel
+item.subspaceparasite.lurecomponent5.name=Vermolmd Segment
+item.subspaceparasite.lurecomponent6.name=Essentieel Segment
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Parasitische Kiemplant
+tile.subspaceparasite.parasitesapling_treethin.name=Parasitische Kiemplant
+tile.subspaceparasite.parasitesapling_flowertall.name=Parasitische Kiemplant
+
+tile.subspaceparasite.parasitebush_tendril.name=Parasitisch Net
+tile.subspaceparasite.parasitebush_pop.name=Parasitisch Vesikel
+tile.subspaceparasite.parasitebush_bine.name=Parasitische Wortels
+
+tile.subspaceparasite.subspaceparasiteweb.name=Web
+tile.subspaceparasite.biomeheart.name=Kern Parasitisch Klimaat
+tile.subspaceparasite.colonyheart.name=Kern Parasitische Kolonie
+tile.subspaceparasite.biomepurifier.name=Klimaat Reiniger
+tile.subspaceparasite.parasitestructure.name=Onvolledige Parasitische Kolonie-Structuur
+tile.subspaceparasite.parasitethin.name=Dunne Parasitische Stam
+tile.subspaceparasite.parasitemouth.name=Parasitische Mond
+tile.subspaceparasite.parasitetendril.name=Parasitische Rank
+tile.subspaceparasite.parasitefog.name=Mist
+
+tile.subspaceparasite.gore_sim_small.name=Geassimileerde Overblijfselen
+tile.subspaceparasite.gore_sim_big.name=Geassimileerde Overblijfselen
+tile.subspaceparasite.gore_pri_small.name=Primitieve Overblijfselen
+tile.subspaceparasite.gore_pri_big.name=Primitieve Overblijfselen
+tile.subspaceparasite.gore_ada_small.name=Aangepaste Overblijfselen
+tile.subspaceparasite.gore_ada_big.name=Aangepaste Overblijfselen
+tile.subspaceparasite.gore_pure_small.name=Pure Overblijfselen
+tile.subspaceparasite.gore_pure_big.name=Pure Overblijfselen
+
+tile.subspaceparasite.infestedstain.name=Aangetaste Aarde
+tile.subspaceparasite.infestedtrunk.name=Aangetaste Stam
+tile.subspaceparasite.infestedrubble.name=Aangetast Steen
+tile.subspaceparasite.infestremain.name=Aangetaste Restanten
+
+tile.subspaceparasite.infestedbush_infected.name=Aangetaste Nerven
+tile.subspaceparasite.infestedbush_grass1.name=Aangetaste Nerven
+tile.subspaceparasite.infestedbush_flower1.name=Aangetaste Nerven
+tile.subspaceparasite.infestedbush_spine.name=Aangetaste Nerven
+tile.subspaceparasite.infestedbush_vine.name=Aangetaste Nerven
+tile.subspaceparasite.infestedbush_arc.name=Aangetaste Nerven
+
+tile.subspaceparasite.parasitecanister_sac.name=Parasitische Zak
+tile.subspaceparasite.parasitecanister_cyst.name=Parasitisch Gezwel
+tile.subspaceparasite.parasitecanister_lump.name=Parasitische Bult
+tile.subspaceparasite.parasitecanister_bag.name=Parasitische Tas
+
+tile.subspaceparasite.parasitetrunk_ball.name=Parasitische Stam
+tile.subspaceparasite.parasitetrunk_tree.name=Parasitische Stam
+tile.subspaceparasite.parasitetrunk_plant.name=Parasitische Stam
+
+tile.subspaceparasite.parasitestain_dirt.name=Parasitische Aarde
+tile.subspaceparasite.parasitestain_mud.name=Parasitische Modder
+tile.subspaceparasite.parasitestain_flesh.name=Parasitisch Vlees
+tile.subspaceparasite.parasitestain_fleshstairs.name=Parasitische Vleestrap
+tile.subspaceparasite.parasitestain_feeler.name=Parasitische Aders
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Parasitische Plaat
+tile.subspaceparasite.parasiterubble_flesh.name=Geconcentreerd Parasitisch Vlees
+tile.subspaceparasite.parasiterubble_bone.name=Geconcentreerd Parasitisch Been
+tile.subspaceparasite.parasiterubble_bonestairs.name=Geconcentreerde Parasitische Benen Trap
+tile.subspaceparasite.parasiterubble_stone.name=Parasitisch Steen
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Samengedrukt Parasitisch Steen
+tile.subspaceparasite.parasiterubbledense_biome.name=Samengedrukt Parasitisch Klimaatsteen
+tile.subspaceparasite.parasiterubbledense_colony.name=Samengedrukte Parasitische Koloniesteen
+
+tile.subspaceparasite.evolutionlure_one.name=Lokaas (Verzwakt)
+tile.subspaceparasite.evolutionlure_two.name=Lokaas (Zwak)
+tile.subspaceparasite.evolutionlure_three.name=Lokaas (Beperkt)
+tile.subspaceparasite.evolutionlure_four.name=Lokaas (Stabiel)
+tile.subspaceparasite.evolutionlure_five.name=Lokaas (Aanzienklijk)
+tile.subspaceparasite.evolutionlure_six.name=Lokaas (Geconcentreerd)
+tile.subspaceparasite.evolutionlure_seven.name=Lokaas (Geconcentreerd+)
+tile.subspaceparasite.evolutionlure_eight.name=Lokaas (Geconcentreerd++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=Roep van de Zwerm
+splash_potion.effect.subspaceparasite:coth=Spattende Drank der Roep van de Zwerm
+potion.effect.subspaceparasite:coth=Drank der Roep van de zwerm
+lingering_potion.effect.subspaceparasite:coth=Aanhoudende Drank der Roep van de Zwerm
+tipped_arrow.effect.subspaceparasite:coth=Pijl der Roep van de Zwerm
+
+mob_effect.subspaceparasite:fear=Angst
+splash_potion.effect.subspaceparasite:fear=Spattende Drank der Angst
+potion.effect.subspaceparasite:fear=Drank der Angst
+lingering_potion.effect.subspaceparasite:fear=Aanhoudende Drank der Angst
+tipped_arrow.effect.subspaceparasite:fear=Pijl der Angst
+
+mob_effect.subspaceparasite:antimall=Onklopbaarheid
+splash_potion.effect.subspaceparasite:antimall=Spattende Drank der Onklopbaarheid
+potion.effect.subspaceparasite:antimall=Drank der Onklopbaarheid
+lingering_potion.effect.subspaceparasite:antimall=Aanhoudende Drank der Onklopbaarheid
+tipped_arrow.effect.subspaceparasite:antimall=Pijl der Onklopbaarheid
+
+mob_effect.subspaceparasite:bleed=Bloeding
+splash_potion.effect.subspaceparasite:bleed=Spattende Drank der Bloeding
+potion.effect.subspaceparasite:bleed=Drank der Bloeding
+lingering_potion.effect.subspaceparasite:bleed=Aanhoudende Drank der Bloeding
+tipped_arrow.effect.subspaceparasite:bleed=Pijl der Bloeding
+
+mob_effect.subspaceparasite:corrosive=Corrosie
+splash_potion.effect.subspaceparasite:corrosive=Spattende Drank der Corrosie
+potion.effect.subspaceparasite:corrosive=Drank der Corrosie
+lingering_potion.effect.subspaceparasite:corrosive=Aanhoudende Drank der Corrosie
+tipped_arrow.effect.subspaceparasite:corrosive=Pijl der Corrosie
+
+mob_effect.subspaceparasite:viral=Viraal
+splash_potion.effect.subspaceparasite:viral=Spattende Drank der Viraal
+potion.effect.subspaceparasite:viral=Drank der Viraal
+lingering_potion.effect.subspaceparasite:viral=Aanhoudende Drank der Viraal
+tipped_arrow.effect.subspaceparasite:viral=Pijl der Viraal
+
+mob_effect.subspaceparasite:rage=Woede
+splash_potion.effect.subspaceparasite:rage=Spattende Drank der Woede
+potion.effect.subspaceparasite:rage=Drank der Woede
+lingering_potion.effect.subspaceparasite:rage=Aanhoudende Drank der Woede
+tipped_arrow.effect.subspaceparasite:rage=Pijl der Woede
+
+mob_effect.subspaceparasite:repel=Camouflage
+splash_potion.effect.subspaceparasite:repel=Spattende Drank der Camouflage
+potion.effect.subspaceparasite:repel=Drank der Camouflage
+lingering_potion.effect.subspaceparasite:repel=Aanhoudende Drank der Camouflage
+tipped_arrow.effect.subspaceparasite:repel=Pijl de Camouflage
+
+//extra
+
+message.subspaceparasite.lure=Punten vermindert!
+message.subspaceparasite.fearitem=Je raakt in paniek!
+message.subspaceparasite.fearblock=Je raakt in paniek!
+message.subspaceparasite.feargui=Je raakt in paniek!
+message.subspaceparasite.evolutionsleep=Je kan niet slapen...

@@ -1,0 +1,28 @@
+{
+  "parent": "subspaceparasite:kill_deterrent",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:itemmobspawner_heblu"
+    },
+    "title": {
+      "translate": "advancement.subspaceparasite.hellfire_chemical_warfare.title"
+    },
+    "description": {
+      "translate": "advancement.subspaceparasite.hellfire_chemical_warfare.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_draconite": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "subspaceparasite:draconite"
+        }
+      }
+    }
+  }
+}

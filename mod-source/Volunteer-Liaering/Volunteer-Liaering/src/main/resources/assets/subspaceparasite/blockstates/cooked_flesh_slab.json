@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/cooked_flesh_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/cooked_flesh_slab_top"
+    }
+  }
+}

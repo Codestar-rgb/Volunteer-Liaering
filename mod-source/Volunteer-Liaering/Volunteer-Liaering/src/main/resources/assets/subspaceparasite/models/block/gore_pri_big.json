@@ -1,0 +1,6 @@
+{
+  "parent": "subspaceparasite:block/gore_base",
+  "textures": {
+    "texture": "subspaceparasite:block/parasitegore_pri_big"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:carrier_heavy",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.carrier_heavy.name",
+  "lore_key": "lore.subspaceparasite.carrier_heavy",
+  "render_scale": 1.0,
+  "minlorekill": 2,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

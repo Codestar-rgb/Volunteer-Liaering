@@ -1,0 +1,211 @@
+{
+  "variants": {
+    "variant=flesh": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_flesh"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_flesh",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_flesh",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_flesh",
+        "y": 270
+      }
+    ],
+    "variant=bone": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_bone"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bone",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bone",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bone",
+        "y": 270
+      }
+    ],
+    "variant=stone": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_stone"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stone",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stone",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stone",
+        "y": 270
+      }
+    ],
+    "variant=fungus": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_fungus"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_fungus",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_fungus",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_fungus",
+        "y": 270
+      }
+    ],
+    "variant=obsidian": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_obsidian"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_obsidian",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_obsidian",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_obsidian",
+        "y": 270
+      }
+    ],
+    "variant=bricks": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_bricks"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bricks",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bricks",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_bricks",
+        "y": 270
+      }
+    ],
+    "variant=wood": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_wood"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_wood",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_wood",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_wood",
+        "y": 270
+      }
+    ],
+    "variant=metal": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_metal"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_metal",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_metal",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_metal",
+        "y": 270
+      }
+    ],
+    "variant=stonedebris": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_stonedebris"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stonedebris",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stonedebris",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_stonedebris",
+        "y": 270
+      }
+    ],
+    "variant=weathb": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathb"
+      }
+    ],
+    "variant=weathbs": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathbs"
+      }
+    ],
+    "variant=weathbc": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathbc"
+      }
+    ],
+    "variant=weathbcs": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathbcs"
+      }
+    ],
+    "variant=weathfs": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfs"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfs",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfs",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfs",
+        "y": 270
+      }
+    ],
+    "variant=weathfss": [
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfss"
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfss",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfss",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiterubble_weathfss",
+        "y": 270
+      }
+    ]
+  }
+}

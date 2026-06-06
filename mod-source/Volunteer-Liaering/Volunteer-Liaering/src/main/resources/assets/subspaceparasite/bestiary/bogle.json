@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:bogle",
+  "tier": "PREEMINENT",
+  "name_key": "entity.subspaceparasite.bogle.name",
+  "lore_key": "lore.subspaceparasite.bogle",
+  "render_scale": 0.65,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

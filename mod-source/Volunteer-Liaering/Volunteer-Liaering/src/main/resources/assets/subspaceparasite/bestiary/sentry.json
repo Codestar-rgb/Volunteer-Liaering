@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sentry",
+  "tier": "DETERRENT",
+  "name_key": "entity.subspaceparasite.sentry.name",
+  "lore_key": "lore.subspaceparasite.sentry",
+  "render_scale": 1.0,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

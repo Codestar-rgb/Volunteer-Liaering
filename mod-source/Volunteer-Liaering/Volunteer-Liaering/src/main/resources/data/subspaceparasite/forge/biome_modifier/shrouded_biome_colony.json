@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "subspaceparasite:biomeparasite_shrouded",
+  "features": "subspaceparasite:parasite_colony",
+  "step": "surface_structures"
+}

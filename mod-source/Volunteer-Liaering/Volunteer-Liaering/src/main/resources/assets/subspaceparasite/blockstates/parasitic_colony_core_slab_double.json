@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "subspaceparasite:block/parasitic_colony_core_slab_double"
+    },
+    "half=bottom": {
+      "model": "subspaceparasite:block/parasitic_colony_core_slab_double"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/parasitic_colony_core_slab_double"
+    }
+  }
+}

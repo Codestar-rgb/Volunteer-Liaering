@@ -1,0 +1,23 @@
+{
+  "parent": "subspaceparasite:columbus",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:vector_map"
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.stolas.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.stolas.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "unlock": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

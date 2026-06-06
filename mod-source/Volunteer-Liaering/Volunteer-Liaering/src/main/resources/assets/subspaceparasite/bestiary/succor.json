@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:succor",
+  "tier": "PREEMINENT",
+  "name_key": "entity.subspaceparasite.succor.name",
+  "lore_key": "lore.subspaceparasite.succor",
+  "render_scale": 0.65,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

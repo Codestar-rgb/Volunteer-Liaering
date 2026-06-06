@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X  ",
+    "XX ",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:flesh_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:flesh_stairs",
+    "data": 0,
+    "count": 4
+  }
+}

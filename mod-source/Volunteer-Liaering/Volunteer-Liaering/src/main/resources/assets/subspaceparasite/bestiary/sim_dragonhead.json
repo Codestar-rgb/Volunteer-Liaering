@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_dragonehead",
+  "tier": "WALKING_HEAD",
+  "name_key": "entity.subspaceparasite.sim_dragonhead.name",
+  "lore_key": "lore.subspaceparasite.sim_dragonhead",
+  "render_scale": 0.8,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

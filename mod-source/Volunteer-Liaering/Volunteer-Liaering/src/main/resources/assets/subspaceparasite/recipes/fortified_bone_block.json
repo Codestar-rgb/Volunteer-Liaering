@@ -1,0 +1,26 @@
+{
+  "type": "forge:ore_shaped",
+  "mirrored": true,
+  "pattern": [
+    "YY",
+    "YY"
+  ],
+  "key": {
+    "Y": [
+      {
+        "item": "subspaceparasite:ada_yelloweye_drop"
+      },
+      {
+        "item": "subspaceparasite:bone"
+      },
+      {
+        "item": "subspaceparasite:ada_reeker_drop"
+      }
+    ]
+  },
+  "result": {
+    "item": "subspaceparasite:parasiterubble",
+    "data": 1,
+    "count": 4
+  }
+}

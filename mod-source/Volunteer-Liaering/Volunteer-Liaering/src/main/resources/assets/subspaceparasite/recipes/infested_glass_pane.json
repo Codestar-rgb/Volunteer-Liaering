@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "subspaceparasite:glass_panes",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:infested_glass"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:infested_glass_pane",
+    "count": 16
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/dead_head_plank_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/dead_head_plank_slab_top"
+    }
+  }
+}

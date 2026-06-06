@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/parasitic_compressed_colony_stone_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/parasitic_compressed_colony_stone_slab_top"
+    }
+  }
+}

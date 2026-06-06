@@ -1,0 +1,16 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:infested_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:infested_plank_wall",
+    "count": 6
+  }
+}

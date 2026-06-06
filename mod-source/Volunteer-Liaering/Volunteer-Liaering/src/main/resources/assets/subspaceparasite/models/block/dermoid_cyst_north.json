@@ -1,0 +1,51 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "subspaceparasite:block/dermoid_cyst_side",
+    "front": "subspaceparasite:block/dermoid_cyst_front",
+    "back": "subspaceparasite:block/dermoid_cyst_back",
+    "side": "subspaceparasite:block/dermoid_cyst_side",
+    "top": "subspaceparasite:block/dermoid_cyst_top",
+    "bottom": "subspaceparasite:block/dermoid_cyst_bottom"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "texture": "#front"
+        },
+        "south": {
+          "texture": "#back"
+        },
+        "east": {
+          "texture": "#side",
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#side"
+        },
+        "up": {
+          "texture": "#top"
+        },
+        "down": {
+          "texture": "#bottom"
+        }
+      }
+    }
+  ]
+}

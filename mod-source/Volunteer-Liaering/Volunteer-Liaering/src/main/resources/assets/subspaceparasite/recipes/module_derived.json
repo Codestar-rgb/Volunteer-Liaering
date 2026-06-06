@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " N ",
+    "AMA",
+    " B "
+  ],
+  "key": {
+    "A": { "item": "subspaceparasite:module_ancient" },
+    "M": { "item": "subspaceparasite:false_apple" },
+    "N": { "item": "subspaceparasite:trophy_void_orb" },
+    "B": { "item": "subspaceparasite:trophy_boom_orb" }
+  },
+  "result": { "item": "subspaceparasite:module_derived" }
+}

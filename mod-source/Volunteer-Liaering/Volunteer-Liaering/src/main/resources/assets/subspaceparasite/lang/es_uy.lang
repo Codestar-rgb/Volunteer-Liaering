@@ -1,0 +1,474 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=Longarms Primitivo
+entity.subspaceparasite.pri_manducater.name=Manducater Primitivo
+entity.subspaceparasite.pri_summoner.name=Summoner Primitivo
+entity.subspaceparasite.pri_reeker.name=Reeker Primitivo
+entity.subspaceparasite.pri_yelloweye.name=Yelloweye Primitivo
+entity.subspaceparasite.pri_bolster.name=Bolster Primitivo
+entity.subspaceparasite.pri_arachnida.name=Arachnida Primitivo
+entity.subspaceparasite.pri_devourer.name=Devourer Primitivo
+
+entity.subspaceparasite.host.name=Host
+entity.subspaceparasite.hostii.name=Herd
+entity.subspaceparasite.crux.name=Crux
+entity.subspaceparasite.heed.name=Heed
+entity.subspaceparasite.thrall.name=Thrall
+
+entity.subspaceparasite.sim_bear.name=Oso Asimilado
+entity.subspaceparasite.sim_enderman.name=Enderman Asimilado
+entity.subspaceparasite.sim_endermanhead.name=Cabeza caminante (Enderman)
+entity.subspaceparasite.sim_adventurer.name=Aventurero Asimilado
+entity.subspaceparasite.sim_adventurerhead.name=Cabeza Caminante (Aventurero)
+entity.subspaceparasite.sim_bigspider.name=Aracnido Grande Asimilado
+entity.subspaceparasite.sim_human.name=Humano Asimilado
+entity.subspaceparasite.sim_humanhead.name=Cabeza Caminante (Humano)
+entity.subspaceparasite.sim_villager.name=Aldeano Asimilado
+entity.subspaceparasite.sim_villagerhead.name=Cabeza Caminante (Aldeano)
+entity.subspaceparasite.sim_cow.name=Vaca Asimilada
+entity.subspaceparasite.sim_cowhead.name=Cabeza Caminante (Vaca)
+entity.subspaceparasite.sim_horse.name=Caballo Asimilado
+entity.subspaceparasite.sim_horsehead.name=Cabeza Caminante (Caballo)
+entity.subspaceparasite.sim_pig.name=Cerdo Asimilado
+entity.subspaceparasite.sim_pighead.name=Cabeza Caminante (Cerdo)
+entity.subspaceparasite.sim_sheep.name=Oveja Asimilada
+entity.subspaceparasite.sim_sheephead.name=Cabeza Caminante (Oveja)
+entity.subspaceparasite.sim_wolf.name=Lobo Asimilado
+entity.subspaceparasite.sim_wolfhead.name=Cabeza Caminante (Lobo)
+entity.subspaceparasite.incompleteform_medium.name=Forma Incompleta Media
+entity.subspaceparasite.incompleteform_small.name=Forma Incompleta Menor
+entity.subspaceparasite.sim_dragone.name=Ender Dragon Asimilado
+entity.subspaceparasite.sim_dragonehead.name=Cabeza Caminante (Dragon)
+
+entity.subspaceparasite.overseer.name=Overseer
+entity.subspaceparasite.bomber_light.name=Bomber Ligero
+entity.subspaceparasite.carrier_heavy.name=Carrier Pesado
+entity.subspaceparasite.buglin.name=Buglin
+entity.subspaceparasite.mangler.name=Mangler
+entity.subspaceparasite.worker.name=Worker
+entity.subspaceparasite.carrier_flying.name=Carrier Flotante
+entity.subspaceparasite.rupter.name=Rupter
+entity.subspaceparasite.beckon_si.name=Beckon Fase I
+entity.subspaceparasite.beckon_sii.name=Beckon Fase II
+entity.subspaceparasite.beckon_siii.name=Beckon Fase III
+entity.subspaceparasite.beckon_siv.name=Beckon Fase IV
+entity.subspaceparasite.beckon_sv.name=Beckon Fase V
+entity.subspaceparasite.warden.name=Warden
+entity.subspaceparasite.marauder.name=Marauder
+entity.subspaceparasite.monarch.name=Monarch 
+entity.subspaceparasite.grunt.name=Grunt
+entity.subspaceparasite.sentry.name=Sentry
+entity.subspaceparasite.kyphosis.name=Kyphosis
+entity.subspaceparasite.dispatcherten.name=Tentaculo de Dispatcher
+entity.subspaceparasite.dispatcher_si.name=Dispatcher Fase I
+entity.subspaceparasite.dispatcher_sii.name=Dispatcher Fase II
+entity.subspaceparasite.dispatcher_siii.name=Dispatcher Fase III
+entity.subspaceparasite.dispatcher_siv.name=Dispatcher Fase IV
+entity.subspaceparasite.seizer.name=Seizer
+
+entity.subspaceparasite.bomber_heavy.name=Bombardero Pesado
+entity.subspaceparasite.carrier_colony.name=Colony Carrier
+entity.subspaceparasite.wraith.name=Wraith
+entity.subspaceparasite.bogle.name=Bogle
+entity.subspaceparasite.haunter.name=Haunter
+entity.subspaceparasite.succor.name=Succor
+
+entity.subspaceparasite.anc_dreadnaut.name=Antiguo Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Antiguo Overlord
+entity.subspaceparasite.vigilante.name=Vigilante
+entity.subspaceparasite.movingflesh.name=Carne Andante
+entity.subspaceparasite.tendril.name=Zarcillo
+entity.subspaceparasite.anc_pod.name=Capsula
+entity.subspaceparasite.biomass.name=Biomasa
+entity.subspaceparasite.gore.name=Gore
+
+entity.subspaceparasite.ada_longarms.name=Longarms Adaptado
+entity.subspaceparasite.ada_summoner.name=Summoner Adaptado
+entity.subspaceparasite.ada_manducater.name=Manducater Adaptado
+entity.subspaceparasite.ada_reeker.name=Reeker Adaptado
+entity.subspaceparasite.ada_yelloweye.name=Yelloweye Adaptado
+entity.subspaceparasite.ada_bolster.name=Bolster Adaptado
+entity.subspaceparasite.ada_arachnida.name=Arachnida Adaptado
+
+entity.subspaceparasite.remain.name=Remain
+//Creative Tab
+
+itemGroup.SPParasites=SR:Parasites
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=Generar Pod
+
+item.subspaceparasite.itemmobspawner_host.name=Generar Host
+item.subspaceparasite.itemmobspawner_hostii.name=Generar Herd
+item.subspaceparasite.itemmobspawner_heed.name=Generar Heed
+item.subspaceparasite.itemmobspawner_cruxa.name=Generar Crux
+item.subspaceparasite.itemmobspawner_mes.name=Generar Thrall
+
+item.subspaceparasite.itemmobspawner_infbear.name=Generar Oso Asimilado
+item.subspaceparasite.itemmobspawner_infenderman.name=Generar Enderman Asimilado 
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Generar Cabeza Caminante (Enderman)
+item.subspaceparasite.itemmobspawner_infplayer.name=Generar Aventurero Asimilado
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Generar Cabeza Caminante (Aventurero)
+item.subspaceparasite.itemmobspawner_dorpa.name=Generar Gran Aracnido Asimilado
+item.subspaceparasite.itemmobspawner_infhuman.name=Generar Humano Asimilado
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Generar Cabeza Caminante (Humano)
+item.subspaceparasite.itemmobspawner_infvillager.name=Generar Aldeano Asimilado
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Generar Cabeza Caminante (Aldeano)
+item.subspaceparasite.itemmobspawner_infcow.name=Generar Vaca Asimilada
+item.subspaceparasite.itemmobspawner_infcowhead.name=Generar Cabeza Caminante (Vaca)
+item.subspaceparasite.itemmobspawner_infpig.name=Generar Cerdo Asimilado
+item.subspaceparasite.itemmobspawner_infpighead.name=Generar Cabeza Caminante (Cerdo)
+item.subspaceparasite.itemmobspawner_infsheep.name=Generar Oveja Asimilada
+item.subspaceparasite.itemmobspawner_infsheephead.name=Generar Cabeza Caminante (Oveja)
+item.subspaceparasite.itemmobspawner_infwolf.name=Generar Lobo Asimilado
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Generar Cabeza Caminante (Lobo)
+item.subspaceparasite.itemmobspawner_infhorse.name=Generar Caballo Asimilado 
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Generar Cabeza Caminante (Caballo)
+item.subspaceparasite.itemmobspawner_inhoos.name=Generar Forma Incompleta (Menor)
+item.subspaceparasite.itemmobspawner_inhoom.name=Generar Forma Incompleta (Mediana)
+item.subspaceparasite.itemmobspawner_infdragone.name=Generar Ender Dragon Asimilado
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Generar Cabeza Caminante (Ender Dragon)
+
+item.subspaceparasite.itemmobspawner_alafha.name=Generar Overseer
+item.subspaceparasite.itemmobspawner_omboo.name=Generar Bombardero Ligero
+item.subspaceparasite.itemmobspawner_rathol.name=Generar Carguero Pesado
+item.subspaceparasite.itemmobspawner_buthol.name=Generar Carguero Flotante
+item.subspaceparasite.itemmobspawner_lodo.name=Generar Buglin
+item.subspaceparasite.itemmobspawner_nuuh.name=Generar Mangler
+item.subspaceparasite.itemmobspawner_worker.name=Generar Obrero
+item.subspaceparasite.itemmobspawner_mudo.name=Generar Rupter
+item.subspaceparasite.itemmobspawner_venkrol.name=Generar Beckon Fasee I
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Generar Beckon Fasee II
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Generar Beckon Fase III
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Generar Beckon Fase IV
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Generar Beckon Fase V
+item.subspaceparasite.itemmobspawner_ganro.name=Generar Warden
+item.subspaceparasite.itemmobspawner_esor.name=Generar Marauder
+item.subspaceparasite.itemmobspawner_orch.name=Generar Monarch 
+item.subspaceparasite.itemmobspawner_flog.name=Generar Grunt
+item.subspaceparasite.itemmobspawner_unvo.name=Generar Sentry 
+item.subspaceparasite.itemmobspawner_tonro.name=Generar Kyphosis
+item.subspaceparasite.itemmobspawner_dod.name=Generar Dispatcher Fase I
+item.subspaceparasite.itemmobspawner_dodsii.name=Generar Dispatcher Stage II
+item.subspaceparasite.itemmobspawner_dodsiii.name=Generar Dispatcher Fase III
+item.subspaceparasite.itemmobspawner_dodsiv.name=Generar Dispatcher Fase IV
+item.subspaceparasite.itemmobspawner_nak.name=Generar Seizer
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Generar Bombardero Pesado
+item.subspaceparasite.itemmobspawner_vesta.name=Generar Colony Carrier
+item.subspaceparasite.itemmobspawner_elvia.name=Generar Wraith
+item.subspaceparasite.itemmobspawner_lencia.name=Generar Bogle
+item.subspaceparasite.itemmobspawner_pheon.name=Generar Haunter
+item.subspaceparasite.itemmobspawner_flam.name=Generar Succor
+
+item.subspaceparasite.itemmobspawner_oronco.name=Generar Dreadnaut Antiguo
+item.subspaceparasite.itemmobspawner_terla.name=Generar Overlord Antiguo
+item.subspaceparasite.itemmobspawner_anged.name=Generar Vigilante
+item.subspaceparasite.itemmobspawner_lesh.name=Generar Carne Andante
+
+item.subspaceparasite.itemmobspawner_shyco.name=Generar Longarms Primitivo
+item.subspaceparasite.itemmobspawner_hull.name=Generar Manducater Primitivo
+item.subspaceparasite.itemmobspawner_canra.name=Generar Summoner Primitivo
+item.subspaceparasite.itemmobspawner_emana.name=Generar Yelloweye Primitivo
+item.subspaceparasite.itemmobspawner_nogla.name=Generar Reeker Primitivo
+item.subspaceparasite.itemmobspawner_bano.name=Generar Bolster Primitivo
+item.subspaceparasite.itemmobspawner_ranrac.name=Generar Arachnida Primitivo
+item.subspaceparasite.itemmobspawner_lum.name=Generar Devourer Primitivo
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Generar Longarms Adaptado
+item.subspaceparasite.itemmobspawner_canraadapted.name=Generar Summoner Adaptado
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Generar Reeker Adaptado
+item.subspaceparasite.itemmobspawner_hulladapted.name=Generar Manducater Adaptado
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Generar Yelloweye Adaptado
+item.subspaceparasite.itemmobspawner_banoadapted.name=Generar Bolster Adaptado
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Generar Arachnida Adaptado
+
+item.subspaceparasite.itemthrow.name=Quench
+item.subspaceparasite.itemtab.name=NULL
+item.subspaceparasite.evclock.name=Reloj Sangriento
+item.subspaceparasite.weapon_scythe.name=Hoz Viviente
+item.subspaceparasite.weapon_scythe_sentient.name=Gran Hoz Consciente
+item.subspaceparasite.weapon_bow.name=Arco Viviente
+item.subspaceparasite.weapon_bow_sentient.name=Gran Arco Consciente
+item.subspaceparasite.weapon_axe.name=Hacha Viviente
+item.subspaceparasite.weapon_axe_sentient.name=Gran Hacha Consciente
+item.subspaceparasite.weapon_sword.name=Espada Viviente
+item.subspaceparasite.weapon_sword_sentient.name=Gran Espada Consciente
+item.subspaceparasite.weapon_cleaver.name=Cuchilla Viviente
+item.subspaceparasite.weapon_cleaver_sentient.name=Gran Cuchilla Consciente
+
+item.subspaceparasite.armor_helm.name=Casco Viviente
+item.subspaceparasite.armor_chest.name=Pechera Viviente
+item.subspaceparasite.armor_pants.name=Grebas Vivientes
+item.subspaceparasite.armor_boots.name=Botas Vivientes
+item.subspaceparasite.armor_helm_sentient.name=Casco Consciente
+item.subspaceparasite.armor_chest_sentient.name=Pechera Consciente
+item.subspaceparasite.armor_pants_sentient.name=Grebas Conscientes
+item.subspaceparasite.armor_boots_sentient.name=Botas Conscientes
+
+//////
+item.subspaceparasite.bow_upperlimb.name=Brazo superior del Gran Arco Viviente
+item.subspaceparasite.bow_lowerlimb.name=Brazo inferior del Gran Arco Viviente
+item.subspaceparasite.bow_string.name=Cuerda del Gran Arco Viviente
+item.subspaceparasite.bow_grip.name=Mango del Gran Arco Viviente
+item.subspaceparasite.bow_core.name=Nucleo del Gran Arco Viviente
+
+item.subspaceparasite.scythe_back.name=Parte trasera de la Hoz Viviente
+item.subspaceparasite.scythe_blade.name=Cuchilla de la Hoz Viviente
+item.subspaceparasite.scythe_core.name=Nucleo de la Hoz Viviente
+item.subspaceparasite.scythe_handle.name=Mango de la Hoz Viviente
+item.subspaceparasite.scythe_head.name=Cabeza de la Hoz Viviente
+///////
+
+item.subspaceparasite.dried_tendons.name=Tendones secos
+item.subspaceparasite.hardened_bone_handle.name=Mango de hueso endurecido
+item.subspaceparasite.infectious_blade_fragment.name=Pieza de cuchilla infecciosa
+item.subspaceparasite.living_core.name=Nucleo Viviente
+item.subspaceparasite.vile_shell.name=Carcasa vil
+item.subspaceparasite.bone.name=Hueso raro
+
+
+item.subspaceparasite.ada_longarms_drop.name=Fragmento de armadura de Longarms
+item.subspaceparasite.ada_summoner_drop.name=Nucleo de Summoner
+item.subspaceparasite.ada_yelloweye_drop.name=Hueso de Yelloweye
+item.subspaceparasite.ada_reeker_drop.name=Colmillo de Reeker
+item.subspaceparasite.ada_manducater_drop.name=Orbe de Manducater
+item.subspaceparasite.ada_bolster_drop.name=Carcasa de Bolster
+item.subspaceparasite.ada_arachnida_drop.name=Garra de Arachnida
+item.subspaceparasite.ada_devourer_drop.name=Tentaculo de Devourer
+
+item.subspaceparasite.assimilated_flesh.name=Carne infectada
+item.subspaceparasite.beckon_drop.name=Membrana de Beckon
+item.subspaceparasite.dispatcher_drop.name=Membrana de Dispatcher
+
+item.subspaceparasite.lurecomponent1.name=Visceras de Rupter
+item.subspaceparasite.lurecomponent2.name=Corazon enfermizo 
+item.subspaceparasite.lurecomponent3.name=Tendones alterados
+item.subspaceparasite.lurecomponent4.name=Pulmon toxico
+item.subspaceparasite.lurecomponent5.name=Cerebro nocivo
+item.subspaceparasite.lurecomponent6.name=Segmento escencial
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Brote Venoso
+tile.subspaceparasite.parasitesapling_treethin.name=Brote Monstruoso
+tile.subspaceparasite.parasitesapling_flowertall.name=Brote Oscuro
+
+tile.subspaceparasite.parasitebush_tendril.name=Brote capilar
+tile.subspaceparasite.parasitebush_pop.name=Vesicula parasitaria
+tile.subspaceparasite.parasitebush_bine.name=Rizo nervioso
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=Red
+tile.subspaceparasite.subspaceparasiteweb_two.name=Red
+tile.subspaceparasite.subspaceparasiteweb_three.name=Red
+tile.subspaceparasite.tunnel.name=Tunel
+tile.subspaceparasite.dispatchern.name=Nido de Dispatcher
+tile.subspaceparasite.biomeheart.name=Nucleo de la colmena
+tile.subspaceparasite.colonyheart.name=Nucleo de colonia parasitaria
+tile.subspaceparasite.biomepurifier.name=Purificador de boma
+tile.subspaceparasite.parasitestructure.name=Estructura incompleta de colonia parasitaria
+tile.subspaceparasite.parasitethin.name=Tronco parasitario delgado
+tile.subspaceparasite.parasitemouth.name=Fauces
+tile.subspaceparasite.parasitetendril.name=Zarcillo parasitario
+tile.subspaceparasite.parasitefog.name=Niebla
+
+tile.subspaceparasite.gore_sim_small.name=Restos de Asimilado
+tile.subspaceparasite.gore_sim_big.name=Restos de Asimilado
+tile.subspaceparasite.gore_sim_flat.name=Restos de Primitivo
+tile.subspaceparasite.gore_pri_small.name=Restos de Primitivo
+tile.subspaceparasite.gore_pri_big.name=Restos de Primitivo
+tile.subspaceparasite.gore_pri_flat.name=Restos de Primitivo
+tile.subspaceparasite.gore_ada_small.name=Restos de Adaptado
+tile.subspaceparasite.gore_ada_big.name=Restos de Adaptado
+tile.subspaceparasite.gore_ada_flat.name=Restos de Adaptado
+tile.subspaceparasite.gore_pure_small.name=Restos de Puros
+tile.subspaceparasite.gore_pure_big.name=Restos de Puros
+tile.subspaceparasite.gore_pure_flat.name=Restos de Puros
+
+tile.subspaceparasite.infestedstain.name=Tierra infestada
+tile.subspaceparasite.infestedtrunk.name=Tronco infestado
+tile.subspaceparasite.infestedrubble.name=Piedra infestada
+tile.subspaceparasite.infestremain.name=Residuos infestados
+
+tile.subspaceparasite.infestedbush_infected.name=Venas infestadas
+tile.subspaceparasite.infestedbush_grass1.name=Venas infestadas
+tile.subspaceparasite.infestedbush_flower1.name=Venas infestadas
+tile.subspaceparasite.infestedbush_spine.name=Venas infestadas
+tile.subspaceparasite.infestedbush_vine.name=Venas infestadas
+tile.subspaceparasite.infestedbush_arc.name=Venas infestadas
+
+tile.subspaceparasite.parasitecanister_sac.name=Saco vesical
+tile.subspaceparasite.parasitecanister_cyst.name=Quiste vacuo
+tile.subspaceparasite.canisteractive.name=Quiste gloton
+tile.subspaceparasite.parasitecanister_lump.name=Bulto Grotesco
+tile.subspaceparasite.parasitecanister_bag.name=Saco de carne
+
+tile.subspaceparasite.parasitetrunk_ball.name=Tronco magullado
+tile.subspaceparasite.parasitetrunk_tree.name=Tronco magullado
+tile.subspaceparasite.parasitetrunk_plant.name=Tronco magullado
+
+tile.subspaceparasite.parasitestain_dirt.name=Suelo de la colmena
+tile.subspaceparasite.parasitestain_mud.name=Barro visceral
+tile.subspaceparasite.parasitestain_flesh.name=Pedazo de carne
+tile.subspaceparasite.parasitestain_fleshstairs.name=Pedazo de carne
+tile.subspaceparasite.parasitestain_feeler.name=Arterias comprimidas
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Hueso fortificado
+tile.subspaceparasite.parasiterubble_flesh.name=Pedazo de carne concentrada
+tile.subspaceparasite.parasiterubble_bone.name=Hueso fortificado
+tile.subspaceparasite.parasiterubble_bonestairs.name=Hueso fortificado
+tile.subspaceparasite.parasiterubble_stone.name=Piedra de colmena
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Piedra de colmena compresa
+tile.subspaceparasite.parasiterubbledense_biome.name=Piedra de colmena reforzada
+tile.subspaceparasite.parasiterubbledense_colony.name=Piedra de colonia parasitaria compresa
+
+tile.subspaceparasite.evolutionlure_one.name=Carnada (Debil)
+tile.subspaceparasite.evolutionlure_two.name=Carnada (Tenue)
+tile.subspaceparasite.evolutionlure_three.name=Carnada (Esbelto)
+tile.subspaceparasite.evolutionlure_four.name=Carnada (Estable)
+tile.subspaceparasite.evolutionlure_five.name=Carnada (Substancial)
+tile.subspaceparasite.evolutionlure_six.name=Carnada (concentrada)
+tile.subspaceparasite.evolutionlure_seven.name=Carnada (concentrada +)
+tile.subspaceparasite.evolutionlure_eight.name=Carnada (concentrada ++)
+
+//Effects
+
+mob_effect.subspaceparasite:coth=LdlC
+splash_potion.effect.subspaceparasite:coth=Pocion arrojadiza de LdlC
+potion.effect.subspaceparasite:coth=Pocion de LdlC
+lingering_potion.effect.subspaceparasite:coth=Pocion persistente de LdlC
+tipped_arrow.effect.subspaceparasite:coth=Flecha de LdlC
+
+mob_effect.subspaceparasite:fear=Miedo
+splash_potion.effect.subspaceparasite:fear=Pocion arrojadiza de Miedo
+potion.effect.subspaceparasite:fear=Pocion de Miedo
+lingering_potion.effect.subspaceparasite:fear=Pocion persistente de Miedo
+tipped_arrow.effect.subspaceparasite:fear=Flecha de Miedo
+
+mob_effect.subspaceparasite:antimall=Inmaleable 
+splash_potion.effect.subspaceparasite:antimall=Pocion arrojadiza Inmaleable 
+potion.effect.subspaceparasite:antimall=Pocion inmaleable 
+lingering_potion.effect.subspaceparasite:antimall=Pocion persistente Inmaleable
+tipped_arrow.effect.subspaceparasite:antimall=Flecha Inmaleable
+
+mob_effect.subspaceparasite:bleed=Hemorragia
+splash_potion.effect.subspaceparasite:bleed=Pocion arrojadiza de Hemorragia
+potion.effect.subspaceparasite:bleed=Pocion de Hemorragia
+lingering_potion.effect.subspaceparasite:bleed=Pocion persistente de Hemorragia
+tipped_arrow.effect.subspaceparasite:bleed=Flecha de Hemorragia
+
+mob_effect.subspaceparasite:corrosive=Corrosion
+splash_potion.effect.subspaceparasite:corrosive=Pocion arrojadiza corrosiva
+potion.effect.subspaceparasite:corrosive=Pocion de Corrosion
+lingering_potion.effect.subspaceparasite:corrosive=Pocion persistente Corrosiva
+tipped_arrow.effect.subspaceparasite:corrosive=Flecha Corrosiva
+
+mob_effect.subspaceparasite:viral=Viral
+splash_potion.effect.subspaceparasite:viral=Pocion arrojadiza Viral
+potion.effect.subspaceparasite:viral=Pocion Viral
+lingering_potion.effect.subspaceparasite:viral=Pocion persistente Viral
+tipped_arrow.effect.subspaceparasite:viral=Flecha Viral
+
+mob_effect.subspaceparasite:rage=Furia
+splash_potion.effect.subspaceparasite:rage=Pocion arrojadiza de Furia
+potion.effect.subspaceparasite:rage=Pocion de Furia
+lingering_potion.effect.subspaceparasite:rage=Pocion persistente de Furia
+tipped_arrow.effect.subspaceparasite:rage=Flecha de Furia
+
+mob_effect.subspaceparasite:repel=Camuflaje 
+splash_potion.effect.subspaceparasite:repel=Pocion arrojadiza de Camuflaje
+potion.effect.subspaceparasite:repel=Pocion de Camuflaje
+lingering_potion.effect.subspaceparasite:repel=Pocion persistente de Camuflaje
+tipped_arrow.effect.subspaceparasite:repel=Flecha de Camuflaje
+
+mob_effect.subspaceparasite:senses=Sentidos Agudos
+splash_potion.effect.subspaceparasite:senses=Pocion arrojadiza de Sentidos Agudos
+potion.effect.subspaceparasite:senses=Pocion de Sentidos Agudos
+lingering_potion.effect.subspaceparasite:senses=Pocion persistente de Sentidos Agudos
+tipped_arrow.effect.subspaceparasite:senses=Flecha de Sentidos Agudos
+
+mob_effect.subspaceparasite:debar=Exclusion
+splash_potion.effect.subspaceparasite:debar=Pocion arrojadiza de Exclusion
+potion.effect.subspaceparasite:debar=Pocion arrojadiza de Exclusion
+lingering_potion.effect.subspaceparasite:debar=Pocion persistente de Exclusion
+tipped_arrow.effect.subspaceparasite:debar=Flecha de Exclusion
+
+mob_effect.subspaceparasite:needler=Perforado
+splash_potion.effect.subspaceparasite:needler=Pocion arrojadiza perforadora
+potion.effect.subspaceparasite:needler=Pocion perforadora
+lingering_potion.effect.subspaceparasite:needler=Pocion persistente perforadora
+tipped_arrow.effect.subspaceparasite:needler=Flecha perforadora
+
+//extra
+
+message.subspaceparasite.lure=Puntos reducidos!
+message.subspaceparasite.fearitem=Estas entrando en panico!
+message.subspaceparasite.fearblock=Estas entrando en panico!
+message.subspaceparasite.feargui=Estas entrando en panico!
+message.subspaceparasite.evolutionsleep=No podras dormir por ahora...
+
+tootip.subspaceparasite.lurecomp.1=Trozos del interior de un Rupter. Un componente de carnada
+tootip.subspaceparasite.lurecomp.2=Un corazon asquerosamente hinchado cosechado de un cuerpo Asimilado. Un componente de carnada.
+tootip.subspaceparasite.lurecomp.3=Trozos de musculo desarrollado cosechados de un cuerpo parasito primitivo, excreta un horrible olor. Un componente de carnada.
+tootip.subspaceparasite.lurecomp.4=Un pulmon bien desarrollado cosechado del cuerpo de un parasito Adaptado. Un componente de carnada.
+tootip.subspaceparasite.lurecomp.5=Un cerebro bien desarrollado cosechado del cuerpo de un parasito puro. Un componente de crnada
+tootip.subspaceparasite.lurecomp.6=Un objeto parecido a una columna vertebral, cosechado de los sacos que cuelgan en el bioma. Un componente de carnada.
+
+tootip.subspaceparasite.item.1=Una bola que parece emitir energia, cosechada del cuerpo de un Summoner. Pieza para componentes de armas.
+tootip.subspaceparasite.item.2=Un hueso rebusto sacado del cuerpo de un Yelloweye. Pieza para componentes de armas.
+tootip.subspaceparasite.item.3=Un orbe que parece emitir energia, cosechado del cuerpo de un Manducater. Pieza para componentes de armas.
+tootip.subspaceparasite.item.4=Un colmillo muy afilado, arrancado de las fauces de un Reeker. Pieza para componente de armas.
+tootip.subspaceparasite.item.5=Un ligero y resistente fragmento del blindaje de un Longarms. Pieza para componente de armas.
+tootip.subspaceparasite.item.6=Un pedazo de carne arrancado de una criatura asimilada. Pieza basica de elaboracion.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=Un material elastico hecho a partir de partes de parasitos. Componente para armas.
+tootip.subspaceparasite.item.9=Una pieza de cuchilla hecha a partir de pedazos de parasitos. Componente para armas
+tootip.subspaceparasite.item.10=La flama de la vida aun no brilla en este objeto. El nucleo que alimenta a todas las armas.
+tootip.subspaceparasite.item.11=Una carcasa extremadamente resistente hecha a partir de partes corporales de parasitos. Componente para armas.
+tootip.subspaceparasite.item.12=Un mango particularmente grueso compuesto por huesos, hecho a partir de piezas de parasitos. Un componente para armas.
+
+tootip.subspaceparasite.item.20=Una pieza seca de piel cosechada del cuerpo de un Bolster.
+tootip.subspaceparasite.item.21=Garras terriblemente afiladas cortadas del cuerpo de un Arachnida.
+tootip.subspaceparasite.item.22=Un tentaculo huesudo arrancado de un Devourer.
+tootip.subspaceparasite.item.23=Un revestimiento de Beckon. Desollado de su cuerpo.
+tootip.subspaceparasite.item.24=Un revestimiento de Dispatcher. Desollado de su cuerpo.
+
+tootip.subspaceparasite.item.18=Mientras gotea sangre, el reloj avanza a una horrible media noche.
+
+tootip.subspaceparasite.weaponm.1=Resultado de varias partes de parasitos reformadas en un arma. La llama de la vida brilla dentro.
+tootip.subspaceparasite.weaponm.2=La evolucion ulterior a la Hoz viviente. Ha ganado consciencia.
+tootip.subspaceparasite.weaponm.3=Resultado de varias partes de parasitos reformadas en un arma. La llama de la vida brilla dentro.
+tootip.subspaceparasite.weaponm.4=La evolucion ulterior de la hacha viviente. Ha ganado una consciencia.
+tootip.subspaceparasite.weaponm.5=Resultado de varias partes de parasitos reformadas en un arma. La llama de la vida brilla dentro.
+tootip.subspaceparasite.weaponm.6=La evolucion ulterior a la Espada Viviente. Ha ganado consciencia.
+tootip.subspaceparasite.weaponm.7=Resultado de varias partes de parasitos reformadas en un arma. La llama de la vida brilla dentro.
+tootip.subspaceparasite.weaponm.8=La evolucion ulterior a la cuchilla viviente. Ha ganado conciencia.
+
+tootip.subspaceparasite.weaponm.10=Barre un gran area.
+tootip.subspaceparasite.weaponm.20=Destruye un gran area
+tootip.subspaceparasite.weaponm.30=Inutiliza la armadura con el tiempo.
+tootip.subspaceparasite.weaponm.40=Inutiliza la armadura con el tiempo.
+
+tootip.subspaceparasite.weaponm.50=Inflige heridas mortales.
+tootip.subspaceparasite.weaponm.60=Inflige heridas mortales.
+tootip.subspaceparasite.weaponm.70=Suelta golpes virulentos.
+tootip.subspaceparasite.weaponm.80=Suelta golpes virulentos.
+
+tootip.subspaceparasite.weaponm.100=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.200=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.300=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.400=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.500=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.600=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.700=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponm.800=Ya no puedes esconderte...
+
+tootip.subspaceparasite.weaponr.1=Resultado de varias partes de parasitos reformadas para formar un arma. La llama de la vida brilla dentro.
+tootip.subspaceparasite.weaponr.2=La evolucion ulterior al Arco Viviente. Ha ganado consciencia.
+
+tootip.subspaceparasite.weaponr.10=Sigue conservando esas flechas.
+tootip.subspaceparasite.weaponr.20=Sigue conservando esas flechas.
+
+tootip.subspaceparasite.weaponr.100=Ya no puedes esconderte...
+tootip.subspaceparasite.weaponr.200=Ya no puedes esconderte...

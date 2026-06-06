@@ -1,0 +1,60 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "subspaceparasite:block/infested_fence_post",
+        "textures": {
+          "texture": "subspaceparasite:block/infested_fence"
+        }
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/infested_fence_side",
+        "y": 0,
+        "textures": {
+          "texture": "subspaceparasite:block/infested_fence"
+        }
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/infested_fence_side",
+        "y": 180,
+        "textures": {
+          "texture": "subspaceparasite:block/infested_fence"
+        }
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/infested_fence_side",
+        "y": 90,
+        "textures": {
+          "texture": "subspaceparasite:block/infested_fence"
+        }
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "subspaceparasite:block/infested_fence_side",
+        "y": 270,
+        "textures": {
+          "texture": "subspaceparasite:block/infested_fence"
+        }
+      }
+    }
+  ]
+}

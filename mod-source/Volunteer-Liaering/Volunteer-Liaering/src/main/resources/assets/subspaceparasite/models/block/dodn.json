@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "subspaceparasite:block/dodn_down",
+    "down": "subspaceparasite:block/dodn_down",
+    "up": "subspaceparasite:block/dodn_up",
+    "east": "subspaceparasite:block/dodn_side",
+    "west": "subspaceparasite:block/dodn_side",
+    "north": "subspaceparasite:block/dodn_side",
+    "south": "subspaceparasite:block/dodn_side"
+  }
+}

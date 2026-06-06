@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:rooterball",
+  "tier": "NEXUS",
+  "name_key": "entity.subspaceparasite.rooterball.name",
+  "lore_key": "lore.subspaceparasite.rooterball",
+  "render_scale": 0.55,
+  "minlorekill": 3,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

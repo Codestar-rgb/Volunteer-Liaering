@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "AMA",
+    " E "
+  ],
+  "key": {
+    "A": { "item": "subspaceparasite:module_assimilated" },
+    "M": { "item": "subspaceparasite:hijacked_drop" },
+    "E": { "item": "subspaceparasite:fishlin" }
+  },
+  "result": { "item": "subspaceparasite:module_assimara" }
+}

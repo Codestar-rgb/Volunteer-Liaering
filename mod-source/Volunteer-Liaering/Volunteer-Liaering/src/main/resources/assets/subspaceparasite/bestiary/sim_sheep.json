@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_sheep",
+  "tier": "ASSIMILATED",
+  "name_key": "entity.subspaceparasite.sim_sheep.name",
+  "lore_key": "lore.subspaceparasite.sim_sheep",
+  "render_scale": 1.0,
+  "minlorekill": 5,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

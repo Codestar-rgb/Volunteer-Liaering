@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "axis=x,variant=ball": {
+      "model": "subspaceparasite:block/parasitetrunk_ball",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,variant=tree": {
+      "model": "subspaceparasite:block/parasitetrunk_tree",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,variant=plant": {
+      "model": "subspaceparasite:block/parasitetrunk_plant",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,variant=circle": {
+      "model": "subspaceparasite:block/parasitetrunk_circle",
+      "x": 90,
+      "y": 90
+    },
+    "axis=x,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitetrunk_deadhead",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,variant=ball": {
+      "model": "subspaceparasite:block/parasitetrunk_ball"
+    },
+    "axis=y,variant=tree": {
+      "model": "subspaceparasite:block/parasitetrunk_tree"
+    },
+    "axis=y,variant=plant": {
+      "model": "subspaceparasite:block/parasitetrunk_plant"
+    },
+    "axis=y,variant=circle": {
+      "model": "subspaceparasite:block/parasitetrunk_circle"
+    },
+    "axis=y,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitetrunk_deadhead"
+    },
+    "axis=z,variant=ball": {
+      "model": "subspaceparasite:block/parasitetrunk_ball",
+      "x": 90
+    },
+    "axis=z,variant=tree": {
+      "model": "subspaceparasite:block/parasitetrunk_tree",
+      "x": 90
+    },
+    "axis=z,variant=plant": {
+      "model": "subspaceparasite:block/parasitetrunk_plant",
+      "x": 90
+    },
+    "axis=z,variant=circle": {
+      "model": "subspaceparasite:block/parasitetrunk_circle",
+      "x": 90
+    },
+    "axis=z,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitetrunk_deadhead",
+      "x": 90
+    },
+    "axis=none,variant=ball": {
+      "model": "subspaceparasite:block/parasitetrunk_ball"
+    },
+    "axis=none,variant=tree": {
+      "model": "subspaceparasite:block/parasitetrunk_tree"
+    },
+    "axis=none,variant=plant": {
+      "model": "subspaceparasite:block/parasitetrunk_plant"
+    },
+    "axis=none,variant=circle": {
+      "model": "subspaceparasite:block/parasitetrunk_circle"
+    },
+    "axis=none,variant=deadhead": {
+      "model": "subspaceparasite:block/parasitetrunk_deadhead"
+    }
+  }
+}

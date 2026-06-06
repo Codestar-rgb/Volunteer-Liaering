@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/bricks",
+    "top": "subspaceparasite:block/bricks",
+    "side": "subspaceparasite:block/bricks"
+  }
+}

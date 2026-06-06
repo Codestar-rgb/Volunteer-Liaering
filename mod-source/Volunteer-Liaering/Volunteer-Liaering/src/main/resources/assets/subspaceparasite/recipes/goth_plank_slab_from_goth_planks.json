@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:goth_planks"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:goth_plank_slab",
+    "data": 0,
+    "count": 6
+  }
+}

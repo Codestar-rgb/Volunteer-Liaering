@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:mar_villager",
+  "tier": "ASSIMARA",
+  "name_key": "entity.subspaceparasite.mar_villager.name",
+  "lore_key": "lore.subspaceparasite.mar_villager",
+  "render_scale": 1.0,
+  "minlorekill": 3,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

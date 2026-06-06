@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:mar_sheep",
+  "tier": "ASSIMARA",
+  "name_key": "entity.subspaceparasite.mar_sheep.name",
+  "lore_key": "lore.subspaceparasite.mar_sheep",
+  "render_scale": 1.0,
+  "minlorekill": 3,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

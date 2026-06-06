@@ -1,0 +1,28 @@
+{
+  "parent": "subspaceparasite:secret_root",
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:itemmobspawner_gothol"
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.controversial.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.controversial.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "kill_sim_enderman": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "subspaceparasite:sim_enderman"
+        }
+      }
+    }
+  }
+}

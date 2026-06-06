@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:harleskinn_block"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:harleskinn_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "SPParasites:items/evclock0"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "phase": -2
+      },
+      "model": "SPParasites:item/evclockm2"
+    },
+    {
+      "predicate": {
+        "phase": -1
+      },
+      "model": "SPParasites:item/evclockm1"
+    },
+    {
+      "predicate": {
+        "phase": 0
+      },
+      "model": "SPParasites:item/evclock0"
+    },
+    {
+      "predicate": {
+        "phase": 1
+      },
+      "model": "SPParasites:item/evclock1"
+    },
+    {
+      "predicate": {
+        "phase": 2
+      },
+      "model": "SPParasites:item/evclock2"
+    },
+    {
+      "predicate": {
+        "phase": 3
+      },
+      "model": "SPParasites:item/evclock3"
+    },
+    {
+      "predicate": {
+        "phase": 4
+      },
+      "model": "SPParasites:item/evclock4"
+    },
+    {
+      "predicate": {
+        "phase": 5
+      },
+      "model": "SPParasites:item/evclock5"
+    },
+    {
+      "predicate": {
+        "phase": 6
+      },
+      "model": "SPParasites:item/evclock6"
+    },
+    {
+      "predicate": {
+        "phase": 7
+      },
+      "model": "SPParasites:item/evclock7"
+    },
+    {
+      "predicate": {
+        "phase": 8
+      },
+      "model": "SPParasites:item/evclock8"
+    },
+    {
+      "predicate": {
+        "phase": 9
+      },
+      "model": "SPParasites:item/evclock9"
+    },
+    {
+      "predicate": {
+        "phase": 10
+      },
+      "model": "SPParasites:item/evclock10"
+    }
+  ]
+}

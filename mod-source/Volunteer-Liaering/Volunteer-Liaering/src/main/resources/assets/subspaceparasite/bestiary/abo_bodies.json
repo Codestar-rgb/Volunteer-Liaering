@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:abo_bodies",
+  "tier": "ABOMINATION",
+  "name_key": "entity.subspaceparasite.abo_bodies.name",
+  "lore_key": "lore.subspaceparasite.abo_bodies",
+  "minlorekill": 2,
+  "minstatkill": 2,
+  "render_scale": 1.0,
+  "stats": {
+    "source": "entity"
+  }
+}

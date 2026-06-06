@@ -1,0 +1,994 @@
+//Entities
+
+entity.subspaceparasite.worm.name=香識虫庫
+entity.anc_dreadnaut_ten.name=太古弩級魔の巻鬚
+
+entity.subspaceparasite.webball.name=網の弾丸
+entity.subspaceparasite.spineball.name=唾液弾
+entity.subspaceparasite.salivaball.name=督察妖の涎液
+entity.subspaceparasite.ballball.name=警護妖の涎液
+entity.subspaceparasite.ancientball.name=太古妖の唾液
+entity.subspaceparasite.homming.name=自動誘導式弾丸
+entity.subspaceparasite.antiinfestedblock.name=祓妖玉
+entity.subspaceparasite.biomassball.name=妖質
+entity.subspaceparasite.missile.name=同化されたエンダードラゴンの涎液
+entity.subspaceparasite.nadeball.name=酸液榴弾
+entity.subspaceparasite.pullingball.name=拉力の弾丸
+entity.subspaceparasite.balltall.name=幽霊の唾液
+entity.subspaceparasite.ballmall.name=鬼霊の唾液
+
+entity.subspaceparasite.bomb.name=寄妖爆弾
+entity.subspaceparasite.scent.name=香識実體
+entity.subspaceparasite.cloudtoxic.name=毒云
+entity.subspaceparasite.source.name=源妖
+entity.subspaceparasite.orb.name=恐怖力場
+entity.subspaceparasite.nade.name=酸液榴弾
+
+//Blocks
+
+tile.subspaceparasite.evolutionlure_nine.name=誘引物質（§b濃縮 +++§f）
+tile.subspaceparasite.evolutionlure_ten.name=誘引物質（§d濃縮 ++++§f）
+
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=原始長腕妖
+entity.subspaceparasite.pri_manducater.name=原始噬生妖
+entity.subspaceparasite.pri_summoner.name=原始召喚妖
+entity.subspaceparasite.pri_reeker.name=原始汚臭妖
+entity.subspaceparasite.pri_yelloweye.name=原始黄目妖
+entity.subspaceparasite.pri_bolster.name=原始補強妖
+entity.subspaceparasite.pri_arachnida.name=原始蛛形妖
+entity.subspaceparasite.pri_devourer.name=原始貪食妖
+entity.subspaceparasite.pri_vermin.name=原始悪殖妖
+entity.subspaceparasite.pri_tozoon.name=原始千櫛妖
+
+entity.subspaceparasite.host.name=骸山塔
+entity.subspaceparasite.hostii.name=京観塔
+entity.subspaceparasite.crux.name=榾柮妖
+entity.subspaceparasite.heed.name=示惕妖
+entity.subspaceparasite.thrall.name=降伏式神
+
+entity.subspaceparasite.sim_bear.name=同化されたクマ
+entity.subspaceparasite.sim_squid.name=同化されたイカ
+entity.subspaceparasite.sim_enderman.name=同化されたエンダーマン
+entity.subspaceparasite.sim_endermanhead.name=歩く頭
+entity.subspaceparasite.sim_adventurer.name=同化された勇者
+entity.subspaceparasite.sim_adventurerhead.name=歩く頭
+entity.subspaceparasite.sim_bigspider.name=同化された巨蛛
+entity.subspaceparasite.sim_human.name=同化された人間
+entity.subspaceparasite.sim_humanhead.name=歩く頭
+entity.subspaceparasite.sim_villager.name=同化された村人
+entity.subspaceparasite.sim_villagerhead.name=歩く頭
+entity.subspaceparasite.sim_cow.name=同化されたウシ
+entity.subspaceparasite.sim_cowhead.name=歩く頭
+entity.subspaceparasite.sim_horse.name=同化されたウマ
+entity.subspaceparasite.sim_horsehead.name=歩く頭
+entity.subspaceparasite.sim_pig.name=同化されたブタ
+entity.subspaceparasite.sim_pighead.name=歩く頭
+entity.subspaceparasite.sim_sheep.name=同化されたヒツジ
+entity.subspaceparasite.sim_sheephead.name=歩く頭
+entity.subspaceparasite.sim_wolf.name=同化されたオオカミ
+entity.subspaceparasite.sim_wolfhead.name=歩く頭
+entity.subspaceparasite.incompleteform_medium.name=不完備形態
+entity.subspaceparasite.incompleteform_small.name=不完備形態
+entity.subspaceparasite.sim_dragone.name=同化されたエンダードラゴン
+entity.subspaceparasite.sim_dragonehead.name=歩く頭
+
+entity.subspaceparasite.fer_cow.name=狂気のウシ
+entity.subspaceparasite.fer_bear.name=狂気のクマ
+entity.subspaceparasite.fer_enderman.name=狂気のエンダーマン
+entity.subspaceparasite.fer_human.name=狂気の人間
+entity.subspaceparasite.fer_horse.name=狂気のウマ
+entity.subspaceparasite.fer_sheep.name=狂気のヒツジ
+entity.subspaceparasite.fer_pig.name=狂気のブタ
+entity.subspaceparasite.fer_villager.name=狂気の村人
+entity.subspaceparasite.fer_wolf.name=狂気のオオカミ
+
+entity.subspaceparasite.hi_blaze.name=乗取られたブレイズ
+entity.subspaceparasite.hi_golem.name=乗取られたアイアンゴーレム
+entity.subspaceparasite.hi_skeleton.name=乗取られたスケルトン
+
+entity.subspaceparasite.overseer.name=督察妖
+entity.subspaceparasite.bomber_light.name=軽型爆擊妖
+entity.subspaceparasite.carrier_heavy.name=重型担体妖
+entity.subspaceparasite.carrier_light.name=軽型担体妖
+entity.subspaceparasite.buglin.name=霊虫
+entity.subspaceparasite.mangler.name=付喪妖
+entity.subspaceparasite.gnat.name=蚋
+entity.subspaceparasite.worker.name=働妖
+entity.subspaceparasite.carrier_flying.name=空飛担体妖
+entity.subspaceparasite.rupter.name=悧妖
+entity.subspaceparasite.beckon_si.name=I 段召妖荊柱
+entity.subspaceparasite.beckon_sii.name=II 段召妖荊柱
+entity.subspaceparasite.beckon_siii.name=III 段召妖荊柱
+entity.subspaceparasite.beckon_siv.name=IV 段召妖荊柱
+entity.subspaceparasite.beckon_sv.name=V 段召妖荊柱
+entity.subspaceparasite.warden.name=門番妖
+entity.subspaceparasite.marauder.name=強盗妖
+entity.subspaceparasite.monarch.name=君主妖
+entity.subspaceparasite.grunt.name=独言妖
+entity.subspaceparasite.sentry.name=歩哨爪
+entity.subspaceparasite.kyphosis.name=湾脊爪
+entity.subspaceparasite.dispatcherten.name=理妖花柱の触手
+entity.subspaceparasite.dispatcher_si.name=I 段理妖花柱
+entity.subspaceparasite.dispatcher_sii.name=II 段理妖花柱
+entity.subspaceparasite.dispatcher_siii.name=III 段理妖花柱
+entity.subspaceparasite.dispatcher_siv.name=IV 段理妖花柱
+entity.subspaceparasite.rooter_si.name=I 段輔妖根柱
+entity.subspaceparasite.rooter_sii.name=II 段輔妖根柱
+entity.subspaceparasite.rooter_siii.name=III 段輔妖根柱
+entity.subspaceparasite.rooter_siv.name=IV 段輔妖根柱
+entity.subspaceparasite.seizer.name=緊縛触手
+
+entity.subspaceparasite.bomber_heavy.name=重型爆擊妖
+entity.subspaceparasite.carrier_colony.name=集落担体妖
+entity.subspaceparasite.wraith.name=幽霊
+entity.subspaceparasite.bogle.name=鬼霊
+entity.subspaceparasite.haunter.name=魂猟妖
+entity.subspaceparasite.succor.name=援助胞
+entity.subspaceparasite.seeker.name=探求妖
+entity.subspaceparasite.architect.name=建築妖
+
+entity.subspaceparasite.draconite.name=§9煉夜閻君
+
+entity.subspaceparasite.anc_dreadnaut.name=太古弩級魔
+entity.subspaceparasite.anc_overlord.name=太古覇道魔
+entity.subspaceparasite.vigilante.name=警護妖
+entity.subspaceparasite.movingflesh.name=動く血肉
+entity.subspaceparasite.tendril.name=巻鬚
+entity.subspaceparasite.anc_pod.name=空輸妖庫
+entity.subspaceparasite.biomass.name=妖質
+entity.subspaceparasite.gore.name=遺骸
+
+entity.subspaceparasite.ada_longarms.name=適応長腕妖
+entity.subspaceparasite.ada_summoner.name=適応召喚妖
+entity.subspaceparasite.ada_manducater.name=適応噬生妖
+entity.subspaceparasite.ada_reeker.name=適応汚臭妖
+entity.subspaceparasite.ada_yelloweye.name=適応黄目妖
+entity.subspaceparasite.ada_bolster.name=適応補強妖
+entity.subspaceparasite.ada_arachnida.name=適応蛛形妖
+
+entity.subspaceparasite.wave.name=波
+entity.subspaceparasite.waveshock.name=波
+
+entity.subspaceparasite.remain.name=遺骸
+//Creative Tab
+
+itemGroup.Scape & Run: Parasites=脱走と出奔：寄生妖
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=スポーン 空輸妖庫
+
+item.subspaceparasite.itemmobspawner_host.name=スポーン 骸山塔
+item.subspaceparasite.itemmobspawner_hostii.name=スポーン 京観塔
+item.subspaceparasite.itemmobspawner_heed.name=スポーン 示惕妖
+item.subspaceparasite.itemmobspawner_cruxa.name=スポーン 榾柮妖
+item.subspaceparasite.itemmobspawner_mes.name=スポーン 降伏式神
+
+item.subspaceparasite.itemmobspawner_infbear.name=スポーン 同化されたクマ
+item.subspaceparasite.itemmobspawner_infsquid.name=スポーン 同化されたイカ
+item.subspaceparasite.itemmobspawner_infenderman.name=スポーン 同化されたエンダーマン
+item.subspaceparasite.itemmobspawner_infendermanhead.name=スポーン エンダーマンの歩く頭
+item.subspaceparasite.itemmobspawner_infplayer.name=スポーン 同化された勇者
+item.subspaceparasite.itemmobspawner_infplayerhead.name=スポーン 勇者の歩く頭
+item.subspaceparasite.itemmobspawner_dorpa.name=スポーン 同化された巨蛛
+item.subspaceparasite.itemmobspawner_infhuman.name=スポーン 同化された人間
+item.subspaceparasite.itemmobspawner_infhumanhead.name=スポーン 人間の歩く頭
+item.subspaceparasite.itemmobspawner_infvillager.name=スポーン 同化された村人
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=スポーン 村人の歩く頭
+item.subspaceparasite.itemmobspawner_infcow.name=スポーン 同化されたウシ
+item.subspaceparasite.itemmobspawner_infcowhead.name=スポーン ウシの歩く頭
+item.subspaceparasite.itemmobspawner_infpig.name=スポーン 同化されたブタ
+item.subspaceparasite.itemmobspawner_infpighead.name=スポーン ブタの歩く頭
+item.subspaceparasite.itemmobspawner_infsheep.name=スポーン 同化されたヒツジ
+item.subspaceparasite.itemmobspawner_infsheephead.name=スポーン ヒツジの歩く頭
+item.subspaceparasite.itemmobspawner_infwolf.name=スポーン 同化されたオオカミ
+item.subspaceparasite.itemmobspawner_infwolfhead.name=スポーン オオカミの歩く頭
+item.subspaceparasite.itemmobspawner_infhorse.name=スポーン 同化されたウマ
+item.subspaceparasite.itemmobspawner_infhorsehead.name=スポーン ウマの歩く頭
+item.subspaceparasite.itemmobspawner_inhoos.name=スポーン 小型不完備形態
+item.subspaceparasite.itemmobspawner_inhoom.name=スポーン 中型不完備形態
+item.subspaceparasite.itemmobspawner_infdragone.name=スポーン 同化されたエンダードラゴン
+item.subspaceparasite.itemmobspawner_infdragonehead.name=スポーン エンダードラゴンの歩く頭
+
+item.subspaceparasite.itemmobspawner_fercow.name=スポーン 狂気のウシ
+item.subspaceparasite.itemmobspawner_ferbear.name=スポーン 狂気のクマ
+item.subspaceparasite.itemmobspawner_ferenderman.name=スポーン 狂気のエンダーマン
+item.subspaceparasite.itemmobspawner_ferhuman.name=スポーン 狂気の人間
+item.subspaceparasite.itemmobspawner_ferhorse.name=スポーン 狂気のウマ
+item.subspaceparasite.itemmobspawner_ferpig.name=スポーン 狂気のブタ
+item.subspaceparasite.itemmobspawner_fersheep.name=スポーン 狂気のヒツジ
+item.subspaceparasite.itemmobspawner_fervillager.name=スポーン 狂気の村人
+item.subspaceparasite.itemmobspawner_ferwolf.name=スポーン 狂気のオオカミ
+
+item.subspaceparasite.itemmobspawner_hiblaze.name=スポーン 乗取られたブレイズ
+item.subspaceparasite.itemmobspawner_higolem.name=スポーン 乗取られたアイアンゴーレム
+item.subspaceparasite.itemmobspawner_hiskeleton.name=スポーン 乗取られたスケルトン
+
+item.subspaceparasite.itemmobspawner_alafha.name=スポーン 督察妖
+item.subspaceparasite.itemmobspawner_omboo.name=スポーン 軽型爆擊妖
+item.subspaceparasite.itemmobspawner_rathol.name=スポーン 重型担体妖
+item.subspaceparasite.itemmobspawner_gothol.name=スポーン 軽型担体妖
+item.subspaceparasite.itemmobspawner_buthol.name=スポーン 空飛担体妖
+item.subspaceparasite.itemmobspawner_lodo.name=スポーン 霊虫
+item.subspaceparasite.itemmobspawner_nuuh.name=スポーン 付喪妖
+item.subspaceparasite.itemmobspawner_ata.name=スポーン 蚋
+item.subspaceparasite.itemmobspawner_worker.name=スポーン 働妖
+item.subspaceparasite.itemmobspawner_mudo.name=スポーン 悧妖
+item.subspaceparasite.itemmobspawner_venkrol.name=スポーン I 段召妖荊柱
+item.subspaceparasite.itemmobspawner_venkrolsii.name=スポーン II 段召妖荊柱
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=スポーン III 段召妖荊柱
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=スポーン IV 段召妖荊柱
+item.subspaceparasite.itemmobspawner_venkrolsv.name=スポーン V 段召妖荊柱
+item.subspaceparasite.itemmobspawner_ganro.name=スポーン 門番妖
+item.subspaceparasite.itemmobspawner_esor.name=スポーン 強盗妖
+item.subspaceparasite.itemmobspawner_orch.name=スポーン 君主妖
+item.subspaceparasite.itemmobspawner_flog.name=スポーン 独言妖
+item.subspaceparasite.itemmobspawner_unvo.name=スポーン 歩哨爪
+item.subspaceparasite.itemmobspawner_tonro.name=スポーン 湾脊爪
+item.subspaceparasite.itemmobspawner_dod.name=スポーン I 段理妖花柱
+item.subspaceparasite.itemmobspawner_dodsii.name=スポーン II 段理妖花柱
+item.subspaceparasite.itemmobspawner_dodsiii.name=スポーン III 段理妖花柱
+item.subspaceparasite.itemmobspawner_dodsiv.name=スポーン IV 段理妖花柱
+item.subspaceparasite.itemmobspawner_leem.name=スポーン I 段輔妖根柱
+item.subspaceparasite.itemmobspawner_leemsii.name=スポーン II 段輔妖根柱
+item.subspaceparasite.itemmobspawner_leemsiii.name=スポーン III 段輔妖根柱
+item.subspaceparasite.itemmobspawner_leemsiv.name=スポーン IV 段輔妖根柱
+item.subspaceparasite.itemmobspawner_nak.name=スポーン 緊縛触手
+
+item.subspaceparasite.itemmobspawner_jinjo.name=スポーン 重型爆擊妖
+item.subspaceparasite.itemmobspawner_vesta.name=スポーン 集落担体妖
+item.subspaceparasite.itemmobspawner_elvia.name=スポーン 幽霊
+item.subspaceparasite.itemmobspawner_lencia.name=スポーン 鬼霊
+item.subspaceparasite.itemmobspawner_pheon.name=スポーン 魂猟妖
+item.subspaceparasite.itemmobspawner_flam.name=スポーン 援助胞
+item.subspaceparasite.itemmobspawner_soo.name=スポーン 探求妖
+item.subspaceparasite.itemmobspawner_tenn.name=スポーン 建築妖
+
+item.subspaceparasite.itemmobspawner_heblu.name=スポーン §9煉夜閻君
+
+item.subspaceparasite.itemmobspawner_oronco.name=スポーン 太古弩級魔
+item.subspaceparasite.itemmobspawner_terla.name=スポーン 太古覇道魔
+item.subspaceparasite.itemmobspawner_anged.name=スポーン 警護妖
+item.subspaceparasite.itemmobspawner_lesh.name=スポーン 動く血肉
+
+item.subspaceparasite.itemmobspawner_shyco.name=スポーン 原始長腕妖
+item.subspaceparasite.itemmobspawner_hull.name=スポーン 原始噬生妖
+item.subspaceparasite.itemmobspawner_canra.name=スポーン 原始召喚妖
+item.subspaceparasite.itemmobspawner_emana.name=スポーン 原始黄目妖
+item.subspaceparasite.itemmobspawner_nogla.name=スポーン 原始汚臭妖
+item.subspaceparasite.itemmobspawner_bano.name=スポーン 原始補強妖
+item.subspaceparasite.itemmobspawner_ranrac.name=スポーン 原始蛛形妖
+item.subspaceparasite.itemmobspawner_lum.name=スポーン 原始貪食妖
+item.subspaceparasite.itemmobspawner_iki.name=スポーン 原始悪殖妖
+item.subspaceparasite.itemmobspawner_wymo.name=スポーン 原始千櫛妖
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=スポーン 適応長腕妖
+item.subspaceparasite.itemmobspawner_canraadapted.name=スポーン 適応召喚妖
+item.subspaceparasite.itemmobspawner_noglaadapted.name=スポーン 適応汚臭妖
+item.subspaceparasite.itemmobspawner_hulladapted.name=スポーン 適応噬生妖
+item.subspaceparasite.itemmobspawner_emanaadapted.name=スポーン 適応黄目妖
+item.subspaceparasite.itemmobspawner_banoadapted.name=スポーン 適応補強妖
+item.subspaceparasite.itemmobspawner_ranracadapted.name=スポーン 適応蛛形妖
+
+item.subspaceparasite.itemthrow.name=§6祓妖玉
+item.subspaceparasite.itemtab.name=§d無
+item.subspaceparasite.itemevolve.name=進化杖
+item.subspaceparasite.itemassimilate.name=同化杖
+item.subspaceparasite.itemdevolve.name=退化杖
+item.subspaceparasite.itemvariant.name=変種杖
+item.subspaceparasite.evclock.name=§c血を染める鐘
+item.subspaceparasite.weapon_scythe.name=§e生きた鎌
+item.subspaceparasite.weapon_scythe_sentient.name=§6知的な巨鎌
+item.subspaceparasite.weapon_bow.name=§e生きた弓
+item.subspaceparasite.weapon_bow_sentient.name=§6知的な巨弓
+item.subspaceparasite.weapon_axe.name=§e生きた斧
+item.subspaceparasite.weapon_axe_sentient.name=§6知的な巨斧
+item.subspaceparasite.weapon_sword.name=§e生きた剣
+item.subspaceparasite.weapon_sword_sentient.name=§6知的な巨剣
+item.subspaceparasite.weapon_cleaver.name=§e生きた刀
+item.subspaceparasite.weapon_cleaver_sentient.name=§6知的な巨刀
+item.subspaceparasite.weapon_maul.name=§e生きた槌
+item.subspaceparasite.weapon_maul_sentient.name=§6知的な巨槌
+item.subspaceparasite.weapon_lance.name=§e生きた槍
+item.subspaceparasite.weapon_lance_sentient.name=§6知的な巨槍
+
+item.subspaceparasite.armor_helm.name=§e生きた兜
+item.subspaceparasite.armor_chest.name=§e生きた胸当て
+item.subspaceparasite.armor_pants.name=§e生きた腿鎧
+item.subspaceparasite.armor_boots.name=§e生きた鎧靴
+item.subspaceparasite.armor_helm_sentient.name=§6知的な兜
+item.subspaceparasite.armor_chest_sentient.name=§6知的な胸当て
+item.subspaceparasite.armor_pants_sentient.name=§6知的な腿鎧
+item.subspaceparasite.armor_boots_sentient.name=§6知的な鎧靴
+
+//////
+item.subspaceparasite.bow_upperlimb.name=§6生きた巨弓上肱
+item.subspaceparasite.bow_lowerlimb.name=§6生きた巨弓下臂
+item.subspaceparasite.bow_string.name=§6生きた巨弓弦
+item.subspaceparasite.bow_grip.name=§6生きた巨弓柄
+item.subspaceparasite.bow_core.name=§6生きた巨弓核
+
+item.subspaceparasite.scythe_back.name=§6生きた鎌尾
+item.subspaceparasite.scythe_blade.name=§6生きた鎌刃
+item.subspaceparasite.scythe_core.name=§6生きた鎌核
+item.subspaceparasite.scythe_handle.name=§6生きた鎌柄
+item.subspaceparasite.scythe_head.name=§6生きた鎌頭
+///////
+
+item.subspaceparasite.dried_tendons.name=§e乾燥した腱
+item.subspaceparasite.hardened_bone_handle.name=§e硬化した骨取っ手
+item.subspaceparasite.infectious_blade_fragment.name=§e同化された剣刃のかけら
+item.subspaceparasite.living_core.name=§e生きた核
+item.subspaceparasite.vile_shell.name=§e憎しみ殻
+item.subspaceparasite.bone.name=§e異質な骨
+
+
+item.subspaceparasite.ada_longarms_drop.name=§b長腕妖の甲の破片
+item.subspaceparasite.ada_summoner_drop.name=§b召喚妖の球
+item.subspaceparasite.ada_yelloweye_drop.name=§b黄目妖の骨
+item.subspaceparasite.ada_reeker_drop.name=§b汚臭妖の歯
+item.subspaceparasite.ada_manducater_drop.name=§b噬生妖の珠
+item.subspaceparasite.ada_bolster_drop.name=§b補強妖の殻
+item.subspaceparasite.ada_arachnida_drop.name=§b蛛形妖の爪
+item.subspaceparasite.ada_devourer_drop.name=§b貪食妖の触手
+
+item.subspaceparasite.assimilated_flesh.name=同化された肉
+item.subspaceparasite.beckon_drop.name=§a召妖荊柱の膜壁
+item.subspaceparasite.dispatcher_drop.name=§c理妖花柱の膜壁
+
+item.subspaceparasite.lurecomponent1.name=§b悧妖臓
+item.subspaceparasite.lurecomponent2.name=§b病心
+item.subspaceparasite.lurecomponent3.name=§b断腱
+item.subspaceparasite.lurecomponent4.name=§b毒肺
+item.subspaceparasite.lurecomponent5.name=§b毒脳
+item.subspaceparasite.lurecomponent6.name=§b本質欠片
+item.subspaceparasite.nodecompass.name=§c節点羅針盤
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=脈木の苗木
+tile.subspaceparasite.parasitesapling_treethin.name=異瞳の苗木
+tile.subspaceparasite.parasitesapling_flowertall.name=闇木の苗木
+
+tile.subspaceparasite.parasitebush_tendril.name=ふるい管くさあみ
+tile.subspaceparasite.parasitebush_pop.name=寄妖嚢胞
+tile.subspaceparasite.parasitebush_bine.name=しんけい蜷枝
+tile.subspaceparasite.parasitebush_eye.name=ターミナル眼
+tile.subspaceparasite.parasitebush_tooh.name=小さな前歯
+
+tile.subspaceparasite.infestedore_co.name=疫病の煤鉱
+tile.subspaceparasite.infestedore_dia.name=疫病のダイヤモンド鉱
+tile.subspaceparasite.infestedore_eme.name=疫病のエメラルド鉱
+tile.subspaceparasite.infestedore_gol.name=疫病の金鉱
+tile.subspaceparasite.infestedore_iro.name=疫病の鉄鉱
+tile.subspaceparasite.infestedore_lap.name=疫病のラピスラズリ鉱
+tile.subspaceparasite.infestedore_red.name=疫病のレッドストーン鉱
+tile.subspaceparasite.infestedore_un.name=疫病の鉱
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=§8繊細な網
+tile.subspaceparasite.subspaceparasiteweb_two.name=§a有毒な網
+tile.subspaceparasite.subspaceparasiteweb_three.name=§8汚れた網
+tile.subspaceparasite.tunnel.name=地下道
+tile.subspaceparasite.dispatchern.name=理妖花柱の病巣
+tile.subspaceparasite.biomeheart.name=寄領核
+tile.subspaceparasite.colonyheart.name=集落核
+tile.subspaceparasite.colonyoutpost.name=集落哨
+tile.subspaceparasite.biomepurifier.name=§b生物圏浄化装置
+tile.subspaceparasite.parasitestructure.name=不完備な集落構造
+tile.subspaceparasite.parasitethin.name=繊細な寄生原木
+tile.subspaceparasite.parasitemouth.name=顎裂
+tile.subspaceparasite.parasitetendril.name=寄生巻鬚
+tile.subspaceparasite.parasitefog.name=霧
+
+tile.subspaceparasite.gore_sim_small.name=同化種遺骸（小）
+tile.subspaceparasite.gore_sim_big.name=同化種遺骸（大）
+tile.subspaceparasite.gore_sim_flat.name=同化種遺骸（中）
+tile.subspaceparasite.gore_pri_small.name=原始種遺骸（小）
+tile.subspaceparasite.gore_pri_big.name=原始種遺骸（大）
+tile.subspaceparasite.gore_pri_flat.name=原始種遺骸（中）
+tile.subspaceparasite.gore_ada_small.name=適応種遺骸（小）
+tile.subspaceparasite.gore_ada_big.name=適応種遺骸（大）
+tile.subspaceparasite.gore_ada_flat.name=適応種遺骸（中）
+tile.subspaceparasite.gore_pure_small.name=純粋種遺骸（小）
+tile.subspaceparasite.gore_pure_big.name=純粋種遺骸（大）
+tile.subspaceparasite.gore_pure_flat.name=純粋種遺骸（中）
+
+tile.subspaceparasite.infestedstain.name=妖蔓の土
+tile.subspaceparasite.infestedtrunk.name=妖蔓の木
+tile.subspaceparasite.infestedrubble.name=妖蔓の岩
+tile.subspaceparasite.infestremain.name=妖蔓の渣
+
+tile.subspaceparasite.infestedbush_infected.name=妖蔓の脈荊
+tile.subspaceparasite.infestedbush_grass1.name=妖蔓の脈枝
+tile.subspaceparasite.infestedbush_flower1.name=妖蔓の脈芽
+tile.subspaceparasite.infestedbush_spine.name=妖蔓の脈茂み
+tile.subspaceparasite.infestedbush_vine.name=妖蔓の脈輪
+tile.subspaceparasite.infestedbush_arc.name=妖蔓の脈根
+
+tile.subspaceparasite.parasitecanister_sac.name=§a膀胱嚢
+tile.subspaceparasite.parasitecanister_cyst.name=空洞嚢胞
+tile.subspaceparasite.canisteractive.name=貪食嚢胞
+tile.subspaceparasite.parasitecanister_lump.name=異形の瘤
+tile.subspaceparasite.parasitecanister_bag.name=肉嚢袋
+
+tile.subspaceparasite.parasitetrunk_ball.name=痕木の原木
+tile.subspaceparasite.parasitetrunk_tree.name=脈木の原木
+tile.subspaceparasite.parasitetrunk_plant.name=闇木の原木
+
+tile.subspaceparasite.parasitestain_dirt.name=寄領泥
+tile.subspaceparasite.parasitestain_mud.name=臓泥
+tile.subspaceparasite.parasitestain_flesh.name=肉角切り
+tile.subspaceparasite.parasitestain_fleshstairs.name=肉ブロックかいだん
+tile.subspaceparasite.parasitestain_feeler.name=圧迫された動脈
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=硬骨ブロックの階段
+tile.subspaceparasite.parasiterubble_slabdouble.name=硬骨ブロックの階段
+tile.subspaceparasite.parasiterubble_flesh.name=濃縮された肉角切り
+tile.subspaceparasite.parasiterubble_bone.name=硬骨ブロック
+tile.subspaceparasite.parasiterubble_bonestairs.name=硬骨ブロックかいだん
+tile.subspaceparasite.parasiterubble_stone.name=寄領石
+tile.subspaceparasite.parasiterubble_stonedebris.name=砕寄領石
+tile.subspaceparasite.parasiterubble_wood.name=腐敗した木
+tile.subspaceparasite.parasiterubble_bricks.name=寄領レンガ
+tile.subspaceparasite.parasiterubble_metal.name=寄領鋼ブロック
+tile.subspaceparasite.parasiterubble_obsidian.name=血黒曜石
+tile.subspaceparasite.parasiterubble_fungus.name=同化された菌類
+
+tile.subspaceparasite.parasiterubbledense_wall.name=圧縮された寄領石
+tile.subspaceparasite.parasiterubbledense_biome.name=硬化した寄領石
+tile.subspaceparasite.parasiterubbledense_colony.name=圧縮された集落石
+
+tile.subspaceparasite.evolutionlure_one.name=誘引物質（§4弱化§f）
+tile.subspaceparasite.evolutionlure_two.name=誘引物質（§c微弱§f）
+tile.subspaceparasite.evolutionlure_three.name=誘引物質（§6細§f）
+tile.subspaceparasite.evolutionlure_four.name=誘引物質（§e安定§f）
+tile.subspaceparasite.evolutionlure_five.name=誘引物質（§2相当§f）
+tile.subspaceparasite.evolutionlure_six.name=誘引物質（§a濃縮§f）
+tile.subspaceparasite.evolutionlure_seven.name=誘引物質（§b濃縮 +§f）
+tile.subspaceparasite.evolutionlure_eight.name=誘引物質（§d濃縮 ++§f）
+
+tile.subspaceparasite.bloodyice.name=血氷
+
+//Fluids
+
+fluid.deadblood=死血
+
+//Effects
+
+mob_effect.subspaceparasite:coth=§4寄領の呼び声
+splash_potion.effect.subspaceparasite:coth=§4寄領の呼び声§fのスプラッシュポーション
+potion.effect.subspaceparasite:coth=§4寄領の呼び声§fのポーション
+lingering_potion.effect.subspaceparasite:coth=§4寄領の呼び声§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:coth=§4寄領の呼び声§fの矢
+
+mob_effect.subspaceparasite:fear=§8恐慌
+splash_potion.effect.subspaceparasite:fear=§8恐慌§fのスプラッシュポーション
+potion.effect.subspaceparasite:fear=§8恐慌§fのポーション
+lingering_potion.effect.subspaceparasite:fear=§8恐慌§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:fear=§8恐慌§fの矢
+
+mob_effect.subspaceparasite:antimall=§7無適応性
+splash_potion.effect.subspaceparasite:antimall=§7無適応性§fのスプラッシュポーション
+potion.effect.subspaceparasite:antimall=§7無適応性§fのポーション
+lingering_potion.effect.subspaceparasite:antimall=§7無適応性§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:antimall=§7無適応性§fの矢
+
+mob_effect.subspaceparasite:bleed=§4失血
+splash_potion.effect.subspaceparasite:bleed=§4失血§fのスプラッシュポーション
+potion.effect.subspaceparasite:bleed=§4失血§fのポーション
+lingering_potion.effect.subspaceparasite:bleed=§4出血§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:bleed=§4失血§fの矢
+
+mob_effect.subspaceparasite:corrosive=§6腐食
+splash_potion.effect.subspaceparasite:corrosive=§6腐食§fのスプラッシュポーション
+potion.effect.subspaceparasite:corrosive=§6腐食§fのポーション
+lingering_potion.effect.subspaceparasite:corrosive=§6腐食§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:corrosive=§6腐食§fの矢
+
+mob_effect.subspaceparasite:viral=§a妖毒
+splash_potion.effect.subspaceparasite:viral=§a妖毒§f薬水
+potion.effect.subspaceparasite:viral=§a妖毒§fのポーション
+lingering_potion.effect.subspaceparasite:viral=§a妖毒§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:viral=§a妖毒§fの矢
+
+mob_effect.subspaceparasite:rage=§c狂暴
+splash_potion.effect.subspaceparasite:rage=§c狂暴§のスプラッシュポーション
+potion.effect.subspaceparasite:rage=§c狂暴§fのポーション
+lingering_potion.effect.subspaceparasite:rage=§c狂暴§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:rage=§c狂暴§fの矢
+
+mob_effect.subspaceparasite:repel=§2擬態
+splash_potion.effect.subspaceparasite:repel=§2擬態§fのスプラッシュポーション
+potion.effect.subspaceparasite:repel=§2擬態§fのポーション
+lingering_potion.effect.subspaceparasite:repel=§2装う§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:repel=§2装う§fの矢
+
+mob_effect.subspaceparasite:senses=§3知覚強化
+splash_potion.effect.subspaceparasite:senses=§3知覚強化§fのスプラッシュポーション
+potion.effect.subspaceparasite:senses=§3知覚強化§fのポーション
+lingering_potion.effect.subspaceparasite:senses=§3知覚強化§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:senses=§3知覚強化§fの矢
+
+mob_effect.subspaceparasite:debar=§7禁断
+splash_potion.effect.subspaceparasite:debar=§7禁断§fのスプラッシュポーション
+potion.effect.subspaceparasite:debar=§7禁断§fのポーション
+lingering_potion.effect.subspaceparasite:debar=§7禁断§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:debar=§7禁断§fの矢
+
+mob_effect.subspaceparasite:needler=§6穿刺
+splash_potion.effect.subspaceparasite:needler=§6穿刺§のスプラッシュポーション
+potion.effect.subspaceparasite:needler=§6穿刺§fのポーション
+lingering_potion.effect.subspaceparasite:needler=§6穿刺§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:needler=§6穿刺§fの矢
+
+mob_effect.subspaceparasite:link=§a関連
+splash_potion.effect.subspaceparasite:link=§a関連§fのスプラッシュポーション
+potion.effect.subspaceparasite:link=§a関連§fのポーション
+lingering_potion.effect.subspaceparasite:link=§a関連§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:link=§a関連§fの矢
+
+mob_effect.subspaceparasite:foster=§e育成
+splash_potion.effect.subspaceparasite:foster=§e育成§fのスプラッシュポーション
+potion.effect.subspaceparasite:foster=§e育成§fのポーション
+lingering_potion.effect.subspaceparasite:foster=§e育成§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:foster=§e育成§fの矢
+
+mob_effect.subspaceparasite:prey=§e獲物
+splash_potion.effect.subspaceparasite:prey=§e獲物§fのスプラッシュポーション
+potion.effect.subspaceparasite:prey=§e獲物§fのポーション
+lingering_potion.effect.subspaceparasite:prey=§e獲物§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:prey=§e獲物§fの矢
+
+mob_effect.subspaceparasite:pivot=§e枢軸
+splash_potion.effect.subspaceparasite:pivot=§e枢軸§fのスプラッシュポーション
+potion.effect.subspaceparasite:pivot=§e枢軸§fのポーション
+lingering_potion.effect.subspaceparasite:pivot=§e枢軸§fの残留ポーション
+tipped_arrow.effect.subspaceparasite:pivot=§e枢軸§fの矢
+
+//extra
+
+message.subspaceparasite.lureb=進化点数の冷却時間が追加されました！
+message.subspaceparasite.lurec=進化点数が減少しました！
+message.subspaceparasite.fearitem=あなたは恐慌状態に陥った！
+message.subspaceparasite.fearblock=あなたは恐慌状態に陥った！
+message.subspaceparasite.feargui=あなたは恐慌状態に陥った！
+message.subspaceparasite.evolutionsleep=今は眠れません……
+message.subspaceparasite.armortooltips1=現在の適応性
+
+tootip.subspaceparasite.quench=§f飽和マグマクリームで作られた暖かく延展性に富む物質。高濃度のブレイズパウダーを含むため、寄生妖に対して§a対抗の不二の利器§fとなる。
+
+tootip.subspaceparasite.lurecomp.1=§f§7悧妖§f内臓の断片だ。§c誘引物質§fの製作に利用可能です。
+tootip.subspaceparasite.lurecomp.2=§f§4同化種§f生き物から取った、すごく腫れた心臓だ。§c誘引物質§fの製作に利用可能です。
+tootip.subspaceparasite.lurecomp.3=§f§c原始種§f寄生妖の身上から採集して得た発達した筋肉の断片で、強烈な臭いを放つ。§c誘引物質§fの製作に利用可能です。
+tootip.subspaceparasite.lurecomp.4=§f§6適応種§f寄生妖の身上から採集して得た発達した肺だ。§c誘引物質§fの製作に利用可能です。
+tootip.subspaceparasite.lurecomp.5=§f§e純粋種§f寄生妖の身上から採集して得た発達した脳だ。§c誘引物質§fの製作に利用可能です。
+tootip.subspaceparasite.lurecomp.6=§f寄領に垂れ下がっている嚢から取った、脊柱のようなものだ。§c誘引物質§fの製作に利用可能です。
+
+tootip.subspaceparasite.item.1=気を外へと溢れさせる小さな球、§6召喚妖§fの身上から採集して得ることができます。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.2=§6黄目妖§fの身上から採取した頑丈な骨。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.3=気を外へと溢れさせる小さな珠、§6噬生妖§fの身上から採集して得ることができます。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.4=§6汚臭妖§fの体から採集して得た鋭利な歯。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.5=§6長腕妖§fの体から採集して得た鎧の破片、軽盈でありながら、非常に強靭です。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.6=§c同化種§fの生物の体から剥がし取った肉。これは基本的な製作の素材です。
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=寄妖の一部を加工した弾性素材、§6武器§f製作の素材です。
+tootip.subspaceparasite.item.9=寄妖の一部を加工した刃、§6武器§f製作の素材です。
+tootip.subspaceparasite.item.10=その内にある命火は既に燃え尽きている。各種§6武器§fのエネルギー源として使用可能です。
+tootip.subspaceparasite.item.11=寄妖の一部を加工した甲殻、堅硬無類。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.12=寄妖の一部を加工した骨、重厚無類。§6武器§f製作の素材です。
+tootip.subspaceparasite.item.13=日常では見ることのない異質な骨。
+
+tootip.subspaceparasite.item.20=§7補強妖§fの体から採集して得た乾燥した皮膚片。
+tootip.subspaceparasite.item.21=§7蛛形妖§fの体から採集して得た爪は、鋭利無類。
+tootip.subspaceparasite.item.22=§b貪食妖§fの体から採集して得た骨質の触手。
+tootip.subspaceparasite.item.23=§a召妖荊柱§fの体から剥がし取った被膜。
+tootip.subspaceparasite.item.24=§c理妖花柱§fの体から剥がし取った被膜。
+
+tootip.subspaceparasite.item.25=§c進化§fで対象寄生妖を進化させる
+tootip.subspaceparasite.item.28=§c同化§fで対象生物を被同化させる
+tootip.subspaceparasite.item.26=§c退化§fで対象寄生妖を退化させる
+tootip.subspaceparasite.item.27=§c変種変更§fで対象寄生妖を他変種へ変化させる
+
+tootip.subspaceparasite.item.18=血滴り落ち、時計の針は刻一刻と真夜中の恐怖へと進んでいる。
+
+tootip.subspaceparasite.weaponm.1=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+tootip.subspaceparasite.weaponm.2=§fひっそりと音もなくして、生きた刃§b霊知§fを開き、進化を遂げた。
+tootip.subspaceparasite.weaponm.3=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+tootip.subspaceparasite.weaponm.4=§fひっそりと音もなくして、生きた刃§b霊知§fを開き、進化を遂げた。
+tootip.subspaceparasite.weaponm.5=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+tootip.subspaceparasite.weaponm.6=§fひっそりと音もなくして、生きた刃§b霊知§fを開き、進化を遂げた。
+tootip.subspaceparasite.weaponm.7=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+tootip.subspaceparasite.weaponm.8=§fひっそりと音もなくして、生きた刃§b霊知§fを開き、進化を遂げた。
+tootip.subspaceparasite.weaponm.9=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+
+tootip.subspaceparasite.weaponm.10=§c掃蕩§fにより広範囲の敵を一掃できます。
+tootip.subspaceparasite.weaponm.20=§c攻撃§fにより広範囲の敵を壊滅させます。
+tootip.subspaceparasite.weaponm.30=§f時間経過と共に鎧の防護を次第に§c無力化§fします。
+tootip.subspaceparasite.weaponm.40=§f時間経過と共に鎧の防護を次第に§c無力化§fします。
+tootip.subspaceparasite.weaponm.50=§f生命を脅かすに足る§c損傷§fを与えます。
+tootip.subspaceparasite.weaponm.60=§f生命を脅かすに足る§c損傷§fを与えます。
+tootip.subspaceparasite.weaponm.70=§f敵に§a致命的な§f斬撃を与えます。
+tootip.subspaceparasite.weaponm.80=§f敵に§a致命的な§f斬撃を与えます。
+tootip.subspaceparasite.weaponm.90=§c一を殺して§f百を戒める。
+
+tootip.subspaceparasite.weaponm.11=
+tootip.subspaceparasite.weaponm.110=
+tootip.subspaceparasite.weaponm.12=
+tootip.subspaceparasite.weaponm.120=
+
+tootip.subspaceparasite.weaponm.100=もう隠れられません……
+tootip.subspaceparasite.weaponm.200=もう隠れられません……
+tootip.subspaceparasite.weaponm.300=もう隠れられません……
+tootip.subspaceparasite.weaponm.400=もう隠れられません……
+tootip.subspaceparasite.weaponm.500=もう隠れられません……
+tootip.subspaceparasite.weaponm.600=もう隠れられません……
+tootip.subspaceparasite.weaponm.700=もう隠れられません……
+tootip.subspaceparasite.weaponm.800=もう隠れられません……
+
+tootip.subspaceparasite.weaponr.1=§f寄生妖の諸身体部位を再構築し、遂にこの武器を手に入れた。その核心の内なる命は灼熱を湛え、光り輝いている。
+tootip.subspaceparasite.weaponr.2=§fひっそりと音もなくして、生きた弓§b霊知§fを開き、進化を遂げた。
+
+tootip.subspaceparasite.weaponr.10=心を凝らし、力を蓄えてこそ、致命の矢を放てるのだ。
+tootip.subspaceparasite.weaponr.20=心を凝らし、力を蓄えてこそ、致命の矢を放てるのだ。
+
+tootip.subspaceparasite.weaponr.100=もう隠れられません……
+tootip.subspaceparasite.weaponr.200=もう隠れられません……
+
+tooltip.tile.subspaceparasite.evolutionlure=進化点数を約 %s 秒間一時停止します。
+
+//subtitles
+
+subtitles.carrierdeath=担体妖が滅びる
+subtitles.carrierliving=担体妖が泡を吐く
+subtitles.carrierhurt=担体妖が猛哮する
+subtitles.devourerliving=原始貪食妖が低吼する
+subtitles.devourerhurt=原始貪食妖が痛む
+subtitles.devourerdeath=原始貪食妖が瀕死す
+subtitles.adabolsterdeath=適応補強妖が死す
+subtitles.adabolsterliving=適応補強妖が唸る
+subtitles.adabolsterhurt=適応補強妖が猛哮する
+subtitles.monarchdeath=君主妖が哀鳴する
+subtitles.monarchliving=君主妖が呼び出す
+subtitles.monarchhurt=君主妖が嘶鳴する
+subtitles.marauderdeath=強盗妖が滅びる
+subtitles.marauderliving=強盗妖が喉鳴る
+subtitles.marauderhurt=強盗妖が猛哮する
+subtitles.assimhumanliving=同化された人間が絶叫する
+subtitles.assimhumanhurt=同化された人間が悲鳴る
+subtitles.assimhumandeath=同化された人間が瀕死す
+subtitles.assimpigliving=歪んだブーブー音
+subtitles.assimpighurt=同化されたブタが尖鳴する
+subtitles.assimpigdeath=同化されたブタが死す
+subtitles.assimhorseliving=歪んだ嘶鳴
+subtitles.assimhorsecharge=同化されたウマが突進する
+subtitles.assimhorsehurt=同化されたウマが絶叫する
+subtitles.assimhorsedeath=同化されたウマが死す
+subtitles.assimspiderliving=歪んだ嘶き
+subtitles.assimspidersteps=蛛虫足音
+subtitles.assimspiderdeath=巨蛛が死す
+subtitles.headliving=頭が絶叫する
+subtitles.headhurt=頭が嘶鳴する
+subtitles.headdeath=頭が瀕死す
+subtitles.verminliving=悪殖妖が咽鳴る
+subtitles.verminhurt=悪殖妖が怒鳴る
+subtitles.vermindeath=悪殖妖滅びる
+subtitles.buglinliving=霊虫が嘶る
+subtitles.buglinhurt=霊虫が圧迫され
+subtitles.buglindeath=霊虫が砕かれる
+subtitles.rupterliving=悧妖がカチッと鳴る
+subtitles.rupterhurt=悧妖が嘶鳴する
+subtitles.rupterdies=悧妖が瀕死す
+subtitles.rupterinfects=悧妖が「寄領の呼び声」を放つ
+subtitles.wardenliving=門番妖が唸る
+subtitles.wardenhurt=門番妖が猛哮する
+subtitles.wardendeath=門番妖が死す
+subtitles.adaarachliving=適応蛛形妖が唸る
+subtitles.adaarachhurt=適応蛛形妖がが猛哮する
+subtitles.adaarachdeath=適応蛛形妖がが嘶る
+subtitles.assimcowliving=歪んだモーモー音
+subtitles.assimcowhurt=同化されたウシが喘ぐ
+subtitles.assimcowdeath=同化されたウシが瀕死す
+subtitles.assimsheepliving=歪んだメーメー音
+subtitles.assimsheephurt=同化されたヒツジが鳴く
+subtitles.assimsheepdeath=同化されたヒツジが瀕死す
+subtitles.assimwolfliving=異様な吠え声
+subtitles.assimwolfhurt=歪んだキャッキャッ音
+subtitles.assimwolfdeath=同化されたオオカミが瀕死す
+subtitles.assimbearliving=歪んだゴロゴロ音
+subtitles.assimbearhurt=歪んだ低吼え声
+subtitles.assimbeardeath=同化されたクマが瀕死す
+subtitles.simmermanliving=異世界のヴーン音
+subtitles.simmermanhurt=歪んだブワーン音
+subtitles.simmermanteleports=壊れたワーン音
+subtitles.simmermandeath=同化されたエンダーマンが嗷々鳴く
+subtitles.infectedfleshmelt=血肉が膿々と癒合する
+subtitles.adasummonerliving=適応召喚妖が絶叫する
+subtitles.adasummonerhurt=適応召喚妖が嘶鳴する
+subtitles.adasummonerdeath=適応召喚妖が哀鳴する
+subtitles.adasummonersummon=激しい嘶鳴
+subtitles.adayelloweyeliving=適応黄目妖が唸る
+subtitles.adayelloweyehurt=適応黄目妖が低吼する
+subtitles.adayelloweyedeath=適応黄目妖が瀕死す
+subtitles.adayelloweyeshoot=適応黄目妖が唾を吐く
+subtitles.adareekerliving=適応汚臭妖が唸る
+subtitles.adareekerhurt=適応汚臭妖が喘ぐ
+subtitles.adareekerdeath=適応汚臭妖が瀕死す
+subtitles.adamanduliving=適応噬生妖が唸る
+subtitles.adamanduhurt=適応噬生妖が絶叫する
+subtitles.adamandudeath=適応噬生妖が低吼する
+subtitles.vigiliving=警護妖が轟く
+subtitles.vigihurt=警護妖が劈啪る
+subtitles.vigideath=警護妖が泡立つ
+subtitles.bogleliving=霊妖が咕鳴する
+subtitles.boglehurt=霊妖が唸る
+subtitles.bogledeath=霊妖が滅びる
+subtitles.hostliving=塔妖が出現する
+subtitles.hosthurt=塔妖が絶叫する
+subtitles.hostdeath=塔妖が瀕死す
+subtitles.hostmerge=衆声一斉に吟ずる
+subtitles.adamaducamo=戦慄の皮肉がする
+subtitles.adavomit=寄生妖が嘔吐する
+subtitles.flesh=血肉が飛び散る
+subtitles.sentryliving=歩哨爪が唸る
+subtitles.sentryhurt=歩哨爪が嘶る
+subtitles.sentrydeath=歩哨爪が死す
+subtitles.beckonliving=召妖荊柱が囁き
+subtitles.beckonhurt=召妖荊柱が嘶る
+subtitles.beckondeath=召妖荊柱が哀鳴する
+subtitles.beckonbell=鐘が鳴り響く
+subtitles.mobexplodes=寄生妖が爆体する
+subtitles.mobswipe=寄生妖が揮打する
+subtitles.moblands=寄生妖が着地する
+subtitles.cysteats=物品が噛み砕かれる
+subtitles.adaptationpart=寄生妖が適応開始
+subtitles.adaptationfull=寄生妖が適応完了
+subtitles.biomeheart=§c心拍声entity.subspaceparasite.abo_bodies.name=Many Bodies
+entity.subspaceparasite.abo_head.name=Giant Head
+entity.subspaceparasite.pri_burrower.name=Primitive Burrower
+entity.subspaceparasite.pri_viscera.name=Primitive Viscera
+entity.subspaceparasite.nametag.ricardo=ricardo
+tile.subspaceparasite.alveoli.name=Alveoli
+tile.subspaceparasite.sick_alveoli.name=Sick Alveoli
+tile.subspaceparasite.alveoli_growth.name=Alveoli Growth
+tile.subspaceparasite.solid_alveoli_block.name=Solid Alveoli Block
+item.subspaceparasite.alveolar_fluid.name=Alveolar Fluid
+entity.subspaceparasite.crux_incomplete.name=Incomplete Crux
+entity.subspaceparasite.done.name=Dredge
+entity.subspaceparasite.carrier_worm.name=Worm Carrier
+entity.subspaceparasite.airscrew.name=Airscrew
+death.attack.subspaceparasite.ricardo=%s was added to the Book of Vengeance
+entity.subspaceparasite.mar_bear.name=Assimara Bear
+entity.subspaceparasite.mar_enderman.name=Assimara Enderman
+entity.subspaceparasite.mar_human.name=Assimara Human
+entity.subspaceparasite.mar_villager.name=Assimara Villager
+entity.subspaceparasite.mar_cow.name=Assimara Cow
+entity.subspaceparasite.mar_sheep.name=Assimara Sheep
+entity.subspaceparasite.kirin.name=§9Kirin
+entity.subspaceparasite.ada_devourer.name=Adapted Devourer
+entity.subspaceparasite.ada_vermin.name=Adapted Vermin
+entity.subspaceparasite.ada_tozoon.name=Adapted Tozoon
+entity.subspaceparasite.ada_burrower.name=Adapted Burrower
+entity.subspaceparasite.ada_viscera.name=Adapted Viscera
+item.subspaceparasite.itemmobspawner_abobodies.name=Spawn Abomination Many Bodies
+item.subspaceparasite.itemmobspawner_abohead.name=Spawn Abomination Giant Head
+item.subspaceparasite.itemmobspawner_done.name=Spawn Dredge
+item.subspaceparasite.itemmobspawner_quac.name=Spawn Worm Carrier
+item.subspaceparasite.itemmobspawner_leer.name=Spawn Airscrew
+item.subspaceparasite.itemmobspawner_cruxb.name=Spawn Incomplete Crux
+item.subspaceparasite.itemmobspawner_marbear.name=Spawn Assimara Bear
+item.subspaceparasite.itemmobspawner_marhuman.name=Spawn Assimara Human
+item.subspaceparasite.itemmobspawner_marcow.name=Spawn Assimara Cow
+item.subspaceparasite.itemmobspawner_marsheep.name=Spawn Assimara Sheep
+item.subspaceparasite.itemmobspawner_marenderman.name=Spawn Assimara Enderman
+item.subspaceparasite.itemmobspawner_marvillager.name=Spawn Assimara Villager
+item.subspaceparasite.itemmobspawner_kirin.name=Spawn Kirin
+item.subspaceparasite.itemmobspawner_gim.name=Spawn Primitive Viscera
+item.subspaceparasite.itemmobspawner_zaa.name=Spawn Primitive Burrower
+item.subspaceparasite.itemmobspawner_lumadapted.name=Spawn Adapted Devourer
+item.subspaceparasite.itemmobspawner_ikiadapted.name=Spawn Adapted Vermin
+item.subspaceparasite.itemmobspawner_wymoadapted.name=Spawn Adapted Tozoon
+item.subspaceparasite.itemmobspawner_gimadapted.name=Spawn Adapted Viscera
+item.subspaceparasite.itemmobspawner_zaaadapted.name=Spawn Adapted Burrower
+item.subspaceparasite.colonycompass.name=§cColony Compass
+item.subspaceparasite.origincompass.name=§cVector Compass
+tile.subspaceparasite.parasiteplank_deadhead_wall.name=Deadhead Plank Wall
+tile.subspaceparasite.parasiterubble_weathb_wall.name=Weathered Brick Wall
+tile.subspaceparasite.parasiterubbledense_colony_wall.name=Compressed Colony Stone Wall
+tile.subspaceparasite.parasiterubble_weathfs_wall.name=Frost Weathered Stone Wall
+tile.subspaceparasite.parasiterubbledense_biome_wall.name=Reinforced Hivestone Wall
+tile.subspaceparasite.parasiterubble_weathbc_wall.name=Weathered Cobblestone Wall
+tile.subspaceparasite.parasiterubble_bricks_wall.name=Hivestone Brick Wall
+tile.subspaceparasite.parasitecanister_bag_wall.name=Sac of Flesh Wall
+tile.subspaceparasite.infestedrubble_wall.name=Infested Stone Wall
+tile.subspaceparasite.infestedstain_wall.name=Infested Dirt Wall
+tile.subspaceparasite.parasitestain_flesh_wall.name=Flesh Chunk Wall
+tile.subspaceparasite.parasiterubble_metal_wall.name=Hivesteel Wall
+tile.subspaceparasite.harlequinn_grass.name=Harlequinn Grass Block
+tile.subspaceparasite.harleskinn_block.name=Harleskinn Block
+tile.subspaceparasite.poland_skin_block.name=Poland Skin Block
+tile.subspaceparasite.hair_follicle_block.name=Bronchial Tube
+tile.subspaceparasite.locs_block.name=Locs Block
+tile.subspaceparasite.hirsute_hair.name=Hirsute Hair
+tile.subspaceparasite.tresses_hair.name=Tresses Hair
+tile.subspaceparasite.lipoma_mass.name=Lipoma Mass
+tile.subspaceparasite.parasitebush_frostg.name=Frost-burnt Grass
+tile.subspaceparasite.parasitebush_frostgt.name=Frost-burned Grass
+tile.subspaceparasite.parasitebush_thorn.name=Thornshade
+tile.subspaceparasite.parasitebush_thorndead.name=Dead Thornshade
+tile.subspaceparasite.parasitebush_thorndormat.name=Dormat Thornshade
+tile.subspaceparasite.parasitebush_thorndormats.name=Dormat Thornshade
+tile.subspaceparasite.parasitebush_thorntwo.name=Thornshade
+tile.subspaceparasite.parasitebush_thorntwos.name=Thornshade
+tile.subspaceparasite.parasitebush_decanter.name=Decanter
+tile.subspaceparasite.parasitebush_decanterempty.name=Empty Decanter
+tile.subspaceparasite.infestedsand.name=Infested Sand
+tile.subspaceparasite.parasitetrunk_ballstairs.name=Bruisewood Stairs
+tile.subspaceparasite.parasitetrunk_treestairs.name=Veinwood Stairs
+tile.subspaceparasite.parasitetrunk_plantstairs.name=Darkwood Stairs
+tile.subspaceparasite.parasitetrunk_deadhead.name=Deadhead Log
+tile.subspaceparasite.parasitetrunk_deadheadstairs.name=Deadhead Stairs
+tile.subspaceparasite.parasiteplank_deadhead.name=Deadhead Plank
+tile.subspaceparasite.parasiteplank_deadheads.name=Deadhead Plank
+tile.subspaceparasite.parasitestain_dirtstairs.name=Hivesoil Stairs
+tile.subspaceparasite.parasitestain_mudstairs.name=Visceral Mud Stairs
+tile.subspaceparasite.parasitestain_feelerstairs.name=Compressed Arteries Stairs
+tile.subspaceparasite.parasiterubble_fleshstairs.name=Concentrated Flesh Stairs
+tile.subspaceparasite.parasiterubble_flesh_wall.name=Concentrated Flesh Wall
+tile.subspaceparasite.parasiterubble_boneslabhalf.name=Fortified Bone Half Slab
+tile.subspaceparasite.parasiterubble_boneslabdouble.name=Fortified Bone Double Slab
+tile.subspaceparasite.parasiterubble_stonestairs.name=Hivestone Stairs
+tile.subspaceparasite.parasiterubble_stonedebrisstairs.name=Hivestone Debris Stairs
+tile.subspaceparasite.parasiterubble_woodstairs.name=Consumed Wood Stairs
+tile.subspaceparasite.parasiterubble_bricksstairs.name=Hivestone Bricks Stairs
+tile.subspaceparasite.parasiterubble_metalstairs.name=Hivesteel Stairs
+tile.subspaceparasite.parasiterubble_obsidianstairs.name=Bleeding Obsidian Stairs
+tile.subspaceparasite.parasiterubble_fungusstairs.name=Assimilated Fungus Stairs
+tile.subspaceparasite.parasiterubble_weathb.name=Weathered Bricks
+tile.subspaceparasite.parasiterubble_weathbs.name=Weathered Bricks
+tile.subspaceparasite.parasiterubble_weathbc.name=Weathered Cobblestone
+tile.subspaceparasite.parasiterubble_weathbcs.name=Weathered Cobblestone
+tile.subspaceparasite.parasiterubble_weathfs.name=Frost Weathered Stone
+tile.subspaceparasite.parasiterubble_weathfss.name=Frost Weathered Stone
+tile.subspaceparasite.parasiterubbledense_wallstairs.name=Compressed Hivestone Stairs
+tile.subspaceparasite.parasiterubbledense_biomestairs.name=Reinforced Hivestone Stairs
+tile.subspaceparasite.parasiterubbledense_colonystairs.name=Parasitic Compressed Colony Stone Stairs
+tile.subspaceparasite.gothshroom.name=Gothshroom
+tile.subspaceparasite.node_redstone_lamp.name=Node Lamp
+tile.subspaceparasite.infested_furnace.name=Infested Furnace
+tile.subspaceparasite.infested_furnace_lit.name=Infested Furnace
+tile.subspaceparasite.relay_base.name=Relay Terminal | Bottom
+tile.subspaceparasite.relay_middle.name=Relay Structure | Middle
+tile.subspaceparasite.relay_roof.name=Relay Antennas | Top
+tile.node_lamp_off.name=Node Lamp
+tile.node_lamp_on.name=Node Lamp (On)
+message.subspaceparasite.node_lamp.strength=Signal Strength: %s
+message.subspaceparasite.node_lamp.distance=Signal Distance: %s
+tile.relaycontroller.name=§6Relay Controller
+tile.relay_base.name=§7Relay Terminal
+tile.relay_middle.name=§7Relay Structure
+tile.relay_roof.name=§7Relay Antenna
+tooltip.relaycontroller=§7Controls the §6Relay Multiblock. §7Breaking it dismantles the whole structure.
+tooltip.relay_base=§7Bottom piece of §6Relay Multiblock. §7Forms the relay when stacked with middle and top.
+tooltip.relay_middle=§7Middle piece of §6Relay Multiblock. §7Connects base to the antenna.
+tooltip.relay_roof=§7Top piece of §6Relay Multiblock. §7Antenna head of the relay used for capturing Dispatcher frequencies.
+item.subspaceparasite.module_inborn.name=Inborn Module
+item.subspaceparasite.module_assimilated.name=Assimilated Module
+item.subspaceparasite.module_hijacked.name=Hijacked Module
+item.subspaceparasite.module_feral.name=Feral Module
+item.subspaceparasite.module_crude.name=Crude Module
+item.subspaceparasite.module_primitive.name=Primitive Module
+item.subspaceparasite.module_adapted.name=Adapted Module
+item.subspaceparasite.module_nexus.name=Nexus Module
+item.subspaceparasite.module_deterrent.name=Deterrent Module
+item.subspaceparasite.module_pure.name=Pure Module
+item.subspaceparasite.module_preeminent.name=Preeminent Module
+item.subspaceparasite.module_ancient.name=Ancient Module
+item.subspaceparasite.module_desmoid.name=Desmoid Module
+item.subspaceparasite.module_eschar.name=Eschar Module
+item.subspaceparasite.module_resistance.name=Resistance Module
+item.subspaceparasite.module_ideal.name=Ideal Module
+item.subspaceparasite.module_origin.name=Origin Module
+tooltip.module_inborn=Scans for nearby Inborn parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_assimilated=Scans for nearby Assimilated parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_hijacked=Scans for nearby Hijacked parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_feral=Scans for nearby Feral parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_crude=Scans for nearby Crude parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_primitive=Scans for nearby Primitive parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_adapted=Scans for nearby Adapted parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_nexus=Scans for nearby Nexus parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_deterrent=Scans for nearby Deterrent parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_pure=Scans for nearby Pure parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_preeminent=Scans for nearby Preeminent parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_ancient=Scans for nearby Ancient parasites.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_desmoid=Covers Inborn, Assimilated, and Hijacked tiers.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_eschar=Covers Feral, Crude, and Primitive tiers.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_resistance=Covers Adapted, Nexus, and Deterrent tiers.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_ideal=Covers Pure, Preeminent, and Ancient tiers.\nInsert into the Relay Terminal and press Scan.
+tooltip.module_origin=Scans for ALL parasite tiers.\nInsert into the Relay Terminal and press Scan.
+mob_effect.subspaceparasite:parate=§Pparate
+splash_potion.effect.subspaceparasite:parate=Splash Potion of §eParate
+potion.effect.subspaceparasite:parate=Potion of §eParate
+lingering_potion.effect.subspaceparasite:parate=Lingering Potion of §eParate
+tipped_arrow.effect.subspaceparasite:parate=Arrow of §eParate
+mob_effect.subspaceparasite:primitive=§ePrimitive
+splash_potion.effect.subspaceparasite:primitive=Splash Potion of §ePrimitive
+potion.effect.subspaceparasite:primitive=Potion of §ePrimitive
+lingering_potion.effect.subspaceparasite:primitive=Lingering Potion of §ePrimitive
+tipped_arrow.effect.subspaceparasite:primitive=Arrow of §ePrimitive
+mob_effect.subspaceparasite:adapted=§eAdapted
+splash_potion.effect.subspaceparasite:adapted=Splash Potion of §eAdapted
+potion.effect.subspaceparasite:adapted=Potion of §eAdapted
+lingering_potion.effect.subspaceparasite:adapted=Lingering Potion of §eAdapted
+tipped_arrow.effect.subspaceparasite:adapted=Arrow of §eAdapted
+mob_effect.subspaceparasite:pure=§ePure
+splash_potion.effect.subspaceparasite:pure=Splash Potion of §ePure
+potion.effect.subspaceparasite:pure=Potion of §ePure
+lingering_potion.effect.subspaceparasite:pure=Lingering Potion of §ePure
+tipped_arrow.effect.subspaceparasite:pure=Arrow of §ePure
+mob_effect.subspaceparasite:crude=§eCrude
+splash_potion.effect.subspaceparasite:crude=Splash Potion of §eCrude
+potion.effect.subspaceparasite:crude=Potion of §eCrude
+lingering_potion.effect.subspaceparasite:crude=Lingering Potion of §eCrude
+tipped_arrow.effect.subspaceparasite:crude=Arrow of §eCrude
+mob_effect.subspaceparasite:feral=§eFeral
+splash_potion.effect.subspaceparasite:feral=Splash Potion of §eFeral
+potion.effect.subspaceparasite:feral=Potion of §eFeral
+lingering_potion.effect.subspaceparasite:feral=Lingering Potion of §eFeral
+tipped_arrow.effect.subspaceparasite:feral=Arrow of §eFeral
+mob_effect.subspaceparasite:nexus=§eNexus
+splash_potion.effect.subspaceparasite:nexus=Splash Potion of §eNexus
+potion.effect.subspaceparasite:nexus=Potion of §eNexus
+lingering_potion.effect.subspaceparasite:nexus=Lingering Potion of §eNexus
+tipped_arrow.effect.subspaceparasite:nexus=Arrow of §eNexus
+mob_effect.subspaceparasite:muscleout=§eMuscle Out
+splash_potion.effect.subspaceparasite:muscleout=Splash Potion of §eMuscle Out
+potion.effect.subspaceparasite:muscleout=Potion of §eMuscle Out
+lingering_potion.effect.subspaceparasite:muscleout=Lingering Potion of §eMuscle Out
+tipped_arrow.effect.subspaceparasite:muscleout=Arrow of §eMuscle Out
+mob_effect.subspaceparasite:effectpos=§ePositive
+splash_potion.effect.subspaceparasite:effectpos=Splash Potion of §ePositive
+potion.effect.subspaceparasite:effectpos=Potion of §ePositive
+lingering_potion.effect.subspaceparasite:effectpos=Lingering Potion of §ePositive
+tipped_arrow.effect.subspaceparasite:effectpos=Arrow of §ePositive
+mob_effect.subspaceparasite:effectneg=§eNegative
+splash_potion.effect.subspaceparasite:effectneg=Splash Potion of §eNegative
+potion.effect.subspaceparasite:effectneg=Potion of §eNegative
+lingering_potion.effect.subspaceparasite:effectneg=Lingering Potion of §eNegative
+tipped_arrow.effect.subspaceparasite:effectneg=Arrow of §eNegative
+mob_effect.subspaceparasite:spotted=§eSpotted
+splash_potion.effect.subspaceparasite:spotted=Splash Potion of §eSpotted
+potion.effect.subspaceparasite:spotted=Potion of §eSpotted
+lingering_potion.effect.subspaceparasite:spotted=Lingering Potion of §eSpotted
+tipped_arrow.effect.subspaceparasite:spotted=Arrow of §eSpotted
+mob_effect.subspaceparasite:braining=§eBraining
+splash_potion.effect.subspaceparasite:braining=Splash Potion of §eBraining
+potion.effect.subspaceparasite:braining=Potion of §eBraining
+lingering_potion.effect.subspaceparasite:braining=Lingering Potion of §eBraining
+tipped_arrow.effect.subspaceparasite:braining=Arrow of §eBraining
+mob_effect.subspaceparasite:novision=§eNo vision
+splash_potion.effect.subspaceparasite:novision=Splash Potion of §eNo vision
+potion.effect.subspaceparasite:novision=Potion of §eNo vision
+lingering_potion.effect.subspaceparasite:novision=Lingering Potion of §eNo vision
+tipped_arrow.effect.subspaceparasite:novision=Arrow of §eNo vision
+mob_effect.subspaceparasite:indeaf=§eIndeaf
+splash_potion.effect.subspaceparasite:indeaf=Splash Potion of §eIndeaf
+potion.effect.subspaceparasite:indeaf=Potion of §eIndeaf
+lingering_potion.effect.subspaceparasite:indeaf=Lingering Potion of §eIndeaf
+tipped_arrow.effect.subspaceparasite:indeaf=Arrow of §eIndeaf
+mob_effect.subspaceparasite:overheating=§eOverheating
+splash_potion.effect.subspaceparasite:overheating=Splash Potion of §eOverheating
+potion.effect.subspaceparasite:overheating=Potion of §eOverheating
+lingering_potion.effect.subspaceparasite:overheating=Lingering Potion of §eOverheating
+tipped_arrow.effect.subspaceparasite:overheating=Arrow of §eOverheating
+mob_effect.subspaceparasite:contagion=§eContagion
+splash_potion.effect.subspaceparasite:contagion=Splash Potion of §eContagion
+potion.effect.subspaceparasite:contagion=Potion of §eContagion
+lingering_potion.effect.subspaceparasite:contagion=Lingering Potion of §eContagion
+tipped_arrow.effect.subspaceparasite:contagion=Arrow of §eContagion
+item.subspaceparasite.discone.name=Duality
+item.subspaceparasite.disctwo.name=We'll Meet Again
+item.subspaceparasite.discthree.name=Serenity
+item.record.discone.desc=Duality
+item.record.disctwo.desc=We'll Meet Again
+item.record.discthree.desc=Serenity

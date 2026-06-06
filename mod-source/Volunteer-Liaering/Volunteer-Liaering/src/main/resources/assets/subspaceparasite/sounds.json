@@ -1,0 +1,7414 @@
+{
+  "compendium.unlock.item": {
+    "category": "player",
+    "subtitle": "subtitles.item.unlocked",
+    "sounds": [
+      "subspaceparasite:bestiary/item/unlock1",
+      "subspaceparasite:bestiary/item/unlock2",
+      "subspaceparasite:bestiary/item/unlock3",
+      "subspaceparasite:bestiary/item/unlock4",
+      "subspaceparasite:bestiary/item/unlock5",
+      "subspaceparasite:bestiary/item/unlock6",
+      "subspaceparasite:bestiary/item/unlock7",
+      "subspaceparasite:bestiary/item/unlock8"
+    ]
+  },
+  "compendium.unlock.block": {
+    "category": "player",
+    "subtitle": "subtitles.block.unlocked",
+    "sounds": [
+      "subspaceparasite:bestiary/block/unlock1",
+      "subspaceparasite:bestiary/block/unlock2",
+      "subspaceparasite:bestiary/block/unlock3",
+      "subspaceparasite:bestiary/block/unlock4",
+      "subspaceparasite:bestiary/block/unlock5",
+      "subspaceparasite:bestiary/block/unlock6",
+      "subspaceparasite:bestiary/block/unlock7",
+      "subspaceparasite:bestiary/block/unlock8"
+    ]
+  },
+  "compendium.unlock.celestial": {
+    "category": "player",
+    "subtitle": "subtitles.celestial.unlocked",
+    "sounds": [
+      "subspaceparasite:bestiary/celestial/unlock1",
+      "subspaceparasite:bestiary/celestial/unlock2",
+      "subspaceparasite:bestiary/celestial/unlock3",
+      "subspaceparasite:bestiary/celestial/unlock4",
+      "subspaceparasite:bestiary/celestial/unlock5",
+      "subspaceparasite:bestiary/celestial/unlock6",
+      "subspaceparasite:bestiary/celestial/unlock7",
+      "subspaceparasite:bestiary/celestial/unlock8"
+    ]
+  },
+  "compendium.unlock.entity": {
+    "category": "player",
+    "subtitle": "subtitles.entity.unlocked",
+    "sounds": [
+      "subspaceparasite:bestiary/entity/unlock1",
+      "subspaceparasite:bestiary/entity/unlock2",
+      "subspaceparasite:bestiary/entity/unlock3",
+      "subspaceparasite:bestiary/entity/unlock4",
+      "subspaceparasite:bestiary/entity/unlock5",
+      "subspaceparasite:bestiary/entity/unlock6",
+      "subspaceparasite:bestiary/entity/unlock7",
+      "subspaceparasite:bestiary/entity/unlock8"
+    ]
+  },
+  "relay.paper.output": {
+    "category": "player",
+    "subtitle": "subtitles.entity.relaypaper",
+    "sounds": [
+      "subspaceparasite:relay_paper_output"
+    ]
+  },
+  "relay.scan.activate": {
+    "category": "player",
+    "subtitle": "subtitles.entity.relayscan",
+    "sounds": [
+      "subspaceparasite:relay_signal_activation"
+    ]
+  },
+  "shrimp.eat": {
+    "category": "player",
+    "subtitle": "subtitles.shrimp.eat",
+    "sounds": [
+      {
+        "name": "subspaceparasite:item/shrimp_eat1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat3",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat1",
+        "pitch": 0.9
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat2",
+        "pitch": 0.9
+      },
+      {
+        "name": "subspaceparasite:item/shrimp_eat3",
+        "pitch": 0.9
+      }
+    ]
+  },
+  "vengeance.attack.impact": {
+    "category": "player",
+    "subtitle": "subtitles.vengeance.impact",
+    "sounds": [
+      "subspaceparasite:item/vengeance_impact_hit"
+    ]
+  },
+  "vengeance.attack.paper": {
+    "category": "player",
+    "subtitle": "subtitles.vengeance.paper",
+    "sounds": [
+      "subspaceparasite:item/vengeance_paper_rub"
+    ]
+  },
+  "vengeance.attack.chain": {
+    "category": "player",
+    "subtitle": "subtitles.vengeance.chain",
+    "sounds": [
+      "subspaceparasite:item/vengeance_chain_impact"
+    ]
+  },
+  "vengeance.attack.whoosh": {
+    "category": "player",
+    "subtitle": "subtitles.vengeance.whoosh",
+    "sounds": [
+      "subspaceparasite:item/whoosh"
+    ]
+  },
+  "vengeance.attack.rock": {
+    "category": "player",
+    "subtitle": "subtitles.vengeance.rock",
+    "sounds": [
+      "subspaceparasite:item/vengeance_rock_impact"
+    ]
+  },
+  "orb.attack.summon": {
+    "category": "player",
+    "subtitle": "subtitles.orb.summon",
+    "distance": 30,
+    "sounds": [
+      "subspaceparasite:misc/orb_attack_summon"
+    ]
+  },
+  "orb.attack.idle": {
+    "category": "player",
+    "subtitle": "subtitles.orb.idle",
+    "distance": 30,
+    "sounds": [
+      {
+        "name": "subspaceparasite:misc/orb_attack_idle",
+        "volume": 0.8
+      }
+    ]
+  },
+  "attack.ranrac": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_arachnida_special"
+    ]
+  },
+  "attack.bano": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_bolster_special"
+    ]
+  },
+  "attack.shyco": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_longarm_special"
+    ]
+  },
+  "attack.nogla": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_reeker_special"
+    ]
+  },
+  "attack.wymo": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_tozoon_special"
+    ]
+  },
+  "attack.gim": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_viscera_special"
+    ]
+  },
+  "attack.emana": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_yelloweye_special"
+    ]
+  },
+  "lum.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.devourerdeath",
+    "sounds": [
+      "subspaceparasite:devourerdeath"
+    ]
+  },
+  "lum.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.devourerhurt",
+    "sounds": [
+      "subspaceparasite:devourerhurt1",
+      "subspaceparasite:devourerhurt2",
+      "subspaceparasite:devourerhurt3"
+    ]
+  },
+  "lum.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.devourerliving",
+    "sounds": [
+      "subspaceparasite:devourerliving1",
+      "subspaceparasite:devourerliving2",
+      "subspaceparasite:devourerliving3",
+      "subspaceparasite:devourerliving4"
+    ]
+  },
+  "gim.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_death"
+    ]
+  },
+  "gim.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_hurt_1",
+      "subspaceparasite:prim_viscera_hurt_2",
+      "subspaceparasite:prim_viscera_hurt_3"
+    ]
+  },
+  "gim.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_living_1",
+      "subspaceparasite:prim_viscera_living_2",
+      "subspaceparasite:prim_viscera_living_3"
+    ]
+  },
+  "zaa.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_death"
+    ]
+  },
+  "zaa.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_hurt_1",
+      "subspaceparasite:prim_burrower_hurt_2",
+      "subspaceparasite:prim_burrower_hurt_3"
+    ]
+  },
+  "zaa.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_living_1",
+      "subspaceparasite:prim_burrower_living_2",
+      "subspaceparasite:prim_burrower_living_3"
+    ]
+  },
+  "zaa.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_digging_1",
+      "subspaceparasite:prim_burrower_digging_2",
+      "subspaceparasite:prim_burrower_digging_3"
+    ]
+  },
+  "wymo.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_death"
+    ]
+  },
+  "wymo.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_hurt_1",
+      "subspaceparasite:prim_tozoon_hurt_2",
+      "subspaceparasite:prim_tozoon_hurt_3"
+    ]
+  },
+  "wymo.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_living_1",
+      "subspaceparasite:prim_tozoon_living_2",
+      "subspaceparasite:prim_tozoon_living_3"
+    ]
+  },
+  "wymo.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_digging_1",
+      "subspaceparasite:prim_tozoon_digging_2",
+      "subspaceparasite:prim_tozoon_digging_3"
+    ]
+  },
+  "infectedhuman.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhumandeath",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/death"
+    ]
+  },
+  "infectedhuman.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhumanliving",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle1",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle2",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle3",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle4",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle5",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/old_idle",
+        "weight": 1
+      }
+    ]
+  },
+  "infectedhuman.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhumanhurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/hurt1",
+      "subspaceparasite:mob/assimilated/human/hurt2",
+      "subspaceparasite:mob/assimilated/human/hurt3",
+      "subspaceparasite:mob/assimilated/human/hurt4",
+      "subspaceparasite:mob/assimilated/human/hurt5"
+    ]
+  },
+  "assimadventurer.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhumandeath",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/death"
+    ]
+  },
+  "assimadventurer.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimadvliving",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/adventurer/breath1",
+      "subspaceparasite:mob/assimilated/adventurer/breath2",
+      "subspaceparasite:mob/assimilated/adventurer/breath3"
+    ]
+  },
+  "assimadventurer.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhumanhurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/hurt1",
+      "subspaceparasite:mob/assimilated/human/hurt2",
+      "subspaceparasite:mob/assimilated/human/hurt3"
+    ]
+  },
+  "ancient": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "subspaceparasite:misc/ancient",
+        "stream": true
+      }
+    ]
+  },
+  "assenderman.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assendermandeath",
+    "sounds": [
+      "subspaceparasite:mob/assimara/enderman/death"
+    ]
+  },
+  "assenderman.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assendermanliving",
+    "sounds": [
+      "subspaceparasite:mob/assimara/enderman/idle1",
+      "subspaceparasite:mob/assimara/enderman/idle2",
+      "subspaceparasite:mob/assimara/enderman/idle3",
+      "subspaceparasite:mob/assimara/enderman/idle4",
+      "subspaceparasite:mob/assimara/enderman/idle5"
+    ]
+  },
+  "assenderman.portal": {
+    "category": "hostile",
+    "subtitle": "subtitles.assendermanteleports",
+    "sounds": [
+      "subspaceparasite:mob/assimara/enderman/portal1",
+      "subspaceparasite:mob/assimara/enderman/portal2"
+    ]
+  },
+  "assenderman.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assendermanhurt",
+    "sounds": [
+      "subspaceparasite:mob/assimara/enderman/hurt1",
+      "subspaceparasite:mob/assimara/enderman/hurt2",
+      "subspaceparasite:mob/assimara/enderman/hurt3",
+      "subspaceparasite:mob/assimara/enderman/hurt4"
+    ]
+  },
+  "infected.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_death",
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "infected.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_growl",
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "infected.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_hurt",
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "infectedpig.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimpigdeath",
+    "sounds": [
+      "subspaceparasite:assimilatedpigdeath"
+    ]
+  },
+  "infectedpig.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimpigliving",
+    "sounds": [
+      "subspaceparasite:assimilatedpigliving1",
+      "subspaceparasite:assimilatedpigliving2",
+      "subspaceparasite:assimilatedpigliving3"
+    ]
+  },
+  "infectedpig.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimpighurt",
+    "sounds": [
+      "subspaceparasite:assimilatedpighurt1",
+      "subspaceparasite:assimilatedpighurt2",
+      "subspaceparasite:assimilatedpighurt3"
+    ]
+  },
+  "infectedcow.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimcowdeath",
+    "sounds": [
+      "subspaceparasite:assimilatedcowdeath"
+    ]
+  },
+  "infectedcow.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimcowliving",
+    "sounds": [
+      "subspaceparasite:assimilatedcowliving1",
+      "subspaceparasite:assimilatedcowliving2",
+      "subspaceparasite:assimilatedcowliving3"
+    ]
+  },
+  "infectedcow.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimcowhurt",
+    "sounds": [
+      "subspaceparasite:assimilatedcowhurt1",
+      "subspaceparasite:assimilatedcowhurt2",
+      "subspaceparasite:assimilatedcowhurt3"
+    ]
+  },
+  "infectedhorse.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhorsedeath",
+    "sounds": [
+      "subspaceparasite:assimilatedhorsedeath"
+    ]
+  },
+  "infectedhorse.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhorseliving",
+    "sounds": [
+      "subspaceparasite:assimilatedhorseliving1",
+      "subspaceparasite:assimilatedhorseliving2",
+      "subspaceparasite:assimilatedhorseliving3"
+    ]
+  },
+  "infectedhorse.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhorsehurt",
+    "sounds": [
+      "subspaceparasite:assimilatedhorsehurt1",
+      "subspaceparasite:assimilatedhorsehurt2",
+      "subspaceparasite:assimilatedhorsehurt3"
+    ]
+  },
+  "infectedhorse.sa1": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimhorsecharge",
+    "sounds": [
+      "subspaceparasite:assimilatedhorsecharge"
+    ]
+  },
+  "infectedhorse.sa2": {
+    "category": "hostile",
+    "subtitle": "subtitles.mobexplodes",
+    "sounds": [
+      "subspaceparasite:assimilatedhorseexplode"
+    ]
+  },
+  "infectedsheep.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsheepdeath",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepdeath"
+    ]
+  },
+  "infectedsheep.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsheepliving",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepliving1",
+      "subspaceparasite:assimilatedsheepliving2",
+      "subspaceparasite:assimilatedsheepliving3"
+    ]
+  },
+  "infectedsheep.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsheephurt",
+    "sounds": [
+      "subspaceparasite:assimilatedsheephurt1",
+      "subspaceparasite:assimilatedsheephurt2",
+      "subspaceparasite:assimilatedsheephurt3"
+    ]
+  },
+  "infectedwolf.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimwolfdeath",
+    "sounds": [
+      "subspaceparasite:assimilatedwolfdeath"
+    ]
+  },
+  "infectedwolf.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimwolfliving",
+    "sounds": [
+      "subspaceparasite:assimilatedwolfliving1",
+      "subspaceparasite:assimilatedwolfliving2",
+      "subspaceparasite:assimilatedwolfliving3"
+    ]
+  },
+  "infectedwolf.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimwolfhurt",
+    "sounds": [
+      "subspaceparasite:assimilatedwolfhurt1",
+      "subspaceparasite:assimilatedwolfhurt2",
+      "subspaceparasite:assimilatedwolfhurt3"
+    ]
+  },
+  "infectedsquid.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsquiddeath",
+    "sounds": [
+      "subspaceparasite:as_squid_death"
+    ]
+  },
+  "infectedsquid.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsquidfliving",
+    "sounds": [
+      "subspaceparasite:as_squid_idle_1",
+      "subspaceparasite:as_squid_idle_2",
+      "subspaceparasite:as_squid_idle_3"
+    ]
+  },
+  "infectedsquid.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimsquidhurt",
+    "sounds": [
+      "subspaceparasite:as_squid_hurt_1",
+      "subspaceparasite:as_squid_hurt_2",
+      "subspaceparasite:as_squid_hurt_3"
+    ]
+  },
+  "infectedbear.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimbeardeath",
+    "sounds": [
+      "subspaceparasite:assimilatedbeardeath"
+    ]
+  },
+  "infectedbear.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimbearliving",
+    "sounds": [
+      "subspaceparasite:assimilatedbearliving1",
+      "subspaceparasite:assimilatedbearliving2",
+      "subspaceparasite:assimilatedbearliving3"
+    ]
+  },
+  "infectedbear.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimbearhurt",
+    "sounds": [
+      "subspaceparasite:assimilatedbearhurt1",
+      "subspaceparasite:assimilatedbearhurt2",
+      "subspaceparasite:assimilatedbearhurt3"
+    ]
+  },
+  "infectedspider.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimspiderdeath",
+    "sounds": [
+      "subspaceparasite:assimilatedspiderdeath"
+    ]
+  },
+  "iki.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.vermindeath",
+    "sounds": [
+      "subspaceparasite:vermindeath"
+    ]
+  },
+  "iki.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.verminhurt",
+    "sounds": [
+      "subspaceparasite:verminhurt1",
+      "subspaceparasite:verminhurt2"
+    ]
+  },
+  "iki.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.verminliving",
+    "sounds": [
+      "subspaceparasite:verminliving1",
+      "subspaceparasite:verminliving2",
+      "subspaceparasite:verminliving3"
+    ]
+  },
+  "infectedspider.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimspiderliving",
+    "sounds": [
+      "subspaceparasite:assimilatedspidersay1",
+      "subspaceparasite:assimilatedspidersay2",
+      "subspaceparasite:assimilatedspidersay3",
+      "subspaceparasite:assimilatedspidersay4"
+    ]
+  },
+  "lite_flesh.slide": {
+    "category": "hostile",
+    "subtitle": "subtitles.litefleshslide",
+    "sounds": [
+      "subspaceparasite:mob/step/lite_flesh/slide1",
+      "subspaceparasite:mob/step/lite_flesh/slide2",
+      "subspaceparasite:mob/step/lite_flesh/slide3",
+      "subspaceparasite:mob/step/lite_flesh/slide4"
+    ]
+  },
+  "small.step": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimspidersteps",
+    "sounds": [
+      "subspaceparasite:smollegs1",
+      "subspaceparasite:smollegs2",
+      "subspaceparasite:smollegs3"
+    ]
+  },
+  "infectedspider.step": {
+    "category": "hostile",
+    "subtitle": "subtitles.assimspidersteps",
+    "sounds": [
+      "subspaceparasite:assimilatedspiderstep1",
+      "subspaceparasite:assimilatedspiderstep2",
+      "subspaceparasite:assimilatedspiderstep3",
+      "subspaceparasite:assimilatedspiderstep4"
+    ]
+  },
+  "infectedspider.hurt": {
+    "category": "hostile",
+    "sounds": []
+  },
+  "infectedenderman.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.simmermandeath",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/enderman/death"
+    ]
+  },
+  "infectedenderman.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.simmermanliving",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/enderman/idle1",
+      "subspaceparasite:mob/assimilated/enderman/idle2",
+      "subspaceparasite:mob/assimilated/enderman/idle3",
+      "subspaceparasite:mob/assimilated/enderman/idle4",
+      "subspaceparasite:mob/assimilated/enderman/idle5",
+      "subspaceparasite:mob/assimilated/enderman/idle6"
+    ]
+  },
+  "infectedenderman.portal": {
+    "category": "hostile",
+    "subtitle": "subtitles.simmermanteleports",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/enderman/portal1",
+      "subspaceparasite:mob/assimilated/enderman/portal2"
+    ]
+  },
+  "infectedenderman.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.simmermanhurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/enderman/hurt1",
+      "subspaceparasite:mob/assimilated/enderman/hurt2",
+      "subspaceparasite:mob/assimilated/enderman/hurt3",
+      "subspaceparasite:mob/assimilated/enderman/hurt4"
+    ]
+  },
+  "infectedhead.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.headdeath",
+    "sounds": [
+      "subspaceparasite:infectedhead_death"
+    ]
+  },
+  "infectedhead.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.headliving",
+    "sounds": [
+      "subspaceparasite:infectedhead_growl",
+      "subspaceparasite:infectedhead_growl1",
+      "subspaceparasite:infectedhead_growl2"
+    ]
+  },
+  "infectedhead.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.headhurt",
+    "sounds": [
+      "subspaceparasite:infectedhead_hurt",
+      "subspaceparasite:infectedhead_hurt1"
+    ]
+  },
+  "infected.melt": {
+    "category": "hostile",
+    "subtitle": "subtitles.infectedfleshmelt",
+    "sounds": [
+      "subspaceparasite:infected_melting"
+    ]
+  },
+  "hiblaze.fire": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedblazeshoot1"
+    ]
+  },
+  "hiblaze.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedblazedeath1"
+    ]
+  },
+  "hiblaze.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedblazeliving1",
+      "subspaceparasite:hijackedblazeliving2",
+      "subspaceparasite:hijackedblazeliving3"
+    ]
+  },
+  "hiblaze.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedblazehurt1",
+      "subspaceparasite:hijackedblazehurt2",
+      "subspaceparasite:hijackedblazehurt3",
+      "subspaceparasite:hijackedblazehurt4"
+    ]
+  },
+  "higolem.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedgolemdeath"
+    ]
+  },
+  "higolem.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedgolemliving1",
+      "subspaceparasite:hijackedgolemliving2",
+      "subspaceparasite:hijackedgolemliving3"
+    ]
+  },
+  "higolem.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hijackedgolemhurt1",
+      "subspaceparasite:hijackedgolemhurt2",
+      "subspaceparasite:hijackedgolemhurt3"
+    ]
+  },
+  "canra.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_death"
+    ]
+  },
+  "canra.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_growl"
+    ]
+  },
+  "canra.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_hurt"
+    ]
+  },
+  "canra.special": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_special"
+    ]
+  },
+  "emana.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_death"
+    ]
+  },
+  "emana.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_growl"
+    ]
+  },
+  "emana.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_hurt"
+    ]
+  },
+  "emana.shooting": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_shooting"
+    ]
+  },
+  "emana.shootingpost": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_shootingpost"
+    ]
+  },
+  "nogla.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_death"
+    ]
+  },
+  "nogla.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_growl"
+    ]
+  },
+  "nogla.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_hurt"
+    ]
+  },
+  "hull.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_death"
+    ]
+  },
+  "hull.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_growl"
+    ]
+  },
+  "hull.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_hurt"
+    ]
+  },
+  "shyco.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_death"
+    ]
+  },
+  "shyco.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_growl"
+    ]
+  },
+  "shyco.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_hurt"
+    ]
+  },
+  "zetmo.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:zetmo_death"
+    ]
+  },
+  "zetmo.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:zetmo_growl"
+    ]
+  },
+  "zetmo.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:zetmo_hurt"
+    ]
+  },
+  "acanra.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adasummonerdeath",
+    "sounds": [
+      "subspaceparasite:adaptedsummonerdeath"
+    ]
+  },
+  "acanra.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adasummonerliving",
+    "sounds": [
+      "subspaceparasite:adaptedsummonerliving1",
+      "subspaceparasite:adaptedsummonerliving2",
+      "subspaceparasite:adaptedsummonerliving3",
+      "subspaceparasite:adaptedsummonerliving4",
+      "subspaceparasite:adaptedsummonerliving5"
+    ]
+  },
+  "acanra.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adasummonerhurt",
+    "sounds": [
+      "subspaceparasite:adaptedsummonerhurt1",
+      "subspaceparasite:adaptedsummonerhurt2",
+      "subspaceparasite:adaptedsummonerhurt3"
+    ]
+  },
+  "acanra.special": {
+    "category": "hostile",
+    "subtitle": "subtitles.adasummonersummon",
+    "sounds": [
+      "subspaceparasite:adaptedsummonerscream"
+    ]
+  },
+  "aiki.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaverminhurt",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_death"
+    ]
+  },
+  "aiki.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaverminidle",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_idle_1",
+      "subspaceparasite:adapted_vermin_idle_2",
+      "subspaceparasite:adapted_vermin_idle_3"
+    ]
+  },
+  "aiki.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaverminhurt",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_hurt_1",
+      "subspaceparasite:adapted_vermin_hurt_2",
+      "subspaceparasite:adapted_vermin_hurt_3"
+    ]
+  },
+  "aemana.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adayelloweyehurt",
+    "sounds": [
+      "subspaceparasite:adaptedyelloweyedeath"
+    ]
+  },
+  "aemana.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adayelloweyeliving",
+    "sounds": [
+      "subspaceparasite:adaptedyelloweyeliving1",
+      "subspaceparasite:adaptedyelloweyeliving2",
+      "subspaceparasite:adaptedyelloweyeliving3"
+    ]
+  },
+  "aemana.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adayelloweyehurt",
+    "sounds": [
+      "subspaceparasite:adaptedyelloweyehurt1",
+      "subspaceparasite:adaptedyelloweyehurt2",
+      "subspaceparasite:adaptedyelloweyehurt3"
+    ]
+  },
+  "aemana.shootingpost": {
+    "category": "hostile",
+    "subtitle": "subtitles.adayelloweyeshoot",
+    "sounds": [
+      "subspaceparasite:adaptedyelloweyeshooting"
+    ]
+  },
+  "anogla.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adareekerdeath",
+    "sounds": [
+      "subspaceparasite:adaptedreekerdeath"
+    ]
+  },
+  "anogla.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adareekerliving",
+    "sounds": [
+      "subspaceparasite:adaptedreekerliving1",
+      "subspaceparasite:adaptedreekerliving2",
+      "subspaceparasite:adaptedreekerliving3",
+      "subspaceparasite:adaptedreekerliving4",
+      "subspaceparasite:adaptedreekerliving5"
+    ]
+  },
+  "anogla.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adareekerhurt",
+    "sounds": [
+      "subspaceparasite:adaptedreekerhurt1",
+      "subspaceparasite:adaptedreekerhurt2",
+      "subspaceparasite:adaptedreekerhurt3",
+      "subspaceparasite:adaptedreekerhurt4"
+    ]
+  },
+  "ahull.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adamandudeath",
+    "sounds": [
+      "subspaceparasite:adaptedmanducatordeath"
+    ]
+  },
+  "ahull.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adamanduliving",
+    "sounds": [
+      "subspaceparasite:adaptedmanducatorliving1",
+      "subspaceparasite:adaptedmanducatorliving2",
+      "subspaceparasite:adaptedmanducatorliving3",
+      "subspaceparasite:adaptedmanducatorliving4"
+    ]
+  },
+  "ahull.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adamanduhurt",
+    "sounds": [
+      "subspaceparasite:adaptedmanducatorhurt1",
+      "subspaceparasite:adaptedmanducatorhurt2",
+      "subspaceparasite:adaptedmanducatorhurt3"
+    ]
+  },
+  "ashyco.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:adaptedlongarmsdeath"
+    ]
+  },
+  "ashyco.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:adaptedlongarmsliving1",
+      "subspaceparasite:adaptedlongarmsliving2",
+      "subspaceparasite:adaptedlongarmsliving3",
+      "subspaceparasite:adaptedlongarmsliving4",
+      "subspaceparasite:adaptedlongarmsliving5"
+    ]
+  },
+  "ashyco.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:adaptedlongarmshurt1",
+      "subspaceparasite:adaptedlongarmshurt2",
+      "subspaceparasite:adaptedlongarmshurt3"
+    ]
+  },
+  "agim.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_viscera_death"
+    ]
+  },
+  "agim.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_viscera_living_1",
+      "subspaceparasite:ada_viscera_living_2",
+      "subspaceparasite:ada_viscera_living_3",
+      "subspaceparasite:ada_viscera_living_4"
+    ]
+  },
+  "agim.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_viscera_hurt_1",
+      "subspaceparasite:ada_viscera_hurt_2",
+      "subspaceparasite:ada_viscera_hurt_3"
+    ]
+  },
+  "awymo.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_tozoon_death"
+    ]
+  },
+  "awymo.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_tozoon_living_1",
+      "subspaceparasite:ada_tozoon_living_2",
+      "subspaceparasite:ada_tozoon_living_3",
+      "subspaceparasite:ada_tozoon_living_4"
+    ]
+  },
+  "awymo.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_tozoon_hurt_1",
+      "subspaceparasite:ada_tozoon_hurt_2",
+      "subspaceparasite:ada_tozoon_hurt_3"
+    ]
+  },
+  "awymo.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_tozoon_digging_1",
+      "subspaceparasite:ada_tozoon_digging_2",
+      "subspaceparasite:ada_tozoon_digging_3"
+    ]
+  },
+  "azaa.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_burrower_death"
+    ]
+  },
+  "azaa.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_burrower_living_1",
+      "subspaceparasite:ada_burrower_living_2",
+      "subspaceparasite:ada_burrower_living_3",
+      "subspaceparasite:ada_burrower_living_4"
+    ]
+  },
+  "azaa.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_burrower_hurt_1",
+      "subspaceparasite:ada_burrower_hurt_2",
+      "subspaceparasite:ada_burrower_hurt_3"
+    ]
+  },
+  "azaa.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ada_burrower_digging_1",
+      "subspaceparasite:ada_burrower_digging_2",
+      "subspaceparasite:ada_burrower_digging_3"
+    ]
+  },
+  "azetmo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adabolsterdeath",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterdeath"
+    ]
+  },
+  "azetmo.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adabolsterliving",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterliving1",
+      "subspaceparasite:adaptedbolsterliving2",
+      "subspaceparasite:adaptedbolsterliving3"
+    ]
+  },
+  "azetmo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adabolsterhurt",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterhurt1",
+      "subspaceparasite:adaptedbolsterhurt2",
+      "subspaceparasite:adaptedbolsterhurt3"
+    ]
+  },
+  "aranrac.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaarachdeath",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidadeath"
+    ]
+  },
+  "aranrac.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaarachliving",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidaliving1",
+      "subspaceparasite:adaptedarachnidaliving2",
+      "subspaceparasite:adaptedarachnidaliving3",
+      "subspaceparasite:adaptedarachnidaliving4"
+    ]
+  },
+  "aranrac.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaarachhurt",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidahurt1",
+      "subspaceparasite:adaptedarachnidahurt2",
+      "subspaceparasite:adaptedarachnidahurt3"
+    ]
+  },
+  "aranrac.step": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidastep1",
+      "subspaceparasite:adaptedarachnidastep2",
+      "subspaceparasite:adaptedarachnidastep4",
+      "subspaceparasite:adaptedarachnidastep3"
+    ]
+  },
+  "adapted.v": {
+    "category": "hostile",
+    "subtitle": "subtitles.adavomit",
+    "sounds": [
+      "subspaceparasite:misc/vomit"
+    ]
+  },
+  "lodo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.buglindeath",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/death"
+    ]
+  },
+  "lodo.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.buglinliving",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/idle"
+    ]
+  },
+  "lodo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.buglinhurt",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/hurt"
+    ]
+  },
+  "lodo.mudo": {
+    "category": "hostile",
+    "subtitle": "subtitles.buglinhurt",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/lodo_mudo"
+    ]
+  },
+  "carrier.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.carrierdeath",
+    "sounds": [
+      "subspaceparasite:carrierdeath"
+    ]
+  },
+  "carrier.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.carrierliving",
+    "sounds": [
+      "subspaceparasite:carrierliving1",
+      "subspaceparasite:carrierliving2"
+    ]
+  },
+  "carrier.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.carrierhurt",
+    "sounds": [
+      "subspaceparasite:carrierhurt1",
+      "subspaceparasite:carrierhurt2"
+    ]
+  },
+  "monarch.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.monarchdeath",
+    "sounds": [
+      "subspaceparasite:monarchdeath"
+    ]
+  },
+  "monarch.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.monarchliving",
+    "sounds": [
+      "subspaceparasite:monarchliving1",
+      "subspaceparasite:monarchliving2",
+      "subspaceparasite:monarchliving3"
+    ]
+  },
+  "monarch.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.monarchhurt",
+    "sounds": [
+      "subspaceparasite:monarchhurt1",
+      "subspaceparasite:monarchhurt2",
+      "subspaceparasite:monarchhurt3"
+    ]
+  },
+  "inhoos.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhoosdeath",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/death"
+    ]
+  },
+  "inhoos.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhoosliving",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/idle1",
+      "subspaceparasite:mob/crude/incomplete_form/small/idle2",
+      "subspaceparasite:mob/crude/incomplete_form/small/idle3"
+    ]
+  },
+  "inhoos.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhooshurt",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt1",
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt2",
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt3"
+    ]
+  },
+  "inhoom.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhoomdeath",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/death"
+    ]
+  },
+  "inhoom.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhoomliving",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle1",
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle2",
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle3"
+    ]
+  },
+  "inhoom.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.inhoomhurt",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt1",
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt2",
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt3"
+    ]
+  },
+  "host.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.hostdeath",
+    "sounds": [
+      "subspaceparasite:host_death"
+    ]
+  },
+  "host.underground": {
+    "category": "hostile",
+    "subtitle": "subtitles.hostliving",
+    "sounds": [
+      "subspaceparasite:host_burrow_1",
+      "subspaceparasite:host_burrow_2",
+      "subspaceparasite:host_burrow_3"
+    ]
+  },
+  "host.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.hostliving",
+    "sounds": [
+      "subspaceparasite:hostliving1",
+      "subspaceparasite:hostliving2"
+    ]
+  },
+  "host.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.hosthurt",
+    "sounds": [
+      "subspaceparasite:host_hurt_1",
+      "subspaceparasite:host_hurt_2",
+      "subspaceparasite:host_hurt_3"
+    ]
+  },
+  "host.em": {
+    "category": "hostile",
+    "subtitle": "subtitles.hostmerge",
+    "sounds": [
+      "subspaceparasite:host_reveal_1",
+      "subspaceparasite:host_reveal_2",
+      "subspaceparasite:host_reveal_3"
+    ]
+  },
+  "done.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.dredgedeath",
+    "sounds": [
+      "subspaceparasite:prim_dredge_death"
+    ]
+  },
+  "done.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.dredgeliving",
+    "sounds": [
+      "subspaceparasite:prim_dredge_living_1",
+      "subspaceparasite:prim_dredge_living_2",
+      "subspaceparasite:prim_dredge_living_3",
+      "subspaceparasite:prim_dredge_living_4"
+    ]
+  },
+  "done.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.dredgehurt",
+    "sounds": [
+      "subspaceparasite:prim_dredge_hurt_1",
+      "subspaceparasite:prim_dredge_hurt_2",
+      "subspaceparasite:prim_dredge_hurt_3",
+      "subspaceparasite:prim_dredge_hurt_4"
+    ]
+  },
+  "quac.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:worm_carrier_death"
+    ]
+  },
+  "quac.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:worm_carrier_hurt_1",
+      "subspaceparasite:worm_carrier_hurt_2",
+      "subspaceparasite:worm_carrier_hurt_3"
+    ]
+  },
+  "quac.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:worm_carrier_living_1",
+      "subspaceparasite:worm_carrier_living_2",
+      "subspaceparasite:worm_carrier_living_3"
+    ]
+  },
+  "quac.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:worm_carrier_emerge_1",
+      "subspaceparasite:worm_carrier_emerge_2",
+      "subspaceparasite:worm_carrier_emerge_3"
+    ]
+  },
+  "mes.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:thrall_death"
+    ]
+  },
+  "mes.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:thrall_living_1",
+      "subspaceparasite:thrall_living_2",
+      "subspaceparasite:thrall_living_3",
+      "subspaceparasite:thrall_living_4",
+      "subspaceparasite:thrall_living_5"
+    ]
+  },
+  "mes.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:thrall_hurt_1",
+      "subspaceparasite:thrall_hurt_2",
+      "subspaceparasite:thrall_hurt_3"
+    ]
+  },
+  "crux.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.cruxdeath",
+    "sounds": [
+      "subspaceparasite:crux_death"
+    ]
+  },
+  "crux.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.cruxliving",
+    "sounds": [
+      "subspaceparasite:crux_living_1",
+      "subspaceparasite:crux_living_2",
+      "subspaceparasite:crux_living_3",
+      "subspaceparasite:crux_living_4",
+      "subspaceparasite:crux_living_5",
+      "subspaceparasite:crux_living_6"
+    ]
+  },
+  "crux.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.cruxhurt",
+    "sounds": [
+      "subspaceparasite:crux_hurt_1",
+      "subspaceparasite:crux_hurt_2",
+      "subspaceparasite:crux_hurt_3",
+      "subspaceparasite:crux_hurt_4"
+    ]
+  },
+  "mudo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.rupterdies",
+    "sounds": [
+      "subspaceparasite:mob/pure/rupter/death"
+    ]
+  },
+  "mudo.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.rupterliving",
+    "sounds": [
+      "subspaceparasite:mob/pure/rupter/idle1",
+      "subspaceparasite:mob/pure/rupter/idle2",
+      "subspaceparasite:mob/pure/rupter/idle3"
+    ]
+  },
+  "mudo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.rupterhurt",
+    "sounds": [
+      "subspaceparasite:mob/pure/rupter/hurt1",
+      "subspaceparasite:mob/pure/rupter/hurt2",
+      "subspaceparasite:mob/pure/rupter/hurt3"
+    ]
+  },
+  "mudo.cloud": {
+    "category": "hostile",
+    "subtitle": "subtitles.rupterinfect",
+    "sounds": [
+      "subspaceparasite:mob/pure/rupter/cloud"
+    ]
+  },
+  "nuuh.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.mangler_dies",
+    "sounds": [
+      "subspaceparasite:mangler_death"
+    ]
+  },
+  "nuuh.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.mangler_idle",
+    "sounds": [
+      "subspaceparasite:mangler_idle_1",
+      "subspaceparasite:mangler_idle_2",
+      "subspaceparasite:mangler_idle_3"
+    ]
+  },
+  "nuuh.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.mangler_hurt",
+    "sounds": [
+      "subspaceparasite:mangler_hurt_1",
+      "subspaceparasite:mangler_hurt_2",
+      "subspaceparasite:mangler_hurt_3"
+    ]
+  },
+  "ganro.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.wardendeath",
+    "sounds": [
+      "subspaceparasite:wardendeath"
+    ]
+  },
+  "ganro.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.wardenliving",
+    "sounds": [
+      "subspaceparasite:wardenliving1",
+      "subspaceparasite:wardenliving2",
+      "subspaceparasite:wardenliving3"
+    ]
+  },
+  "ganro.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.wardenhurt",
+    "sounds": [
+      "subspaceparasite:wardenhurt1",
+      "subspaceparasite:wardenhurt2",
+      "subspaceparasite:wardenhurt3"
+    ]
+  },
+  "esor.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.marauderdeath",
+    "sounds": [
+      "subspaceparasite:marauderdeath"
+    ]
+  },
+  "esor.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.marauderliving",
+    "sounds": [
+      "subspaceparasite:marauderliving1",
+      "subspaceparasite:marauderliving2",
+      "subspaceparasite:marauderliving3"
+    ]
+  },
+  "esor.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.marauderhurt",
+    "sounds": [
+      "subspaceparasite:marauderhurt1",
+      "subspaceparasite:marauderhurt2",
+      "subspaceparasite:marauderhurt3"
+    ]
+  },
+  "omboo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.lightbomberdeath",
+    "sounds": [
+      "subspaceparasite:light_bomber_death"
+    ]
+  },
+  "omboo.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.lightbomberliving",
+    "sounds": [
+      "subspaceparasite:light_bomber_living_1",
+      "subspaceparasite:light_bomber_living_2",
+      "subspaceparasite:light_bomber_living_3"
+    ]
+  },
+  "omboo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.lightbomberhurt",
+    "sounds": [
+      "subspaceparasite:light_bomber_hurt_1",
+      "subspaceparasite:light_bomber_hurt_2",
+      "subspaceparasite:light_bomber_hurt_3"
+    ]
+  },
+  "alafha.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:alafha_death"
+    ]
+  },
+  "alafha.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:alafha_growl",
+      "subspaceparasite:alafha_growl1",
+      "subspaceparasite:alafha_growl2"
+    ]
+  },
+  "alafha.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:alafha_hurt",
+      "subspaceparasite:alafha_hurt1",
+      "subspaceparasite:alafha_hurt2"
+    ]
+  },
+  "anged.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.vigideath",
+    "sounds": [
+      "subspaceparasite:vigilantedeath"
+    ]
+  },
+  "anged.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.vigiliving",
+    "sounds": [
+      "subspaceparasite:vigilanteliving1",
+      "subspaceparasite:vigilanteliving2",
+      "subspaceparasite:vigilanteliving3",
+      "subspaceparasite:vigilanteliving4"
+    ]
+  },
+  "anged.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.vigihurt",
+    "sounds": [
+      "subspaceparasite:vigilantehurt1",
+      "subspaceparasite:vigilantehurt2",
+      "subspaceparasite:vigilantehurt3",
+      "subspaceparasite:vigilantehurt4"
+    ]
+  },
+  "elvia.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.bogledeath",
+    "sounds": [
+      "subspaceparasite:elviaDeath"
+    ]
+  },
+  "elvia.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.bogleliving",
+    "sounds": [
+      "subspaceparasite:elviaLiving1",
+      "subspaceparasite:elviaLiving2",
+      "subspaceparasite:elviaLiving3"
+    ]
+  },
+  "elvia.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.boglehurt",
+    "sounds": [
+      "subspaceparasite:elviaHurt1",
+      "subspaceparasite:elviaHurt2",
+      "subspaceparasite:elviaHurt3"
+    ]
+  },
+  "lencia.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.bogledeath",
+    "sounds": [
+      "subspaceparasite:lenciaDeath"
+    ]
+  },
+  "lencia.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.bogleliving",
+    "sounds": [
+      "subspaceparasite:lenciaLiving1",
+      "subspaceparasite:lenciaLiving2",
+      "subspaceparasite:lenciaLiving3"
+    ]
+  },
+  "lencia.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.boglehurt",
+    "sounds": [
+      "subspaceparasite:lenciaHurt1",
+      "subspaceparasite:lenciaHurt2",
+      "subspaceparasite:lenciaHurt3"
+    ]
+  },
+  "jinjo.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:heavy_bomber_death"
+    ]
+  },
+  "jinjo.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:heavy_bomber_living_1",
+      "subspaceparasite:heavy_bomber_living_2",
+      "subspaceparasite:heavy_bomber_living_3"
+    ]
+  },
+  "jinjo.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:heavy_bomber_hurt_1",
+      "subspaceparasite:heavy_bomber_hurt_2",
+      "subspaceparasite:heavy_bomber_hurt_3"
+    ]
+  },
+  "vesta.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:colony_carrier_death"
+    ]
+  },
+  "vesta.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:colony_carrier_living_1",
+      "subspaceparasite:colony_carrier_living_2",
+      "subspaceparasite:colony_carrier_living_3"
+    ]
+  },
+  "vesta.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:colony_carrier_hurt_1",
+      "subspaceparasite:colony_carrier_hurt_2",
+      "subspaceparasite:colony_carrier_hurt_3"
+    ]
+  },
+  "flesh.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.fleshdeath",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/death"
+    ]
+  },
+  "flesh.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.fleshliving",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/idle1",
+      "subspaceparasite:mob/crude/moving_flesh/idle2",
+      "subspaceparasite:mob/crude/moving_flesh/idle3"
+    ]
+  },
+  "flesh.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.fleshhurt",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/hurt"
+    ]
+  },
+  "flesh.grow": {
+    "category": "hostile",
+    "subtitle": "subtitles.fleshgrow",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/grow"
+    ]
+  },
+  "flesh.eat": {
+    "category": "hostile",
+    "subtitle": "subtitles.flesheat",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/eat"
+    ]
+  },
+  "flesh.primitive": {
+    "category": "hostile",
+    "subtitle": "subtitles.fleshprimitive",
+    "sounds": [
+      "subspaceparasite:mob/crude/moving_flesh/primitive"
+    ]
+  },
+  "anged.shooting": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:anged_shooting"
+    ]
+  },
+  "anged.shootingpost": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:anged_shootingpost"
+    ]
+  },
+  "bodies.death": {
+    "category": "hostile",
+    "sounds": []
+  },
+  "bodies.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:abo_body_idle_1",
+      "subspaceparasite:abo_body_idle_2"
+    ]
+  },
+  "bodies.hurt": {
+    "category": "hostile",
+    "sounds": []
+  },
+  "oronco.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:oronco_death"
+    ]
+  },
+  "oronco.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:oronco_growl"
+    ]
+  },
+  "oronco.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:oronco_hurt"
+    ]
+  },
+  "oronco.shooting": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:oronco_shooting"
+    ]
+  },
+  "oronco.shootingreal": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:oronco_shootingreal"
+    ]
+  },
+  "terla.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:terla_death"
+    ]
+  },
+  "terla.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:terla_growl"
+    ]
+  },
+  "terla.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:terla_hurt"
+    ]
+  },
+  "kirin.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:kirin_death"
+    ]
+  },
+  "kirin.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:kirin_idle_1",
+      "subspaceparasite:kirin_idle_2",
+      "subspaceparasite:kirin_idle_3"
+    ]
+  },
+  "kirin.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:kirin_hurt_1",
+      "subspaceparasite:kirin_hurt_2",
+      "subspaceparasite:kirin_hurt_3"
+    ]
+  },
+  "kirin.shoot": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:kirin_black_hole"
+    ]
+  },
+  "heblu.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:draconite_death"
+    ]
+  },
+  "heblu.growl": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:draconite_idle_1",
+      "subspaceparasite:draconite_idle_2",
+      "subspaceparasite:draconite_idle_3",
+      "subspaceparasite:draconite_idle_4",
+      "subspaceparasite:draconite_idle_5"
+    ]
+  },
+  "heblu.hurt": {
+    "category": "hostile",
+    "sounds": []
+  },
+  "heblu.step": {
+    "category": "hostile",
+    "sounds": []
+  },
+  "heblu.shoot": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:draconite_fire_shoot"
+    ]
+  },
+  "ancient.pod": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/ancient_pods"
+    ]
+  },
+  "dorpa.range": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dorpa_rangea"
+    ]
+  },
+  "hull.c": {
+    "category": "hostile",
+    "subtitle": "subtitles.adamaducamo",
+    "sounds": [
+      "subspaceparasite:adaptedmanducatorcamouflaging"
+    ]
+  },
+  "monster.step": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:monster_step"
+    ]
+  },
+  "rathol.boom": {
+    "category": "hostile",
+    "subtitle": "subtitles.mobexplodes",
+    "sounds": [
+      "subspaceparasite:rathol_explotion"
+    ]
+  },
+  "buthol.boom": {
+    "category": "hostile",
+    "subtitle": "subtitles.mobexplodes",
+    "sounds": [
+      "subspaceparasite:buthol_explotion"
+    ]
+  },
+  "shyco.special": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_special"
+    ]
+  },
+  "unvo.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.sentrydeath",
+    "sounds": [
+      "subspaceparasite:sentrydeath"
+    ]
+  },
+  "unvo.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.sentryliving",
+    "sounds": [
+      "subspaceparasite:sentryliving1",
+      "subspaceparasite:sentryliving2",
+      "subspaceparasite:sentryliving3"
+    ]
+  },
+  "unvo.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.sentryhurt",
+    "sounds": [
+      "subspaceparasite:sentryhurt1",
+      "subspaceparasite:sentryhurt2",
+      "subspaceparasite:sentryhurt3"
+    ]
+  },
+  "unvo.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:sentry_emerge_1",
+      "subspaceparasite:sentry_emerge_2",
+      "subspaceparasite:sentry_emerge_3"
+    ]
+  },
+  "unvo.shooting": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:sentryshoot"
+    ]
+  },
+  "tonro.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.kyphosisdeath",
+    "sounds": [
+      "subspaceparasite:kyphosis_death"
+    ]
+  },
+  "tonro.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.kyphosisliving",
+    "sounds": [
+      "subspaceparasite:kyphosis_living_1",
+      "subspaceparasite:kyphosis_living_2"
+    ]
+  },
+  "tonro.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.kyphosishurt",
+    "sounds": [
+      "subspaceparasite:kyphosis_hurt_1",
+      "subspaceparasite:kyphosis_hurt_2"
+    ]
+  },
+  "tonro.dig": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:kyphosis_emerge_1",
+      "subspaceparasite:kyphosis_emerge_2",
+      "subspaceparasite:kyphosis_emerge_3"
+    ]
+  },
+  "venkrol.si": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonbell",
+    "sounds": [
+      "subspaceparasite:vstagei"
+    ]
+  },
+  "venkrol.sii": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonbell",
+    "sounds": [
+      "subspaceparasite:vstageii"
+    ]
+  },
+  "venkrol.siii": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonbell",
+    "sounds": [
+      "subspaceparasite:vstageiii"
+    ]
+  },
+  "venkrol.siv": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonbell",
+    "sounds": [
+      "subspaceparasite:vstageiv"
+    ]
+  },
+  "dod.si": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_i"
+    ]
+  },
+  "dod.sii": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_ii"
+    ]
+  },
+  "dod.siii": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_iii"
+    ]
+  },
+  "dod.siv": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_iv"
+    ]
+  },
+  "leem.si": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:lstagei"
+    ]
+  },
+  "leem.sii": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:lstageii"
+    ]
+  },
+  "leem.siii": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:lstageiii"
+    ]
+  },
+  "leem.siv": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:lstageiv"
+    ]
+  },
+  "venkrolsi.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonliving",
+    "sounds": [
+      "subspaceparasite:beckonsi_growl",
+      "subspaceparasite:beckonsi_growl_2",
+      "subspaceparasite:beckonsi_growl_2"
+    ]
+  },
+  "venkrolsi.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonhurt",
+    "sounds": [
+      "subspaceparasite:beckonsi_hurt",
+      "subspaceparasite:beckonsi_hurt_2",
+      "subspaceparasite:beckonsi_hurt_2"
+    ]
+  },
+  "venkrolsi.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckondeath",
+    "sounds": [
+      "subspaceparasite:beckonsi_death",
+      "subspaceparasite:beckonsi_death_2",
+      "subspaceparasite:beckonsi_death_2"
+    ]
+  },
+  "venkrolsii.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonliving",
+    "sounds": [
+      "subspaceparasite:beckonsii_growl",
+      "subspaceparasite:beckonsii_growl_2",
+      "subspaceparasite:beckonsii_growl_2"
+    ]
+  },
+  "venkrolsii.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonhurt",
+    "sounds": [
+      "subspaceparasite:beckonsii_hurt",
+      "subspaceparasite:beckonsii_hurt_2",
+      "subspaceparasite:beckonsii_hurt_2"
+    ]
+  },
+  "venkrolsii.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckondeath",
+    "sounds": [
+      "subspaceparasite:beckonsii_death",
+      "subspaceparasite:beckonsii_death_2",
+      "subspaceparasite:beckonsii_death_2"
+    ]
+  },
+  "venkrolsiii.growl": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonliving",
+    "sounds": [
+      "subspaceparasite:beckonsiii_growl",
+      "subspaceparasite:beckonsiii_growl_2",
+      "subspaceparasite:beckonsiii_growl_2"
+    ]
+  },
+  "venkrolsiii.hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonhurt",
+    "sounds": [
+      "subspaceparasite:beckonsiii_hurt",
+      "subspaceparasite:beckonsiii_hurt_2",
+      "subspaceparasite:beckonsiii_hurt_2"
+    ]
+  },
+  "venkrolsiii.death": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckondeath",
+    "sounds": [
+      "subspaceparasite:beckonsiii_death",
+      "subspaceparasite:beckonsiii_death_2",
+      "subspaceparasite:beckonsiii_death_2"
+    ]
+  },
+  "venkrolsiii.tornado": {
+    "category": "hostile",
+    "subtitle": "subtitles.beckonvortex",
+    "sounds": [
+      "subspaceparasite:misc/beckon_vortex"
+    ]
+  },
+  "rof.spit_out": {
+    "category": "hostile",
+    "subtitle": "subtitles.rof.spitout",
+    "sounds": []
+  },
+  "rof.emerge": {
+    "category": "hostile",
+    "subtitle": "subtitles.rof.emerge",
+    "sounds": []
+  },
+  "ancient.mob": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:ancient"
+    ]
+  },
+  "alafha.shooting": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:alafha_shooting"
+    ]
+  },
+  "alafha.shootingpost": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:alafha_shootingpost"
+    ]
+  },
+  "mob.silence": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/mob_silence"
+    ]
+  },
+  "mob.explotion": {
+    "category": "hostile",
+    "subtitle": "subtitles.mobexplodes",
+    "sounds": [
+      "subspaceparasite:misc/mob_explotion"
+    ]
+  },
+  "mob.swipe": {
+    "category": "hostile",
+    "subtitle": "subtitles.mobswipe",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "mob.hitground": {
+    "category": "hostile",
+    "subtitle": "subtitles.moblands",
+    "sounds": [
+      "subspaceparasite:misc/mob_hitground"
+    ]
+  },
+  "mob.tendril": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/mob_tendril"
+    ]
+  },
+  "cyst.eating": {
+    "category": "hostile",
+    "subtitle": "subtitles.cysteats",
+    "sounds": [
+      "subspaceparasite:block/flesh/cyst/eating"
+    ]
+  },
+  "adaptation.parcial": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaptationpart",
+    "sounds": [
+      "subspaceparasite:misc/adaptating1",
+      "subspaceparasite:misc/adaptating2",
+      "subspaceparasite:misc/adaptating3"
+    ]
+  },
+  "adaptation.full": {
+    "category": "hostile",
+    "subtitle": "subtitles.adaptationfull",
+    "sounds": [
+      "subspaceparasite:misc/adapted1",
+      "subspaceparasite:misc/adapted2",
+      "subspaceparasite:misc/adapted3"
+    ]
+  },
+  "orb.s": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/orb_s"
+    ]
+  },
+  "orb.e": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/orb_e"
+    ]
+  },
+  "nade.s": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/nade_s"
+    ]
+  },
+  "dod.ten": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:dispatcher_tentacles_emerge_1",
+      "subspaceparasite:dispatcher_tentacles_emerge_2",
+      "subspaceparasite:dispatcher_tentacles_emerge_3"
+    ]
+  },
+  "dod.nak": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:seizer_emerge_1",
+      "subspaceparasite:seizer_emerge_2",
+      "subspaceparasite:seizer_emerge_3"
+    ]
+  },
+  "scent.wave": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/scent_wave"
+    ]
+  },
+  "biome.heart": {
+    "category": "hostile",
+    "subtitle": "subtitles.biomeheart",
+    "sounds": [
+      "subspaceparasite:misc/biome_heart"
+    ]
+  },
+  "evolution.phaseone": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase1"
+    ]
+  },
+  "evolution.phasetwo": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase2"
+    ]
+  },
+  "evolution.phasethree": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase3"
+    ]
+  },
+  "evolution.phasefour": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase4"
+    ]
+  },
+  "evolution.phasefive": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase5"
+    ]
+  },
+  "evolution.phasesix": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase6"
+    ]
+  },
+  "evolution.phaseseven": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase7"
+    ]
+  },
+  "evolution.phaseeight": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase8"
+    ]
+  },
+  "evolution.phasenine": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase9"
+    ]
+  },
+  "evolution.phaseten": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase10"
+    ]
+  },
+  "dislo.s0": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_1"
+    ]
+  },
+  "dislo.s1": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_2"
+    ]
+  },
+  "dislo.s2": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_3"
+    ]
+  },
+  "dislo.s3": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_4"
+    ]
+  },
+  "dislo.s4": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_5"
+    ]
+  },
+  "dislo.s5": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_6"
+    ]
+  },
+  "dislo.s6": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_7"
+    ]
+  },
+  "dislo.s7": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_8"
+    ]
+  },
+  "dislo.s8": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_9"
+    ]
+  },
+  "dislo.s9": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_10"
+    ]
+  },
+  "dislo.s10": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_11"
+    ]
+  },
+  "dislo.s11": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_12"
+    ]
+  },
+  "dislo.s12": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_13"
+    ]
+  },
+  "dislo.s13": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_14"
+    ]
+  },
+  "dislo.s14": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_15"
+    ]
+  },
+  "dislo.s15": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_16"
+    ]
+  },
+  "dislo.s16": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_17"
+    ]
+  },
+  "dislo.s17": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_18"
+    ]
+  },
+  "dislo.s18": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_19"
+    ]
+  },
+  "dislo.s19": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_20"
+    ]
+  },
+  "dislo.s20": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_21"
+    ]
+  },
+  "dislo.s21": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_22"
+    ]
+  },
+  "dislo.s22": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_23"
+    ]
+  },
+  "dislo.s23": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_24"
+    ]
+  },
+  "dislo.s24": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_25"
+    ]
+  },
+  "dislo.s25": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_26"
+    ]
+  },
+  "dislo.s26": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_27"
+    ]
+  },
+  "dislo.s27": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_28"
+    ]
+  },
+  "dislo.s28": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_29"
+    ]
+  },
+  "dislo.s29": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_30"
+    ]
+  },
+  "node.one": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/node1"
+    ]
+  },
+  "node.two": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/node2"
+    ]
+  },
+  "colony.one": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/colony1"
+    ]
+  },
+  "blockinfest.place": {
+    "category": "block",
+    "sounds": [
+      "subspaceparasite:blockinfest_place"
+    ]
+  },
+  "blockinfest.break": {
+    "category": "block",
+    "sounds": [
+      "subspaceparasite:blockinfest_break"
+    ]
+  },
+  "blockinfest.step": {
+    "category": "block",
+    "sounds": [
+      "subspaceparasite:blockinfest_step"
+    ]
+  },
+  "blockinfest.hit": {
+    "category": "block",
+    "sounds": [
+      "subspaceparasite:blockinfest_hit"
+    ]
+  },
+  "subspaceparasite.phaseone": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasetwo": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasethree": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasefour": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasefive": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/chants_of_the_beckons",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasesix": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phaseseven": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phaseeight": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phasenine": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.phaseten": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/the_call",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/prey",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/relentless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/adaptation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/insanity",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/irreversible",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/from_below",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/parasite",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/coagulation",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/unsteady",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.biome": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/tying_veins",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/hivemind",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/fathomless",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/chants_of_the_beckons",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/sorrow",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/anguish",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/dominion",
+        "stream": true
+      },
+      {
+        "name": "subspaceparasite:music/restless",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.scent": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/grounded",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.discone": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/well_meet_again",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.disctwo": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/well_meet_again",
+        "stream": true
+      }
+    ]
+  },
+  "subspaceparasite.discthree": {
+    "sounds": [
+      {
+        "name": "subspaceparasite:music/serenity",
+        "stream": true
+      }
+    ]
+  },
+  "origin.new": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/vector_creation"
+    ]
+  },
+  "origin.newoutbreak": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/vector_outbreak"
+    ]
+  },
+  "origin.deleted": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:misc/vector_removed"
+    ]
+  },
+  "step.heavy": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/step/heavy/step1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/step2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/step3",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/step4",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/step5",
+        "pitch": 1
+      }
+    ]
+  },
+  "step.heavy_two": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/step/heavy/two_steps1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/two_steps2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/two_steps3",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/two_steps4",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy/two_steps5",
+        "pitch": 1
+      }
+    ]
+  },
+  "step.heavy_multiple": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/step/heavy_multiple/step1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy_multiple/step2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy_multiple/step3",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:mob/step/heavy_multiple/step4",
+        "pitch": 1
+      }
+    ]
+  },
+  "block.flesh.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/step5",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh_light.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh_light.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh_light.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh_light.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.flesh_light.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/light/step6",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.heart.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/heart/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/dig1",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.heart.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/flesh/heart/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/flesh/heart/step6",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.purifier.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/dig1",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig1",
+        "pitch": 1.25
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig2",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig2",
+        "pitch": 1.25
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig3",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/dig3",
+        "pitch": 1.25
+      }
+    ]
+  },
+  "block.purifier.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.purifier.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/place1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/place3",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.purifier.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.purifier.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/purifier/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.purifier.use": {
+    "category": "block",
+    "subtitle": "subtitles.purifier.use",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/purifier/use1",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use1",
+        "pitch": 0.95
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use2",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use2",
+        "pitch": 0.95
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use3",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use3",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use3",
+        "pitch": 0.95
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use4",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use4",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/purifier/use4",
+        "pitch": 0.95
+      }
+    ]
+  },
+  "block.lure.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/dig1",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig1",
+        "pitch": 1.25
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig2",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig2",
+        "pitch": 1.25
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig3",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig3",
+        "pitch": 1.25
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig4",
+        "pitch": 1.15
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/dig4",
+        "pitch": 1.25
+      }
+    ]
+  },
+  "block.lure.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.lure.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/place1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/place1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/place1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/place2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/place2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/place2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/place3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/place3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/place3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/place4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/place4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/place4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.lure.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.lure.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/lure/step4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.lure.use": {
+    "category": "block",
+    "subtitle": "subtitles.lure.use",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/use1",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/lure/use1",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/lure/use1",
+        "pitch": 0.95
+      },
+      {
+        "name": "subspaceparasite:block/lure/use2",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/lure/use2",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/lure/use2",
+        "pitch": 0.95
+      }
+    ]
+  },
+  "block.carcass.use": {
+    "category": "block",
+    "subtitle": "subtitles.carcass.use",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/lure/carcass",
+        "pitch": 1.05
+      },
+      {
+        "name": "subspaceparasite:block/lure/carcass",
+        "pitch": 1
+      },
+      {
+        "name": "subspaceparasite:block/lure/carcass",
+        "pitch": 0.95
+      }
+    ]
+  },
+  "block.beckon.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.3,
+        "volume": 1.5
+      }
+    ]
+  },
+  "block.beckon.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.3,
+        "volume": 1.5
+      }
+    ]
+  },
+  "block.beckon.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig1",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig2",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig3",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig4",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig5",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/dig6",
+        "pitch": 1.3,
+        "volume": 1.5
+      }
+    ]
+  },
+  "block.beckon.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.3,
+        "volume": 1.5
+      }
+    ]
+  },
+  "block.beckon.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step1",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step2",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step3",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step4",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step5",
+        "pitch": 1.3,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.1,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.2,
+        "volume": 1.5
+      },
+      {
+        "name": "subspaceparasite:block/beckon/step6",
+        "pitch": 1.3,
+        "volume": 1.5
+      }
+    ]
+  },
+  "block.soil.dig": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.soil.step": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.soil.place": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/dig4",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.soil.hit": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "block.soil.fall": {
+    "category": "block",
+    "subtitle": "subtitles.block.generic.fall",
+    "sounds": [
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step1",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step2",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step3",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step4",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step5",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step6",
+        "pitch": 1.3
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.1
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.2
+      },
+      {
+        "name": "subspaceparasite:block/soil/step7",
+        "pitch": 1.3
+      }
+    ]
+  },
+  "subsrp_entity.parasite.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.parasite.idle",
+    "sounds": [
+      "subspaceparasite:infectedanimal_growl",
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.parasite.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.parasite.hurt",
+    "sounds": [
+      "subspaceparasite:infectedanimal_hurt",
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.parasite.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.parasite.death",
+    "sounds": [
+      "subspaceparasite:infectedanimal_death",
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.parasite.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.parasite.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.parasite.step": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.parasite.step",
+    "sounds": [
+      "subspaceparasite:smollegs1",
+      "subspaceparasite:smollegs2",
+      "subspaceparasite:smollegs3"
+    ]
+  },
+  "subsrp_entity.infected.idle": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_growl",
+      "subspaceparasite:infected_ambient"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.infected.idle"
+  },
+  "subsrp_entity.infected.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_hurt",
+      "subspaceparasite:infected_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.infected.hurt"
+  },
+  "subsrp_entity.infected.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_death",
+      "subspaceparasite:infected_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.infected.death"
+  },
+  "subsrp_entity.infected.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.infected_human.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_human.idle",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle1",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle2",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle3",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle4",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle5",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/old_idle",
+        "weight": 1
+      }
+    ]
+  },
+  "subsrp_entity.infected_human.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_human.hurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/hurt1",
+      "subspaceparasite:mob/assimilated/human/hurt2",
+      "subspaceparasite:mob/assimilated/human/hurt3",
+      "subspaceparasite:mob/assimilated/human/hurt4",
+      "subspaceparasite:mob/assimilated/human/hurt5"
+    ]
+  },
+  "subsrp_entity.infected_human.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_human.death",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/death"
+    ]
+  },
+  "subsrp_entity.infected_cow.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_cow.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedcowliving1",
+      "subspaceparasite:assimilatedcowliving2",
+      "subspaceparasite:assimilatedcowliving3"
+    ]
+  },
+  "subsrp_entity.infected_cow.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_cow.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedcowhurt1",
+      "subspaceparasite:assimilatedcowhurt2",
+      "subspaceparasite:assimilatedcowhurt3"
+    ]
+  },
+  "subsrp_entity.infected_cow.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_cow.death",
+    "sounds": [
+      "subspaceparasite:assimilatedcowdeath"
+    ]
+  },
+  "subsrp_entity.infected_pig.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_pig.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedpigliving1",
+      "subspaceparasite:assimilatedpigliving2",
+      "subspaceparasite:assimilatedpigliving3"
+    ]
+  },
+  "subsrp_entity.infected_pig.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_pig.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedpighurt1",
+      "subspaceparasite:assimilatedpighurt2",
+      "subspaceparasite:assimilatedpighurt3"
+    ]
+  },
+  "subsrp_entity.infected_pig.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_pig.death",
+    "sounds": [
+      "subspaceparasite:assimilatedpigdeath"
+    ]
+  },
+  "subsrp_entity.infected_sheep.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_sheep.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepliving1",
+      "subspaceparasite:assimilatedsheepliving2",
+      "subspaceparasite:assimilatedsheepliving3"
+    ]
+  },
+  "subsrp_entity.infected_sheep.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_sheep.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedsheephurt1",
+      "subspaceparasite:assimilatedsheephurt2",
+      "subspaceparasite:assimilatedsheephurt3"
+    ]
+  },
+  "subsrp_entity.infected_sheep.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.infected_sheep.death",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepdeath"
+    ]
+  },
+  "subsrp_entity.bano.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano.idle",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterliving1",
+      "subspaceparasite:adaptedbolsterliving2",
+      "subspaceparasite:adaptedbolsterliving3"
+    ]
+  },
+  "subsrp_entity.bano.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano.hurt",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterhurt1",
+      "subspaceparasite:adaptedbolsterhurt2",
+      "subspaceparasite:adaptedbolsterhurt3"
+    ]
+  },
+  "subsrp_entity.bano.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano.death",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterdeath"
+    ]
+  },
+  "subsrp_entity.bano.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano.attack",
+    "sounds": [
+      "subspaceparasite:ada_bolster_special"
+    ]
+  },
+  "subsrp_entity.canra.idle": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.canra.idle"
+  },
+  "subsrp_entity.canra.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.canra.hurt"
+  },
+  "subsrp_entity.canra.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.canra.death"
+  },
+  "subsrp_entity.canra.attack": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_special"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.canra.attack"
+  },
+  "subsrp_entity.hull.idle": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.hull.idle"
+  },
+  "subsrp_entity.hull.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.hull.hurt"
+  },
+  "subsrp_entity.hull.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.hull.death"
+  },
+  "subsrp_entity.host.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.host.idle",
+    "sounds": [
+      "subspaceparasite:hostliving1",
+      "subspaceparasite:hostliving2"
+    ]
+  },
+  "subsrp_entity.host.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.host.hurt",
+    "sounds": [
+      "subspaceparasite:host_hurt_1",
+      "subspaceparasite:host_hurt_2",
+      "subspaceparasite:host_hurt_3"
+    ]
+  },
+  "subsrp_entity.host.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.host.death",
+    "sounds": [
+      "subspaceparasite:host_death"
+    ]
+  },
+  "subsrp_entity.host.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.host.attack",
+    "sounds": [
+      "subspaceparasite:host_reveal_1",
+      "subspaceparasite:host_reveal_2",
+      "subspaceparasite:host_reveal_3"
+    ]
+  },
+  "subsrp_entity.leer.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.leer.idle",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.leer.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.leer.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.leer.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.leer.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.leer.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.leer.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.crux.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.crux.idle",
+    "sounds": [
+      "subspaceparasite:crux_living_1",
+      "subspaceparasite:crux_living_2",
+      "subspaceparasite:crux_living_3",
+      "subspaceparasite:crux_living_4",
+      "subspaceparasite:crux_living_5",
+      "subspaceparasite:crux_living_6"
+    ]
+  },
+  "subsrp_entity.crux.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.crux.hurt",
+    "sounds": [
+      "subspaceparasite:crux_hurt_1",
+      "subspaceparasite:crux_hurt_2",
+      "subspaceparasite:crux_hurt_3",
+      "subspaceparasite:crux_hurt_4"
+    ]
+  },
+  "subsrp_entity.crux.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.crux.death",
+    "sounds": [
+      "subspaceparasite:crux_death"
+    ]
+  },
+  "subsrp_entity.heblu.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heblu.idle",
+    "sounds": [
+      "subspaceparasite:emana_growl"
+    ]
+  },
+  "subsrp_entity.heblu.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heblu.hurt",
+    "sounds": [
+      "subspaceparasite:emana_hurt"
+    ]
+  },
+  "subsrp_entity.heblu.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heblu.death",
+    "sounds": [
+      "subspaceparasite:emana_death"
+    ]
+  },
+  "subsrp_entity.heblu.shoot": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heblu.shoot",
+    "sounds": [
+      "subspaceparasite:emana_shooting"
+    ]
+  },
+  "subsrp_entity.heblu.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heblu.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.kirin.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kirin.idle",
+    "sounds": [
+      "subspaceparasite:kirin_idle_1",
+      "subspaceparasite:kirin_idle_2",
+      "subspaceparasite:kirin_idle_3"
+    ]
+  },
+  "subsrp_entity.kirin.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kirin.hurt",
+    "sounds": [
+      "subspaceparasite:kirin_hurt_1",
+      "subspaceparasite:kirin_hurt_2",
+      "subspaceparasite:kirin_hurt_3"
+    ]
+  },
+  "subsrp_entity.kirin.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kirin.death",
+    "sounds": [
+      "subspaceparasite:kirin_death"
+    ]
+  },
+  "subsrp_entity.kirin.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kirin.attack",
+    "sounds": [
+      "subspaceparasite:kirin_black_hole"
+    ]
+  },
+  "subsrp_entity.adapted_quadrupede.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_quadrupede.idle",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterliving1",
+      "subspaceparasite:adaptedbolsterliving2",
+      "subspaceparasite:adaptedbolsterliving3"
+    ]
+  },
+  "subsrp_entity.adapted_quadrupede.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_quadrupede.hurt",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterhurt1",
+      "subspaceparasite:adaptedbolsterhurt2",
+      "subspaceparasite:adaptedbolsterhurt3"
+    ]
+  },
+  "subsrp_entity.adapted_quadrupede.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_quadrupede.death",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterdeath"
+    ]
+  },
+  "subsrp_entity.adapted_quadrupede.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_quadrupede.attack",
+    "sounds": [
+      "subspaceparasite:ada_bolster_special"
+    ]
+  },
+  "subsrp_entity.adapted_fly.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_fly.idle",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_idle_1",
+      "subspaceparasite:adapted_vermin_idle_2",
+      "subspaceparasite:adapted_vermin_idle_3"
+    ]
+  },
+  "subsrp_entity.adapted_fly.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_fly.hurt",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_hurt_1",
+      "subspaceparasite:adapted_vermin_hurt_2",
+      "subspaceparasite:adapted_vermin_hurt_3"
+    ]
+  },
+  "subsrp_entity.adapted_fly.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_fly.death",
+    "sounds": [
+      "subspaceparasite:adapted_vermin_death"
+    ]
+  },
+  "subsrp_entity.adapted_fly.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_fly.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.adapted_arachnid.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_arachnid.idle",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidaliving1",
+      "subspaceparasite:adaptedarachnidaliving2",
+      "subspaceparasite:adaptedarachnidaliving3",
+      "subspaceparasite:adaptedarachnidaliving4"
+    ]
+  },
+  "subsrp_entity.adapted_arachnid.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_arachnid.hurt",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidahurt1",
+      "subspaceparasite:adaptedarachnidahurt2",
+      "subspaceparasite:adaptedarachnidahurt3"
+    ]
+  },
+  "subsrp_entity.adapted_arachnid.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.adapted_arachnid.death",
+    "sounds": [
+      "subspaceparasite:adaptedarachnidadeath"
+    ]
+  },
+  "subsrp_entity.beckon.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.beckon.idle",
+    "sounds": [
+      "subspaceparasite:beckonsi_growl",
+      "subspaceparasite:beckonsi_growl_2",
+      "subspaceparasite:beckonsii_growl",
+      "subspaceparasite:beckonsii_growl_2",
+      "subspaceparasite:beckonsiii_growl",
+      "subspaceparasite:beckonsiii_growl_2"
+    ]
+  },
+  "subsrp_entity.beckon.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.beckon.hurt",
+    "sounds": [
+      "subspaceparasite:beckonsi_hurt",
+      "subspaceparasite:beckonsi_hurt_2",
+      "subspaceparasite:beckonsii_hurt",
+      "subspaceparasite:beckonsii_hurt_2",
+      "subspaceparasite:beckonsiii_hurt",
+      "subspaceparasite:beckonsiii_hurt_2"
+    ]
+  },
+  "subsrp_entity.beckon.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.beckon.death",
+    "sounds": [
+      "subspaceparasite:beckonsi_death",
+      "subspaceparasite:beckonsi_death_2",
+      "subspaceparasite:beckonsii_death",
+      "subspaceparasite:beckonsii_death_2",
+      "subspaceparasite:beckonsiii_death",
+      "subspaceparasite:beckonsiii_death_2"
+    ]
+  },
+  "subsrp_entity.beckon.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.beckon.attack",
+    "sounds": [
+      "subspaceparasite:misc/beckon_vortex"
+    ]
+  },
+  "subsrp_entity.nexus.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nexus.idle",
+    "sounds": [
+      "subspaceparasite:monarchliving1",
+      "subspaceparasite:monarchliving2",
+      "subspaceparasite:monarchliving3"
+    ]
+  },
+  "subsrp_entity.nexus.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nexus.hurt",
+    "sounds": [
+      "subspaceparasite:monarchhurt1",
+      "subspaceparasite:monarchhurt2",
+      "subspaceparasite:monarchhurt3"
+    ]
+  },
+  "subsrp_entity.nexus.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nexus.death",
+    "sounds": [
+      "subspaceparasite:monarchdeath"
+    ]
+  },
+  "subsrp_entity.nexus.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nexus.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_tendril"
+    ]
+  },
+  "subsrp_entity.rooter.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rooter.idle",
+    "sounds": [
+      "subspaceparasite:prim_viscera_living_1",
+      "subspaceparasite:prim_viscera_living_2",
+      "subspaceparasite:prim_viscera_living_3"
+    ]
+  },
+  "subsrp_entity.rooter.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rooter.hurt",
+    "sounds": [
+      "subspaceparasite:prim_viscera_hurt_1",
+      "subspaceparasite:prim_viscera_hurt_2",
+      "subspaceparasite:prim_viscera_hurt_3"
+    ]
+  },
+  "subsrp_entity.rooter.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rooter.attack",
+    "sounds": [
+      "subspaceparasite:prim_viscera_death"
+    ]
+  },
+  "subsrp_entity.dispatcher.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.dispatcher.idle",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_i",
+      "subspaceparasite:dispatcher_stage_ii"
+    ]
+  },
+  "subsrp_entity.dispatcher.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.dispatcher.hurt",
+    "sounds": [
+      "subspaceparasite:dispatcher_stage_iii",
+      "subspaceparasite:dispatcher_stage_iv"
+    ]
+  },
+  "subsrp_entity.dispatcher.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.dispatcher.attack",
+    "sounds": [
+      "subspaceparasite:dispatcher_tentacles_emerge_1",
+      "subspaceparasite:dispatcher_tentacles_emerge_2",
+      "subspaceparasite:dispatcher_tentacles_emerge_3"
+    ]
+  },
+  "subsrp_entity.assimilated.idle": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_growl",
+      "subspaceparasite:infected_ambient"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated.idle"
+  },
+  "subsrp_entity.assimilated.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_hurt",
+      "subspaceparasite:infected_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated.hurt"
+  },
+  "subsrp_entity.assimilated.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_death",
+      "subspaceparasite:infected_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated.death"
+  },
+  "subsrp_entity.assimilated_human.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_human.idle",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle1",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle2",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle3",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle4",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle5",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/old_idle",
+        "weight": 1
+      }
+    ]
+  },
+  "subsrp_entity.assimilated_human.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_human.hurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/hurt1",
+      "subspaceparasite:mob/assimilated/human/hurt2",
+      "subspaceparasite:mob/assimilated/human/hurt3",
+      "subspaceparasite:mob/assimilated/human/hurt4",
+      "subspaceparasite:mob/assimilated/human/hurt5"
+    ]
+  },
+  "subsrp_entity.assimilated_human.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_human.death",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/death"
+    ]
+  },
+  "subsrp_entity.assimilated_human.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_human.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.assimilated_cow.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_cow.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedcowliving1",
+      "subspaceparasite:assimilatedcowliving2",
+      "subspaceparasite:assimilatedcowliving3"
+    ]
+  },
+  "subsrp_entity.assimilated_cow.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_cow.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedcowhurt1",
+      "subspaceparasite:assimilatedcowhurt2",
+      "subspaceparasite:assimilatedcowhurt3"
+    ]
+  },
+  "subsrp_entity.assimilated_cow.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_cow.death",
+    "sounds": [
+      "subspaceparasite:assimilatedcowdeath"
+    ]
+  },
+  "subsrp_entity.assimilated_cow.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_cow.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.assimilated_sheep.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_sheep.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepliving1",
+      "subspaceparasite:assimilatedsheepliving2",
+      "subspaceparasite:assimilatedsheepliving3"
+    ]
+  },
+  "subsrp_entity.assimilated_sheep.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_sheep.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedsheephurt1",
+      "subspaceparasite:assimilatedsheephurt2",
+      "subspaceparasite:assimilatedsheephurt3"
+    ]
+  },
+  "subsrp_entity.assimilated_sheep.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_sheep.death",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepdeath"
+    ]
+  },
+  "subsrp_entity.assimilated_sheep.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.assimilated_sheep.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.feral.idle": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_growl",
+      "subspaceparasite:infected_ambient"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.feral.idle"
+  },
+  "subsrp_entity.feral.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:infectedanimal_hurt",
+      "subspaceparasite:infected_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.feral.hurt"
+  },
+  "subsrp_entity.feral.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.feral_human.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_human.idle",
+    "sounds": [
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle1",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle2",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle3",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle4",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/idle5",
+        "weight": 1000
+      },
+      {
+        "name": "subspaceparasite:mob/assimilated/human/old_idle",
+        "weight": 1
+      }
+    ]
+  },
+  "subsrp_entity.feral_human.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_human.hurt",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/hurt1",
+      "subspaceparasite:mob/assimilated/human/hurt2",
+      "subspaceparasite:mob/assimilated/human/hurt3",
+      "subspaceparasite:mob/assimilated/human/hurt4",
+      "subspaceparasite:mob/assimilated/human/hurt5"
+    ]
+  },
+  "subsrp_entity.feral_human.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_human.death",
+    "sounds": [
+      "subspaceparasite:mob/assimilated/human/death"
+    ]
+  },
+  "subsrp_entity.feral_human.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_human.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.feral_cow.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_cow.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedcowliving1",
+      "subspaceparasite:assimilatedcowliving2",
+      "subspaceparasite:assimilatedcowliving3"
+    ]
+  },
+  "subsrp_entity.feral_cow.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_cow.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedcowhurt1",
+      "subspaceparasite:assimilatedcowhurt2",
+      "subspaceparasite:assimilatedcowhurt3"
+    ]
+  },
+  "subsrp_entity.feral_cow.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_cow.death",
+    "sounds": [
+      "subspaceparasite:assimilatedcowdeath"
+    ]
+  },
+  "subsrp_entity.feral_cow.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_cow.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.feral_sheep.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_sheep.idle",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepliving1",
+      "subspaceparasite:assimilatedsheepliving2",
+      "subspaceparasite:assimilatedsheepliving3"
+    ]
+  },
+  "subsrp_entity.feral_sheep.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_sheep.hurt",
+    "sounds": [
+      "subspaceparasite:assimilatedsheephurt1",
+      "subspaceparasite:assimilatedsheephurt2",
+      "subspaceparasite:assimilatedsheephurt3"
+    ]
+  },
+  "subsrp_entity.feral_sheep.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_sheep.death",
+    "sounds": [
+      "subspaceparasite:assimilatedsheepdeath"
+    ]
+  },
+  "subsrp_entity.feral_sheep.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.feral_sheep.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.ancient.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ancient.idle",
+    "sounds": [
+      "subspaceparasite:wardenliving1",
+      "subspaceparasite:wardenliving2",
+      "subspaceparasite:wardenliving3"
+    ]
+  },
+  "subsrp_entity.ancient.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ancient.hurt",
+    "sounds": [
+      "subspaceparasite:wardenhurt1",
+      "subspaceparasite:wardenhurt2",
+      "subspaceparasite:wardenhurt3"
+    ]
+  },
+  "subsrp_entity.ancient.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ancient.death",
+    "sounds": [
+      "subspaceparasite:wardendeath"
+    ]
+  },
+  "subsrp_entity.preeminent.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.preeminent.idle",
+    "sounds": [
+      "subspaceparasite:vigilanteliving1",
+      "subspaceparasite:vigilanteliving2",
+      "subspaceparasite:vigilanteliving3",
+      "subspaceparasite:vigilanteliving4"
+    ]
+  },
+  "subsrp_entity.preeminent.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.preeminent.hurt",
+    "sounds": [
+      "subspaceparasite:vigilantehurt1",
+      "subspaceparasite:vigilantehurt2",
+      "subspaceparasite:vigilantehurt3",
+      "subspaceparasite:vigilantehurt4"
+    ]
+  },
+  "subsrp_entity.preeminent.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.preeminent.death",
+    "sounds": [
+      "subspaceparasite:vigilantedeath"
+    ]
+  },
+  "subsrp_entity.abomination.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.abomination.idle",
+    "sounds": [
+      "subspaceparasite:devourerliving1",
+      "subspaceparasite:devourerliving2",
+      "subspaceparasite:devourerliving3",
+      "subspaceparasite:devourerliving4"
+    ]
+  },
+  "subsrp_entity.abomination.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.abomination.hurt",
+    "sounds": [
+      "subspaceparasite:devourerhurt1",
+      "subspaceparasite:devourerhurt2",
+      "subspaceparasite:devourerhurt3"
+    ]
+  },
+  "subsrp_entity.abomination.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.abomination.death",
+    "sounds": [
+      "subspaceparasite:devourerdeath"
+    ]
+  },
+  "subsrp_entity.abomination.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.abomination.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_explotion"
+    ]
+  },
+  "subsrp_entity.venkrol.idle": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.venkrol.idle",
+    "sounds": [
+      "subspaceparasite:marauderliving1",
+      "subspaceparasite:marauderliving2",
+      "subspaceparasite:marauderliving3"
+    ]
+  },
+  "subsrp_entity.venkrol.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.venkrol.hurt",
+    "sounds": [
+      "subspaceparasite:marauderhurt1",
+      "subspaceparasite:marauderhurt2",
+      "subspaceparasite:marauderhurt3"
+    ]
+  },
+  "subsrp_entity.venkrol.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.venkrol.death",
+    "sounds": [
+      "subspaceparasite:marauderdeath"
+    ]
+  },
+  "subsrp_entity.venkrol.attack": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.venkrol.attack",
+    "sounds": [
+      "subspaceparasite:misc/mob_swipe"
+    ]
+  },
+  "subsrp_entity.ata.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ata.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.ata.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ata.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.ata.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ata.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.buthol.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.buthol.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.buthol.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.buthol.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.buthol.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.buthol.death",
+    "sounds": [
+      "subspaceparasite:buthol_explotion"
+    ]
+  },
+  "subsrp_entity.gothol.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.gothol.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.gothol.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.gothol.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.gothol.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.gothol.death",
+    "sounds": [
+      "subspaceparasite:rathol_explotion"
+    ]
+  },
+  "subsrp_entity.rathol.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rathol.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.rathol.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rathol.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.rathol.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.rathol.death",
+    "sounds": [
+      "subspaceparasite:rathol_explotion"
+    ]
+  },
+  "subsrp_entity.lesh.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lesh.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.lesh.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lesh.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.lesh.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lesh.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.viin.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.viin.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.viin.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.viin.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.viin.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.viin.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.lodo.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lodo.ambient",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/idle"
+    ]
+  },
+  "subsrp_entity.lodo.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lodo.hurt",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/hurt"
+    ]
+  },
+  "subsrp_entity.lodo.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lodo.death",
+    "sounds": [
+      "subspaceparasite:mob/pure/buglin/death"
+    ]
+  },
+  "subsrp_entity.mor.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mor.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.mor.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mor.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.mor.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mor.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.mudo.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mudo.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.mudo.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mudo.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.mudo.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mudo.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.kol.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kol.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.kol.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kol.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.kol.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.kol.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.nuuh.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nuuh.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.nuuh.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nuuh.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.nuuh.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.nuuh.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.cruxa.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxa.ambient",
+    "sounds": [
+      "subspaceparasite:crux_living_1",
+      "subspaceparasite:crux_living_2",
+      "subspaceparasite:crux_living_3"
+    ]
+  },
+  "subsrp_entity.cruxa.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxa.hurt",
+    "sounds": [
+      "subspaceparasite:crux_hurt_1",
+      "subspaceparasite:crux_hurt_2",
+      "subspaceparasite:crux_hurt_3"
+    ]
+  },
+  "subsrp_entity.cruxa.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxa.death",
+    "sounds": [
+      "subspaceparasite:crux_death"
+    ]
+  },
+  "subsrp_entity.cruxb.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxb.ambient",
+    "sounds": [
+      "subspaceparasite:crux_living_4",
+      "subspaceparasite:crux_living_5",
+      "subspaceparasite:crux_living_6"
+    ]
+  },
+  "subsrp_entity.cruxb.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxb.hurt",
+    "sounds": [
+      "subspaceparasite:crux_hurt_2",
+      "subspaceparasite:crux_hurt_3",
+      "subspaceparasite:crux_hurt_4"
+    ]
+  },
+  "subsrp_entity.cruxb.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.cruxb.death",
+    "sounds": [
+      "subspaceparasite:crux_death"
+    ]
+  },
+  "subsrp_entity.quac.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.quac.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.quac.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.quac.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.quac.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.quac.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.leer.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.leer.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.host.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.host.ambient",
+    "sounds": [
+      "subspaceparasite:hostliving1",
+      "subspaceparasite:hostliving2"
+    ]
+  },
+  "subsrp_entity.heed.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heed.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.heed.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heed.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.heed.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.heed.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.inhoos.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoos.ambient",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/idle1",
+      "subspaceparasite:mob/crude/incomplete_form/small/idle2",
+      "subspaceparasite:mob/crude/incomplete_form/small/idle3"
+    ]
+  },
+  "subsrp_entity.inhoos.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoos.hurt",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt1",
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt2",
+      "subspaceparasite:mob/crude/incomplete_form/small/hurt3"
+    ]
+  },
+  "subsrp_entity.inhoos.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoos.death",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/small/death"
+    ]
+  },
+  "subsrp_entity.done.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.done.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.done.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.done.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.done.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.done.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.inhoom.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoom.ambient",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle1",
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle2",
+      "subspaceparasite:mob/crude/incomplete_form/medium/idle3"
+    ]
+  },
+  "subsrp_entity.inhoom.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoom.hurt",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt1",
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt2",
+      "subspaceparasite:mob/crude/incomplete_form/medium/hurt3"
+    ]
+  },
+  "subsrp_entity.inhoom.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.inhoom.death",
+    "sounds": [
+      "subspaceparasite:mob/crude/incomplete_form/medium/death"
+    ]
+  },
+  "subsrp_entity.mes.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mes.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.mes.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mes.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.mes.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.mes.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.shyco.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.shyco.ambient"
+  },
+  "subsrp_entity.shyco.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.shyco.hurt"
+  },
+  "subsrp_entity.shyco.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:shyco_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.shyco.death"
+  },
+  "subsrp_entity.zaa.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_living_1",
+      "subspaceparasite:prim_burrower_living_2",
+      "subspaceparasite:prim_burrower_living_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.zaa.ambient"
+  },
+  "subsrp_entity.zaa.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_hurt_1",
+      "subspaceparasite:prim_burrower_hurt_2",
+      "subspaceparasite:prim_burrower_hurt_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.zaa.hurt"
+  },
+  "subsrp_entity.zaa.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_burrower_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.zaa.death"
+  },
+  "subsrp_entity.iki.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.iki.ambient",
+    "sounds": [
+      "subspaceparasite:verminliving1",
+      "subspaceparasite:verminliving2",
+      "subspaceparasite:verminliving3"
+    ]
+  },
+  "subsrp_entity.iki.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.iki.hurt",
+    "sounds": [
+      "subspaceparasite:verminhurt1",
+      "subspaceparasite:verminhurt2"
+    ]
+  },
+  "subsrp_entity.iki.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.iki.death",
+    "sounds": [
+      "subspaceparasite:vermindeath"
+    ]
+  },
+  "subsrp_entity.ranrac.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ranrac.ambient",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_entity.ranrac.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ranrac.hurt",
+    "sounds": [
+      "subspaceparasite:infected_hurt"
+    ]
+  },
+  "subsrp_entity.ranrac.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.ranrac.death",
+    "sounds": [
+      "subspaceparasite:infected_death"
+    ]
+  },
+  "subsrp_entity.wymo.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_living_1",
+      "subspaceparasite:prim_tozoon_living_2",
+      "subspaceparasite:prim_tozoon_living_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.wymo.ambient"
+  },
+  "subsrp_entity.wymo.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_hurt_1",
+      "subspaceparasite:prim_tozoon_hurt_2",
+      "subspaceparasite:prim_tozoon_hurt_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.wymo.hurt"
+  },
+  "subsrp_entity.wymo.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_tozoon_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.wymo.death"
+  },
+  "subsrp_entity.canra.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:canra_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.canra.ambient"
+  },
+  "subsrp_entity.nogla.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.nogla.ambient"
+  },
+  "subsrp_entity.nogla.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.nogla.hurt"
+  },
+  "subsrp_entity.nogla.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:nogla_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.nogla.death"
+  },
+  "subsrp_entity.hull.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:hull_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.hull.ambient"
+  },
+  "subsrp_entity.gim.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_living_1",
+      "subspaceparasite:prim_viscera_living_2",
+      "subspaceparasite:prim_viscera_living_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.gim.ambient"
+  },
+  "subsrp_entity.gim.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_hurt_1",
+      "subspaceparasite:prim_viscera_hurt_2",
+      "subspaceparasite:prim_viscera_hurt_3"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.gim.hurt"
+  },
+  "subsrp_entity.gim.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:prim_viscera_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.gim.death"
+  },
+  "subsrp_entity.lum.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lum.ambient",
+    "sounds": [
+      "subspaceparasite:devourerliving1",
+      "subspaceparasite:devourerliving2",
+      "subspaceparasite:devourerliving3",
+      "subspaceparasite:devourerliving4"
+    ]
+  },
+  "subsrp_entity.lum.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lum.hurt",
+    "sounds": [
+      "subspaceparasite:devourerhurt1",
+      "subspaceparasite:devourerhurt2",
+      "subspaceparasite:devourerhurt3"
+    ]
+  },
+  "subsrp_entity.lum.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.lum.death",
+    "sounds": [
+      "subspaceparasite:devourerdeath"
+    ]
+  },
+  "subsrp_entity.emana.ambient": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_growl"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.emana.ambient"
+  },
+  "subsrp_entity.emana.hurt": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_hurt"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.emana.hurt"
+  },
+  "subsrp_entity.emana.death": {
+    "category": "hostile",
+    "sounds": [
+      "subspaceparasite:emana_death"
+    ],
+    "subtitle": "subspaceparasite.subtitles.entity.emana.death"
+  },
+  "subsrp_entity.bano_adapted.ambient": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano_adapted.ambient",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterliving1",
+      "subspaceparasite:adaptedbolsterliving2",
+      "subspaceparasite:adaptedbolsterliving3"
+    ]
+  },
+  "subsrp_entity.bano_adapted.hurt": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano_adapted.hurt",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterhurt1",
+      "subspaceparasite:adaptedbolsterhurt2",
+      "subspaceparasite:adaptedbolsterhurt3"
+    ]
+  },
+  "subsrp_entity.bano_adapted.death": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.bano_adapted.death",
+    "sounds": [
+      "subspaceparasite:adaptedbolsterdeath"
+    ]
+  },
+  "subsrp_block.infest": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.infest",
+    "sounds": [
+      "subspaceparasite:infected_melting"
+    ]
+  },
+  "subsrp_block.deinfest": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.deinfest",
+    "sounds": [
+      "subspaceparasite:infected_melting"
+    ]
+  },
+  "subsrp_block.parasite.break": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.parasite.break",
+    "sounds": [
+      "subspaceparasite:blockinfest_break"
+    ]
+  },
+  "subsrp_block.parasite.step": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.parasite.step",
+    "sounds": [
+      "subspaceparasite:blockinfest_step"
+    ]
+  },
+  "subsrp_block.parasite.place": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.parasite.place",
+    "sounds": [
+      "subspaceparasite:blockinfest_place"
+    ]
+  },
+  "subsrp_block.biome_heart.beat": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.biome_heart.beat",
+    "sounds": [
+      "subspaceparasite:block/flesh/heart/step1",
+      "subspaceparasite:block/flesh/heart/step2",
+      "subspaceparasite:block/flesh/heart/step3",
+      "subspaceparasite:block/flesh/heart/step4"
+    ]
+  },
+  "subsrp_block.biome_heart.death": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.biome_heart.death",
+    "sounds": [
+      "subspaceparasite:block/flesh/heart/heart_death"
+    ]
+  },
+  "subsrp_block.colony_heart.idle": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.colony_heart.idle",
+    "sounds": [
+      "subspaceparasite:monarchliving1",
+      "subspaceparasite:monarchliving2"
+    ]
+  },
+  "subsrp_block.colony_heart.hurt": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.colony_heart.hurt",
+    "sounds": [
+      "subspaceparasite:monarchhurt1",
+      "subspaceparasite:monarchhurt2"
+    ]
+  },
+  "subsrp_block.colony_heart.death": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.colony_heart.death",
+    "sounds": [
+      "subspaceparasite:monarchdeath"
+    ]
+  },
+  "subsrp_block.colony_outpost.idle": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.colony_outpost.idle",
+    "sounds": [
+      "subspaceparasite:colony_carrier_living_1",
+      "subspaceparasite:colony_carrier_living_2"
+    ]
+  },
+  "subsrp_block.alveoli.hatch": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.alveoli.hatch",
+    "sounds": [
+      "subspaceparasite:block/flesh/cyst/open"
+    ]
+  },
+  "subsrp_block.alveoli.ambient": {
+    "category": "block",
+    "subtitle": "subspaceparasite.subtitles.block.alveoli.ambient",
+    "sounds": [
+      "subspaceparasite:block/flesh/cyst/eating"
+    ]
+  },
+  "subsrp_item.living_armor.equip": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.item.living_armor.equip",
+    "sounds": [
+      "subspaceparasite:item/vengeance_impact_hit"
+    ]
+  },
+  "subsrp_item.sentient_armor.equip": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.item.sentient_armor.equip",
+    "sounds": [
+      "subspaceparasite:item/vengeance_impact_hit"
+    ]
+  },
+  "subsrp_item.infested_tool.equip": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.item.infested_tool.equip",
+    "sounds": [
+      "subspaceparasite:item/vengeance_impact_hit"
+    ]
+  },
+  "subsrp_evolution.upgrade": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.evolution.upgrade",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase1"
+    ]
+  },
+  "subsrp_evolution.level": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.evolution.level",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase5"
+    ]
+  },
+  "subsrp_evolution.complete": {
+    "category": "player",
+    "subtitle": "subspaceparasite.subtitles.evolution.complete",
+    "sounds": [
+      "subspaceparasite:misc/evolution/phase10"
+    ]
+  },
+  "subsrp_ambient.parasite": {
+    "category": "ambient",
+    "subtitle": "subspaceparasite.subtitles.ambient.parasite",
+    "sounds": [
+      "subspaceparasite:infected_ambient"
+    ]
+  },
+  "subsrp_ambient.spore": {
+    "category": "ambient",
+    "subtitle": "subspaceparasite.subtitles.ambient.spore",
+    "sounds": [
+      "subspaceparasite:misc/scent_wave"
+    ]
+  },
+  "subsrp_ambient.colony": {
+    "category": "ambient",
+    "subtitle": "subspaceparasite.subtitles.ambient.colony",
+    "sounds": [
+      "subspaceparasite:misc/colony1"
+    ]
+  },
+  "subsrp_ambient.waste": {
+    "category": "ambient",
+    "subtitle": "subspaceparasite.subtitles.ambient.waste",
+    "sounds": [
+      "subspaceparasite:misc/mob_silence"
+    ]
+  },
+  "subsrp_entity.projectile.hit": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.projectile.hit",
+    "sounds": [
+      "subspaceparasite:misc/mob_hitground"
+    ]
+  },
+  "subsrp_entity.projectile.shoot": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.projectile.shoot",
+    "sounds": [
+      "subspaceparasite:emana_shooting"
+    ]
+  },
+  "subsrp_entity.projectile.fly": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.entity.projectile.fly",
+    "sounds": [
+      "subspaceparasite:misc/orb_attack_idle"
+    ]
+  },
+  "subsrp_effect.dislodgement.start": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.effect.dislodgement.start",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_1"
+    ]
+  },
+  "subsrp_effect.dislodgement.end": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.effect.dislodgement.end",
+    "sounds": [
+      "subspaceparasite:misc/dislo/dislo_30"
+    ]
+  },
+  "subsrp_effect.infection.spread": {
+    "category": "hostile",
+    "subtitle": "subspaceparasite.subtitles.effect.infection.spread",
+    "sounds": [
+      "subspaceparasite:infected_melting"
+    ]
+  }
+}

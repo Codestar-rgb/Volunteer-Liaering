@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/goth_plank_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/goth_plank_slab_top"
+    }
+  }
+}

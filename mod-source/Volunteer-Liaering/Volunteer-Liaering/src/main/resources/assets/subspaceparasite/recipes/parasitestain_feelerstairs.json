@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "subspaceparasite:parasitestain",
+      "data": 3
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:parasitestain_feelerstairs",
+    "count": 4
+  }
+}

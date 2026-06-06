@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/harleskinn_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/harleskinn_slab_top"
+    }
+  }
+}

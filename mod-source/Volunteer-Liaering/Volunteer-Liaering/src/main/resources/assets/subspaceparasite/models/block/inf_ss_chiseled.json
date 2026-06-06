@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "subspaceparasite:block/inf_ss_top",
+    "bottom": "subspaceparasite:block/inf_ss_down",
+    "side": "subspaceparasite:block/inf_ss_chiseled"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " XY",
+    "ZR ",
+    "Y  "
+  ],
+  "key": {
+    "X": { "item": "subspaceparasite:living_core" },
+    "Y": { "item": "subspaceparasite:infectious_blade_fragment" },
+    "Z": { "item": "subspaceparasite:vile_shell" },
+    "R": { "item": "subspaceparasite:hardened_bone_handle" }
+  },
+  "result": {
+    "item": "subspaceparasite:weapon_lance",
+    "count": 1
+  }
+}

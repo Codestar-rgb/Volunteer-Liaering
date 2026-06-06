@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "CA ",
+    "C  "
+  ],
+  "key": {
+    "A": {
+      "item": "subspaceparasite:ada_reeker_drop"
+    },
+    "C": {
+      "item": "subspaceparasite:assimilated_flesh"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:infectious_blade_fragment",
+    "count": 1
+  }
+}

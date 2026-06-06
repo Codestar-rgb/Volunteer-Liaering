@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:assimilated_reed"
+    },
+    {
+      "item": "subspaceparasite:assimilated_reed"
+    },
+    {
+      "item": "subspaceparasite:assimilated_reed"
+    }
+  ],
+  "result": {
+    "item": "minecraft:paper",
+    "count": 2
+  }
+}

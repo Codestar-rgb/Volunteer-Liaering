@@ -1,0 +1,6 @@
+{
+  "parent": "subspaceparasite:block/infestremain",
+  "textures": {
+    "all": "subspaceparasite:block/infestremain_infestedvariant"
+  }
+}

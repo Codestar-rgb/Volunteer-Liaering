@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_horsehead",
+  "tier": "WALKING_HEAD",
+  "name_key": "entity.subspaceparasite.sim_horsehead.name",
+  "lore_key": "lore.subspaceparasite.sim_horsehead",
+  "render_scale": 0.9,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

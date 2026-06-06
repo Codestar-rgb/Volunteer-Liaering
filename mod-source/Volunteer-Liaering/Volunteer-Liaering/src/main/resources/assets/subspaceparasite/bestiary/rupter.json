@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:rupter",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.rupter.name",
+  "lore_key": "lore.subspaceparasite.rupter",
+  "render_scale": 0.5,
+  "minlorekill": 10,
+  "minstatkill": 5,
+  "stats": {
+    "source": "entity"
+  }
+}

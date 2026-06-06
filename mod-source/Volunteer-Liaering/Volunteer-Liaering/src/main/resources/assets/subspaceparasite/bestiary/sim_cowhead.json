@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:sim_cowhead",
+  "tier": "WALKING_HEAD",
+  "name_key": "entity.subspaceparasite.sim_cowhead.name",
+  "lore_key": "lore.subspaceparasite.sim_cowhead",
+  "render_scale": 0.9,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

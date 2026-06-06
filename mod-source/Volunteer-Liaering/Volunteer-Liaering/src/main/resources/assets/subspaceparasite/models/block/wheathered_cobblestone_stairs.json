@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "subspaceparasite:block/parasiterubble_weathbc",
+    "top": "subspaceparasite:block/parasiterubble_weathbc",
+    "side": "subspaceparasite:block/parasiterubble_weathbc"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:fer_horse",
+  "tier": "FERAL",
+  "name_key": "entity.subspaceparasite.fer_horse.name",
+  "lore_key": "lore.subspaceparasite.fer_horse",
+  "render_scale": 0.9,
+  "minlorekill": 3,
+  "minstatkill": 3,
+  "stats": {
+    "source": "entity"
+  }
+}

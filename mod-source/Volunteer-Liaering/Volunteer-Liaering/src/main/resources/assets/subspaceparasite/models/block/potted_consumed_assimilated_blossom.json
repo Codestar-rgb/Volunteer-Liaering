@@ -1,0 +1,8 @@
+{
+  "parent": "block/flower_pot_cross",
+  "textures": {
+    "flowerpot": "subspaceparasite:block/consumed_flower_pot",
+    "dirt": "subspaceparasite:block/infestedsand",
+    "plant": "subspaceparasite:block/assimilated_fungus"
+  }
+}

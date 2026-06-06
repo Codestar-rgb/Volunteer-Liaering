@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "subspaceparasite:parasiterubble",
+      "data": 4
+    }
+  ],
+  "result": {
+    "item": "subspaceparasite:consumed_planks",
+    "count": 4
+  }
+}

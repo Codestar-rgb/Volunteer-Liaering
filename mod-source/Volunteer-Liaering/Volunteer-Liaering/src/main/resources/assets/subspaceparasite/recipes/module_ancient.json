@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Y ",
+    "YMY",
+    " Y "
+  ],
+  "key": {
+    "Y": {
+      "item": "subspaceparasite:lurecomponent6"
+    },
+    "M": {
+      "item": "subspaceparasite:module_base"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_ancient",
+    "data": 0,
+    "count": 1
+  }
+}

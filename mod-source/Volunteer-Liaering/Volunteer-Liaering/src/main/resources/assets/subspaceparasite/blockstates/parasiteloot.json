@@ -1,0 +1,55 @@
+{
+  "variants": {
+    "variant=common": [
+      {
+        "model": "subspaceparasite:block/parasiteloot_common"
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_common",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_common",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_common",
+        "y": 270
+      }
+    ],
+    "variant=uncommon": [
+      {
+        "model": "subspaceparasite:block/parasiteloot_uncommon"
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_uncommon",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_uncommon",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_uncommon",
+        "y": 270
+      }
+    ],
+    "variant=rare": [
+      {
+        "model": "subspaceparasite:block/parasiteloot_rare"
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_rare",
+        "y": 90
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_rare",
+        "y": 180
+      },
+      {
+        "model": "subspaceparasite:block/parasiteloot_rare",
+        "y": 270
+      }
+    ]
+  }
+}

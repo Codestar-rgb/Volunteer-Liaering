@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:anc_dreadnaut",
+  "tier": "ANCIENT",
+  "name_key": "entity.subspaceparasite.anc_dreadnaut.name",
+  "lore_key": "lore.subspaceparasite.anc_dreadnaut",
+  "render_scale": 0.55,
+  "minlorekill": 999,
+  "minstatkill": 999,
+  "stats": {
+    "source": "entity"
+  }
+}

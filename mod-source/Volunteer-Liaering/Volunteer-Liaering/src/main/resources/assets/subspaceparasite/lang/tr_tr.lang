@@ -1,0 +1,674 @@
+//Entities
+
+entity.subspaceparasite.pri_longarms.name=İlkel Longarms
+entity.subspaceparasite.pri_manducater.name=İlkel Manducater
+entity.subspaceparasite.pri_summoner.name=İlkel Summoner
+entity.subspaceparasite.pri_reeker.name=İlkel Reeker
+entity.subspaceparasite.pri_yelloweye.name=İlkel Yelloweye
+entity.subspaceparasite.pri_bolster.name=İlkel Bolster
+entity.subspaceparasite.pri_arachnida.name=İlkel Arachnida
+entity.subspaceparasite.pri_devourer.name=İlkel Devourer
+entity.subspaceparasite.pri_vermin.name=İlkel Vermin
+entity.subspaceparasite.pri_tozoon.name=İlkel Tozoon
+
+entity.subspaceparasite.host.name=Konak
+entity.subspaceparasite.hostii.name=Sürü
+entity.subspaceparasite.crux.name=Temel
+entity.subspaceparasite.heed.name=Ehemmiyet
+entity.subspaceparasite.thrall.name=Esaret
+
+entity.subspaceparasite.sim_bear.name=Asimile Ayı
+entity.subspaceparasite.sim_squid.name=Asimile Mürekkep Balığı
+entity.subspaceparasite.sim_enderman.name=Asimile Enderman
+entity.subspaceparasite.sim_endermanhead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_adventurer.name=Asimile Maceracı
+entity.subspaceparasite.sim_adventurerhead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_bigspider.name=Asimile Dev Örümcek
+entity.subspaceparasite.sim_human.name=Asimile İnsan
+entity.subspaceparasite.sim_humanhead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_villager.name=Asimile Köylü
+entity.subspaceparasite.sim_villagerhead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_cow.name=Asimile İnek
+entity.subspaceparasite.sim_cowhead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_horse.name=Asimile At
+entity.subspaceparasite.sim_horsehead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_pig.name=Asimile Domuz
+entity.subspaceparasite.sim_pighead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_sheep.name=Asimile Koyun
+entity.subspaceparasite.sim_sheephead.name=Yürüyen Kafa
+entity.subspaceparasite.sim_wolf.name=Asimile Kurt
+entity.subspaceparasite.sim_wolfhead.name=Yürüyen Kafa
+entity.subspaceparasite.incompleteform_medium.name=Eksik Form
+entity.subspaceparasite.incompleteform_small.name=Eksik Form
+entity.subspaceparasite.sim_dragone.name=Asimile Ender Ejderhası
+entity.subspaceparasite.sim_dragonehead.name=Yürüyen Kafa
+
+entity.subspaceparasite.fer_cow.name=Vahşi İnek
+entity.subspaceparasite.fer_bear.name=Vahşi Ayı
+entity.subspaceparasite.fer_enderman.name=Vahşi Enderman
+entity.subspaceparasite.fer_human.name=Vahşi İnsan
+entity.subspaceparasite.fer_horse.name=Vahşi At
+entity.subspaceparasite.fer_sheep.name=Vahşi Koyun
+entity.subspaceparasite.fer_pig.name=Vahşi Domuz
+entity.subspaceparasite.fer_villager.name=Vahşi Köylü
+entity.subspaceparasite.fer_wolf.name=Vahşi Kurt
+
+entity.subspaceparasite.hi_blaze.name=Ele Geçirilmiş Alaz
+entity.subspaceparasite.hi_golem.name=Ele Geçirilmiş Demir Golem
+entity.subspaceparasite.hi_skeleton.name=Ele Geçirilmiş İskelet
+
+entity.subspaceparasite.overseer.name=Müfettiş
+entity.subspaceparasite.bomber_light.name=Hafif Bombacı
+entity.subspaceparasite.carrier_heavy.name=Ağır Taşıyıcı
+entity.subspaceparasite.carrier_light.name=Hafif Taşıyıcı
+entity.subspaceparasite.buglin.name=Buglin
+entity.subspaceparasite.mangler.name=Mengene
+entity.subspaceparasite.gnat.name=Gnat
+entity.subspaceparasite.worker.name=İşçi
+entity.subspaceparasite.carrier_flying.name=Uçan Taşıyıcı
+entity.subspaceparasite.rupter.name=Yırtıcı
+entity.subspaceparasite.beckon_si.name=Beckon Aşama I
+entity.subspaceparasite.beckon_sii.name=Beckon Aşama II
+entity.subspaceparasite.beckon_siii.name=Beckon Aşama III
+entity.subspaceparasite.beckon_siv.name=Beckon Aşama IV
+entity.subspaceparasite.beckon_sv.name=Beckon Aşama V
+entity.subspaceparasite.warden.name=Bekçi
+entity.subspaceparasite.marauder.name=Yağmacı
+entity.subspaceparasite.monarch.name=Monarşi 
+entity.subspaceparasite.grunt.name=Hırıltı
+entity.subspaceparasite.sentry.name=Sentry
+entity.subspaceparasite.kyphosis.name=Kambur
+entity.subspaceparasite.dispatcherten.name=Dispatcher Kolu
+entity.subspaceparasite.dispatcher_si.name=Dispatcher Aşama I
+entity.subspaceparasite.dispatcher_sii.name=Dispatcher Aşama II
+entity.subspaceparasite.dispatcher_siii.name=Dispatcher Aşama III
+entity.subspaceparasite.dispatcher_siv.name=Dispatcher Aşama IV
+entity.subspaceparasite.seizer.name=Seizer
+
+entity.subspaceparasite.bomber_heavy.name=Ağır Bombacı
+entity.subspaceparasite.carrier_colony.name=Koloni Taşıyıcısı
+entity.subspaceparasite.wraith.name=Wraith
+entity.subspaceparasite.bogle.name=Bogle
+entity.subspaceparasite.haunter.name=Müdavim
+entity.subspaceparasite.succor.name=Yardım
+entity.subspaceparasite.seeker.name=Saklayıcı
+entity.subspaceparasite.architect.name=Yaratıcı
+
+entity.subspaceparasite.draconite.name=§9Ejderha
+
+entity.subspaceparasite.anc_dreadnaut.name=Antik Dreadnaut
+entity.subspaceparasite.anc_overlord.name=Antik Overlord
+entity.subspaceparasite.vigilante.name=İnfazcı
+entity.subspaceparasite.movingflesh.name=Yaşayan Et
+entity.subspaceparasite.tendril.name=Kol
+entity.subspaceparasite.anc_pod.name=Bomba
+entity.subspaceparasite.biomass.name=Biyokütle
+entity.subspaceparasite.gore.name=Vahşet
+
+entity.subspaceparasite.ada_longarms.name=Adapte Longarms
+entity.subspaceparasite.ada_summoner.name=Adapte Summoner
+entity.subspaceparasite.ada_manducater.name=Adapte Manducater
+entity.subspaceparasite.ada_reeker.name=Adapte Reeker
+entity.subspaceparasite.ada_yelloweye.name=Adapte Yelloweye
+entity.subspaceparasite.ada_bolster.name=Adapte Bolster
+entity.subspaceparasite.ada_arachnida.name=Adapte Arachnida
+
+entity.subspaceparasite.wave.name=Dalga
+entity.subspaceparasite.waveshock.name=Dalga Şoku
+
+entity.subspaceparasite.remain.name=Kalıntı
+//Creative Tab
+
+itemGroup.Scape & Run: Parasites=Scape and Run : Parazitler
+
+//Items
+item.subspaceparasite.itemmobspawner_pod.name=Pod Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_host.name=Konak Oluşturucusu
+item.subspaceparasite.itemmobspawner_hostii.name=Sürü Oluşturucusu
+item.subspaceparasite.itemmobspawner_heed.name=Ehemmiyet Oluşturucusu
+item.subspaceparasite.itemmobspawner_cruxa.name=Temel Oluşturucusu
+item.subspaceparasite.itemmobspawner_mes.name=Esaret Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_infbear.name=Asimile Ayı Oluşturucusu
+item.subspaceparasite.itemmobspawner_infsquid.name=Asimile Mürekkep Balığı Oluşturucusu
+item.subspaceparasite.itemmobspawner_infenderman.name=Asimile Enderman Oluşturucusu 
+item.subspaceparasite.itemmobspawner_infendermanhead.name=Yürüyen Enderman Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infplayer.name=Asimile Maceracı Oluşturucusu
+item.subspaceparasite.itemmobspawner_infplayerhead.name=Yürüyen Asimile Maceracı Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_dorpa.name=Asimile Dev Örümcek Oluşturucusu
+item.subspaceparasite.itemmobspawner_infhuman.name=Asimile İnsan Oluşturucusu
+item.subspaceparasite.itemmobspawner_infhumanhead.name=Yürüyen Asimile İnsan Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infvillager.name=Asimile Köylü Oluşturucusu
+item.subspaceparasite.itemmobspawner_infvillagerhead.name=Yürüyen Asimile Köylü Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infcow.name=Asimile İnek Oluşturucusu
+item.subspaceparasite.itemmobspawner_infcowhead.name=Yürüyen Asimile İnek Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infpig.name=Asimile Domuz Oluşturucusu
+item.subspaceparasite.itemmobspawner_infpighead.name=Yürüyen Asimile Domuz Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infsheep.name=Asimile Koyun Oluşturucusu
+item.subspaceparasite.itemmobspawner_infsheephead.name=Yürüyen Asimile Koyun Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infwolf.name=Asimile Kurt Oluşturucusu
+item.subspaceparasite.itemmobspawner_infwolfhead.name=Yürüyen Asimile Kurt Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infhorse.name=Asimile At Oluşturucusu
+item.subspaceparasite.itemmobspawner_infhorsehead.name=Yürüyen Asimile At Kafası Oluşturucusu
+item.subspaceparasite.itemmobspawner_inhoos.name=Eksik Form Oluşturucusu
+item.subspaceparasite.itemmobspawner_inhoom.name=Eksik Form Oluşturucusu
+item.subspaceparasite.itemmobspawner_infdragone.name=Asimile Ender Ejderhası Oluşturucusu
+item.subspaceparasite.itemmobspawner_infdragonehead.name=Yürüyen Asimile Ender Ejderhası Kafası Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_fercow.name=Vahşi İnek Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferbear.name=Vahşi Ayı Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferenderman.name=Vahşi Enderman Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferhuman.name=Vahşi İnsan Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferhorse.name=Vahşi At Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferpig.name=Vahşi Domuz Oluşturucusu
+item.subspaceparasite.itemmobspawner_fersheep.name=Vahşi Koyun Oluşturucusu
+item.subspaceparasite.itemmobspawner_fervillager.name=Vahşi Köylü Oluşturucusu
+item.subspaceparasite.itemmobspawner_ferwolf.name=Vahşi Kurt Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_hiblaze.name=Ele Geçirilmiş Alaz Oluşturucusu
+item.subspaceparasite.itemmobspawner_higolem.name=Ele Geçirilmiş Demir Golem Oluşturucusu
+item.subspaceparasite.itemmobspawner_hiskeleton.name=Ele Geçirilmiş İskelet Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_alafha.name=Müfettiş Oluşturucusu
+item.subspaceparasite.itemmobspawner_omboo.name=Hafif Bombacı Oluşturucusu
+item.subspaceparasite.itemmobspawner_rathol.name=Ağır Taşıyıcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_gothol.name=Hafif Taşıyıcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_buthol.name=Uçan Taşıyıcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_lodo.name=Buglin Oluşturucusu
+item.subspaceparasite.itemmobspawner_nuuh.name=Mengene Oluşturucusu
+item.subspaceparasite.itemmobspawner_ata.name=Gnat Oluşturucusu
+item.subspaceparasite.itemmobspawner_worker.name=İşçi Oluşturucusu
+item.subspaceparasite.itemmobspawner_mudo.name=Yırtıcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_venkrol.name=Beckon Aşama I Oluşturucusu
+item.subspaceparasite.itemmobspawner_venkrolsii.name=Beckon Aşama II Oluşturucusu
+item.subspaceparasite.itemmobspawner_venkrolsiii.name=Beckon Aşama III Oluşturucusu
+item.subspaceparasite.itemmobspawner_venkrolsiv.name=Beckon Aşama IV Oluşturucusu
+item.subspaceparasite.itemmobspawner_venkrolsv.name=Beckon Aşama V Oluşturucusu
+item.subspaceparasite.itemmobspawner_ganro.name=Bekçi Oluşturucusu
+item.subspaceparasite.itemmobspawner_esor.name=Yağmacı Oluşturucusu
+item.subspaceparasite.itemmobspawner_orch.name=Monarşi Oluşturucsu
+item.subspaceparasite.itemmobspawner_flog.name=Hırıltı Oluşturucusu
+item.subspaceparasite.itemmobspawner_unvo.name=Sentry Oluşturucusu 
+item.subspaceparasite.itemmobspawner_tonro.name=Kambur Oluşturucusu
+item.subspaceparasite.itemmobspawner_dod.name=Dispatcher Aşama I Oluşturucusu
+item.subspaceparasite.itemmobspawner_dodsii.name=Dispatcher Aşama II Oluşturucusu
+item.subspaceparasite.itemmobspawner_dodsiii.name=Dispatcher Aşama III Oluşturucusu
+item.subspaceparasite.itemmobspawner_dodsiv.name=Dispatcher Aşama IV Oluşturucusu
+item.subspaceparasite.itemmobspawner_nak.name=Seizer Oluşturcusu
+
+item.subspaceparasite.itemmobspawner_jinjo.name=Ağır Bombacı Oluşturucusu
+item.subspaceparasite.itemmobspawner_vesta.name=Koloni Taşıyıcısı Oluşturucusu
+item.subspaceparasite.itemmobspawner_elvia.name=Wraith Oluşturucusu
+item.subspaceparasite.itemmobspawner_lencia.name=Bogle Oluşturucusu
+item.subspaceparasite.itemmobspawner_pheon.name=Müdavim Oluşturucusu
+item.subspaceparasite.itemmobspawner_flam.name=Yardım Oluşturucusu
+item.subspaceparasite.itemmobspawner_soo.name=Saklayıcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_tenn.name=Yaratıcı Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_heblu.name=Ejderha Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_oronco.name=Antik Dreadnaut Oluşturucusu
+item.subspaceparasite.itemmobspawner_terla.name= Antik Overlord Oluşturucusu
+item.subspaceparasite.itemmobspawner_anged.name=İnfazcı Oluşturucusu
+item.subspaceparasite.itemmobspawner_lesh.name=Yaşayan Et Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_shyco.name=İlkel Longarms Oluşturucusu
+item.subspaceparasite.itemmobspawner_hull.name=İlkel  Manducater Oluşturucusu
+item.subspaceparasite.itemmobspawner_canra.name=İlkel  Summoner Oluşturucusu
+item.subspaceparasite.itemmobspawner_emana.name=İlkel  Yelloweye Oluşturucusu
+item.subspaceparasite.itemmobspawner_nogla.name=İlkel  Reeker Oluşturucusu
+item.subspaceparasite.itemmobspawner_bano.name=İlkel  Bolster Oluşturucusu 
+item.subspaceparasite.itemmobspawner_ranrac.name=İlkel  Arachnida Oluşturucusu
+item.subspaceparasite.itemmobspawner_lum.name=İlkel  Devourer Oluşturucusu
+item.subspaceparasite.itemmobspawner_iki.name=İlkel  Vermin Oluşturucusu
+item.subspaceparasite.itemmobspawner_wymo.name=İlkel Tozoon  Oluşturucusu
+
+item.subspaceparasite.itemmobspawner_shycoadapted.name=Adapte Longarms Oluşturucusu
+item.subspaceparasite.itemmobspawner_canraadapted.name=Adapte Summoner Oluşturucusu
+item.subspaceparasite.itemmobspawner_noglaadapted.name=Adapte Reeker Oluşturucusu
+item.subspaceparasite.itemmobspawner_hulladapted.name=Adapte Manducater Oluşturucusu
+item.subspaceparasite.itemmobspawner_emanaadapted.name=Adapte Yelloweye Oluşturucusu
+item.subspaceparasite.itemmobspawner_banoadapted.name=Adapte Bolster Oluşturucusu
+item.subspaceparasite.itemmobspawner_ranracadapted.name=Adapte Arachnida Oluşturucusu
+
+item.subspaceparasite.itemthrow.name=§6Quench
+item.subspaceparasite.itemtab.name=§dNULL
+item.subspaceparasite.itemevolve.name=Evrim Değneği
+item.subspaceparasite.itemassimilate.name=Asimilasyon Değneği
+item.subspaceparasite.itemdevolve.name=Geri Evrim Değneği
+item.subspaceparasite.itemvariant.name=Varyant Değneği
+item.subspaceparasite.evclock.name=§cKanlı Saat
+item.subspaceparasite.weapon_scythe.name=§Yaşayan Tırpan
+item.subspaceparasite.weapon_scythe_sentient.name=§6Yaşayan Dev Tırpan
+item.subspaceparasite.weapon_bow.name=§eYaşayan Yay
+item.subspaceparasite.weapon_bow_sentient.name=§6Yaşayan Dev Yay
+item.subspaceparasite.weapon_axe.name=§eYaşayan Balta
+item.subspaceparasite.weapon_axe_sentient.name=§6Yaşayan Dev Balta
+item.subspaceparasite.weapon_sword.name=§eYaşayan Kılıç
+item.subspaceparasite.weapon_sword_sentient.name=§6Yaşayan Dev Kılıç
+item.subspaceparasite.weapon_cleaver.name=§eYaşayan Satır
+item.subspaceparasite.weapon_cleaver_sentient.name=§6Yaşayan Dev Satır
+
+item.subspaceparasite.armor_helm.name=§eYaşayan Dümen
+item.subspaceparasite.armor_chest.name=§eYaşayan Göğüslük
+item.subspaceparasite.armor_pants.name=§eYaşayan Pantalon
+item.subspaceparasite.armor_boots.name=§eYaşayan Botlar
+item.subspaceparasite.armor_helm_sentient.name=§6Duyarlı Dümen
+item.subspaceparasite.armor_chest_sentient.name=§6Duyarlı Göğüslük
+item.subspaceparasite.armor_pants_sentient.name=§6Duyarlı Pantalon
+item.subspaceparasite.armor_boots_sentient.name=§6Duyarlı Botlar
+
+//////
+item.subspaceparasite.bow_upperlimb.name=§6Yaşayan Dev Yay Üst Uzvu
+item.subspaceparasite.bow_lowerlimb.name=§6Yaşayan Dev Yay Alt Uzvu
+item.subspaceparasite.bow_string.name=§6Yaşayan Dev Yay İpi
+item.subspaceparasite.bow_grip.name=§6Yaşayan Dev Yay Sapı
+item.subspaceparasite.bow_core.name=§6Yaşayan Dev Yay Merkezi
+
+item.subspaceparasite.scythe_back.name=§6Yaşayan Tırpan Arkası
+item.subspaceparasite.scythe_blade.name=§6Yaşayan Tırpan Ağzı
+item.subspaceparasite.scythe_core.name=§6Yaşayan Tırpan Merkezi
+item.subspaceparasite.scythe_handle.name=§6Yaşayan Tırpan Kolu
+item.subspaceparasite.scythe_head.name=§6Yaşayan Tırpan Üstü
+///////
+
+item.subspaceparasite.dried_tendons.name=§eKuru Tendon
+item.subspaceparasite.hardened_bone_handle.name=§eSert Kemik
+item.subspaceparasite.infectious_blade_fragment.name=§eEnfeksiyonlu Bıçak Ağzı
+item.subspaceparasite.living_core.name=§eYaşayan Merkez
+item.subspaceparasite.vile_shell.name=§eKabuk
+item.subspaceparasite.bone.name=§eİlginç Kemik
+
+
+item.subspaceparasite.ada_longarms_drop.name=§bLongarm Zırhı Parçaları
+item.subspaceparasite.ada_summoner_drop.name=§bSummoner Merkezi
+item.subspaceparasite.ada_yelloweye_drop.name=§bYelloweye Kemiği
+item.subspaceparasite.ada_reeker_drop.name=§bReeker Dişi
+item.subspaceparasite.ada_manducater_drop.name=§bManducater Küresi
+item.subspaceparasite.ada_bolster_drop.name=§bBolster Kabuğu
+item.subspaceparasite.ada_arachnida_drop.name=§bArachnida Pençesi
+item.subspaceparasite.ada_devourer_drop.name=§bDevourer Dokunacı
+
+item.subspaceparasite.assimilated_flesh.name=Asimile Eti
+item.subspaceparasite.beckon_drop.name=§aBeckon Zarı
+item.subspaceparasite.dispatcher_drop.name=§cDispatcher Zarı
+
+item.subspaceparasite.lurecomponent1.name=§bYırtıcı İç Organı
+item.subspaceparasite.lurecomponent2.name=§bHastalıklı Kalp
+item.subspaceparasite.lurecomponent3.name=§bDeğişmiş Tendonlar
+item.subspaceparasite.lurecomponent4.name=§bToksik Akciğer
+item.subspaceparasite.lurecomponent5.name=§bZararlı Beğin
+item.subspaceparasite.lurecomponent6.name=§bTemel Parça
+item.subspaceparasite.nodecompass.name=§4Node Pusulası
+
+//Blocks
+
+tile.subspaceparasite.parasitesapling_tree.name=Veinwood Fidanı
+tile.subspaceparasite.parasitesapling_treethin.name=Eyesore Fidanı
+tile.subspaceparasite.parasitesapling_flowertall.name=Darkwood Fidanı
+
+tile.subspaceparasite.parasitebush_tendril.name=Kılcal Damar
+tile.subspaceparasite.parasitebush_pop.name=Parasitik Kese
+tile.subspaceparasite.parasitebush_bine.name=Sinir Halkası
+tile.subspaceparasite.parasitebush_eye.name=Sıcak Körüğü
+tile.subspaceparasite.parasitebush_tooh.name=Küçük Kesici
+
+tile.subspaceparasite.infestedore_co.name=Zararlı Kömür Madeni
+tile.subspaceparasite.infestedore_dia.name=Zararlı Elmas Madeni
+tile.subspaceparasite.infestedore_eme.name=Zararlı Zümrüt Madeni
+tile.subspaceparasite.infestedore_gol.name=Zararlı Altın Madeni
+tile.subspaceparasite.infestedore_iro.name=Zararlı Demir Madeni
+tile.subspaceparasite.infestedore_lap.name=Zararlı Lapis Madeni
+tile.subspaceparasite.infestedore_red.name=Zararlı Redstone Madeni
+tile.subspaceparasite.infestedore_un.name= Zararlı Maden
+
+tile.subspaceparasite.subspaceparasiteweb_one.name=§8Kısa Ağ
+tile.subspaceparasite.subspaceparasiteweb_two.name=§aTehlikeli Ağ
+tile.subspaceparasite.subspaceparasiteweb_three.name=§8Kara Ağ
+tile.subspaceparasite.tunnel.name=Buglin Tüneli
+tile.subspaceparasite.dispatchern.name=§cDispatcher Yuvası
+tile.subspaceparasite.biomeheart.name=Hive Merkezi
+tile.subspaceparasite.colonyheart.name=Parazitik Koloni Kalbi
+tile.subspaceparasite.colonyoutpost.name=Parazitik Koloni Kabuğu
+tile.subspaceparasite.biomepurifier.name=§bBiyom Temizleyici
+tile.subspaceparasite.parasitestructure.name=Tamamlanmamış Koloni Yapısı
+tile.subspaceparasite.parasitethin.name=Parazitik Odun
+tile.subspaceparasite.parasitemouth.name=Ağız
+tile.subspaceparasite.parasitetendril.name=Parazitik Filiz
+tile.subspaceparasite.parasitefog.name=Sisli
+
+tile.subspaceparasite.gore_sim_small.name=Asimile Kalıntısı
+tile.subspaceparasite.gore_sim_big.name=Asimile Kalıntısı
+tile.subspaceparasite.gore_sim_flat.name=Asimile Kalıntısı
+tile.subspaceparasite.gore_pri_small.name=İlkel Kalıntısı
+tile.subspaceparasite.gore_pri_big.name=İlkel Kalıntısı
+tile.subspaceparasite.gore_pri_flat.name=İlkel Kalıntısı
+tile.subspaceparasite.gore_ada_small.name=Adapte Kalıntısı
+tile.subspaceparasite.gore_ada_big.name=Adapte Kalıntısı
+tile.subspaceparasite.gore_ada_flat.name=Adapte Kalıntısı
+tile.subspaceparasite.gore_pure_small.name=Saf Kalıntısı
+tile.subspaceparasite.gore_pure_big.name=Saf Kalıntısı
+tile.subspaceparasite.gore_pure_flat.name=Saf Kalıntısı
+
+tile.subspaceparasite.infestedstain.name=Ele Geçirilmiş Toprak
+tile.subspaceparasite.infestedtrunk.name=Ele Geçirilmiş Odun
+tile.subspaceparasite.infestedrubble.name=Ele Geçirilmiş Taş
+tile.subspaceparasite.infestremain.name=Ele Geçirilmiş Kalıntı
+
+tile.subspaceparasite.infestedbush_infected.name=Ele Geçirilmiş Dikenler
+tile.subspaceparasite.infestedbush_grass1.name=Ele Geçirilmiş Dallar
+tile.subspaceparasite.infestedbush_flower1.name=Ele Geçirilmiş Filizler
+tile.subspaceparasite.infestedbush_spine.name=Ele Geçirilmiş Yaprak
+tile.subspaceparasite.infestedbush_vine.name=Ele Geçirilmiş Damar
+tile.subspaceparasite.infestedbush_arc.name=Ele Geçirilmiş Damar Kökleri
+
+tile.subspaceparasite.parasitecanister_sac.name=§aMesane Kesesi
+tile.subspaceparasite.parasitecanister_cyst.name=Kist
+tile.subspaceparasite.canisteractive.name=Obur Kist
+tile.subspaceparasite.parasitecanister_lump.name=Absürt Topak
+tile.subspaceparasite.parasitecanister_bag.name=Et Kesesi
+
+tile.subspaceparasite.parasitetrunk_ball.name=Çürük Odun
+tile.subspaceparasite.parasitetrunk_tree.name=Damar Odunu
+tile.subspaceparasite.parasitetrunk_plant.name=Kara Odun
+
+tile.subspaceparasite.parasitestain_dirt.name=Hive Toprağı
+tile.subspaceparasite.parasitestain_mud.name=İlkel Çamur
+tile.subspaceparasite.parasitestain_flesh.name=Et Yığını
+tile.subspaceparasite.parasitestain_fleshstairs.name=Et Merdiven
+tile.subspaceparasite.parasitestain_feeler.name=Sıkıştırılmış Atardamar
+
+tile.subspaceparasite.parasiterubble_slabhalf.name=Sertleştirilmiş Kemik Basamak
+tile.subspaceparasite.parasiterubble_slabdouble.name=Sertleştirilmiş Kemik
+tile.subspaceparasite.parasiterubble_flesh.name=Sıkıştırılmış Et Yığını
+tile.subspaceparasite.parasiterubble_bone.name=Sertleştirilmiş Kemik
+tile.subspaceparasite.parasiterubble_bonestairs.name=Sertleştirilmiş Kemik Merdiven
+tile.subspaceparasite.parasiterubble_stone.name=Hive Taşı
+tile.subspaceparasite.parasiterubble_stonedebris.name=Hive Taşı Kalıntısı
+tile.subspaceparasite.parasiterubble_wood.name=Zararlı Odun
+tile.subspaceparasite.parasiterubble_bricks.name=Hive Tuğla
+tile.subspaceparasite.parasiterubble_metal.name=Hive Çeliği
+tile.subspaceparasite.parasiterubble_obsidian.name=Kanayan Obsidyen
+tile.subspaceparasite.parasiterubble_fungus.name=Asimile Mantar
+
+tile.subspaceparasite.parasiterubbledense_wall.name=Setleştirilmiş Hive Taşı
+tile.subspaceparasite.parasiterubbledense_biome.name=Güçlendirilmiş Hive Taşı
+tile.subspaceparasite.parasiterubbledense_colony.name=Parazitik Güçlendirilmiş Koloni Taşı
+
+tile.subspaceparasite.evolutionlure_one.name=Yem (§4Zayıf§f)
+tile.subspaceparasite.evolutionlure_two.name=Yem (§cBayık§f)
+tile.subspaceparasite.evolutionlure_three.name=Yem (§6Narin§f)
+tile.subspaceparasite.evolutionlure_four.name=Yem (§2Kararlı§f)
+tile.subspaceparasite.evolutionlure_five.name=Yem (§eÖnemli§f)
+tile.subspaceparasite.evolutionlure_six.name=Yem (§aYoğun§f)
+tile.subspaceparasite.evolutionlure_seven.name=Yem (§bYoğun+§f)
+tile.subspaceparasite.evolutionlure_eight.name=Yem (§dYoğun++§f)
+
+tile.subspaceparasite.bloodyice.name=Kanlı Buz
+
+//Fluids
+
+fluid.deadblood=Pis Kan
+
+//Effects
+
+mob_effect.subspaceparasite:coth=§4Hive'ın Çağrısı
+splash_potion.effect.subspaceparasite:coth=§4Hive'ın Çağrısı§4nın Sıçrama İksiri
+potion.effect.subspaceparasite:coth=§4Hive'ın Çağrısı§4nın İksiri
+lingering_potion.effect.subspaceparasite:coth=§4Hive'ın Çağrısı§4nın Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:coth=§4Hive'ın Çağrısı§4 Oku
+
+mob_effect.subspaceparasite:fear=§8Korku
+splash_potion.effect.subspaceparasite:fear=§8Korku§8 Sıçrama İksiri
+potion.effect.subspaceparasite:fear=§8Korku§8 İksiri
+lingering_potion.effect.subspaceparasite:fear=§8Korku§8 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:fear=§8Korku§8 Oku
+
+mob_effect.subspaceparasite:antimall=§7Anti Adaptasyon
+splash_potion.effect.subspaceparasite:antimall=§7Anti Adaptasyon§7 Sıçrama İksiri
+potion.effect.subspaceparasite:antimall=§7Anti Adaptasyon§7 İksiri
+lingering_potion.effect.subspaceparasite:antimall=§7Anti Adaptasyon§7 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:antimall=§7Anti Adaptasyon§7 Oku
+
+mob_effect.subspaceparasite:bleed=§4Kanama
+splash_potion.effect.subspaceparasite:bleed=§4Kanama§4 Sıçrama İksiri
+potion.effect.subspaceparasite:bleed=§4Kanama§4 İksiri
+lingering_potion.effect.subspaceparasite:bleed=§4Kanama§4 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:bleed=§4Kanama§4 Oku
+
+mob_effect.subspaceparasite:corrosive=§6Aşınma
+splash_potion.effect.subspaceparasite:corrosive=§6Aşınma§f Sıçrama İksiri
+potion.effect.subspaceparasite:corrosive=§6Aşınma§6 İksiri
+lingering_potion.effect.subspaceparasite:corrosive=§6Aşınma§6 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:corrosive=§6Aşınma§6 Oku
+
+mob_effect.subspaceparasite:viral=§aViral
+splash_potion.effect.subspaceparasite:viral=§aViral§f Sıçrama İksiri
+potion.effect.subspaceparasite:viral=§aViral§a İksiri
+lingering_potion.effect.subspaceparasite:viral=§aViral§a Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:viral=§aViral§a Oku
+
+mob_effect.subspaceparasite:rage=§cÖfke§c
+splash_potion.effect.subspaceparasite:rage=§cÖfke§f Sıçrama İksiri
+potion.effect.subspaceparasite:rage=§cÖfke§c İksiri
+lingering_potion.effect.subspaceparasite:rage=§cÖfke§c Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:rage=§cÖfke§c Oku
+
+mob_effect.subspaceparasite:repel=§2Kamuflaj
+splash_potion.effect.subspaceparasite:repel=§2Kamuflaj§2 Sıçrama İksiri
+potion.effect.subspaceparasite:repel=§2Kamuflaj§2 İksiri
+lingering_potion.effect.subspaceparasite:repel=§2Kamuflaj§2 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:repel=§2Kamuflaj§2 Oku
+
+mob_effect.subspaceparasite:senses=§3Daha Uzağı Görmek
+splash_potion.effect.subspaceparasite:senses=§3Daha Uzağı Görme§3 Sıçrama İksiri
+potion.effect.subspaceparasite:senses=§3Daha Uzağı Görme§3 İksiri
+lingering_potion.effect.subspaceparasite:senses=§3Daha Uzağı Görme§3 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:senses=§3Daha Uzağı Görme§3 Oku
+
+mob_effect.subspaceparasite:debar=§7Mahrum
+splash_potion.effect.subspaceparasite:debar=§7Mahrum§7 Sıçrama İksiri
+potion.effect.subspaceparasite:debar=§7Mahrum§7 İksiri
+lingering_potion.effect.subspaceparasite:debar=§7Mahrum§7 Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:debar=§7Mahrum§7 Oku
+
+mob_effect.subspaceparasite:needler=§6Needler
+splash_potion.effect.subspaceparasite:needler=Splash Potion of §6Needler
+potion.effect.subspaceparasite:needler=Potion of §6Needler
+lingering_potion.effect.subspaceparasite:needler=Lingering Potion of §6Needler
+tipped_arrow.effect.subspaceparasite:needler=Arrow of §6Needler
+
+mob_effect.subspaceparasite:link=§aBağlılık
+splash_potion.effect.subspaceparasite:link=§aBağlılık§a Sıçrama İksiri
+potion.effect.subspaceparasite:link=§aBağlılık§a İksiri
+lingering_potion.effect.subspaceparasite:link=§aBağlılık§a Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:link=§aBağlılık§a Oku
+
+mob_effect.subspaceparasite:foster=§eAdaptasyon Artışı
+splash_potion.effect.subspaceparasite:foster=§eAdaptasyon Artışı§e Sıçrama İksiri
+potion.effect.subspaceparasite:foster=§eAdaptasyon Artışı§e İksiri
+lingering_potion.effect.subspaceparasite:foster=§eAdaptasyon Artışı§e Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:foster=§eAdaptasyon Artışı§e Oku
+
+mob_effect.subspaceparasite:prey=§eTalan
+splash_potion.effect.subspaceparasite:prey=§eTalan§e Sıçrama İksiri
+potion.effect.subspaceparasite:prey=§eTalan§e İksiri
+lingering_potion.effect.subspaceparasite:prey=§eTalan§e Kalıcı İksiri
+tipped_arrow.effect.subspaceparasite:prey=§eTalan§e Oku
+
+//extra
+
+message.subspaceparasite.lureb=Puanlar duraklatıldı!
+message.subspaceparasite.lurec=Puanlar azaltıldı!
+message.subspaceparasite.fearitem=Panikliyorsun!
+message.subspaceparasite.fearblock=Panikliyorsun!
+message.subspaceparasite.feargui=Panikliyorsun!
+message.subspaceparasite.evolutionsleep=Şu anda uyuyamazsın...
+message.subspaceparasite.armortooltips1=Şuan ki adaptasyon
+
+tootip.subspaceparasite.quench=§fDoymuş magma kremasından yapılmış sıcak, şekillendirilebilir bir madde. Yüksek konsantrasyonda alev tozu, onu parazit maddelere karşı inanılmaz derecede toksik hale getirecektir.
+
+tootip.subspaceparasite.lurecomp.1=§fBir §7Rupter'nın iç kısımlarının parçaları.§cYem §fbileşeni.
+tootip.subspaceparasite.lurecomp.2=§fBir §4asimile yaratıktan düşen hastalıklı kalp, §cYem §fbileşeni.
+tootip.subspaceparasite.lurecomp.3=§fLeş gibi koku yayan §cİlkel bir §fparazitin gövdesinden toplanan kas parçaları.§cYem§fBileşeni.
+tootip.subspaceparasite.lurecomp.4=§f§6Uyarlanmış §4Parazit gövdesinden alınan ve gelişmiş bir akciğer.§cYem §fBileşeni.
+tootip.subspaceparasite.lurecomp.5=§fBir §eSaf §fParazit gövdesinden toplanan vegelişmiş bir beyin. §cYem §fBileşeni.
+tootip.subspaceparasite.lurecomp.6=§fParazit biyomunda asılı olan keselerden toplanan omurga benzeri cisim.§cYem §fBileşeni.
+
+tootip.subspaceparasite.item.1=§4Summoner'ın§f bedeninden toplanmış, enerji yayıyormuş gibi görünen küçük bir küre.§6Silah malzemesi.
+tootip.subspaceparasite.item.2=§eYelloweye§f  gövdesinden alınmış sağlam kemik.§6Silah malzemesi.
+tootip.subspaceparasite.item.3=§6Manducater §fbedeninden toplanmış, enerji yayıyor gibi görünen küçük bir küre.§6Silah malzemesi.
+tootip.subspaceparasite.item.4=§6Reeker §fcesedinden §8alınmış korkunç derecede keskin bir diş.§6Silah malzemesi.
+tootip.subspaceparasite.item.5=§6Longarms §fgövdesinden toplanan hafif ama dayanıklı bir zırh parçası.§6Silah malzemesi.
+tootip.subspaceparasite.item.6=Bir §cAsimile §fYaratığın §cet parçası§f Temel bir crafting malzemesi.
+tootip.subspaceparasite.item.7=
+tootip.subspaceparasite.item.8=Parazitlerin vücut parçalarından üretilen elastik bir malzeme.§6Silah malzemesi.
+tootip.subspaceparasite.item.9=Parazitlerin vücut parçalarından yapılmış bir bıçak ağzı parçası§6Silah malzemesi
+tootip.subspaceparasite.item.10=Bu nesnede henüz yaşam alevi parlamadı.Tüm §6silahları§f besleyen çekirdek.
+tootip.subspaceparasite.item.11=Parazitin vücut parçalarından üretilen son derece dayanıklı bir kabuk.§6Silah malzemesi.
+tootip.subspaceparasite.item.12=Parazitlerin vücut kısımlarından üretilen, kemiklerden oluşan özellikle kalın bir sap.§6Silah malzemesi.
+tootip.subspaceparasite.item.13=Günlük hayatta göremeyeceğin ilginç bir kemik...
+
+tootip.subspaceparasite.item.20=Bir §7Bolster §f cesedinden alınan kuru deri parçası.
+tootip.subspaceparasite.item.21=Bir §7Arachnida §f cesedinden alınmış korkunç derecede keskin pençeler.
+tootip.subspaceparasite.item.22=§7Devourer §fcesedinden alınmık kemikli bir dokunaç.
+tootip.subspaceparasite.item.23=§aBeckon§f vüdudundan düşen parça.
+tootip.subspaceparasite.item.24=§4Dispatcher§f vücudundan düşen parça.
+
+tootip.subspaceparasite.item.25=Bir paraziti onu §aevrimleştirmek§f için hedef al.
+tootip.subspaceparasite.item.28=Bir yaratığı §4enfekte§f etmek için hedef al.
+tootip.subspaceparasite.item.26=Bir paraziti §cgeri evrimleştirmek§c için hedef al.
+tootip.subspaceparasite.item.27=Bir paraziti onun §evaryantını§f değiştirmek için hedef al.
+
+tootip.subspaceparasite.item.18=Saatten kan damlarken korkunç geceye doğru ilerlemektedir.
+
+tootip.subspaceparasite.weaponm.1=Çeşitli Parazitlerin vücut parçalarının bir Silah oluşturacak şekilde yeniden şekillendirilmesinin sonucu. İçinde hayat ateşi parlıyor.
+tootip.subspaceparasite.weaponm.2=§fYaşayan Tırpan'ın Sonraki Evrimi. Bir §bAkıl§f kazandı.
+tootip.subspaceparasite.weaponm.3=§fÇeşitli Parazitlerin vücut parçalarının bir Silah oluşturacak şekilde yeniden şekillendirilmesinin sonucu. İçinde hayat ateşi parlıyor.
+tootip.subspaceparasite.weaponm.4=§fYaşayan Baltanın Gizli Evrimi. Bir §bAkıl§f kazandı.
+tootip.subspaceparasite.weaponm.5=§f Çeşitli Parazitlerin vücut parçalarının bir Silah oluşturacak şekilde yeniden şekillendirilmesinin sonucu. İçinde hayat ateşi parlıyor.
+tootip.subspaceparasite.weaponm.6=§fYaşayan Kılıcın Sonraki Evrimi. Bir §bAkıl§f kazandı.
+tootip.subspaceparasite.weaponm.7=§f Çeşitli Parazitlerin vücut parçalarının bir Silah oluşturacak şekilde yeniden şekillendirilmesinin sonucu. İçinde hayat ateşi parlıyor.
+tootip.subspaceparasite.weaponm.8=§fYaşayan Satırın Gizli Evrimi. Bir §bAkıl§f kazandı.
+
+tootip.subspaceparasite.weaponm.10=§cGeniş bir alanı siler.
+tootip.subspaceparasite.weaponm.20=§cGeniş bir alanı siler.
+tootip.subspaceparasite.weaponm.30=§fZırhı sonsuza kadar §nedensiz hale getirir.
+tootip.subspaceparasite.weaponm.40=§fZırhı sonsuza kadar §nedensiz hale getirir.
+tootip.subspaceparasite.weaponm.50=§4Kritik§f yaralanmalara neden olur.
+tootip.subspaceparasite.weaponm.60=§4Kritik§f yaralanmalara neden olur.
+tootip.subspaceparasite.weaponm.70=§fŞiddetli §fsaldırılara saldırır.
+tootip.subspaceparasite.weaponm.80=§fŞiddetli §fsaldırılara saldırır.
+
+tootip.subspaceparasite.weaponm.100=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.200=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.300=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.400=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.500=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.600=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.700=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponm.800=Artık Saklanamazsın...
+
+tootip.subspaceparasite.weaponr.1=§fParazitlerin çeşitli vücut parçalarının bir §6Silah§f oluşturacak şekilde yeniden şekillendirilmesinin sonucu. İçinde hayat ateşi parlıyor.
+tootip.subspaceparasite.weaponr.2=§fYaşayan Yay'ın Sonraki Evrimi. Bir §bAkıl§f kazandı.
+tootip.subspaceparasite.weaponr.10=O okları tutmaya devam et!
+tootip.subspaceparasite.weaponr.20=O okları tutmaya devam et!
+
+tootip.subspaceparasite.weaponr.100=Artık Saklanamazsın...
+tootip.subspaceparasite.weaponr.200=Artık Saklanamazsın...
+
+tooltip.tile.subspaceparasite.evolutionlure=Şu kadar saniye %(   )kadar puanlar durduralaktır.
+
+//subtitles
+
+subtitles.devourerliving=İlkel Deveourer Hırlıyor
+subtitles.devourerhurt=İlker Deveourer Acı Çekiyor
+subtitles.devourerdeath=İlker Deveourer Öldü
+subtitles.assimhumanliving=Haykırış
+subtitles.assimhumanhurt=Birşey acı çekiyor...
+subtitles.assimhumandeath=Ölüm Haykırışı
+subtitles.assimpigliving=Çarpık domuz sesleri
+subtitles.assimpighurt=Domuz acı çekiyor.
+subtitles.assimpigdeath=Domuz Öldü.
+subtitles.assimhorseliving=İnildemeler
+subtitles.assimhorsecharge=At Fırlıyor
+subtitles.assimhorsehurt=At Acı Çekiyor
+subtitles.assimhorsedeath=At Öldü.
+subtitles.assimspiderliving=Böcek tıslıyor.
+subtitles.assimspidersteps=Böcek hareket etti
+subtitles.assimspiderdeath=Böcek öldü
+subtitles.headliving=Yürüyen Asimile Kafası Çığlık atıyor
+subtitles.headhurt=Yürüyen Asimile Kafası Acı çekiyor
+subtitles.headdeath=Yürüyen Asimile Kafası Öldü
+subtitles.buglinliving=Buglin tıslıyor...
+subtitles.buglinhurt=Buglin eziliyor.
+subtitles.buglindeath=Buglin ezilerek öldü.
+subtitles.rupterliving=Yırtıcı bağrıyor.
+subtitles.rupterhurt=Yırtıcı acı çekti.
+subtitles.rupterdies=Yırtıcı öldü.
+subtitles.rupterinfects=Yırtıcı paraziti yayıyor.
+subtitles.wardenliving=Bekçi Hırlıyor
+subtitles.wardenhurt=Bekçi Acı Çekiyor.
+subtitles.wardendeath=Bekçi öldü.
+subtitles.adaarachliving=Adapte Arachnida Hırlıyor.
+subtitles.adaarachhurt=Adapte Arachnida Acı çekiyor.
+subtitles.adaarachdeath=Adapte Arachnida öldü.
+subtitles.assimcowliving=İnek möölüyor.
+subtitles.assimcowhurt=İnek Acı çekiyor.
+subtitles.assimcowdeath=Asimile İnek Öldü
+subtitles.assimsheepliving=Koyun sesleri
+subtitles.assimsheephurt=Koyun acı çekiyor.
+subtitles.assimsheepdeath=Koyun Öldü.
+subtitles.assimwolfliving=Çarpık havlama
+subtitles.assimwolfhurt=Kurt Acı çekiyor.
+subtitles.assimwolfdeath=Kurt öldü
+subtitles.assimbearliving=Ayı gırlıyor.
+subtitles.assimbearhurt=Ayı acı çekiyor.
+subtitles.assimbeardeath=Ayı bağırıyor
+subtitles.simmermanliving=Birşeyler ses çıkarıyor...
+subtitles.simmermanhurt=Çarpık acı çekme sesleri...
+subtitles.simmermanteleports=Çarpık Teleportasyon Sesleri...
+subtitles.simmermandeath=Enderman öldü
+subtitles.infectedfleshmelt=Yaratık ezilip ete dönüşüyor!
+subtitles.adasummonerliving=Adapte Summoner Bağırıyor
+subtitles.adasummonerhurt=Adapte Summoner Çığlık Atıyor!
+subtitles.adasummonerdeath=Adapte Summoner Öldü
+subtitles.adasummonersummon=Summoner yaratık çağrıyor!!
+subtitles.adayelloweyeliving=Adapte Yelloweye Hırıldıyor
+subtitles.adayelloweyehurt=Adapte Yelloweye Acı Çekiyor
+subtitles.adayelloweyedeath=Adapte Yelloweye Öldü.
+subtitles.adayelloweyeshoot=Adapte Yelloweye Tükürüyor
+subtitles.adareekerliving=Adapte Reeker Bağırıyor
+subtitles.adareekerhurt=Adapte Reeker Acı Çekiyor
+subtitles.adareekerdeath=Adapte Reeker Öldü
+subtitles.adamanduliving=Adapte Manducator Tıslıyor
+subtitles.adamanduhurt=Adapted Manducator Bağırdı
+subtitles.adamandudeath=Adapte Manducator Öldü
+subtitles.vigiliving=İnfazcı İnildiyor.
+subtitles.vigihurt=İnfazcı Acı Çekiyor.
+subtitles.vigideath=İnfazcı Öldü
+subtitles.bogleliving=Salya Küpürdüyor
+subtitles.boglehurt=İnilti
+subtitles.bogledeath=Birşey(ler) yok oldu
+subtitles.hostliving=Konak Ses Çıkarıyor
+subtitles.hosthurt=Konak Acı çekiyor
+subtitles.hostdeath=Konak Öldü
+subtitles.hostmerge=İnleme
+subtitles.adamaducamo=none
+subtitles.adavomit=Yaratık Kusuyor.
+subtitles.flesh=Et geziniyor.
+subtitles.sentryliving=Sentry Bağırıyor
+subtitles.sentryhurt=Sentry hırıldıyor.
+subtitles.sentrydeath=Sentry öldü.
+subtitles.beckonliving=Beckon fısıldıyor.
+subtitles.beckonhurt=Beckon Tıslıyor
+subtitles.beckondeath=Beckon ağlıyor.
+subtitles.beckonbell=Bell tolls
+subtitles.mobexplodes=Yaratık İmha Oldu
+subtitles.mobswipe=Yaratık Savuruyor.
+subtitles.moblands=Yaratık Devrildi
+subtitles.cysteats=Eşya Ezildi
+subtitles.adaptationpart=Parazit Adapte Oluyor
+subtitles.adaptationfull=Parazit Adapte Oldu
+subtitles.biomeheart=§cNode Kalbi Atıyor.............

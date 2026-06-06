@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "subspaceparasite:block/infuser_furnace_side",
+    "up": "subspaceparasite:block/infuser_furnace_top",
+    "down": "subspaceparasite:block/infuser_furnace_bottom",
+    "north": "subspaceparasite:block/infuser_furnace_front",
+    "south": "subspaceparasite:block/infuser_furnace_side",
+    "west": "subspaceparasite:block/infuser_furnace_side",
+    "east": "subspaceparasite:block/infuser_furnace_side"
+  }
+}

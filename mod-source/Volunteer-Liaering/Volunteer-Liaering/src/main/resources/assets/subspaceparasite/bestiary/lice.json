@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:lice",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.lice.name",
+  "lore_key": "lore.subspaceparasite.lice",
+  "render_scale": 0.5,
+  "minlorekill": 5,
+  "minstatkill": 5,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "subspaceparasite:itemtab"
+    },
+    "title": {
+      "translate": "advancements.subspaceparasite.root.title"
+    },
+    "description": {
+      "translate": "advancements.subspaceparasite.root.description"
+    },
+    "background": "subspaceparasite:textures/gui/advancement_wallpaper.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

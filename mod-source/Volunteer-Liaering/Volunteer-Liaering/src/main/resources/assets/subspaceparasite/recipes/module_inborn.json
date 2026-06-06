@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "XMX",
+    " X "
+  ],
+  "key": {
+    "X": {
+      "item": "subspaceparasite:lurecomponent1"
+    },
+    "M": {
+      "item": "subspaceparasite:module_base"
+    }
+  },
+  "result": {
+    "item": "subspaceparasite:module_inborn",
+    "data": 0,
+    "count": 1
+  }
+}

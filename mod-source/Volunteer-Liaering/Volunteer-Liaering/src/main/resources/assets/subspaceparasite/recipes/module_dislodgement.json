@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RPR",
+    "PCP",
+    "RPR"
+  ],
+  "key": {
+    "R": { "item": "subspaceparasite:hive_scrap" },
+    "P": { "item": "subspaceparasite:ada_viscera_drop" },
+    "C": { "item": "subspaceparasite:module_base" }
+  },
+  "result": {
+    "item": "subspaceparasite:module_dislodgement",
+    "count": 1
+  }
+}

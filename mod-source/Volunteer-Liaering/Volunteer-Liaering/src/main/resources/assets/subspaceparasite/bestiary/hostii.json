@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:hostii",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.hostii.name",
+  "lore_key": "lore.subspaceparasite.hostii",
+  "render_scale": 0.95,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "subspaceparasite:block/infested_pot"
+      }
+    ]
+  }
+}

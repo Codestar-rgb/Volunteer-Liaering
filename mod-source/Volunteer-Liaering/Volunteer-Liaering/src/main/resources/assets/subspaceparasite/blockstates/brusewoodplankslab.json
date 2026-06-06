@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "subspaceparasite:block/brusewoodplank_slab"
+    },
+    "type=top": {
+      "model": "subspaceparasite:block/brusewoodplanks"
+    },
+    "type=double": {
+      "model": "subspaceparasite:block/brusewoodplanks"
+    }
+  }
+}

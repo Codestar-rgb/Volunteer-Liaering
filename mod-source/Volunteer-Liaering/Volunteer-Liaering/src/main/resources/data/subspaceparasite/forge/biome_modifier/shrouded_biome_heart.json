@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "subspaceparasite:biomeparasite_shrouded",
+  "features": "subspaceparasite:biome_heart_placement",
+  "step": "surface_structures"
+}

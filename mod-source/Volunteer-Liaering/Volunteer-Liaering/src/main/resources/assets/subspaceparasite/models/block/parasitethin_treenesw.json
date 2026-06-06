@@ -1,0 +1,6 @@
+{
+  "parent": "subspaceparasite:block/parasitethin_nesw",
+  "textures": {
+    "texture": "subspaceparasite:block/parasitethin_treenesw"
+  }
+}

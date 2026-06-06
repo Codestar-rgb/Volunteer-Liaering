@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom": {
+      "model": "subspaceparasite:block/infested_terracotta_slab"
+    },
+    "half=top": {
+      "model": "subspaceparasite:block/infested_terracotta_slab_top"
+    }
+  }
+}

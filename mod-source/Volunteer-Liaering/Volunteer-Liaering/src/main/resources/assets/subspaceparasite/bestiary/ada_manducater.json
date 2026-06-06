@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:ada_manducater",
+  "tier": "ADAPTED",
+  "name_key": "entity.subspaceparasite.ada_manducater.name",
+  "lore_key": "lore.subspaceparasite.ada_manducater",
+  "render_scale": 1.0,
+  "minlorekill": 1,
+  "minstatkill": 1,
+  "stats": {
+    "source": "entity"
+  }
+}

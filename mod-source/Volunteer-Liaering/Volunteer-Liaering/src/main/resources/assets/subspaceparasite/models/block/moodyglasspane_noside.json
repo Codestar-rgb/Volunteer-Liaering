@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_noside",
+  "textures": {
+    "pane": "subspaceparasite:block/moody_glass",
+    "edge": "subspaceparasite:block/moody_glass_pane"
+  }
+}

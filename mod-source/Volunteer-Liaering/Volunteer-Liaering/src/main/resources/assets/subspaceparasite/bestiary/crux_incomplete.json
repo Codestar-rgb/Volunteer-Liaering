@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:crux_incomplete",
+  "tier": "CRUDE",
+  "name_key": "entity.subspaceparasite.crux_incomplete.name",
+  "lore_key": "lore.subspaceparasite.crux_incomplete",
+  "render_scale": 0.95,
+  "minlorekill": 2,
+  "minstatkill": 2,
+  "stats": {
+    "source": "entity"
+  }
+}

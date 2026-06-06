@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "active=true,depleted=false": {
+      "model": "subspaceparasite:block/alveoli_active"
+    },
+    "active=true,depleted=true": {
+      "model": "subspaceparasite:block/alveoli_active"
+    },
+    "active=false,depleted=false": {
+      "model": "subspaceparasite:block/alveoli_inactive"
+    },
+    "active=false,depleted=true": {
+      "model": "subspaceparasite:block/alveoli_inactive"
+    }
+  }
+}

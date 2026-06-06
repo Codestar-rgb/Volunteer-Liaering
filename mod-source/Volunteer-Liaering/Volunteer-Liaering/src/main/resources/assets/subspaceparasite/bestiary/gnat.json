@@ -1,0 +1,12 @@
+{
+  "id": "subspaceparasite:gnat",
+  "tier": "INBORN",
+  "name_key": "entity.subspaceparasite.gnat.name",
+  "lore_key": "lore.subspaceparasite.gnat",
+  "render_scale": 0.5,
+  "minlorekill": 10,
+  "minstatkill": 5,
+  "stats": {
+    "source": "entity"
+  }
+}
