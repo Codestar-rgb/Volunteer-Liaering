@@ -55,3 +55,6 @@ __pycache__/
 hs_err_pid*
 replay_pid*
 db/Volunteer-Liaering.zip
+db/
+*.jar
+*.zip
