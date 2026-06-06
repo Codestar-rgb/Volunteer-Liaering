@@ -152,19 +152,18 @@ public class EntityVenkrolSIV extends EntityDeterrentBase {
      * Scan for nearby infected entities to coordinate with
      */
     private void scanForInfectedEntities() {
-        if (this.level() instanceof Level level) {
-            List<EntityParasiteBase> nearbyParasites = level.getEntitiesOfClass(
+        Level level = this.level();
+        List<EntityParasiteBase> nearbyParasites = level.getEntitiesOfClass(
                 EntityParasiteBase.class,
                 this.getBoundingBox().inflate(ENHANCED_DETECTION_RANGE),
                 entity -> entity != this && entity.isAlliedTo(this)
             );
             
-            // Coordinate with nearby parasites - share target information
-            if (!nearbyParasites.isEmpty() && this.getTarget() != null) {
-                for (EntityParasiteBase parasite : nearbyParasites) {
-                    if (parasite.getTarget() == null && parasite.hasLineOfSight(this.getTarget())) {
-                        parasite.setTarget(this.getTarget());
-                    }
+        // Coordinate with nearby parasites - share target information
+        if (!nearbyParasites.isEmpty() && this.getTarget() != null) {
+            for (EntityParasiteBase parasite : nearbyParasites) {
+                if (parasite.getTarget() == null && parasite.hasLineOfSight(this.getTarget())) {
+                    parasite.setTarget(this.getTarget());
                 }
             }
         }
