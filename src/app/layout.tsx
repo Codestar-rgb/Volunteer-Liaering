@@ -14,24 +14,22 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "SubspaceParasite — Download",
+  description: "Download SubspaceParasite mod for Minecraft 1.20.1 Forge. Ported from Scape and Run: Parasites.",
+  keywords: ["SubspaceParasite", "Minecraft", "Forge", "1.20.1", "SRP", "Parasites", "Mod"],
+  authors: [{ name: "SubspaceParasite Team" }],
   icons: {
     icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "SubspaceParasite — Download",
+    description: "Download SubspaceParasite mod for Minecraft 1.20.1 Forge",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    card: "summary",
+    title: "SubspaceParasite — Download",
+    description: "Download SubspaceParasite mod for Minecraft 1.20.1 Forge",
   },
 };
 
